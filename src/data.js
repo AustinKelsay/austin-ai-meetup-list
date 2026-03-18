@@ -239,52 +239,15 @@ export const sessions = [
             },
           },
           {
-            title: "ClawJacked takeover wave",
-            description:
-              "ClawJacked as the headline exploit: 40,000 compromised systems and silent full-agent takeover.",
-            chip: "x",
-            href: "https://x.com/zaimiri/status/2029019676601401827",
-          },
-          {
             title: "Security nightmare thread",
             description:
               "The compact threat-model thread: exposed instances, auth bypasses, bad add-ons, and the agent as the social engineer.",
             chip: "x",
             href: "https://x.com/HedgieMarkets/status/2029337090844946791",
-          },
-          {
-            title: "OpenClaw's five attack layers",
-            description:
-              "FounderCoHo's March 18 thread breaks the problem down into layered risks across shell access, files, APIs, and the rest of the agent surface.",
-            chip: "x",
-            href: "https://x.com/FounderCoHo/status/2034337257096950061",
-          },
-          {
-            title: "Lessons from OpenClaw",
-            description:
-              "ReversingLabs used the OpenClaw mess to argue that agent systems create new attack surfaces and force a rethink of basic AppSec assumptions.",
-            chip: "news",
-            linkPair: [
-              "https://x.com/ReversingLabs/status/2034336531750568163",
-              "https://www.reversinglabs.com/blog",
-            ],
-          },
-          {
-            title: "Context overflow, not prompt injection",
-            description:
-              "rob_braxman pushed the framing that the real failure mode is context overflow and execution behavior, not just classic prompt injection.",
-            chip: "x",
-            href: "https://x.com/rob_braxman",
-          },
-          {
-            title: "OpenClaw token phishing wave",
-            description:
-              "The March 18 scam cluster was simpler: fake OpenClaw token emails, wallet-drain links, and a reminder that hype cycles become phishing surfaces immediately.",
-            chip: "x",
-            linkPair: [
-              "https://x.com/efficienistx",
-              "https://x.com/akn714",
-            ],
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/HedgieMarkets/status/2029337090844946791?ref_src=twsrc%5Etfw",
+            },
           },
         ],
       },
