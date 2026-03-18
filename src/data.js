@@ -1,0 +1,427 @@
+// This file is the frontend's explicit content contract.
+// Keep it boring: sessions -> tracks -> items.
+//
+// Supported item shapes:
+// - href: plain linked topic
+// - embed: X/Twitter embed
+// - video: standalone video embed
+// - mediaPair: combined story, usually "video + reaction post"
+// - linkPair: side-by-side links, useful for repo + dashboard style items
+// - notes: optional presenter note (string) shown as a callout
+//
+// Standard track taxonomy for recurring club sessions:
+// 1. Local Builds & Projects
+// 2. Agent Infrastructure
+// 3. Models & Research
+// 4. Security
+// 5. Big Tech Moves
+export const sessions = [
+  {
+    id: "session-2026-03-18",
+    slug: "2026-03-18",
+    date: "March 18, 2026",
+    open: true,
+    markdownHref: "./topics/2026-03-18.md",
+    tracks: [
+      {
+        id: "mar-agent-infrastructure",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Agent Overload",
+            description:
+              "OpenClaw, NemoClaw, PicoClaw, NullClaw, NanoClaw, MicroClaw, Hermes Agent, Qwen Agent, and Pi in one place.",
+            chip: "watch",
+            linkPair: [
+              "https://github.com/openclaw/openclaw",
+              "https://github.com/NVIDIA/NemoClaw",
+              "https://github.com/sipeed/picoclaw",
+              "https://github.com/nullclaw/nullclaw",
+              "https://github.com/qwibitai/nanoclaw",
+              "https://github.com/microclaw/microclaw",
+              "https://github.com/NousResearch/hermes-agent",
+              "https://github.com/QwenLM/Qwen-Agent",
+              "https://github.com/badlogic/pi-mono",
+            ],
+          },
+          {
+            title: "CLI vs MCP",
+            description:
+              "Best recent data point: Scalekit ran 75 benchmark runs and found CLI agents were 10-32x cheaper with 100% reliability vs MCP's 72%, while still arguing MCP matters once agents act across customer boundaries.",
+            chip: "data",
+            href: "https://www.scalekit.com/blog/mcp-vs-cli-use",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ravibits/status/2031807480448389375?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.scalekit.com/blog/mcp-vs-cli-use",
+            ],
+          },
+          {
+            title: "OpenAI WebSockets",
+            description:
+              "OpenAI's official server-side WebSocket path for realtime inference and event-driven model sessions.",
+            chip: "docs",
+            href: "https://developers.openai.com/api/docs/guides/realtime-websocket",
+            linkPair: [
+              "https://developers.openai.com/api/docs/guides/realtime-websocket",
+              "https://developers.openai.com/api/docs/guides/realtime-conversations",
+              "https://developers.openai.com/api/docs/guides/realtime-models-prompting",
+              "https://developers.openai.com/api/docs/guides/realtime-server-controls",
+              "https://developers.openai.com/api/docs/guides/realtime-transcription",
+              "https://openai.github.io/openai-agents-js/guides/voice-agents/quickstart/",
+            ],
+          },
+          {
+            title: "Frontier lab agent frameworks",
+            description:
+              "The big-company version of agent infrastructure: OpenAI pushing Codex through ACP, and Anthropic packaging its own first-party Agent SDK.",
+            chip: "docs",
+            href: "https://agentclientprotocol.com/overview/introduction",
+            linkPair: [
+              "https://agentclientprotocol.com/overview/introduction",
+              "https://platform.claude.com/docs/en/agent-sdk/quickstart",
+            ],
+          },
+          {
+            title: "Claude distillation claims",
+            description:
+              "Anthropic says DeepSeek, Moonshot, and MiniMax were doing industrial-scale Claude distillation through fake accounts and massive prompt traffic.",
+            chip: "news",
+            href: "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-accuses-deepseek-other-chinese-ai-developers-of-industrial-scale-copying-claims-distillation-included-24-000-fraudulent-accounts-and-16-million-exchanges-to-train-smaller-models",
+            linkPair: [
+              "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-accuses-deepseek-other-chinese-ai-developers-of-industrial-scale-copying-claims-distillation-included-24-000-fraudulent-accounts-and-16-million-exchanges-to-train-smaller-models",
+              "https://www.pcgamer.com/software/ai/anthropic-says-it-has-identified-thousands-of-fraudulent-accounts-taking-claude-and-extracting-its-capabilities-to-train-and-improve-their-own-models/",
+              "https://www.business-standard.com/technology/tech-news/anthropic-accuses-deepseek-minimax-of-stealing-data-from-ai-model-claude-126022400092_1.html",
+            ],
+          },
+          {
+            title: "OpenClaw pairing bench",
+            description:
+              "Interesting eval and coordination benchmark for agent-style model pairing.",
+            chip: "x",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/moritzkremb/status/2030221468244775131?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "mar-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, research updates, benchmark shifts, and capability changes that affect what we should test, trust, or pay attention to next.",
+        items: [
+          {
+            title: "Qwen 3.5 series",
+            description:
+              "Fresh Qwen weights to test and compare across the 3.5 line.",
+            chip: "watch",
+            linkPair: [
+              "https://huggingface.co/collections/Qwen/qwen35",
+              "https://artificialanalysis.ai/leaderboards/models?is_open_weights=open_source",
+            ],
+          },
+          {
+            title: "Nemotron v3 series",
+            description:
+              "NVIDIA's newer Nemotron open-weight line is worth tracking as its model family and evaluations keep expanding.",
+            chip: "watch",
+            linkPair: [
+              "https://huggingface.co/collections/nvidia/nvidia-nemotron-v3",
+            ],
+          },
+          {
+            title: "Nemotron 3 VoiceChat frontier",
+            description:
+              "Artificial Analysis says NVIDIA's new speech-to-speech model is the open-weights pareto leader across conversational dynamics and speech reasoning.",
+            chip: "bench",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2033642073052868861?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Mistral Small",
+            description:
+              "Fresh Mistral Small model drop worth sanity-checking against the other new releases.",
+            chip: "x",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/MistralDevs/status/2033654167395357082?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "GPT-5.4 mini",
+            description:
+              "OpenAI's new smaller proprietary model is positioned for coding, computer use, multimodal understanding, and subagents, with OpenAI claiming it is 2x faster than GPT-5 mini.",
+            chip: "x",
+            href: "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2033953592424731072?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Xiaomi MiMo-V2-Pro",
+            description:
+              "Artificial Analysis says Xiaomi's new reasoning model lands between Kimi K2.5 and GLM-5 on its intelligence index, with strong agent-task performance and good token efficiency.",
+            chip: "bench",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2034239267052896516?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "MiniMax M2.7",
+            description:
+              "MiniMax is pitching M2.7 as a self-evolving agentic model with strong software engineering, tool use, and multi-agent performance.",
+            chip: "x",
+            href: "https://www.minimax.io/news/minimax-m27-en",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.minimax.io/news/minimax-m27-en",
+            ],
+          },
+          {
+            title: "LMfit",
+            description:
+              "Local AI utility that checks your hardware and helps estimate which models will actually run well before you download anything.",
+            chip: "x",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/dr_cintas/status/2029272137488580761?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Frontier check",
+            description: "Where the top models actually stand right now.",
+            chip: "data",
+            href: "https://artificialanalysis.ai",
+          },
+        ],
+      },
+      {
+        id: "mar-security",
+        title: "Security",
+        purpose:
+          "This section is where we look at attacks, exploits, abuse patterns, and defensive ideas so we stay sharp about how these systems can be manipulated in the real world.",
+        items: [
+          {
+            title: "KeepAI",
+            description:
+              "Artur from Nostrband just dropped this. Nostr-native AI tooling.",
+            chip: "x",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArturBrugeman/status/2032450145527148575?ref_src=twsrc%5Etfw",
+              quote:
+                "Anybody want this for their OpenClaw?",
+              author: "Artur Brugeman",
+              date: "March 13, 2026",
+            },
+          },
+          {
+            title: "SEO Injection",
+            description:
+              "A more casual example of personal agents helping with security work by catching hidden SEO poisoning and other weird website junk.",
+            chip: "x",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/isabellasg3/status/2029710987008315620?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "ClawJacked takeover wave",
+            description:
+              "ClawJacked as the headline exploit: 40,000 compromised systems and silent full-agent takeover.",
+            chip: "x",
+            href: "https://x.com/zaimiri/status/2029019676601401827",
+          },
+          {
+            title: "Security nightmare thread",
+            description:
+              "The compact threat-model thread: exposed instances, auth bypasses, bad add-ons, and the agent as the social engineer.",
+            chip: "x",
+            href: "https://x.com/HedgieMarkets/status/2029337090844946791",
+          },
+          {
+            title: "OpenClaw's five attack layers",
+            description:
+              "FounderCoHo's March 18 thread breaks the problem down into layered risks across shell access, files, APIs, and the rest of the agent surface.",
+            chip: "x",
+            href: "https://x.com/FounderCoHo/status/2034337257096950061",
+          },
+          {
+            title: "Lessons from OpenClaw",
+            description:
+              "ReversingLabs used the OpenClaw mess to argue that agent systems create new attack surfaces and force a rethink of basic AppSec assumptions.",
+            chip: "news",
+            linkPair: [
+              "https://x.com/ReversingLabs/status/2034336531750568163",
+              "https://www.reversinglabs.com/blog",
+            ],
+          },
+          {
+            title: "Context overflow, not prompt injection",
+            description:
+              "rob_braxman pushed the framing that the real failure mode is context overflow and execution behavior, not just classic prompt injection.",
+            chip: "x",
+            href: "https://x.com/rob_braxman",
+          },
+          {
+            title: "OpenClaw token phishing wave",
+            description:
+              "The March 18 scam cluster was simpler: fake OpenClaw token emails, wallet-drain links, and a reminder that hype cycles become phishing surfaces immediately.",
+            chip: "x",
+            linkPair: [
+              "https://x.com/efficienistx",
+              "https://x.com/akn714",
+            ],
+          },
+        ],
+      },
+      {
+        id: "mar-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware releases, ecosystem bets, and market shifts that change the ground our local AI work sits on.",
+        items: [
+          {
+            title: 'Meta\'s "Moltbook"',
+            description:
+              "Facebook building agents to automate social networks.",
+            chip: "news",
+            href: "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+            linkPair: [
+              "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+              "https://apnews.com/article/31af42ccbb04001dd17a3fc7067d1de3",
+            ],
+          },
+          {
+            title: "Claude Kill?",
+            description:
+              "Anthropic got pushed out of the Department of War deal, OpenAI signed its own agreement, and now the defense-AI relationship is turning into a very public fight over military use and vendor power.",
+            chip: "news",
+            href: "https://apnews.com/article/d4608c7dd139245ac8ad94d5427c505a",
+            linkPair: [
+              "https://apnews.com/article/d4608c7dd139245ac8ad94d5427c505a",
+              "https://openai.com/index/our-agreement-with-the-department-of-war/",
+              "https://www.axios.com/2026/03/16/tech-industry-rallies-anthropic-pentagon-fight",
+            ],
+          },
+          {
+            title: "Niantic turns Pokemon Go city data into robot navigation",
+            description:
+              "A decade of player scans and 30B+ images are now feeding Niantic Spatial's city-scale positioning stack for Coco delivery bots.",
+            chip: "news",
+            href: "https://www.techrepublic.com/article/news-coco-robots-niantic-mapping/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/nianticspatial/status/2031383333221880051?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.nianticspatial.com/blog/coco-robotics",
+              "https://gizmodo.com/niantic-partnership-food-delivery-bots-use-pokemon-go-data-2000732212",
+            ],
+          },
+          {
+            title: "MacBook Pro M5 Max as a local inference laptop",
+            description:
+              "M5 Max 128GB running Qwen3.5-35B at 74 tok/s and Nemotron-3 Super at 24 tok/s via MLX. 40-core GPU with tensor cores, 614GB/s bandwidth. A $3.5K laptop that runs 70B models comfortably.",
+            chip: "x",
+            href: "https://x.com/nix_eth/status/2032879242737045612",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/nix_eth/status/2032879242737045612?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Confer + Meta private AI",
+            description:
+              "Moxie Marlinspike says Confer is bringing private AI and end-to-end encryption into Meta AI products, a notable open-weights-meets-privacy platform move.",
+            chip: "x",
+            href: "https://confer.to/blog/2026/03/encrypted-meta/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/moxie/status/2034096735619059966?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "NemoClaw launch + OpenClaw reaction",
+            description:
+              "Chris Messina posted the actual Jensen-led NemoClaw launch video, and kanavtwt posted a funny reaction clip pushing the OpenClaw hype cycle.",
+            chip: "pair",
+            mediaPair: {
+              video: {
+                href: "https://youtu.be/kRmZ5zmMS2o?si=RgD8HNueWbZtK_Td",
+                embedHref:
+                  "https://www.youtube.com/embed/kRmZ5zmMS2o?si=RgD8HNueWbZtK_Td",
+                title:
+                  "NVIDIA's Jenson Hwang launches NemoClaw to the OpenClaw community",
+                caption:
+                  "Video: Chris Messina on NVIDIA's NemoClaw launch into the OpenClaw community",
+              },
+              reaction: {
+                type: "tweet",
+                href: "https://twitter.com/kanavtwt/status/2033835300653568159?ref_src=twsrc%5Etfw",
+              },
+            },
+          },
+        ],
+      },
+      {
+        id: "mar-local-builds-projects",
+        title: "Local Builds & Projects",
+        purpose:
+          "This section is for projects from friends in the Austin scene, friends-of-friends, and things in our immediate orbit. It is where we track what people around the ATX AI community are actually shipping, experimenting with, or quietly building that reflects our shared principles.",
+        outro: {
+          title: "What else are we building?",
+          body:
+            "Share anything you're working on.",
+        },
+        items: [
+          {
+            title: "pika chat",
+            description:
+              "Stealth AI chat product using marmot and MLS protocols for secure end-to-end encrypted chat, with early code already visible in the repo.",
+            chip: "github",
+            href: "https://github.com/sledtools/pika/tree/master",
+          },
+          {
+            title: "plebdev-bench",
+            description:
+              "Local benchmark project for tracking model performance, with both an open repo and a live leaderboard dashboard.",
+            chip: "github",
+            href: "https://github.com/AustinKelsay/plebdev-bench",
+            linkPair: [
+              "https://github.com/AustinKelsay/plebdev-bench",
+              "https://plebdev-bench-dashboard.vercel.app/#/leaderboard",
+            ],
+          },
+          {
+            title: "sage",
+            description:
+              "Interesting agent assistant framework built by Anthony of Maple with a novel memory and tool-calling architecture.",
+            chip: "github",
+            href: "https://github.com/AnthonyRonning/sage",
+          },
+          {
+            title: "plebdev's adversarial AI course",
+            description:
+              "Free adversarial AI course covering practical attacks, red-team thinking, and the security mindset around modern models.",
+            chip: "x",
+            href: "https://x.com/pleb_devs/status/2028582994596778014",
+          },
+        ],
+      },
+    ],
+  },
+];

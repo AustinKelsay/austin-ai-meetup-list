@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="#061018"/>
+  <rect x="1.5" y="1.5" width="29" height="29" rx="5" fill="none" stroke="#47f3aa" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="16" y="23" text-anchor="middle" font-family="monospace" font-size="20" font-weight="700" fill="#47f3aa" opacity="0.35" filter="url(#g)">$</text>
+  <text x="16" y="23" text-anchor="middle" font-family="monospace" font-size="20" font-weight="700" fill="#47f3aa">$</text>
+</svg>
