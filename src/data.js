@@ -87,6 +87,25 @@ export const sessions = [
             ],
           },
           {
+            title: "Claude Code + Codex updates roundup",
+            description:
+              "The current frontier-lab coding-agent picture: Codex app and model updates on OpenAI's side, Claude Code overview and subagents on Anthropic's side.",
+            chip: "docs",
+            href: "https://openai.com/index/introducing-the-codex-app/",
+            linkPair: [
+              "https://openai.com/index/introducing-the-codex-app/",
+              "https://openai.com/index/introducing-gpt-5-3-codex/",
+              "https://docs.anthropic.com/en/docs/claude-code/overview",
+              "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
+            ],
+          },
+          {
+            title: "Pimping your OpenClaw",
+            description:
+              "Topher on customizing and leveling up your OpenClaw setup.",
+            chip: "talk",
+          },
+          {
             title: "Claude distillation claims",
             description:
               "Anthropic says DeepSeek, Moonshot, and MiniMax were doing industrial-scale Claude distillation through fake accounts and massive prompt traffic.",
