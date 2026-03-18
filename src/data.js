@@ -27,7 +27,7 @@ export const sessions = [
     markdownHref: "./topics/2026-03-18.md",
     presentationIntro: {
       eyebrow: "Austin AI Club",
-      title: "Austin AI Club is back",
+      title: "Austin AI Club",
       blurb: "Wednesday, 5 p.m. at Bitcoin Park Austin.",
       bullets: [
         "Small, high-signal, invite only.",
