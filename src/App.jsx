@@ -21,10 +21,16 @@ function slugify(value) {
 }
 
 function getTrackRouteSlug(track) {
+  if (!track) {
+    return "welcome";
+  }
   return slugify(track.title);
 }
 
 function getSlideRouteSlug(slide) {
+  if (slide.type === "session-intro") {
+    return "intro";
+  }
   if (slide.type === "track-title") {
     return "intro";
   }
@@ -239,6 +245,12 @@ function LinkPair({ links }) {
 // Flatten tracks into a linear sequence so presentation mode can move one story at a time.
 function buildSlides(session) {
   const slides = [];
+  if (session.presentationIntro) {
+    slides.push({
+      type: "session-intro",
+      intro: session.presentationIntro,
+    });
+  }
   session.tracks.forEach((track, trackIndex) => {
     slides.push({
       type: "track-title",
@@ -311,7 +323,34 @@ function setHash(hash) {
 }
 
 function PresentationSlide({ slide, isFinale }) {
-  const trackSlug = TRACK_CATEGORY[slide.track.title];
+  const trackSlug = slide.type === "session-intro"
+    ? "local-builds"
+    : TRACK_CATEGORY[slide.track.title];
+
+  if (slide.type === "session-intro") {
+    return (
+      <div className="pres-slide pres-slide--session-intro" data-track={trackSlug}>
+        <span className="pres-intro-eyebrow">{slide.intro.eyebrow}</span>
+        <h2 className="pres-intro-title">{slide.intro.title}</h2>
+        <p className="pres-intro-blurb">{slide.intro.blurb}</p>
+        <a
+          className="pres-intro-link"
+          href={slide.intro.ctaHref}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {slide.intro.ctaLabel}
+        </a>
+        <ul className="pres-intro-list">
+          {slide.intro.bullets.map((point) => (
+            <li key={point}>{point}</li>
+          ))}
+        </ul>
+        <p className="pres-intro-note">{slide.intro.hostNote}</p>
+      </div>
+    );
+  }
+
   if (slide.type === "track-title") {
     return (
       <div className="pres-slide pres-slide--track" data-track={trackSlug}>
@@ -492,16 +531,22 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
 
   const breadcrumb = slide.type === "topic"
     ? `${session.date} › ${slide.track.title} › Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
+    : slide.type === "session-intro"
+      ? `${session.date} › Welcome`
     : `${session.date} › ${slide.track.title}`;
 
   const slideLabel =
-    slide.type === "topic"
+    slide.type === "session-intro"
+      ? "Welcome"
+      : slide.type === "topic"
       ? `Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
       : slide.type === "track-outro"
         ? "Discussion prompt"
         : `Track ${slide.trackIndex + 1} of ${slide.trackTotal}`;
 
-  const trackSlug = TRACK_CATEGORY[slide.track.title];
+  const trackSlug = slide.type === "session-intro"
+    ? "local-builds"
+    : TRACK_CATEGORY[slide.track.title];
 
   return (
     <div className="pres-overlay" data-track={trackSlug}>
@@ -546,7 +591,7 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
         totalSlides={slides.length}
         breadcrumb={breadcrumb}
         slideLabel={slideLabel}
-        trackSlug={TRACK_CATEGORY[slide.track.title]}
+        trackSlug={trackSlug}
       />
       <div className="pres-mobile-controls" data-track={trackSlug}>
         <button

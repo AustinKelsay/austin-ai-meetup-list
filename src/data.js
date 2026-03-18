@@ -1,6 +1,9 @@
 // This file is the frontend's explicit content contract.
 // Keep it boring: sessions -> tracks -> items.
 //
+// Optional session-level slideshow shape:
+// - presentationIntro: welcome slide shown before all track slides
+//
 // Supported item shapes:
 // - href: plain linked topic
 // - embed: X/Twitter embed
@@ -22,6 +25,20 @@ export const sessions = [
     date: "March 18, 2026",
     open: true,
     markdownHref: "./topics/2026-03-18.md",
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club is back",
+      blurb: "Wednesday, 5 p.m. at Bitcoin Park Austin.",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, or research.",
+      ],
+      hostNote:
+        "Casual format. No meetup page. No commitment required.",
+      ctaLabel: "austinai.club",
+      ctaHref: "https://austinai.club",
+    },
     tracks: [
       {
         id: "mar-agent-infrastructure",
