@@ -533,6 +533,7 @@ a {
 .embed-wrap {
   margin-top: 0.5rem;
   max-width: 550px;
+  width: 100%;
 }
 
 .embed-wrap .twitter-tweet,
@@ -543,6 +544,19 @@ a {
 .embed-wrap iframe {
   border-radius: 12px !important;
   background: #15202b;
+}
+
+.embed-caption {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.embed-caption a {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .video-embed {
@@ -733,6 +747,8 @@ a {
     radial-gradient(ellipse at 80% 100%, var(--t-bg-radial, rgba(71, 243, 170, 0.06)), transparent 40%),
     linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
   transition: background 500ms ease;
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
 .pres-overlay::before {
@@ -754,12 +770,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 48px;
+  min-height: 48px;
   padding: 0 1.25rem;
   border-bottom: 1px solid var(--t-line, var(--line));
   background: var(--panel-strong);
   flex-shrink: 0;
   z-index: 102;
+  gap: 1rem;
 }
 
 .pres-breadcrumb {
@@ -767,6 +784,11 @@ a {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .pres-exit-btn {
@@ -808,6 +830,8 @@ a {
   min-height: 0;
   overflow-y: auto;
   animation: boot-in 400ms ease both;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 .pres-stage::before,
@@ -903,6 +927,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.35rem;
 }
 
 .pres-topic-title {
@@ -912,6 +937,7 @@ a {
   line-height: 1.45;
   text-align: center;
   padding-bottom: 0.1em;
+  text-wrap: balance;
 }
 
 .pres-topic-title a {
@@ -933,6 +959,7 @@ a {
   line-height: 1.6;
   text-align: center;
   max-width: 680px;
+  text-wrap: pretty;
 }
 
 .pres-slide--topic .source-chip {
@@ -962,7 +989,7 @@ a {
   display: flex;
   align-items: center;
   gap: 1rem;
-  height: 40px;
+  min-height: 40px;
   padding: 0 1.25rem;
   border-top: 1px solid var(--t-line, var(--line));
   background: var(--panel-strong);
@@ -970,11 +997,27 @@ a {
   z-index: 102;
 }
 
+.pres-bottom-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 0.15rem;
+}
+
 .pres-bottom-label {
   color: var(--text-sub);
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.pres-bottom-breadcrumb {
+  display: none;
+  color: var(--muted);
+  font-size: 0.64rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -999,6 +1042,10 @@ a {
   color: var(--muted);
   font-size: 0.72rem;
   white-space: nowrap;
+}
+
+.pres-mobile-controls {
+  display: none;
 }
 
 /* Enter button (in session header) */
@@ -1151,16 +1198,289 @@ a {
 
 @media (max-width: 720px) {
   .pres-stage {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.9rem 1rem;
   }
 
   .pres-nav {
-    width: 2.5rem;
+    width: 2.25rem;
     font-size: 1.8rem;
   }
 
   .link-pair {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .pres-topbar {
+    align-items: flex-start;
+    padding: 0.7rem 0.85rem;
+  }
+
+  .pres-breadcrumb {
+    font-size: 0.64rem;
+    line-height: 1.4;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .pres-exit-btn {
+    flex-shrink: 0;
+    padding: 0.28rem 0.55rem;
+    font-size: 0.64rem;
+  }
+
+  .pres-content {
+    padding: 0;
+  }
+
+  .pres-stage {
+    padding: 1rem 0.85rem 0.85rem;
+  }
+
+  .pres-stage::before,
+  .pres-stage::after {
+    flex: 0 0 0.5rem;
+  }
+
+  .pres-nav {
+    display: none;
+  }
+
+  .pres-slide {
+    max-width: 100%;
+  }
+
+  .pres-track-num {
+    margin-bottom: 0.55rem;
+    font-size: 0.72rem;
+  }
+
+  .pres-track-title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.9rem, 10vw, 2.6rem);
+    line-height: 1.15;
+  }
+
+  .pres-track-purpose {
+    margin-bottom: 0.85rem;
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+
+  .pres-topic-badge,
+  .pres-slide--topic .source-chip {
+    font-size: 0.68rem;
+  }
+
+  .pres-topic-title {
+    margin-bottom: 0.35rem;
+    font-size: clamp(1.2rem, 6.4vw, 1.55rem);
+    line-height: 1.28;
+  }
+
+  .pres-topic-desc {
+    margin-bottom: 0.5rem;
+    font-size: 0.94rem;
+    line-height: 1.5;
+  }
+
+  .pres-notes {
+    margin-top: 0.7rem;
+    padding: 0.65rem 0.8rem;
+    font-size: 0.84rem;
+    line-height: 1.55;
+  }
+
+  .pres-slide--topic .embed-wrap,
+  .pres-slide--topic .video-embed,
+  .pres-slide--topic .media-pair,
+  .link-pair,
+  .link-card {
+    max-width: 100%;
+  }
+
+  .link-card {
+    gap: 0.9rem;
+    margin-top: 0.35rem;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .link-card-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .link-card-title {
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  .link-card-hint {
+    opacity: 1;
+  }
+
+  .pres-bottom {
+    padding: 0.55rem 0.85rem 0.65rem;
+    gap: 0.7rem;
+    align-items: flex-end;
+  }
+
+  .pres-bottom-meta {
+    flex: 1;
+  }
+
+  .pres-bottom-label {
+    font-size: 0.64rem;
+    white-space: normal;
+  }
+
+  .pres-bottom-breadcrumb {
+    display: block;
+  }
+
+  .pres-progress-track {
+    min-width: 4rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .pres-bottom-counter {
+    font-size: 0.68rem;
+  }
+
+  .pres-mobile-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 0.85rem calc(0.8rem + env(safe-area-inset-bottom, 0));
+    border-top: 1px solid var(--t-line, var(--line));
+    background:
+      linear-gradient(180deg, rgba(5, 14, 22, 0.96), rgba(6, 14, 22, 0.98));
+    z-index: 102;
+  }
+
+  .pres-mobile-btn {
+    min-height: 2.8rem;
+    padding: 0.75rem 0.95rem;
+    border: 1px solid var(--t-line, var(--line));
+    border-radius: 999px;
+    background: var(--t-soft, rgba(71, 243, 170, 0.05));
+    color: var(--t-accent, var(--accent));
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .pres-mobile-btn:disabled {
+    opacity: 0.28;
+  }
+
+  .pres-mobile-hint {
+    color: var(--muted);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) and (max-height: 820px) {
+  .pres-topbar {
+    min-height: 42px;
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .pres-stage {
+    padding-top: 0.8rem;
+  }
+
+  .pres-stage::before,
+  .pres-stage::after {
+    flex: 0 0 0.25rem;
+  }
+
+  .pres-topic-title {
+    font-size: clamp(1.1rem, 5.8vw, 1.45rem);
+  }
+
+  .pres-topic-desc {
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .pres-slide--topic .source-chip {
+    margin-bottom: 0.65rem;
+  }
+
+  .pres-slide--topic .embed-wrap {
+    max-height: 42vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.15rem;
+  }
+
+  .pres-slide--topic .video-embed {
+    width: min(100%, calc(42vh * 16 / 9));
+  }
+
+  .pres-slide--topic .video-frame {
+    max-height: 42vh;
+  }
+
+  .pres-slide--topic .media-pair {
+    gap: 0.55rem;
+  }
+
+  .video-caption,
+  .embed-caption {
+    margin-top: 0.28rem;
+    font-size: 0.66rem;
+  }
+
+  .pres-notes {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 640px) and (max-height: 700px) {
+  .pres-bottom {
+    padding-top: 0.45rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .pres-mobile-controls {
+    gap: 0.45rem;
+    padding-top: 0.55rem;
+    padding-bottom: calc(0.65rem + env(safe-area-inset-bottom, 0));
+  }
+
+  .pres-mobile-btn {
+    min-height: 2.5rem;
+    padding: 0.65rem 0.8rem;
+    font-size: 0.74rem;
+  }
+
+  .pres-mobile-hint {
+    font-size: 0.58rem;
+  }
+
+  .pres-slide--topic .embed-wrap {
+    max-height: 37vh;
+  }
+
+  .pres-slide--topic .video-embed {
+    width: min(100%, calc(37vh * 16 / 9));
+  }
+
+  .pres-slide--topic .video-frame {
+    max-height: 37vh;
   }
 }
 

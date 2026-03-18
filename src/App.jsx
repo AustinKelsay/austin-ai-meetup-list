@@ -74,6 +74,13 @@ function TopicEmbed({ embed }) {
             {embed.date ?? embed.href.replace("?ref_src=twsrc%5Etfw", "")}
           </a>
         </blockquote>
+        <span className="embed-caption">
+          Embedded post
+          {" "}
+          <a href={embed.href} target="_blank" rel="noreferrer">
+            open direct
+          </a>
+        </span>
       </div>
     );
   }
@@ -373,7 +380,10 @@ function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabe
   const pct = ((currentIndex + 1) / totalSlides) * 100;
   return (
     <div className="pres-bottom" data-track={trackSlug}>
-      <span className="pres-bottom-label">{slideLabel}</span>
+      <div className="pres-bottom-meta">
+        <span className="pres-bottom-label">{slideLabel}</span>
+        <span className="pres-bottom-breadcrumb">{breadcrumb}</span>
+      </div>
       <div className="pres-progress-track">
         <div className="pres-progress-fill" style={{ width: `${pct}%` }} />
       </div>
@@ -388,6 +398,7 @@ function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabe
 function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
   const slides = useMemo(() => buildSlides(session), [session]);
   const visitedRef = useRef(new Set());
+  const touchStartRef = useRef(null);
   const slide = slides[currentIndex];
   if (!slide) {
     return null;
@@ -414,6 +425,35 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
   const goPrev = () => {
     if (!isFirst) {
       onNavigate(currentIndex - 1);
+    }
+  };
+
+  const handleTouchStart = (event) => {
+    const touch = event.touches[0];
+    touchStartRef.current = { x: touch.clientX, y: touch.clientY };
+  };
+
+  const handleTouchEnd = (event) => {
+    const start = touchStartRef.current;
+    const touch = event.changedTouches[0];
+    touchStartRef.current = null;
+
+    if (!start || !touch) {
+      return;
+    }
+
+    const deltaX = touch.clientX - start.x;
+    const deltaY = touch.clientY - start.y;
+
+    // Keep vertical scrolling intact; only treat deliberate horizontal swipes as navigation.
+    if (Math.abs(deltaX) < 56 || Math.abs(deltaX) < Math.abs(deltaY) * 1.2) {
+      return;
+    }
+
+    if (deltaX < 0) {
+      goNext();
+    } else {
+      goPrev();
     }
   };
 
@@ -482,7 +522,12 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
           ‹
         </button>
 
-        <div className="pres-stage" key={currentIndex}>
+        <div
+          className="pres-stage"
+          key={currentIndex}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <PresentationSlide slide={slide} isFinale={isFinale} />
         </div>
 
@@ -503,6 +548,25 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
         slideLabel={slideLabel}
         trackSlug={TRACK_CATEGORY[slide.track.title]}
       />
+      <div className="pres-mobile-controls" data-track={trackSlug}>
+        <button
+          className="pres-mobile-btn"
+          onClick={goPrev}
+          disabled={isFirst}
+          aria-label="Previous slide"
+        >
+          Prev
+        </button>
+        <span className="pres-mobile-hint">swipe or tap to navigate</span>
+        <button
+          className="pres-mobile-btn"
+          onClick={goNext}
+          disabled={isLast}
+          aria-label="Next slide"
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 }
