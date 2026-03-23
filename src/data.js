@@ -3,6 +3,7 @@
 //
 // Optional session-level slideshow shape:
 // - presentationIntro: welcome slide shown before all track slides
+// - event: meetup metadata for reminders + add-to-calendar links
 //
 // Supported item shapes:
 // - href: plain linked topic
@@ -23,8 +24,17 @@ export const sessions = [
     id: "session-2026-03-18",
     slug: "2026-03-18",
     date: "March 18, 2026",
-    open: true,
     markdownHref: "./topics/2026-03-18.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-03-18T17:00:00-05:00",
+      endAt: "2026-03-18T19:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
     presentationIntro: {
       eyebrow: "Austin AI Club",
       title: "Austin AI Club",

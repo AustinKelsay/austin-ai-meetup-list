@@ -8,6 +8,11 @@ const TRACK_CATEGORY = {
   Security: "security",
   "Big Tech Moves": "platform",
 };
+const REMINDER_SIGNUP_URL = (import.meta.env.VITE_REMINDER_SIGNUP_URL ?? "").trim();
+const REMINDER_IFRAME_NAME = "reminder-signup-sink";
+const BIWEEKLY_INTERVAL_DAYS = 14;
+const DEFAULT_CALENDAR_EVENT_COUNT = 4;
+const CALENDAR_PATH = "/calendar";
 
 function slugify(value) {
   return value
@@ -58,6 +63,179 @@ function parseSlideHash(hash) {
     trackSlug: decodeURIComponent(trackSlug),
     slideSlug: decodeURIComponent(slideSlug),
   };
+}
+
+function isCalendarPath(pathname) {
+  return pathname === CALENDAR_PATH;
+}
+
+function toGoogleCalendarTimestamp(value) {
+  return new Date(value).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+}
+
+function buildGoogleCalendarUrl(session) {
+  const event = session.event;
+  if (!event) {
+    return "";
+  }
+
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: event.title,
+    dates: `${toGoogleCalendarTimestamp(event.startAt)}/${toGoogleCalendarTimestamp(event.endAt)}`,
+    details: event.summary,
+    location: [event.locationName, event.locationAddress].filter(Boolean).join(", "),
+    ctz: event.timezone,
+  });
+
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
+function buildIcsHref(session) {
+  return `/calendar/${session.slug}.ics`;
+}
+
+function formatEventDate(event) {
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    timeZone: event.timezone,
+  }).format(new Date(event.startAt));
+}
+
+function formatEventTime(event) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: event.timezone,
+    timeZoneName: "short",
+  });
+
+  return `${formatter.format(new Date(event.startAt))} - ${formatter.format(new Date(event.endAt))}`;
+}
+
+function getLocationLabel(event) {
+  return [event.locationName, event.locationAddress].filter(Boolean).join(" · ");
+}
+
+function formatDateKey(value, timeZone = "America/Chicago") {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    timeZone,
+  }).formatToParts(new Date(value));
+
+  const part = (type) => parts.find((item) => item.type === type)?.value ?? "";
+  return `${part("year")}-${part("month")}-${part("day")}`;
+}
+
+function addDays(value, days) {
+  const next = new Date(value);
+  next.setUTCDate(next.getUTCDate() + days);
+  return next;
+}
+
+function createInlineIcsHref(entry) {
+  const { event } = entry;
+  const location = [event.locationName, event.locationAddress].filter(Boolean).join(", ");
+  const detailsUrl = entry.detailsHref
+    ? `${window.location.origin}${entry.detailsHref}`
+    : window.location.href;
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Austin AI Club//Meetups//EN",
+    "CALSCALE:GREGORIAN",
+    "BEGIN:VEVENT",
+    `UID:${entry.id}@austinai.club`,
+    `DTSTAMP:${toGoogleCalendarTimestamp(new Date().toISOString())}`,
+    `DTSTART:${toGoogleCalendarTimestamp(event.startAt)}`,
+    `DTEND:${toGoogleCalendarTimestamp(event.endAt)}`,
+    `SUMMARY:${event.title}`,
+    `DESCRIPTION:${event.summary.replace(/\n/g, "\\n")}\\n\\nDetails: ${detailsUrl}`,
+    `LOCATION:${location}`,
+    `URL:${detailsUrl}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ];
+
+  return `data:text/calendar;charset=utf-8,${encodeURIComponent(lines.join("\r\n"))}`;
+}
+
+function isUpcomingSession(session) {
+  if (!session.event) {
+    return false;
+  }
+  return new Date(session.event.endAt).getTime() >= Date.now();
+}
+
+function isValidEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function createCalendarEntry(session, eventOverride) {
+  const event = eventOverride ?? session.event;
+
+  return {
+    id: session.id,
+    kind: "authored",
+    slug: session.slug,
+    detailsHref: `/#${session.id}`,
+    event,
+  };
+}
+
+function createGeneratedEntry(templateEvent, startAt, index) {
+  const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
+  const endAt = new Date(startAt.getTime() + durationMs);
+  const dateKey = formatDateKey(startAt, templateEvent.timezone);
+
+  return {
+    id: `generated-${dateKey}`,
+    kind: "generated",
+    slug: dateKey,
+    detailsHref: null,
+    event: {
+      ...templateEvent,
+      summary: index === 0
+        ? templateEvent.summary
+        : "Biweekly Austin AI Club meetup. Full topic board and notes will land closer to the event.",
+      startAt: startAt.toISOString(),
+      endAt: endAt.toISOString(),
+    },
+  };
+}
+
+function buildCalendarEntries(sessionList, count = DEFAULT_CALENDAR_EVENT_COUNT) {
+  const authoredSessions = sessionList
+    .filter((session) => session.event)
+    .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime());
+
+  if (!authoredSessions.length) {
+    return [];
+  }
+
+  const anchorEvent = authoredSessions[0].event;
+  const timeZone = anchorEvent.timezone ?? "America/Chicago";
+  const authoredByDate = new Map(
+    authoredSessions.map((session) => [formatDateKey(session.event.startAt, timeZone), createCalendarEntry(session)]),
+  );
+
+  let cursor = new Date(anchorEvent.startAt);
+  while (new Date(cursor.getTime() + 1).getTime() < Date.now()) {
+    cursor = addDays(cursor, BIWEEKLY_INTERVAL_DAYS);
+  }
+
+  const entries = [];
+  while (entries.length < count) {
+    const dateKey = formatDateKey(cursor, timeZone);
+    entries.push(authoredByDate.get(dateKey) ?? createGeneratedEntry(anchorEvent, cursor, entries.length));
+    cursor = addDays(cursor, BIWEEKLY_INTERVAL_DAYS);
+  }
+
+  return entries;
 }
 
 // X embeds are rendered client-side by Twitter's widget script.
@@ -239,6 +417,214 @@ function LinkPair({ links }) {
         <LinkCard key={href} href={href} />
       ))}
     </div>
+  );
+}
+
+function ReminderSignup({ nextSession, variant = "default" }) {
+  const submitRef = useRef(false);
+  const fallbackTimerRef = useRef(null);
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState("idle");
+  const pageUrl = window.location.href;
+
+  const nextEvent = nextSession?.event ?? null;
+  const nextLabel = nextEvent
+    ? `${formatEventDate(nextEvent)} · ${formatEventTime(nextEvent)}`
+    : "We will email you when the next meetup is posted.";
+  const formConfigured = Boolean(REMINDER_SIGNUP_URL);
+
+  const handleSubmit = (event) => {
+    if (!formConfigured) {
+      event.preventDefault();
+      setStatus("offline");
+      return;
+    }
+
+    if (!isValidEmail(email)) {
+      event.preventDefault();
+      setStatus("invalid");
+      return;
+    }
+
+    submitRef.current = true;
+    setStatus("submitting");
+    clearTimeout(fallbackTimerRef.current);
+    fallbackTimerRef.current = window.setTimeout(() => {
+      submitRef.current = false;
+      setEmail("");
+      setStatus("success");
+    }, 1200);
+  };
+
+  const handleIframeLoad = () => {
+    if (!submitRef.current) {
+      return;
+    }
+
+    submitRef.current = false;
+    clearTimeout(fallbackTimerRef.current);
+    setEmail("");
+    setStatus("success");
+  };
+
+  useEffect(() => () => {
+    clearTimeout(fallbackTimerRef.current);
+  }, []);
+
+  return (
+    <section className={`reminder-panel reminder-panel--${variant}`} aria-label="Meetup reminders">
+      <div className="reminder-copy">
+        <p className="reminder-eyebrow">Meetup reminders</p>
+        <h2>Subscribe once. Get one reminder on meetup days.</h2>
+        <p className="reminder-blurb">
+          Enter your email once and we will send a short reminder around 10:00 AM CT whenever
+          Austin AI Club is meeting.
+        </p>
+        <p className="reminder-next">
+          <span>Next up</span>
+          {nextLabel}
+        </p>
+      </div>
+
+      {status === "success" ? (
+        <div className="reminder-success" role="status" aria-live="polite">
+          <p className="reminder-success-kicker">Success</p>
+          <h3>You’re subscribed.</h3>
+          <p>We’ll send a reminder on meetup days around 10:00 AM CT.</p>
+          <button
+            type="button"
+            className="reminder-reset-btn"
+            onClick={() => {
+              setStatus("idle");
+              setEmail("");
+            }}
+          >
+            add another email
+          </button>
+        </div>
+      ) : (
+        <>
+          <form
+            className="reminder-form"
+            action={REMINDER_SIGNUP_URL || undefined}
+            method="post"
+            target={REMINDER_IFRAME_NAME}
+            onSubmit={handleSubmit}
+          >
+            <label className="sr-only" htmlFor="reminder-email">
+              Email address
+            </label>
+            <input
+              id="reminder-email"
+              type="email"
+              name="email"
+              autoComplete="email"
+              inputMode="email"
+              placeholder="you@company.com"
+              value={email}
+              onChange={(event) => {
+                setEmail(event.target.value);
+                if (status !== "idle") {
+                  setStatus("idle");
+                }
+              }}
+              required
+            />
+            <input type="hidden" name="source" value="austinai.club" />
+            <input type="hidden" name="pageUrl" value={pageUrl} />
+            <button type="submit" disabled={status === "submitting"}>
+              {status === "submitting" ? "submitting..." : "notify me"}
+            </button>
+          </form>
+
+          <p className="reminder-help">
+            {status === "submitting"
+              ? "Submitting your reminder signup..."
+              : status === "invalid"
+                ? "Enter a valid email address first."
+                : status === "offline"
+                  ? import.meta.env.DEV
+                    ? "Set VITE_REMINDER_SIGNUP_URL to connect the form to Apps Script."
+                    : "Reminder signup is temporarily offline."
+                  : "One email on meetup days. Unsubscribe any time from the reminder email."}
+          </p>
+        </>
+      )}
+      <iframe
+        title="Reminder signup"
+        name={REMINDER_IFRAME_NAME}
+        className="reminder-transport"
+        onLoad={handleIframeLoad}
+      />
+    </section>
+  );
+}
+
+function CalendarEventCard({ entry, onNavigateBack }) {
+  const { event } = entry;
+
+  return (
+    <article className="calendar-event-card" data-kind={entry.kind}>
+      <div className="calendar-event-copy">
+        <p className="calendar-event-date">{formatEventDate(event)}</p>
+        <h3>{event.title}</h3>
+        <p className="calendar-event-summary">{event.summary}</p>
+        <div className="calendar-event-meta">
+          <span>{formatEventTime(event)}</span>
+          <span>{getLocationLabel(event)}</span>
+        </div>
+        <span className={`calendar-event-status calendar-event-status--${entry.kind}`}>
+          {entry.kind === "generated" ? "tentative" : "scheduled"}
+        </span>
+      </div>
+      <div className="calendar-event-actions">
+        <a href={buildGoogleCalendarUrl({ event })} target="_blank" rel="noreferrer">
+          add to Google Calendar
+        </a>
+        <a href={entry.kind === "authored" ? buildIcsHref({ slug: entry.slug }) : createInlineIcsHref(entry)}>
+          download ICS
+        </a>
+        {entry.detailsHref ? (
+          <a
+            href={entry.detailsHref}
+            onClick={() => {
+              onNavigateBack();
+            }}
+          >
+            open meetup page
+          </a>
+        ) : null}
+      </div>
+    </article>
+  );
+}
+
+function CalendarView({ calendarEntries, nextSession, onClose }) {
+  return (
+    <section className="calendar-screen" aria-label="Calendar view">
+      <header className="calendar-screen-header">
+        <div className="calendar-screen-brand">
+          <p className="calendar-eyebrow">Calendar</p>
+          <h2>Austin AI Club every two weeks</h2>
+          <p className="calendar-blurb">
+            The next four meetup slots stay visible here by default, and hand-authored sessions
+            can replace placeholders as you lock them in.
+          </p>
+        </div>
+        <button className="calendar-close-btn" onClick={onClose}>
+          back to meetup page
+        </button>
+      </header>
+
+      <main className="calendar-screen-body">
+        <ReminderSignup nextSession={nextSession} variant="screen" />
+        <div className="calendar-list">
+          {calendarEntries.map((entry) => (
+            <CalendarEventCard key={entry.id} entry={entry} onNavigateBack={onClose} />
+          ))}
+        </div>
+      </main>
+    </section>
   );
 }
 
@@ -638,6 +1024,32 @@ function Track({ track, index }) {
   );
 }
 
+function SessionEventBar({ session }) {
+  if (!session.event) {
+    return null;
+  }
+
+  const event = session.event;
+
+  return (
+    <div className="session-event">
+      <div className="session-event-meta">
+        <span>{formatEventDate(event)}</span>
+        <span>{formatEventTime(event)}</span>
+        <span>{getLocationLabel(event)}</span>
+      </div>
+      <div className="session-event-actions">
+        <a href={buildGoogleCalendarUrl(session)} target="_blank" rel="noreferrer">
+          add to Google Calendar
+        </a>
+        <a href={buildIcsHref(session)}>
+          download ICS
+        </a>
+      </div>
+    </div>
+  );
+}
+
 // Session owns summary metadata like total topic count and anchor navigation.
 function Session({ session, onPresent }) {
   const topicCount = session.tracks.reduce(
@@ -646,7 +1058,7 @@ function Session({ session, onPresent }) {
   );
 
   return (
-    <details className="session" id={session.id} open={session.open}>
+    <details className="session" id={session.id}>
       <summary className="session-header">
         <div className="session-date">
           <span className="chevron" aria-hidden="true"></span>
@@ -675,6 +1087,7 @@ function Session({ session, onPresent }) {
       </summary>
 
       <div className="session-body">
+        <SessionEventBar session={session} />
         {session.tracks.map((track, index) => (
           <Track key={track.id} track={track} index={index} />
         ))}
@@ -687,6 +1100,24 @@ export default function App() {
   const [presentationState, setPresentationState] = useState(() =>
     resolvePresentationHash(window.location.hash),
   );
+  const [isCalendarOpen, setIsCalendarOpen] = useState(() => isCalendarPath(window.location.pathname));
+  const calendarEntries = useMemo(() => buildCalendarEntries(sessions), []);
+  const nextSession = useMemo(
+    () => calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null,
+    [calendarEntries],
+  );
+  const openCalendarRoute = () => {
+    if (!isCalendarPath(window.location.pathname)) {
+      window.history.pushState({}, "", CALENDAR_PATH);
+    }
+    setIsCalendarOpen(true);
+  };
+  const closeCalendarRoute = () => {
+    if (isCalendarPath(window.location.pathname)) {
+      window.history.pushState({}, "", "/");
+    }
+    setIsCalendarOpen(false);
+  };
 
   useEffect(() => {
     // Reuse the widget loader when possible so React re-renders do not pile up scripts.
@@ -705,6 +1136,7 @@ export default function App() {
 
   useEffect(() => {
     const syncFromHash = () => {
+      setIsCalendarOpen(isCalendarPath(window.location.pathname));
       const next = resolvePresentationHash(window.location.hash);
 
       if (next?.invalidHash !== undefined) {
@@ -720,8 +1152,29 @@ export default function App() {
 
     syncFromHash();
     window.addEventListener("hashchange", syncFromHash);
-    return () => window.removeEventListener("hashchange", syncFromHash);
+    window.addEventListener("popstate", syncFromHash);
+    return () => {
+      window.removeEventListener("hashchange", syncFromHash);
+      window.removeEventListener("popstate", syncFromHash);
+    };
   }, []);
+
+  useEffect(() => {
+    if (!isCalendarOpen) {
+      return undefined;
+    }
+
+    const handleKeydown = (event) => {
+      if (event.key === "Escape") {
+        closeCalendarRoute();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeydown);
+    return () => {
+      window.removeEventListener("keydown", handleKeydown);
+    };
+  }, [isCalendarOpen]);
 
   const openPresentation = (session, slideIndex = 0) => {
     const slides = buildSlides(session);
@@ -736,6 +1189,16 @@ export default function App() {
   const closePresentation = (session) => {
     setHash(`#${session.id}`);
   };
+
+  if (isCalendarOpen) {
+    return (
+      <CalendarView
+        calendarEntries={calendarEntries}
+        nextSession={nextSession}
+        onClose={closeCalendarRoute}
+      />
+    );
+  }
 
   return (
     <div className="shell">
@@ -753,6 +1216,11 @@ export default function App() {
               <h1>austinai.club</h1>
             </div>
           </div>
+        </div>
+        <div className="topbar-right">
+          <button className="calendar-open-btn" onClick={openCalendarRoute}>
+            calendar
+          </button>
         </div>
       </header>
 
@@ -798,8 +1266,7 @@ export default function App() {
           >
             GitHub
           </a>
-          <a href="./topics/2026-03-18.md">March 18 notes</a>
-          <a href="./topics/README.md">Topic archive</a>
+          <a href="./topics/README.md">Meetup notes</a>
         </div>
       </footer>
     </div>

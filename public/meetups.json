@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-03-23T23:03:06.074Z",
+  "siteUrl": "https://austinai.club",
+  "events": [
+    {
+      "id": "2026-03-18",
+      "sessionId": "session-2026-03-18",
+      "slug": "2026-03-18",
+      "dateLabel": "March 18, 2026",
+      "markdownHref": "./topics/2026-03-18.md",
+      "title": "Austin AI Club",
+      "summary": "Quick AI news rundown, demos, and open discussion.",
+      "startAt": "2026-03-18T17:00:00-05:00",
+      "endAt": "2026-03-18T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "locationName": "Bitcoin Park Austin",
+      "locationAddress": "Austin, TX",
+      "reminderSendHour": 10,
+      "detailsUrl": "https://austinai.club/#session-2026-03-18",
+      "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Austin+AI+Club&dates=20260318T220000Z%2F20260319T000000Z&details=Quick+AI+news+rundown%2C+demos%2C+and+open+discussion.&location=Bitcoin+Park+Austin%2C+Austin%2C+TX&ctz=America%2FChicago",
+      "icsUrl": "https://austinai.club/calendar/2026-03-18.ics"
+    }
+  ]
+}
