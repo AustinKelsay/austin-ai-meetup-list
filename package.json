@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "sync:events": "node scripts/sync-events.mjs",
+    "dev": "npm run sync:events && vite",
+    "build": "npm run sync:events && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

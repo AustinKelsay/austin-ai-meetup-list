@@ -20,6 +20,8 @@ The frontend has two views over the same content:
 
 The slideshow is not a separate data source. It is built from the same session data that powers the archive page.
 
+The site also supports one global meetup reminder signup. Events stay hardcoded in source control, while a tiny Google Apps Script can collect emails and send day-of reminders.
+
 The slideshow also uses hash-based slide URLs such as `#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side routing.
 
 ## Quick Start
@@ -30,6 +32,8 @@ npm run dev
 ```
 
 Then open the local Vite URL, usually `http://127.0.0.1:5173/`.
+
+If you want the inline reminder form to submit locally, copy [.env.example](/Users/plebdev/Desktop/code/austin-ai-meetup-list/.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
 
 ## Build
 
@@ -65,10 +69,14 @@ The slideshow uses hash routes like `#/slides/...`, so static hosting works with
   Explicit content contract for the frontend
 - [src/styles.css](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/styles.css)
   Full visual system for both archive and presentation views
+- [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/austin-ai-meetup-list/scripts/sync-events.mjs)
+  Generates `public/meetups.json` plus per-event ICS files from `src/data.js`
 - [public/topics/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/public/topics)
   Durable Markdown archive served as static files
 - [public/topics/README.md](/Users/plebdev/Desktop/code/austin-ai-meetup-list/public/topics/README.md)
   Archive-side workflow notes
+- [apps-script/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script)
+  Tiny Google Apps Script reminder backend
 
 ## Rendering Model
 
@@ -94,7 +102,19 @@ Each session in [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/
 - `date`
 - `open`
 - `markdownHref`
+- `event`
 - `tracks[]`
+
+`event` is optional meetup metadata for reminder emails and add-to-calendar links:
+
+- `title`
+- `summary`
+- `startAt`
+- `endAt`
+- `timezone`
+- `locationName`
+- `locationAddress`
+- `reminderSendHour`
 
 Each track contains:
 
@@ -155,10 +175,21 @@ If a story could fit multiple buckets, sort it by the angle you want the club di
 3. Add the club stories and source links in Markdown first
 4. Mirror that content into [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
 5. Add `notes` only when they help in presentation mode
-6. Set `open: true` on the active session if you want it expanded by default
-7. Run `npm run build`
+6. Add or update the session `event` metadata if this meetup should appear in reminders/calendar links
+7. Sessions load collapsed by default, so no extra open-state flag is needed
+8. Run `npm run build`
 
 Do not skip the Markdown step. Markdown is the archive of record.
+
+## Reminders
+
+The reminder flow is intentionally small:
+
+1. Meetup metadata lives in [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
+2. [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/austin-ai-meetup-list/scripts/sync-events.mjs) generates:
+   `public/meetups.json` and `public/calendar/*.ics`
+3. The frontend posts one global email signup to `VITE_REMINDER_SIGNUP_URL`
+4. The Apps Script in [apps-script/README.md](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script/README.md) stores subscribers in a Google Sheet and sends reminders on meetup days
 
 ## Embed Notes
 
