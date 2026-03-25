@@ -1,5 +1,11 @@
+import { sessions } from "../src/data.js";
+
 const DEFAULT_REPO_OWNER = "AustinKelsay";
 const DEFAULT_REPO_NAME = "austin-ai-meetup-list";
+const DEFAULT_FETCH_TIMEOUT_MS = 8000;
+const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 5;
+const submissionAttempts = new Map();
 const LABEL_CONFIG = {
   link: {
     color: "2bc98b",
@@ -17,6 +23,62 @@ function getMeetupLabelName(slug) {
 
 function trimString(value) {
   return typeof value === "string" ? value.trim() : "";
+}
+
+function getFetchTimeoutMs() {
+  const value = Number.parseInt(process.env.GITHUB_API_TIMEOUT_MS ?? "", 10);
+  return Number.isFinite(value) && value > 0 ? value : DEFAULT_FETCH_TIMEOUT_MS;
+}
+
+function getNextMeetup() {
+  return sessions
+    .filter((session) => session.event && new Date(session.event.endAt).getTime() >= Date.now())
+    .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime())[0] ?? null;
+}
+
+function getMeetupLabel(session) {
+  return `${session.date} · ${session.event.locationName}`;
+}
+
+function getClientKey(request) {
+  const forwardedFor = trimString(request.headers?.["x-forwarded-for"]?.split(",")[0]);
+  return forwardedFor || request.socket?.remoteAddress || "unknown";
+}
+
+function isRateLimited(request) {
+  const now = Date.now();
+  const key = getClientKey(request);
+  const recentAttempts = (submissionAttempts.get(key) ?? []).filter(
+    (timestamp) => now - timestamp < RATE_LIMIT_WINDOW_MS,
+  );
+
+  if (recentAttempts.length >= RATE_LIMIT_MAX_REQUESTS) {
+    submissionAttempts.set(key, recentAttempts);
+    return true;
+  }
+
+  recentAttempts.push(now);
+  submissionAttempts.set(key, recentAttempts);
+  return false;
+}
+
+async function fetchWithTimeout(url, options, timeoutMs, timeoutMessage) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(url, {
+      ...options,
+      signal: controller.signal,
+    });
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error(timeoutMessage);
+    }
+    throw new Error(error.message || "Network request failed.");
+  } finally {
+    clearTimeout(timeoutId);
+  }
 }
 
 function isValidHttpUrl(value) {
@@ -82,7 +144,9 @@ async function ensureLabel({ owner, repo, token, name }) {
     return;
   }
 
-  const labelResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/labels`, {
+  const labelResponse = await fetchWithTimeout(
+    `https://api.github.com/repos/${owner}/${repo}/labels`,
+    {
     method: "POST",
     headers: {
       Accept: "application/vnd.github+json",
@@ -96,7 +160,10 @@ async function ensureLabel({ owner, repo, token, name }) {
       color: label.color,
       description: label.description,
     }),
-  });
+    },
+    getFetchTimeoutMs(),
+    `Timed out while ensuring label "${name}".`,
+  );
 
   if (labelResponse.ok || labelResponse.status === 422) {
     return;
@@ -128,8 +195,17 @@ export default async function handler(request, response) {
   const url = trimString(payload.url);
   const description = trimString(payload.description);
   const pageUrl = trimString(payload.pageUrl);
-  const meetupSlug = trimString(payload.meetupSlug);
-  const meetupLabel = trimString(payload.meetupLabel);
+  const website = trimString(payload.website);
+
+  if (website) {
+    response.status(400).json({ error: "Invalid submission." });
+    return;
+  }
+
+  if (isRateLimited(request)) {
+    response.status(429).json({ error: "Too many submissions. Try again later." });
+    return;
+  }
 
   if (kind !== "link" && kind !== "showcase") {
     response.status(400).json({ error: "Unsupported submission type." });
@@ -141,8 +217,9 @@ export default async function handler(request, response) {
     return;
   }
 
-  if (!meetupSlug || !meetupLabel) {
-    response.status(400).json({ error: "A meetup selection is required." });
+  const meetup = getNextMeetup();
+  if (!meetup) {
+    response.status(503).json({ error: "No upcoming meetup is configured." });
     return;
   }
 
@@ -162,13 +239,13 @@ export default async function handler(request, response) {
     url,
     description,
     pageUrl,
-    meetupSlug,
-    meetupLabel,
+    meetupSlug: meetup.slug,
+    meetupLabel: getMeetupLabel(meetup),
   });
 
   try {
     await ensureLabel({ owner, repo, token, name: kind });
-    await ensureLabel({ owner, repo, token, name: getMeetupLabelName(meetupSlug) });
+    await ensureLabel({ owner, repo, token, name: getMeetupLabelName(meetup.slug) });
   } catch (error) {
     response.status(502).json({
       error: error.message || "Failed to ensure GitHub label.",
@@ -178,20 +255,25 @@ export default async function handler(request, response) {
 
   let githubResponse;
   try {
-    githubResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
-      method: "POST",
-      headers: {
-        Accept: "application/vnd.github+json",
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-        "User-Agent": "austin-ai-meetup-list",
-        "X-GitHub-Api-Version": "2022-11-28",
+    githubResponse = await fetchWithTimeout(
+      `https://api.github.com/repos/${owner}/${repo}/issues`,
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/vnd.github+json",
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+          "User-Agent": "austin-ai-meetup-list",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+        body: JSON.stringify(issuePayload),
       },
-      body: JSON.stringify(issuePayload),
-    });
+      getFetchTimeoutMs(),
+      "Timed out while creating the GitHub issue.",
+    );
   } catch (error) {
     response.status(502).json({
-      error: "Failed to connect to GitHub API.",
+      error: error.message || "Failed to connect to GitHub API.",
       details: error.message,
     });
     return;

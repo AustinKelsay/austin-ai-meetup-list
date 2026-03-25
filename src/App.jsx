@@ -725,6 +725,9 @@ function buildSlides(session) {
   });
   slides.push({
     type: "community-title",
+    itemTotal: showcases.length,
+    trackIndex: session.tracks.length,
+    trackTotal: session.tracks.length + 1,
   });
   if (showcases.length) {
     showcases.forEach((item, itemIndex) => {
@@ -859,7 +862,9 @@ function PresentationSlide({ slide, isFinale }) {
         <p className="pres-track-purpose">
           Short three to five minute shares at the end of the meetup.
         </p>
-        <span className="pres-topic-badge">1 slot</span>
+        <span className="pres-topic-badge">
+          {slide.itemTotal ? `${slide.itemTotal} slot${slide.itemTotal !== 1 ? "s" : ""}` : "open"}
+        </span>
       </div>
     );
   }
@@ -1161,7 +1166,22 @@ function Track({ track, index }) {
   );
 }
 
-function CommunityTrack({ index, sessionId, items = [] }) {
+function RouteLink({ to, onOpenRoute, children, ...props }) {
+  return (
+    <a
+      {...props}
+      href={to}
+      onClick={(event) => {
+        event.preventDefault();
+        onOpenRoute(to);
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
+function CommunityTrack({ index, sessionId, items = [], onOpenRoute }) {
   const showcaseId = `showcase-${sessionId}`;
 
   return (
@@ -1193,8 +1213,8 @@ function CommunityTrack({ index, sessionId, items = [] }) {
           <p className="community-slot-eyebrow">
             {items.length ? "At the end of the meetup" : "Open slot at the end"}
           </p>
-          <a href={SPOTLIGHT_SUBMISSION_PATH}>submit a showcase</a>
-          <a href={LINK_SUBMISSION_PATH}>submit a regular link</a>
+          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a showcase</RouteLink>
+          <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a regular link</RouteLink>
         </div>
       </div>
     </details>
@@ -1228,7 +1248,7 @@ function SessionEventBar({ session }) {
 }
 
 // Session owns summary metadata like total topic count and anchor navigation.
-function Session({ session, onPresent }) {
+function Session({ session, onPresent, onOpenRoute }) {
   const topicCount = session.tracks.reduce(
     (sum, track) => sum + track.items.length,
     0,
@@ -1278,7 +1298,12 @@ function Session({ session, onPresent }) {
         {session.tracks.map((track, index) => (
           <Track key={track.id} track={track} index={index} />
         ))}
-        <CommunityTrack index={session.tracks.length} sessionId={session.id} items={session.showcases} />
+        <CommunityTrack
+          index={session.tracks.length}
+          sessionId={session.id}
+          items={session.showcases}
+          onOpenRoute={onOpenRoute}
+        />
       </div>
     </details>
   );
@@ -1292,10 +1317,12 @@ function SubmissionScreen({
   fields,
   meetup,
   onBack,
+  onOpenRoute,
 }) {
   const [values, setValues] = useState(() =>
     Object.fromEntries(fields.map((field) => [field.name, ""])),
   );
+  const [website, setWebsite] = useState("");
   const [status, setStatus] = useState("idle");
   const [errorMessage, setErrorMessage] = useState("");
   const pageUrl = window.location.href;
@@ -1335,9 +1362,8 @@ function SubmissionScreen({
         body: JSON.stringify({
           kind,
           pageUrl,
+          website,
           ...values,
-          meetupSlug: meetup.slug,
-          meetupLabel: `${meetup.date} · ${meetup.event.locationName}`,
         }),
       });
 
@@ -1348,6 +1374,7 @@ function SubmissionScreen({
 
       setStatus("success");
       setValues(Object.fromEntries(fields.map((field) => [field.name, ""])));
+      setWebsite("");
     } catch (error) {
       setStatus("error");
       setErrorMessage(error.message || "Submission failed.");
@@ -1369,6 +1396,17 @@ function SubmissionScreen({
 
       <div className="submission-layout">
         <form className="submission-form" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="website"
+            value={website}
+            onChange={(event) => setWebsite(event.target.value)}
+            autoComplete="off"
+            tabIndex={-1}
+            aria-hidden="true"
+            style={{ display: "none" }}
+          />
+
           {fields.map((field) => (
             <label key={field.name} className="submission-field">
               <span>{field.label}</span>
@@ -1417,9 +1455,13 @@ function SubmissionScreen({
 
           <div className="submission-form-switch">
             {kind === "link" ? (
-              <a href={SPOTLIGHT_SUBMISSION_PATH}>or propose a showcase instead →</a>
+              <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
+                or propose a showcase instead →
+              </RouteLink>
             ) : (
-              <a href={LINK_SUBMISSION_PATH}>or submit a link instead →</a>
+              <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
+                or submit a link instead →
+              </RouteLink>
             )}
           </div>
         </form>
@@ -1554,6 +1596,7 @@ export default function App() {
         ]}
         meetup={nextMeetup}
         onBack={closeAuxRoute}
+        onOpenRoute={openRoute}
       />
     );
   }
@@ -1584,6 +1627,7 @@ export default function App() {
         ]}
         meetup={nextMeetup}
         onBack={closeAuxRoute}
+        onOpenRoute={openRoute}
       />
     );
   }
@@ -1635,6 +1679,7 @@ export default function App() {
             key={session.id}
             session={session}
             onPresent={(targetSession) => openPresentation(targetSession, 0)}
+            onOpenRoute={openRoute}
           />
         ))}
         {upcomingSessions.length > 0 && pastSessions.length > 0 && (
@@ -1647,6 +1692,7 @@ export default function App() {
             key={session.id}
             session={session}
             onPresent={(targetSession) => openPresentation(targetSession, 0)}
+            onOpenRoute={openRoute}
           />
         ))}
       </main>
@@ -1675,8 +1721,10 @@ export default function App() {
           >
             GitHub
           </a>
-          <a href={LINK_SUBMISSION_PATH}>Submit link</a>
-          <a href={SPOTLIGHT_SUBMISSION_PATH}>{COMMUNITY_SLOT_LABEL}</a>
+          <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={openRoute}>Submit link</RouteLink>
+          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={openRoute}>
+            {COMMUNITY_SLOT_LABEL}
+          </RouteLink>
           <a href="./topics/README.md">Meetup notes</a>
         </div>
       </footer>
