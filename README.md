@@ -18,6 +18,12 @@ The frontend has two views over the same content:
 - Archive view: a browsable terminal-style page of tracks and stories
 - Presentation view: a slide-by-slide walkthrough of each story, including richer embeds, link cards, and optional presenter notes
 
+It also has three auxiliary pages:
+
+- `/calendar` for upcoming meetup slots
+- `/submit-link` for regular link submissions
+- `/submit-spotlight` for short member-led showcase proposals
+
 The slideshow is not a separate data source. It is built from the same session data that powers the archive page.
 
 The site also supports one global meetup reminder signup. Events stay hardcoded in source control, while a tiny Google Apps Script can collect emails and send day-of reminders.
@@ -34,6 +40,12 @@ npm run dev
 Then open the local Vite URL, usually `http://127.0.0.1:5173/`.
 
 If you want the inline reminder form to submit locally, copy [.env.example](/Users/plebdev/Desktop/code/austin-ai-meetup-list/.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
+
+If you want the submission forms to create GitHub issues, also set:
+
+- `GITHUB_ISSUES_TOKEN`
+- `GITHUB_ISSUES_OWNER`
+- `GITHUB_ISSUES_REPO`
 
 ## Build
 
@@ -55,7 +67,7 @@ Vercel deploy is intentionally simple:
 
 This repo also includes [vercel.json](/Users/plebdev/Desktop/code/austin-ai-meetup-list/vercel.json) so those settings are explicit in source control.
 
-The slideshow uses hash routes like `#/slides/...`, so static hosting works without custom rewrites.
+The slideshow uses hash routes like `#/slides/...`, and the helper pages use pathname routes like `/submit-link`, so static hosting works with the included rewrites.
 
 ## Repo Map
 
@@ -77,6 +89,8 @@ The slideshow uses hash routes like `#/slides/...`, so static hosting works with
   Archive-side workflow notes
 - [apps-script/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script)
   Tiny Google Apps Script reminder backend
+- [api/github-issue.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/api/github-issue.js)
+  Vercel function for turning form submissions into GitHub issues
 
 ## Rendering Model
 

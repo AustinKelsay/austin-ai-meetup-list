@@ -4,6 +4,7 @@
 // Optional session-level slideshow shape:
 // - presentationIntro: welcome slide shown before all track slides
 // - event: meetup metadata for reminders + add-to-calendar links
+// - showcases: short end-of-meetup shares rendered as the final track
 //
 // Supported item shapes:
 // - href: plain linked topic
@@ -20,6 +21,109 @@
 // 4. Security
 // 5. Big Tech Moves
 export const sessions = [
+  {
+    id: "session-2026-04-01",
+    slug: "2026-04-01",
+    date: "April 1, 2026",
+    markdownHref: "./topics/2026-04-01.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-04-01T17:00:00-05:00",
+      endAt: "2026-04-01T19:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      blurb: "Wednesday, 5 p.m. at Bitcoin Park Austin.",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Casual format. No meetup page. No commitment required.",
+      ctaLabel: "austinai.club",
+      ctaHref: "https://austinai.club",
+    },
+    tracks: [
+      {
+        id: "apr-agent-infrastructure",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Free coding agent with ad model",
+            description:
+              "A free coding agent angle with an ad-supported model behind it.",
+            chip: "x",
+            href: "https://x.com/jahooma/status/2034784332569878618",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/jahooma/status/2034784332569878618?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "OpenAgents Autopilot",
+            description:
+              "New OpenAgents product angle: passively sell compute and get paid in bitcoin.",
+            chip: "x",
+            href: "https://x.com/ThrillerX_/status/2036864088341360670",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ThrillerX_/status/2036864088341360670?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "apr-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, research updates, benchmark shifts, and capability changes that affect what we should test, trust, or pay attention to next.",
+        items: [
+          {
+            title: "Nemotron-3-Cascade",
+            description:
+              "Fresh Nemotron model release to look at for architecture, capability, and open-weight relevance.",
+            chip: "x",
+            href: "https://x.com/HuggingPapers/status/2034876841475838329",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/HuggingPapers/status/2034876841475838329?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Composer 2 / Kimi K2.5 drama",
+            description:
+              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning.",
+            chip: "pair",
+            href: "https://x.com/ns123abc/status/2035058399067435474",
+            linkPair: [
+              "https://x.com/ns123abc/status/2035058399067435474",
+              "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+            ],
+          },
+          {
+            title: "ARC AGI benchmark #3",
+            description:
+              "New ARC AGI benchmark result worth checking as another data point on reasoning and generalization.",
+            chip: "x",
+            href: "https://x.com/arcprize/status/2036860080541589529",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+    ],
+  },
   {
     id: "session-2026-03-18",
     slug: "2026-03-18",
@@ -49,6 +153,14 @@ export const sessions = [
       ctaLabel: "austinai.club",
       ctaHref: "https://austinai.club",
     },
+    showcases: [
+      {
+        title: "Pimping your OpenClaw",
+        description:
+          "Topher on customizing and leveling up your OpenClaw setup.",
+        chip: "showcase",
+      },
+    ],
     tracks: [
       {
         id: "mar-agent-infrastructure",
@@ -125,12 +237,6 @@ export const sessions = [
               "https://docs.anthropic.com/en/docs/claude-code/overview",
               "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
             ],
-          },
-          {
-            title: "Pimping your OpenClaw",
-            description:
-              "Topher on customizing and leveling up your OpenClaw setup.",
-            chip: "talk",
           },
           {
             title: "Claude distillation claims",

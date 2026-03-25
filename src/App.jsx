@@ -13,6 +13,17 @@ const REMINDER_IFRAME_NAME = "reminder-signup-sink";
 const BIWEEKLY_INTERVAL_DAYS = 14;
 const DEFAULT_CALENDAR_EVENT_COUNT = 4;
 const CALENDAR_PATH = "/calendar";
+const LINK_SUBMISSION_PATH = "/submit-link";
+const SPOTLIGHT_SUBMISSION_PATH = "/submit-spotlight";
+const ISSUE_SUBMISSION_ENDPOINT = "/api/github-issue";
+const COMMUNITY_SLOT_LABEL = "Showcase";
+
+const APP_ROUTE = {
+  HOME: "home",
+  CALENDAR: "calendar",
+  SUBMIT_LINK: "submit-link",
+  SUBMIT_SPOTLIGHT: "submit-spotlight",
+};
 
 function slugify(value) {
   return value
@@ -32,6 +43,16 @@ function getTrackRouteSlug(track) {
   return slugify(track.title);
 }
 
+function getSlideTrackRouteSlug(slide) {
+  if (
+    slide.type === "community-title" ||
+    slide.type === "community-topic"
+  ) {
+    return "community";
+  }
+  return getTrackRouteSlug(slide.track);
+}
+
 function getSlideRouteSlug(slide) {
   if (slide.type === "session-intro") {
     return "intro";
@@ -42,11 +63,17 @@ function getSlideRouteSlug(slide) {
   if (slide.type === "track-outro") {
     return "outro";
   }
+  if (slide.type === "community-title") {
+    return "intro";
+  }
+  if (slide.type === "community-topic") {
+    return slugify(slide.item.title);
+  }
   return slugify(slide.item.title);
 }
 
 function buildSlideHash(session, slide) {
-  return `#/slides/${session.slug}/${getTrackRouteSlug(slide.track)}/${getSlideRouteSlug(slide)}`;
+  return `#/slides/${session.slug}/${getSlideTrackRouteSlug(slide)}/${getSlideRouteSlug(slide)}`;
 }
 
 function parseSlideHash(hash) {
@@ -67,6 +94,19 @@ function parseSlideHash(hash) {
 
 function isCalendarPath(pathname) {
   return pathname === CALENDAR_PATH;
+}
+
+function getAppRoute(pathname) {
+  if (pathname === CALENDAR_PATH) {
+    return APP_ROUTE.CALENDAR;
+  }
+  if (pathname === LINK_SUBMISSION_PATH) {
+    return APP_ROUTE.SUBMIT_LINK;
+  }
+  if (pathname === SPOTLIGHT_SUBMISSION_PATH) {
+    return APP_ROUTE.SUBMIT_SPOTLIGHT;
+  }
+  return APP_ROUTE.HOME;
 }
 
 function toGoogleCalendarTimestamp(value) {
@@ -173,6 +213,15 @@ function isUpcomingSession(session) {
 
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function isValidHttpUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
 }
 
 function createCalendarEntry(session, eventOverride) {
@@ -631,6 +680,7 @@ function CalendarView({ calendarEntries, nextSession, onClose }) {
 // Flatten tracks into a linear sequence so presentation mode can move one story at a time.
 function buildSlides(session) {
   const slides = [];
+  const showcases = session.showcases ?? [];
   if (session.presentationIntro) {
     slides.push({
       type: "session-intro",
@@ -666,6 +716,22 @@ function buildSlides(session) {
       });
     }
   });
+  slides.push({
+    type: "community-title",
+  });
+  if (showcases.length) {
+    showcases.forEach((item, itemIndex) => {
+      slides.push({
+        type: "community-topic",
+        item,
+        itemIndex,
+        itemTotal: showcases.length,
+        trackIndex: session.tracks.length,
+        trackTotal: session.tracks.length + 1,
+        isLastInTrack: itemIndex === showcases.length - 1,
+      });
+    });
+  }
   return slides;
 }
 
@@ -673,7 +739,7 @@ function findSlideIndex(session, route) {
   const slides = buildSlides(session);
   return slides.findIndex(
     (slide) =>
-      getTrackRouteSlug(slide.track) === route.trackSlug &&
+      getSlideTrackRouteSlug(slide) === route.trackSlug &&
       getSlideRouteSlug(slide) === route.slideSlug,
   );
 }
@@ -708,10 +774,19 @@ function setHash(hash) {
   window.location.hash = hash;
 }
 
+function setPathname(pathname) {
+  if (window.location.pathname === pathname) {
+    return;
+  }
+  window.history.pushState({}, "", pathname);
+}
+
 function PresentationSlide({ slide, isFinale }) {
   const trackSlug = slide.type === "session-intro"
     ? "local-builds"
-    : TRACK_CATEGORY[slide.track.title];
+    : slide.type.startsWith("community")
+      ? "community"
+      : TRACK_CATEGORY[slide.track.title];
 
   if (slide.type === "session-intro") {
     return (
@@ -763,6 +838,47 @@ function PresentationSlide({ slide, isFinale }) {
         <h2 className="pres-track-title">{slide.outro.title}</h2>
         <p className="pres-track-purpose">{slide.outro.body}</p>
         <span className="pres-topic-badge">discussion prompt</span>
+      </div>
+    );
+  }
+
+  if (slide.type === "community-title") {
+    return (
+      <div className="pres-slide pres-slide--track" data-track="community">
+        <span className="pres-track-num">Final track</span>
+        <h2 className="pres-track-title">{COMMUNITY_SLOT_LABEL}</h2>
+        <p className="pres-track-purpose">
+          Short three to five minute shares at the end of the meetup.
+        </p>
+        <span className="pres-topic-badge">1 slot</span>
+      </div>
+    );
+  }
+
+  if (slide.type === "community-topic") {
+    return (
+      <div className={`pres-slide pres-slide--topic${isFinale ? " pres-slide--finale" : ""}`} data-track="community">
+        <h3 className="pres-topic-title">
+          {slide.item.href ? (
+            <a href={slide.item.href} target="_blank" rel="noreferrer">
+              {slide.item.title}
+            </a>
+          ) : (
+            slide.item.title
+          )}
+        </h3>
+        <p className="pres-topic-desc">{slide.item.description}</p>
+        <span className="source-chip">{slide.item.chip ?? "showcase"}</span>
+        {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
+        {slide.item.embed ? <TopicEmbed embed={slide.item.embed} /> : null}
+        {slide.item.video ? <VideoEmbed video={slide.item.video} /> : null}
+        {slide.item.linkPair ? <LinkPair links={slide.item.linkPair} /> : null}
+        {slide.item.href &&
+        !slide.item.embed &&
+        !slide.item.video &&
+        !slide.item.linkPair ? (
+          <LinkCard href={slide.item.href} />
+        ) : null}
       </div>
     );
   }
@@ -919,19 +1035,31 @@ function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
     ? `${session.date} › ${slide.track.title} › Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
     : slide.type === "session-intro"
       ? `${session.date} › Welcome`
-    : `${session.date} › ${slide.track.title}`;
+      : slide.type === "community-title"
+        ? `${session.date} › ${COMMUNITY_SLOT_LABEL}`
+      : slide.type === "community-topic"
+        ? `${session.date} › ${COMMUNITY_SLOT_LABEL} › ${slide.itemIndex + 1} of ${slide.itemTotal}`
+        : `${session.date} › ${slide.track.title}`;
 
   const slideLabel =
     slide.type === "session-intro"
       ? "Welcome"
       : slide.type === "topic"
       ? `Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
+      : slide.type === "community-topic"
+        ? `${COMMUNITY_SLOT_LABEL} ${slide.itemIndex + 1} of ${slide.itemTotal}`
+      : slide.type === "community-title"
+        ? `Track ${session.tracks.length + 1} of ${session.tracks.length + 1}`
       : slide.type === "track-outro"
         ? "Discussion prompt"
         : `Track ${slide.trackIndex + 1} of ${slide.trackTotal}`;
 
   const trackSlug = slide.type === "session-intro"
     ? "local-builds"
+    : slide.type === "community-title"
+      ? "community"
+    : slide.type === "community-topic"
+      ? "community"
     : TRACK_CATEGORY[slide.track.title];
 
   return (
@@ -1024,6 +1152,44 @@ function Track({ track, index }) {
   );
 }
 
+function CommunityTrack({ index, items = [] }) {
+  return (
+    <details className="track" id="showcase" data-track="community">
+      <summary className="track-header">
+        <h3>
+          <span className="track-chevron" aria-hidden="true"></span>
+          <span className="track-num">{String(index + 1).padStart(2, "0")}</span>{" "}
+          {COMMUNITY_SLOT_LABEL}
+        </h3>
+        <span className="track-count">
+          {items.length ? `${items.length} slot${items.length !== 1 ? "s" : ""}` : "open"}
+        </span>
+      </summary>
+      <div className="community-track-body">
+        {items.length ? (
+          <ul className="topic-list community-topic-list">
+            {items.map((item) => (
+              <Topic key={item.title} item={item} />
+            ))}
+          </ul>
+        ) : (
+          <p className="community-slot-blurb">
+            A showcase is something you want to showcase or talk about for three to five minutes at
+            the meetup.
+          </p>
+        )}
+        <div className="community-track-footer">
+          <p className="community-slot-eyebrow">
+            {items.length ? "At the end of the meetup" : "Open slot at the end"}
+          </p>
+          <a href={SPOTLIGHT_SUBMISSION_PATH}>submit a showcase</a>
+          <a href={LINK_SUBMISSION_PATH}>submit a regular link</a>
+        </div>
+      </div>
+    </details>
+  );
+}
+
 function SessionEventBar({ session }) {
   if (!session.event) {
     return null;
@@ -1056,9 +1222,15 @@ function Session({ session, onPresent }) {
     (sum, track) => sum + track.items.length,
     0,
   );
+  const showcaseCount = session.showcases?.length ?? 0;
+  const isUpcoming = isUpcomingSession(session);
+  const totalTrackCount = session.tracks.length + 1;
 
   return (
-    <details className="session" id={session.id}>
+    <details
+      className={`session ${isUpcoming ? "session--upcoming" : "session--past"}`}
+      id={session.id}
+    >
       <summary className="session-header">
         <div className="session-date">
           <span className="chevron" aria-hidden="true"></span>
@@ -1075,7 +1247,7 @@ function Session({ session, onPresent }) {
           </button>
         </div>
         <p className="session-meta">
-          {topicCount} topics &middot; {session.tracks.length} tracks
+          {topicCount + showcaseCount} topics &middot; {totalTrackCount} tracks
         </p>
         <nav className="track-nav" aria-label={`${session.date} tracks`}>
           {session.tracks.map((track) => (
@@ -1083,6 +1255,9 @@ function Session({ session, onPresent }) {
               {track.title.toLowerCase()}
             </a>
           ))}
+          <a href="#showcase" data-track="community">
+            {COMMUNITY_SLOT_LABEL.toLowerCase()}
+          </a>
         </nav>
       </summary>
 
@@ -1091,8 +1266,138 @@ function Session({ session, onPresent }) {
         {session.tracks.map((track, index) => (
           <Track key={track.id} track={track} index={index} />
         ))}
+        <CommunityTrack index={session.tracks.length} items={session.showcases} />
       </div>
     </details>
+  );
+}
+
+function SubmissionScreen({
+  kind,
+  title,
+  eyebrow,
+  description,
+  fields,
+  onBack,
+}) {
+  const [values, setValues] = useState(() =>
+    Object.fromEntries(fields.map((field) => [field.name, ""])),
+  );
+  const [status, setStatus] = useState("idle");
+  const [errorMessage, setErrorMessage] = useState("");
+  const pageUrl = window.location.href;
+
+  const setValue = (name, value) => {
+    setValues((current) => ({ ...current, [name]: value }));
+    if (status !== "idle") {
+      setStatus("idle");
+      setErrorMessage("");
+    }
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    if (kind === "link" && !isValidHttpUrl(values.url)) {
+      setStatus("error");
+      setErrorMessage("Enter a valid http:// or https:// link.");
+      return;
+    }
+
+    setStatus("submitting");
+    setErrorMessage("");
+
+    try {
+      const response = await fetch(ISSUE_SUBMISSION_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          kind,
+          pageUrl,
+          ...values,
+        }),
+      });
+
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(payload.error || "Submission failed.");
+      }
+
+      setStatus("success");
+      setValues(Object.fromEntries(fields.map((field) => [field.name, ""])));
+    } catch (error) {
+      setStatus("error");
+      setErrorMessage(error.message || "Submission failed.");
+    }
+  };
+
+  return (
+    <section className="submission-screen" aria-label={title}>
+      <header className="submission-header">
+        <div>
+          <p className="submission-eyebrow">{eyebrow}</p>
+          <h2>{title}</h2>
+          <p className="submission-blurb">{description}</p>
+        </div>
+        <button className="calendar-close-btn" onClick={onBack}>
+          back to meetup page
+        </button>
+      </header>
+
+      <div className="submission-layout">
+        <form className="submission-form" onSubmit={handleSubmit}>
+          {fields.map((field) => (
+            <label key={field.name} className="submission-field">
+              <span>{field.label}</span>
+              {field.type === "textarea" ? (
+                <textarea
+                  name={field.name}
+                  placeholder={field.placeholder}
+                  value={values[field.name]}
+                  onChange={(event) => setValue(field.name, event.target.value)}
+                  required={field.required}
+                  rows={field.rows ?? 5}
+                />
+              ) : (
+                <input
+                  type={field.type}
+                  name={field.name}
+                  placeholder={field.placeholder}
+                  value={values[field.name]}
+                  onChange={(event) => setValue(field.name, event.target.value)}
+                  required={field.required}
+                  inputMode={field.inputMode}
+                />
+              )}
+            </label>
+          ))}
+
+          <button type="submit" disabled={status === "submitting"}>
+            {status === "submitting" ? "submitting..." : "send to github"}
+          </button>
+
+          <p className="submission-status" data-status={status}>
+            {status === "success"
+              ? "Issue created. It should now be in the repo with the correct label."
+              : status === "error"
+                ? errorMessage
+                : kind === "link"
+                  ? "This creates a GitHub issue labeled link."
+                  : `This creates a GitHub issue labeled ${COMMUNITY_SLOT_LABEL.toLowerCase()}.`}
+          </p>
+
+          <div className="submission-form-switch">
+            {kind === "link" ? (
+              <a href={SPOTLIGHT_SUBMISSION_PATH}>or propose a showcase instead →</a>
+            ) : (
+              <a href={LINK_SUBMISSION_PATH}>or submit a link instead →</a>
+            )}
+          </div>
+        </form>
+      </div>
+    </section>
   );
 }
 
@@ -1100,23 +1405,18 @@ export default function App() {
   const [presentationState, setPresentationState] = useState(() =>
     resolvePresentationHash(window.location.hash),
   );
-  const [isCalendarOpen, setIsCalendarOpen] = useState(() => isCalendarPath(window.location.pathname));
+  const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
   const calendarEntries = useMemo(() => buildCalendarEntries(sessions), []);
   const nextSession = useMemo(
     () => calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null,
     [calendarEntries],
   );
-  const openCalendarRoute = () => {
-    if (!isCalendarPath(window.location.pathname)) {
-      window.history.pushState({}, "", CALENDAR_PATH);
-    }
-    setIsCalendarOpen(true);
+  const openRoute = (pathname) => {
+    setPathname(pathname);
+    setRoute(getAppRoute(pathname));
   };
-  const closeCalendarRoute = () => {
-    if (isCalendarPath(window.location.pathname)) {
-      window.history.pushState({}, "", "/");
-    }
-    setIsCalendarOpen(false);
+  const closeAuxRoute = () => {
+    openRoute("/");
   };
 
   useEffect(() => {
@@ -1136,7 +1436,7 @@ export default function App() {
 
   useEffect(() => {
     const syncFromHash = () => {
-      setIsCalendarOpen(isCalendarPath(window.location.pathname));
+      setRoute(getAppRoute(window.location.pathname));
       const next = resolvePresentationHash(window.location.hash);
 
       if (next?.invalidHash !== undefined) {
@@ -1160,13 +1460,13 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (!isCalendarOpen) {
+    if (route === APP_ROUTE.HOME) {
       return undefined;
     }
 
     const handleKeydown = (event) => {
       if (event.key === "Escape") {
-        closeCalendarRoute();
+        closeAuxRoute();
       }
     };
 
@@ -1174,7 +1474,7 @@ export default function App() {
     return () => {
       window.removeEventListener("keydown", handleKeydown);
     };
-  }, [isCalendarOpen]);
+  }, [route]);
 
   const openPresentation = (session, slideIndex = 0) => {
     const slides = buildSlides(session);
@@ -1190,15 +1490,76 @@ export default function App() {
     setHash(`#${session.id}`);
   };
 
-  if (isCalendarOpen) {
+  if (route === APP_ROUTE.CALENDAR) {
     return (
       <CalendarView
         calendarEntries={calendarEntries}
         nextSession={nextSession}
-        onClose={closeCalendarRoute}
+        onClose={closeAuxRoute}
       />
     );
   }
+
+  if (route === APP_ROUTE.SUBMIT_LINK) {
+    return (
+      <SubmissionScreen
+        kind="link"
+        eyebrow="Submit a link"
+        title="Add a meetup link"
+        description="A link is simply a link you are submitting that you want to be talked about generally."
+        fields={[
+          {
+            name: "title",
+            label: "Title",
+            type: "text",
+            placeholder: "Short label for the link",
+            required: true,
+          },
+          {
+            name: "url",
+            label: "Link",
+            type: "url",
+            inputMode: "url",
+            placeholder: "https://example.com",
+            required: true,
+          },
+        ]}
+        onBack={closeAuxRoute}
+      />
+    );
+  }
+
+  if (route === APP_ROUTE.SUBMIT_SPOTLIGHT) {
+    return (
+      <SubmissionScreen
+        kind="showcase"
+        eyebrow={COMMUNITY_SLOT_LABEL}
+        title="Propose a showcase"
+        description="A showcase is something you want to showcase or talk about for three to five minutes at the meetup."
+        fields={[
+          {
+            name: "title",
+            label: "Topic title",
+            type: "text",
+            placeholder: "What you want to talk about",
+            required: true,
+          },
+          {
+            name: "description",
+            label: "What you want to cover",
+            type: "textarea",
+            placeholder: "What do you want to showcase or talk about for three to five minutes?",
+            required: true,
+            rows: 6,
+          },
+        ]}
+        onBack={closeAuxRoute}
+      />
+    );
+  }
+
+  const upcomingSessions = sessions.filter(isUpcomingSession);
+  const pastSessions = sessions.filter((session) => !isUpcomingSession(session));
 
   return (
     <div className="shell">
@@ -1218,7 +1579,13 @@ export default function App() {
           </div>
         </div>
         <div className="topbar-right">
-          <button className="calendar-open-btn" onClick={openCalendarRoute}>
+          <button className="topbar-link" onClick={() => openRoute(LINK_SUBMISSION_PATH)}>
+            submit link
+          </button>
+          <button className="topbar-link" onClick={() => openRoute(SPOTLIGHT_SUBMISSION_PATH)}>
+            showcase
+          </button>
+          <button className="calendar-open-btn" onClick={() => openRoute(CALENDAR_PATH)}>
             calendar
           </button>
         </div>
@@ -1233,7 +1600,19 @@ export default function App() {
       </nav>
 
       <main className="archive">
-        {sessions.map((session) => (
+        {upcomingSessions.map((session) => (
+          <Session
+            key={session.id}
+            session={session}
+            onPresent={(targetSession) => openPresentation(targetSession, 0)}
+          />
+        ))}
+        {upcomingSessions.length > 0 && pastSessions.length > 0 && (
+          <div className="session-divider" aria-hidden="true">
+            <span>Past meetups</span>
+          </div>
+        )}
+        {pastSessions.map((session) => (
           <Session
             key={session.id}
             session={session}
@@ -1266,6 +1645,8 @@ export default function App() {
           >
             GitHub
           </a>
+          <a href={LINK_SUBMISSION_PATH}>Submit link</a>
+          <a href={SPOTLIGHT_SUBMISSION_PATH}>{COMMUNITY_SLOT_LABEL}</a>
           <a href="./topics/README.md">Meetup notes</a>
         </div>
       </footer>
