@@ -211,6 +211,13 @@ function isUpcomingSession(session) {
   return new Date(session.event.endAt).getTime() >= Date.now();
 }
 
+function getNextSubmissionMeetup(sessionList) {
+  return sessionList
+    .filter((session) => session.event)
+    .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime())
+    .find(isUpcomingSession) ?? null;
+}
+
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
@@ -774,11 +781,13 @@ function setHash(hash) {
   window.location.hash = hash;
 }
 
-function setPathname(pathname) {
+function setPathname(pathname, options = {}) {
+  const { replace = false } = options;
   if (window.location.pathname === pathname) {
     return;
   }
-  window.history.pushState({}, "", pathname);
+  const method = replace ? "replaceState" : "pushState";
+  window.history[method]({}, "", pathname);
 }
 
 function PresentationSlide({ slide, isFinale }) {
@@ -1152,9 +1161,11 @@ function Track({ track, index }) {
   );
 }
 
-function CommunityTrack({ index, items = [] }) {
+function CommunityTrack({ index, sessionId, items = [] }) {
+  const showcaseId = `showcase-${sessionId}`;
+
   return (
-    <details className="track" id="showcase" data-track="community">
+    <details className="track" id={showcaseId} data-track="community">
       <summary className="track-header">
         <h3>
           <span className="track-chevron" aria-hidden="true"></span>
@@ -1225,6 +1236,7 @@ function Session({ session, onPresent }) {
   const showcaseCount = session.showcases?.length ?? 0;
   const isUpcoming = isUpcomingSession(session);
   const totalTrackCount = session.tracks.length + 1;
+  const showcaseId = `showcase-${session.id}`;
 
   return (
     <details
@@ -1255,7 +1267,7 @@ function Session({ session, onPresent }) {
               {track.title.toLowerCase()}
             </a>
           ))}
-          <a href="#showcase" data-track="community">
+          <a href={`#${showcaseId}`} data-track="community">
             {COMMUNITY_SLOT_LABEL.toLowerCase()}
           </a>
         </nav>
@@ -1266,7 +1278,7 @@ function Session({ session, onPresent }) {
         {session.tracks.map((track, index) => (
           <Track key={track.id} track={track} index={index} />
         ))}
-        <CommunityTrack index={session.tracks.length} items={session.showcases} />
+        <CommunityTrack index={session.tracks.length} sessionId={session.id} items={session.showcases} />
       </div>
     </details>
   );
@@ -1278,6 +1290,7 @@ function SubmissionScreen({
   eyebrow,
   description,
   fields,
+  meetup,
   onBack,
 }) {
   const [values, setValues] = useState(() =>
@@ -1298,6 +1311,12 @@ function SubmissionScreen({
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    if (!meetup?.slug || !meetup?.event) {
+      setStatus("error");
+      setErrorMessage("No upcoming meetup is configured yet.");
+      return;
+    }
+
     if (kind === "link" && !isValidHttpUrl(values.url)) {
       setStatus("error");
       setErrorMessage("Enter a valid http:// or https:// link.");
@@ -1317,6 +1336,8 @@ function SubmissionScreen({
           kind,
           pageUrl,
           ...values,
+          meetupSlug: meetup.slug,
+          meetupLabel: `${meetup.date} · ${meetup.event.locationName}`,
         }),
       });
 
@@ -1378,14 +1399,20 @@ function SubmissionScreen({
             {status === "submitting" ? "submitting..." : "send to github"}
           </button>
 
-          <p className="submission-status" data-status={status}>
+          <p
+            className="submission-status"
+            data-status={status}
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
             {status === "success"
               ? "Issue created. It should now be in the repo with the correct label."
               : status === "error"
                 ? errorMessage
                 : kind === "link"
-                  ? "This creates a GitHub issue labeled link."
-                  : `This creates a GitHub issue labeled ${COMMUNITY_SLOT_LABEL.toLowerCase()}.`}
+                  ? `This creates a GitHub issue for ${meetup?.date ?? "the next meetup"} labeled link.`
+                  : `This creates a GitHub issue for ${meetup?.date ?? "the next meetup"} labeled ${COMMUNITY_SLOT_LABEL.toLowerCase()}.`}
           </p>
 
           <div className="submission-form-switch">
@@ -1407,16 +1434,17 @@ export default function App() {
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
   const calendarEntries = useMemo(() => buildCalendarEntries(sessions), []);
+  const nextMeetup = useMemo(() => getNextSubmissionMeetup(sessions), []);
   const nextSession = useMemo(
     () => calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null,
     [calendarEntries],
   );
-  const openRoute = (pathname) => {
-    setPathname(pathname);
+  const openRoute = (pathname, options = {}) => {
+    setPathname(pathname, options);
     setRoute(getAppRoute(pathname));
   };
   const closeAuxRoute = () => {
-    openRoute("/");
+    openRoute("/", { replace: true });
   };
 
   useEffect(() => {
@@ -1524,6 +1552,7 @@ export default function App() {
             required: true,
           },
         ]}
+        meetup={nextMeetup}
         onBack={closeAuxRoute}
       />
     );
@@ -1553,6 +1582,7 @@ export default function App() {
             rows: 6,
           },
         ]}
+        meetup={nextMeetup}
         onBack={closeAuxRoute}
       />
     );

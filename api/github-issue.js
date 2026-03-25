@@ -11,6 +11,10 @@ const LABEL_CONFIG = {
   },
 };
 
+function getMeetupLabelName(slug) {
+  return `meetup-${slug}`;
+}
+
 function trimString(value) {
   return typeof value === "string" ? value.trim() : "";
 }
@@ -26,14 +30,17 @@ function isValidHttpUrl(value) {
 
 function buildIssuePayload(input) {
   const submittedAt = new Date().toISOString();
+  const meetupLine = `Meetup: ${input.meetupLabel} (${input.meetupSlug})`;
+  const meetupLabelName = getMeetupLabelName(input.meetupSlug);
 
   if (input.kind === "link") {
     return {
-      title: `[Link] ${input.title}`,
-      labels: ["link"],
+      title: `[${input.meetupSlug}] [Link] ${input.title}`,
+      labels: ["link", meetupLabelName],
       body: [
         "New meetup link submission.",
         "",
+        meetupLine,
         `Title: ${input.title}`,
         `URL: ${input.url}`,
         "",
@@ -44,11 +51,12 @@ function buildIssuePayload(input) {
   }
 
   return {
-      title: `[Showcase] ${input.title}`,
-      labels: ["showcase"],
-      body: [
-        "New showcase submission.",
+    title: `[${input.meetupSlug}] [Showcase] ${input.title}`,
+    labels: ["showcase", meetupLabelName],
+    body: [
+      "New showcase submission.",
       "",
+      meetupLine,
       `Title: ${input.title}`,
       "",
       "Summary:",
@@ -61,7 +69,15 @@ function buildIssuePayload(input) {
 }
 
 async function ensureLabel({ owner, repo, token, name }) {
-  const label = LABEL_CONFIG[name];
+  const label = LABEL_CONFIG[name] ?? (
+    name.startsWith("meetup-")
+      ? {
+          color: "f4b400",
+          description: `Submissions for ${name.replace(/^meetup-/, "")}`,
+        }
+      : null
+  );
+
   if (!label) {
     return;
   }
@@ -112,6 +128,8 @@ export default async function handler(request, response) {
   const url = trimString(payload.url);
   const description = trimString(payload.description);
   const pageUrl = trimString(payload.pageUrl);
+  const meetupSlug = trimString(payload.meetupSlug);
+  const meetupLabel = trimString(payload.meetupLabel);
 
   if (kind !== "link" && kind !== "showcase") {
     response.status(400).json({ error: "Unsupported submission type." });
@@ -120,6 +138,11 @@ export default async function handler(request, response) {
 
   if (!title) {
     response.status(400).json({ error: "Title is required." });
+    return;
+  }
+
+  if (!meetupSlug || !meetupLabel) {
+    response.status(400).json({ error: "A meetup selection is required." });
     return;
   }
 
@@ -139,10 +162,13 @@ export default async function handler(request, response) {
     url,
     description,
     pageUrl,
+    meetupSlug,
+    meetupLabel,
   });
 
   try {
     await ensureLabel({ owner, repo, token, name: kind });
+    await ensureLabel({ owner, repo, token, name: getMeetupLabelName(meetupSlug) });
   } catch (error) {
     response.status(502).json({
       error: error.message || "Failed to ensure GitHub label.",

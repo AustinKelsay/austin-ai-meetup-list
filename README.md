@@ -47,6 +47,8 @@ If you want the submission forms to create GitHub issues, also set:
 - `GITHUB_ISSUES_OWNER`
 - `GITHUB_ISSUES_REPO`
 
+Under `npm run dev`, Vite now serves `/api/github-issue` locally as well, so the link and spotlight forms work on localhost once those env vars are present.
+
 ## Build
 
 ```bash
@@ -89,7 +91,7 @@ The slideshow uses hash routes like `#/slides/...`, and the helper pages use pat
   Archive-side workflow notes
 - [apps-script/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script)
   Tiny Google Apps Script reminder backend
-- [api/github-issue.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/api/github-issue.js)
+- [api/github-issue.js](./api/github-issue.js)
   Vercel function for turning form submissions into GitHub issues
 
 ## Rendering Model
