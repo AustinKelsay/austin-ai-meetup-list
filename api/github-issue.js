@@ -45,12 +45,23 @@ function getClientKey(request) {
   return forwardedFor || request.socket?.remoteAddress || "unknown";
 }
 
+function pruneSubmissionAttempts(now) {
+  for (const [key, timestamps] of submissionAttempts.entries()) {
+    const recentTimestamps = timestamps.filter((timestamp) => now - timestamp < RATE_LIMIT_WINDOW_MS);
+    if (recentTimestamps.length === 0) {
+      submissionAttempts.delete(key);
+      continue;
+    }
+    submissionAttempts.set(key, recentTimestamps);
+  }
+}
+
 function isRateLimited(request) {
   const now = Date.now();
   const key = getClientKey(request);
-  const recentAttempts = (submissionAttempts.get(key) ?? []).filter(
-    (timestamp) => now - timestamp < RATE_LIMIT_WINDOW_MS,
-  );
+  pruneSubmissionAttempts(now);
+
+  const recentAttempts = submissionAttempts.get(key) ?? [];
 
   if (recentAttempts.length >= RATE_LIMIT_MAX_REQUESTS) {
     submissionAttempts.set(key, recentAttempts);

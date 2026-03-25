@@ -1172,6 +1172,16 @@ function RouteLink({ to, onOpenRoute, children, ...props }) {
       {...props}
       href={to}
       onClick={(event) => {
+        if (
+          event.button !== 0 ||
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey ||
+          props.target === "_blank"
+        ) {
+          return;
+        }
         event.preventDefault();
         onOpenRoute(to);
       }}
@@ -1573,6 +1583,7 @@ export default function App() {
   if (route === APP_ROUTE.SUBMIT_LINK) {
     return (
       <SubmissionScreen
+        key="submit-link"
         kind="link"
         eyebrow="Submit a link"
         title="Add a meetup link"
@@ -1604,6 +1615,7 @@ export default function App() {
   if (route === APP_ROUTE.SUBMIT_SPOTLIGHT) {
     return (
       <SubmissionScreen
+        key="submit-showcase"
         kind="showcase"
         eyebrow={COMMUNITY_SLOT_LABEL}
         title="Propose a showcase"
