@@ -160,6 +160,25 @@ export const sessions = [
           },
         ],
       },
+      {
+        id: "apr-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section tracks platform decisions, acquisitions, distribution shifts, and strategic moves from major companies that could change where AI products get distribution, leverage, or control.",
+        items: [
+          {
+            title: "Meta buys Moltbook",
+            description:
+              "Jim C frames Meta's Moltbook acquisition as an agentic-commerce bet: owning an influence layer for AI agents before agents become a primary internet interface.",
+            chip: "x",
+            href: "https://x.com/uncleJim21/status/2037241016626159979",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/uncleJim21/status/2037241016626159979?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
     ],
   },
   {
