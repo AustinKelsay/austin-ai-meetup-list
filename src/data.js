@@ -110,6 +110,24 @@ export const sessions = [
           "This section covers model releases, research updates, benchmark shifts, and capability changes that affect what we should test, trust, or pay attention to next.",
         items: [
           {
+            title: "Chroma Context-1",
+            description:
+              "Chroma releases Context-1, a 20B open-source (Apache 2.0) agentic search model built on GPT-OSS-20B that retrieves and prunes documents for downstream reasoning models. Matches frontier LLM retrieval at a fraction of the cost with 400–500 tok/s on B200. Trained with RLVR on synthetic tasks across web, finance, legal, and email domains.",
+            chip: "pair",
+            href: "https://x.com/trychroma/status/2037243681988894950",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/trychroma/status/2037243681988894950?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.trychroma.com/research/context-1",
+              "https://x.com/trychroma/status/2037243685038153823",
+              "https://x.com/trychroma/status/2037243687240163693",
+              "https://x.com/trychroma/status/2037243689853161868",
+              "https://x.com/trychroma/status/2037243694894768143",
+            ],
+          },
+          {
             title: "Nemotron-3-Cascade",
             description:
               "Fresh Nemotron model release to look at for architecture, capability, and open-weight relevance.",
