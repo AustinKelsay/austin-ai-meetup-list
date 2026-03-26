@@ -123,12 +123,17 @@ export const sessions = [
           {
             title: "Composer 2 / Kimi K2.5 drama",
             description:
-              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning.",
+              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
             chip: "pair",
             href: "https://x.com/ns123abc/status/2035058399067435474",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
+            },
             linkPair: [
               "https://x.com/ns123abc/status/2035058399067435474",
               "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+              "https://x.com/fleetwood___/status/2037117778503626937",
             ],
           },
           {
