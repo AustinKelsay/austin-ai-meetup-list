@@ -90,6 +90,17 @@ export const sessions = [
               href: "https://twitter.com/ThrillerX_/status/2036864088341360670?ref_src=twsrc%5Etfw",
             },
           },
+          {
+            title: "Opencode remote sandboxes",
+            description:
+              "Remote sandboxes in Opencode look like a useful direction for running agent work outside the local machine.",
+            chip: "x",
+            href: "https://x.com/i/status/2036924361379037224",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/i/status/2036924361379037224?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
       {
