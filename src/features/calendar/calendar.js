@@ -5,15 +5,13 @@ import {
 } from "../../lib/meetup-ui.js";
 import { nextMeetupFromSessions } from "../../meetups.js";
 
-function createCalendarEntry(session, eventOverride) {
-  const event = eventOverride ?? session.event;
-
+function createCalendarEntry(session) {
   return {
     id: session.id,
     kind: "authored",
     slug: session.slug,
     detailsHref: `/#${session.id}`,
-    event,
+    event: session.event,
   };
 }
 

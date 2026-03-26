@@ -69,6 +69,17 @@ export const sessions = [
             },
           },
           {
+            title: "Chrome DevTools MCP",
+            description:
+              "Chrome DevTools now exposes an MCP path for debugging live browser sessions, with Addy Osmani framing the practical workflow.",
+            chip: "pair",
+            href: "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+            linkPair: [
+              "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+              "https://x.com/addyosmani/status/2032875051830358197",
+            ],
+          },
+          {
             title: "OpenAgents Autopilot",
             description:
               "New OpenAgents product angle: passively sell compute and get paid in bitcoin.",

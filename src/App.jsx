@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { sessions } from "./data.js";
 import { APP_ROUTE } from "./app/constants.js";
 import { getAppRoute, setHash, setPathname } from "./app/routes.js";
@@ -21,12 +21,10 @@ export default function App() {
     resolvePresentationHash(sessions, window.location.hash),
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
-  const calendarEntries = useMemo(() => buildCalendarEntries(sessions), []);
-  const nextMeetup = useMemo(() => getNextSubmissionMeetup(sessions), []);
-  const nextSession = useMemo(
-    () => calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null,
-    [calendarEntries],
-  );
+  const calendarEntries = buildCalendarEntries(sessions);
+  const nextMeetup = getNextSubmissionMeetup(sessions);
+  const nextSession =
+    calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null;
 
   const openRoute = (pathname, options = {}) => {
     setPathname(pathname, options);

@@ -1,5 +1,6 @@
 import { COMMUNITY_SLOT_LABEL, ISSUE_SUBMISSION_ENDPOINT } from "../../app/constants.js";
 import { isValidHttpUrl } from "../../lib/meetup-ui.js";
+import { areValidSubmissionLinks } from "./links.js";
 
 export async function submitIssueSubmission({ kind, values, website, pageUrl }) {
   const response = await fetch(ISSUE_SUBMISSION_ENDPOINT, {
@@ -32,8 +33,8 @@ export function getSubmissionIdleMessage(kind, meetupDate) {
 }
 
 export function validateSubmissionInput(kind, values) {
-  if (kind === "link" && !isValidHttpUrl(values.url)) {
-    return "Enter a valid http:// or https:// link.";
+  if (kind === "link" && !areValidSubmissionLinks(values.urls, isValidHttpUrl)) {
+    return "Enter one or more valid http:// or https:// links, one per line.";
   }
 
   return "";

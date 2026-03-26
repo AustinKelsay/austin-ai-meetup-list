@@ -1,5 +1,6 @@
 import { sessions } from "../src/data.js";
 import { nextMeetupFromSessions } from "../src/meetups.js";
+import { parseSubmissionLinks } from "../src/features/submissions/links.js";
 
 const DEFAULT_REPO_OWNER = "AustinKelsay";
 const DEFAULT_REPO_NAME = "austin-ai-meetup-list";
@@ -16,10 +17,6 @@ function getMeetupLabel(session) {
   return `${session.date} · ${session.event.locationName}`;
 }
 
-function getMeetupLabelName(slug) {
-  return `meetup-${slug}`;
-}
-
 function isValidHttpUrl(value) {
   try {
     const url = new URL(value);
@@ -29,21 +26,31 @@ function isValidHttpUrl(value) {
   }
 }
 
+function formatLinksForIssue(links) {
+  if (links.length === 1) {
+    return [`URL: ${links[0]}`];
+  }
+
+  return [
+    "Links:",
+    ...links.map((link) => `- ${link}`),
+  ];
+}
+
 function buildIssuePayload(input) {
   const submittedAt = new Date().toISOString();
   const meetupLine = `Meetup: ${input.meetupLabel} (${input.meetupSlug})`;
-  const meetupLabelName = getMeetupLabelName(input.meetupSlug);
 
   if (input.kind === "link") {
     return {
       title: `[${input.meetupSlug}] [Link] ${input.title}`,
-      labels: ["link", meetupLabelName],
+      labels: ["link"],
       body: [
         "New meetup link submission.",
         "",
         meetupLine,
         `Title: ${input.title}`,
-        `URL: ${input.url}`,
+        ...formatLinksForIssue(input.links),
         "",
         `Submitted from: ${input.pageUrl || "unknown"}`,
         `Submitted at: ${submittedAt}`,
@@ -53,7 +60,7 @@ function buildIssuePayload(input) {
 
   return {
     title: `[${input.meetupSlug}] [Showcase] ${input.title}`,
-    labels: ["showcase", meetupLabelName],
+    labels: ["showcase"],
     body: [
       "New showcase submission.",
       "",
@@ -87,10 +94,12 @@ export default async function handler(request, response) {
   const payload = request.body ?? {};
   const kind = trimString(payload.kind);
   const title = trimString(payload.title);
+  const urls = trimString(payload.urls);
   const url = trimString(payload.url);
   const description = trimString(payload.description);
   const pageUrl = trimString(payload.pageUrl);
   const website = trimString(payload.website);
+  const links = parseSubmissionLinks(urls || url);
 
   if (website) {
     response.status(400).json({ error: "Invalid submission." });
@@ -113,8 +122,8 @@ export default async function handler(request, response) {
     return;
   }
 
-  if (kind === "link" && !isValidHttpUrl(url)) {
-    response.status(400).json({ error: "A valid link is required." });
+  if (kind === "link" && (!links.length || links.some((link) => !isValidHttpUrl(link)))) {
+    response.status(400).json({ error: "One or more valid links are required." });
     return;
   }
 
@@ -126,7 +135,7 @@ export default async function handler(request, response) {
   const issuePayload = buildIssuePayload({
     kind,
     title,
-    url,
+    links,
     description,
     pageUrl,
     meetupSlug: meetup.slug,
