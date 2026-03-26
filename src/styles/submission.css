@@ -1,0 +1,147 @@
+.submission-screen {
+  min-height: 100vh;
+  padding: 1.2rem min(3vw, 1.5rem) 2rem;
+  background:
+    radial-gradient(circle at top left, rgba(125, 183, 255, 0.09), transparent 24%),
+    linear-gradient(180deg, rgba(9, 20, 31, 0.98), rgba(5, 13, 21, 0.98));
+}
+
+.submission-header,
+.submission-layout {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+}
+
+.submission-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
+  box-shadow: var(--shadow);
+}
+
+.submission-header h2 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 1.04;
+}
+
+.submission-layout {
+  display: grid;
+  gap: 1rem;
+  max-width: 560px;
+}
+
+.submission-form {
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(6, 15, 23, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.submission-form {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.submission-field {
+  display: grid;
+  gap: 0.42rem;
+}
+
+.submission-field span {
+  color: var(--text-sub);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.submission-field input,
+.submission-field textarea,
+.submission-form button {
+  width: 100%;
+  border-radius: 1rem;
+  font-family: var(--font-mono);
+}
+
+.submission-field input,
+.submission-field textarea {
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  background: rgba(4, 12, 20, 0.72);
+  color: var(--text);
+  resize: vertical;
+}
+
+.submission-field input::placeholder,
+.submission-field textarea::placeholder {
+  color: var(--muted);
+}
+
+.submission-field input:focus-visible,
+.submission-field textarea:focus-visible,
+.submission-form button:focus-visible {
+  outline: none;
+  border-color: rgba(125, 183, 255, 0.48);
+  box-shadow: 0 0 0 2px rgba(125, 183, 255, 0.18);
+}
+
+.submission-form button {
+  min-height: 3rem;
+  border: 1px solid rgba(125, 183, 255, 0.28);
+  background: linear-gradient(180deg, rgba(125, 183, 255, 0.18), rgba(125, 183, 255, 0.08));
+  color: #b7d5ff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submission-form button:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(180deg, rgba(125, 183, 255, 0.24), rgba(125, 183, 255, 0.12));
+  border-color: rgba(125, 183, 255, 0.42);
+}
+
+.submission-form button:disabled {
+  cursor: wait;
+  opacity: 0.85;
+}
+
+.submission-status {
+  min-height: 1.4rem;
+  font-size: 0.82rem;
+}
+
+.submission-status[data-status="success"] {
+  color: #9fe4c6;
+}
+
+.submission-status[data-status="error"] {
+  color: #ff9e9e;
+}
+
+.submission-form-switch {
+  text-align: center;
+  padding-top: 0.25rem;
+}
+
+.submission-form-switch a {
+  color: var(--muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.submission-form-switch a:hover {
+  color: var(--accent);
+}
+

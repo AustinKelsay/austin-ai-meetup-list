@@ -1,0 +1,440 @@
+.session-index {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(7, 16, 24, 0.72);
+  overflow-x: auto;
+}
+
+.index-link,
+.track-nav a {
+  color: var(--accent-dim);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.index-link {
+  padding: 0.32rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(71, 243, 170, 0.03);
+  font-size: 0.78rem;
+}
+
+.archive {
+  display: grid;
+  gap: 1rem;
+}
+
+.session-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.15rem 0 0.1rem;
+  color: rgba(169, 190, 181, 0.82);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.session-divider::before,
+.session-divider::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, rgba(71, 243, 170, 0.06), rgba(71, 243, 170, 0.3));
+}
+
+.session-divider::after {
+  background: linear-gradient(90deg, rgba(71, 243, 170, 0.3), rgba(71, 243, 170, 0.06));
+}
+
+.session-divider span {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(71, 243, 170, 0.14);
+  border-radius: 999px;
+  background: rgba(71, 243, 170, 0.04);
+}
+
+.reminder-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem 1.4rem;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at top right, rgba(71, 243, 170, 0.08), transparent 28%),
+    linear-gradient(180deg, rgba(8, 18, 28, 0.94), rgba(6, 14, 22, 0.9));
+  box-shadow: var(--shadow);
+}
+
+.reminder-eyebrow,
+.reminder-next span {
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.reminder-copy h2 {
+  margin: 0.15rem 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.reminder-blurb,
+.reminder-help {
+  margin: 0;
+  color: var(--text-sub);
+  line-height: 1.6;
+}
+
+.reminder-next {
+  display: grid;
+  gap: 0.18rem;
+  margin: 1.1rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 0.88rem;
+}
+
+.reminder-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.7rem;
+  align-self: start;
+}
+
+.reminder-form input,
+.reminder-form button {
+  min-height: 3rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+}
+
+.reminder-form input {
+  padding: 0 1rem;
+  border: 1px solid var(--line);
+  background: rgba(4, 12, 20, 0.72);
+  color: var(--text);
+}
+
+.reminder-form input::placeholder {
+  color: var(--muted);
+}
+
+.reminder-form input:focus-visible,
+.reminder-form button:focus-visible,
+.session-event-actions a:focus-visible {
+  outline: none;
+  border-color: rgba(71, 243, 170, 0.54);
+  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.2);
+}
+
+.reminder-form button,
+.session-event-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border: 1px solid rgba(71, 243, 170, 0.28);
+  background: linear-gradient(180deg, rgba(71, 243, 170, 0.16), rgba(71, 243, 170, 0.08));
+  color: var(--accent);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease,
+    box-shadow 160ms ease, color 160ms ease;
+}
+
+.reminder-form button {
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.reminder-form button:disabled {
+  cursor: wait;
+  opacity: 0.85;
+}
+
+.reminder-form button:hover,
+.session-event-actions a:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(180deg, rgba(71, 243, 170, 0.22), rgba(71, 243, 170, 0.12));
+  border-color: rgba(71, 243, 170, 0.42);
+}
+
+.reminder-help {
+  grid-column: 1 / -1;
+  font-size: 0.8rem;
+}
+
+.reminder-help {
+  min-height: 1.4rem;
+}
+
+.reminder-success {
+  display: grid;
+  gap: 0.45rem;
+  align-self: start;
+  padding: 1rem 1.05rem;
+  border: 1px solid rgba(71, 243, 170, 0.3);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at top left, rgba(71, 243, 170, 0.1), transparent 34%),
+    rgba(7, 19, 28, 0.92);
+  box-shadow: inset 0 0 0 1px rgba(71, 243, 170, 0.05);
+}
+
+.reminder-success-kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.reminder-success h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.05;
+}
+
+.reminder-success p {
+  margin: 0;
+  color: var(--text-sub);
+  line-height: 1.55;
+}
+
+.reminder-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 2.45rem;
+  margin-top: 0.25rem;
+  padding: 0 0.9rem;
+  border: 1px solid rgba(71, 243, 170, 0.28);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(71, 243, 170, 0.16), rgba(71, 243, 170, 0.08));
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.reminder-reset-btn:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(180deg, rgba(71, 243, 170, 0.22), rgba(71, 243, 170, 0.12));
+  border-color: rgba(71, 243, 170, 0.42);
+}
+
+.reminder-reset-btn:focus-visible {
+  outline: none;
+  border-color: rgba(71, 243, 170, 0.54);
+  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.2);
+}
+
+.reminder-panel--screen {
+  max-width: 980px;
+  margin-bottom: 0.4rem;
+}
+
+.reminder-transport {
+  display: none;
+}
+
+.calendar-screen {
+  min-height: 100vh;
+  padding: 1.2rem min(3vw, 1.5rem) 2rem;
+  background:
+    radial-gradient(circle at top left, rgba(71, 243, 170, 0.08), transparent 24%),
+    linear-gradient(180deg, rgba(9, 20, 31, 0.98), rgba(5, 13, 21, 0.98));
+}
+
+.calendar-screen-header {
+  width: min(1180px, 100%);
+  margin: 0 auto 1.5rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.calendar-eyebrow {
+  margin: 0 0 0.2rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.calendar-screen-header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+.calendar-blurb {
+  margin: 0.45rem 0 0;
+  max-width: 34rem;
+  color: var(--text-sub);
+  line-height: 1.55;
+}
+
+.calendar-screen-body {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1.4rem;
+}
+
+.calendar-list {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.calendar-event-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(6, 15, 23, 0.92);
+}
+
+.calendar-event-card:first-child {
+  border-color: rgba(71, 243, 170, 0.32);
+  background:
+    radial-gradient(circle at top left, rgba(71, 243, 170, 0.05), transparent 40%),
+    rgba(6, 15, 23, 0.92);
+}
+
+.calendar-event-card[data-kind="generated"] {
+  background:
+    linear-gradient(180deg, rgba(10, 22, 34, 0.94), rgba(6, 15, 23, 0.9));
+  border-style: dashed;
+}
+
+.calendar-event-date {
+  margin: 0 0 0.4rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.calendar-event-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.05;
+}
+
+.calendar-event-summary {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.calendar-event-meta,
+.calendar-event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.calendar-event-meta {
+  margin-top: 0.8rem;
+}
+
+.calendar-event-meta span {
+  padding: 0.24rem 0.52rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(71, 243, 170, 0.03);
+  color: var(--text-sub);
+  font-size: 0.72rem;
+}
+
+.calendar-event-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.6rem;
+  width: fit-content;
+  min-height: 2rem;
+  padding: 0 0.72rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.calendar-event-status--authored {
+  color: var(--accent);
+  border-color: rgba(71, 243, 170, 0.24);
+  background: rgba(71, 243, 170, 0.08);
+}
+
+.calendar-event-status--generated {
+  color: #ffd38d;
+  border-color: rgba(255, 185, 87, 0.34);
+  background: rgba(255, 185, 87, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 185, 87, 0.06);
+}
+
+.calendar-event-actions {
+  align-content: flex-start;
+  justify-content: flex-end;
+}
+
+.calendar-event-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0 1rem;
+  border: 1px solid rgba(71, 243, 170, 0.24);
+  border-radius: 999px;
+  background: rgba(71, 243, 170, 0.05);
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.calendar-event-actions a:hover {
+  transform: translateY(-1px);
+  background: rgba(71, 243, 170, 0.1);
+  border-color: rgba(71, 243, 170, 0.4);
+}
+
