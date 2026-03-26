@@ -1,4 +1,5 @@
 import { sessions } from "../src/data.js";
+import { nextMeetupFromSessions } from "../src/meetups.js";
 
 const DEFAULT_REPO_OWNER = "AustinKelsay";
 const DEFAULT_REPO_NAME = "austin-ai-meetup-list";
@@ -31,9 +32,7 @@ function getFetchTimeoutMs() {
 }
 
 function getNextMeetup() {
-  return sessions
-    .filter((session) => session.event && new Date(session.event.endAt).getTime() >= Date.now())
-    .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime())[0] ?? null;
+  return nextMeetupFromSessions(sessions);
 }
 
 function getMeetupLabel(session) {

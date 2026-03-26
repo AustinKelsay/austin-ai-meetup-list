@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { sessions } from "./data.js";
+import { nextMeetupFromSessions } from "./meetups.js";
 
 const TRACK_CATEGORY = {
   "Local Builds & Projects": "local-builds",
@@ -212,10 +213,7 @@ function isUpcomingSession(session) {
 }
 
 function getNextSubmissionMeetup(sessionList) {
-  return sessionList
-    .filter((session) => session.event)
-    .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime())
-    .find(isUpcomingSession) ?? null;
+  return nextMeetupFromSessions(sessionList);
 }
 
 function isValidEmail(value) {
@@ -1191,7 +1189,7 @@ function RouteLink({ to, onOpenRoute, children, ...props }) {
   );
 }
 
-function CommunityTrack({ index, sessionId, items = [], onOpenRoute }) {
+function CommunityTrack({ index, sessionId, items = [], acceptsSubmissions, onOpenRoute }) {
   const showcaseId = `showcase-${sessionId}`;
 
   return (
@@ -1223,8 +1221,14 @@ function CommunityTrack({ index, sessionId, items = [], onOpenRoute }) {
           <p className="community-slot-eyebrow">
             {items.length ? "At the end of the meetup" : "Open slot at the end"}
           </p>
-          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a showcase</RouteLink>
-          <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a regular link</RouteLink>
+          {acceptsSubmissions ? (
+            <>
+              <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a showcase</RouteLink>
+              <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a regular link</RouteLink>
+            </>
+          ) : (
+            <span>Submissions are closed for this meetup.</span>
+          )}
         </div>
       </div>
     </details>
@@ -1258,7 +1262,7 @@ function SessionEventBar({ session }) {
 }
 
 // Session owns summary metadata like total topic count and anchor navigation.
-function Session({ session, onPresent, onOpenRoute }) {
+function Session({ session, onPresent, onOpenRoute, nextMeetupId }) {
   const topicCount = session.tracks.reduce(
     (sum, track) => sum + track.items.length,
     0,
@@ -1312,6 +1316,7 @@ function Session({ session, onPresent, onOpenRoute }) {
           index={session.tracks.length}
           sessionId={session.id}
           items={session.showcases}
+          acceptsSubmissions={session.id === nextMeetupId}
           onOpenRoute={onOpenRoute}
         />
       </div>
@@ -1665,15 +1670,15 @@ export default function App() {
           </div>
         </div>
         <div className="topbar-right">
-          <button className="topbar-link" onClick={() => openRoute(LINK_SUBMISSION_PATH)}>
+          <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={openRoute} className="topbar-link">
             submit link
-          </button>
-          <button className="topbar-link" onClick={() => openRoute(SPOTLIGHT_SUBMISSION_PATH)}>
+          </RouteLink>
+          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={openRoute} className="topbar-link">
             showcase
-          </button>
-          <button className="calendar-open-btn" onClick={() => openRoute(CALENDAR_PATH)}>
+          </RouteLink>
+          <RouteLink to={CALENDAR_PATH} onOpenRoute={openRoute} className="calendar-open-btn">
             calendar
-          </button>
+          </RouteLink>
         </div>
       </header>
 
@@ -1692,6 +1697,7 @@ export default function App() {
             session={session}
             onPresent={(targetSession) => openPresentation(targetSession, 0)}
             onOpenRoute={openRoute}
+            nextMeetupId={nextMeetup?.id ?? null}
           />
         ))}
         {upcomingSessions.length > 0 && pastSessions.length > 0 && (
@@ -1705,6 +1711,7 @@ export default function App() {
             session={session}
             onPresent={(targetSession) => openPresentation(targetSession, 0)}
             onOpenRoute={openRoute}
+            nextMeetupId={nextMeetup?.id ?? null}
           />
         ))}
       </main>
