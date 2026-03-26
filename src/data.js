@@ -131,6 +131,17 @@ export const sessions = [
               href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
             },
           },
+          {
+            title: "GPT-5.4 mini and nano",
+            description:
+              "Artificial Analysis highlights OpenAI's cheaper GPT-5.4 mini and nano variants, with nano standing out on price-performance.",
+            chip: "bench",
+            href: "https://x.com/ArtificialAnlys/status/2037043552405119395",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2037043552405119395?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
     ],
