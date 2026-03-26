@@ -6,6 +6,14 @@
     {
       "source": "/calendar",
       "destination": "/index.html"
+    },
+    {
+      "source": "/submit-link",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/submit-spotlight",
+      "destination": "/index.html"
     }
   ]
 }
