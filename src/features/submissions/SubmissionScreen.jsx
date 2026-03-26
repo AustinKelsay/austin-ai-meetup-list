@@ -6,7 +6,7 @@ import {
   validateSubmissionInput,
 } from "./api.js";
 import RouteLink from "../../components/RouteLink.jsx";
-import { LINK_SUBMISSION_PATH, SPOTLIGHT_SUBMISSION_PATH } from "../../app/constants.js";
+import { LINK_SUBMISSION_PATH, SHOWCASE_SUBMISSION_PATH } from "../../app/constants.js";
 
 function getInitialValues(fields) {
   return Object.fromEntries(fields.map((field) => [field.name, ""]));
@@ -124,7 +124,7 @@ export default function SubmissionScreen({ kind, meetup, onBack, onOpenRoute }) 
 
           <div className="submission-form-switch">
             {kind === "link" ? (
-              <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
+              <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
                 or propose a showcase instead →
               </RouteLink>
             ) : (

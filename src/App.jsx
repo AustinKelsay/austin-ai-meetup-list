@@ -127,7 +127,7 @@ export default function App() {
     );
   }
 
-  if (route === APP_ROUTE.SUBMIT_SPOTLIGHT) {
+  if (route === APP_ROUTE.SUBMIT_SHOWCASE) {
     return (
       <SubmissionScreen
         kind="showcase"

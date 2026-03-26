@@ -12,7 +12,7 @@ export const BIWEEKLY_INTERVAL_DAYS = 14;
 export const DEFAULT_CALENDAR_EVENT_COUNT = 4;
 export const CALENDAR_PATH = "/calendar";
 export const LINK_SUBMISSION_PATH = "/submit-link";
-export const SPOTLIGHT_SUBMISSION_PATH = "/submit-spotlight";
+export const SHOWCASE_SUBMISSION_PATH = "/submit-showcase";
 export const ISSUE_SUBMISSION_ENDPOINT = "/api/github-issue";
 export const COMMUNITY_SLOT_LABEL = "Showcase";
 
@@ -20,5 +20,5 @@ export const APP_ROUTE = {
   HOME: "home",
   CALENDAR: "calendar",
   SUBMIT_LINK: "submit-link",
-  SUBMIT_SPOTLIGHT: "submit-spotlight",
+  SUBMIT_SHOWCASE: "submit-showcase",
 };

@@ -1,4 +1,4 @@
-import { COMMUNITY_SLOT_LABEL, LINK_SUBMISSION_PATH, SPOTLIGHT_SUBMISSION_PATH, TRACK_CATEGORY } from "../../app/constants.js";
+import { COMMUNITY_SLOT_LABEL, LINK_SUBMISSION_PATH, SHOWCASE_SUBMISSION_PATH, TRACK_CATEGORY } from "../../app/constants.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import {
   buildGoogleCalendarUrl,
@@ -66,7 +66,7 @@ function CommunityTrack({ index, sessionId, items = [], acceptsSubmissions, onOp
           </p>
           {acceptsSubmissions ? (
             <>
-              <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a showcase</RouteLink>
+              <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a showcase</RouteLink>
               <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>submit a regular link</RouteLink>
             </>
           ) : (
@@ -183,7 +183,7 @@ export default function ArchiveView({ sessions, nextMeetupId, onOpenRoute, onOpe
           <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
             submit link
           </RouteLink>
-          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
+          <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
             showcase
           </RouteLink>
           <RouteLink to="/calendar" onOpenRoute={onOpenRoute} className="calendar-open-btn">
@@ -238,7 +238,7 @@ export default function ArchiveView({ sessions, nextMeetupId, onOpenRoute, onOpe
             GitHub
           </a>
           <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>Submit link</RouteLink>
-          <RouteLink to={SPOTLIGHT_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
+          <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
             {COMMUNITY_SLOT_LABEL}
           </RouteLink>
           <a href="./topics/README.md">Meetup notes</a>

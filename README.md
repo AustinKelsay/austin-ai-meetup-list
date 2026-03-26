@@ -22,7 +22,7 @@ It also has three auxiliary pages:
 
 - `/calendar` for upcoming meetup slots
 - `/submit-link` for regular link submissions
-- `/submit-spotlight` for short member-led showcase proposals
+- `/submit-showcase` for short member-led showcase proposals
 
 The slideshow is not a separate data source. It is built from the same session data that powers the archive page.
 
@@ -47,7 +47,7 @@ If you want the submission forms to create GitHub issues, also set:
 - `GITHUB_ISSUES_OWNER`
 - `GITHUB_ISSUES_REPO`
 
-Under `npm run dev`, Vite now serves `/api/github-issue` locally as well, so the link and spotlight forms work on localhost once those env vars are present.
+Under `npm run dev`, Vite now serves `/api/github-issue` locally as well, so the link and showcase forms work on localhost once those env vars are present.
 
 ## Build
 

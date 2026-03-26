@@ -2,7 +2,7 @@ import {
   APP_ROUTE,
   CALENDAR_PATH,
   LINK_SUBMISSION_PATH,
-  SPOTLIGHT_SUBMISSION_PATH,
+  SHOWCASE_SUBMISSION_PATH,
 } from "./constants.js";
 import { slugify } from "../lib/meetup-ui.js";
 
@@ -72,8 +72,8 @@ export function getAppRoute(pathname) {
     return APP_ROUTE.SUBMIT_LINK;
   }
 
-  if (pathname === SPOTLIGHT_SUBMISSION_PATH) {
-    return APP_ROUTE.SUBMIT_SPOTLIGHT;
+  if (pathname === SHOWCASE_SUBMISSION_PATH) {
+    return APP_ROUTE.SUBMIT_SHOWCASE;
   }
 
   return APP_ROUTE.HOME;
