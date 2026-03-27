@@ -179,6 +179,25 @@ export const sessions = [
         ],
       },
       {
+        id: "apr-security",
+        title: "Security",
+        purpose:
+          "This section is where we look at attacks, exploits, abuse patterns, and defensive ideas so we stay sharp about how these systems can be manipulated in the real world.",
+        items: [
+          {
+            title: "LiteLLM supply-chain attack",
+            description:
+              "Karpathy flags the LiteLLM PyPI compromise as a worst-case supply-chain failure, with credential exfiltration risk spreading through transitive dependencies like dspy.",
+            chip: "x",
+            href: "https://x.com/karpathy/status/2036487306585268612",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/karpathy/status/2036487306585268612?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
         id: "apr-big-tech-moves",
         title: "Big Tech Moves",
         purpose:
