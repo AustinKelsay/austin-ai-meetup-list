@@ -450,6 +450,13 @@
   text-align: left;
 }
 
+.pres-slide--track .pres-notes {
+  text-align: center;
+  border-left: none;
+  border-radius: var(--radius);
+  margin-inline: auto;
+}
+
 /* Link cards (presentation mode) */
 
 .link-card {

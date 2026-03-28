@@ -1,5 +1,6 @@
 export const TRACK_CATEGORY = {
   "Local Builds & Projects": "local-builds",
+  SHIPPED: "shipped",
   "Agent Infrastructure": "agent-infra",
   "Models & Research": "models",
   Security: "security",

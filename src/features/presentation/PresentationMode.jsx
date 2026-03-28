@@ -42,6 +42,7 @@ function PresentationSlide({ slide, isFinale }) {
         </span>
         <h2 className="pres-track-title">{slide.track.title}</h2>
         {slide.track.purpose ? <p className="pres-track-purpose">{slide.track.purpose}</p> : null}
+        {slide.track.sectionNote ? <p className="pres-notes">{slide.track.sectionNote}</p> : null}
         <span className="pres-topic-badge">
           {slide.track.items.length} topic{slide.track.items.length !== 1 ? "s" : ""}
         </span>

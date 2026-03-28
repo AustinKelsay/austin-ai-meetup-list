@@ -16,10 +16,11 @@
 //
 // Standard track taxonomy for recurring club sessions:
 // 1. Local Builds & Projects
-// 2. Agent Infrastructure
-// 3. Models & Research
-// 4. Security
-// 5. Big Tech Moves
+// 2. SHIPPED
+// 3. Agent Infrastructure
+// 4. Models & Research
+// 5. Security
+// 6. Big Tech Moves
 export const sessions = [
   {
     id: "session-2026-04-01",
@@ -51,6 +52,15 @@ export const sessions = [
       ctaHref: "https://austinai.club",
     },
     tracks: [
+      {
+        id: "apr-shipped",
+        title: "SHIPPED",
+        purpose:
+          "Too many vibe coders burn tokens and ship nothing. What did you actually get into the world this month?",
+        sectionNote:
+          "If you're doing a showcase later, no need to spoil it here — save the good stuff.",
+        items: [],
+      },
       {
         id: "apr-agent-infrastructure",
         title: "Agent Infrastructure",
@@ -621,6 +631,18 @@ export const sessions = [
               "Interesting agent assistant framework built by Anthony of Maple with a novel memory and tool-calling architecture.",
             chip: "github",
             href: "https://github.com/AnthonyRonning/sage",
+          },
+          {
+            title: "visibible",
+            description:
+              "Announced from the meetup: a new project from plebdev, with launch posts on X and a Primal profile to follow along.",
+            chip: "launch",
+            href: "https://x.com/bitcoinplebdev/status/2035102011746644051",
+            linkPair: [
+              "https://x.com/bitcoinplebdev/status/2035102011746644051",
+              "https://x.com/bitcoinplebdev/status/2036172958964535544",
+              "https://primal.net/p/nprofile1qqswamncyflsf6hqt5w0xwxm7ww5v2hnvqufhrgfeaahkvkjz65hd0cd2xzj0",
+            ],
           },
           {
             title: "plebdev's adversarial AI course",
