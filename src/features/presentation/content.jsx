@@ -1,3 +1,291 @@
+function toArray(value) {
+  if (!value) {
+    return [];
+  }
+
+  return Array.isArray(value) ? value : [value];
+}
+
+function parseUrl(href) {
+  try {
+    return new URL(href);
+  } catch {
+    return null;
+  }
+}
+
+function getTweetMatch(href) {
+  const url = parseUrl(href);
+  if (!url) {
+    return null;
+  }
+
+  const host = url.hostname.replace(/^www\./, "");
+  if (host !== "x.com" && host !== "twitter.com") {
+    return null;
+  }
+
+  const parts = url.pathname.split("/").filter(Boolean);
+  const statusIndex = parts.findIndex((part) => part === "status");
+  if (statusIndex === -1 || !parts[statusIndex + 1]) {
+    return null;
+  }
+
+  return {
+    author: statusIndex > 0 ? parts[statusIndex - 1] : "i",
+    id: parts[statusIndex + 1],
+  };
+}
+
+function getTweetKey(href) {
+  const match = getTweetMatch(href);
+  return match ? `tweet:${match.id}` : null;
+}
+
+function buildTweetEmbed(href) {
+  const match = getTweetMatch(href);
+  if (!match) {
+    return null;
+  }
+
+  return {
+    type: "tweet",
+    href: `https://twitter.com/${match.author}/status/${match.id}?ref_src=twsrc%5Etfw`,
+  };
+}
+
+function getYoutubeMatch(href) {
+  const url = parseUrl(href);
+  if (!url) {
+    return null;
+  }
+
+  const host = url.hostname.replace(/^www\./, "");
+  let videoId = "";
+
+  if (host === "youtu.be") {
+    videoId = url.pathname.split("/").filter(Boolean)[0] ?? "";
+  } else if (host === "youtube.com" || host === "m.youtube.com") {
+    if (url.pathname === "/watch") {
+      videoId = url.searchParams.get("v") ?? "";
+    } else if (url.pathname.startsWith("/embed/") || url.pathname.startsWith("/shorts/")) {
+      videoId = url.pathname.split("/").filter(Boolean)[1] ?? "";
+    }
+  }
+
+  if (!videoId) {
+    return null;
+  }
+
+  return { url, videoId };
+}
+
+function getVideoKey(href) {
+  const match = getYoutubeMatch(href);
+  return match ? `youtube:${match.videoId}` : null;
+}
+
+function buildYoutubeEmbed(href) {
+  const match = getYoutubeMatch(href);
+  if (!match) {
+    return null;
+  }
+
+  const embedUrl = new URL(`https://www.youtube.com/embed/${match.videoId}`);
+  for (const [key, value] of match.url.searchParams.entries()) {
+    if (key === "v") {
+      continue;
+    }
+
+    if (key === "t") {
+      embedUrl.searchParams.set("start", value);
+      continue;
+    }
+
+    embedUrl.searchParams.set(key, value);
+  }
+
+  return {
+    href,
+    embedHref: embedUrl.toString(),
+    title: "Embedded YouTube video",
+    caption: "Video",
+  };
+}
+
+function getImageKey(href) {
+  const url = parseUrl(href);
+  if (!url) {
+    return null;
+  }
+
+  if (!/\.(avif|gif|jpe?g|png|svg|webp)$/i.test(url.pathname)) {
+    return null;
+  }
+
+  return `image:${url.origin}${url.pathname}`;
+}
+
+function buildImageAsset(href) {
+  if (!getImageKey(href)) {
+    return null;
+  }
+
+  return {
+    src: href,
+    href,
+    caption: "Image",
+  };
+}
+
+function getLinkKey(href) {
+  const tweetKey = getTweetKey(href);
+  if (tweetKey) {
+    return tweetKey;
+  }
+
+  const videoKey = getVideoKey(href);
+  if (videoKey) {
+    return videoKey;
+  }
+
+  const imageKey = getImageKey(href);
+  if (imageKey) {
+    return imageKey;
+  }
+
+  const url = parseUrl(href);
+  return url ? `${url.origin}${url.pathname}${url.search}` : href;
+}
+
+export function getPresentationItemMedia(item) {
+  const embeds = [];
+  const videos = [];
+  const images = [];
+  const consumedLinks = new Set();
+  const seenEmbeds = new Set();
+  const seenVideos = new Set();
+  const seenImages = new Set();
+
+  const addEmbed = (embed) => {
+    if (!embed?.href) {
+      return;
+    }
+
+    const key = getTweetKey(embed.href) ?? embed.href;
+    if (seenEmbeds.has(key)) {
+      return;
+    }
+
+    seenEmbeds.add(key);
+    embeds.push(embed);
+    consumedLinks.add(key);
+  };
+
+  const addVideo = (video) => {
+    if (!video?.embedHref) {
+      return;
+    }
+
+    const key = getVideoKey(video.href ?? video.embedHref) ?? video.embedHref;
+    if (seenVideos.has(key)) {
+      return;
+    }
+
+    seenVideos.add(key);
+    videos.push(video);
+    if (video.href) {
+      consumedLinks.add(key);
+    }
+  };
+
+  const addImage = (image) => {
+    if (!image?.src) {
+      return;
+    }
+
+    const key = getImageKey(image.href ?? image.src) ?? image.src;
+    if (seenImages.has(key)) {
+      return;
+    }
+
+    seenImages.add(key);
+    images.push(image);
+    if (image.href || image.src) {
+      consumedLinks.add(key);
+    }
+  };
+
+  if (!item.suppressImages) {
+    [...toArray(item.images), ...toArray(item.image)].forEach(addImage);
+  }
+
+  if (!item.suppressVideos) {
+    [...toArray(item.videos), ...toArray(item.video)].forEach(addVideo);
+  }
+
+  if (!item.suppressXEmbeds) {
+    [...toArray(item.embeds), ...toArray(item.embed)].forEach(addEmbed);
+  }
+
+  const autoMediaLinks = [item.href, ...toArray(item.linkPair)];
+
+  if (!item.suppressImages) {
+    autoMediaLinks.forEach((href) => {
+      const image = buildImageAsset(href);
+      if (image) {
+        addImage(image);
+      }
+    });
+  }
+
+  if (!item.suppressVideos) {
+    autoMediaLinks.forEach((href) => {
+      const video = buildYoutubeEmbed(href);
+      if (video) {
+        addVideo(video);
+      }
+    });
+  }
+
+  if (!item.suppressXEmbeds) {
+    autoMediaLinks.forEach((href) => {
+      const embed = buildTweetEmbed(href);
+      if (embed) {
+        addEmbed(embed);
+      }
+    });
+  }
+
+  const links = [];
+  const seenLinks = new Set();
+
+  for (const href of toArray(item.linkPair)) {
+    const key = getLinkKey(href);
+    if (consumedLinks.has(key) || seenLinks.has(key)) {
+      continue;
+    }
+
+    seenLinks.add(key);
+    links.push(href);
+  }
+
+  const hrefKey = item.href ? getLinkKey(item.href) : null;
+  const showPrimaryLink =
+    item.href &&
+    !item.linkPair &&
+    !consumedLinks.has(hrefKey) &&
+    !item.mediaPair;
+
+  return {
+    embeds,
+    videos,
+    images,
+    links,
+    showPrimaryLink,
+  };
+}
+
 export function TopicEmbed({ embed }) {
   if (!embed) {
     return null;
@@ -54,6 +342,43 @@ export function VideoEmbed({ video }) {
         </a>
       </span>
     </div>
+  );
+}
+
+export function TopicImage({ image }) {
+  if (!image?.src) {
+    return null;
+  }
+
+  const body = (
+    <>
+      <div className="topic-image-frame">
+        <img src={image.src} alt={image.alt ?? image.caption ?? ""} loading="lazy" />
+      </div>
+      {image.caption ? (
+        <span className="topic-image-caption">
+          {image.caption}
+          {image.href ? (
+            <>
+              {" "}
+              <a href={image.href} target="_blank" rel="noreferrer">
+                open direct
+              </a>
+            </>
+          ) : null}
+        </span>
+      ) : null}
+    </>
+  );
+
+  if (!image.href) {
+    return <div className="topic-image">{body}</div>;
+  }
+
+  return (
+    <a href={image.href} target="_blank" rel="noreferrer" className="topic-image">
+      {body}
+    </a>
   );
 }
 
@@ -159,5 +484,53 @@ export function LinkPair({ links }) {
         <LinkCard key={href} href={href} />
       ))}
     </div>
+  );
+}
+
+export function TopicMedia({ item }) {
+  if (!item) {
+    return null;
+  }
+
+  if (item.mediaPair) {
+    return (
+      <>
+        <div className="media-pair">
+          <VideoEmbed video={item.mediaPair.video} />
+          <TopicEmbed embed={item.mediaPair.reaction} />
+        </div>
+        {item.linkPair ? <LinkPair links={item.linkPair} /> : null}
+      </>
+    );
+  }
+
+  const media = getPresentationItemMedia(item);
+
+  return (
+    <>
+      {media.images.length ? (
+        <div className="topic-media-stack topic-media-stack--images">
+          {media.images.map((image) => (
+            <TopicImage key={image.href ?? image.src} image={image} />
+          ))}
+        </div>
+      ) : null}
+      {media.videos.length ? (
+        <div className="topic-media-stack topic-media-stack--videos">
+          {media.videos.map((video) => (
+            <VideoEmbed key={video.href ?? video.embedHref} video={video} />
+          ))}
+        </div>
+      ) : null}
+      {media.embeds.length ? (
+        <div className="topic-media-stack topic-media-stack--embeds">
+          {media.embeds.map((embed) => (
+            <TopicEmbed key={embed.href} embed={embed} />
+          ))}
+        </div>
+      ) : null}
+      {media.links.length ? <LinkPair links={media.links} /> : null}
+      {media.showPrimaryLink ? <LinkCard href={item.href} /> : null}
+    </>
   );
 }

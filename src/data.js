@@ -8,11 +8,13 @@
 //
 // Supported item shapes:
 // - href: plain linked topic
-// - embed: X/Twitter embed
-// - video: standalone video embed
+// - embed / embeds: X/Twitter embed override(s)
+// - image / images: linked hero image override(s)
+// - video / videos: standalone video embed override(s)
 // - mediaPair: combined story, usually "video + reaction post"
 // - linkPair: side-by-side links, useful for repo + dashboard style items
 // - notes: optional presenter note (string) shown as a callout
+// - suppressXEmbeds / suppressVideos / suppressImages: opt out of default media rendering
 //
 // Standard track taxonomy for recurring club sessions:
 // 1. Local Builds & Projects
@@ -68,6 +70,71 @@ export const sessions = [
           "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
         items: [
           {
+            title: "GTC 2026 was an AI factory pitch",
+            description:
+              "The main pitch was not just faster chips. NVIDIA framed GTC around the whole AI factory, from Vera Rubin racks to DSX reference designs.",
+            chip: "news",
+            href: "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            notes:
+              "They are selling a blueprint for the data center, not just the box that goes in it.",
+            image: {
+              src: "https://iprsoftwaremedia.com/219/files/202603/69b75d173d6332e5b174de10_nvidia-vera-rubin-dsx/nvidia-vera-rubin-dsx_8a1ea329-b957-4cc8-83a6-f6e76d324c62-prv.jpg",
+              href:
+                "https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support",
+              alt: "NVIDIA Vera Rubin DSX AI Factory reference design",
+              caption:
+                "Official NVIDIA press image: Vera Rubin DSX AI Factory reference design",
+            },
+            linkPair: [
+              "https://blogs.nvidia.com/blog/gtc-2026-news/",
+              "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform",
+              "https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support",
+            ],
+          },
+          {
+            title: "NVIDIA wants a place in the agent stack too",
+            description:
+              "It was not only hardware. NVIDIA also launched Agent Toolkit, OpenShell, and AI-Q, which looks like a serious push into the default enterprise agent stack.",
+            chip: "stack",
+            href: "https://nvidianews.nvidia.com/news/ai-agents",
+            notes:
+              "They want a seat in the runtime layer, not just a claim on the GPU budget.",
+            image: {
+              src: "https://iprsoftwaremedia.com/219/files/202603/69b796313d6332f8a374de0e_nvidia-agent-toolkit/nvidia-agent-toolkit_bb2c0928-f241-4d78-b39d-14f05c246fe1-prv.jpg",
+              href: "https://nvidianews.nvidia.com/news/ai-agents",
+              alt: "NVIDIA Agent Toolkit",
+              caption: "Official NVIDIA press image: Agent Toolkit / OpenShell / AI-Q",
+            },
+            linkPair: [
+              "https://nvidianews.nvidia.com/news/ai-agents",
+              "https://build.nvidia.com/openshell",
+              "https://build.nvidia.com/nvidia/aiq",
+            ],
+          },
+          {
+            title: "Physical AI got pulled into the same pitch",
+            description:
+              "Robotics, autonomy, and synthetic-data pipelines showed up as the next leg of the same infrastructure story.",
+            chip: "robotics",
+            href:
+              "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+            notes:
+              "Same playbook, different target: simulate it, generate the data, then move into real-world systems.",
+            image: {
+              src: "https://iprsoftwaremedia.com/219/files/202603/69b4f26b3d633201f974de1a_nvidia-physical-ai-data-factory-blueprint/nvidia-physical-ai-data-factory-blueprint_3e75cdcf-01f2-4acc-b4a9-a3125fac7b06-prv.jpg",
+              href:
+                "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+              alt: "NVIDIA Physical AI Data Factory Blueprint",
+              caption:
+                "Official NVIDIA press image: Physical AI Data Factory Blueprint",
+            },
+            linkPair: [
+              "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+              "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
+              "https://nvidianews.nvidia.com/news/nvidia-expands-open-model-families-to-power-the-next-wave-of-agentic-physical-and-healthcare-ai",
+            ],
+          },
+          {
             title: "Free coding agent with ad model",
             description:
               "A free coding agent angle with an ad-supported model behind it.",
@@ -111,6 +178,51 @@ export const sessions = [
               href: "https://twitter.com/i/status/2036924361379037224?ref_src=twsrc%5Etfw",
             },
           },
+          {
+            title: "Zai launches AutoClaw",
+            description:
+              "Zhipu's one-click local OpenClaw installer turns a PC into a 24/7 AI agent. Ships with Pony Alpha 2, 50+ preloaded skills, and supports open models like DeepSeek and Kimi.",
+            chip: "x",
+            href: "https://x.com/Zai_org/status/2038632251551023250",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Zai_org/status/2038632251551023250?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://pandaily.com/zhipu-ai-launches-auto-claw-a-one-click-local-open-claw-that-turns-p-cs-into-24-7-ai-agents",
+              "https://cntechpost.com/2026/03/10/zhipu-launches-autoclaw-one-click-local-ai-deployment-rival-tech-giants/",
+            ],
+          },
+          {
+            title: "Ollama launches Pi",
+            description:
+              "Ollama adds Pi to `ollama launch`, making Mario Zechner's minimal coding agent available from the CLI with near-zero setup. Ollama's docs position Pi as a minimal AI agent toolkit with plugin support and a quick launch path.",
+            chip: "pair",
+            href: "https://x.com/ollama/status/2038506792070914079",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ollama/status/2038506792070914079?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://docs.ollama.com/integrations/pi",
+              "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
+            ],
+            notes:
+              "This makes `ollama launch` look more like a distribution layer for coding agents, not just a local model runner.",
+          },
+          {
+            title: "Claude Code gets computer use",
+            description:
+              "Computer use is now in Claude Code. Research preview, Pro and Max plans, macOS only.",
+            chip: "x",
+            href: "https://x.com/claudeai/status/2038663014098899416",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/claudeai/status/2038663014098899416?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "This is the biggest expansion of Claude Code beyond the terminal. No setup required — when it does not have a tool or connector, it navigates your screen directly.",
+          },
         ],
       },
       {
@@ -149,6 +261,64 @@ export const sessions = [
             },
           },
           {
+            title: "GLM-5.1",
+            description:
+              "Z.AI now documents GLM-5.1 directly for coding-agent use, with reasoning enabled plus a 204.8k context window and 131k max tokens. Worth comparing against GLM-5 and the other agent-first releases.",
+            chip: "x",
+            href: "https://x.com/Zai_org/status/2037490078126084514",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Zai_org/status/2037490078126084514?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/Zai_org/status/2037490078126084514",
+              "https://docs.z.ai/devpack/using5.1",
+              "https://docs.z.ai/guides/llm/glm-5",
+            ],
+          },
+          {
+            title: "MiniMax M2.7",
+            description:
+              "MiniMax is pitching M2.7 as a serious SWE and agent model, with the launch post calling out SWE-Pro, Terminal Bench 2, tool use, and OpenClaw-style team workflows.",
+            chip: "x",
+            href: "https://x.com/MiniMax_AI/status/2034315320337522881",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/MiniMax_AI/status/2034315320337522881",
+              "https://www.minimax.io/news/minimax-m27-en",
+              "https://platform.minimax.io/subscribe/coding-plan",
+            ],
+          },
+          {
+            title: "Distillation hesitation",
+            description:
+              "GLM-5.1, MiniMax M2.7, Xiaomi MiMo-V2 are all out but none dropped public weights. Chinese labs that normally ship open are holding back, possibly because distillation makes open releases risky. Meanwhile people are already distilling Claude Opus into Qwen3.5 anyway.",
+            chip: "pair",
+            href: "https://docs.z.ai/devpack/using5.1",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/anthonyronning/status/2037586323834642859?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Hesamation/status/2038642306434150427?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://docs.z.ai/devpack/using5.1",
+              "https://docs.z.ai/guides/llm/glm-5",
+              "https://www.minimax.io/news/minimax-m27-en",
+              "https://platform.minimax.io/subscribe/coding-plan",
+              "https://weibo.com/6486870325/5277992772176164",
+              "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+            ],
+          },
+          {
             title: "Composer 2 / Kimi K2.5 drama",
             description:
               "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
@@ -167,7 +337,7 @@ export const sessions = [
           {
             title: "ARC AGI benchmark #3",
             description:
-              "New ARC AGI benchmark result worth checking as another data point on reasoning and generalization.",
+              "ARC-AGI-3 is the first fully interactive benchmark, replacing grid puzzles with video-game-like scenarios where agents explore with no instructions. Humans score 100%, best AI (Gemini 3.1 Pro) hits 0.37%. A simple RL and graph-search approach scored 12.58%, outperforming every frontier LLM by 30x. $2M prize pool.",
             chip: "x",
             href: "https://x.com/arcprize/status/2036860080541589529",
             embed: {
@@ -185,6 +355,109 @@ export const sessions = [
               type: "tweet",
               href: "https://twitter.com/ArtificialAnlys/status/2037043552405119395?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "Google TurboQuant",
+            description:
+              "Google Research says TurboQuant is a training-free, data-oblivious quantization approach that can compress KV caches by at least 6x, hit quality-neutral 3-bit cache settings in their tests, and improve vector-search indexing.",
+            chip: "research",
+            href:
+              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
+            linkPair: [
+              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
+              "https://arxiv.org/abs/2504.19874",
+            ],
+            notes:
+              "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context.",
+          },
+          {
+            title: "Qwen3.5-Omni",
+            description:
+              "Alibaba drops Qwen3.5-Omni, a full-modal model handling text, images, audio, and video with real-time speech generation. Three sizes (Plus, Flash, Light), 256k context, speech recognition for 113 languages, and claims 215 SOTA results in audio/video tasks while outperforming Gemini 3.1 Pro on general audio understanding.",
+            chip: "x",
+            href: "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Alibaba_Qwen/status/2038637124619231467?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+              "https://x.com/Ali_TongyiLab/status/2038609308750143762",
+              "https://qwen.ai/research",
+              "https://huggingface.co/collections/Qwen/qwen35",
+            ],
+          },
+          {
+            title: "Cohere Transcribe",
+            description:
+              "Cohere releases a 2B open-weights conformer encoder-decoder transcription model trained from scratch on 14 languages, hitting 4.7% on AA-WER across 3 datasets including Artificial Analysis's proprietary AA-AgentTalk dataset.",
+            chip: "x",
+            href: "https://x.com/ArtificialAnlys/status/2038678855213568031",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2038678855213568031?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "New model on Artificial Analysis",
+            description:
+              "Artificial Analysis highlights another new model drop worth checking against their leaderboard.",
+            chip: "bench",
+            href: "https://x.com/ArtificialAnlys/status/2038667075489808804",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2038667075489808804?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://artificialanalysis.ai/leaderboards/models",
+            ],
+          },
+          {
+            title: "Unsloth March update",
+            description:
+              "Unsloth's March release brings 12x faster MoE training with 35% less VRAM, support for new models including DeepSeek-OCR 2, GLM-4.7-Flash, and Kimi-2.5, plus Unsloth Studio desktop app with 20-30% faster inference.",
+            chip: "x",
+            href: "https://x.com/UnslothAI/status/2038625148354679270",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/UnslothAI/status/2038625148354679270?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/unslothai/unsloth/releases/tag/March-2026",
+              "https://unsloth.ai/docs/new/studio",
+            ],
+          },
+          {
+            title: "Claude-distilled Qwen models trending on HF",
+            description:
+              "Jackrong's Claude Opus 4.6 reasoning distills into Qwen3.5 are trending on Hugging Face, now spanning 2B through 35B-A3B sizes with GGUF quants. V2 just dropped with shorter reasoning chains, less over-analysis on easy problems, and a better reasoning-cost-to-quality ratio.",
+            chip: "pair",
+            href: "https://x.com/HuggingModels/status/2038398319417082125",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/HuggingModels/status/2038398319417082125?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/KyleHessling1/status/2038672381850653119",
+              "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
+              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+            ],
+          },
+          {
+            title: "Local models getting glazed",
+            description: "",
+            chip: "pair",
+            href: "https://x.com/theo/status/2038051651823812839",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/thdxr/status/2038619304447385906?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/theo/status/2038051651823812839",
+              "https://x.com/thdxr/status/2038054914358645168",
+              "https://x.com/thdxr/status/2038619304447385906",
+              "https://x.com/teortaxesTex/status/2038329816412283343",
+            ],
           },
         ],
       },
@@ -214,15 +487,78 @@ export const sessions = [
           "This section tracks platform decisions, acquisitions, distribution shifts, and strategic moves from major companies that could change where AI products get distribution, leverage, or control.",
         items: [
           {
-            title: "Meta buys Moltbook",
+            title: "MK-Ultrathink",
             description:
-              "Jim C frames Meta's Moltbook acquisition as an agentic-commerce bet: owning an influence layer for AI agents before agents become a primary internet interface.",
+              "uncleJim frames Meta's Moltbook acquisition as an agentic-commerce bet: owning an influence layer for AI agents before agents become a primary internet interface.",
             chip: "x",
             href: "https://x.com/uncleJim21/status/2037241016626159979",
             embed: {
               type: "tweet",
               href: "https://twitter.com/uncleJim21/status/2037241016626159979?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "White House pushes a national AI framework",
+            description:
+              "Not your typical policy memo. The White House wants Congress to preempt state AI laws, fast-track data-center permits, and set up a hands-off federal regime.",
+            chip: "policy",
+            href:
+              "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+            notes:
+              "If any of this moves, the AI conversation shifts from model capabilities to federal power grabs, copyright battles, and state-vs-fed turf wars.",
+            image: {
+              src: "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+              href:
+                "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+              alt: "White House social share card",
+              caption: "Official White House share image",
+            },
+            linkPair: [
+              "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+              "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+              "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
+              "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
+            ],
+          },
+          {
+            title: "OpenAI to acquire Astral",
+            description:
+              "OpenAI is buying Astral — the people behind uv, Ruff, and ty. So now some of the most popular Python tooling lives inside the Codex umbrella.",
+            chip: "acquisition",
+            href: "https://openai.com/index/openai-to-acquire-astral/",
+            notes:
+              "The coding-agent fight just moved down into tools developers already have in their workflow.",
+            image: {
+              src: "https://astral.sh/static/OpenGraph/Astral.jpg",
+              href: "https://astral.sh/blog/openai",
+              alt: "Astral social card",
+              caption: "Astral share image",
+            },
+            linkPair: [
+              "https://openai.com/index/openai-to-acquire-astral/",
+              "https://astral.sh/blog/openai",
+              "https://astral.sh",
+            ],
+          },
+          {
+            title: "Meta and Arm start a new CPU push",
+            description:
+              "Meta and Arm are co-designing a data-center CPU for AI workloads. Less of a chip announcement, more Meta saying it wants to own the silicon layer under its AI stack.",
+            chip: "infra",
+            href:
+              "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+            notes:
+              "This stopped being about GPU shortages a while ago. The big platforms are building out their own silicon roadmaps to control compute end to end.",
+            image: {
+              src: "https://about.fb.com/wp-content/uploads/2026/03/arm-Partnership_Header.jpg?w=1200",
+              href:
+                "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+              alt: "Meta and Arm logos",
+              caption: "Official Meta image: Meta and Arm partnership",
+            },
+            linkPair: [
+              "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+            ],
           },
         ],
       },

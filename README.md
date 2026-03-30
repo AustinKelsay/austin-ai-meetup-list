@@ -144,18 +144,27 @@ Each topic item can use any of these fields:
 - `description`
 - `chip`
 - `href`
-- `embed`
-- `video`
+- `embed` / `embeds`
+- `image` / `images`
+- `video` / `videos`
 - `mediaPair`
+- `linkPair`
 - `notes`
+- `suppressXEmbeds`
+- `suppressVideos`
+- `suppressImages`
 
 Supported patterns right now:
 
 - Plain link item
-- X/Twitter embed via `embed`
-- YouTube embed via `video`
+- Auto X/Twitter embeds from `href` and `linkPair`
+- Auto YouTube embeds from `href` and `linkPair`
+- Explicit X/Twitter embed override via `embed` or `embeds`
+- Explicit image override via `image` or `images`
+- Explicit YouTube embed override via `video` or `videos`
 - Paired story via `mediaPair`, usually `video + reaction post`
 - Presenter note via `notes`
+- Opt out of defaults with `suppressXEmbeds`, `suppressVideos`, or `suppressImages`
 
 ## Standard Categories
 
@@ -212,6 +221,7 @@ The reminder flow is intentionally small:
 - The site should be served over HTTP, not opened with `file://`
 - X embeds are loaded client-side through Twitter widgets in [src/App.jsx](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/App.jsx)
 - YouTube embeds use `referrerPolicy="strict-origin-when-cross-origin"` to reduce embed failures
+- Presentation mode now auto-renders X posts, YouTube links, and direct image URLs from `href` / `linkPair` unless suppressed
 - If an embed is flaky, keep the direct link in the data model so the story still degrades gracefully
 
 ## Editing Guidance

@@ -1,12 +1,7 @@
 import { useEffect, useMemo, useRef } from "react";
 import { COMMUNITY_SLOT_LABEL, TRACK_CATEGORY } from "../../app/constants.js";
 import { buildSlides } from "./slides.js";
-import {
-  LinkCard,
-  LinkPair,
-  TopicEmbed,
-  VideoEmbed,
-} from "./content.jsx";
+import { TopicMedia } from "./content.jsx";
 
 function PresentationSlide({ slide, isFinale }) {
   const trackSlug = slide.type === "session-intro"
@@ -93,12 +88,7 @@ function PresentationSlide({ slide, isFinale }) {
         <p className="pres-topic-desc">{slide.item.description}</p>
         <span className="source-chip">{slide.item.chip ?? "showcase"}</span>
         {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
-        {slide.item.embed ? <TopicEmbed embed={slide.item.embed} /> : null}
-        {slide.item.video ? <VideoEmbed video={slide.item.video} /> : null}
-        {slide.item.linkPair ? <LinkPair links={slide.item.linkPair} /> : null}
-        {slide.item.href && !slide.item.embed && !slide.item.video && !slide.item.linkPair ? (
-          <LinkCard href={slide.item.href} />
-        ) : null}
+        <TopicMedia item={slide.item} />
       </div>
     );
   }
@@ -117,22 +107,7 @@ function PresentationSlide({ slide, isFinale }) {
       <p className="pres-topic-desc">{slide.item.description}</p>
       <span className="source-chip">{slide.item.chip}</span>
       {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
-      {slide.item.embed ? <TopicEmbed embed={slide.item.embed} /> : null}
-      {slide.item.video ? <VideoEmbed video={slide.item.video} /> : null}
-      {slide.item.mediaPair ? (
-        <div className="media-pair">
-          <VideoEmbed video={slide.item.mediaPair.video} />
-          <TopicEmbed embed={slide.item.mediaPair.reaction} />
-        </div>
-      ) : null}
-      {slide.item.linkPair ? <LinkPair links={slide.item.linkPair} /> : null}
-      {slide.item.href &&
-      !slide.item.embed &&
-      !slide.item.video &&
-      !slide.item.mediaPair &&
-      !slide.item.linkPair ? (
-        <LinkCard href={slide.item.href} />
-      ) : null}
+      <TopicMedia item={slide.item} />
     </div>
   );
 }
