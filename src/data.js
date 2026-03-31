@@ -168,6 +168,22 @@ export const sessions = [
             },
           },
           {
+            title: "402 Index paid API loop demo",
+            description:
+              "Ryan Gentry's demo shows service discovery, evaluation, tool detection, payment, and response consumption inside one agent loop. Underneath is `402index-mcp-server`, an MCP server for discovering 15,000+ paid API endpoints across L402, x402, and MPP.",
+            chip: "pair",
+            href: "https://x.com/RyanTheGentry/status/2039036789252390970",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/RyanTheGentry/status/2039036789252390970?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/ryanthegentry/402index-mcp-server",
+            ],
+            notes:
+              "This is the cleanest end-to-end machine-payments demo in the list: discovery, trust, payment, and execution collapsed into one flow.",
+          },
+          {
             title: "Opencode remote sandboxes",
             description:
               "Remote sandboxes in Opencode look like a useful direction for running agent work outside the local machine.",
@@ -207,8 +223,17 @@ export const sessions = [
               "https://docs.ollama.com/integrations/pi",
               "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
             ],
-            notes:
-              "This makes `ollama launch` look more like a distribution layer for coding agents, not just a local model runner.",
+          },
+          {
+            title: "Osaurus local AI suite",
+            description:
+              "Osaurus is pitching a Mac-native local AI suite that makes MLX models feel as easy to run as Ollama, but adds a real UI, persistent memory, sandboxed code execution, 20+ plugins, and Ollama API compatibility.",
+            chip: "x",
+            href: "https://x.com/pleb_devs/status/2036911139485798755",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/pleb_devs/status/2036911139485798755?ref_src=twsrc%5Etfw",
+            },
           },
           {
             title: "Claude Code gets computer use",
@@ -250,15 +275,22 @@ export const sessions = [
             ],
           },
           {
-            title: "Nemotron-3-Cascade",
+            title: "Nemotron-Cascade 2",
             description:
-              "Fresh Nemotron model release to look at for architecture, capability, and open-weight relevance.",
-            chip: "x",
-            href: "https://x.com/HuggingPapers/status/2034876841475838329",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/HuggingPapers/status/2034876841475838329?ref_src=twsrc%5Etfw",
-            },
+              "NVIDIA's Nemotron-Cascade 2 is an open 30B MoE with 3B active parameters, gold-medal-level performance on IMO 2025, IOI 2025, and ICPC World Finals 2025, plus strong agentic and coding results for its size.",
+            chip: "pair",
+            href: "https://x.com/_weiping/status/2034877099908243746",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Wenliang_Dai/status/2035020886269690339?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+              "https://huggingface.co/collections/nvidia/nemotron-cascade-2",
+              "https://arxiv.org/abs/2603.19220",
+            ],
           },
           {
             title: "GLM-5.1",
@@ -293,59 +325,6 @@ export const sessions = [
             ],
           },
           {
-            title: "Distillation hesitation",
-            description:
-              "GLM-5.1, MiniMax M2.7, Xiaomi MiMo-V2 are all out but none dropped public weights. Chinese labs that normally ship open are holding back, possibly because distillation makes open releases risky. Meanwhile people are already distilling Claude Opus into Qwen3.5 anyway.",
-            chip: "pair",
-            href: "https://docs.z.ai/devpack/using5.1",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/anthonyronning/status/2037586323834642859?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Hesamation/status/2038642306434150427?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://docs.z.ai/devpack/using5.1",
-              "https://docs.z.ai/guides/llm/glm-5",
-              "https://www.minimax.io/news/minimax-m27-en",
-              "https://platform.minimax.io/subscribe/coding-plan",
-              "https://weibo.com/6486870325/5277992772176164",
-              "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
-              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-            ],
-          },
-          {
-            title: "Composer 2 / Kimi K2.5 drama",
-            description:
-              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
-            chip: "pair",
-            href: "https://x.com/ns123abc/status/2035058399067435474",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://x.com/ns123abc/status/2035058399067435474",
-              "https://x.com/Kimi_Moonshot/status/2035074972943831491",
-              "https://x.com/fleetwood___/status/2037117778503626937",
-            ],
-          },
-          {
-            title: "ARC AGI benchmark #3",
-            description:
-              "ARC-AGI-3 is the first fully interactive benchmark, replacing grid puzzles with video-game-like scenarios where agents explore with no instructions. Humans score 100%, best AI (Gemini 3.1 Pro) hits 0.37%. A simple RL and graph-search approach scored 12.58%, outperforming every frontier LLM by 30x. $2M prize pool.",
-            chip: "x",
-            href: "https://x.com/arcprize/status/2036860080541589529",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
             title: "GPT-5.4 mini and nano",
             description:
               "Artificial Analysis highlights OpenAI's cheaper GPT-5.4 mini and nano variants, with nano standing out on price-performance.",
@@ -355,20 +334,6 @@ export const sessions = [
               type: "tweet",
               href: "https://twitter.com/ArtificialAnlys/status/2037043552405119395?ref_src=twsrc%5Etfw",
             },
-          },
-          {
-            title: "Google TurboQuant",
-            description:
-              "Google Research says TurboQuant is a training-free, data-oblivious quantization approach that can compress KV caches by at least 6x, hit quality-neutral 3-bit cache settings in their tests, and improve vector-search indexing.",
-            chip: "research",
-            href:
-              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
-            linkPair: [
-              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
-              "https://arxiv.org/abs/2504.19874",
-            ],
-            notes:
-              "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context.",
           },
           {
             title: "Qwen3.5-Omni",
@@ -399,7 +364,7 @@ export const sessions = [
             },
           },
           {
-            title: "New model on Artificial Analysis",
+            title: "GLM5 Turbo",
             description:
               "Artificial Analysis highlights another new model drop worth checking against their leaderboard.",
             chip: "bench",
@@ -413,18 +378,19 @@ export const sessions = [
             ],
           },
           {
-            title: "Unsloth March update",
+            title: "Composer 2 / Kimi K2.5 drama",
             description:
-              "Unsloth's March release brings 12x faster MoE training with 35% less VRAM, support for new models including DeepSeek-OCR 2, GLM-4.7-Flash, and Kimi-2.5, plus Unsloth Studio desktop app with 20-30% faster inference.",
-            chip: "x",
-            href: "https://x.com/UnslothAI/status/2038625148354679270",
+              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
+            chip: "pair",
+            href: "https://x.com/ns123abc/status/2035058399067435474",
             embed: {
               type: "tweet",
-              href: "https://twitter.com/UnslothAI/status/2038625148354679270?ref_src=twsrc%5Etfw",
+              href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://github.com/unslothai/unsloth/releases/tag/March-2026",
-              "https://unsloth.ai/docs/new/studio",
+              "https://x.com/ns123abc/status/2035058399067435474",
+              "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+              "https://x.com/fleetwood___/status/2037117778503626937",
             ],
           },
           {
@@ -433,15 +399,85 @@ export const sessions = [
               "Jackrong's Claude Opus 4.6 reasoning distills into Qwen3.5 are trending on Hugging Face, now spanning 2B through 35B-A3B sizes with GGUF quants. V2 just dropped with shorter reasoning chains, less over-analysis on easy problems, and a better reasoning-cost-to-quality ratio.",
             chip: "pair",
             href: "https://x.com/HuggingModels/status/2038398319417082125",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/HuggingModels/status/2038398319417082125?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/HuggingModels/status/2038398319417082125?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/KyleHessling1/status/2038672381850653119?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Hesamation/status/2038642306434150427?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2038625148354679270?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/outsource_/status/2038999111039357302?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/aiwithmayank/status/2038918640519807340?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
-              "https://x.com/KyleHessling1/status/2038672381850653119",
               "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
               "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
             ],
+          },
+          {
+            title: "Distillation hesitation",
+            description:
+              "GLM-5.1, MiniMax M2.7, Xiaomi MiMo-V2 are all out but none dropped public weights. Chinese labs that normally ship open are holding back, possibly because distillation makes open releases risky. Meanwhile people are already distilling Claude Opus into Qwen3.5 anyway.",
+            chip: "pair",
+            href: "https://docs.z.ai/devpack/using5.1",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/anthonyronning/status/2037586323834642859?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://docs.z.ai/devpack/using5.1",
+              "https://docs.z.ai/guides/llm/glm-5",
+              "https://www.minimax.io/news/minimax-m27-en",
+              "https://platform.minimax.io/subscribe/coding-plan",
+              "https://weibo.com/6486870325/5277992772176164",
+              "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+            ],
+          },
+          {
+            title: "ARC AGI benchmark #3",
+            description:
+              "ARC-AGI-3 is the first fully interactive benchmark, replacing grid puzzles with video-game-like scenarios where agents explore with no instructions. Humans score 100%, best AI (Gemini 3.1 Pro) hits 0.37%. A simple RL and graph-search approach scored 12.58%, outperforming every frontier LLM by 30x. $2M prize pool.",
+            chip: "x",
+            href: "https://x.com/arcprize/status/2036860080541589529",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Google TurboQuant",
+            description:
+              "Google Research says TurboQuant is a training-free, data-oblivious quantization approach that can compress KV caches by at least 6x, hit quality-neutral 3-bit cache settings in their tests, and improve vector-search indexing. TheTom also shipped a public implementation, which makes this more than just a paper story.",
+            chip: "research",
+            href:
+              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
+            linkPair: [
+              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
+              "https://arxiv.org/abs/2504.19874",
+              "https://x.com/no_stp_on_snek/status/2036944965364834444",
+              "https://github.com/TheTom/turboquant_plus",
+            ],
+            notes:
+              "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context, and the public implementation makes it easier to test outside Google's writeup.",
           },
           {
             title: "Local models getting glazed",
@@ -468,6 +504,23 @@ export const sessions = [
           "This section is where we look at attacks, exploits, abuse patterns, and defensive ideas so we stay sharp about how these systems can be manipulated in the real world.",
         items: [
           {
+            title: "Claude Code source leaked via npm sourcemap",
+            description:
+              "Chaofan Shou says `@anthropic-ai/claude-code@2.1.88` shipped a `cli.js.map` in the npm tarball, exposing the bundled source. Sigrid Jin mirrored it to GitHub, and the map gives a view into Anthropic's internal fast paths and feature flags.",
+            chip: "security",
+            href: "https://x.com/Fried_rice/status/2038894956459290963",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Fried_rice/status/2038894956459290963?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/realsigridjin/status/2038908883004227957",
+              "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
+            ],
+            notes:
+              "As of March 31, 2026, npm `latest` is back on 2.1.87, so this looks like a quick rollback after the 2.1.88 publish.",
+          },
+          {
             title: "LiteLLM supply-chain attack",
             description:
               "Karpathy flags the LiteLLM PyPI compromise as a worst-case supply-chain failure, with credential exfiltration risk spreading through transitive dependencies like dspy.",
@@ -478,6 +531,19 @@ export const sessions = [
               href: "https://twitter.com/karpathy/status/2036487306585268612?ref_src=twsrc%5Etfw",
             },
           },
+          {
+            title: "Axios supply-chain attack",
+            description:
+              "Karpathy flags a live npm compromise of `axios`, arguing the deeper issue is how unpinned dependencies let a brief malicious release spread randomly at scale. The quoted context says `axios@1.14.1` pulled in a newly published `plain-crypto-js@4.2.1`.",
+            chip: "security",
+            href: "https://x.com/karpathy/status/2038849654423798197",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/karpathy/status/2038849654423798197?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "His concrete point is operational, not just sensational: package managers should make safer defaults like release-age constraints normal instead of optional.",
+          },
         ],
       },
       {
@@ -486,6 +552,17 @@ export const sessions = [
         purpose:
           "This section tracks platform decisions, acquisitions, distribution shifts, and strategic moves from major companies that could change where AI products get distribution, leverage, or control.",
         items: [
+          {
+            title: "OpenAI closes new funding round",
+            description:
+              "OpenAI says it closed a new funding round with $122 billion in committed capital at an $852B post-money valuation, giving it far more room to fund compute, product demand, and global expansion.",
+            chip: "finance",
+            href: "https://x.com/OpenAI/status/2039085161971896807",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2039085161971896807?ref_src=twsrc%5Etfw",
+            },
+          },
           {
             title: "MK-Ultrathink",
             description:

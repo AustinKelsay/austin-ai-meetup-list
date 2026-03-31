@@ -86,7 +86,6 @@ function PresentationSlide({ slide, isFinale }) {
           )}
         </h3>
         <p className="pres-topic-desc">{slide.item.description}</p>
-        <span className="source-chip">{slide.item.chip ?? "showcase"}</span>
         {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
         <TopicMedia item={slide.item} />
       </div>
@@ -105,7 +104,6 @@ function PresentationSlide({ slide, isFinale }) {
         )}
       </h3>
       <p className="pres-topic-desc">{slide.item.description}</p>
-      <span className="source-chip">{slide.item.chip}</span>
       {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
       <TopicMedia item={slide.item} />
     </div>

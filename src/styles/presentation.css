@@ -305,12 +305,6 @@
   text-wrap: pretty;
 }
 
-.pres-slide--topic .source-chip {
-  margin-bottom: 1rem;
-  font-size: 0.78rem;
-  padding: 0.22rem 0.55rem;
-}
-
 .pres-slide--topic .embed-wrap {
   max-width: 650px;
   width: 100%;
@@ -710,8 +704,7 @@
     line-height: 1.6;
   }
 
-  .pres-topic-badge,
-  .pres-slide--topic .source-chip {
+  .pres-topic-badge {
     font-size: 0.68rem;
   }
 
@@ -863,10 +856,6 @@
   .pres-topic-desc {
     font-size: 0.88rem;
     line-height: 1.45;
-  }
-
-  .pres-slide--topic .source-chip {
-    margin-bottom: 0.65rem;
   }
 
   .pres-slide--topic .embed-wrap {
