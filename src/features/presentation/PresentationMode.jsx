@@ -15,16 +15,18 @@ function PresentationSlide({ slide, isFinale }) {
       <div className="pres-slide pres-slide--session-intro" data-track={trackSlug}>
         <span className="pres-intro-eyebrow">{slide.intro.eyebrow}</span>
         <h2 className="pres-intro-title">{slide.intro.title}</h2>
-        <p className="pres-intro-blurb">{slide.intro.blurb}</p>
-        <a className="pres-intro-link" href={slide.intro.ctaHref} target="_blank" rel="noreferrer">
-          {slide.intro.ctaLabel}
-        </a>
+        {slide.intro.blurb ? <p className="pres-intro-blurb">{slide.intro.blurb}</p> : null}
+        {slide.intro.ctaHref && slide.intro.ctaLabel ? (
+          <a className="pres-intro-link" href={slide.intro.ctaHref} target="_blank" rel="noreferrer">
+            {slide.intro.ctaLabel}
+          </a>
+        ) : null}
         <ul className="pres-intro-list">
           {slide.intro.bullets.map((point) => (
             <li key={point}>{point}</li>
           ))}
         </ul>
-        <p className="pres-intro-note">{slide.intro.hostNote}</p>
+        {slide.intro.hostNote ? <p className="pres-intro-note">{slide.intro.hostNote}</p> : null}
       </div>
     );
   }

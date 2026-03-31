@@ -42,16 +42,11 @@ export const sessions = [
     presentationIntro: {
       eyebrow: "Austin AI Club",
       title: "Austin AI Club",
-      blurb: "Wednesday, 5 p.m. at Bitcoin Park Austin.",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
-      hostNote:
-        "Casual format. No meetup page. No commitment required.",
-      ctaLabel: "austinai.club",
-      ctaHref: "https://austinai.club",
     },
     tracks: [
       {
@@ -659,16 +654,11 @@ export const sessions = [
     presentationIntro: {
       eyebrow: "Austin AI Club",
       title: "Austin AI Club",
-      blurb: "Wednesday, 5 p.m. at Bitcoin Park Austin.",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
         "Bring projects, prototypes, links, or research.",
       ],
-      hostNote:
-        "Casual format. No meetup page. No commitment required.",
-      ctaLabel: "austinai.club",
-      ctaHref: "https://austinai.club",
     },
     showcases: [
       {
