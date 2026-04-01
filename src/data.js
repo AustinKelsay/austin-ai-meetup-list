@@ -304,6 +304,17 @@ export const sessions = [
             ],
           },
           {
+            title: "GLM-5V-Turbo",
+            description:
+              "Z.AI introduces GLM-5V-Turbo, a vision coding model built for multimodal coding tasks across images, videos, design drafts, and document layouts.",
+            chip: "x",
+            href: "https://x.com/Zai_org/status/2039371126984360085",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Zai_org/status/2039371126984360085?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
             title: "MiniMax M2.7",
             description:
               "MiniMax is pitching M2.7 as a serious SWE and agent model, with the launch post calling out SWE-Pro, Terminal Bench 2, tool use, and OpenClaw-style team workflows.",
