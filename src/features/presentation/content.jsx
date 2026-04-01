@@ -487,12 +487,51 @@ export function LinkPair({ links }) {
   );
 }
 
+function TopicMediaPairItem({ media }) {
+  if (!media) {
+    return null;
+  }
+
+  if (media.type === "tweet") {
+    return <TopicEmbed embed={media} />;
+  }
+
+  if (media.type === "image") {
+    return <TopicImage image={media} />;
+  }
+
+  if (media.type === "video") {
+    return <VideoEmbed video={media} />;
+  }
+
+  if (media.type === "link") {
+    return <LinkCard href={media.href} />;
+  }
+
+  return null;
+}
+
 export function TopicMedia({ item }) {
   if (!item) {
     return null;
   }
 
   if (item.mediaPair) {
+    const left = item.mediaPair.left;
+    const right = item.mediaPair.right;
+
+    if (left || right) {
+      return (
+        <>
+          <div className="media-pair">
+            <TopicMediaPairItem media={left} />
+            <TopicMediaPairItem media={right} />
+          </div>
+          {item.linkPair ? <LinkPair links={item.linkPair} /> : null}
+        </>
+      );
+    }
+
     return (
       <>
         <div className="media-pair">

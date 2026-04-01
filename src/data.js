@@ -48,6 +48,23 @@ export const sessions = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
     },
+    showcases: [
+      {
+        title: "DISTILL",
+        description:
+          "DISTILL stands for Data Infrastructure for Storing, Tagging, Indexing, and Labeling Locally. It is a desktop app for reviewing, labeling, and exporting chat history from Codex CLI, Claude Code, and OpenCode.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/DISTILL",
+        image: {
+          src: "/images/distill-showcase.png",
+          href: "https://github.com/AustinKelsay/DISTILL",
+          alt: "DISTILL desktop app screenshot",
+          caption: "DISTILL session review UI",
+        },
+        notes:
+          "Local chat history, one place, ready to review and export.",
+      },
+    ],
     tracks: [
       {
         id: "apr-shipped",
@@ -81,9 +98,9 @@ export const sessions = [
                 "Official NVIDIA press image: Vera Rubin DSX AI Factory reference design",
             },
             linkPair: [
-              "https://blogs.nvidia.com/blog/gtc-2026-news/",
               "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform",
               "https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support",
+              "https://www.nvidia.com/gtc",
             ],
           },
           {
@@ -101,7 +118,6 @@ export const sessions = [
               caption: "Official NVIDIA press image: Agent Toolkit / OpenShell / AI-Q",
             },
             linkPair: [
-              "https://nvidianews.nvidia.com/news/ai-agents",
               "https://build.nvidia.com/openshell",
               "https://build.nvidia.com/nvidia/aiq",
             ],
@@ -124,7 +140,6 @@ export const sessions = [
                 "Official NVIDIA press image: Physical AI Data Factory Blueprint",
             },
             linkPair: [
-              "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
               "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
               "https://nvidianews.nvidia.com/news/nvidia-expands-open-model-families-to-power-the-next-wave-of-agentic-physical-and-healthcare-ai",
             ],
@@ -147,7 +162,6 @@ export const sessions = [
             chip: "pair",
             href: "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
             linkPair: [
-              "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
               "https://x.com/addyosmani/status/2032875051830358197",
             ],
           },
@@ -177,17 +191,6 @@ export const sessions = [
             ],
             notes:
               "This is the cleanest end-to-end machine-payments demo in the list: discovery, trust, payment, and execution collapsed into one flow.",
-          },
-          {
-            title: "Opencode remote sandboxes",
-            description:
-              "Remote sandboxes in Opencode look like a useful direction for running agent work outside the local machine.",
-            chip: "x",
-            href: "https://x.com/i/status/2036924361379037224",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/i/status/2036924361379037224?ref_src=twsrc%5Etfw",
-            },
           },
           {
             title: "Zai launches AutoClaw",
@@ -298,7 +301,6 @@ export const sessions = [
               href: "https://twitter.com/Zai_org/status/2037490078126084514?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://x.com/Zai_org/status/2037490078126084514",
               "https://docs.z.ai/devpack/using5.1",
               "https://docs.z.ai/guides/llm/glm-5",
             ],
@@ -325,7 +327,6 @@ export const sessions = [
               href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://x.com/MiniMax_AI/status/2034315320337522881",
               "https://www.minimax.io/news/minimax-m27-en",
               "https://platform.minimax.io/subscribe/coding-plan",
             ],
@@ -342,6 +343,17 @@ export const sessions = [
             },
           },
           {
+            title: "Holo3 computer-use models",
+            description:
+              "H Company launches Holo3, an open-weight computer-use model series claiming 78.9% on OSWorld-Verified while undercutting GPT-5.4 and Opus 4.6 on price.",
+            chip: "x",
+            href: "https://x.com/hcompany_ai/status/2039021096649805937",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/hcompany_ai/status/2039021096649805937?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
             title: "Qwen3.5-Omni",
             description:
               "Alibaba drops Qwen3.5-Omni, a full-modal model handling text, images, audio, and video with real-time speech generation. Three sizes (Plus, Flash, Light), 256k context, speech recognition for 113 languages, and claims 215 SOTA results in audio/video tasks while outperforming Gemini 3.1 Pro on general audio understanding.",
@@ -352,7 +364,6 @@ export const sessions = [
               href: "https://twitter.com/Alibaba_Qwen/status/2038637124619231467?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://x.com/Alibaba_Qwen/status/2038636335272194241",
               "https://x.com/Ali_TongyiLab/status/2038609308750143762",
               "https://qwen.ai/research",
               "https://huggingface.co/collections/Qwen/qwen35",
@@ -367,6 +378,28 @@ export const sessions = [
             embed: {
               type: "tweet",
               href: "https://twitter.com/ArtificialAnlys/status/2038678855213568031?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Liquid AI LFM2.5-350M",
+            description:
+              "Liquid AI releases LFM2.5-350M, a tiny agentic model trained for instruction following, data extraction, and tool use. The pitch is edge-grade size with unusually capable small-model behavior.",
+            chip: "x",
+            href: "https://x.com/i/status/2039029358224871605",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/i/status/2039029358224871605?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "LFM-Zero",
+            description:
+              "xAI-nana is introducing LFM-Zero as a foundation model allegedly trained on zero tokens. It is a strange enough claim that it belongs in the release block even if the underlying method still needs scrutiny.",
+            chip: "research",
+            href: "https://x.com/xanamini/status/2039403320247480469",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/xanamini/status/2039403320247480469?ref_src=twsrc%5Etfw",
             },
           },
           {
@@ -394,7 +427,6 @@ export const sessions = [
               href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://x.com/ns123abc/status/2035058399067435474",
               "https://x.com/Kimi_Moonshot/status/2035074972943831491",
               "https://x.com/fleetwood___/status/2037117778503626937",
             ],
@@ -449,7 +481,6 @@ export const sessions = [
               },
             ],
             linkPair: [
-              "https://docs.z.ai/devpack/using5.1",
               "https://docs.z.ai/guides/llm/glm-5",
               "https://www.minimax.io/news/minimax-m27-en",
               "https://platform.minimax.io/subscribe/coding-plan",
@@ -477,17 +508,31 @@ export const sessions = [
             href:
               "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
             linkPair: [
-              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
               "https://arxiv.org/abs/2504.19874",
+              "https://x.com/i/status/2036696569194647869",
               "https://x.com/no_stp_on_snek/status/2036944965364834444",
+              "https://ngrok.com/blog/quantization",
+              "https://huggingface.co/blog/not-lain/kv-caching",
+              "https://arxiv.org/html/2411.07191v2",
+              "https://x.com/i/status/2039089641043755036",
               "https://github.com/TheTom/turboquant_plus",
             ],
             notes:
               "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context, and the public implementation makes it easier to test outside Google's writeup.",
           },
           {
+            title: "LLM neuroanatomy / RYS layer repetition",
+            description:
+              "David Noel Ng's RYS writeup treats transformer stacks like neuroanatomy: repeat the right middle layers in Qwen2-72B and you can get stronger leaderboard behavior without retraining the whole model.",
+            chip: "research",
+            href: "https://dnhkng.github.io/posts/rys/",
+            notes:
+              "The interesting part is not just the leaderboard stunt. It suggests model internals may be more structurally hackable than most release narratives admit.",
+          },
+          {
             title: "Local models getting glazed",
-            description: "",
+            description:
+              "The local-model flex genre keeps escalating: more posts about absurdly large or absurdly fast models running on phones and laptops, which is becoming its own signal about inference progress.",
             chip: "pair",
             href: "https://x.com/theo/status/2038051651823812839",
             embed: {
@@ -495,7 +540,8 @@ export const sessions = [
               href: "https://twitter.com/thdxr/status/2038619304447385906?ref_src=twsrc%5Etfw",
             },
             linkPair: [
-              "https://x.com/theo/status/2038051651823812839",
+              "https://x.com/anemll/status/2035901335984611412",
+              "https://x.com/adrgrondin/status/2039066539022778613",
               "https://x.com/thdxr/status/2038054914358645168",
               "https://x.com/thdxr/status/2038619304447385906",
               "https://x.com/teortaxesTex/status/2038329816412283343",
@@ -521,7 +567,11 @@ export const sessions = [
             },
             linkPair: [
               "https://x.com/realsigridjin/status/2038908883004227957",
+              "https://x.com/StraughterG/status/2039117804155068903",
               "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
+              "https://x.com/i/status/2039039787475353821",
+              "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file",
+              "https://github.com/Gitlawb/openclaude",
             ],
             notes:
               "As of March 31, 2026, npm `latest` is back on 2.1.87, so this looks like a quick rollback after the 2.1.88 publish.",
@@ -536,6 +586,9 @@ export const sessions = [
               type: "tweet",
               href: "https://twitter.com/karpathy/status/2036487306585268612?ref_src=twsrc%5Etfw",
             },
+            linkPair: [
+              "https://github.com/BerriAI/litellm/issues/24512",
+            ],
           },
           {
             title: "Axios supply-chain attack",
@@ -570,6 +623,20 @@ export const sessions = [
             },
           },
           {
+            title: "Sora app shutdown",
+            description:
+              "Sora's standalone app is shutting down. The official account says more details are coming on timelines for the app and API plus how user work will be preserved, which makes this a notable retreat in consumer AI video distribution.",
+            chip: "x",
+            href: "https://x.com/soraofficialapp/status/2036532795984715896",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/soraofficialapp/status/2036532795984715896?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/i/status/2036577092360609999",
+            ],
+          },
+          {
             title: "MK-Ultrathink",
             description:
               "uncleJim frames Meta's Moltbook acquisition as an agentic-commerce bet: owning an influence layer for AI agents before agents become a primary internet interface.",
@@ -597,7 +664,6 @@ export const sessions = [
               caption: "Official White House share image",
             },
             linkPair: [
-              "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
               "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
               "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
               "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
@@ -618,30 +684,44 @@ export const sessions = [
               caption: "Astral share image",
             },
             linkPair: [
-              "https://openai.com/index/openai-to-acquire-astral/",
               "https://astral.sh/blog/openai",
               "https://astral.sh",
             ],
           },
           {
-            title: "Meta and Arm start a new CPU push",
+            title: "Meta and Intel chip push",
             description:
-              "Meta and Arm are co-designing a data-center CPU for AI workloads. Less of a chip announcement, more Meta saying it wants to own the silicon layer under its AI stack.",
-            chip: "infra",
+              "Two different hardware angles worth grouping together: Meta and Arm are co-designing a data-center CPU for AI workloads, while Intel's Arc Pro B70 puts 32GB of VRAM into a relatively affordable workstation GPU that could matter for local inference.",
+            chip: "pair",
             href:
               "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
             notes:
-              "This stopped being about GPU shortages a while ago. The big platforms are building out their own silicon roadmaps to control compute end to end.",
-            image: {
-              src: "https://about.fb.com/wp-content/uploads/2026/03/arm-Partnership_Header.jpg?w=1200",
-              href:
-                "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
-              alt: "Meta and Arm logos",
-              caption: "Official Meta image: Meta and Arm partnership",
+              "This stopped being about GPU shortages a while ago. The big platforms are building silicon end to end, and the workstation market is still looking for viable local-AI cards outside NVIDIA.",
+            mediaPair: {
+              left: {
+                type: "image",
+                src: "https://about.fb.com/wp-content/uploads/2026/03/arm-Partnership_Header.jpg?w=1200",
+                href:
+                  "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+                alt: "Meta and Arm logos",
+                caption: "Official Meta image: Meta and Arm partnership",
+              },
+              right: {
+                type: "tweet",
+                href: "https://twitter.com/i/status/2036821577627517160?ref_src=twsrc%5Etfw",
+              },
             },
             linkPair: [
-              "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+              "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+              "https://x.com/i/status/2036821577627517160",
             ],
+          },
+          {
+            title: "Tesla dodges AV regulation",
+            description:
+              "California says Tesla is operating under a chauffeured-service permit rather than an autonomous-vehicle service permit, which lets the company keep the robotaxi framing while avoiding the stricter AV reporting regime applied to rivals like Waymo.",
+            chip: "policy",
+            href: "https://electrek.co/2026/03/25/california-regulator-confirms-tesla-not-operating-autonomous-vehicle-service",
           },
         ],
       },
