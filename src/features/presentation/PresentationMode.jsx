@@ -1,9 +1,53 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { COMMUNITY_SLOT_LABEL, TRACK_CATEGORY } from "../../app/constants.js";
 import { buildSlides } from "./slides.js";
-import { TopicMedia } from "./content.jsx";
+import { TopicMedia, LinkCard } from "./content.jsx";
 
-function PresentationSlide({ slide, isFinale }) {
+function ShippedLinkInput({ onAdd }) {
+  const [value, setValue] = useState("");
+  const inputRef = useRef(null);
+
+  const submit = () => {
+    const raw = value.trim();
+    if (!raw) return;
+    const href = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
+    onAdd(href);
+    setValue("");
+    inputRef.current?.focus();
+  };
+
+  const handleKeyDown = (e) => {
+    e.stopPropagation();
+    if (e.key === "Enter") {
+      e.preventDefault();
+      submit();
+    }
+  };
+
+  return (
+    <form
+      className="shipped-link-form"
+      onSubmit={(e) => { e.preventDefault(); submit(); }}
+    >
+      <input
+        ref={inputRef}
+        className="shipped-link-input"
+        type="text"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        onKeyDown={handleKeyDown}
+        placeholder="paste a link — e.g. myapp.com"
+        autoComplete="off"
+        spellCheck={false}
+      />
+      <button className="shipped-link-btn" type="submit" disabled={!value.trim()}>
+        Add
+      </button>
+    </form>
+  );
+}
+
+function PresentationSlide({ slide, isFinale, shippedLinks, onAddShippedLink, onRemoveShippedLink }) {
   const trackSlug = slide.type === "session-intro"
     ? "local-builds"
     : slide.type.startsWith("community")
@@ -32,6 +76,8 @@ function PresentationSlide({ slide, isFinale }) {
   }
 
   if (slide.type === "track-title") {
+    const isShipped = trackSlug === "shipped";
+
     return (
       <div className="pres-slide pres-slide--track" data-track={trackSlug}>
         <span className="pres-track-num">
@@ -40,9 +86,31 @@ function PresentationSlide({ slide, isFinale }) {
         <h2 className="pres-track-title">{slide.track.title}</h2>
         {slide.track.purpose ? <p className="pres-track-purpose">{slide.track.purpose}</p> : null}
         {slide.track.sectionNote ? <p className="pres-notes">{slide.track.sectionNote}</p> : null}
-        <span className="pres-topic-badge">
-          {slide.track.items.length} topic{slide.track.items.length !== 1 ? "s" : ""}
-        </span>
+        {isShipped ? (
+          <>
+            <ShippedLinkInput onAdd={onAddShippedLink} />
+            {shippedLinks?.length ? (
+              <div className="shipped-link-list">
+                {shippedLinks.map((href, i) => (
+                  <div key={`${href}-${i}`} className="shipped-link-item">
+                    <LinkCard href={href} />
+                    <button
+                      className="shipped-link-remove"
+                      onClick={() => onRemoveShippedLink(i)}
+                      aria-label="Remove link"
+                    >
+                      &times;
+                    </button>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+          </>
+        ) : (
+          <span className="pres-topic-badge">
+            {slide.track.items.length} topic{slide.track.items.length !== 1 ? "s" : ""}
+          </span>
+        )}
       </div>
     );
   }
@@ -112,6 +180,45 @@ function PresentationSlide({ slide, isFinale }) {
   );
 }
 
+function SlideTimer({ slideIndex }) {
+  const [seconds, setSeconds] = useState(90);
+
+  useEffect(() => {
+    setSeconds(90);
+  }, [slideIndex]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSeconds((s) => s - 1);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [slideIndex]);
+
+  const isOvertime = seconds <= 0;
+  const isWarning = !isOvertime && seconds <= 15;
+  const display = Math.abs(seconds);
+  const mins = Math.floor(display / 60);
+  const secs = display % 60;
+
+  return (
+    <div
+      className={
+        "pres-timer" +
+        (isOvertime ? " pres-timer--overtime" : "") +
+        (isWarning ? " pres-timer--warning" : "")
+      }
+    >
+      <span className="pres-timer-label">
+        {isOvertime ? "overtime" : "remaining"}
+      </span>
+      <span className="pres-timer-digits">
+        {isOvertime ? "+" : ""}
+        {mins}:{String(secs).padStart(2, "0")}
+      </span>
+    </div>
+  );
+}
+
 function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabel, trackSlug }) {
   const pct = ((currentIndex + 1) / totalSlides) * 100;
 
@@ -135,6 +242,7 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
   const slides = useMemo(() => buildSlides(session), [session]);
   const visitedRef = useRef(new Set());
   const touchStartRef = useRef(null);
+  const [shippedLinks, setShippedLinks] = useState([]);
   const slide = slides[currentIndex];
 
   if (!slide) {
@@ -271,7 +379,13 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
         </button>
 
         <div className="pres-stage" key={currentIndex} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
-          <PresentationSlide slide={slide} isFinale={isFinale} />
+          <PresentationSlide
+            slide={slide}
+            isFinale={isFinale}
+            shippedLinks={shippedLinks}
+            onAddShippedLink={(href) => setShippedLinks((prev) => [...prev, href])}
+            onRemoveShippedLink={(index) => setShippedLinks((prev) => prev.filter((_, i) => i !== index))}
+          />
         </div>
 
         <button
@@ -282,6 +396,8 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
         >
           ›
         </button>
+
+        <SlideTimer slideIndex={currentIndex} />
       </div>
 
       <PresentationProgress

@@ -392,17 +392,6 @@ export const sessions = [
             },
           },
           {
-            title: "LFM-Zero",
-            description:
-              "xAI-nana is introducing LFM-Zero as a foundation model allegedly trained on zero tokens. It is a strange enough claim that it belongs in the release block even if the underlying method still needs scrutiny.",
-            chip: "research",
-            href: "https://x.com/xanamini/status/2039403320247480469",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/xanamini/status/2039403320247480469?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
             title: "GLM5 Turbo",
             description:
               "Artificial Analysis highlights another new model drop worth checking against their leaderboard.",
@@ -602,6 +591,13 @@ export const sessions = [
             },
             notes:
               "His concrete point is operational, not just sensational: package managers should make safer defaults like release-age constraints normal instead of optional.",
+          },
+          {
+            title: "Black-hat LLMs",
+            description:
+              "Nicholas Carlini's Black-hat LLMs talk is a good framing slide for the meetup: if LLMs are now critical infrastructure and attack surfaces, offensive methods around them will keep getting sharper.",
+            chip: "video",
+            href: "https://www.youtube.com/watch?v=1sd26pWhfmg",
           },
         ],
       },
