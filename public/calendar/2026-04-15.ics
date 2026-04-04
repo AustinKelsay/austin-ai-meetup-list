@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Austin AI Club//Meetups//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2026-04-15@austinai.club
+DTSTAMP:20260404T201550Z
+DTSTART:20260415T220000Z
+DTEND:20260416T000000Z
+SUMMARY:Austin AI Club
+DESCRIPTION:Quick AI news rundown\, demos\, and open discussion.\n\nDetails: https://austinai.club/#session-2026-04-15
+LOCATION:Bitcoin Park Austin\, Austin\, TX
+URL:https://austinai.club/#session-2026-04-15
+END:VEVENT
+END:VCALENDAR

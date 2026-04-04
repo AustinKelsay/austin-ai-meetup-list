@@ -25,6 +25,145 @@
 // 6. Big Tech Moves
 export const sessions = [
   {
+    id: "session-2026-04-15",
+    slug: "2026-04-15",
+    date: "April 15, 2026",
+    markdownHref: "./topics/2026-04-15.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-04-15T17:00:00-05:00",
+      endAt: "2026-04-15T19:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Smaller board this week. Less scrolling, more actual discussion.",
+    },
+    showcases: [],
+    tracks: [
+      {
+        id: "apr15-local-builds",
+        title: "Local Builds & Projects",
+        purpose:
+          "This section covers new repos, demos, local stacks, and projects that people can run, inspect, or build on directly.",
+        items: [
+          {
+            title: "mesh-llm pools compute for open models",
+            description:
+              "Block's Michael Neale is pitching mesh-llm as an OpenAI-compatible inference mesh for pooling spare compute across open models.",
+            chip: "infra",
+            href: "https://docs.anarchai.org/",
+            linkPair: [
+              "https://github.com/michaelneale/mesh-llm",
+              "https://x.com/jack/status/2039736688457507251",
+            ],
+            notes:
+              "Interesting because it tries to collapse local inference, p2p routing, and agent coordination into one surface.",
+          },
+          {
+            title: "Karpathy's LLM wiki idea file",
+            description:
+              "Karpathy sketches a workflow where an agent compiles raw sources into a persistent markdown wiki, then answers questions and emits slides, charts, or notes by extending that artifact instead of re-deriving everything from scratch.",
+            chip: "workflow",
+            href: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+            linkPair: [
+              "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+              "https://x.com/karpathy/status/2039805659525644595",
+              "https://x.com/karpathy/status/2040470801506541998",
+            ],
+            notes:
+              "Worth discussing as a compounding alternative to disposable chat sessions and thin RAG wrappers: the wiki becomes the artifact, and the agent becomes the maintainer.",
+          },
+        ],
+      },
+      {
+        id: "apr15-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
+        items: [
+          {
+            title: "Trinity-Large-Thinking",
+            description:
+              "Arcee drops an Apache 2.0 reasoning MoE with unusually strong agentic benchmark claims for an open model.",
+            chip: "model",
+            href: "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+            linkPair: [
+              "https://x.com/TheAhmadOsman/status/2039481776628777245",
+            ],
+            notes:
+              "The real question is whether open models are now close enough on agent tasks that cost and control can flip the default.",
+          },
+          {
+            title: "Qwen3.6-Plus",
+            description:
+              "Qwen is pitching Qwen3.6-Plus as a real-world multimodal agent model: coding, vision, and 1M context in one API.",
+            chip: "model",
+            href: "https://qwen.ai/blog?id=qwen3.6",
+            linkPair: [
+              "https://chat.qwen.ai/",
+              "https://x.com/Alibaba_Qwen/status/2039705104723611829",
+            ],
+            notes:
+              "This is one of the broadest agent-default pitches in the list. The question is whether the product actually matches the launch story.",
+          },
+        ],
+      },
+      {
+        id: "apr15-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, defensive ideas, and security-relevant failures around modern AI systems and tooling.",
+        items: [
+          {
+            title: "Anthropic's fake-tool anti-distillation path",
+            description:
+              "The leaked Claude Code source shows an anti-distillation mode that opts CLI traffic into fake tool injection.",
+            chip: "security",
+            href:
+              "https://github.com/Gitlawb/openclaude/blob/2f162af60cc028899a343a660fef2da8186ca018/src/services/api/claude.ts",
+            linkPair: [
+              "https://winbuzzer.com/2026/04/01/claude-code-source-leak-anti-distillation-traps-undercover-mode-xcxwbn/",
+            ],
+            notes:
+              "This is the clearest recent sign that labs now treat distillation as an adversarial security problem, not just an abuse problem.",
+          },
+        ],
+      },
+      {
+        id: "apr15-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, product launches, acquisitions, and platform bets that shift how the AI market is organized.",
+        items: [
+          {
+            title: "OpenAI acquires TBPN",
+            description:
+              "OpenAI is acquiring TBPN, keeping the show intact while pulling the team into Strategy.",
+            chip: "media",
+            href: "https://openai.com/index/openai-acquires-tbpn/",
+            linkPair: [
+              "https://x.com/jordihays/status/2039756490387624327",
+            ],
+            notes:
+              "This looks like a distribution move as much as a media deal. Owning the conversation is its own moat.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "session-2026-04-01",
     slug: "2026-04-01",
     date: "April 1, 2026",

@@ -6,6 +6,8 @@ The frontend reads curated session data from `src/data.js`, but the source-of-re
 
 ## Meetups
 
+- [2026-04-15](./2026-04-15.md) - Austin AI Club meetup notes
+- [2026-04-01](./2026-04-01.md) - Austin AI Club meetup notes
 - [2026-03-18](./2026-03-18.md) - Austin AI Club meetup notes
 
 ## Adding a new meetup
