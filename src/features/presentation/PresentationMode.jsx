@@ -180,45 +180,6 @@ function PresentationSlide({ slide, isFinale, shippedLinks, onAddShippedLink, on
   );
 }
 
-function SlideTimer({ slideIndex }) {
-  const [seconds, setSeconds] = useState(90);
-
-  useEffect(() => {
-    setSeconds(90);
-  }, [slideIndex]);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds((s) => s - 1);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [slideIndex]);
-
-  const isOvertime = seconds <= 0;
-  const isWarning = !isOvertime && seconds <= 15;
-  const display = Math.abs(seconds);
-  const mins = Math.floor(display / 60);
-  const secs = display % 60;
-
-  return (
-    <div
-      className={
-        "pres-timer" +
-        (isOvertime ? " pres-timer--overtime" : "") +
-        (isWarning ? " pres-timer--warning" : "")
-      }
-    >
-      <span className="pres-timer-label">
-        {isOvertime ? "overtime" : "remaining"}
-      </span>
-      <span className="pres-timer-digits">
-        {isOvertime ? "+" : ""}
-        {mins}:{String(secs).padStart(2, "0")}
-      </span>
-    </div>
-  );
-}
-
 function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabel, trackSlug }) {
   const pct = ((currentIndex + 1) / totalSlides) * 100;
 
@@ -319,8 +280,8 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
 
   useEffect(() => {
     if (window.twttr?.widgets?.load) {
-      const timer = setTimeout(() => window.twttr.widgets.load(), 50);
-      return () => clearTimeout(timer);
+      const twitterWidgetRefreshTimeout = setTimeout(() => window.twttr.widgets.load(), 50);
+      return () => clearTimeout(twitterWidgetRefreshTimeout);
     }
   }, [currentIndex]);
 
@@ -396,8 +357,6 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
         >
           ›
         </button>
-
-        <SlideTimer slideIndex={currentIndex} />
       </div>
 
       <PresentationProgress

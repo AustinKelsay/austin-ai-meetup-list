@@ -85,6 +85,19 @@ export const sessions = [
             notes:
               "Worth discussing as a compounding alternative to disposable chat sessions and thin RAG wrappers: the wiki becomes the artifact, and the agent becomes the maintainer.",
           },
+          {
+            title: "Waypoint-1.5 brings real-time AI worlds to everyday GPUs",
+            description:
+              "Overworld is releasing Waypoint-1.5 as a real-time diffusion world model aimed at consumer hardware, with local execution tiers for 720p and 360p plus a browser path for instant access.",
+            chip: "world model",
+            href: "https://over.world/blog/waypoint-1-5",
+            linkPair: [
+              "https://github.com/Overworldai/Biome/blob/main/README.md",
+              "https://x.com/overworld_ai/status/2042287199513952563",
+            ],
+            notes:
+              "This one is interesting because it is trying to make world models feel like software, not just demos: local runtime, simpler install, and enough efficiency work that interactive generation can run on normal gaming hardware.",
+          },
         ],
       },
       {
@@ -93,6 +106,19 @@ export const sessions = [
         purpose:
           "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
         items: [
+          {
+            title: "GLM-5.1",
+            description:
+              "Z.ai is launching GLM-5.1 as an open-source agentic coding model and claiming top open-source results on SWE-Bench Pro, Terminal-Bench, and NL2Repo, plus autonomous runs that stay productive for up to eight hours.",
+            chip: "model",
+            href: "https://docs.z.ai/guides/llm/glm-5.1",
+            linkPair: [
+              "https://z.ai/blog/glm-5.1",
+              "https://x.com/Zai_org/status/2041550153354519022",
+            ],
+            notes:
+              "The important part is the long-horizon claim, not just another leaderboard screenshot. If the model can actually hold strategy over hours, that matters more than a few benchmark points.",
+          },
           {
             title: "Trinity-Large-Thinking",
             description:
@@ -127,6 +153,20 @@ export const sessions = [
           "This section covers attacks, abuse patterns, defensive ideas, and security-relevant failures around modern AI systems and tooling.",
         items: [
           {
+            title: "Anthropic launches Project Glasswing with Claude Mythos Preview",
+            description:
+              "Anthropic is saying Mythos Preview is already strong enough at vulnerability discovery and exploit development that it is keeping the model out of general release and routing access through Project Glasswing instead.",
+            chip: "security",
+            href: "https://www.anthropic.com/glasswing",
+            linkPair: [
+              "https://red.anthropic.com/2026/mythos-preview/",
+              "https://www.anthropic.com/claude-mythos-preview-system-card",
+              "https://x.com/AnthropicAI/status/2041578392852517128",
+            ],
+            notes:
+              "This is bigger than a model launch: Anthropic says Mythos has already found thousands of high-severity zero-days across every major OS and browser, launched with AWS, Apple, Google, Microsoft, and others, and tied the effort to $100M in usage credits plus $4M for open-source security groups.",
+          },
+          {
             title: "Anthropic's fake-tool anti-distillation path",
             description:
               "The leaked Claude Code source shows an anti-distillation mode that opts CLI traffic into fake tool injection.",
@@ -147,6 +187,18 @@ export const sessions = [
         purpose:
           "This section covers major company moves, product launches, acquisitions, and platform bets that shift how the AI market is organized.",
         items: [
+          {
+            title: "Meta introduces Muse Spark",
+            description:
+              "Meta is pitching Muse Spark as a step toward personal superintelligence, while Artificial Analysis says the model scores 52 on its Intelligence Index and marks Meta's first major non-open-weights release since Llama 4.",
+            chip: "strategy",
+            href: "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+            linkPair: [
+              "https://x.com/ArtificialAnlys/status/2041913043379220801",
+            ],
+            notes:
+              "The real story is strategic, not just numerical: if Meta is moving from open-weights defaults toward a hybrid or closed frontier line, that changes how seriously people should take the next Llama-era competitive map.",
+          },
           {
             title: "OpenAI acquires TBPN",
             description:

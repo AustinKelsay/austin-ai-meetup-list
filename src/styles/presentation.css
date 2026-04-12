@@ -391,81 +391,6 @@
   margin-top: 0.6rem;
 }
 
-/* Countdown timer */
-
-.pres-timer {
-  position: absolute;
-  bottom: 0.75rem;
-  right: 0.75rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.15rem;
-  padding: 0.4rem 0.65rem 0.35rem;
-  border: 1px solid var(--t-line, var(--line));
-  border-radius: var(--radius);
-  background: rgba(5, 14, 22, 0.82);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  z-index: 103;
-  pointer-events: none;
-  transition: border-color 400ms ease, background 400ms ease, box-shadow 400ms ease;
-}
-
-.pres-timer-label {
-  font-family: var(--font-mono);
-  font-size: 0.56rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  transition: color 400ms ease;
-}
-
-.pres-timer-digits {
-  font-family: var(--font-mono);
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  color: var(--t-dim, var(--accent-dim));
-  line-height: 1;
-  font-variant-numeric: tabular-nums;
-  transition: color 400ms ease, text-shadow 400ms ease;
-}
-
-.pres-timer--warning {
-  border-color: rgba(243, 168, 71, 0.35);
-  background: rgba(243, 168, 71, 0.06);
-}
-
-.pres-timer--warning .pres-timer-label {
-  color: rgba(243, 168, 71, 0.7);
-}
-
-.pres-timer--warning .pres-timer-digits {
-  color: #f3a847;
-  text-shadow: 0 0 16px rgba(243, 168, 71, 0.3);
-}
-
-.pres-timer--overtime {
-  border-color: rgba(243, 113, 136, 0.35);
-  background: rgba(243, 113, 136, 0.06);
-  animation: timer-pulse 2s ease-in-out infinite;
-}
-
-.pres-timer--overtime .pres-timer-label {
-  color: rgba(243, 113, 136, 0.7);
-}
-
-.pres-timer--overtime .pres-timer-digits {
-  color: #f37188;
-  text-shadow: 0 0 20px rgba(243, 113, 136, 0.35);
-}
-
-@keyframes timer-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.65; }
-}
-
 /* Bottom bar / progress */
 
 .pres-bottom {
@@ -993,20 +918,6 @@
 
   .pres-bottom-counter {
     font-size: 0.68rem;
-  }
-
-  .pres-timer {
-    bottom: 0.5rem;
-    right: 0.5rem;
-    padding: 0.3rem 0.5rem 0.25rem;
-  }
-
-  .pres-timer-label {
-    font-size: 0.48rem;
-  }
-
-  .pres-timer-digits {
-    font-size: 0.9rem;
   }
 
   .pres-mobile-controls {
