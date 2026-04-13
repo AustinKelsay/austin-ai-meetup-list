@@ -82,6 +82,16 @@ export function findSlideIndex(session, route) {
   );
 }
 
+export function findTopicSlideIndex(session, item) {
+  const slides = buildSlides(session);
+
+  return slides.findIndex(
+    (slide) =>
+      (slide.type === "topic" || slide.type === "community-topic") &&
+      slide.item === item,
+  );
+}
+
 export function resolvePresentationHash(sessionList, hash) {
   const route = parseSlideHash(hash);
 
@@ -92,14 +102,14 @@ export function resolvePresentationHash(sessionList, hash) {
   const session = sessionList.find((candidate) => candidate.slug === route.sessionSlug);
   if (!session) {
     return {
-      invalidHash: sessionList[0] ? `#${sessionList[0].id}` : "",
+      invalidHash: "",
     };
   }
 
   const slideIndex = findSlideIndex(session, route);
   if (slideIndex === -1) {
     return {
-      invalidHash: `#${session.id}`,
+      invalidHash: "",
     };
   }
 

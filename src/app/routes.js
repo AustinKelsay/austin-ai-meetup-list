@@ -2,6 +2,7 @@ import {
   APP_ROUTE,
   CALENDAR_PATH,
   LINK_SUBMISSION_PATH,
+  MEETUP_PATH_PREFIX,
   SHOWCASE_SUBMISSION_PATH,
 } from "./constants.js";
 import { slugify } from "../lib/meetup-ui.js";
@@ -63,20 +64,49 @@ export function parseSlideHash(hash) {
   };
 }
 
+export function buildMeetupPath(slug) {
+  return `${MEETUP_PATH_PREFIX}/${encodeURIComponent(slug)}`;
+}
+
+function normalizePathname(pathname) {
+  if (!pathname || pathname === "/") {
+    return "/";
+  }
+
+  return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+}
+
 export function getAppRoute(pathname) {
-  if (pathname === CALENDAR_PATH) {
-    return APP_ROUTE.CALENDAR;
+  const normalized = normalizePathname(pathname);
+
+  if (normalized === CALENDAR_PATH) {
+    return { name: APP_ROUTE.CALENDAR };
   }
 
-  if (pathname === LINK_SUBMISSION_PATH) {
-    return APP_ROUTE.SUBMIT_LINK;
+  if (normalized === LINK_SUBMISSION_PATH) {
+    return { name: APP_ROUTE.SUBMIT_LINK };
   }
 
-  if (pathname === SHOWCASE_SUBMISSION_PATH) {
-    return APP_ROUTE.SUBMIT_SHOWCASE;
+  if (normalized === SHOWCASE_SUBMISSION_PATH) {
+    return { name: APP_ROUTE.SUBMIT_SHOWCASE };
   }
 
-  return APP_ROUTE.HOME;
+  const meetupPrefix = `${MEETUP_PATH_PREFIX}/`;
+  if (normalized.startsWith(meetupPrefix)) {
+    const meetupSlug = normalized.slice(meetupPrefix.length);
+    if (meetupSlug && !meetupSlug.includes("/")) {
+      try {
+        return {
+          name: APP_ROUTE.MEETUP,
+          meetupSlug: decodeURIComponent(meetupSlug),
+        };
+      } catch {
+        return { name: APP_ROUTE.HOME };
+      }
+    }
+  }
+
+  return { name: APP_ROUTE.HOME };
 }
 
 export function setHash(hash) {
@@ -88,12 +118,19 @@ export function setHash(hash) {
 }
 
 export function setPathname(pathname, options = {}) {
-  const { replace = false } = options;
+  const { replace = false, hash = window.location.hash, state = null } = options;
+  const nextHash = hash
+    ? hash.startsWith("#")
+      ? hash
+      : `#${hash}`
+    : "";
+  const nextUrl = `${pathname}${nextHash}`;
+  const currentUrl = `${window.location.pathname}${window.location.hash}`;
 
-  if (window.location.pathname === pathname) {
+  if (currentUrl === nextUrl && window.history.state === state) {
     return;
   }
 
   const method = replace ? "replaceState" : "pushState";
-  window.history[method]({}, "", pathname);
+  window.history[method](state, "", nextUrl);
 }

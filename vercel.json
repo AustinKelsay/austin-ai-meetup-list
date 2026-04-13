@@ -4,6 +4,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/meetups/:slug",
+      "destination": "/index.html"
+    },
+    {
       "source": "/calendar",
       "destination": "/index.html"
     },

@@ -56,7 +56,30 @@ export const sessions = [
         id: "apr15-local-builds",
         title: "Local Builds & Projects",
         purpose:
-          "This section covers new repos, demos, local stacks, and projects that people can run, inspect, or build on directly.",
+          "This section covers actual meetup member projects, demos, prototypes, and local builds that were made by people in the room.",
+        items: [
+          {
+            title: "OpenAgents: Pylon + Autopilot",
+            description:
+              "Pylon looks like the local runtime underneath OpenAgents, while Autopilot is the desktop layer on top. The bigger idea is agents that keep their own identity, state, and wallet instead of living inside one hosted chat box.",
+            chip: "local",
+            href: "https://docs.openagents.com/concepts/sovereign-agents",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAgents/status/2042626501451919412?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://openagents.com/",
+              "https://github.com/openagents-org/openagents",
+            ],
+          },
+        ],
+      },
+      {
+        id: "apr15-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
         items: [
           {
             title: "mesh-llm pools compute for open models",
@@ -72,31 +95,38 @@ export const sessions = [
               "Interesting because it tries to collapse local inference, p2p routing, and agent coordination into one surface.",
           },
           {
-            title: "Karpathy's LLM wiki idea file",
+            title: "Karpathy's LLM wiki idea",
             description:
-              "Karpathy sketches a workflow where an agent compiles raw sources into a persistent markdown wiki, then answers questions and emits slides, charts, or notes by extending that artifact instead of re-deriving everything from scratch.",
-            chip: "workflow",
+              "Karpathy's pitch is simple: use LLMs to build a living markdown wiki for a topic, then keep extending that artifact instead of starting over from scratch every time.",
+            chip: "memory",
             href: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-            linkPair: [
-              "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-              "https://x.com/karpathy/status/2039805659525644595",
-              "https://x.com/karpathy/status/2040470801506541998",
-            ],
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/karpathy/status/2039805659525644595?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://x.com/karpathy/status/2040470801506541998"],
             notes:
-              "Worth discussing as a compounding alternative to disposable chat sessions and thin RAG wrappers: the wiki becomes the artifact, and the agent becomes the maintainer.",
+              "Better framing than disposable chat history: the wiki becomes the working artifact, and the model keeps editing it forward.",
           },
           {
-            title: "Waypoint-1.5 brings real-time AI worlds to everyday GPUs",
+            title: "Everybody wants an agent story now",
             description:
-              "Overworld is releasing Waypoint-1.5 as a real-time diffusion world model aimed at consumer hardware, with local execution tiers for 720p and 360p plus a browser path for instant access.",
-            chip: "world model",
-            href: "https://over.world/blog/waypoint-1-5",
+              "Slack, Microsoft, IBM, and a bunch of smaller infra players all pushed agent launches in the same week. The main signal is not any one framework. It is that everybody suddenly needs to be in the agent business.",
+            chip: "infra",
+            href: "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
             linkPair: [
-              "https://github.com/Overworldai/Biome/blob/main/README.md",
-              "https://x.com/overworld_ai/status/2042287199513952563",
+              "https://slack.com/blog/news/agent-orchestration",
+              "https://rivet.dev/changelog/2026-04-04-introducing-agentos/",
+              "https://github.com/rivet-dev/agent-os",
+              "https://www.zenml.io/blog/kitaru-launch",
+              "https://github.com/zenml-io/kitaru",
+              "https://medium.com/agentspan/open-sourcing-agentspan-durable-ai-agents-069adc",
+              "https://agentspan.ai/",
+              "https://huggingface.co/blog/ibm-research/altk-evolve",
+              "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the-salesforce-acquisition/",
             ],
             notes:
-              "This one is interesting because it is trying to make world models feel like software, not just demos: local runtime, simpler install, and enough efficiency work that interactive generation can run on normal gaming hardware.",
+              "Feels like the new checkbox for every big platform: if you do not have an agent product, agent framework, or agent roadmap, you look behind.",
           },
         ],
       },
@@ -107,6 +137,17 @@ export const sessions = [
           "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
         items: [
           {
+            title: "Waypoint-1.5 brings real-time AI worlds to everyday GPUs",
+            description:
+              "Overworld is releasing Waypoint-1.5 as a real-time diffusion world model aimed at consumer hardware, with local execution tiers for 720p and 360p plus a browser path for instant access.",
+            chip: "world model",
+            href: "https://over.world/blog/waypoint-1-5",
+            linkPair: [
+              "https://github.com/Overworldai/Biome/blob/main/README.md",
+              "https://x.com/overworld_ai/status/2042287199513952563",
+            ],
+          },
+          {
             title: "GLM-5.1",
             description:
               "Z.ai is launching GLM-5.1 as an open-source agentic coding model and claiming top open-source results on SWE-Bench Pro, Terminal-Bench, and NL2Repo, plus autonomous runs that stay productive for up to eight hours.",
@@ -116,8 +157,6 @@ export const sessions = [
               "https://z.ai/blog/glm-5.1",
               "https://x.com/Zai_org/status/2041550153354519022",
             ],
-            notes:
-              "The important part is the long-horizon claim, not just another leaderboard screenshot. If the model can actually hold strategy over hours, that matters more than a few benchmark points.",
           },
           {
             title: "Trinity-Large-Thinking",
@@ -128,8 +167,6 @@ export const sessions = [
             linkPair: [
               "https://x.com/TheAhmadOsman/status/2039481776628777245",
             ],
-            notes:
-              "The real question is whether open models are now close enough on agent tasks that cost and control can flip the default.",
           },
           {
             title: "Qwen3.6-Plus",
@@ -141,8 +178,39 @@ export const sessions = [
               "https://chat.qwen.ai/",
               "https://x.com/Alibaba_Qwen/status/2039705104723611829",
             ],
-            notes:
-              "This is one of the broadest agent-default pitches in the list. The question is whether the product actually matches the launch story.",
+          },
+          {
+            title: "Google Gemma 4",
+            description:
+              "Google DeepMind releases Gemma 4, the most capable open model family to date under Apache 2.0. Four sizes (E2B, E4B, 26B MoE, 31B Dense), built on Gemini 3 tech, with native function-calling, 256K context, and on-device agentic workflows.",
+            chip: "model",
+            href: "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+            linkPair: [
+              "https://developers.googleblog.com/en/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/",
+              "https://ai.google.dev/gemma/docs/releases",
+              "https://x.com/Google/status/2039736220834480233",
+            ],
+          },
+          {
+            title: "Llama 4 Scout & Maverick",
+            description:
+              "Meta releases Llama 4 Scout and Maverick, the first open-weight natively multimodal MoE models. Scout fits on a single H100 with a 10M-token context window. Maverick packs 128 experts and strong image understanding.",
+            chip: "model",
+            href: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+            linkPair: [
+              "https://llama.meta.com/models/llama-4/",
+              "https://huggingface.co/blog/llama4-release",
+            ],
+          },
+          {
+            title: "Meta introduces Muse Spark",
+            description:
+              "Meta is pitching Muse Spark as a step toward personal superintelligence, while Artificial Analysis says the model scores 52 on its Intelligence Index and marks Meta's first major non-open-weights release since Llama 4.",
+            chip: "model",
+            href: "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+            linkPair: [
+              "https://x.com/ArtificialAnlys/status/2041913043379220801",
+            ],
           },
         ],
       },
@@ -179,6 +247,43 @@ export const sessions = [
             notes:
               "This is the clearest recent sign that labs now treat distillation as an adversarial security problem, not just an abuse problem.",
           },
+          {
+            title: "Microsoft Agent Governance Toolkit",
+            description:
+              "Microsoft open-sources a runtime security toolkit for autonomous AI agents under MIT. Policy enforcement, zero-trust identity, audit trails, and guardrails mapped to OWASP agent risk categories.",
+            chip: "security",
+            href: "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit/",
+            linkPair: [
+              "https://github.com/microsoft/agent-governance-toolkit",
+            ],
+            notes:
+              "This is the first major vendor-backed open-source governance layer for agents. The OWASP mapping gives it a standards anchor that most agent security tools lack.",
+          },
+          {
+            title: "OWASP Secure Agent Playbook",
+            description:
+              "OWASP drops a step-by-step security playbook specifically for building and operating AI agents, grounded in their agent risk taxonomy.",
+            chip: "security",
+            href: "https://github.com/OWASP/secure-agent-playbook",
+            linkPair: [
+              "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/",
+            ],
+            notes:
+              "Pairs well with the Microsoft governance toolkit. OWASP is setting the taxonomy and Microsoft is building the runtime enforcement.",
+          },
+          {
+            title: "AI Trust Commons governance framework",
+            description:
+              "Open-source (Apache 2.0) cross-provider governance framework for AI agents that works across AWS, Azure, and GCP. Aims to unify audit, compliance, and standards mapping for enterprise agent deployments.",
+            chip: "security",
+            href: "https://github.com/aitrustcommons/governance-framework",
+            linkPair: [
+              "https://aitrustcommons.org/",
+              "https://aitrustcommons.org/standards/",
+            ],
+            notes:
+              "The cross-provider angle is what makes this different from vendor-specific toolkits. Maps to both NIST and OWASP standards.",
+          },
         ],
       },
       {
@@ -188,16 +293,37 @@ export const sessions = [
           "This section covers major company moves, product launches, acquisitions, and platform bets that shift how the AI market is organized.",
         items: [
           {
-            title: "Meta introduces Muse Spark",
+            title: "Anthropic vs OpenClaw keeps escalating",
             description:
-              "Meta is pitching Muse Spark as a step toward personal superintelligence, while Artificial Analysis says the model scores 52 on its Intelligence Index and marks Meta's first major non-open-weights release since Llama 4.",
-            chip: "strategy",
-            href: "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+              "First Anthropic cut OpenClaw off Claude subscription credits on April 4, 2026. Then on April 10, 2026 Peter Steinberger said Anthropic suspended his Claude and API access, before his account was restored roughly two hours later.",
+            chip: "policy",
+            href: "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+            image: {
+              src: "/images/anthropic-openclaw-email.jpg",
+              href: "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+              alt: "Anthropic email explaining that Claude subscriptions no longer cover third-party harnesses including OpenClaw.",
+              caption: "Anthropic email shown in reporting around the OpenClaw subscription cutoff",
+            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/bcherny/status/2040206444428189755?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/steipete/status/2042615534567457102?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/steipete/status/2042648934238097842?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
-              "https://x.com/ArtificialAnlys/status/2041913043379220801",
+              "https://x.com/bcherny/status/2040206443094446558",
+              "https://finance.sina.com.cn/tech/roll/2026-04-11/doc-inhucmsx9421750.shtml",
             ],
             notes:
-              "The real story is strategic, not just numerical: if Meta is moving from open-weights defaults toward a hybrid or closed frontier line, that changes how seriously people should take the next Llama-era competitive map.",
+              "The cheap Claude-inside-OpenClaw path is still clearly gone. The Peter suspension looks different: based on reporting and Anthropic employee replies, that one appears to have been a false positive, not a lasting creator-specific ban.",
           },
           {
             title: "OpenAI acquires TBPN",
@@ -210,6 +336,47 @@ export const sessions = [
             ],
             notes:
               "This looks like a distribution move as much as a media deal. Owning the conversation is its own moat.",
+          },
+          {
+            title: "Microsoft ships in-house MAI models",
+            description:
+              "Microsoft launches three in-house AI models through Foundry: MAI-Transcribe-1 (SOTA speech-to-text across 25 languages), MAI-Voice-1 (speech generation), and MAI-Image-2 (text-to-image). A clear signal of reducing OpenAI dependency.",
+            chip: "strategy",
+            href: "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+            linkPair: [
+              "https://aka.ms/mai-foundry-tcblog",
+              "https://thenextweb.com/news/microsoft-mai-models-openai-independence",
+            ],
+            notes:
+              "The real story is not the models themselves but what they mean: Microsoft is building first-party alternatives to OpenAI across speech, voice, and image. The renegotiated partnership is producing visible divergence.",
+          },
+          {
+            title: "OpenAI pauses Stargate UK",
+            description:
+              "OpenAI pauses the Stargate UK data-centre project over high energy costs and regulatory uncertainty. The plan would have deployed up to 8,000 GPUs with NVIDIA and Nscale in North Tyneside.",
+            chip: "strategy",
+            href: "https://www.reuters.com/business/openai-pauses-uk-data-centre-project-over-regulation-costs/",
+            linkPair: [
+              "https://www.bbc.co.uk/news/articles/clyd032ej70o",
+              "https://thenextweb.com/news/openai-pauses-stargate-uk-energy-costs-regulation",
+            ],
+            notes:
+              "A reminder that compute expansion is still gated by energy costs and regulation, not just capital. OpenAI has the $122B but the physical infrastructure bottleneck is real.",
+          },
+          {
+            title: "Two attacks on Sam Altman's home in one week",
+            description:
+              "On April 10 a 20-year-old threw a Molotov cocktail at Altman's San Francisco house, setting a perimeter gate on fire, then went to OpenAI's office and threatened arson before being arrested. Two days later on April 12, two suspects in a Honda fired a gun toward the same Lombard Street property; both were arrested for negligent discharge of a firearm. FBI raided the first suspect's Texas home. Altman was uninjured in both incidents.",
+            chip: "news",
+            href: "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
+            linkPair: [
+              "https://www.cnbc.com/2026/04/10/sam-altman-house-hit-with-molotov-cocktail-openai-office-threatened.html",
+              "https://www.engadget.com/ai/two-suspects-have-been-arrested-for-allegedly-shooting-at-sam-altmans-san-francisco-home-142655579.html",
+              "https://www.bbc.com/news/articles/czx91rdxpyeo",
+              "https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office/",
+            ],
+            notes:
+              "Two unrelated attacks in 72 hours. The first suspect explicitly threatened OpenAI. Altman called AI a 'ring of power' dynamic that makes people do crazy things. Expect the physical security conversation around AI leaders to escalate.",
           },
         ],
       },

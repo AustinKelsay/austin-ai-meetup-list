@@ -1,4 +1,5 @@
 import { BIWEEKLY_INTERVAL_DAYS, DEFAULT_CALENDAR_EVENT_COUNT } from "../../app/constants.js";
+import { buildMeetupPath } from "../../app/routes.js";
 import {
   addDays,
   formatDateKey,
@@ -10,7 +11,7 @@ function createCalendarEntry(session) {
     id: session.id,
     kind: "authored",
     slug: session.slug,
-    detailsHref: `/#${session.id}`,
+    detailsHref: buildMeetupPath(session.slug),
     event: session.event,
   };
 }
