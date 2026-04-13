@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T21:31:01.410Z",
+  "generatedAt": "2026-04-13T23:03:43.845Z",
   "siteUrl": "https://austinai.club",
   "events": [
     {
@@ -16,7 +16,7 @@
       "locationName": "Bitcoin Park Austin",
       "locationAddress": "Austin, TX",
       "reminderSendHour": 10,
-      "detailsUrl": "https://austinai.club/#session-2026-04-15",
+      "detailsUrl": "https://austinai.club/meetups/2026-04-15",
       "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Austin+AI+Club&dates=20260415T220000Z%2F20260416T000000Z&details=Quick+AI+news+rundown%2C+demos%2C+and+open+discussion.&location=Bitcoin+Park+Austin%2C+Austin%2C+TX&ctz=America%2FChicago",
       "icsUrl": "https://austinai.club/calendar/2026-04-15.ics"
     },
@@ -34,7 +34,7 @@
       "locationName": "Bitcoin Park Austin",
       "locationAddress": "Austin, TX",
       "reminderSendHour": 10,
-      "detailsUrl": "https://austinai.club/#session-2026-04-01",
+      "detailsUrl": "https://austinai.club/meetups/2026-04-01",
       "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Austin+AI+Club&dates=20260401T220000Z%2F20260402T000000Z&details=Quick+AI+news+rundown%2C+demos%2C+and+open+discussion.&location=Bitcoin+Park+Austin%2C+Austin%2C+TX&ctz=America%2FChicago",
       "icsUrl": "https://austinai.club/calendar/2026-04-01.ics"
     },
@@ -52,7 +52,7 @@
       "locationName": "Bitcoin Park Austin",
       "locationAddress": "Austin, TX",
       "reminderSendHour": 10,
-      "detailsUrl": "https://austinai.club/#session-2026-03-18",
+      "detailsUrl": "https://austinai.club/meetups/2026-03-18",
       "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Austin+AI+Club&dates=20260318T220000Z%2F20260319T000000Z&details=Quick+AI+news+rundown%2C+demos%2C+and+open+discussion.&location=Bitcoin+Park+Austin%2C+Austin%2C+TX&ctz=America%2FChicago",
       "icsUrl": "https://austinai.club/calendar/2026-03-18.ics"
     }

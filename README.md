@@ -13,9 +13,10 @@ Right now the repo only contains the real March 18, 2026 club session. The earli
 
 ## What the app does
 
-The frontend has two views over the same content:
+The frontend has three surfaces over the same content:
 
-- Archive view: a browsable terminal-style page of tracks and stories
+- Homepage: a browsable index of meetups
+- Meetup detail view: a dedicated page for one meetup with all tracks and stories expanded
 - Presentation view: a slide-by-slide walkthrough of each story, including richer embeds, link cards, and optional presenter notes
 
 It also has three auxiliary pages:
@@ -24,11 +25,13 @@ It also has three auxiliary pages:
 - `/submit-link` for regular link submissions
 - `/submit-showcase` for short member-led showcase proposals
 
-The slideshow is not a separate data source. It is built from the same session data that powers the archive page.
+Meetup detail pages live at `/meetups/:slug`.
+
+The slideshow is not a separate data source. It is built from the same session data that powers both the homepage and meetup detail pages.
 
 The site also supports one global meetup reminder signup. Events stay hardcoded in source control, while a tiny Google Apps Script can collect emails and send day-of reminders.
 
-The slideshow also uses hash-based slide URLs such as `#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side routing.
+The slideshow also uses hash-based slide URLs such as `/meetups/2026-03-18#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side rendering.
 
 ## Quick Start
 
@@ -69,7 +72,7 @@ Vercel deploy is intentionally simple:
 
 This repo also includes [vercel.json](/Users/plebdev/Desktop/code/austin-ai-meetup-list/vercel.json) so those settings are explicit in source control.
 
-The slideshow uses hash routes like `#/slides/...`, and the helper pages use pathname routes like `/submit-link`, so static hosting works with the included rewrites.
+The slideshow uses hash routes like `#/slides/...`, and the meetup/helper pages use pathname routes like `/meetups/2026-03-18` and `/submit-link`, so static hosting works with the included rewrites.
 
 ## Repo Map
 
@@ -201,7 +204,7 @@ If a story could fit multiple buckets, sort it by the angle you want the club di
 4. Mirror that content into [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
 5. Add `notes` only when they help in presentation mode
 6. Add or update the session `event` metadata if this meetup should appear in reminders/calendar links
-7. Sessions load collapsed by default, so no extra open-state flag is needed
+7. The homepage is just the meetup index, and meetup detail pages render their tracks expanded by default
 8. Run `npm run build`
 
 Do not skip the Markdown step. Markdown is the archive of record.

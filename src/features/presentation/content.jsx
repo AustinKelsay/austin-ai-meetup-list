@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 function toArray(value) {
   if (!value) {
     return [];
@@ -287,6 +289,10 @@ export function getPresentationItemMedia(item) {
 }
 
 export function TopicEmbed({ embed }) {
+  useEffect(() => {
+    window.twttr?.widgets?.load?.();
+  }, [embed?.href]);
+
   if (!embed) {
     return null;
   }
@@ -382,12 +388,32 @@ export function TopicImage({ image }) {
   );
 }
 
-export function Topic({ item }) {
+export function Topic({ item, id, onActivate }) {
+  const isInteractive = typeof onActivate === "function";
+
+  const handleKeyDown = (event) => {
+    if (!isInteractive) {
+      return;
+    }
+
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      onActivate();
+    }
+  };
+
   return (
-    <li className="topic">
+    <li
+      id={id}
+      className={`topic${isInteractive ? " topic--interactive" : ""}`}
+      role={isInteractive ? "button" : undefined}
+      tabIndex={isInteractive ? 0 : undefined}
+      onClick={isInteractive ? onActivate : undefined}
+      onKeyDown={handleKeyDown}
+    >
       <div className="topic-main">
         <h4>
-          {item.href ? (
+          {item.href && !isInteractive ? (
             <a href={item.href} target="_blank" rel="noreferrer">
               {item.title}
             </a>

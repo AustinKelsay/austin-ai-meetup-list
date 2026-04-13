@@ -11,6 +11,10 @@ const calendarDir = path.join(publicDir, "calendar");
 const outputPath = path.join(publicDir, "meetups.json");
 const siteUrl = (process.env.SITE_URL ?? "https://austinai.club").replace(/\/+$/, "");
 
+function buildMeetupPath(slug) {
+  return `/meetups/${encodeURIComponent(slug)}`;
+}
+
 function formatTimestamp(date) {
   return date.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
 }
@@ -65,7 +69,7 @@ function collectEvents() {
     .filter((session) => session.event)
     .map((session) => {
       const event = session.event;
-      const detailsUrl = `${siteUrl}/#${session.id}`;
+      const detailsUrl = `${siteUrl}${buildMeetupPath(session.slug)}`;
       const icsPath = `/calendar/${session.slug}.ics`;
 
       return {

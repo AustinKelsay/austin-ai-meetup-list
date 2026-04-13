@@ -4,12 +4,12 @@ PRODID:-//Austin AI Club//Meetups//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:2026-04-01@austinai.club
-DTSTAMP:20260412T213101Z
+DTSTAMP:20260413T230343Z
 DTSTART:20260401T220000Z
 DTEND:20260402T000000Z
 SUMMARY:Austin AI Club
-DESCRIPTION:Quick AI news rundown\, demos\, and open discussion.\n\nDetails: https://austinai.club/#session-2026-04-01
+DESCRIPTION:Quick AI news rundown\, demos\, and open discussion.\n\nDetails: https://austinai.club/meetups/2026-04-01
 LOCATION:Bitcoin Park Austin\, Austin\, TX
-URL:https://austinai.club/#session-2026-04-01
+URL:https://austinai.club/meetups/2026-04-01
 END:VEVENT
 END:VCALENDAR

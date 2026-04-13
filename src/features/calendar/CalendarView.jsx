@@ -1,3 +1,4 @@
+import RouteLink from "../../components/RouteLink.jsx";
 import ReminderSignup from "./ReminderSignup.jsx";
 import {
   buildGoogleCalendarUrl,
@@ -8,7 +9,7 @@ import {
   getLocationLabel,
 } from "../../lib/meetup-ui.js";
 
-function CalendarEventCard({ entry, onNavigateBack }) {
+function CalendarEventCard({ entry, onOpenRoute }) {
   const { event } = entry;
 
   return (
@@ -33,21 +34,16 @@ function CalendarEventCard({ entry, onNavigateBack }) {
           download ICS
         </a>
         {entry.detailsHref ? (
-          <a
-            href={entry.detailsHref}
-            onClick={() => {
-              onNavigateBack();
-            }}
-          >
+          <RouteLink to={entry.detailsHref} onOpenRoute={onOpenRoute}>
             open meetup page
-          </a>
+          </RouteLink>
         ) : null}
       </div>
     </article>
   );
 }
 
-export default function CalendarView({ calendarEntries, nextSession, onClose }) {
+export default function CalendarView({ calendarEntries, nextSession, onClose, onOpenRoute }) {
   return (
     <section className="calendar-screen" aria-label="Calendar view">
       <header className="calendar-screen-header">
@@ -68,7 +64,11 @@ export default function CalendarView({ calendarEntries, nextSession, onClose }) 
         <ReminderSignup nextSession={nextSession} variant="screen" />
         <div className="calendar-list">
           {calendarEntries.map((entry) => (
-            <CalendarEventCard key={entry.id} entry={entry} onNavigateBack={onClose} />
+            <CalendarEventCard
+              key={entry.id}
+              entry={entry}
+              onOpenRoute={onOpenRoute}
+            />
           ))}
         </div>
       </main>
