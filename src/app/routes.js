@@ -118,15 +118,16 @@ export function setHash(hash) {
 }
 
 export function setPathname(pathname, options = {}) {
-  const { replace = false, hash = window.location.hash, state = window.history.state } = options;
+  const { replace = false, hash = window.location.hash, state = null } = options;
   const nextHash = hash
     ? hash.startsWith("#")
       ? hash
       : `#${hash}`
     : "";
   const nextUrl = `${pathname}${nextHash}`;
+  const currentUrl = `${window.location.pathname}${window.location.hash}`;
 
-  if (`${window.location.pathname}${window.location.hash}` === nextUrl) {
+  if (currentUrl === nextUrl && window.history.state === state) {
     return;
   }
 
