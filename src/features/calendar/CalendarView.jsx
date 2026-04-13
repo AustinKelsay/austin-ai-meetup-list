@@ -11,6 +11,7 @@ import {
 
 function CalendarEventCard({ entry, onOpenRoute }) {
   const { event } = entry;
+  const meetupAriaLabel = `Open meetup page for ${event.title} on ${formatEventDate(event)}`;
 
   return (
     <article className="calendar-event-card" data-kind={entry.kind}>
@@ -34,7 +35,7 @@ function CalendarEventCard({ entry, onOpenRoute }) {
           download ICS
         </a>
         {entry.detailsHref ? (
-          <RouteLink to={entry.detailsHref} onOpenRoute={onOpenRoute}>
+          <RouteLink to={entry.detailsHref} onOpenRoute={onOpenRoute} aria-label={meetupAriaLabel}>
             open meetup page
           </RouteLink>
         ) : null}

@@ -95,10 +95,14 @@ export function getAppRoute(pathname) {
   if (normalized.startsWith(meetupPrefix)) {
     const meetupSlug = normalized.slice(meetupPrefix.length);
     if (meetupSlug && !meetupSlug.includes("/")) {
-      return {
-        name: APP_ROUTE.MEETUP,
-        meetupSlug: decodeURIComponent(meetupSlug),
-      };
+      try {
+        return {
+          name: APP_ROUTE.MEETUP,
+          meetupSlug: decodeURIComponent(meetupSlug),
+        };
+      } catch {
+        return { name: APP_ROUTE.HOME };
+      }
     }
   }
 

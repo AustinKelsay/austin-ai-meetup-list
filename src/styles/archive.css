@@ -284,6 +284,7 @@
   background: rgba(5, 14, 22, 0.72);
   box-shadow: inset 0 0 0 1px rgba(71, 243, 170, 0.02);
   overflow: hidden;
+  scroll-margin-top: 6rem;
 }
 
 .submission-header h2 {
@@ -473,6 +474,7 @@
     background 160ms ease,
     border-color 160ms ease,
     box-shadow 160ms ease;
+  scroll-margin-top: 6rem;
 }
 
 .topic:hover {

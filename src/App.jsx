@@ -34,10 +34,11 @@ export default function App() {
     calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null;
 
   const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
-    setRoute(getAppRoute(pathname));
+    let nextRoute = getAppRoute(pathname);
 
     const next = resolvePresentationHash(sessions, hash);
     if (next?.invalidHash !== undefined) {
+      setRoute(nextRoute);
       setPresentationState(null);
       if (hash !== next.invalidHash) {
         setPathname(pathname, { replace: true, hash: next.invalidHash });
@@ -45,6 +46,17 @@ export default function App() {
       return;
     }
 
+    if (
+      next &&
+      nextRoute.name === APP_ROUTE.MEETUP &&
+      nextRoute.meetupSlug !== next.session.slug
+    ) {
+      const normalizedPath = buildMeetupPath(next.session.slug);
+      setPathname(normalizedPath, { replace: true, hash });
+      nextRoute = getAppRoute(normalizedPath);
+    }
+
+    setRoute(nextRoute);
     setPresentationState(next);
   };
 

@@ -11,6 +11,9 @@ const calendarDir = path.join(publicDir, "calendar");
 const outputPath = path.join(publicDir, "meetups.json");
 const siteUrl = (process.env.SITE_URL ?? "https://austinai.club").replace(/\/+$/, "");
 
+// Keep this path builder aligned with src/app/routes.js buildMeetupPath() and
+// the MEETUP_PATH_PREFIX route shape. scripts/ runs in plain Node, so it cannot
+// import the frontend constants module because that file depends on import.meta.env.
 function buildMeetupPath(slug) {
   return `/meetups/${encodeURIComponent(slug)}`;
 }

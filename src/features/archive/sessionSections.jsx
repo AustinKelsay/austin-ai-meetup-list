@@ -31,8 +31,8 @@ export function getShowcaseId(sessionId) {
   return `showcase-${sessionId}`;
 }
 
-export function getTopicId(sectionId, item) {
-  return `${sectionId}-${slugify(item.title)}`;
+export function getTopicId(sectionId, item, itemIndex) {
+  return `${sectionId}-${slugify(item.title)}-${itemIndex}`;
 }
 
 export function SessionEventBar({ session }) {
@@ -71,14 +71,18 @@ export function StaticTrackSection({ track, index, onOpenTopic }) {
         </span>
       </div>
       <ul className="topic-list">
-        {track.items.map((item) => (
-          <Topic
-            key={item.title}
-            id={getTopicId(track.id, item)}
-            item={item}
-            onActivate={onOpenTopic ? () => onOpenTopic(item, getTopicId(track.id, item)) : undefined}
-          />
-        ))}
+        {track.items.map((item, itemIndex) => {
+          const topicId = getTopicId(track.id, item, itemIndex);
+
+          return (
+            <Topic
+              key={topicId}
+              id={topicId}
+              item={item}
+              onActivate={onOpenTopic ? () => onOpenTopic(item, topicId) : undefined}
+            />
+          );
+        })}
       </ul>
     </section>
   );
@@ -108,18 +112,18 @@ export function StaticShowcaseSection({
       <div className="community-track-body">
         {items.length ? (
           <ul className="topic-list community-topic-list">
-            {items.map((item) => (
-              <Topic
-                key={item.title}
-                id={getTopicId(showcaseSectionId, item)}
-                item={item}
-                onActivate={
-                  onOpenTopic
-                    ? () => onOpenTopic(item, getTopicId(showcaseSectionId, item))
-                    : undefined
-                }
-              />
-            ))}
+            {items.map((item, itemIndex) => {
+              const topicId = getTopicId(showcaseSectionId, item, itemIndex);
+
+              return (
+                <Topic
+                  key={topicId}
+                  id={topicId}
+                  item={item}
+                  onActivate={onOpenTopic ? () => onOpenTopic(item, topicId) : undefined}
+                />
+              );
+            })}
           </ul>
         ) : (
           <p className="community-slot-blurb">

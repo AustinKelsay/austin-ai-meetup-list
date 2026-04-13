@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 function toArray(value) {
   if (!value) {
@@ -289,8 +289,12 @@ export function getPresentationItemMedia(item) {
 }
 
 export function TopicEmbed({ embed }) {
+  const containerRef = useRef(null);
+
   useEffect(() => {
-    window.twttr?.widgets?.load?.();
+    if (containerRef.current) {
+      window.twttr?.widgets?.load?.(containerRef.current);
+    }
   }, [embed?.href]);
 
   if (!embed) {
@@ -299,7 +303,7 @@ export function TopicEmbed({ embed }) {
 
   if (embed.type === "tweet") {
     return (
-      <div className="embed-wrap">
+      <div className="embed-wrap" ref={containerRef}>
         <blockquote className="twitter-tweet" data-theme="dark">
           {embed.quote ? (
             <p lang="en" dir="ltr">
