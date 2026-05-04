@@ -10,6 +10,7 @@ export const REMINDER_SIGNUP_URL = (import.meta.env.VITE_REMINDER_SIGNUP_URL ?? 
 export const REMINDER_IFRAME_NAME = "reminder-signup-sink";
 export const BIWEEKLY_INTERVAL_DAYS = 14;
 export const DEFAULT_CALENDAR_EVENT_COUNT = 4;
+export const CALENDAR_TIMELINE_EVENT_COUNT = 18;
 export const MEETUP_PATH_PREFIX = "/meetups";
 export const CALENDAR_PATH = "/calendar";
 export const LINK_SUBMISSION_PATH = "/submit-link";

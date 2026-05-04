@@ -6,6 +6,7 @@ import ArchiveView from "./features/archive/ArchiveView.jsx";
 import MeetupDetailView from "./features/archive/MeetupDetailView.jsx";
 import {
   buildCalendarEntries,
+  buildCalendarTimelineEntries,
   getNextSubmissionTarget,
 } from "./features/calendar/calendar.js";
 import CalendarView from "./features/calendar/CalendarView.jsx";
@@ -32,7 +33,7 @@ export default function App() {
     }),
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
-  const calendarEntries = buildCalendarEntries(meetups);
+  const calendarEntries = buildCalendarTimelineEntries(meetups);
 
   const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
     let nextRoute = getAppRoute(pathname);

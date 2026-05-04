@@ -14,6 +14,11 @@
   --glow: 0 0 30px rgba(71, 243, 170, 0.08);
   --shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
   --radius: 0.6rem;
+  --radius-inner: calc(var(--radius) - 0.15rem);
+  --surface-panel: rgba(6, 15, 23, 0.92);
+  --surface-panel-quiet: rgba(4, 12, 20, 0.45);
+  --surface-panel-elevated: linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
+  --surface-panel-soft: linear-gradient(180deg, rgba(8, 18, 28, 0.92), rgba(6, 14, 22, 0.88));
   --font-display: "Syne", "Helvetica Neue", sans-serif;
   --font-mono: "Fira Code", "SFMono-Regular", Menlo, Consolas, monospace;
 }
@@ -90,6 +95,7 @@ body {
   min-height: 100vh;
   color: var(--text);
   font-family: var(--font-mono);
+  -webkit-font-smoothing: antialiased;
   background:
     radial-gradient(circle at top left, rgba(71, 243, 170, 0.1), transparent 24%),
     radial-gradient(circle at top right, rgba(71, 243, 170, 0.06), transparent 18%),
@@ -117,6 +123,39 @@ a[href],
 button:not(:disabled),
 summary {
   cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p,
+li,
+.calendar-blurb,
+.calendar-event-summary,
+.community-slot-blurb,
+.footer-copy,
+.reminder-blurb,
+.reminder-help,
+.submission-blurb,
+.submission-status,
+.topic-main > p {
+  text-wrap: pretty;
+}
+
+.meetup-meta,
+.meetup-event-meta,
+.calendar-event-date,
+.calendar-event-meta,
+.calendar-event-status,
+.reminder-next,
+.source-chip,
+.track-count,
+.track-num {
+  font-variant-numeric: tabular-nums;
 }
 
 #root {
@@ -152,8 +191,7 @@ summary {
   padding: 1rem 1.15rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background:
-    linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
+  background: var(--surface-panel-elevated);
   box-shadow: var(--shadow);
   position: sticky;
   top: 0.75rem;
@@ -169,7 +207,14 @@ summary {
 }
 
 .brand-link {
+  cursor: pointer;
   text-decoration: none;
+}
+
+.brand-link *,
+.calendar-open-btn *,
+.topbar-link * {
+  cursor: inherit;
 }
 
 .brand-link:hover .brand-mark,
@@ -194,7 +239,7 @@ summary {
   display: grid;
   place-items: center;
   border: 1px solid var(--line-strong);
-  border-radius: 0.45rem;
+  border-radius: var(--radius-inner);
   color: var(--accent);
   background: rgba(71, 243, 170, 0.06);
   box-shadow: inset 0 0 24px rgba(71, 243, 170, 0.08);
@@ -230,7 +275,8 @@ summary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.3rem 0.1rem;
+  min-height: 2.5rem;
+  padding: 0 0.2rem;
   border: none;
   border-bottom: 1px solid transparent;
   border-radius: 0;
@@ -243,7 +289,10 @@ summary {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  transition: color 160ms ease, border-color 160ms ease;
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
 }
 
 .calendar-open-btn:hover,
@@ -259,6 +308,39 @@ summary {
   outline: none;
   color: var(--text);
   border-bottom-color: var(--accent-dim);
+}
+
+.calendar-open-btn:active,
+.calendar-close-btn:active,
+.topbar-link:active,
+.community-track-footer a:active,
+.footer-links a:active,
+.submission-form-switch a:active {
+  transform: scale(0.96);
+}
+
+.reminder-form button,
+.reminder-reset-btn,
+.meetup-event-actions a,
+.calendar-event-actions a,
+.submission-form button {
+  min-height: 2.75rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    color 160ms ease;
+}
+
+.reminder-form button:active,
+.reminder-reset-btn:active,
+.meetup-event-actions a:active,
+.calendar-event-actions a:active,
+.submission-form button:active {
+  transform: scale(0.96);
 }
 
 /* Meetup index */

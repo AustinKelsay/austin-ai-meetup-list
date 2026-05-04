@@ -64,10 +64,9 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
     <section className={`reminder-panel reminder-panel--${variant}`} aria-label="Meetup reminders">
       <div className="reminder-copy">
         <p className="reminder-eyebrow">Meetup reminders</p>
-        <h2>Subscribe once. Get one reminder on meetup days.</h2>
+        <h2>Get meetup reminders.</h2>
         <p className="reminder-blurb">
-          Enter your email once and we will send a short reminder around 10:00 AM CT whenever
-          Austin AI Club is meeting.
+          One email on meetup days, around 10:00 AM CT.
         </p>
         <p className="reminder-next">
           <span>Next up</span>

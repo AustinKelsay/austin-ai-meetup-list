@@ -1,4 +1,8 @@
-import { BIWEEKLY_INTERVAL_DAYS, DEFAULT_CALENDAR_EVENT_COUNT } from "../../app/constants.js";
+import {
+  BIWEEKLY_INTERVAL_DAYS,
+  CALENDAR_TIMELINE_EVENT_COUNT,
+  DEFAULT_CALENDAR_EVENT_COUNT,
+} from "../../app/constants.js";
 import { buildMeetupPath } from "../../app/routes.js";
 import {
   addDays,
@@ -6,6 +10,14 @@ import {
   formatEventDate,
 } from "../../lib/meetup-ui.js";
 import { nextMeetupFromMeetups } from "../../meetups.js";
+
+export const WEEKDAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+const MONTH_LABEL_FORMATTER = new Intl.DateTimeFormat("en-US", {
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
 
 function createCalendarEntry(meetup) {
   return {
@@ -68,6 +80,113 @@ export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_
   }
 
   return entries;
+}
+
+export function buildCalendarTimelineEntries(meetupList, futureCount = CALENDAR_TIMELINE_EVENT_COUNT) {
+  const authoredEntries = meetupList
+    .filter((meetup) => meetup.event)
+    .map(createCalendarEntry);
+  const timeZone = authoredEntries[0]?.event.timezone ?? "America/Chicago";
+  const entriesByDate = new Map(
+    authoredEntries.map((entry) => [formatDateKey(entry.event.startAt, timeZone), entry]),
+  );
+
+  buildCalendarEntries(meetupList, futureCount).forEach((entry) => {
+    const dateKey = formatDateKey(entry.event.startAt, timeZone);
+    if (!entriesByDate.has(dateKey)) {
+      entriesByDate.set(dateKey, entry);
+    }
+  });
+
+  return [...entriesByDate.values()].sort(
+    (a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime(),
+  );
+}
+
+function padDatePart(value) {
+  return String(value).padStart(2, "0");
+}
+
+function createUtcMonthDate(monthKey, day = 1) {
+  const [year, month] = monthKey.split("-").map(Number);
+  return new Date(Date.UTC(year, month - 1, day, 12));
+}
+
+export function getMonthKeyFromDateKey(dateKey) {
+  return dateKey.slice(0, 7);
+}
+
+export function getCalendarEntryDateKey(entry, timeZone = "America/Chicago") {
+  return formatDateKey(entry.event.startAt, timeZone);
+}
+
+export function getCalendarEntryMonthKey(entry, timeZone = "America/Chicago") {
+  return getMonthKeyFromDateKey(getCalendarEntryDateKey(entry, timeZone));
+}
+
+export function getTodayDateKey(timeZone = "America/Chicago") {
+  return formatDateKey(new Date().toISOString(), timeZone);
+}
+
+export function getCalendarMonthLabel(monthKey) {
+  return MONTH_LABEL_FORMATTER.format(createUtcMonthDate(monthKey));
+}
+
+export function addCalendarMonths(monthKey, amount) {
+  const [year, month] = monthKey.split("-").map(Number);
+  const next = new Date(Date.UTC(year, month - 1 + amount, 1, 12));
+  return `${next.getUTCFullYear()}-${padDatePart(next.getUTCMonth() + 1)}`;
+}
+
+export function groupCalendarEntriesByDate(entries, timeZone = "America/Chicago") {
+  return entries.reduce((groups, entry) => {
+    const dateKey = getCalendarEntryDateKey(entry, timeZone);
+    const current = groups.get(dateKey) ?? [];
+    current.push(entry);
+    groups.set(dateKey, current);
+    return groups;
+  }, new Map());
+}
+
+export function buildCalendarMonth(monthKey, entries, options = {}) {
+  const timeZone = options.timeZone ?? entries[0]?.event.timezone ?? "America/Chicago";
+  const todayKey = options.todayKey ?? getTodayDateKey(timeZone);
+  const entriesByDate = groupCalendarEntriesByDate(entries, timeZone);
+  const firstOfMonth = createUtcMonthDate(monthKey);
+  const firstWeekday = firstOfMonth.getUTCDay();
+  const daysInMonth = new Date(
+    Date.UTC(firstOfMonth.getUTCFullYear(), firstOfMonth.getUTCMonth() + 1, 0, 12),
+  ).getUTCDate();
+  const cellCount = Math.ceil((firstWeekday + daysInMonth) / 7) * 7;
+
+  return Array.from({ length: cellCount }, (_, index) => {
+    const date = new Date(
+      Date.UTC(
+        firstOfMonth.getUTCFullYear(),
+        firstOfMonth.getUTCMonth(),
+        1 - firstWeekday + index,
+        12,
+      ),
+    );
+    const dateKey = formatDateKey(date.toISOString(), timeZone);
+    return {
+      dateKey,
+      dayNumber: date.getUTCDate(),
+      isCurrentMonth: getMonthKeyFromDateKey(dateKey) === monthKey,
+      isToday: dateKey === todayKey,
+      entries: entriesByDate.get(dateKey) ?? [],
+    };
+  });
+}
+
+export function getInitialCalendarEntry(entries, timeZone = "America/Chicago") {
+  const now = Date.now();
+  return (
+    entries.find((entry) => new Date(entry.event.endAt).getTime() >= now) ??
+    entries.find((entry) => getCalendarEntryDateKey(entry, timeZone) === getTodayDateKey(timeZone)) ??
+    entries[entries.length - 1] ??
+    null
+  );
 }
 
 export function getNextSubmissionTarget(meetupList) {

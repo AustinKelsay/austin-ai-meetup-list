@@ -1,5 +1,18 @@
+import { useMemo, useState } from "react";
 import RouteLink from "../../components/RouteLink.jsx";
 import ReminderSignup from "./ReminderSignup.jsx";
+import {
+  addCalendarMonths,
+  buildCalendarMonth,
+  getCalendarEntryDateKey,
+  getCalendarEntryMonthKey,
+  getCalendarMonthLabel,
+  getInitialCalendarEntry,
+  getMonthKeyFromDateKey,
+  getTodayDateKey,
+  groupCalendarEntriesByDate,
+  WEEKDAY_LABELS,
+} from "./calendar.js";
 import {
   buildGoogleCalendarUrl,
   buildIcsHref,
@@ -9,12 +22,24 @@ import {
   getLocationLabel,
 } from "../../lib/meetup-ui.js";
 
-function CalendarEventCard({ entry, onOpenRoute }) {
+function CalendarEventDetail({ entry, onOpenRoute }) {
+  if (!entry) {
+    return (
+      <article className="calendar-event-card calendar-event-card--empty">
+        <p className="calendar-event-date">No meetup selected</p>
+        <h3>Pick a marked day.</h3>
+        <p className="calendar-event-summary">
+          Scheduled meetups and tentative biweekly slots appear on the month grid.
+        </p>
+      </article>
+    );
+  }
+
   const { event } = entry;
   const meetupAriaLabel = `Open meetup page for ${event.title} on ${formatEventDate(event)}`;
 
   return (
-    <article className="calendar-event-card" data-kind={entry.kind}>
+    <article className="calendar-event-card calendar-event-card--selected" data-kind={entry.kind}>
       <div className="calendar-event-copy">
         <p className="calendar-event-date">{formatEventDate(event)}</p>
         <h3>{event.title}</h3>
@@ -44,7 +69,85 @@ function CalendarEventCard({ entry, onOpenRoute }) {
   );
 }
 
+function CalendarGrid({ cells, selectedDateKey, visibleMonth, onSelectDate }) {
+  return (
+    <div className="calendar-grid" role="grid" aria-label={`${getCalendarMonthLabel(visibleMonth)} meetups`}>
+      {WEEKDAY_LABELS.map((label) => (
+        <div key={label} className="calendar-weekday" role="columnheader">
+          {label}
+        </div>
+      ))}
+      {cells.map((cell) => {
+        const hasEntries = cell.entries.length > 0;
+        const primaryEntry = cell.entries[0];
+        const isSelected = cell.dateKey === selectedDateKey;
+        const className = [
+          "calendar-day",
+          cell.isCurrentMonth ? "calendar-day--current" : "calendar-day--outside",
+          cell.isToday ? "calendar-day--today" : "",
+          hasEntries ? "calendar-day--has-event" : "",
+          isSelected ? "calendar-day--selected" : "",
+        ].filter(Boolean).join(" ");
+        const statusLabel = primaryEntry?.kind === "generated" ? "tentative" : "scheduled";
+        const statusAriaLabel = primaryEntry?.kind === "generated" ? "tentative meetup" : "scheduled meetup";
+
+        return (
+          <button
+            key={cell.dateKey}
+            type="button"
+            className={className}
+            disabled={!hasEntries}
+            onClick={() => onSelectDate(cell.dateKey)}
+            role="gridcell"
+            aria-selected={isSelected}
+          >
+            <span className="calendar-day-number">{cell.dayNumber}</span>
+            {hasEntries ? (
+              <span
+                className={`calendar-day-event calendar-day-event--${primaryEntry.kind}`}
+                aria-label={statusAriaLabel}
+              >
+                {statusLabel}
+              </span>
+            ) : null}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function CalendarView({ calendarEntries, nextMeetup, onClose, onOpenRoute }) {
+  const timeZone = calendarEntries[0]?.event.timezone ?? "America/Chicago";
+  const initialEntry = getInitialCalendarEntry(calendarEntries, timeZone);
+  const initialDateKey = initialEntry ? getCalendarEntryDateKey(initialEntry, timeZone) : getTodayDateKey(timeZone);
+  const [visibleMonth, setVisibleMonth] = useState(() => getMonthKeyFromDateKey(initialDateKey));
+  const [selectedDateKey, setSelectedDateKey] = useState(() => initialDateKey);
+  const entriesByDate = useMemo(
+    () => groupCalendarEntriesByDate(calendarEntries, timeZone),
+    [calendarEntries, timeZone],
+  );
+  const monthCells = useMemo(
+    () => buildCalendarMonth(visibleMonth, calendarEntries, { timeZone }),
+    [calendarEntries, timeZone, visibleMonth],
+  );
+  const selectedEntry = entriesByDate.get(selectedDateKey)?.[0] ?? null;
+
+  const moveToMonth = (monthKey) => {
+    const firstEntryInMonth = calendarEntries.find(
+      (entry) => getCalendarEntryMonthKey(entry, timeZone) === monthKey,
+    );
+    setVisibleMonth(monthKey);
+    setSelectedDateKey(firstEntryInMonth ? getCalendarEntryDateKey(firstEntryInMonth, timeZone) : "");
+  };
+
+  const goToToday = () => {
+    const todayKey = getTodayDateKey(timeZone);
+    const todayEntry = entriesByDate.get(todayKey)?.[0] ?? null;
+    setVisibleMonth(getMonthKeyFromDateKey(todayKey));
+    setSelectedDateKey(todayEntry ? todayKey : "");
+  };
+
   return (
     <section className="calendar-screen" aria-label="Calendar view">
       <header className="calendar-screen-header">
@@ -52,8 +155,7 @@ export default function CalendarView({ calendarEntries, nextMeetup, onClose, onO
           <p className="calendar-eyebrow">Calendar</p>
           <h2>Austin AI Club every two weeks</h2>
           <p className="calendar-blurb">
-            The next four meetup slots stay visible here by default, and hand-authored meetups
-            can replace placeholders as you lock them in.
+            Confirmed dates and upcoming meetup slots, all in one place.
           </p>
         </div>
         <button className="calendar-close-btn" onClick={onClose}>
@@ -62,16 +164,37 @@ export default function CalendarView({ calendarEntries, nextMeetup, onClose, onO
       </header>
 
       <main className="calendar-screen-body">
-        <ReminderSignup nextMeetup={nextMeetup} variant="screen" />
-        <div className="calendar-list">
-          {calendarEntries.map((entry) => (
-            <CalendarEventCard
-              key={entry.id}
-              entry={entry}
-              onOpenRoute={onOpenRoute}
+        <div className="calendar-board">
+          <section className="calendar-month-panel" aria-label="Monthly calendar">
+            <div className="calendar-month-toolbar">
+              <div>
+                <p className="calendar-eyebrow">Month view</p>
+                <h3>{getCalendarMonthLabel(visibleMonth)}</h3>
+              </div>
+              <div className="calendar-month-actions" aria-label="Calendar navigation">
+                <button type="button" onClick={() => moveToMonth(addCalendarMonths(visibleMonth, -1))}>
+                  Prev
+                </button>
+                <button type="button" onClick={goToToday}>
+                  Today
+                </button>
+                <button type="button" onClick={() => moveToMonth(addCalendarMonths(visibleMonth, 1))}>
+                  Next
+                </button>
+              </div>
+            </div>
+            <CalendarEventDetail entry={selectedEntry} onOpenRoute={onOpenRoute} />
+            <CalendarGrid
+              cells={monthCells}
+              selectedDateKey={selectedDateKey}
+              visibleMonth={visibleMonth}
+              onSelectDate={setSelectedDateKey}
             />
-          ))}
+          </section>
+
         </div>
+
+        <ReminderSignup nextMeetup={nextMeetup} variant="screen" />
       </main>
     </section>
   );

@@ -5,7 +5,7 @@ export const submissionScreens = {
     kind: "link",
     eyebrow: "Submit a link",
     title: "Add a meetup link",
-    description: "A link is simply a link you are submitting that you want to be talked about generally.",
+    description: "Share a link for the next meetup.",
     fields: [
       {
         name: "title",
@@ -28,7 +28,7 @@ export const submissionScreens = {
     kind: "showcase",
     eyebrow: COMMUNITY_SLOT_LABEL,
     title: "Propose a showcase",
-    description: "A showcase is something you want to showcase or talk about for three to five minutes at the meetup.",
+    description: "Propose a 3-5 minute demo, build, or discussion.",
     fields: [
       {
         name: "title",
@@ -41,7 +41,7 @@ export const submissionScreens = {
         name: "description",
         label: "What you want to cover",
         type: "textarea",
-        placeholder: "What do you want to showcase or talk about for three to five minutes?",
+        placeholder: "What do you want to demo or discuss?",
         required: true,
         rows: 6,
       },

@@ -133,8 +133,7 @@ export function StaticShowcaseSection({
           </ul>
         ) : (
           <p className="community-slot-blurb">
-            A showcase is something you want to showcase or talk about for three to five minutes at
-            the meetup.
+            Got a short demo or topic? Add it to the end-of-meetup showcase.
           </p>
         )}
         <div className="community-track-footer">

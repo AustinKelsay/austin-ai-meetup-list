@@ -16,13 +16,13 @@ export default function ArchiveShell({ children, onOpenRoute }) {
         </div>
         <div className="topbar-right">
           <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
-            submit link
+            Links
           </RouteLink>
           <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
-            showcase
+            Showcase
           </RouteLink>
           <RouteLink to="/calendar" onOpenRoute={onOpenRoute} className="calendar-open-btn">
-            calendar
+            Calendar
           </RouteLink>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default function ArchiveShell({ children, onOpenRoute }) {
         <div className="footer-brand">
           <p className="footer-label">Austin AI Club</p>
           <p className="footer-copy">
-            Local archive and presentation layer for monthly topics, demos, and discussion.
+            Meetup topics, demos, and notes from Austin AI Club.
           </p>
         </div>
         <div className="footer-links">

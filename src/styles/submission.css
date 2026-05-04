@@ -21,8 +21,7 @@
   padding: 1.25rem 1.4rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background:
-    linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
+  background: var(--surface-panel-elevated);
   box-shadow: var(--shadow);
 }
 
@@ -41,7 +40,7 @@
   padding: 1.15rem 1.2rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(6, 15, 23, 0.92);
+  background: var(--surface-panel);
   box-shadow: var(--shadow);
 }
 
@@ -63,11 +62,15 @@
 }
 
 .submission-field input,
-.submission-field textarea,
+.submission-field textarea {
+  width: 100%;
+  border-radius: var(--radius-inner);
+  font-family: var(--font-mono);
+}
+
 .submission-form button {
   width: 100%;
-  border-radius: 1rem;
-  font-family: var(--font-mono);
+  border-radius: 999px;
 }
 
 .submission-field input,
@@ -97,6 +100,7 @@
   border: 1px solid rgba(125, 183, 255, 0.28);
   background: linear-gradient(180deg, rgba(125, 183, 255, 0.18), rgba(125, 183, 255, 0.08));
   color: #b7d5ff;
+  font-family: var(--font-mono);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -108,6 +112,10 @@
   transform: translateY(-1px);
   background: linear-gradient(180deg, rgba(125, 183, 255, 0.24), rgba(125, 183, 255, 0.12));
   border-color: rgba(125, 183, 255, 0.42);
+}
+
+.submission-form button:active {
+  transform: scale(0.96);
 }
 
 .submission-form button:disabled {
@@ -135,13 +143,17 @@
 
 .submission-form-switch a {
   color: var(--muted);
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
   font-size: 0.78rem;
   letter-spacing: 0.02em;
   text-decoration: none;
-  transition: color 160ms ease;
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
 }
 
 .submission-form-switch a:hover {
   color: var(--accent);
 }
-
