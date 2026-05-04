@@ -9,7 +9,7 @@ This repo is optimized for clarity over abstraction. The goal is to make it easy
 - keep the Markdown Archive durable and easy to diff
 - support both archive browsing and Presentation Mode
 
-For the project language and curation rules, start with [CONTEXT.md](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/CONTEXT.md). The source-of-record decision is captured in [ADR 0001](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/docs/adr/0001-markdown-archive-as-source-of-record.md).
+For the project language and curation rules, start with [CONTEXT.md](./CONTEXT.md). The source-of-record decision is captured in [ADR 0001](./docs/adr/0001-markdown-archive-as-source-of-record.md).
 
 ## What the app does
 
@@ -42,7 +42,7 @@ npm run dev
 
 Then open the local Vite URL, usually `http://127.0.0.1:5173/`.
 
-If you want the inline reminder form to submit locally, copy [.env.example](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
+If you want the inline reminder form to submit locally, copy [.env.example](./.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
 
 If you want the submission forms to create GitHub issues, also set:
 
@@ -70,29 +70,29 @@ Vercel deploy is intentionally simple:
 4. Output directory: `dist`
 5. Attach the `austinai.club` domain
 
-This repo also includes [vercel.json](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/vercel.json) so those settings are explicit in source control.
+This repo also includes [vercel.json](./vercel.json) so those settings are explicit in source control.
 
 Presentation Mode uses hash routes like `#/slides/...`, and the meetup/helper pages use pathname routes like `/meetups/2026-03-18` and `/submit-link`, so static hosting works with the included rewrites.
 
 ## Repo Map
 
-- [index.html](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/index.html)
+- [index.html](./index.html)
   Vite entry HTML
-- [src/main.jsx](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/main.jsx)
+- [src/main.jsx](./src/main.jsx)
   React bootstrap
-- [src/App.jsx](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/App.jsx)
+- [src/App.jsx](./src/App.jsx)
   Main renderer for archive mode, Presentation Mode, embeds, link cards, notes, and footer
-- [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js)
+- [src/data.js](./src/data.js)
   Explicit meetup data contract for rendering
-- [src/styles.css](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/styles.css)
+- [src/styles.css](./src/styles.css)
   Full visual system for both archive and presentation views
-- [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/scripts/sync-events.mjs)
+- [scripts/sync-events.mjs](./scripts/sync-events.mjs)
   Generates `public/meetups.json` plus per-event ICS files from `src/data.js`
-- [public/topics/](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/public/topics)
+- [public/topics/](./public/topics/)
   Durable Markdown Archive served as static files
-- [public/topics/README.md](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/public/topics/README.md)
+- [public/topics/README.md](./public/topics/README.md)
   Archive-side workflow notes
-- [apps-script/](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/apps-script)
+- [apps-script/](./apps-script/)
   Tiny Google Apps Script reminder backend
 - [api/github-issue.js](./api/github-issue.js)
   Vercel function for turning form submissions into GitHub issues
@@ -103,9 +103,9 @@ The render pipeline is:
 
 1. Durable meetup notes live in `public/topics/*.md`
 2. The Markdown Archive is the source of record for authored meetup notes
-3. Meetup data in [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js) mirrors or curates that content for rendering
-4. [src/App.jsx](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/App.jsx) renders archive mode and Presentation Mode from the same meetup data
-5. [src/styles.css](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/styles.css) styles both modes
+3. Meetup data in [src/data.js](./src/data.js) mirrors or curates that content for rendering
+4. [src/App.jsx](./src/App.jsx) renders archive mode and Presentation Mode from the same meetup data
+5. [src/styles.css](./src/styles.css) styles both modes
 
 This split is intentional:
 
@@ -115,7 +115,7 @@ This split is intentional:
 
 ## Data Shape
 
-Each meetup in [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js) contains:
+Each meetup in [src/data.js](./src/data.js) contains:
 
 - `id`
 - `slug`
@@ -200,11 +200,11 @@ Open source and privacy are curation lenses, not tracks. If a topic could fit mu
 
 ## Meetup Workflow
 
-1. Copy [public/topics/TEMPLATE.md](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/public/topics/TEMPLATE.md) to `public/topics/YYYY-MM-DD.md`
+1. Copy [public/topics/TEMPLATE.md](./public/topics/TEMPLATE.md) to `public/topics/YYYY-MM-DD.md`
 2. Use the standard five tracks unless there is a strong reason to diverge
 3. Omit empty tracks
 4. Add topics and links in Markdown first
-5. Mirror that content into [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js)
+5. Mirror that content into [src/data.js](./src/data.js)
 6. Add public `notes` when they help Presentation Mode
 7. Add or update the meetup `event` metadata if this is an actual planned meetup that should appear in reminders/calendar links
 8. Keep the Community Slot last; show an empty slot only for the next upcoming meetup
@@ -222,11 +222,11 @@ Meetup slots are not authored meetups: they do not have topic boards, and remind
 
 The reminder flow is intentionally small:
 
-1. Event metadata for actual planned meetups lives in [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js)
-2. [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/scripts/sync-events.mjs) generates:
+1. Event metadata for actual planned meetups lives in [src/data.js](./src/data.js)
+2. [scripts/sync-events.mjs](./scripts/sync-events.mjs) generates:
    `public/meetups.json` and `public/calendar/*.ics`
 3. The frontend posts one global email signup to `VITE_REMINDER_SIGNUP_URL`
-4. The Apps Script in [apps-script/README.md](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/apps-script/README.md) stores subscribers in a Google Sheet and sends reminders only for actual planned meetup days
+4. The Apps Script in [apps-script/README.md](./apps-script/README.md) stores subscribers in a Google Sheet and sends reminders only for actual planned meetup days
 
 ## Submissions
 
@@ -240,15 +240,15 @@ Submissions are intentionally low-friction:
 ## Embed Notes
 
 - The site should be served over HTTP, not opened with `file://`
-- X embeds are loaded client-side through Twitter widgets in [src/App.jsx](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/App.jsx)
+- X embeds are loaded client-side through Twitter widgets in [src/App.jsx](./src/App.jsx)
 - YouTube embeds use `referrerPolicy="strict-origin-when-cross-origin"` to reduce embed failures
 - Presentation Mode now auto-renders X posts, YouTube links, and direct image URLs from `href` / `linkPair` unless suppressed
 - If an embed is flaky, keep the direct link in the data model so the topic still degrades gracefully
 
 ## Editing Guidance
 
-- Prefer editing [src/data.js](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/data.js) over adding new component abstractions
+- Prefer editing [src/data.js](./src/data.js) over adding new component abstractions
 - Prefer adding a new data shape only if an existing one cannot express the topic cleanly
 - Keep comments short and structural
-- Keep CSS centralized in [src/styles.css](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/src/styles.css) unless a split becomes obviously necessary
+- Keep CSS centralized in [src/styles.css](./src/styles.css) unless a split becomes obviously necessary
 - Optimize for coherence across both archive mode and Presentation Mode

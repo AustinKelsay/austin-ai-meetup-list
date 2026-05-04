@@ -25,7 +25,7 @@ Set these script properties before deploying:
 ## Recommended setup
 
 1. Create a new Apps Script project
-2. Paste in [Code.gs](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/apps-script/Code.gs)
+2. Paste in [Code.gs](Code.gs)
 3. Set the script properties above
 4. Run `setupReminderSheets()` once
 5. Deploy as a web app
@@ -41,7 +41,7 @@ To verify the full flow with a real inbox email:
 
 1. Re-submit your email from the local site
    This updates your row so you become the most recently active subscriber.
-2. Copy the latest `sendSmokeTestReminder()` helpers from [Code.gs](/Users/plebdev/Desktop/code/learning/austin-ai-meetup-list/apps-script/Code.gs) into your Apps Script project and save
+2. Copy the latest `sendSmokeTestReminder()` helpers from [Code.gs](Code.gs) into your Apps Script project and save
 3. In the Apps Script editor, run `sendSmokeTestReminder()`
 4. Check your inbox for a message with the subject `Austin AI Club Smoke Test today at ...`
 
