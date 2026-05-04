@@ -24,7 +24,7 @@ export function getSlideTrackRouteSlug(slide) {
 }
 
 export function getSlideRouteSlug(slide) {
-  if (slide.type === "session-intro") {
+  if (slide.type === "meetup-intro") {
     return "intro";
   }
 
@@ -43,8 +43,8 @@ export function getSlideRouteSlug(slide) {
   return slugify(slide.item.title);
 }
 
-export function buildSlideHash(session, slide) {
-  return `#/slides/${session.slug}/${getSlideTrackRouteSlug(slide)}/${getSlideRouteSlug(slide)}`;
+export function buildSlideHash(meetup, slide) {
+  return `#/slides/${meetup.slug}/${getSlideTrackRouteSlug(slide)}/${getSlideRouteSlug(slide)}`;
 }
 
 export function parseSlideHash(hash) {
@@ -55,10 +55,10 @@ export function parseSlideHash(hash) {
     return null;
   }
 
-  const [, sessionSlug, trackSlug, slideSlug] = parts;
+  const [, meetupSlug, trackSlug, slideSlug] = parts;
 
   return {
-    sessionSlug: decodeURIComponent(sessionSlug),
+    meetupSlug: decodeURIComponent(meetupSlug),
     trackSlug: decodeURIComponent(trackSlug),
     slideSlug: decodeURIComponent(slideSlug),
   };

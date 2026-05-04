@@ -1,62 +1,18 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { COMMUNITY_SLOT_LABEL, TRACK_CATEGORY } from "../../app/constants.js";
 import { buildSlides } from "./slides.js";
-import { TopicMedia, LinkCard } from "./content.jsx";
+import { TopicMedia } from "./content.jsx";
 
-function ShippedLinkInput({ onAdd }) {
-  const [value, setValue] = useState("");
-  const inputRef = useRef(null);
-
-  const submit = () => {
-    const raw = value.trim();
-    if (!raw) return;
-    const href = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-    onAdd(href);
-    setValue("");
-    inputRef.current?.focus();
-  };
-
-  const handleKeyDown = (e) => {
-    e.stopPropagation();
-    if (e.key === "Enter") {
-      e.preventDefault();
-      submit();
-    }
-  };
-
-  return (
-    <form
-      className="shipped-link-form"
-      onSubmit={(e) => { e.preventDefault(); submit(); }}
-    >
-      <input
-        ref={inputRef}
-        className="shipped-link-input"
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        onKeyDown={handleKeyDown}
-        placeholder="paste a link — e.g. myapp.com"
-        autoComplete="off"
-        spellCheck={false}
-      />
-      <button className="shipped-link-btn" type="submit" disabled={!value.trim()}>
-        Add
-      </button>
-    </form>
-  );
-}
-
-function PresentationSlide({ slide, isFinale, shippedLinks, onAddShippedLink, onRemoveShippedLink }) {
-  const trackSlug = slide.type === "session-intro"
+function PresentationSlide({ slide, isFinale }) {
+  const trackSlug = slide.type === "meetup-intro"
     ? "local-builds"
     : slide.type.startsWith("community")
       ? "community"
       : TRACK_CATEGORY[slide.track.title];
 
-  if (slide.type === "session-intro") {
+  if (slide.type === "meetup-intro") {
     return (
-      <div className="pres-slide pres-slide--session-intro" data-track={trackSlug}>
+      <div className="pres-slide pres-slide--meetup-intro" data-track={trackSlug}>
         <span className="pres-intro-eyebrow">{slide.intro.eyebrow}</span>
         <h2 className="pres-intro-title">{slide.intro.title}</h2>
         {slide.intro.blurb ? <p className="pres-intro-blurb">{slide.intro.blurb}</p> : null}
@@ -76,8 +32,6 @@ function PresentationSlide({ slide, isFinale, shippedLinks, onAddShippedLink, on
   }
 
   if (slide.type === "track-title") {
-    const isShipped = trackSlug === "shipped";
-
     return (
       <div className="pres-slide pres-slide--track" data-track={trackSlug}>
         <span className="pres-track-num">
@@ -86,31 +40,9 @@ function PresentationSlide({ slide, isFinale, shippedLinks, onAddShippedLink, on
         <h2 className="pres-track-title">{slide.track.title}</h2>
         {slide.track.purpose ? <p className="pres-track-purpose">{slide.track.purpose}</p> : null}
         {slide.track.sectionNote ? <p className="pres-notes">{slide.track.sectionNote}</p> : null}
-        {isShipped ? (
-          <>
-            <ShippedLinkInput onAdd={onAddShippedLink} />
-            {shippedLinks?.length ? (
-              <div className="shipped-link-list">
-                {shippedLinks.map((href, i) => (
-                  <div key={`${href}-${i}`} className="shipped-link-item">
-                    <LinkCard href={href} />
-                    <button
-                      className="shipped-link-remove"
-                      onClick={() => onRemoveShippedLink(i)}
-                      aria-label="Remove link"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                ))}
-              </div>
-            ) : null}
-          </>
-        ) : (
-          <span className="pres-topic-badge">
-            {slide.track.items.length} topic{slide.track.items.length !== 1 ? "s" : ""}
-          </span>
-        )}
+        <span className="pres-topic-badge">
+          {slide.track.items.length} topic{slide.track.items.length !== 1 ? "s" : ""}
+        </span>
       </div>
     );
   }
@@ -199,11 +131,19 @@ function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabe
   );
 }
 
-export default function PresentationMode({ session, currentIndex, onNavigate, onExit }) {
-  const slides = useMemo(() => buildSlides(session), [session]);
+export default function PresentationMode({
+  meetup,
+  currentIndex,
+  includeOpenCommunitySlot = false,
+  onNavigate,
+  onExit,
+}) {
+  const slides = useMemo(
+    () => buildSlides(meetup, { includeOpenCommunitySlot }),
+    [includeOpenCommunitySlot, meetup],
+  );
   const visitedRef = useRef(new Set());
   const touchStartRef = useRef(null);
-  const [shippedLinks, setShippedLinks] = useState([]);
   const slide = slides[currentIndex];
 
   if (!slide) {
@@ -293,28 +233,28 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
   }, []);
 
   const breadcrumb = slide.type === "topic"
-    ? `${session.date} › ${slide.track.title} › Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
-    : slide.type === "session-intro"
-      ? `${session.date} › Welcome`
+    ? `${meetup.date} › ${slide.track.title} › Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
+    : slide.type === "meetup-intro"
+      ? `${meetup.date} › Welcome`
       : slide.type === "community-title"
-        ? `${session.date} › ${COMMUNITY_SLOT_LABEL}`
+        ? `${meetup.date} › ${COMMUNITY_SLOT_LABEL}`
         : slide.type === "community-topic"
-          ? `${session.date} › ${COMMUNITY_SLOT_LABEL} › ${slide.itemIndex + 1} of ${slide.itemTotal}`
-          : `${session.date} › ${slide.track.title}`;
+          ? `${meetup.date} › ${COMMUNITY_SLOT_LABEL} › ${slide.itemIndex + 1} of ${slide.itemTotal}`
+          : `${meetup.date} › ${slide.track.title}`;
 
-  const slideLabel = slide.type === "session-intro"
+  const slideLabel = slide.type === "meetup-intro"
     ? "Welcome"
     : slide.type === "topic"
       ? `Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
       : slide.type === "community-topic"
         ? `${COMMUNITY_SLOT_LABEL} ${slide.itemIndex + 1} of ${slide.itemTotal}`
         : slide.type === "community-title"
-          ? `Track ${session.tracks.length + 1} of ${session.tracks.length + 1}`
+          ? `Track ${meetup.tracks.length + 1} of ${meetup.tracks.length + 1}`
           : slide.type === "track-outro"
             ? "Discussion prompt"
             : `Track ${slide.trackIndex + 1} of ${slide.trackTotal}`;
 
-  const trackSlug = slide.type === "session-intro"
+  const trackSlug = slide.type === "meetup-intro"
     ? "local-builds"
     : slide.type === "community-title" || slide.type === "community-topic"
       ? "community"
@@ -343,9 +283,6 @@ export default function PresentationMode({ session, currentIndex, onNavigate, on
           <PresentationSlide
             slide={slide}
             isFinale={isFinale}
-            shippedLinks={shippedLinks}
-            onAddShippedLink={(href) => setShippedLinks((prev) => [...prev, href])}
-            onRemoveShippedLink={(index) => setShippedLinks((prev) => prev.filter((_, i) => i !== index))}
           />
         </div>
 

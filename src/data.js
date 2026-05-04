@@ -1,7 +1,7 @@
 // This file is the frontend's explicit content contract.
-// Keep it boring: sessions -> tracks -> items.
+// Keep it boring: meetups -> tracks -> items.
 //
-// Optional session-level slideshow shape:
+// Optional meetup-level Presentation Mode shape:
 // - presentationIntro: welcome slide shown before all track slides
 // - event: meetup metadata for reminders + add-to-calendar links
 // - showcases: short end-of-meetup shares rendered as the final track
@@ -11,21 +11,20 @@
 // - embed / embeds: X/Twitter embed override(s)
 // - image / images: linked hero image override(s)
 // - video / videos: standalone video embed override(s)
-// - mediaPair: combined story, usually "video + reaction post"
+// - mediaPair: combined topic, usually "video + reaction post"
 // - linkPair: side-by-side links, useful for repo + dashboard style items
 // - notes: optional presenter note (string) shown as a callout
 // - suppressXEmbeds / suppressVideos / suppressImages: opt out of default media rendering
 //
-// Standard track taxonomy for recurring club sessions:
+// Standard track taxonomy for recurring club meetups:
 // 1. Local Builds & Projects
-// 2. SHIPPED
-// 3. Agent Infrastructure
-// 4. Models & Research
-// 5. Security
-// 6. Big Tech Moves
-export const sessions = [
+// 2. Agent Infrastructure
+// 3. Models & Research
+// 4. Security
+// 5. Big Tech Moves
+export const meetups = [
   {
-    id: "session-2026-04-15",
+    id: "meetup-2026-04-15",
     slug: "2026-04-15",
     date: "April 15, 2026",
     markdownHref: "./topics/2026-04-15.md",
@@ -383,7 +382,7 @@ export const sessions = [
     ],
   },
   {
-    id: "session-2026-04-01",
+    id: "meetup-2026-04-01",
     slug: "2026-04-01",
     date: "April 1, 2026",
     markdownHref: "./topics/2026-04-01.md",
@@ -424,15 +423,6 @@ export const sessions = [
       },
     ],
     tracks: [
-      {
-        id: "apr-shipped",
-        title: "SHIPPED",
-        purpose:
-          "Too many vibe coders burn tokens and ship nothing. What did you actually get into the world this month?",
-        sectionNote:
-          "If you're doing a showcase later, no need to spoil it here — save the good stuff.",
-        items: [],
-      },
       {
         id: "apr-agent-infrastructure",
         title: "Agent Infrastructure",
@@ -1082,7 +1072,7 @@ export const sessions = [
     ],
   },
   {
-    id: "session-2026-03-18",
+    id: "meetup-2026-03-18",
     slug: "2026-03-18",
     date: "March 18, 2026",
     markdownHref: "./topics/2026-03-18.md",

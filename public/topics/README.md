@@ -1,8 +1,8 @@
 # Austin AI Club Meetup Notes
 
-This folder is the durable Markdown archive for each Austin AI Club meetup.
+This folder is the durable Markdown Archive for each Austin AI Club meetup.
 
-The frontend reads curated session data from `src/data.js`, but the source-of-record notes for every meetup should also live here as standalone Markdown.
+The Markdown Archive is the source of record for authored meetup notes. The frontend reads curated Meetup Data from `src/data.js`, but that data should mirror or intentionally curate from these standalone Markdown files.
 
 ## Meetups
 
@@ -13,14 +13,15 @@ The frontend reads curated session data from `src/data.js`, but the source-of-re
 ## Adding a new meetup
 
 1. Copy `TEMPLATE.md` to `YYYY-MM-DD.md`.
-2. Add the meetup tracks, stories, and source links in Markdown.
-3. Update `src/data.js` so the frontend matches the Markdown notes.
-4. Add presenter `notes` only if they help in slideshow mode.
-5. Keep the Markdown archive and frontend data in sync.
+2. Add the meetup Topic Board: Tracks, Topics, Links, and any Showcases.
+3. Omit empty standard Tracks.
+4. Update `src/data.js` so the frontend matches or intentionally curates from the Markdown notes.
+5. Add public presenter `notes` only if they help Presentation Mode.
+6. Keep the Community Slot last, and show an empty slot only for the next upcoming meetup.
 
-## Standard categories
+## Standard Tracks
 
-Use the same five categories each meetup unless there is a strong reason not to:
+Use the same five Tracks each meetup unless there is a strong reason not to:
 
 1. `Local Builds & Projects`
 2. `Agent Infrastructure`
@@ -28,4 +29,4 @@ Use the same five categories each meetup unless there is a strong reason not to:
 4. `Security`
 5. `Big Tech Moves`
 
-These categories are meant to stay stable across meetups so new stories always have an obvious home.
+These Tracks are meant to stay stable across meetups so new Topics have an obvious home. Open source and privacy are curation lenses, not Tracks. Security is both a Track and a curation lens.

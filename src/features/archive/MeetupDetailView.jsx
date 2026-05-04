@@ -1,26 +1,29 @@
 import { COMMUNITY_SLOT_LABEL, TRACK_CATEGORY } from "../../app/constants.js";
 import RouteLink from "../../components/RouteLink.jsx";
-import { isUpcomingSession } from "../../lib/meetup-ui.js";
+import { isUpcomingMeetup } from "../../lib/meetup-ui.js";
 import ArchiveShell from "./ArchiveShell.jsx";
 import {
-  getSessionCounts,
+  getMeetupCounts,
   getShowcaseId,
-  SessionEventBar,
+  MeetupEventBar,
+  shouldShowCommunitySlot,
   StaticShowcaseSection,
   StaticTrackSection,
-} from "./sessionSections.jsx";
+} from "./meetupSections.jsx";
 
-function TrackJumpNav({ session }) {
+function TrackJumpNav({ meetup, showCommunitySlot }) {
   return (
-    <nav className="track-nav" aria-label={`${session.date} tracks`}>
-      {session.tracks.map((track) => (
+    <nav className="track-nav" aria-label={`${meetup.date} tracks`}>
+      {meetup.tracks.map((track) => (
         <a key={track.id} href={`#${track.id}`} data-track={TRACK_CATEGORY[track.title]}>
           {track.title.toLowerCase()}
         </a>
       ))}
-      <a href={`#${getShowcaseId(session.id)}`} data-track="community">
-        {COMMUNITY_SLOT_LABEL.toLowerCase()}
-      </a>
+      {showCommunitySlot ? (
+        <a href={`#${getShowcaseId(meetup.id)}`} data-track="community">
+          {COMMUNITY_SLOT_LABEL.toLowerCase()}
+        </a>
+      ) : null}
     </nav>
   );
 }
@@ -29,12 +32,12 @@ function MeetupNotFound({ meetupSlug, onOpenRoute }) {
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
       <main className="archive archive--detail">
-        <section className="session meetup-state">
-          <div className="session-header meetup-detail-header meetup-state-header">
+        <section className="meetup meetup-state">
+          <div className="meetup-header meetup-detail-header meetup-state-header">
             <p className="eyebrow">Meetup not found</p>
             <h2>{meetupSlug}</h2>
             <p className="submission-blurb">
-              That meetup slug does not match any published session in this archive.
+              That meetup slug does not match any published meetup in this archive.
             </p>
             <RouteLink to="/" onOpenRoute={onOpenRoute} className="calendar-close-btn meetup-back-link">
               back to all meetups
@@ -47,25 +50,29 @@ function MeetupNotFound({ meetupSlug, onOpenRoute }) {
 }
 
 export default function MeetupDetailView({
-  session,
+  meetup,
   meetupSlug,
   nextMeetupId,
   onOpenRoute,
   onOpenPresentation,
   onOpenTopicPresentation,
 }) {
-  if (!session) {
+  if (!meetup) {
     return <MeetupNotFound meetupSlug={meetupSlug} onOpenRoute={onOpenRoute} />;
   }
 
-  const isUpcoming = isUpcomingSession(session);
-  const { totalTopicCount, totalTrackCount } = getSessionCounts(session);
+  const isUpcoming = isUpcomingMeetup(meetup);
+  const acceptsShowcaseSubmissions = meetup.id === nextMeetupId;
+  const showCommunitySlot = shouldShowCommunitySlot(meetup, acceptsShowcaseSubmissions);
+  const { totalTopicCount, totalTrackCount } = getMeetupCounts(meetup, {
+    acceptsSubmissions: acceptsShowcaseSubmissions,
+  });
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
       <main className="archive archive--detail">
-        <article className={`session session--detail ${isUpcoming ? "session--upcoming" : "session--past"}`}>
-          <div className="session-header meetup-detail-header">
+        <article className={`meetup meetup--detail ${isUpcoming ? "meetup--upcoming" : "meetup--past"}`}>
+          <div className="meetup-header meetup-detail-header">
             <div className="meetup-detail-toolbar">
               <RouteLink
                 to="/"
@@ -74,25 +81,25 @@ export default function MeetupDetailView({
               >
                 back to all meetups
               </RouteLink>
-              <button className="pres-enter-btn" onClick={() => onOpenPresentation(session)}>
-                ▶ slideshow mode
+              <button className="pres-enter-btn" onClick={() => onOpenPresentation(meetup)}>
+                ▶ Presentation Mode
               </button>
             </div>
             <div className="meetup-detail-heading">
               <div>
                 <p className="eyebrow">{isUpcoming ? "Upcoming meetup" : "Meetup archive"}</p>
-                <h2>{session.date}</h2>
-                <p className="session-meta">
+                <h2>{meetup.date}</h2>
+                <p className="meetup-meta">
                   {totalTopicCount} topics &middot; {totalTrackCount} tracks
                 </p>
               </div>
             </div>
-            <TrackJumpNav session={session} />
+            <TrackJumpNav meetup={meetup} showCommunitySlot={showCommunitySlot} />
           </div>
 
-          <div className="session-body session-body--detail">
-            <SessionEventBar session={session} />
-            {session.tracks.map((track, index) => (
+          <div className="meetup-body meetup-body--detail">
+            <MeetupEventBar meetup={meetup} />
+            {meetup.tracks.map((track, index) => (
               <StaticTrackSection
                 key={track.id}
                 track={track}
@@ -100,14 +107,16 @@ export default function MeetupDetailView({
                 onOpenTopic={onOpenTopicPresentation}
               />
             ))}
-            <StaticShowcaseSection
-              index={session.tracks.length}
-              sessionId={session.id}
-              items={session.showcases}
-              acceptsSubmissions={session.id === nextMeetupId}
-              onOpenRoute={onOpenRoute}
-              onOpenTopic={onOpenTopicPresentation}
-            />
+            {showCommunitySlot ? (
+              <StaticShowcaseSection
+                index={meetup.tracks.length}
+                meetupId={meetup.id}
+                items={meetup.showcases}
+                acceptsSubmissions={acceptsShowcaseSubmissions}
+                onOpenRoute={onOpenRoute}
+                onOpenTopic={onOpenTopicPresentation}
+              />
+            ) : null}
           </div>
         </article>
       </main>

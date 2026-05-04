@@ -44,7 +44,7 @@ function CalendarEventCard({ entry, onOpenRoute }) {
   );
 }
 
-export default function CalendarView({ calendarEntries, nextSession, onClose, onOpenRoute }) {
+export default function CalendarView({ calendarEntries, nextMeetup, onClose, onOpenRoute }) {
   return (
     <section className="calendar-screen" aria-label="Calendar view">
       <header className="calendar-screen-header">
@@ -52,7 +52,7 @@ export default function CalendarView({ calendarEntries, nextSession, onClose, on
           <p className="calendar-eyebrow">Calendar</p>
           <h2>Austin AI Club every two weeks</h2>
           <p className="calendar-blurb">
-            The next four meetup slots stay visible here by default, and hand-authored sessions
+            The next four meetup slots stay visible here by default, and hand-authored meetups
             can replace placeholders as you lock them in.
           </p>
         </div>
@@ -62,7 +62,7 @@ export default function CalendarView({ calendarEntries, nextSession, onClose, on
       </header>
 
       <main className="calendar-screen-body">
-        <ReminderSignup nextSession={nextSession} variant="screen" />
+        <ReminderSignup nextMeetup={nextMeetup} variant="screen" />
         <div className="calendar-list">
           {calendarEntries.map((entry) => (
             <CalendarEventCard

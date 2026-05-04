@@ -1,37 +1,37 @@
 # austin-ai-meetup-list
 
-A small Vite + React frontend for the Austin AI Club topic board.
+A small Vite + React frontend for Austin AI Club meetups, topic boards, submissions, reminders, and presentation mode.
 
 This repo is optimized for clarity over abstraction. The goal is to make it easy for a human or agent to:
 
 - understand the rendering model quickly
-- add or update club stories without guessing
-- keep the archive durable in Markdown
-- support both archive browsing and presentation/slideshow mode
+- add or update meetup topic boards without guessing
+- keep the Markdown Archive durable and easy to diff
+- support both archive browsing and Presentation Mode
 
-Right now the repo only contains the real March 18, 2026 club session. The earlier fake February seed content has been removed.
+For the project language and curation rules, start with [CONTEXT.md](./CONTEXT.md). The source-of-record decision is captured in [ADR 0001](./docs/adr/0001-markdown-archive-as-source-of-record.md).
 
 ## What the app does
 
-The frontend has three surfaces over the same content:
+The frontend has three public surfaces over the same meetup data:
 
 - Homepage: a browsable index of meetups
-- Meetup detail view: a dedicated page for one meetup with all tracks and stories expanded
-- Presentation view: a slide-by-slide walkthrough of each story, including richer embeds, link cards, and optional presenter notes
+- Meetup detail view: a dedicated page for one meetup with its topic board expanded
+- Presentation Mode: a slide-by-slide walkthrough of each topic and showcase, including richer embeds, link cards, and public presenter notes
 
 It also has three auxiliary pages:
 
-- `/calendar` for upcoming meetup slots
-- `/submit-link` for regular link submissions
+- `/calendar` for authored meetups and tentative meetup slots
+- `/submit-link` for link submissions
 - `/submit-showcase` for short member-led showcase proposals
 
 Meetup detail pages live at `/meetups/:slug`.
 
-The slideshow is not a separate data source. It is built from the same session data that powers both the homepage and meetup detail pages.
+Presentation Mode is not a separate data source. It is built from the same meetup data that powers both the homepage and meetup detail pages.
 
-The site also supports one global meetup reminder signup. Events stay hardcoded in source control, while a tiny Google Apps Script can collect emails and send day-of reminders.
+The site also supports low-friction submissions and one global reminder signup. Submissions target the next upcoming authored meetup or tentative meetup slot. Reminders only point at actual planned meetups, not tentative meetup slots.
 
-The slideshow also uses hash-based slide URLs such as `/meetups/2026-03-18#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side rendering.
+Presentation Mode uses hash-based slide URLs such as `/meetups/2026-03-18#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side rendering.
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ npm run dev
 
 Then open the local Vite URL, usually `http://127.0.0.1:5173/`.
 
-If you want the inline reminder form to submit locally, copy [.env.example](/Users/plebdev/Desktop/code/austin-ai-meetup-list/.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
+If you want the inline reminder form to submit locally, copy [.env.example](./.env.example) to `.env.local` and set `VITE_REMINDER_SIGNUP_URL`.
 
 If you want the submission forms to create GitHub issues, also set:
 
@@ -70,29 +70,29 @@ Vercel deploy is intentionally simple:
 4. Output directory: `dist`
 5. Attach the `austinai.club` domain
 
-This repo also includes [vercel.json](/Users/plebdev/Desktop/code/austin-ai-meetup-list/vercel.json) so those settings are explicit in source control.
+This repo also includes [vercel.json](./vercel.json) so those settings are explicit in source control.
 
-The slideshow uses hash routes like `#/slides/...`, and the meetup/helper pages use pathname routes like `/meetups/2026-03-18` and `/submit-link`, so static hosting works with the included rewrites.
+Presentation Mode uses hash routes like `#/slides/...`, and the meetup/helper pages use pathname routes like `/meetups/2026-03-18` and `/submit-link`, so static hosting works with the included rewrites.
 
 ## Repo Map
 
-- [index.html](/Users/plebdev/Desktop/code/austin-ai-meetup-list/index.html)
+- [index.html](./index.html)
   Vite entry HTML
-- [src/main.jsx](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/main.jsx)
+- [src/main.jsx](./src/main.jsx)
   React bootstrap
-- [src/App.jsx](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/App.jsx)
-  Main renderer for archive mode, presentation mode, embeds, link cards, notes, and footer
-- [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
-  Explicit content contract for the frontend
-- [src/styles.css](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/styles.css)
+- [src/App.jsx](./src/App.jsx)
+  Main renderer for archive mode, Presentation Mode, embeds, link cards, notes, and footer
+- [src/data.js](./src/data.js)
+  Explicit meetup data contract for rendering
+- [src/styles.css](./src/styles.css)
   Full visual system for both archive and presentation views
-- [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/austin-ai-meetup-list/scripts/sync-events.mjs)
+- [scripts/sync-events.mjs](./scripts/sync-events.mjs)
   Generates `public/meetups.json` plus per-event ICS files from `src/data.js`
-- [public/topics/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/public/topics)
-  Durable Markdown archive served as static files
-- [public/topics/README.md](/Users/plebdev/Desktop/code/austin-ai-meetup-list/public/topics/README.md)
+- [public/topics/](./public/topics/)
+  Durable Markdown Archive served as static files
+- [public/topics/README.md](./public/topics/README.md)
   Archive-side workflow notes
-- [apps-script/](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script)
+- [apps-script/](./apps-script/)
   Tiny Google Apps Script reminder backend
 - [api/github-issue.js](./api/github-issue.js)
   Vercel function for turning form submissions into GitHub issues
@@ -101,30 +101,32 @@ The slideshow uses hash routes like `#/slides/...`, and the meetup/helper pages 
 
 The render pipeline is:
 
-1. Durable club notes live in `public/topics/*.md`
-2. UI data in [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js) mirrors or curates that content for the frontend
-3. [src/App.jsx](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/App.jsx) renders archive mode and presentation mode from the same session data
-4. [src/styles.css](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/styles.css) styles both modes
+1. Durable meetup notes live in `public/topics/*.md`
+2. The Markdown Archive is the source of record for authored meetup notes
+3. Meetup data in [src/data.js](./src/data.js) mirrors or curates that content for rendering
+4. [src/App.jsx](./src/App.jsx) renders archive mode and Presentation Mode from the same meetup data
+5. [src/styles.css](./src/styles.css) styles both modes
 
 This split is intentional:
 
-- Markdown stays durable and easy to diff
-- `data.js` stays explicit and patch-friendly
-- React stays mostly presentational, with only a little view state for slideshow mode
+- the Markdown Archive stays durable and easy to diff
+- meetup data stays explicit and patch-friendly
+- React stays mostly presentational, with only a little view state for Presentation Mode
 
 ## Data Shape
 
-Each session in [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js) contains:
+Each meetup in [src/data.js](./src/data.js) contains:
 
 - `id`
 - `slug`
 - `date`
-- `open`
 - `markdownHref`
 - `event`
+- `presentationIntro`
+- `showcases[]`
 - `tracks[]`
 
-`event` is optional meetup metadata for reminder emails and add-to-calendar links:
+`event` is optional event metadata for calendar links and reminders:
 
 - `title`
 - `summary`
@@ -141,7 +143,7 @@ Each track contains:
 - `title`
 - `items[]`
 
-Each topic item can use any of these fields:
+Each topic must have at least one link via `href`, `linkPair`, or another link-bearing presentation shape. A topic item can use any of these fields:
 
 - `title`
 - `description`
@@ -165,13 +167,13 @@ Supported patterns right now:
 - Explicit X/Twitter embed override via `embed` or `embeds`
 - Explicit image override via `image` or `images`
 - Explicit YouTube embed override via `video` or `videos`
-- Paired story via `mediaPair`, usually `video + reaction post`
-- Presenter note via `notes`
+- Paired topic via `mediaPair`, usually `video + reaction post`
+- Public presenter note via `notes`
 - Opt out of defaults with `suppressXEmbeds`, `suppressVideos`, or `suppressImages`
 
-## Standard Categories
+## Standard Tracks
 
-Meetups should use the same five high-level buckets by default:
+Meetups should use the same five high-level tracks by default:
 
 1. `Local Builds & Projects`
 2. `Agent Infrastructure`
@@ -179,58 +181,74 @@ Meetups should use the same five high-level buckets by default:
 4. `Security`
 5. `Big Tech Moves`
 
-These names are intentionally broad enough to survive week-to-week topic drift while still being specific enough to keep the board organized.
+These names are intentionally broad enough to survive meetup-to-meetup topic drift while still being specific enough to keep the board organized. Empty standard tracks should be omitted.
 
 Use them this way:
 
 - `Local Builds & Projects`
-  New repos, demos, local stacks, prototypes, and things people can run or inspect directly.
+  Austin/member/community-orbit projects, demos, prototypes, launches, and things people can run or inspect directly.
 - `Agent Infrastructure`
   CLIs, runtimes, orchestration frameworks, protocols, interfaces, tool-calling layers, and deployment plumbing.
 - `Models & Research`
   Model releases, benchmark shifts, papers, frontier comparisons, architecture updates, and capability discussions.
 - `Security`
-  Attacks, red-team findings, prompt injection, abuse patterns, defensive ideas, and security-relevant failures.
+  Attacks, red-team findings, prompt injection, abuse patterns, defensive ideas, and security-relevant failures. Security is also a curation lens across other tracks.
 - `Big Tech Moves`
-  Major company moves, hardware launches, ecosystem shifts, OS/platform bets, acquisitions, and product strategy.
+  Major company moves, hardware launches, ecosystem shifts, OS/platform bets, acquisitions, product strategy, and platform-scale policy or infrastructure changes.
 
-If a story could fit multiple buckets, sort it by the angle you want the club discussion to focus on, not by every possible interpretation.
+Open source and privacy are curation lenses, not tracks. If a topic could fit multiple tracks, sort it by the angle you want the club discussion to focus on, not by every possible interpretation.
 
-## Monthly Workflow
+## Meetup Workflow
 
-1. Copy [public/topics/TEMPLATE.md](/Users/plebdev/Desktop/code/austin-ai-meetup-list/public/topics/TEMPLATE.md) to `public/topics/YYYY-MM-DD.md`
-2. Use the standard five categories unless there is a strong reason to diverge
-3. Add the club stories and source links in Markdown first
-4. Mirror that content into [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
-5. Add `notes` only when they help in presentation mode
-6. Add or update the session `event` metadata if this meetup should appear in reminders/calendar links
-7. The homepage is just the meetup index, and meetup detail pages render their tracks expanded by default
-8. Run `npm run build`
+1. Copy [public/topics/TEMPLATE.md](./public/topics/TEMPLATE.md) to `public/topics/YYYY-MM-DD.md`
+2. Use the standard five tracks unless there is a strong reason to diverge
+3. Omit empty tracks
+4. Add topics and links in Markdown first
+5. Mirror that content into [src/data.js](./src/data.js)
+6. Add public `notes` when they help Presentation Mode
+7. Add or update the meetup `event` metadata if this is an actual planned meetup that should appear in reminders/calendar links
+8. Keep the Community Slot last; show an empty slot only for the next upcoming meetup
+9. Run `npm run build`
 
-Do not skip the Markdown step. Markdown is the archive of record.
+Do not skip the Markdown step. The Markdown Archive is the source of record.
+
+## Meetup Slots
+
+Austin AI Club tries to meet biweekly. The calendar can generate tentative meetup slots from that cadence, and those slots can be manually overridden by authored meetups when the real date changes.
+
+Meetup slots are not authored meetups: they do not have topic boards, and reminders should not point at them. Submissions can still target the next meetup slot when no authored meetup exists yet, keeping the submission path low-friction.
 
 ## Reminders
 
 The reminder flow is intentionally small:
 
-1. Meetup metadata lives in [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js)
-2. [scripts/sync-events.mjs](/Users/plebdev/Desktop/code/austin-ai-meetup-list/scripts/sync-events.mjs) generates:
+1. Event metadata for actual planned meetups lives in [src/data.js](./src/data.js)
+2. [scripts/sync-events.mjs](./scripts/sync-events.mjs) generates:
    `public/meetups.json` and `public/calendar/*.ics`
 3. The frontend posts one global email signup to `VITE_REMINDER_SIGNUP_URL`
-4. The Apps Script in [apps-script/README.md](/Users/plebdev/Desktop/code/austin-ai-meetup-list/apps-script/README.md) stores subscribers in a Google Sheet and sends reminders on meetup days
+4. The Apps Script in [apps-script/README.md](./apps-script/README.md) stores subscribers in a Google Sheet and sends reminders only for actual planned meetup days
+
+## Submissions
+
+Submissions are intentionally low-friction:
+
+- new submissions always target the next upcoming authored meetup or tentative meetup slot
+- link submissions require a title and one or more valid links
+- showcase submissions require a title and short description; links are optional because showcases can be ad hoc and spontaneous
+- curation can rewrite, combine, reframe, order, or move submitted material before it becomes part of a topic board
 
 ## Embed Notes
 
 - The site should be served over HTTP, not opened with `file://`
-- X embeds are loaded client-side through Twitter widgets in [src/App.jsx](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/App.jsx)
+- X embeds are loaded client-side through Twitter widgets in [src/App.jsx](./src/App.jsx)
 - YouTube embeds use `referrerPolicy="strict-origin-when-cross-origin"` to reduce embed failures
-- Presentation mode now auto-renders X posts, YouTube links, and direct image URLs from `href` / `linkPair` unless suppressed
-- If an embed is flaky, keep the direct link in the data model so the story still degrades gracefully
+- Presentation Mode now auto-renders X posts, YouTube links, and direct image URLs from `href` / `linkPair` unless suppressed
+- If an embed is flaky, keep the direct link in the data model so the topic still degrades gracefully
 
 ## Editing Guidance
 
-- Prefer editing [src/data.js](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/data.js) over adding new component abstractions
-- Prefer adding a new data shape only if an existing one cannot express the story cleanly
+- Prefer editing [src/data.js](./src/data.js) over adding new component abstractions
+- Prefer adding a new data shape only if an existing one cannot express the topic cleanly
 - Keep comments short and structural
-- Keep CSS centralized in [src/styles.css](/Users/plebdev/Desktop/code/austin-ai-meetup-list/src/styles.css) unless a split becomes obviously necessary
-- Optimize for coherence across both archive mode and presentation mode
+- Keep CSS centralized in [src/styles.css](./src/styles.css) unless a split becomes obviously necessary
+- Optimize for coherence across both archive mode and Presentation Mode

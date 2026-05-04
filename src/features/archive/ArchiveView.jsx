@@ -4,40 +4,42 @@ import {
   formatEventDate,
   formatEventTime,
   getLocationLabel,
-  isUpcomingSession,
+  isUpcomingMeetup,
 } from "../../lib/meetup-ui.js";
 import ArchiveShell from "./ArchiveShell.jsx";
-import { getSessionCounts } from "./sessionSections.jsx";
+import { getMeetupCounts } from "./meetupSections.jsx";
 
-function MeetupCard({ session, onOpenRoute }) {
-  const isUpcoming = isUpcomingSession(session);
-  const { totalTopicCount, totalTrackCount } = getSessionCounts(session);
+function MeetupCard({ meetup, nextMeetupId, onOpenRoute }) {
+  const isUpcoming = isUpcomingMeetup(meetup);
+  const { totalTopicCount, totalTrackCount } = getMeetupCounts(meetup, {
+    acceptsSubmissions: meetup.id === nextMeetupId,
+  });
 
   return (
-    <article className={`session meetup-card ${isUpcoming ? "session--upcoming" : "session--past"}`}>
+    <article className={`meetup meetup-card ${isUpcoming ? "meetup--upcoming" : "meetup--past"}`}>
       <RouteLink
-        to={buildMeetupPath(session.slug)}
+        to={buildMeetupPath(meetup.slug)}
         onOpenRoute={onOpenRoute}
         className="meetup-card-link"
       >
-        <div className="session-header meetup-card-header">
+        <div className="meetup-header meetup-card-header">
           <div className="meetup-card-heading">
             <div>
               <p className="eyebrow meetup-card-eyebrow">
                 {isUpcoming ? "Upcoming meetup" : "Past meetup"}
               </p>
-              <h2>{session.date}</h2>
+              <h2>{meetup.date}</h2>
             </div>
             <span className="meetup-card-open">open meetup</span>
           </div>
-          <p className="session-meta meetup-card-meta">
+          <p className="meetup-meta meetup-card-meta">
             {totalTopicCount} topics &middot; {totalTrackCount} tracks
           </p>
-          {session.event ? (
-            <div className="session-event-meta meetup-card-event">
-              <span>{formatEventDate(session.event)}</span>
-              <span>{formatEventTime(session.event)}</span>
-              <span>{getLocationLabel(session.event)}</span>
+          {meetup.event ? (
+            <div className="meetup-event-meta meetup-card-event">
+              <span>{formatEventDate(meetup.event)}</span>
+              <span>{formatEventTime(meetup.event)}</span>
+              <span>{getLocationLabel(meetup.event)}</span>
             </div>
           ) : null}
         </div>
@@ -46,23 +48,33 @@ function MeetupCard({ session, onOpenRoute }) {
   );
 }
 
-export default function ArchiveView({ sessions, onOpenRoute }) {
-  const upcomingSessions = sessions.filter(isUpcomingSession);
-  const pastSessions = sessions.filter((session) => !isUpcomingSession(session));
+export default function ArchiveView({ meetups, nextMeetupId, onOpenRoute }) {
+  const upcomingMeetups = meetups.filter(isUpcomingMeetup);
+  const pastMeetups = meetups.filter((meetup) => !isUpcomingMeetup(meetup));
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
       <main className="archive archive--index">
-        {upcomingSessions.map((session) => (
-          <MeetupCard key={session.id} session={session} onOpenRoute={onOpenRoute} />
+        {upcomingMeetups.map((meetup) => (
+          <MeetupCard
+            key={meetup.id}
+            meetup={meetup}
+            nextMeetupId={nextMeetupId}
+            onOpenRoute={onOpenRoute}
+          />
         ))}
-        {upcomingSessions.length > 0 && pastSessions.length > 0 ? (
-          <div className="session-divider" aria-hidden="true">
+        {upcomingMeetups.length > 0 && pastMeetups.length > 0 ? (
+          <div className="meetup-divider" aria-hidden="true">
             <span>Past meetups</span>
           </div>
         ) : null}
-        {pastSessions.map((session) => (
-          <MeetupCard key={session.id} session={session} onOpenRoute={onOpenRoute} />
+        {pastMeetups.map((meetup) => (
+          <MeetupCard
+            key={meetup.id}
+            meetup={meetup}
+            nextMeetupId={nextMeetupId}
+            onOpenRoute={onOpenRoute}
+          />
         ))}
       </main>
     </ArchiveShell>

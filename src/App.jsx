@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { sessions } from "./data.js";
+import { meetups } from "./data.js";
 import { APP_ROUTE } from "./app/constants.js";
 import { buildMeetupPath, getAppRoute, setPathname } from "./app/routes.js";
 import ArchiveView from "./features/archive/ArchiveView.jsx";
 import MeetupDetailView from "./features/archive/MeetupDetailView.jsx";
 import {
   buildCalendarEntries,
-  getNextSubmissionMeetup,
+  getNextSubmissionTarget,
 } from "./features/calendar/calendar.js";
 import CalendarView from "./features/calendar/CalendarView.jsx";
 import PresentationMode from "./features/presentation/PresentationMode.jsx";
@@ -24,19 +24,22 @@ const PRESENTATION_ENTRY_MODE = {
 };
 
 export default function App() {
+  const nextSubmissionTarget = getNextSubmissionTarget(meetups);
+  const nextMeetup = meetups.find((meetup) => meetup.id === nextSubmissionTarget?.id) ?? null;
   const [presentationState, setPresentationState] = useState(() =>
-    resolvePresentationHash(sessions, window.location.hash),
+    resolvePresentationHash(meetups, window.location.hash, {
+      includeOpenCommunitySlotForMeetupId: nextMeetup?.id ?? null,
+    }),
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
-  const calendarEntries = buildCalendarEntries(sessions);
-  const nextMeetup = getNextSubmissionMeetup(sessions);
-  const nextCalendarEntry =
-    calendarEntries.find((entry) => new Date(entry.event.endAt).getTime() >= Date.now()) ?? null;
+  const calendarEntries = buildCalendarEntries(meetups);
 
   const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
     let nextRoute = getAppRoute(pathname);
 
-    const next = resolvePresentationHash(sessions, hash);
+    const next = resolvePresentationHash(meetups, hash, {
+      includeOpenCommunitySlotForMeetupId: nextMeetup?.id ?? null,
+    });
     if (next?.invalidHash !== undefined) {
       setRoute(nextRoute);
       setPresentationState(null);
@@ -49,9 +52,9 @@ export default function App() {
     if (
       next &&
       nextRoute.name === APP_ROUTE.MEETUP &&
-      nextRoute.meetupSlug !== next.session.slug
+      nextRoute.meetupSlug !== next.meetup.slug
     ) {
-      const normalizedPath = buildMeetupPath(next.session.slug);
+      const normalizedPath = buildMeetupPath(next.meetup.slug);
       setPathname(normalizedPath, { replace: true, hash });
       nextRoute = getAppRoute(normalizedPath);
     }
@@ -69,13 +72,13 @@ export default function App() {
     openRoute("/", options);
   };
 
-  const goToMeetup = (session, options = {}) => {
-    if (!session?.slug) {
+  const goToMeetup = (meetup, options = {}) => {
+    if (!meetup?.slug) {
       goHome(options);
       return;
     }
 
-    openRoute(buildMeetupPath(session.slug), options);
+    openRoute(buildMeetupPath(meetup.slug), options);
   };
 
   const goToNextMeetupOrHome = (options = {}) => {
@@ -135,8 +138,9 @@ export default function App() {
     };
   }, [route, nextMeetup]);
 
-  const openPresentation = (session, slideIndex = 0, options = {}) => {
-    const slides = buildSlides(session);
+  const openPresentation = (meetup, slideIndex = 0, options = {}) => {
+    const includeOpenCommunitySlot = meetup.id === nextMeetup?.id;
+    const slides = buildSlides(meetup, { includeOpenCommunitySlot });
     const slide = slides[slideIndex];
     if (!slide) {
       return;
@@ -148,7 +152,7 @@ export default function App() {
       replace = false,
       returnHash = "",
     } = options;
-    const returnPath = buildMeetupPath(session.slug);
+    const returnPath = buildMeetupPath(meetup.slug);
     const currentPresentationState = getPresentationHistoryState();
     const isAlreadyInPresentation = window.location.hash.startsWith("#/slides/");
 
@@ -185,41 +189,42 @@ export default function App() {
     }
 
     setPathname(returnPath, {
-      hash: buildSlideHash(session, slide),
+      hash: buildSlideHash(meetup, slide),
       replace: nextReplace,
       state: nextState,
     });
     syncLocationState();
   };
 
-  const openPresentationFromItem = (session, item, returnHash) => {
-    const slideIndex = findTopicSlideIndex(session, item);
+  const openPresentationFromItem = (meetup, item, returnHash) => {
+    const includeOpenCommunitySlot = meetup.id === nextMeetup?.id;
+    const slideIndex = findTopicSlideIndex(meetup, item, { includeOpenCommunitySlot });
     if (slideIndex === -1) {
       return;
     }
 
-    const returnPath = buildMeetupPath(session.slug);
+    const returnPath = buildMeetupPath(meetup.slug);
     setPathname(returnPath, {
       hash: returnHash,
       replace: true,
       state: window.history.state,
     });
 
-    openPresentation(session, slideIndex, {
+    openPresentation(meetup, slideIndex, {
       entryMode: PRESENTATION_ENTRY_MODE.ITEM,
       hasReturnEntry: true,
       returnHash,
     });
   };
 
-  const closePresentation = (session) => {
+  const closePresentation = (meetup) => {
     const presentationState = getPresentationHistoryState();
     if (presentationState?.hasReturnEntry && presentationState?.depth) {
       window.history.go(-presentationState.depth);
       return;
     }
 
-    goToMeetup(session, {
+    goToMeetup(meetup, {
       replace: true,
       hash: presentationState?.returnHash ?? "",
     });
@@ -229,7 +234,7 @@ export default function App() {
     return (
       <CalendarView
         calendarEntries={calendarEntries}
-        nextSession={nextCalendarEntry}
+        nextMeetup={nextMeetup}
         onClose={() => goToNextMeetupOrHome({ replace: true })}
         onOpenRoute={openRoute}
       />
@@ -240,7 +245,7 @@ export default function App() {
     return (
       <SubmissionScreen
         kind="link"
-        meetup={nextMeetup}
+        target={nextSubmissionTarget}
         onBack={() => goToNextMeetupOrHome({ replace: true })}
         onOpenRoute={openRoute}
       />
@@ -251,7 +256,7 @@ export default function App() {
     return (
       <SubmissionScreen
         kind="showcase"
-        meetup={nextMeetup}
+        target={nextSubmissionTarget}
         onBack={() => goToNextMeetupOrHome({ replace: true })}
         onOpenRoute={openRoute}
       />
@@ -259,12 +264,12 @@ export default function App() {
   }
 
   if (route.name === APP_ROUTE.MEETUP) {
-    const session = sessions.find((candidate) => candidate.slug === route.meetupSlug) ?? null;
+    const meetup = meetups.find((candidate) => candidate.slug === route.meetupSlug) ?? null;
 
     return (
       <>
         <MeetupDetailView
-          session={session}
+          meetup={meetup}
           meetupSlug={route.meetupSlug}
           nextMeetupId={nextMeetup?.id ?? null}
           onOpenRoute={openRoute}
@@ -280,15 +285,16 @@ export default function App() {
             })
           }
           onOpenTopicPresentation={(item, topicId) =>
-            openPresentationFromItem(session, item, `#${topicId}`)
+            openPresentationFromItem(meetup, item, `#${topicId}`)
           }
         />
-        {presentationState?.session ? (
+        {presentationState?.meetup ? (
           <PresentationMode
-            session={presentationState.session}
+            meetup={presentationState.meetup}
             currentIndex={presentationState.slideIndex}
-            onNavigate={(slideIndex) => openPresentation(presentationState.session, slideIndex)}
-            onExit={() => closePresentation(presentationState.session)}
+            includeOpenCommunitySlot={presentationState.meetup.id === nextMeetup?.id}
+            onNavigate={(slideIndex) => openPresentation(presentationState.meetup, slideIndex)}
+            onExit={() => closePresentation(presentationState.meetup)}
           />
         ) : null}
       </>
@@ -298,15 +304,17 @@ export default function App() {
   return (
     <>
       <ArchiveView
-        sessions={sessions}
+        meetups={meetups}
+        nextMeetupId={nextMeetup?.id ?? null}
         onOpenRoute={openRoute}
       />
-      {presentationState?.session ? (
+      {presentationState?.meetup ? (
         <PresentationMode
-          session={presentationState.session}
+          meetup={presentationState.meetup}
           currentIndex={presentationState.slideIndex}
-          onNavigate={(slideIndex) => openPresentation(presentationState.session, slideIndex)}
-          onExit={() => closePresentation(presentationState.session)}
+          includeOpenCommunitySlot={presentationState.meetup.id === nextMeetup?.id}
+          onNavigate={(slideIndex) => openPresentation(presentationState.meetup, slideIndex)}
+          onExit={() => closePresentation(presentationState.meetup)}
         />
       ) : null}
     </>

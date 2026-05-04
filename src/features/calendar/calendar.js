@@ -3,16 +3,18 @@ import { buildMeetupPath } from "../../app/routes.js";
 import {
   addDays,
   formatDateKey,
+  formatEventDate,
 } from "../../lib/meetup-ui.js";
-import { nextMeetupFromSessions } from "../../meetups.js";
+import { nextMeetupFromMeetups } from "../../meetups.js";
 
-function createCalendarEntry(session) {
+function createCalendarEntry(meetup) {
   return {
-    id: session.id,
+    id: meetup.id,
     kind: "authored",
-    slug: session.slug,
-    detailsHref: buildMeetupPath(session.slug),
-    event: session.event,
+    slug: meetup.slug,
+    date: meetup.date,
+    detailsHref: buildMeetupPath(meetup.slug),
+    event: meetup.event,
   };
 }
 
@@ -25,6 +27,7 @@ function createGeneratedEntry(templateEvent, startAt, index) {
     id: `generated-${dateKey}`,
     kind: "generated",
     slug: dateKey,
+    date: formatEventDate({ ...templateEvent, startAt: startAt.toISOString() }),
     detailsHref: null,
     event: {
       ...templateEvent,
@@ -37,19 +40,19 @@ function createGeneratedEntry(templateEvent, startAt, index) {
   };
 }
 
-export function buildCalendarEntries(sessionList, count = DEFAULT_CALENDAR_EVENT_COUNT) {
-  const authoredSessions = sessionList
-    .filter((session) => session.event)
+export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_COUNT) {
+  const authoredMeetups = meetupList
+    .filter((meetup) => meetup.event)
     .sort((a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime());
 
-  if (!authoredSessions.length) {
+  if (!authoredMeetups.length) {
     return [];
   }
 
-  const anchorEvent = authoredSessions[0].event;
+  const anchorEvent = authoredMeetups[0].event;
   const timeZone = anchorEvent.timezone ?? "America/Chicago";
   const authoredByDate = new Map(
-    authoredSessions.map((session) => [formatDateKey(session.event.startAt, timeZone), createCalendarEntry(session)]),
+    authoredMeetups.map((meetup) => [formatDateKey(meetup.event.startAt, timeZone), createCalendarEntry(meetup)]),
   );
 
   let cursor = new Date(anchorEvent.startAt);
@@ -67,6 +70,18 @@ export function buildCalendarEntries(sessionList, count = DEFAULT_CALENDAR_EVENT
   return entries;
 }
 
-export function getNextSubmissionMeetup(sessionList) {
-  return nextMeetupFromSessions(sessionList);
+export function getNextSubmissionTarget(meetupList) {
+  const nextMeetup = nextMeetupFromMeetups(meetupList);
+  if (nextMeetup) {
+    return {
+      id: nextMeetup.id,
+      kind: "authored",
+      slug: nextMeetup.slug,
+      date: nextMeetup.date,
+      event: nextMeetup.event,
+      detailsHref: buildMeetupPath(nextMeetup.slug),
+    };
+  }
+
+  return buildCalendarEntries(meetupList, 1)[0] ?? null;
 }

@@ -24,12 +24,15 @@ export async function submitIssueSubmission({ kind, values, website, pageUrl }) 
   return payload;
 }
 
-export function getSubmissionIdleMessage(kind, meetupDate) {
+export function getSubmissionIdleMessage(kind, target) {
+  const targetLabel = target?.date ?? target?.event?.title ?? "the next meetup";
+  const targetKind = target?.kind === "generated" ? "meetup slot" : "meetup";
+
   if (kind === "link") {
-    return `This creates a GitHub issue for ${meetupDate ?? "the next meetup"} labeled link.`;
+    return `This creates a GitHub issue for ${targetLabel} ${targetKind} labeled link.`;
   }
 
-  return `This creates a GitHub issue for ${meetupDate ?? "the next meetup"} labeled ${COMMUNITY_SLOT_LABEL.toLowerCase()}.`;
+  return `This creates a GitHub issue for ${targetLabel} ${targetKind} labeled ${COMMUNITY_SLOT_LABEL.toLowerCase()}.`;
 }
 
 export function validateSubmissionInput(kind, values) {

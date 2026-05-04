@@ -29,15 +29,6 @@
   --t-bg-radial: rgba(71, 243, 170, 0.1);
 }
 
-[data-track="shipped"] {
-  --t-accent: #f3df47;
-  --t-dim: #c9af2b;
-  --t-soft: rgba(243, 223, 71, 0.06);
-  --t-glow: rgba(243, 223, 71, 0.3);
-  --t-line: rgba(243, 223, 71, 0.18);
-  --t-bg-radial: rgba(243, 223, 71, 0.1);
-}
-
 [data-track="agent-infra"] {
   --t-accent: #47d4f3;
   --t-dim: #2ba8c9;
@@ -211,7 +202,7 @@ summary {
 
 .eyebrow,
 .footer-label,
-.session-meta,
+.meetup-meta,
 .track-nav a,
 .video-caption,
 .source-chip {
@@ -270,4 +261,4 @@ summary {
   border-bottom-color: var(--accent-dim);
 }
 
-/* Session index */
+/* Meetup index */

@@ -12,7 +12,7 @@ function getInitialValues(fields) {
   return Object.fromEntries(fields.map((field) => [field.name, ""]));
 }
 
-export default function SubmissionScreen({ kind, meetup, onBack, onOpenRoute }) {
+export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) {
   const screen = submissionScreens[kind];
   const [values, setValues] = useState(() => getInitialValues(screen.fields));
   const [website, setWebsite] = useState("");
@@ -31,9 +31,9 @@ export default function SubmissionScreen({ kind, meetup, onBack, onOpenRoute }) 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    if (!meetup?.slug || !meetup?.event) {
+    if (!target?.slug || !target?.event) {
       setStatus("error");
-      setErrorMessage("No upcoming meetup is configured yet.");
+      setErrorMessage("No upcoming meetup or meetup slot is configured yet.");
       return;
     }
 
@@ -119,7 +119,7 @@ export default function SubmissionScreen({ kind, meetup, onBack, onOpenRoute }) 
               ? "Issue created. It should now be in the repo with the correct label."
               : status === "error"
                 ? errorMessage
-                : getSubmissionIdleMessage(kind, meetup?.date)}
+                : getSubmissionIdleMessage(kind, target)}
           </p>
 
           <div className="submission-form-switch">
