@@ -13,8 +13,8 @@ export function toGoogleCalendarTimestamp(value) {
   return new Date(value).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
 }
 
-export function buildGoogleCalendarUrl(session) {
-  const event = session.event;
+export function buildGoogleCalendarUrl(meetup) {
+  const event = meetup.event;
 
   if (!event) {
     return "";
@@ -32,8 +32,8 @@ export function buildGoogleCalendarUrl(session) {
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
-export function buildIcsHref(session) {
-  return `/calendar/${session.slug}.ics`;
+export function buildIcsHref(meetup) {
+  return `/calendar/${meetup.slug}.ics`;
 }
 
 export function formatEventDate(event) {
@@ -105,12 +105,12 @@ export function createInlineIcsHref(entry) {
   return `data:text/calendar;charset=utf-8,${encodeURIComponent(lines.join("\r\n"))}`;
 }
 
-export function isUpcomingSession(session) {
-  if (!session.event) {
+export function isUpcomingMeetup(meetup) {
+  if (!meetup.event) {
     return false;
   }
 
-  return new Date(session.event.endAt).getTime() >= Date.now();
+  return new Date(meetup.event.endAt).getTime() >= Date.now();
 }
 
 export function isValidEmail(value) {

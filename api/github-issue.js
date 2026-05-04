@@ -1,5 +1,5 @@
-import { sessions } from "../src/data.js";
-import { nextMeetupFromSessions } from "../src/meetups.js";
+import { meetups } from "../src/data.js";
+import { getNextSubmissionTarget } from "../src/features/calendar/calendar.js";
 import { parseSubmissionLinks } from "../src/features/submissions/links.js";
 
 const DEFAULT_REPO_OWNER = "AustinKelsay";
@@ -9,12 +9,13 @@ function trimString(value) {
   return typeof value === "string" ? value.trim() : "";
 }
 
-function getNextMeetup() {
-  return nextMeetupFromSessions(sessions);
-}
+function getTargetLabel(target) {
+  const dateLabel = target.date ?? new Intl.DateTimeFormat("en-US", {
+    dateStyle: "long",
+    timeZone: target.event.timezone ?? "America/Chicago",
+  }).format(new Date(target.event.startAt));
 
-function getMeetupLabel(session) {
-  return `${session.date} · ${session.event.locationName}`;
+  return `${dateLabel} · ${target.event.locationName}`;
 }
 
 function isValidHttpUrl(value) {
@@ -39,16 +40,16 @@ function formatLinksForIssue(links) {
 
 function buildIssuePayload(input) {
   const submittedAt = new Date().toISOString();
-  const meetupLine = `Meetup: ${input.meetupLabel} (${input.meetupSlug})`;
+  const targetLine = `Target: ${input.targetLabel} (${input.targetSlug}, ${input.targetKind})`;
 
   if (input.kind === "link") {
     return {
-      title: `[${input.meetupSlug}] [Link] ${input.title}`,
+      title: `[${input.targetSlug}] [Link] ${input.title}`,
       labels: ["link"],
       body: [
-        "New meetup link submission.",
+        "New link submission.",
         "",
-        meetupLine,
+        targetLine,
         `Title: ${input.title}`,
         ...formatLinksForIssue(input.links),
         "",
@@ -59,12 +60,12 @@ function buildIssuePayload(input) {
   }
 
   return {
-    title: `[${input.meetupSlug}] [Showcase] ${input.title}`,
+      title: `[${input.targetSlug}] [Showcase] ${input.title}`,
     labels: ["showcase"],
     body: [
       "New showcase submission.",
       "",
-      meetupLine,
+      targetLine,
       `Title: ${input.title}`,
       "",
       "Summary:",
@@ -116,9 +117,9 @@ export default async function handler(request, response) {
     return;
   }
 
-  const meetup = getNextMeetup();
-  if (!meetup) {
-    response.status(503).json({ error: "No upcoming meetup is configured." });
+  const target = getNextSubmissionTarget(meetups);
+  if (!target) {
+    response.status(503).json({ error: "No upcoming meetup or meetup slot is configured." });
     return;
   }
 
@@ -138,8 +139,9 @@ export default async function handler(request, response) {
     links,
     description,
     pageUrl,
-    meetupSlug: meetup.slug,
-    meetupLabel: getMeetupLabel(meetup),
+    targetSlug: target.slug,
+    targetKind: target.kind,
+    targetLabel: getTargetLabel(target),
   });
 
   let githubResponse;

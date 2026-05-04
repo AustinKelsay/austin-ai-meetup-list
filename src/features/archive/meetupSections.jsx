@@ -15,45 +15,51 @@ import {
 } from "../../lib/meetup-ui.js";
 import { Topic } from "../presentation/content.jsx";
 
-export function getSessionCounts(session) {
-  const topicCount = session.tracks.reduce((sum, track) => sum + track.items.length, 0);
-  const showcaseCount = session.showcases?.length ?? 0;
+export function shouldShowCommunitySlot(meetup, acceptsSubmissions = false) {
+  return Boolean((meetup.showcases?.length ?? 0) || acceptsSubmissions);
+}
+
+export function getMeetupCounts(meetup, options = {}) {
+  const { acceptsSubmissions = false } = options;
+  const topicCount = meetup.tracks.reduce((sum, track) => sum + track.items.length, 0);
+  const showcaseCount = meetup.showcases?.length ?? 0;
+  const communitySlotCount = shouldShowCommunitySlot(meetup, acceptsSubmissions) ? 1 : 0;
 
   return {
     topicCount,
     showcaseCount,
     totalTopicCount: topicCount + showcaseCount,
-    totalTrackCount: session.tracks.length + 1,
+    totalTrackCount: meetup.tracks.length + communitySlotCount,
   };
 }
 
-export function getShowcaseId(sessionId) {
-  return `showcase-${sessionId}`;
+export function getShowcaseId(meetupId) {
+  return `showcase-${meetupId}`;
 }
 
 export function getTopicId(sectionId, item, itemIndex) {
   return `${sectionId}-${slugify(item.title)}-${itemIndex}`;
 }
 
-export function SessionEventBar({ session }) {
-  if (!session.event) {
+export function MeetupEventBar({ meetup }) {
+  if (!meetup.event) {
     return null;
   }
 
-  const event = session.event;
+  const event = meetup.event;
 
   return (
-    <div className="session-event">
-      <div className="session-event-meta">
+    <div className="meetup-event">
+      <div className="meetup-event-meta">
         <span>{formatEventDate(event)}</span>
         <span>{formatEventTime(event)}</span>
         <span>{getLocationLabel(event)}</span>
       </div>
-      <div className="session-event-actions">
-        <a href={buildGoogleCalendarUrl(session)} target="_blank" rel="noreferrer">
+      <div className="meetup-event-actions">
+        <a href={buildGoogleCalendarUrl(meetup)} target="_blank" rel="noreferrer">
           add to Google Calendar
         </a>
-        <a href={buildIcsHref(session)}>download ICS</a>
+        <a href={buildIcsHref(meetup)}>download ICS</a>
       </div>
     </div>
   );
@@ -90,13 +96,13 @@ export function StaticTrackSection({ track, index, onOpenTopic }) {
 
 export function StaticShowcaseSection({
   index,
-  sessionId,
+  meetupId,
   items = [],
   acceptsSubmissions,
   onOpenRoute,
   onOpenTopic,
 }) {
-  const showcaseSectionId = getShowcaseId(sessionId);
+  const showcaseSectionId = getShowcaseId(meetupId);
 
   return (
     <section className="track track--static" id={showcaseSectionId} data-track="community">

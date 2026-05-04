@@ -1,4 +1,4 @@
-.session-index {
+.meetup-index {
   display: flex;
   gap: 0.4rem;
   align-items: center;
@@ -30,7 +30,7 @@
   gap: 1rem;
 }
 
-.session-divider {
+.meetup-divider {
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -41,19 +41,19 @@
   text-transform: uppercase;
 }
 
-.session-divider::before,
-.session-divider::after {
+.meetup-divider::before,
+.meetup-divider::after {
   content: "";
   height: 1px;
   flex: 1;
   background: linear-gradient(90deg, rgba(71, 243, 170, 0.06), rgba(71, 243, 170, 0.3));
 }
 
-.session-divider::after {
+.meetup-divider::after {
   background: linear-gradient(90deg, rgba(71, 243, 170, 0.3), rgba(71, 243, 170, 0.06));
 }
 
-.session-divider span {
+.meetup-divider span {
   padding: 0.3rem 0.7rem;
   border: 1px solid rgba(71, 243, 170, 0.14);
   border-radius: 999px;
@@ -133,14 +133,14 @@
 
 .reminder-form input:focus-visible,
 .reminder-form button:focus-visible,
-.session-event-actions a:focus-visible {
+.meetup-event-actions a:focus-visible {
   outline: none;
   border-color: rgba(71, 243, 170, 0.54);
   box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.2);
 }
 
 .reminder-form button,
-.session-event-actions a {
+.meetup-event-actions a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -167,7 +167,7 @@
 }
 
 .reminder-form button:hover,
-.session-event-actions a:hover {
+.meetup-event-actions a:hover {
   transform: translateY(-1px);
   background: linear-gradient(180deg, rgba(71, 243, 170, 0.22), rgba(71, 243, 170, 0.12));
   border-color: rgba(71, 243, 170, 0.42);

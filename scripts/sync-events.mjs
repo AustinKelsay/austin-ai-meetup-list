@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { sessions } from "../src/data.js";
+import { meetups } from "../src/data.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -68,19 +68,19 @@ function buildIcsBody(event, detailsUrl) {
 }
 
 function collectEvents() {
-  return sessions
-    .filter((session) => session.event)
-    .map((session) => {
-      const event = session.event;
-      const detailsUrl = `${siteUrl}${buildMeetupPath(session.slug)}`;
-      const icsPath = `/calendar/${session.slug}.ics`;
+  return meetups
+    .filter((meetup) => meetup.event)
+    .map((meetup) => {
+      const event = meetup.event;
+      const detailsUrl = `${siteUrl}${buildMeetupPath(meetup.slug)}`;
+      const icsPath = `/calendar/${meetup.slug}.ics`;
 
       return {
-        id: session.slug,
-        sessionId: session.id,
-        slug: session.slug,
-        dateLabel: session.date,
-        markdownHref: session.markdownHref,
+        id: meetup.slug,
+        meetupId: meetup.id,
+        slug: meetup.slug,
+        dateLabel: meetup.date,
+        markdownHref: meetup.markdownHref,
         title: event.title,
         summary: event.summary,
         startAt: event.startAt,
@@ -92,7 +92,7 @@ function collectEvents() {
         detailsUrl,
         googleCalendarUrl: buildGoogleCalendarUrl({
           ...event,
-          id: session.slug,
+          id: meetup.slug,
         }),
         icsUrl: `${siteUrl}${icsPath}`,
         icsPath,

@@ -1,6 +1,6 @@
-/* Session cards */
+/* Meetup cards */
 
-.session {
+.meetup {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--panel);
@@ -9,15 +9,15 @@
   animation: boot-in 600ms ease both;
 }
 
-.session:nth-child(1) {
+.meetup:nth-child(1) {
   animation-delay: 120ms;
 }
 
-.session:nth-child(2) {
+.meetup:nth-child(2) {
   animation-delay: 220ms;
 }
 
-.session-header {
+.meetup-header {
   padding: 1rem 1.25rem 0.85rem;
   cursor: pointer;
   list-style: none;
@@ -49,13 +49,13 @@
   background: linear-gradient(155deg, rgba(71, 243, 170, 0.08), transparent 46%);
 }
 
-.session-header::-webkit-details-marker,
-.session-header::marker {
+.meetup-header::-webkit-details-marker,
+.meetup-header::marker {
   display: none;
   content: "";
 }
 
-.session-header::before {
+.meetup-header::before {
   content: "";
   position: absolute;
   left: 0;
@@ -66,43 +66,43 @@
   box-shadow: 0 0 14px rgba(71, 243, 170, 0.34);
 }
 
-.session[open] .session-header {
+.meetup[open] .meetup-header {
   border-bottom: 1px solid var(--line);
 }
 
-.session--past {
+.meetup--past {
   border-color: rgba(71, 243, 170, 0.11);
   background: rgba(4, 11, 18, 0.84);
   box-shadow: 0 18px 38px rgba(0, 0, 0, 0.22);
 }
 
-.session--past .session-header {
+.meetup--past .meetup-header {
   background: linear-gradient(155deg, rgba(71, 243, 170, 0.02), transparent 40%);
 }
 
-.session--past .session-header::before {
+.meetup--past .meetup-header::before {
   background: rgba(71, 243, 170, 0.62);
   box-shadow: 0 0 10px rgba(71, 243, 170, 0.18);
 }
 
-.session--past .session-header h2 {
+.meetup--past .meetup-header h2 {
   color: rgba(226, 241, 235, 0.88);
 }
 
-.session--past .session-meta,
-.session--past .track-num {
+.meetup--past .meetup-meta,
+.meetup--past .track-num {
   color: rgba(169, 190, 181, 0.8);
 }
 
-.session--past .chevron::before {
+.meetup--past .chevron::before {
   border-right-color: rgba(71, 243, 170, 0.72);
   border-bottom-color: rgba(71, 243, 170, 0.72);
 }
 
-.session--past .track-nav a,
-.session--past .session-event-meta span,
-.session--past .session-event-actions a,
-.session--past .pres-enter-btn {
+.meetup--past .track-nav a,
+.meetup--past .meetup-event-meta span,
+.meetup--past .meetup-event-actions a,
+.meetup--past .pres-enter-btn {
   opacity: 0.72;
 }
 
@@ -128,11 +128,11 @@
   opacity: 0.75;
 }
 
-.session[open] .chevron::before {
+.meetup[open] .chevron::before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.session-date {
+.meetup-date {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -143,7 +143,7 @@
   cursor: default;
 }
 
-.session-header h2 {
+.meetup-header h2 {
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(1.3rem, 2.2vw, 1.75rem);
@@ -211,7 +211,7 @@
   gap: 0.75rem;
 }
 
-.session-meta {
+.meetup-meta {
   margin: 0.15rem 0 0.65rem;
   color: var(--text-sub);
   font-size: 0.76rem;
@@ -234,17 +234,17 @@
 
 /* Tracks + topics */
 
-.session-body {
+.meetup-body {
   padding: 0.75rem;
   display: grid;
   gap: 0.7rem;
 }
 
-.session-body--detail {
+.meetup-body--detail {
   padding-top: 0.85rem;
 }
 
-.session-event {
+.meetup-event {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -253,14 +253,14 @@
   padding: 0.2rem 0.2rem 0.05rem;
 }
 
-.session-event-meta,
-.session-event-actions {
+.meetup-event-meta,
+.meetup-event-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
 }
 
-.session-event-meta span {
+.meetup-event-meta span {
   padding: 0.26rem 0.52rem;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -270,7 +270,7 @@
   letter-spacing: 0.02em;
 }
 
-.session-event-actions a {
+.meetup-event-actions a {
   min-height: 2.2rem;
   padding: 0 0.85rem;
   font-size: 0.72rem;
@@ -762,7 +762,7 @@
     width: 100%;
   }
 
-  .session-event {
+  .meetup-event {
     align-items: flex-start;
   }
 
@@ -788,11 +788,11 @@
     justify-content: flex-start;
   }
 
-  .session-header {
+  .meetup-header {
     padding: 0.8rem;
   }
 
-  .session-body {
+  .meetup-body {
     padding: 0.5rem;
   }
 
@@ -804,7 +804,7 @@
     padding: 0.55rem;
   }
 
-  .session-index {
+  .meetup-index {
     padding: 0.45rem 0.55rem;
   }
 

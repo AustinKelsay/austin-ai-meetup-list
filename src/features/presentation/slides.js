@@ -5,23 +5,26 @@ import {
   parseSlideHash,
 } from "../../app/routes.js";
 
-export function buildSlides(session) {
+export function buildSlides(meetup, options = {}) {
+  const { includeOpenCommunitySlot = false } = options;
   const slides = [];
-  const showcases = session.showcases ?? [];
+  const showcases = meetup.showcases ?? [];
+  const includeCommunitySlot = Boolean(showcases.length || includeOpenCommunitySlot);
+  const trackTotal = meetup.tracks.length + (includeCommunitySlot ? 1 : 0);
 
-  if (session.presentationIntro) {
+  if (meetup.presentationIntro) {
     slides.push({
-      type: "session-intro",
-      intro: session.presentationIntro,
+      type: "meetup-intro",
+      intro: meetup.presentationIntro,
     });
   }
 
-  session.tracks.forEach((track, trackIndex) => {
+  meetup.tracks.forEach((track, trackIndex) => {
     slides.push({
       type: "track-title",
       track,
       trackIndex,
-      trackTotal: session.tracks.length,
+      trackTotal,
     });
 
     track.items.forEach((item, itemIndex) => {
@@ -29,7 +32,7 @@ export function buildSlides(session) {
         type: "topic",
         track,
         trackIndex,
-        trackTotal: session.tracks.length,
+        trackTotal,
         item,
         itemIndex,
         itemTotal: track.items.length,
@@ -42,17 +45,21 @@ export function buildSlides(session) {
         type: "track-outro",
         track,
         trackIndex,
-        trackTotal: session.tracks.length,
+        trackTotal,
         outro: track.outro,
       });
     }
   });
 
+  if (!includeCommunitySlot) {
+    return slides;
+  }
+
   slides.push({
     type: "community-title",
     itemTotal: showcases.length,
-    trackIndex: session.tracks.length,
-    trackTotal: session.tracks.length + 1,
+    trackIndex: meetup.tracks.length,
+    trackTotal,
   });
 
   if (showcases.length) {
@@ -62,8 +69,8 @@ export function buildSlides(session) {
         item,
         itemIndex,
         itemTotal: showcases.length,
-        trackIndex: session.tracks.length,
-        trackTotal: session.tracks.length + 1,
+        trackIndex: meetup.tracks.length,
+        trackTotal,
         isLastInTrack: itemIndex === showcases.length - 1,
       });
     });
@@ -72,8 +79,8 @@ export function buildSlides(session) {
   return slides;
 }
 
-export function findSlideIndex(session, route) {
-  const slides = buildSlides(session);
+export function findSlideIndex(meetup, route, options = {}) {
+  const slides = buildSlides(meetup, options);
 
   return slides.findIndex(
     (slide) =>
@@ -82,8 +89,8 @@ export function findSlideIndex(session, route) {
   );
 }
 
-export function findTopicSlideIndex(session, item) {
-  const slides = buildSlides(session);
+export function findTopicSlideIndex(meetup, item, options = {}) {
+  const slides = buildSlides(meetup, options);
 
   return slides.findIndex(
     (slide) =>
@@ -92,28 +99,31 @@ export function findTopicSlideIndex(session, item) {
   );
 }
 
-export function resolvePresentationHash(sessionList, hash) {
+export function resolvePresentationHash(meetupList, hash, options = {}) {
+  const { includeOpenCommunitySlotForMeetupId = null } = options;
   const route = parseSlideHash(hash);
 
   if (!route) {
     return null;
   }
 
-  const session = sessionList.find((candidate) => candidate.slug === route.sessionSlug);
-  if (!session) {
+  const meetup = meetupList.find((candidate) => candidate.slug === route.meetupSlug);
+  if (!meetup) {
     return {
       invalidHash: "",
     };
   }
 
-  const slideIndex = findSlideIndex(session, route);
+  const slideIndex = findSlideIndex(meetup, route, {
+    includeOpenCommunitySlot: meetup.id === includeOpenCommunitySlotForMeetupId,
+  });
   if (slideIndex === -1) {
     return {
       invalidHash: "",
     };
   }
 
-  return { session, slideIndex };
+  return { meetup, slideIndex };
 }
 
 export { buildSlideHash };

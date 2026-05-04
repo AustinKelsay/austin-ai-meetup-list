@@ -4,7 +4,7 @@
   "events": [
     {
       "id": "2026-04-15",
-      "sessionId": "session-2026-04-15",
+      "meetupId": "meetup-2026-04-15",
       "slug": "2026-04-15",
       "dateLabel": "April 15, 2026",
       "markdownHref": "./topics/2026-04-15.md",
@@ -22,7 +22,7 @@
     },
     {
       "id": "2026-04-01",
-      "sessionId": "session-2026-04-01",
+      "meetupId": "meetup-2026-04-01",
       "slug": "2026-04-01",
       "dateLabel": "April 1, 2026",
       "markdownHref": "./topics/2026-04-01.md",
@@ -40,7 +40,7 @@
     },
     {
       "id": "2026-03-18",
-      "sessionId": "session-2026-03-18",
+      "meetupId": "meetup-2026-03-18",
       "slug": "2026-03-18",
       "dateLabel": "March 18, 2026",
       "markdownHref": "./topics/2026-03-18.md",

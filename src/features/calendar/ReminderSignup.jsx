@@ -9,14 +9,14 @@ import {
   isValidEmail,
 } from "../../lib/meetup-ui.js";
 
-export default function ReminderSignup({ nextSession, variant = "default" }) {
+export default function ReminderSignup({ nextMeetup, variant = "default" }) {
   const submitRef = useRef(false);
   const fallbackTimerRef = useRef(null);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle");
   const pageUrl = window.location.href;
 
-  const nextEvent = nextSession?.event ?? null;
+  const nextEvent = nextMeetup?.event ?? null;
   const nextLabel = nextEvent
     ? `${formatEventDate(nextEvent)} · ${formatEventTime(nextEvent)}`
     : "We will email you when the next meetup is posted.";
