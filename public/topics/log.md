@@ -14,3 +14,10 @@
 - Added wiki frontmatter and stable wikilinks to `2026-05-13.md`.
 - Added public link records for May 13 sources under `raw/articles/`.
 - Added central entity and concept pages referenced by the sample Meetup.
+
+## [2026-05-05] update | Historical Meetup pages migrated
+
+- Added wiki frontmatter and related-page spines to `2026-04-15.md`, `2026-04-01.md`, and `2026-03-18.md`.
+- Added public link records for the March 18, April 1, and April 15 Meetup pages.
+- Added recurring entity pages for Google, Meta, Microsoft, NVIDIA, Z.ai, and OpenClaw.
+- Added recurring concept pages for Open Models, Local AI, Model Distillation, Coding Agents, Agent Security, and Supply Chain Security.
