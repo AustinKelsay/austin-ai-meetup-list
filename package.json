@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sync:events": "node scripts/sync-events.mjs",
+    "lint:wiki": "node scripts/lint-wiki.mjs",
     "dev": "npm run sync:events && vite",
     "build": "npm run sync:events && vite build",
     "preview": "vite preview"

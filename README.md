@@ -9,7 +9,7 @@ This repo is optimized for clarity over abstraction. The goal is to make it easy
 - keep the Markdown Archive durable and easy to diff
 - support both archive browsing and Presentation Mode
 
-For the project language and curation rules, start with [CONTEXT.md](./CONTEXT.md). The source-of-record decision is captured in [ADR 0001](./docs/adr/0001-markdown-archive-as-source-of-record.md).
+For the project language and curation rules, start with [CONTEXT.md](./CONTEXT.md). The source-of-record decision is captured in [ADR 0001](./docs/adr/0001-markdown-archive-as-source-of-record.md), and the open LLM Wiki layer is captured in [ADR 0002](./docs/adr/0002-open-llm-wiki-layer.md).
 
 ## What the app does
 
@@ -89,9 +89,9 @@ Presentation Mode uses hash routes like `#/slides/...`, and the meetup/helper pa
 - [scripts/sync-events.mjs](./scripts/sync-events.mjs)
   Generates `public/meetups.json` plus per-event ICS files from `src/data.js`
 - [public/topics/](./public/topics/)
-  Durable Markdown Archive served as static files
+  Durable Markdown Archive and open LLM Wiki served as static files
 - [public/topics/README.md](./public/topics/README.md)
-  Archive-side workflow notes
+  Archive-side and wiki workflow notes
 - [apps-script/](./apps-script/)
   Tiny Google Apps Script reminder backend
 - [api/github-issue.js](./api/github-issue.js)
@@ -103,13 +103,15 @@ The render pipeline is:
 
 1. Durable meetup notes live in `public/topics/*.md`
 2. The Markdown Archive is the source of record for authored meetup notes
-3. Meetup data in [src/data.js](./src/data.js) mirrors or curates that content for rendering
-4. [src/App.jsx](./src/App.jsx) renders archive mode and Presentation Mode from the same meetup data
-5. [src/styles.css](./src/styles.css) styles both modes
+3. The LLM Wiki in `public/topics/` adds frontmatter, source link records, indexes, and interlinked entity/concept pages
+4. Meetup data in [src/data.js](./src/data.js) mirrors or curates Markdown content for rendering
+5. [src/App.jsx](./src/App.jsx) renders archive mode and Presentation Mode from the same meetup data
+6. [src/styles.css](./src/styles.css) styles both modes
 
 This split is intentional:
 
 - the Markdown Archive stays durable and easy to diff
+- the LLM Wiki keeps recurring context open and reusable on GitHub
 - meetup data stays explicit and patch-friendly
 - React stays mostly presentational, with only a little view state for Presentation Mode
 
@@ -201,14 +203,18 @@ Open source and privacy are curation lenses, not tracks. If a topic could fit mu
 ## Meetup Workflow
 
 1. Copy [public/topics/TEMPLATE.md](./public/topics/TEMPLATE.md) to `public/topics/YYYY-MM-DD.md`
-2. Use the standard five tracks unless there is a strong reason to diverge
-3. Omit empty tracks
-4. Add topics and links in Markdown first
-5. Mirror that content into [src/data.js](./src/data.js)
-6. Add public `notes` when they help Presentation Mode
-7. Add or update the meetup `event` metadata if this is an actual planned meetup that should appear in reminders/calendar links
-8. Keep the Community Slot last; show an empty slot only for the next upcoming meetup
-9. Run `npm run build`
+2. Add wiki frontmatter following [public/topics/SCHEMA.md](./public/topics/SCHEMA.md)
+3. Use the standard five tracks unless there is a strong reason to diverge
+4. Omit empty tracks
+5. Add topics and links in Markdown first
+6. Add source link records under `public/topics/raw/articles/` when sources need durable notes
+7. Add or update central entity/concept pages and `[[wikilinks]]`
+8. Mirror that content into [src/data.js](./src/data.js)
+9. Add public `notes` when they help Presentation Mode
+10. Add or update the meetup `event` metadata if this is an actual planned meetup that should appear in reminders/calendar links
+11. Keep the Community Slot last; show an empty slot only for the next upcoming meetup
+12. Update [public/topics/index.md](./public/topics/index.md) and [public/topics/log.md](./public/topics/log.md)
+13. Run `npm run lint:wiki` and `npm run build`
 
 Do not skip the Markdown step. The Markdown Archive is the source of record.
 

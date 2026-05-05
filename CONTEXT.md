@@ -65,6 +65,10 @@ The organizer workflow of choosing, grouping, wording, and placing material on a
 The durable source of record for authored Meetup notes.
 _Avoid_: Data source
 
+**LLM Wiki**:
+The public, interlinked Markdown knowledge layer that organizes the Markdown Archive into reusable pages for Meetups, entities, concepts, comparisons, source link records, and durable queries.
+_Avoid_: Frontend data source
+
 **Meetup Data**:
 The structured rendering model for a whole Meetup, curated from the Markdown Archive for the website and Presentation Mode.
 _Avoid_: Archive of record
@@ -118,7 +122,10 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Meetup Slot** does not have a **Topic Board**.
 - A **Meetup Slot** can be replaced by a hand-authored **Meetup**.
 - A **Meetup** is recorded in the **Markdown Archive**.
+- The **LLM Wiki** organizes the **Markdown Archive** without replacing it.
+- The **LLM Wiki** lives in public Markdown files and is safe to publish in GitHub.
 - **Meetup Data** is curated from the **Markdown Archive**.
+- **Meetup Data** is not generated from the **LLM Wiki** in v1.
 - **Presentation Mode** renders **Meetup Data**.
 - A **Track** has zero or more **Topics**.
 - A **Topic** belongs to exactly one **Track**.
@@ -173,6 +180,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 >
 > **Dev:** "The Markdown notes and structured data disagree. Which one should I trust?"
 > **Domain expert:** "Trust the **Markdown Archive** as the durable record, then update the **Meetup Data** to render the intended board."
+>
+> **Dev:** "Now that the archive is an **LLM Wiki**, should the frontend parse those wiki pages directly?"
+> **Domain expert:** "No — the **LLM Wiki** helps humans and agents preserve knowledge, but **Meetup Data** remains the explicit frontend rendering contract."
 >
 > **Dev:** "Are **Presenter Notes** private?"
 > **Domain expert:** "No — they are public notes to self that add context for presenting a **Topic** or **Showcase**."
@@ -242,6 +252,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - "future meetup" was used for generated calendar placeholders — resolved: tentative generated dates are **Meetup Slots** until manually overridden by hand-authored **Meetups**.
 - "biweekly" was close to being a hard schedule guarantee — resolved: it is the default planning cadence, and authored **Meetups** can override it.
 - "source of truth" was split between Markdown and structured data — resolved: the **Markdown Archive** is the durable record; **Meetup Data** is the curated rendering model.
+- "LLM wiki" was close to becoming a new frontend source — resolved: the **LLM Wiki** organizes the **Markdown Archive**, while **Meetup Data** remains the rendering model.
 - "notes" was close to being treated as private facilitation material — resolved: **Presenter Notes** are public notes to self.
 - "showcase" was close to being treated as a **Track** — resolved: a **Showcase** belongs to the **Community Slot**, which appears after the standard **Tracks**.
 - "standard track" was close to meaning every track must appear every time — resolved: empty standard **Tracks** are omitted.

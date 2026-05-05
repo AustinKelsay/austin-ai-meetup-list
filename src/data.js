@@ -24,6 +24,255 @@
 // 5. Big Tech Moves
 export const meetups = [
   {
+    id: "meetup-2026-05-13",
+    slug: "2026-05-13",
+    date: "May 13, 2026",
+    markdownHref: "./topics/2026-05-13.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-05-13T17:00:00-05:00",
+      endAt: "2026-05-13T19:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Security spine this week: AI SaaS as supply chain, privacy tools getting inverted, and compute as product strategy.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+      },
+    ],
+    tracks: [
+      {
+        id: "may13-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Sandcastle",
+            description:
+              "TypeScript runner for sending coding agents into isolated worktrees and collecting the results.",
+            chip: "agent infra",
+            href: "https://github.com/mattpocock/sandcastle",
+            linkPair: ["https://www.sourcepulse.org/projects/27307520"],
+          },
+          {
+            title: "Amnesic personal OS",
+            description:
+              "Fully local, private OS concept that boots from a USB stick and leaves no trace on the host machine.",
+            chip: "local",
+            href: "https://x.com/nichxbt/status/2046647915343741391",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/nichxbt/status/2046647915343741391?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Agents as fields",
+            description:
+              "Attio-style AI attributes put agents inside the workflow instead of beside it.",
+            chip: "agent UX",
+            href: "https://x.com/rrhoover/status/2048366028850163752",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/rrhoover/status/2048366028850163752?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+            ],
+          },
+          {
+            title: "Isaac Sim for beginners",
+            description:
+              "NVIDIA's robotics simulator pitch: prototype the chassis, wheels, sensors, and environment before touching hardware.",
+            chip: "robotics",
+            href: "https://developer.nvidia.com/isaac/sim",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/_vmlops/status/2048594851374243967?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "may13-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
+        items: [
+          {
+            title: "GPT Image 2 gets UI-ish",
+            description:
+              "Better text, layout, and screenshot fidelity. The interesting part is mockups and visual iteration, not just prettier images.",
+            chip: "image",
+            href: "https://developers.openai.com/api/docs/models/gpt-image-2",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/chetaslua/status/2046489044243403029?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/fofrAI/status/2046603571286720769?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/yacineMTB/status/2046751282904338672?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/cto_junior/status/2046543490151240168?ref_src=twsrc%5Etfw",
+              },
+            ],
+          },
+          {
+            title: "Qwen3.6-27B gets laptop-shaped",
+            description:
+              "New quant evals show 12GB and 17.6GB variants with small reported quality hits.",
+            chip: "local",
+            href: "https://qwen.ai/blog?id=qwen3.6",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/bnjmn_marie/status/2047786725846724918?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/TeksEdge/status/2047876512863633710?ref_src=twsrc%5Etfw",
+              },
+            ],
+          },
+          {
+            title: "SubQ goes after 12M-token context",
+            description:
+              "Subquadratic is pitching a sparse-attention frontier model with a 12M-token window and 52x faster 1M-token processing than FlashAttention. If the claims hold up, full-repo agents get a very different context budget.",
+            chip: "long context",
+            href: "https://subq.ai/introducing-subq",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/alex_whedon/status/2051663268704636937?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "12 models in 37 days",
+            description:
+              "Model velocity is now part of the workload: launches, quants, silent upgrades, and API-only variants every week.",
+            chip: "models",
+            href: "https://x.com/stevibe/status/2047539989492498711",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/stevibe/status/2047539989492498711?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/theo/status/2046767107178676636?ref_src=twsrc%5Etfw",
+              },
+            ],
+          },
+          {
+            title: "Gemma 4 app surface",
+            description:
+              "The follow-up question: how fast do the weights become useful across AI Studio, AI Edge Gallery, Ollama, LM Studio, llama.cpp, and now MTP drafters that promise up to 3x faster output.",
+            chip: "open model",
+            href: "https://deepmind.google/models/gemma/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/googledevs/status/2051700498328346945?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://ai.google.dev/gemma/docs/releases",
+              "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+            ],
+          },
+        ],
+      },
+      {
+        id: "may13-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, defensive ideas, and security-relevant failures around modern AI systems and tooling.",
+        items: [
+          {
+            title: "Vercel's Context.ai breach",
+            description:
+              "A compromised third-party AI tool led to Google Workspace takeover and access to non-sensitive env vars. AI SaaS is supply chain now.",
+            chip: "supply chain",
+            href: "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/theo/status/2046767107178676636?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
+            ],
+          },
+          {
+            title: "OpenAI Privacy Filter gets inverted",
+            description:
+              "A 1.5B Apache-2.0 PII masking model becomes a local span extractor for names, emails, accounts, addresses, and secrets.",
+            chip: "privacy",
+            href: "https://openai.com/index/introducing-openai-privacy-filter/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/xenovacom/status/2046979474613268993?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/chiefofautism/status/2047582480140562542?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://huggingface.co/openai/privacy-filter",
+              "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
+            ],
+          },
+        ],
+      },
+      {
+        id: "may13-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, product launches, acquisitions, and platform bets that shift how the AI market is organized.",
+        items: [
+          {
+            title: "Anthropic buys the AWS compute runway",
+            description:
+              "Up to 5 GW of Trainium compute, with nearly 1 GW expected by the end of 2026.",
+            chip: "compute",
+            href: "https://www.anthropic.com/news/anthropic-amazon-compute",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AnthropicAI/status/2046327624092487688?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-04-15",
     slug: "2026-04-15",
     date: "April 15, 2026",

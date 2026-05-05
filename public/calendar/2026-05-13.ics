@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Austin AI Club//Meetups//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2026-05-13@austinai.club
+DTSTAMP:20260505T191750Z
+DTSTART:20260513T220000Z
+DTEND:20260514T000000Z
+SUMMARY:Austin AI Club
+DESCRIPTION:Quick AI news rundown\, demos\, and open discussion.\n\nDetails: https://austinai.club/meetups/2026-05-13
+LOCATION:Bitcoin Park Austin\, Austin\, TX
+URL:https://austinai.club/meetups/2026-05-13
+END:VEVENT
+END:VCALENDAR
