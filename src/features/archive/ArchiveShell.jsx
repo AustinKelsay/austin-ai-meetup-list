@@ -1,9 +1,14 @@
-import { COMMUNITY_SLOT_LABEL, LINK_SUBMISSION_PATH, SHOWCASE_SUBMISSION_PATH } from "../../app/constants.js";
+import {
+  COMMUNITY_SLOT_LABEL,
+  LINK_SUBMISSION_PATH,
+  SHOWCASE_SUBMISSION_PATH,
+  WIKI_PATH_PREFIX,
+} from "../../app/constants.js";
 import RouteLink from "../../components/RouteLink.jsx";
 
-export default function ArchiveShell({ children, onOpenRoute }) {
+export default function ArchiveShell({ children, onOpenRoute, shellClassName = "" }) {
   return (
-    <div className="shell">
+    <div className={["shell", shellClassName].filter(Boolean).join(" ")}>
       <header className="topbar">
         <div className="topbar-left">
           <RouteLink to="/" onOpenRoute={onOpenRoute} className="brand brand-link">
@@ -15,6 +20,9 @@ export default function ArchiveShell({ children, onOpenRoute }) {
           </RouteLink>
         </div>
         <div className="topbar-right">
+          <RouteLink to={WIKI_PATH_PREFIX} onOpenRoute={onOpenRoute} className="topbar-link">
+            Wiki
+          </RouteLink>
           <RouteLink to={LINK_SUBMISSION_PATH} onOpenRoute={onOpenRoute} className="topbar-link">
             Links
           </RouteLink>
@@ -50,7 +58,9 @@ export default function ArchiveShell({ children, onOpenRoute }) {
           <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>
             {COMMUNITY_SLOT_LABEL}
           </RouteLink>
-          <a href="/topics/README.md">Meetup notes</a>
+          <RouteLink to={WIKI_PATH_PREFIX} onOpenRoute={onOpenRoute}>
+            Wiki
+          </RouteLink>
         </div>
       </footer>
     </div>

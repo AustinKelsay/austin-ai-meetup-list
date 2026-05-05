@@ -4,6 +4,7 @@ import {
   LINK_SUBMISSION_PATH,
   MEETUP_PATH_PREFIX,
   SHOWCASE_SUBMISSION_PATH,
+  WIKI_PATH_PREFIX,
 } from "./constants.js";
 import { slugify } from "../lib/meetup-ui.js";
 
@@ -68,6 +69,10 @@ export function buildMeetupPath(slug) {
   return `${MEETUP_PATH_PREFIX}/${encodeURIComponent(slug)}`;
 }
 
+export function buildWikiPath(id) {
+  return id ? `${WIKI_PATH_PREFIX}/${encodeURIComponent(id)}` : WIKI_PATH_PREFIX;
+}
+
 function normalizePathname(pathname) {
   if (!pathname || pathname === "/") {
     return "/";
@@ -81,6 +86,25 @@ export function getAppRoute(pathname) {
 
   if (normalized === CALENDAR_PATH) {
     return { name: APP_ROUTE.CALENDAR };
+  }
+
+  if (normalized === WIKI_PATH_PREFIX) {
+    return { name: APP_ROUTE.WIKI, wikiId: null };
+  }
+
+  const wikiPrefix = `${WIKI_PATH_PREFIX}/`;
+  if (normalized.startsWith(wikiPrefix)) {
+    const wikiId = normalized.slice(wikiPrefix.length);
+    if (wikiId && !wikiId.includes("/")) {
+      try {
+        return {
+          name: APP_ROUTE.WIKI,
+          wikiId: decodeURIComponent(wikiId),
+        };
+      } catch {
+        return { name: APP_ROUTE.HOME };
+      }
+    }
   }
 
   if (normalized === LINK_SUBMISSION_PATH) {

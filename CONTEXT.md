@@ -69,6 +69,10 @@ _Avoid_: Data source
 The public, interlinked Markdown knowledge layer that organizes the Markdown Archive into reusable pages for Meetups, entities, concepts, comparisons, source link records, and durable queries.
 _Avoid_: Frontend data source
 
+**Wiki Explorer**:
+The public website surface for browsing the LLM Wiki through metadata, excerpts, wikilinks, backlinks, tags, and graph navigation.
+_Avoid_: Markdown renderer
+
 **Meetup Data**:
 The structured rendering model for a whole Meetup, curated from the Markdown Archive for the website and Presentation Mode.
 _Avoid_: Archive of record
@@ -124,6 +128,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Meetup** is recorded in the **Markdown Archive**.
 - The **LLM Wiki** organizes the **Markdown Archive** without replacing it.
 - The **LLM Wiki** lives in public Markdown files and is safe to publish in GitHub.
+- The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
+- The **Wiki Explorer** uses a generated manifest as its frontend read model.
+- The **Wiki Explorer** does not render full Markdown pages in v1.
 - **Meetup Data** is curated from the **Markdown Archive**.
 - **Meetup Data** is not generated from the **LLM Wiki** in v1.
 - **Presentation Mode** renders **Meetup Data**.

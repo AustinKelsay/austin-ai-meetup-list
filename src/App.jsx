@@ -18,6 +18,7 @@ import {
   resolvePresentationHash,
 } from "./features/presentation/slides.js";
 import SubmissionScreen from "./features/submissions/SubmissionScreen.jsx";
+import WikiExplorer from "./features/wiki/WikiExplorer.jsx";
 
 const PRESENTATION_ENTRY_MODE = {
   FULL: "full",
@@ -33,6 +34,7 @@ export default function App() {
     }),
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
+  const [wikiManifest, setWikiManifest] = useState(null);
   const calendarEntries = buildCalendarTimelineEntries(meetups);
 
   const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
@@ -105,6 +107,34 @@ export default function App() {
     script.async = true;
     script.charset = "utf-8";
     document.body.appendChild(script);
+  }, []);
+
+  useEffect(() => {
+    let isActive = true;
+
+    fetch("/wiki-manifest.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Unable to load wiki manifest: ${response.status}`);
+        }
+
+        return response.json();
+      })
+      .then((manifest) => {
+        if (isActive) {
+          setWikiManifest(manifest);
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+        if (isActive) {
+          setWikiManifest(null);
+        }
+      });
+
+    return () => {
+      isActive = false;
+    };
   }, []);
 
   useEffect(() => {
@@ -259,6 +289,16 @@ export default function App() {
         kind="showcase"
         target={nextSubmissionTarget}
         onBack={() => goToNextMeetupOrHome({ replace: true })}
+        onOpenRoute={openRoute}
+      />
+    );
+  }
+
+  if (route.name === APP_ROUTE.WIKI) {
+    return (
+      <WikiExplorer
+        manifest={wikiManifest}
+        focusedWikiId={route.wikiId}
         onOpenRoute={openRoute}
       />
     );

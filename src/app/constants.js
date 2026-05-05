@@ -13,6 +13,7 @@ export const DEFAULT_CALENDAR_EVENT_COUNT = 4;
 export const CALENDAR_TIMELINE_EVENT_COUNT = 18;
 export const MEETUP_PATH_PREFIX = "/meetups";
 export const CALENDAR_PATH = "/calendar";
+export const WIKI_PATH_PREFIX = "/wiki";
 export const LINK_SUBMISSION_PATH = "/submit-link";
 export const SHOWCASE_SUBMISSION_PATH = "/submit-showcase";
 export const ISSUE_SUBMISSION_ENDPOINT = "/api/github-issue";
@@ -21,6 +22,7 @@ export const COMMUNITY_SLOT_LABEL = "Showcase";
 export const APP_ROUTE = {
   HOME: "home",
   MEETUP: "meetup",
+  WIKI: "wiki",
   CALENDAR: "calendar",
   SUBMIT_LINK: "submit-link",
   SUBMIT_SHOWCASE: "submit-showcase",

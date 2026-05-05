@@ -1,0 +1,3681 @@
+{
+  "generatedAt": "2026-05-05T19:53:23.520Z",
+  "pages": [
+    {
+      "id": "agent-infrastructure",
+      "title": "Agent Infrastructure",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "track",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
+      "rawHref": "/topics/concepts/agent-infrastructure.md",
+      "relativePath": "concepts/agent-infrastructure.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "coding-agents",
+        "microsoft",
+        "nvidia",
+        "openai",
+        "openclaw",
+        "vercel"
+      ]
+    },
+    {
+      "id": "agent-security",
+      "title": "Agent Security",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
+      "rawHref": "/topics/concepts/agent-security.md",
+      "relativePath": "concepts/agent-security.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "supply-chain-security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "microsoft",
+        "supply-chain-security"
+      ]
+    },
+    {
+      "id": "ai-saas-supply-chain",
+      "title": "AI SaaS Supply Chain",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "AI SaaS Supply Chain describes the security and operational risk created when AI tools are granted access to company workspaces, data, identity systems, source control, or deployment environments.",
+      "rawHref": "/topics/concepts/ai-saas-supply-chain.md",
+      "relativePath": "concepts/ai-saas-supply-chain.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "austin-ai-club-may-13-2026",
+        "privacy-tooling",
+        "supply-chain-security",
+        "vercel"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "title": "Anthropic",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "compute"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
+      "rawHref": "/topics/entities/anthropic.md",
+      "relativePath": "entities/anthropic.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents",
+        "compute-strategy",
+        "model-distillation"
+      ]
+    },
+    {
+      "id": "austin-ai-club-april-1-2026",
+      "title": "Austin AI Club - April 1, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents, Model Distillation, Supply Chain Security, Compute Strategy, OpenAI, Anthropic, NVIDIA, Qwen, Z.ai, OpenClaw.",
+      "rawHref": "/topics/2026-04-01.md",
+      "relativePath": "2026-04-01.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "local-ai",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "supply-chain-security",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "supply-chain-security",
+        "zai"
+      ]
+    },
+    {
+      "id": "austin-ai-club-april-15-2026",
+      "title": "Austin AI Club - April 15, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "local-builds",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Coding Agents, Model Distillation, Agent Security, Anthropic, OpenAI, Meta, Microsoft, Qwen, Z.ai, OpenClaw.",
+      "rawHref": "/topics/2026-04-15.md",
+      "relativePath": "2026-04-15.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "meta",
+        "microsoft",
+        "model-distillation",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "google",
+        "meta",
+        "microsoft",
+        "model-distillation",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "zai"
+      ]
+    },
+    {
+      "id": "austin-ai-club-march-18-2026",
+      "title": "Austin AI Club - March 18, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Security, Coding Agents, Open Models, Local AI, Model Distillation, Privacy Tooling, OpenAI, Anthropic, Meta, NVIDIA, Qwen, OpenClaw.",
+      "rawHref": "/topics/2026-03-18.md",
+      "relativePath": "2026-03-18.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "privacy-tooling",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "privacy-tooling",
+        "qwen"
+      ]
+    },
+    {
+      "id": "austin-ai-club-may-13-2026",
+      "title": "Austin AI Club - May 13, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
+      "rawHref": "/topics/2026-05-13.md",
+      "relativePath": "2026-05-13.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "nvidia",
+        "open-models",
+        "openai",
+        "privacy-tooling",
+        "qwen",
+        "supply-chain-security",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "nvidia",
+        "open-models",
+        "openai",
+        "privacy-tooling",
+        "qwen",
+        "supply-chain-security",
+        "vercel"
+      ]
+    },
+    {
+      "id": "austin-ai-club-month-dd-yyyy",
+      "title": "Austin AI Club - Month DD, YYYY",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/YYYY-MM-DD-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "YYYY-MM-DD",
+      "updated": "YYYY-MM-DD",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents.",
+      "rawHref": "/topics/TEMPLATE.md",
+      "relativePath": "TEMPLATE.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": []
+    },
+    {
+      "id": "coding-agents",
+      "title": "Coding Agents",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
+      "rawHref": "/topics/concepts/coding-agents.md",
+      "relativePath": "concepts/coding-agents.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai",
+        "openclaw"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "openclaw",
+        "supply-chain-security",
+        "zai"
+      ]
+    },
+    {
+      "id": "compute-strategy",
+      "title": "Compute Strategy",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "big-tech-moves",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Compute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.",
+      "rawHref": "/topics/concepts/compute-strategy.md",
+      "relativePath": "concepts/compute-strategy.md",
+      "outgoingIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "google",
+        "local-ai",
+        "meta",
+        "nvidia",
+        "qwen"
+      ]
+    },
+    {
+      "id": "google",
+      "title": "Google",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
+      "rawHref": "/topics/entities/google.md",
+      "relativePath": "entities/google.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-13-2026"
+      ]
+    },
+    {
+      "id": "local-ai",
+      "title": "Local AI",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "local-builds",
+        "open-source",
+        "privacy"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md",
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Local AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.",
+      "rawHref": "/topics/concepts/local-ai.md",
+      "relativePath": "concepts/local-ai.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "open-models",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "google",
+        "open-models"
+      ]
+    },
+    {
+      "id": "meta",
+      "title": "Meta",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-03-18-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Meta is a recurring Austin AI Club entity for open-weight model releases, agentic-commerce bets, privacy platform moves, and data-center hardware strategy.",
+      "rawHref": "/topics/entities/meta.md",
+      "relativePath": "entities/meta.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "compute-strategy",
+        "open-models",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "title": "Microsoft",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, and its changing relationship to OpenAI.",
+      "rawHref": "/topics/entities/microsoft.md",
+      "relativePath": "entities/microsoft.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "austin-ai-club-april-15-2026",
+        "openai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026"
+      ]
+    },
+    {
+      "id": "model-distillation",
+      "title": "Model Distillation",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Model Distillation is the recurring theme of using one model's outputs, traces, or behavior to train or improve another model. In this archive it shows up as both a capability-transfer story and a security/platform-control problem.",
+      "rawHref": "/topics/concepts/model-distillation.md",
+      "relativePath": "concepts/model-distillation.md",
+      "outgoingIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models",
+        "qwen",
+        "supply-chain-security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models",
+        "openclaw"
+      ]
+    },
+    {
+      "id": "nvidia",
+      "title": "NVIDIA",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "compute",
+        "model",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.",
+      "rawHref": "/topics/entities/nvidia.md",
+      "relativePath": "entities/nvidia.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "open-models"
+      ]
+    },
+    {
+      "id": "open-models",
+      "title": "Open Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
+      "rawHref": "/topics/concepts/open-models.md",
+      "relativePath": "concepts/open-models.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "google",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "zai"
+      ]
+    },
+    {
+      "id": "openai",
+      "title": "OpenAI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "privacy"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.",
+      "rawHref": "/topics/entities/openai.md",
+      "relativePath": "entities/openai.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents",
+        "microsoft",
+        "privacy-tooling"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "title": "OpenClaw",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "coding-agents",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "OpenClaw is a recurring Austin AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.",
+      "rawHref": "/topics/entities/openclaw.md",
+      "relativePath": "entities/openclaw.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "coding-agents",
+        "model-distillation"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "coding-agents",
+        "zai"
+      ]
+    },
+    {
+      "id": "privacy-tooling",
+      "title": "Privacy Tooling",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "privacy",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Privacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.",
+      "rawHref": "/topics/concepts/privacy-tooling.md",
+      "relativePath": "concepts/privacy-tooling.md",
+      "outgoingIds": [
+        "ai-saas-supply-chain",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "local-ai",
+        "meta",
+        "openai"
+      ]
+    },
+    {
+      "id": "qwen",
+      "title": "Qwen",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "models-research",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.",
+      "rawHref": "/topics/entities/qwen.md",
+      "relativePath": "entities/qwen.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "model-distillation",
+        "open-models"
+      ]
+    },
+    {
+      "id": "supply-chain-security",
+      "title": "Supply Chain Security",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Supply Chain Security covers dependency compromise, leaked build artifacts, malicious packages, credential exfiltration, and AI tooling that inherits trust from developer environments.",
+      "rawHref": "/topics/concepts/supply-chain-security.md",
+      "relativePath": "concepts/supply-chain-security.md",
+      "outgoingIds": [
+        "agent-security",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "model-distillation"
+      ]
+    },
+    {
+      "id": "vercel",
+      "title": "Vercel",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Vercel is a recurring platform entity for frontend deployment, AI application infrastructure, and security incidents that affect builder workflows.",
+      "rawHref": "/topics/entities/vercel.md",
+      "relativePath": "entities/vercel.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-may-13-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-may-13-2026"
+      ]
+    },
+    {
+      "id": "zai",
+      "title": "Z.ai",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "coding-agents"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
+      "rawHref": "/topics/entities/z-ai.md",
+      "relativePath": "entities/z-ai.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "coding-agents",
+        "open-models",
+        "openclaw"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026"
+      ]
+    }
+  ],
+  "pagesById": {
+    "agent-infrastructure": {
+      "id": "agent-infrastructure",
+      "title": "Agent Infrastructure",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "track",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
+      "rawHref": "/topics/concepts/agent-infrastructure.md",
+      "relativePath": "concepts/agent-infrastructure.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "coding-agents",
+        "microsoft",
+        "nvidia",
+        "openai",
+        "openclaw",
+        "vercel"
+      ]
+    },
+    "agent-security": {
+      "id": "agent-security",
+      "title": "Agent Security",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
+      "rawHref": "/topics/concepts/agent-security.md",
+      "relativePath": "concepts/agent-security.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "supply-chain-security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "microsoft",
+        "supply-chain-security"
+      ]
+    },
+    "ai-saas-supply-chain": {
+      "id": "ai-saas-supply-chain",
+      "title": "AI SaaS Supply Chain",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "AI SaaS Supply Chain describes the security and operational risk created when AI tools are granted access to company workspaces, data, identity systems, source control, or deployment environments.",
+      "rawHref": "/topics/concepts/ai-saas-supply-chain.md",
+      "relativePath": "concepts/ai-saas-supply-chain.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "austin-ai-club-may-13-2026",
+        "privacy-tooling",
+        "supply-chain-security",
+        "vercel"
+      ]
+    },
+    "anthropic": {
+      "id": "anthropic",
+      "title": "Anthropic",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "compute"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
+      "rawHref": "/topics/entities/anthropic.md",
+      "relativePath": "entities/anthropic.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents",
+        "compute-strategy",
+        "model-distillation"
+      ]
+    },
+    "austin-ai-club-april-1-2026": {
+      "id": "austin-ai-club-april-1-2026",
+      "title": "Austin AI Club - April 1, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents, Model Distillation, Supply Chain Security, Compute Strategy, OpenAI, Anthropic, NVIDIA, Qwen, Z.ai, OpenClaw.",
+      "rawHref": "/topics/2026-04-01.md",
+      "relativePath": "2026-04-01.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "local-ai",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "supply-chain-security",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "supply-chain-security",
+        "zai"
+      ]
+    },
+    "austin-ai-club-april-15-2026": {
+      "id": "austin-ai-club-april-15-2026",
+      "title": "Austin AI Club - April 15, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "local-builds",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Coding Agents, Model Distillation, Agent Security, Anthropic, OpenAI, Meta, Microsoft, Qwen, Z.ai, OpenClaw.",
+      "rawHref": "/topics/2026-04-15.md",
+      "relativePath": "2026-04-15.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "meta",
+        "microsoft",
+        "model-distillation",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "google",
+        "meta",
+        "microsoft",
+        "model-distillation",
+        "open-models",
+        "openai",
+        "openclaw",
+        "qwen",
+        "zai"
+      ]
+    },
+    "austin-ai-club-march-18-2026": {
+      "id": "austin-ai-club-march-18-2026",
+      "title": "Austin AI Club - March 18, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Security, Coding Agents, Open Models, Local AI, Model Distillation, Privacy Tooling, OpenAI, Anthropic, Meta, NVIDIA, Qwen, OpenClaw.",
+      "rawHref": "/topics/2026-03-18.md",
+      "relativePath": "2026-03-18.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "privacy-tooling",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "anthropic",
+        "coding-agents",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "open-models",
+        "openai",
+        "openclaw",
+        "privacy-tooling",
+        "qwen"
+      ]
+    },
+    "austin-ai-club-may-13-2026": {
+      "id": "austin-ai-club-may-13-2026",
+      "title": "Austin AI Club - May 13, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board",
+        "agent-infrastructure",
+        "models-research",
+        "security",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
+      "rawHref": "/topics/2026-05-13.md",
+      "relativePath": "2026-05-13.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "nvidia",
+        "open-models",
+        "openai",
+        "privacy-tooling",
+        "qwen",
+        "supply-chain-security",
+        "vercel"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "anthropic",
+        "coding-agents",
+        "compute-strategy",
+        "google",
+        "local-ai",
+        "nvidia",
+        "open-models",
+        "openai",
+        "privacy-tooling",
+        "qwen",
+        "supply-chain-security",
+        "vercel"
+      ]
+    },
+    "austin-ai-club-month-dd-yyyy": {
+      "id": "austin-ai-club-month-dd-yyyy",
+      "title": "Austin AI Club - Month DD, YYYY",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/YYYY-MM-DD-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "YYYY-MM-DD",
+      "updated": "YYYY-MM-DD",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents.",
+      "rawHref": "/topics/TEMPLATE.md",
+      "relativePath": "TEMPLATE.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": []
+    },
+    "coding-agents": {
+      "id": "coding-agents",
+      "title": "Coding Agents",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "local-builds"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
+      "rawHref": "/topics/concepts/coding-agents.md",
+      "relativePath": "concepts/coding-agents.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai",
+        "openclaw"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "openclaw",
+        "supply-chain-security",
+        "zai"
+      ]
+    },
+    "compute-strategy": {
+      "id": "compute-strategy",
+      "title": "Compute Strategy",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "big-tech-moves",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Compute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.",
+      "rawHref": "/topics/concepts/compute-strategy.md",
+      "relativePath": "concepts/compute-strategy.md",
+      "outgoingIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "google",
+        "local-ai",
+        "meta",
+        "nvidia",
+        "qwen"
+      ]
+    },
+    "google": {
+      "id": "google",
+      "title": "Google",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
+      "rawHref": "/topics/entities/google.md",
+      "relativePath": "entities/google.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-13-2026"
+      ]
+    },
+    "local-ai": {
+      "id": "local-ai",
+      "title": "Local AI",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "local-builds",
+        "open-source",
+        "privacy"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md",
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Local AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.",
+      "rawHref": "/topics/concepts/local-ai.md",
+      "relativePath": "concepts/local-ai.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "open-models",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "google",
+        "open-models"
+      ]
+    },
+    "meta": {
+      "id": "meta",
+      "title": "Meta",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-03-18-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Meta is a recurring Austin AI Club entity for open-weight model releases, agentic-commerce bets, privacy platform moves, and data-center hardware strategy.",
+      "rawHref": "/topics/entities/meta.md",
+      "relativePath": "entities/meta.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "compute-strategy",
+        "open-models",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models"
+      ]
+    },
+    "microsoft": {
+      "id": "microsoft",
+      "title": "Microsoft",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, and its changing relationship to OpenAI.",
+      "rawHref": "/topics/entities/microsoft.md",
+      "relativePath": "entities/microsoft.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "austin-ai-club-april-15-2026",
+        "openai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-15-2026"
+      ]
+    },
+    "model-distillation": {
+      "id": "model-distillation",
+      "title": "Model Distillation",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Model Distillation is the recurring theme of using one model's outputs, traces, or behavior to train or improve another model. In this archive it shows up as both a capability-transfer story and a security/platform-control problem.",
+      "rawHref": "/topics/concepts/model-distillation.md",
+      "relativePath": "concepts/model-distillation.md",
+      "outgoingIds": [
+        "anthropic",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models",
+        "qwen",
+        "supply-chain-security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "open-models",
+        "openclaw"
+      ]
+    },
+    "nvidia": {
+      "id": "nvidia",
+      "title": "NVIDIA",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "compute",
+        "model",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.",
+      "rawHref": "/topics/entities/nvidia.md",
+      "relativePath": "entities/nvidia.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "open-models"
+      ]
+    },
+    "open-models": {
+      "id": "open-models",
+      "title": "Open Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
+      "rawHref": "/topics/concepts/open-models.md",
+      "relativePath": "concepts/open-models.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "qwen"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "austin-ai-club-month-dd-yyyy",
+        "google",
+        "local-ai",
+        "meta",
+        "model-distillation",
+        "nvidia",
+        "zai"
+      ]
+    },
+    "openai": {
+      "id": "openai",
+      "title": "OpenAI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "privacy"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.",
+      "rawHref": "/topics/entities/openai.md",
+      "relativePath": "entities/openai.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "privacy-tooling"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents",
+        "microsoft",
+        "privacy-tooling"
+      ]
+    },
+    "openclaw": {
+      "id": "openclaw",
+      "title": "OpenClaw",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "coding-agents",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 3,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "OpenClaw is a recurring Austin AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.",
+      "rawHref": "/topics/entities/openclaw.md",
+      "relativePath": "entities/openclaw.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "coding-agents",
+        "model-distillation"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "coding-agents",
+        "zai"
+      ]
+    },
+    "privacy-tooling": {
+      "id": "privacy-tooling",
+      "title": "Privacy Tooling",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "privacy",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Privacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.",
+      "rawHref": "/topics/concepts/privacy-tooling.md",
+      "relativePath": "concepts/privacy-tooling.md",
+      "outgoingIds": [
+        "ai-saas-supply-chain",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "openai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "local-ai",
+        "meta",
+        "openai"
+      ]
+    },
+    "qwen": {
+      "id": "qwen",
+      "title": "Qwen",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "models-research",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md",
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-03-18-link-records.md"
+      ],
+      "sourceCount": 4,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.",
+      "rawHref": "/topics/entities/qwen.md",
+      "relativePath": "entities/qwen.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
+        "compute-strategy",
+        "model-distillation",
+        "open-models"
+      ]
+    },
+    "supply-chain-security": {
+      "id": "supply-chain-security",
+      "title": "Supply Chain Security",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-04-01-link-records.md",
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Supply Chain Security covers dependency compromise, leaked build artifacts, malicious packages, credential exfiltration, and AI tooling that inherits trust from developer environments.",
+      "rawHref": "/topics/concepts/supply-chain-security.md",
+      "relativePath": "concepts/supply-chain-security.md",
+      "outgoingIds": [
+        "agent-security",
+        "ai-saas-supply-chain",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-security",
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-may-13-2026",
+        "model-distillation"
+      ]
+    },
+    "vercel": {
+      "id": "vercel",
+      "title": "Vercel",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "security",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Vercel is a recurring platform entity for frontend deployment, AI application infrastructure, and security incidents that affect builder workflows.",
+      "rawHref": "/topics/entities/vercel.md",
+      "relativePath": "entities/vercel.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-may-13-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "ai-saas-supply-chain",
+        "austin-ai-club-may-13-2026"
+      ]
+    },
+    "zai": {
+      "id": "zai",
+      "title": "Z.ai",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "coding-agents"
+      ],
+      "sources": [
+        "raw/articles/2026-04-15-link-records.md",
+        "raw/articles/2026-04-01-link-records.md"
+      ],
+      "sourceCount": 2,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
+      "rawHref": "/topics/entities/z-ai.md",
+      "relativePath": "entities/z-ai.md",
+      "outgoingIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026",
+        "coding-agents",
+        "open-models",
+        "openclaw"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-april-1-2026",
+        "austin-ai-club-april-15-2026"
+      ]
+    }
+  },
+  "rawPages": [
+    {
+      "id": "april-1-2026-source-link-records",
+      "title": "April 1, 2026 Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Public link records for Austin AI Club - April 1, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
+      "rawHref": "/topics/raw/articles/2026-04-01-link-records.md",
+      "relativePath": "raw/articles/2026-04-01-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "wikilinks": [
+        "Austin AI Club - April 1, 2026"
+      ]
+    },
+    {
+      "id": "april-15-2026-source-link-records",
+      "title": "April 15, 2026 Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Public link records for Austin AI Club - April 15, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
+      "rawHref": "/topics/raw/articles/2026-04-15-link-records.md",
+      "relativePath": "raw/articles/2026-04-15-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "wikilinks": [
+        "Austin AI Club - April 15, 2026"
+      ]
+    },
+    {
+      "id": "march-18-2026-source-link-records",
+      "title": "March 18, 2026 Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Public link records for Austin AI Club - March 18, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
+      "rawHref": "/topics/raw/articles/2026-03-18-link-records.md",
+      "relativePath": "raw/articles/2026-03-18-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "wikilinks": [
+        "Austin AI Club - March 18, 2026"
+      ]
+    },
+    {
+      "id": "may-13-2026-source-link-records",
+      "title": "May 13, 2026 Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "created": "2026-05-05",
+      "updated": "2026-05-05",
+      "excerpt": "Public link records for Austin AI Club - May 13, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
+      "rawHref": "/topics/raw/articles/2026-05-13-link-records.md",
+      "relativePath": "raw/articles/2026-05-13-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "wikilinks": [
+        "Austin AI Club - May 13, 2026"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "agent-infrastructure",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "openai"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "vercel"
+    },
+    {
+      "source": "agent-security",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "agent-security",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "agent-security",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "agent-security",
+      "target": "supply-chain-security"
+    },
+    {
+      "source": "agent-security",
+      "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "ai-saas-supply-chain",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "ai-saas-supply-chain",
+      "target": "vercel"
+    },
+    {
+      "source": "ai-saas-supply-chain",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "anthropic",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "anthropic",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "anthropic",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "anthropic",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "anthropic",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "local-ai"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "coding-agents"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "model-distillation"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "supply-chain-security"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "openai"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "nvidia"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "qwen"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "zai"
+    },
+    {
+      "source": "austin-ai-club-april-1-2026",
+      "target": "openclaw"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "coding-agents"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "model-distillation"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "agent-security"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "openai"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "meta"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "microsoft"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "qwen"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "zai"
+    },
+    {
+      "source": "austin-ai-club-april-15-2026",
+      "target": "openclaw"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "agent-security"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "coding-agents"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "local-ai"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "model-distillation"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "openai"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "meta"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "nvidia"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "qwen"
+    },
+    {
+      "source": "austin-ai-club-march-18-2026",
+      "target": "openclaw"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "coding-agents"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "local-ai"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "supply-chain-security"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "openai"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "google"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "nvidia"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "qwen"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "vercel"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "austin-ai-club-month-dd-yyyy",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-month-dd-yyyy",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-month-dd-yyyy",
+      "target": "local-ai"
+    },
+    {
+      "source": "austin-ai-club-month-dd-yyyy",
+      "target": "coding-agents"
+    },
+    {
+      "source": "coding-agents",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "coding-agents",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "coding-agents",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "coding-agents",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "coding-agents",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "coding-agents",
+      "target": "openclaw"
+    },
+    {
+      "source": "coding-agents",
+      "target": "openai"
+    },
+    {
+      "source": "coding-agents",
+      "target": "anthropic"
+    },
+    {
+      "source": "compute-strategy",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "compute-strategy",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "compute-strategy",
+      "target": "anthropic"
+    },
+    {
+      "source": "compute-strategy",
+      "target": "qwen"
+    },
+    {
+      "source": "google",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "google",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "google",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "google",
+      "target": "open-models"
+    },
+    {
+      "source": "google",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "google",
+      "target": "local-ai"
+    },
+    {
+      "source": "local-ai",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "local-ai",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "local-ai",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "local-ai",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "local-ai",
+      "target": "open-models"
+    },
+    {
+      "source": "local-ai",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "meta",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "meta",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "meta",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "meta",
+      "target": "open-models"
+    },
+    {
+      "source": "meta",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "meta",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "microsoft",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "microsoft",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "microsoft",
+      "target": "agent-security"
+    },
+    {
+      "source": "microsoft",
+      "target": "openai"
+    },
+    {
+      "source": "model-distillation",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "model-distillation",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "model-distillation",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "model-distillation",
+      "target": "anthropic"
+    },
+    {
+      "source": "model-distillation",
+      "target": "qwen"
+    },
+    {
+      "source": "model-distillation",
+      "target": "open-models"
+    },
+    {
+      "source": "model-distillation",
+      "target": "supply-chain-security"
+    },
+    {
+      "source": "nvidia",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "nvidia",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "nvidia",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "nvidia",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "nvidia",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "nvidia",
+      "target": "open-models"
+    },
+    {
+      "source": "open-models",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "open-models",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "open-models",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "open-models",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "open-models",
+      "target": "local-ai"
+    },
+    {
+      "source": "open-models",
+      "target": "model-distillation"
+    },
+    {
+      "source": "open-models",
+      "target": "qwen"
+    },
+    {
+      "source": "open-models",
+      "target": "nvidia"
+    },
+    {
+      "source": "open-models",
+      "target": "meta"
+    },
+    {
+      "source": "openai",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "openai",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "openai",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "openai",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "openai",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "openai",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "openclaw",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "openclaw",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "openclaw",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "openclaw",
+      "target": "coding-agents"
+    },
+    {
+      "source": "openclaw",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "openclaw",
+      "target": "model-distillation"
+    },
+    {
+      "source": "privacy-tooling",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "privacy-tooling",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "privacy-tooling",
+      "target": "openai"
+    },
+    {
+      "source": "privacy-tooling",
+      "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "qwen",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "qwen",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "qwen",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "qwen",
+      "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "qwen",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "supply-chain-security",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "supply-chain-security",
+      "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "supply-chain-security",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "supply-chain-security",
+      "target": "agent-security"
+    },
+    {
+      "source": "supply-chain-security",
+      "target": "coding-agents"
+    },
+    {
+      "source": "vercel",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "vercel",
+      "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "vercel",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "zai",
+      "target": "austin-ai-club-april-15-2026"
+    },
+    {
+      "source": "zai",
+      "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "zai",
+      "target": "coding-agents"
+    },
+    {
+      "source": "zai",
+      "target": "open-models"
+    },
+    {
+      "source": "zai",
+      "target": "openclaw"
+    }
+  ],
+  "unresolvedLinks": [],
+  "graph": {
+    "nodes": [
+      {
+        "id": "agent-infrastructure",
+        "label": "Agent Infrastructure",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "track",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "agent-security",
+        "label": "Agent Security",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "security",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "ai-saas-supply-chain",
+        "label": "AI SaaS Supply Chain",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "security",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "anthropic",
+        "label": "Anthropic",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves",
+          "compute"
+        ]
+      },
+      {
+        "id": "austin-ai-club-april-1-2026",
+        "label": "Austin AI Club - April 1, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board",
+          "agent-infrastructure",
+          "models-research",
+          "security",
+          "big-tech-moves",
+          "local-builds"
+        ]
+      },
+      {
+        "id": "austin-ai-club-april-15-2026",
+        "label": "Austin AI Club - April 15, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board",
+          "local-builds",
+          "agent-infrastructure",
+          "models-research",
+          "security",
+          "big-tech-moves"
+        ]
+      },
+      {
+        "id": "austin-ai-club-march-18-2026",
+        "label": "Austin AI Club - March 18, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board",
+          "agent-infrastructure",
+          "models-research",
+          "security",
+          "big-tech-moves",
+          "local-builds"
+        ]
+      },
+      {
+        "id": "austin-ai-club-may-13-2026",
+        "label": "Austin AI Club - May 13, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board",
+          "agent-infrastructure",
+          "models-research",
+          "security",
+          "big-tech-moves"
+        ]
+      },
+      {
+        "id": "austin-ai-club-month-dd-yyyy",
+        "label": "Austin AI Club - Month DD, YYYY",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board"
+        ]
+      },
+      {
+        "id": "coding-agents",
+        "label": "Coding Agents",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "agent-infrastructure",
+          "local-builds"
+        ]
+      },
+      {
+        "id": "compute-strategy",
+        "label": "Compute Strategy",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "big-tech-moves",
+          "models-research"
+        ]
+      },
+      {
+        "id": "google",
+        "label": "Google",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "model",
+          "big-tech-moves"
+        ]
+      },
+      {
+        "id": "local-ai",
+        "label": "Local AI",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "local-builds",
+          "open-source",
+          "privacy"
+        ]
+      },
+      {
+        "id": "meta",
+        "label": "Meta",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "model",
+          "big-tech-moves"
+        ]
+      },
+      {
+        "id": "microsoft",
+        "label": "Microsoft",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "agent-infrastructure",
+          "security"
+        ]
+      },
+      {
+        "id": "model-distillation",
+        "label": "Model Distillation",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "models-research",
+          "security",
+          "open-source"
+        ]
+      },
+      {
+        "id": "nvidia",
+        "label": "NVIDIA",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "compute",
+          "model",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "open-models",
+        "label": "Open Models",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "models-research",
+          "open-source"
+        ]
+      },
+      {
+        "id": "openai",
+        "label": "OpenAI",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "model",
+          "privacy"
+        ]
+      },
+      {
+        "id": "openclaw",
+        "label": "OpenClaw",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "product",
+          "coding-agents",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "privacy-tooling",
+        "label": "Privacy Tooling",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "privacy",
+          "security"
+        ]
+      },
+      {
+        "id": "qwen",
+        "label": "Qwen",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "model",
+          "models-research",
+          "open-source"
+        ]
+      },
+      {
+        "id": "supply-chain-security",
+        "label": "Supply Chain Security",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "security",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "vercel",
+        "label": "Vercel",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "security",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "zai",
+        "label": "Z.ai",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "model",
+          "coding-agents"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "source": "agent-infrastructure",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "openai"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "vercel"
+      },
+      {
+        "source": "agent-security",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "agent-security",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "agent-security",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "agent-security",
+        "target": "supply-chain-security"
+      },
+      {
+        "source": "agent-security",
+        "target": "ai-saas-supply-chain"
+      },
+      {
+        "source": "ai-saas-supply-chain",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "ai-saas-supply-chain",
+        "target": "vercel"
+      },
+      {
+        "source": "ai-saas-supply-chain",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "anthropic",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "anthropic",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "anthropic",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "anthropic",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "anthropic",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "local-ai"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "coding-agents"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "model-distillation"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "supply-chain-security"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "openai"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "anthropic"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "nvidia"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "qwen"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "zai"
+      },
+      {
+        "source": "austin-ai-club-april-1-2026",
+        "target": "openclaw"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "coding-agents"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "model-distillation"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "agent-security"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "anthropic"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "openai"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "meta"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "microsoft"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "qwen"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "zai"
+      },
+      {
+        "source": "austin-ai-club-april-15-2026",
+        "target": "openclaw"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "agent-security"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "coding-agents"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "local-ai"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "model-distillation"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "privacy-tooling"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "openai"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "anthropic"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "meta"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "nvidia"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "qwen"
+      },
+      {
+        "source": "austin-ai-club-march-18-2026",
+        "target": "openclaw"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "coding-agents"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "local-ai"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "ai-saas-supply-chain"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "supply-chain-security"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "privacy-tooling"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "openai"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "anthropic"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "google"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "nvidia"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "qwen"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "vercel"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "austin-ai-club-month-dd-yyyy",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "austin-ai-club-month-dd-yyyy",
+        "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-month-dd-yyyy",
+        "target": "local-ai"
+      },
+      {
+        "source": "austin-ai-club-month-dd-yyyy",
+        "target": "coding-agents"
+      },
+      {
+        "source": "coding-agents",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "coding-agents",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "coding-agents",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "coding-agents",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "coding-agents",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "coding-agents",
+        "target": "openclaw"
+      },
+      {
+        "source": "coding-agents",
+        "target": "openai"
+      },
+      {
+        "source": "coding-agents",
+        "target": "anthropic"
+      },
+      {
+        "source": "compute-strategy",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "compute-strategy",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "compute-strategy",
+        "target": "anthropic"
+      },
+      {
+        "source": "compute-strategy",
+        "target": "qwen"
+      },
+      {
+        "source": "google",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "google",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "google",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "google",
+        "target": "open-models"
+      },
+      {
+        "source": "google",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "google",
+        "target": "local-ai"
+      },
+      {
+        "source": "local-ai",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "local-ai",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "local-ai",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "local-ai",
+        "target": "privacy-tooling"
+      },
+      {
+        "source": "local-ai",
+        "target": "open-models"
+      },
+      {
+        "source": "local-ai",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "meta",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "meta",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "meta",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "meta",
+        "target": "open-models"
+      },
+      {
+        "source": "meta",
+        "target": "privacy-tooling"
+      },
+      {
+        "source": "meta",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "microsoft",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "microsoft",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "microsoft",
+        "target": "agent-security"
+      },
+      {
+        "source": "microsoft",
+        "target": "openai"
+      },
+      {
+        "source": "model-distillation",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "model-distillation",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "model-distillation",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "model-distillation",
+        "target": "anthropic"
+      },
+      {
+        "source": "model-distillation",
+        "target": "qwen"
+      },
+      {
+        "source": "model-distillation",
+        "target": "open-models"
+      },
+      {
+        "source": "model-distillation",
+        "target": "supply-chain-security"
+      },
+      {
+        "source": "nvidia",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "nvidia",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "nvidia",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "nvidia",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "nvidia",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "nvidia",
+        "target": "open-models"
+      },
+      {
+        "source": "open-models",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "open-models",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "open-models",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "open-models",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "open-models",
+        "target": "local-ai"
+      },
+      {
+        "source": "open-models",
+        "target": "model-distillation"
+      },
+      {
+        "source": "open-models",
+        "target": "qwen"
+      },
+      {
+        "source": "open-models",
+        "target": "nvidia"
+      },
+      {
+        "source": "open-models",
+        "target": "meta"
+      },
+      {
+        "source": "openai",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "openai",
+        "target": "privacy-tooling"
+      },
+      {
+        "source": "openai",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "openai",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "openai",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "openai",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "openclaw",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "openclaw",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "openclaw",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "openclaw",
+        "target": "coding-agents"
+      },
+      {
+        "source": "openclaw",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "openclaw",
+        "target": "model-distillation"
+      },
+      {
+        "source": "privacy-tooling",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "privacy-tooling",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "privacy-tooling",
+        "target": "openai"
+      },
+      {
+        "source": "privacy-tooling",
+        "target": "ai-saas-supply-chain"
+      },
+      {
+        "source": "qwen",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "qwen",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "qwen",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "qwen",
+        "target": "austin-ai-club-march-18-2026"
+      },
+      {
+        "source": "qwen",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "supply-chain-security",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "supply-chain-security",
+        "target": "ai-saas-supply-chain"
+      },
+      {
+        "source": "supply-chain-security",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "supply-chain-security",
+        "target": "agent-security"
+      },
+      {
+        "source": "supply-chain-security",
+        "target": "coding-agents"
+      },
+      {
+        "source": "vercel",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "vercel",
+        "target": "ai-saas-supply-chain"
+      },
+      {
+        "source": "vercel",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "zai",
+        "target": "austin-ai-club-april-15-2026"
+      },
+      {
+        "source": "zai",
+        "target": "austin-ai-club-april-1-2026"
+      },
+      {
+        "source": "zai",
+        "target": "coding-agents"
+      },
+      {
+        "source": "zai",
+        "target": "open-models"
+      },
+      {
+        "source": "zai",
+        "target": "openclaw"
+      }
+    ]
+  },
+  "stats": {
+    "pageCount": 25,
+    "rawPageCount": 4,
+    "linkCount": 165,
+    "unresolvedLinkCount": 0
+  }
+}

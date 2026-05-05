@@ -182,6 +182,10 @@ li,
   padding: 1.2rem 0 2rem;
 }
 
+.shell--wiki {
+  width: min(1760px, calc(100% - 3rem));
+}
+
 .topbar {
   display: flex;
   justify-content: space-between;
