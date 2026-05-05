@@ -11,7 +11,7 @@ sources: [raw/articles/2026-04-15-link-records.md, raw/articles/2026-03-18-link-
 
 Meta is a recurring Austin AI Club entity for open-weight model releases, agentic-commerce bets, privacy platform moves, and data-center hardware strategy.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - April 15, 2026]]: Llama 4 and Muse Spark model positioning.
 - [[Austin AI Club - April 1, 2026]]: Meta and Arm data-center CPU work.

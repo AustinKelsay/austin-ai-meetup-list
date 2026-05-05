@@ -11,7 +11,7 @@ sources: [raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-
 
 Local AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - May 13, 2026]]: amnesic personal OS and laptop-shaped Qwen quantization.
 - [[Austin AI Club - April 1, 2026]]: Osaurus, Ollama Pi, local-model flex posts, and DISTILL.

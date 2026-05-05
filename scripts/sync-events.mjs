@@ -43,7 +43,46 @@ function buildGoogleCalendarUrl(event) {
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
-function buildIcsBody(event, detailsUrl) {
+async function readTextIfExists(targetPath) {
+  try {
+    return await fs.readFile(targetPath, "utf8");
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return null;
+    }
+
+    throw error;
+  }
+}
+
+async function writeTextIfChanged(targetPath, content) {
+  const previousContent = await readTextIfExists(targetPath);
+
+  if (previousContent === content) {
+    return;
+  }
+
+  await fs.writeFile(targetPath, content, "utf8");
+}
+
+function withoutGeneratedAt(payload) {
+  const { generatedAt, ...stablePayload } = payload;
+  return stablePayload;
+}
+
+function withoutIcsDtstamp(content) {
+  return content.replace(/^DTSTAMP:.*$/m, "DTSTAMP:");
+}
+
+function extractIcsDtstamp(content) {
+  return content.match(/^DTSTAMP:(.+)$/m)?.[1] ?? null;
+}
+
+function getEventRevisionTimestamp(event) {
+  return formatTimestamp(new Date(event.updatedAt ?? event.startAt));
+}
+
+function buildIcsBody(event, detailsUrl, dtstamp) {
   const location = [event.locationName, event.locationAddress].filter(Boolean).join(", ");
   const lines = [
     "BEGIN:VCALENDAR",
@@ -52,7 +91,7 @@ function buildIcsBody(event, detailsUrl) {
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
     `UID:${event.id}@austinai.club`,
-    `DTSTAMP:${formatTimestamp(new Date())}`,
+    `DTSTAMP:${dtstamp}`,
     `DTSTART:${formatTimestamp(new Date(event.startAt))}`,
     `DTEND:${formatTimestamp(new Date(event.endAt))}`,
     `SUMMARY:${escapeIcsText(event.title)}`,
@@ -65,6 +104,27 @@ function buildIcsBody(event, detailsUrl) {
   ];
 
   return lines.join("\r\n");
+}
+
+async function buildStableIcsBody(event) {
+  const targetPath = path.join(publicDir, event.icsPath);
+  const previousContent = await readTextIfExists(targetPath);
+  const fallbackDtstamp = getEventRevisionTimestamp(event);
+  const candidateBody = buildIcsBody(event, event.detailsUrl, fallbackDtstamp);
+
+  if (!previousContent) {
+    return candidateBody;
+  }
+
+  if (withoutIcsDtstamp(previousContent) !== withoutIcsDtstamp(candidateBody)) {
+    return candidateBody;
+  }
+
+  return buildIcsBody(
+    event,
+    event.detailsUrl,
+    extractIcsDtstamp(previousContent) ?? fallbackDtstamp,
+  );
 }
 
 function collectEvents() {
@@ -105,21 +165,26 @@ async function main() {
 
   await fs.mkdir(calendarDir, { recursive: true });
   await Promise.all(
-    events.map((event) =>
-      fs.writeFile(
-        path.join(publicDir, event.icsPath),
-        buildIcsBody(event, event.detailsUrl),
-        "utf8",
-      )),
+    events.map(async (event) => {
+      const icsBody = await buildStableIcsBody(event);
+      await writeTextIfChanged(path.join(publicDir, event.icsPath), icsBody);
+    }),
   );
 
-  const payload = {
+  const previousPayloadContent = await readTextIfExists(outputPath);
+  const previousPayload = previousPayloadContent ? JSON.parse(previousPayloadContent) : null;
+  const nextPayload = {
     generatedAt: new Date().toISOString(),
     siteUrl,
     events: events.map(({ icsPath, ...event }) => event),
   };
+  const payload =
+    previousPayload &&
+    JSON.stringify(withoutGeneratedAt(previousPayload)) === JSON.stringify(withoutGeneratedAt(nextPayload))
+      ? { ...nextPayload, generatedAt: previousPayload.generatedAt }
+      : nextPayload;
 
-  await fs.writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  await writeTextIfChanged(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
 }
 
 main().catch((error) => {

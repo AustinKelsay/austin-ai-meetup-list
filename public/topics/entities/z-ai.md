@@ -11,7 +11,7 @@ sources: [raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-
 
 Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - April 15, 2026]]: GLM-5.1 as an open-source agentic coding model.
 - [[Austin AI Club - April 1, 2026]]: GLM-5.1, GLM-5V-Turbo, GLM5 Turbo, and AutoClaw.

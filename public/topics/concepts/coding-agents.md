@@ -11,7 +11,7 @@ sources: [raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-
 
 Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - May 13, 2026]]: Sandcastle and SubQ's full-repo context claims.
 - [[Austin AI Club - April 15, 2026]]: GLM-5.1, Anthropic/OpenClaw escalation, and agent-product launches.

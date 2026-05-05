@@ -11,8 +11,9 @@ sources: [raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-
 
 NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.
 
-## Meetup Connections
+## Mentioned In
 
+- [[Austin AI Club - May 13, 2026]]: Isaac Sim as an agent-infrastructure and robotics prototyping surface.
 - [[Austin AI Club - April 1, 2026]]: GTC 2026 AI factory, Agent Toolkit, physical AI, and Nemotron-Cascade 2.
 - [[Austin AI Club - March 18, 2026]]: Nemotron v3, Nemotron 3 VoiceChat, and NemoClaw.
 

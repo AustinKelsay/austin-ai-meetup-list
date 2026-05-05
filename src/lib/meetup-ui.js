@@ -84,6 +84,7 @@ export function createInlineIcsHref(entry) {
   const detailsUrl = entry.detailsHref
     ? `${window.location.origin}${entry.detailsHref}`
     : window.location.href;
+  const revisionTimestamp = event.updatedAt ?? event.startAt;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -91,7 +92,7 @@ export function createInlineIcsHref(entry) {
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
     `UID:${entry.id}@austinai.club`,
-    `DTSTAMP:${toGoogleCalendarTimestamp(new Date().toISOString())}`,
+    `DTSTAMP:${toGoogleCalendarTimestamp(revisionTimestamp)}`,
     `DTSTART:${toGoogleCalendarTimestamp(event.startAt)}`,
     `DTEND:${toGoogleCalendarTimestamp(event.endAt)}`,
     `SUMMARY:${event.title}`,

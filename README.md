@@ -87,7 +87,7 @@ Presentation Mode uses hash routes like `#/slides/...`, and the meetup/helper pa
 - [src/styles.css](./src/styles.css)
   Full visual system for both archive and presentation views
 - [scripts/sync-events.mjs](./scripts/sync-events.mjs)
-  Generates `public/meetups.json` plus per-event ICS files from `src/data.js`
+  Generates `public/meetups.json` plus per-event ICS files from `src/data.js`, preserving timestamps when event data is unchanged
 - [public/topics/](./public/topics/)
   Durable Markdown Archive and open LLM Wiki served as static files
 - [public/topics/README.md](./public/topics/README.md)
@@ -231,6 +231,7 @@ The reminder flow is intentionally small:
 1. Event metadata for actual planned meetups lives in [src/data.js](./src/data.js)
 2. [scripts/sync-events.mjs](./scripts/sync-events.mjs) generates:
    `public/meetups.json` and `public/calendar/*.ics`
+   The generator preserves existing `generatedAt` and `DTSTAMP` values when event data is unchanged, keeping build diffs focused on real event edits.
 3. The frontend posts one global email signup to `VITE_REMINDER_SIGNUP_URL`
 4. The Apps Script in [apps-script/README.md](./apps-script/README.md) stores subscribers in a Google Sheet and sends reminders only for actual planned meetup days
 

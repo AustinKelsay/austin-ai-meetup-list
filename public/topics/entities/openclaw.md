@@ -11,7 +11,7 @@ sources: [raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-
 
 OpenClaw is a recurring Austin AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - April 15, 2026]]: Anthropic vs OpenClaw escalation.
 - [[Austin AI Club - April 1, 2026]]: OpenAgents Autopilot, AutoClaw, Ollama Pi, Claude-distilled Qwen models, and Claude Code source leak discussion all orbit the OpenClaw ecosystem.

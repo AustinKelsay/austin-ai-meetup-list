@@ -1,6 +1,17 @@
+---
+title: Austin AI Club - Month DD, YYYY
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: meetup
+tags: [meetup, topic-board]
+sources: [raw/articles/YYYY-MM-DD-link-records.md]
+---
+
 # Austin AI Club
 
 ## Month DD, YYYY
+
+Related wiki pages: [[Agent Infrastructure]], [[Open Models]], [[Local AI]], [[Coding Agents]].
 
 ### Local Builds & Projects
 - **Topic title** - Austin/member/community-orbit project, demo, prototype, launch, or local build

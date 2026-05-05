@@ -21,3 +21,9 @@
 - Added public link records for the March 18, April 1, and April 15 Meetup pages.
 - Added recurring entity pages for Google, Meta, Microsoft, NVIDIA, Z.ai, and OpenClaw.
 - Added recurring concept pages for Open Models, Local AI, Model Distillation, Coding Agents, Agent Security, and Supply Chain Security.
+
+## [2026-05-05] update | Reverse links and template frontmatter
+
+- Renamed entity/concept reverse-link sections to `Mentioned In` and filled missing Meetup backlinks for recurring pages.
+- Tightened dated Meetup related-page spines where reverse pages were already treating a concept or entity as recurring.
+- Updated `TEMPLATE.md` so future Meetup pages start with wiki frontmatter and related-page scaffolding.

@@ -11,7 +11,7 @@ sources: [raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-
 
 Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.
 
-## Meetup Connections
+## Mentioned In
 
 - [[Austin AI Club - May 13, 2026]]: Gemma 4 app surfaces and MTP drafters.
 - [[Austin AI Club - April 15, 2026]]: Gemma 4 as an open model family with on-device agentic workflows.
