@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import ArchiveShell from "../archive/ArchiveShell.jsx";
+import { WikiDetail } from "./WikiDetail.jsx";
 import WikiGraph from "./WikiGraph.jsx";
 import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
 
@@ -15,8 +16,20 @@ function getPageTypeLabel(type) {
   return type.replace(/-/g, " ");
 }
 
-function getConnectedPages(manifest, ids) {
-  return ids.map((id) => manifest.pagesById[id]).filter(Boolean);
+function getCatalogMetric(page) {
+  const sourceLinkCount = page.sourceLinks?.length ?? 0;
+
+  if (sourceLinkCount > 0) {
+    return { count: sourceLinkCount, label: "links" };
+  }
+
+  const relationCount = page.outgoingIds.length + page.backlinkIds.length;
+
+  if (relationCount > 0) {
+    return { count: relationCount, label: "refs" };
+  }
+
+  return null;
 }
 
 function WikiLoading({ onOpenRoute }) {
@@ -32,100 +45,10 @@ function WikiLoading({ onOpenRoute }) {
   );
 }
 
-function PageLinkList({ title, pages, emptyLabel, onOpenRoute }) {
-  return (
-    <section className="wiki-detail-section">
-      <h3>{title}</h3>
-      {pages.length > 0 ? (
-        <div className="wiki-link-list">
-          {pages.map((page) => (
-            <RouteLink
-              key={page.id}
-              to={buildWikiPath(page.id)}
-              onOpenRoute={onOpenRoute}
-              className="wiki-relation-link"
-            >
-              <span>{page.title}</span>
-              <small>{getPageTypeLabel(page.type)}</small>
-            </RouteLink>
-          ))}
-        </div>
-      ) : (
-        <p className="wiki-empty-copy">{emptyLabel}</p>
-      )}
-    </section>
-  );
-}
-
-function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute }) {
-  if (!selectedPage) {
-    return (
-      <aside className="wiki-detail wiki-detail--missing">
-        <p className="eyebrow">Page not found</p>
-        <h2>{focusedWikiId}</h2>
-        <p>
-          No public LLM Wiki page currently matches this route. The explorer still has the
-          published catalog below.
-        </p>
-      </aside>
-    );
-  }
-
-  const outgoingPages = getConnectedPages(manifest, selectedPage.outgoingIds);
-  const backlinkPages = getConnectedPages(manifest, selectedPage.backlinkIds);
-
-  return (
-    <aside className="wiki-detail">
-      <div>
-        <p className="eyebrow">{getPageTypeLabel(selectedPage.type)}</p>
-        <h2>{selectedPage.title}</h2>
-        <p className="wiki-detail-copy">{selectedPage.excerpt || "No excerpt is available yet."}</p>
-      </div>
-
-      <div className="wiki-detail-meta">
-        <span>{pluralize(selectedPage.sourceCount, "source")}</span>
-        <span>{pluralize(outgoingPages.length, "outgoing link")}</span>
-        <span>{pluralize(backlinkPages.length, "backlink")}</span>
-      </div>
-
-      <div className="wiki-tags" aria-label={`${selectedPage.title} tags`}>
-        {selectedPage.tags.map((tag) => (
-          <span key={tag}>{tag}</span>
-        ))}
-      </div>
-
-      <PageLinkList
-        title="Outgoing"
-        pages={outgoingPages}
-        emptyLabel="No outgoing wiki links yet."
-        onOpenRoute={onOpenRoute}
-      />
-      <PageLinkList
-        title="Backlinks"
-        pages={backlinkPages}
-        emptyLabel="No backlinks yet."
-        onOpenRoute={onOpenRoute}
-      />
-
-      {selectedPage.unresolvedLinks.length > 0 ? (
-        <section className="wiki-detail-section">
-          <h3>Unresolved</h3>
-          <div className="wiki-tags wiki-tags--quiet">
-            {selectedPage.unresolvedLinks.map((link) => (
-              <span key={link}>{link}</span>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      <a className="wiki-source-link" href={selectedPage.rawHref}>
-        Open Markdown source
-      </a>
-    </aside>
-  );
-}
 
 function WikiCatalogItem({ page, selected, onOpenRoute }) {
+  const metric = getCatalogMetric(page);
+
   return (
     <RouteLink
       to={buildWikiPath(page.id)}
@@ -136,9 +59,15 @@ function WikiCatalogItem({ page, selected, onOpenRoute }) {
         <strong>{page.title}</strong>
         <small>{getPageTypeLabel(page.type)}</small>
       </span>
-      <span className="wiki-catalog-counts">
-        {page.outgoingIds.length + page.backlinkIds.length}
-      </span>
+      {metric ? (
+        <span
+          className="wiki-catalog-counts"
+          aria-label={`${metric.count} ${metric.label}`}
+        >
+          <strong>{metric.count}</strong>
+          <small>{metric.label}</small>
+        </span>
+      ) : null}
     </RouteLink>
   );
 }
@@ -188,7 +117,7 @@ export default function WikiExplorer({ manifest, focusedWikiId, onOpenRoute }) {
 
   const selectedPage =
     (selectedId ? manifest.pagesById[selectedId] : null) ??
-    (focusedWikiId ? null : pages[0] ?? null);
+    (focusedWikiId ? null : pages.find((page) => page.sourceLinks?.length > 0) ?? pages[0] ?? null);
   const selectedPageId = selectedPage?.id ?? selectedId;
 
   return (
@@ -199,14 +128,14 @@ export default function WikiExplorer({ manifest, focusedWikiId, onOpenRoute }) {
             <p className="eyebrow">LLM Wiki</p>
             <h2>Connected notes from Austin AI Club</h2>
             <p>
-              Browse the public knowledge layer across Meetups, entities, concepts, source
-              records, and recurring questions.
+              Browse Meetup topics through their source links, recurring entities, concepts, and
+              durable source records.
             </p>
           </div>
           <div className="wiki-stats" aria-label="Wiki stats">
             <span>{pluralize(manifest.stats.pageCount, "page")}</span>
-            <span>{pluralize(manifest.stats.linkCount, "wiki link")}</span>
-            <span>{pluralize(manifest.rawPages.length, "source record")}</span>
+            <span>{pluralize(manifest.stats.sourceLinkCount ?? 0, "source link")}</span>
+            <span>{pluralize(manifest.stats.sourceRecordCount ?? 0, "source record")}</span>
           </div>
         </section>
 

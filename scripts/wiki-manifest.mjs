@@ -89,6 +89,26 @@ function collectWikilinks(content) {
   return [...new Set(links)];
 }
 
+function collectSourceLinks(content) {
+  const searchableContent = content
+    .replace(/^---\n[\s\S]*?\n---\n?/, "")
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/`[^`\n]*`/g, "");
+  const links = [];
+  const pattern = /https?:\/\/[^\s<>)\]]+/g;
+  let match;
+
+  while ((match = pattern.exec(searchableContent)) !== null) {
+    const href = match[0].replace(/[.,;:!?]+$/g, "");
+
+    if (!links.includes(href)) {
+      links.push(href);
+    }
+  }
+
+  return links;
+}
+
 function stripFrontmatter(content) {
   return content.replace(/^---\n[\s\S]*?\n---\n?/, "");
 }
@@ -137,6 +157,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
   const id = normalizeWikiId(frontmatter.title || relativePath);
   const sources = Array.isArray(frontmatter.sources) ? frontmatter.sources : [];
   const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
+  const sourceLinks = collectSourceLinks(content);
 
   return {
     id,
@@ -145,6 +166,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     tags,
     sources,
     sourceCount: sources.length,
+    sourceLinks,
     created: frontmatter.created || "",
     updated: frontmatter.updated || "",
     excerpt: getExcerpt(content),
@@ -165,6 +187,10 @@ function sortByTitle(a, b) {
   return a.title.localeCompare(b.title) || a.id.localeCompare(b.id);
 }
 
+function isPublicPage(page) {
+  return PRIMARY_TYPES.has(page.type) || page.relativePath.startsWith("raw/articles/");
+}
+
 export async function buildWikiManifest({ topicsDir }) {
   const files = await collectMarkdownFiles(topicsDir);
   const candidates = [];
@@ -182,7 +208,7 @@ export async function buildWikiManifest({ topicsDir }) {
   }
 
   const pages = candidates
-    .filter((page) => PRIMARY_TYPES.has(page.type) && !page.relativePath.startsWith("raw/"))
+    .filter((page) => isPublicPage(page))
     .sort(sortByTitle);
   const rawPages = candidates
     .filter((page) => !pages.some((candidate) => candidate.id === page.id))
@@ -191,8 +217,13 @@ export async function buildWikiManifest({ topicsDir }) {
   const titleToId = new Map();
 
   for (const page of pages) {
-    titleToId.set(normalizeWikiId(page.title), page.id);
-    titleToId.set(normalizeWikiId(page.relativePath), page.id);
+    for (const alias of [page.title, page.relativePath]) {
+      const normalizedAlias = normalizeWikiId(alias);
+
+      if (!titleToId.has(normalizedAlias)) {
+        titleToId.set(normalizedAlias, page.id);
+      }
+    }
   }
 
   const links = [];
@@ -238,6 +269,8 @@ export async function buildWikiManifest({ topicsDir }) {
     })),
     links,
   };
+  const sourceLinkCount = new Set(pages.flatMap((page) => page.sourceLinks)).size;
+  const sourceRecordCount = pages.filter((page) => page.tags.includes("source-record")).length;
 
   return {
     generatedAt: new Date().toISOString(),
@@ -251,6 +284,8 @@ export async function buildWikiManifest({ topicsDir }) {
       pageCount: pages.length,
       rawPageCount: rawPages.length,
       linkCount: links.length,
+      sourceRecordCount,
+      sourceLinkCount,
       unresolvedLinkCount: unresolvedLinks.length,
     },
   };

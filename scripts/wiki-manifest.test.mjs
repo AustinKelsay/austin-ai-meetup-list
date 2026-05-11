@@ -45,6 +45,10 @@ sources: [raw/articles/openai.md]
 
 OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.
 
+Release notes: https://openai.com/release
+
+Duplicate reference: https://openai.com/release
+
 ## Related
 
 - [[Coding Agents]]
@@ -79,13 +83,19 @@ sources: []
 # OpenAI Source Records
 
 Public link records for [[OpenAI]].
+
+- Release: https://example.com/source
 `,
     });
 
     const manifest = await buildWikiManifest({ topicsDir });
 
-    expect(manifest.pages.map((page) => page.id)).toEqual(["coding-agents", "openai"]);
-    expect(manifest.rawPages.map((page) => page.id)).toEqual(["openai-source-records"]);
+    expect(manifest.pages.map((page) => page.id)).toEqual([
+      "coding-agents",
+      "openai",
+      "openai-source-records",
+    ]);
+    expect(manifest.rawPages.map((page) => page.id)).toEqual([]);
 
     const openai = manifest.pagesById.openai;
     expect(openai).toMatchObject({
@@ -95,14 +105,22 @@ Public link records for [[OpenAI]].
       tags: ["entity", "company", "model"],
       rawHref: "/topics/entities/openai.md",
       sourceCount: 1,
+      sourceLinks: ["https://openai.com/release"],
       excerpt:
         "OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.",
       outgoingIds: ["coding-agents"],
       unresolvedLinks: ["Missing Page"],
-      backlinkIds: ["coding-agents"],
+      backlinkIds: ["coding-agents", "openai-source-records"],
     });
 
     expect(manifest.links).toContainEqual({ source: "openai", target: "coding-agents" });
+    expect(manifest.pagesById["openai-source-records"]).toMatchObject({
+      id: "openai-source-records",
+      title: "OpenAI Source Records",
+      type: "summary",
+      sourceLinks: ["https://example.com/source"],
+      backlinkIds: [],
+    });
     expect(manifest.graph.nodes).toContainEqual({
       id: "openai",
       label: "OpenAI",
@@ -111,9 +129,11 @@ Public link records for [[OpenAI]].
     });
     expect(manifest.graph.links).toContainEqual({ source: "openai", target: "coding-agents" });
     expect(manifest.stats).toMatchObject({
-      pageCount: 2,
-      rawPageCount: 1,
-      linkCount: 2,
+      pageCount: 3,
+      rawPageCount: 0,
+      linkCount: 3,
+      sourceRecordCount: 1,
+      sourceLinkCount: 2,
       unresolvedLinkCount: 1,
     });
   });

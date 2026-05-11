@@ -1,5 +1,6 @@
 import ForceGraph from "force-graph";
 import { useEffect, useMemo, useRef } from "react";
+import { updateLatestValueRef } from "./WikiGraphController.js";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
 
 function focusGraph(instance, duration = 450) {
@@ -9,6 +10,7 @@ function focusGraph(instance, duration = 450) {
 export default function WikiGraph({ graph, selectedId, onSelectPage }) {
   const containerRef = useRef(null);
   const graphRef = useRef(null);
+  const onSelectPageRef = useRef(onSelectPage);
   const graphData = useMemo(
     () => ({
       nodes: graph.nodes.map((node) => ({ ...node })),
@@ -16,6 +18,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
     }),
     [graph],
   );
+
+  useEffect(() => {
+    updateLatestValueRef(onSelectPageRef, onSelectPage);
+  }, [onSelectPage]);
 
   useEffect(() => {
     if (!containerRef.current) {
@@ -37,7 +43,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
       .linkDirectionalParticleSpeed(0.004)
       .cooldownTicks(80)
       .onEngineStop(() => focusGraph(instance))
-      .onNodeClick((node) => onSelectPage(node.id));
+      .onNodeClick((node) => onSelectPageRef.current(node.id));
 
     graphRef.current = instance;
 
@@ -64,7 +70,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
       instance.graphData({ nodes: [], links: [] });
       graphRef.current = null;
     };
-  }, [onSelectPage]);
+  }, []);
 
   useEffect(() => {
     if (!graphRef.current) {
