@@ -117,4 +117,41 @@ Public link records for [[OpenAI]].
       unresolvedLinkCount: 1,
     });
   });
+
+  it("excludes authoring templates from the public manifest", async () => {
+    const topicsDir = await createTopicsDir({
+      "TEMPLATE.md": `---
+title: Austin AI Club - Month DD, YYYY
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: meetup
+tags: [meetup, topic-board]
+sources: [raw/articles/YYYY-MM-DD-link-records.md]
+---
+
+# Austin AI Club
+`,
+      "2026-05-13.md": `---
+title: Austin AI Club - May 13, 2026
+created: 2026-05-05
+updated: 2026-05-11
+type: meetup
+tags: [meetup, topic-board]
+sources: []
+---
+
+# Austin AI Club
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+
+    expect(manifest.pages.map((page) => page.title)).toEqual([
+      "Austin AI Club - May 13, 2026",
+    ]);
+    expect(manifest.pagesById).not.toHaveProperty("austin-ai-club-month-dd-yyyy");
+    expect(manifest.graph.nodes.map((node) => node.id)).not.toContain(
+      "austin-ai-club-month-dd-yyyy",
+    );
+  });
 });

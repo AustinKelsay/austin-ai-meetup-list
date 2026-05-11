@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const PRIMARY_TYPES = new Set(["entity", "concept", "comparison", "query", "meetup"]);
+const EXCLUDED_MANIFEST_PATHS = new Set(["TEMPLATE.md"]);
 
 function toPosix(value) {
   return value.split(path.sep).join("/");
@@ -156,6 +157,10 @@ function createPage({ content, file, frontmatter, topicsDir }) {
   };
 }
 
+function shouldIncludeInManifest(relativePath) {
+  return !EXCLUDED_MANIFEST_PATHS.has(relativePath);
+}
+
 function sortByTitle(a, b) {
   return a.title.localeCompare(b.title) || a.id.localeCompare(b.id);
 }
@@ -167,8 +172,9 @@ export async function buildWikiManifest({ topicsDir }) {
   for (const file of files) {
     const content = await fs.readFile(file, "utf8");
     const frontmatter = parseFrontmatter(content);
+    const relativePath = toPosix(path.relative(topicsDir, file));
 
-    if (!frontmatter) {
+    if (!frontmatter || !shouldIncludeInManifest(relativePath)) {
       continue;
     }
 

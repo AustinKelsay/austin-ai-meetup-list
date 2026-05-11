@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T18:47:45.443Z",
+  "generatedAt": "2026-05-11T18:59:55.194Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -38,7 +38,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "coding-agents",
         "microsoft",
         "nvidia",
@@ -369,32 +368,6 @@
       ]
     },
     {
-      "id": "austin-ai-club-month-dd-yyyy",
-      "title": "Austin AI Club - Month DD, YYYY",
-      "type": "meetup",
-      "tags": [
-        "meetup",
-        "topic-board"
-      ],
-      "sources": [
-        "raw/articles/YYYY-MM-DD-link-records.md"
-      ],
-      "sourceCount": 1,
-      "created": "YYYY-MM-DD",
-      "updated": "YYYY-MM-DD",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents.",
-      "rawHref": "/topics/TEMPLATE.md",
-      "relativePath": "TEMPLATE.md",
-      "outgoingIds": [
-        "agent-infrastructure",
-        "coding-agents",
-        "local-ai",
-        "open-models"
-      ],
-      "unresolvedLinks": [],
-      "backlinkIds": []
-    },
-    {
       "id": "coding-agents",
       "title": "Coding Agents",
       "type": "concept",
@@ -430,7 +403,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -541,7 +513,6 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "google",
         "open-models"
       ]
@@ -726,7 +697,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "google",
         "local-ai",
         "meta",
@@ -1026,7 +996,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "coding-agents",
         "microsoft",
         "nvidia",
@@ -1356,32 +1325,6 @@
         "vercel"
       ]
     },
-    "austin-ai-club-month-dd-yyyy": {
-      "id": "austin-ai-club-month-dd-yyyy",
-      "title": "Austin AI Club - Month DD, YYYY",
-      "type": "meetup",
-      "tags": [
-        "meetup",
-        "topic-board"
-      ],
-      "sources": [
-        "raw/articles/YYYY-MM-DD-link-records.md"
-      ],
-      "sourceCount": 1,
-      "created": "YYYY-MM-DD",
-      "updated": "YYYY-MM-DD",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Open Models, Local AI, Coding Agents.",
-      "rawHref": "/topics/TEMPLATE.md",
-      "relativePath": "TEMPLATE.md",
-      "outgoingIds": [
-        "agent-infrastructure",
-        "coding-agents",
-        "local-ai",
-        "open-models"
-      ],
-      "unresolvedLinks": [],
-      "backlinkIds": []
-    },
     "coding-agents": {
       "id": "coding-agents",
       "title": "Coding Agents",
@@ -1418,7 +1361,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -1529,7 +1471,6 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "google",
         "open-models"
       ]
@@ -1714,7 +1655,6 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
-        "austin-ai-club-month-dd-yyyy",
         "google",
         "local-ai",
         "meta",
@@ -2352,22 +2292,6 @@
       "target": "compute-strategy"
     },
     {
-      "source": "austin-ai-club-month-dd-yyyy",
-      "target": "agent-infrastructure"
-    },
-    {
-      "source": "austin-ai-club-month-dd-yyyy",
-      "target": "open-models"
-    },
-    {
-      "source": "austin-ai-club-month-dd-yyyy",
-      "target": "local-ai"
-    },
-    {
-      "source": "austin-ai-club-month-dd-yyyy",
-      "target": "coding-agents"
-    },
-    {
       "source": "coding-agents",
       "target": "austin-ai-club-may-13-2026"
     },
@@ -2825,15 +2749,6 @@
           "models-research",
           "security",
           "big-tech-moves"
-        ]
-      },
-      {
-        "id": "austin-ai-club-month-dd-yyyy",
-        "label": "Austin AI Club - Month DD, YYYY",
-        "type": "meetup",
-        "tags": [
-          "meetup",
-          "topic-board"
         ]
       },
       {
@@ -3295,22 +3210,6 @@
         "target": "compute-strategy"
       },
       {
-        "source": "austin-ai-club-month-dd-yyyy",
-        "target": "agent-infrastructure"
-      },
-      {
-        "source": "austin-ai-club-month-dd-yyyy",
-        "target": "open-models"
-      },
-      {
-        "source": "austin-ai-club-month-dd-yyyy",
-        "target": "local-ai"
-      },
-      {
-        "source": "austin-ai-club-month-dd-yyyy",
-        "target": "coding-agents"
-      },
-      {
         "source": "coding-agents",
         "target": "austin-ai-club-may-13-2026"
       },
@@ -3673,9 +3572,9 @@
     ]
   },
   "stats": {
-    "pageCount": 25,
+    "pageCount": 24,
     "rawPageCount": 4,
-    "linkCount": 165,
+    "linkCount": 161,
     "unresolvedLinkCount": 0
   }
 }
