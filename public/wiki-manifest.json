@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T19:53:23.520Z",
+  "generatedAt": "2026-05-11T18:47:45.443Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -330,7 +330,7 @@
       ],
       "sourceCount": 1,
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-11",
       "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
       "rawHref": "/topics/2026-05-13.md",
       "relativePath": "2026-05-13.md",
@@ -1318,7 +1318,7 @@
       ],
       "sourceCount": 1,
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-11",
       "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
       "rawHref": "/topics/2026-05-13.md",
       "relativePath": "2026-05-13.md",
@@ -2054,7 +2054,7 @@
       "sources": [],
       "sourceCount": 0,
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-11",
       "excerpt": "Public link records for Austin AI Club - May 13, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
       "rawHref": "/topics/raw/articles/2026-05-13-link-records.md",
       "relativePath": "raw/articles/2026-05-13-link-records.md",

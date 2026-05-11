@@ -109,6 +109,17 @@ export const meetups = [
               href: "https://twitter.com/_vmlops/status/2048594851374243967?ref_src=twsrc%5Etfw",
             },
           },
+          {
+            title: "Claude Managed Agents learn between runs",
+            description:
+              "Anthropic is moving agent memory, outcomes, orchestration, and webhooks into the managed platform layer. Dreaming is still preview, but durable agents are becoming hosted product surface, not just your own loop around an API.",
+            chip: "agent memory",
+            href: "https://claude.com/blog/new-in-claude-managed-agents",
+            linkPair: [
+              "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
+              "https://www.anthropic.com/news/higher-limits-spacex",
+            ],
+          },
         ],
       },
       {
@@ -203,6 +214,16 @@ export const meetups = [
               "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
             ],
           },
+          {
+            title: "GPT-5.5 Instant becomes the default",
+            description:
+              "The default ChatGPT and chat-latest model moved to GPT-5.5 Instant. Not the flashiest story, but default-model quality is the floor every prototype, workflow, and casual user suddenly inherits.",
+            chip: "default model",
+            href: "https://openai.com/index/gpt-5-5-instant/",
+            linkPair: [
+              "https://openai.com/index/gpt-5-5-instant-system-card/",
+            ],
+          },
         ],
       },
       {
@@ -246,6 +267,25 @@ export const meetups = [
               "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
             ],
           },
+          {
+            title: "GPT-5.5-Cyber opens the trust gate",
+            description:
+              "OpenAI is giving vetted defenders more permissive cyber workflows through Trusted Access, with GPT-5.5-Cyber in limited preview for critical infrastructure teams. The main shift is access control around dual-use capability, not a simple cyber model beats everything launch.",
+            chip: "cyber",
+            href: "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+            linkPair: ["https://openai.com/index/trusted-access-for-cyber/"],
+          },
+          {
+            title: "Anthropic opens the bounty door",
+            description:
+              "Anthropic moved its security bug bounty onto HackerOne for public reporting. Useful vendor-signal: frontier model companies are turning model and platform security into something outside researchers can poke at directly.",
+            chip: "bug bounty",
+            href: "https://hackerone.com/anthropic",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AnthropicAI/status/2052466175540629965?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
       {
@@ -266,6 +306,23 @@ export const meetups = [
             },
             linkPair: [
               "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+            ],
+          },
+          {
+            title: "Frontier model testing gets a federal lane",
+            description:
+              "CAISI signed pre-deployment evaluation agreements with Google DeepMind, Microsoft, and xAI. Voluntary today, but it makes national-security testing part of the frontier-model shipping path.",
+            chip: "policy",
+            href: "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+          },
+          {
+            title: "Pentagon picks a classified AI stack",
+            description:
+              "SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, Oracle, and AWS are being brought into IL6 and IL7 defense environments. The story is not one chatbot contract; it is cloud, compute, model access, and operational AI moving into classified workflows.",
+            chip: "defense",
+            href: "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+            linkPair: [
+              "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
             ],
           },
         ],

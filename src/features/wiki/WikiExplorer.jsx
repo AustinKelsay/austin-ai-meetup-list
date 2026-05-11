@@ -3,6 +3,7 @@ import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import ArchiveShell from "../archive/ArchiveShell.jsx";
 import WikiGraph from "./WikiGraph.jsx";
+import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
 
 const ALL = "all";
 
@@ -262,8 +263,11 @@ export default function WikiExplorer({ manifest, focusedWikiId, onOpenRoute }) {
 
           <section className="wiki-graph-panel" aria-label="Wiki graph">
             <div className="wiki-panel-heading">
-              <p className="eyebrow">Graph</p>
-              <span>{selectedPage?.title ?? "No page selected"}</span>
+              <div>
+                <p className="eyebrow">Graph</p>
+                <span>{selectedPage?.title ?? "No page selected"}</span>
+              </div>
+              <WikiGraphLegend />
             </div>
             <WikiGraph graph={manifest.graph} selectedId={selectedPageId} onSelectPage={selectPage} />
           </section>

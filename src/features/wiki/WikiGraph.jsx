@@ -1,13 +1,6 @@
 import ForceGraph from "force-graph";
 import { useEffect, useMemo, useRef } from "react";
-
-const TYPE_COLORS = {
-  meetup: "#47f3aa",
-  entity: "#47d4f3",
-  concept: "#c47df3",
-  comparison: "#f3a847",
-  query: "#f37188",
-};
+import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
 
 function focusGraph(instance, duration = 450) {
   instance.zoomToFit(duration, 56);
@@ -35,7 +28,9 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
       .nodeLabel((node) => node.label)
       .nodeRelSize(3)
       .nodeVal((node) => (node.id === selectedId ? 5 : 2.5))
-      .nodeColor((node) => (node.id === selectedId ? "#ffffff" : TYPE_COLORS[node.type] ?? "#9fb8b0"))
+      .nodeColor((node) =>
+        node.id === selectedId ? "#ffffff" : WIKI_GRAPH_TYPE_COLORS[node.type] ?? "#9fb8b0",
+      )
       .linkColor(() => "rgba(159, 184, 176, 0.3)")
       .linkDirectionalParticles(1)
       .linkDirectionalParticleWidth(1.4)
@@ -88,7 +83,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
     graphRef.current
       .nodeVal((node) => (node.id === selectedId ? 5 : 2.5))
       .nodeColor((node) =>
-        node.id === selectedId ? "#ffffff" : TYPE_COLORS[node.type] ?? "#9fb8b0",
+        node.id === selectedId ? "#ffffff" : WIKI_GRAPH_TYPE_COLORS[node.type] ?? "#9fb8b0",
       );
   }, [selectedId]);
 

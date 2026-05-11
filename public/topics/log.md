@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-11] update | May 13 catch-up links curated
+
+- Added verified May 1-11 AI catch-up Topics to `2026-05-13.md`.
+- Added source records for Claude Managed Agents, GPT-5.5-Cyber, GPT-5.5 Instant, Anthropic's public bug bounty, CAISI frontier-model testing agreements, and Pentagon classified AI network coverage.
+- Mirrored the new Topics into `src/data.js` for frontend and Presentation Mode rendering.
+
 ## [2026-05-05] create | LLM Wiki scaffold initialized
 
 - Path: `public/topics/`

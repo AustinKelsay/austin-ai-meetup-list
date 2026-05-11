@@ -1,7 +1,7 @@
 ---
 title: May 13, 2026 Source Link Records
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-11
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -41,6 +41,18 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Secondary discussion reference for the Isaac Sim Topic.
+- Claude Managed Agents: https://claude.com/blog/new-in-claude-managed-agents
+  - Type: product announcement
+  - Accessed: 2026-05-11
+  - Note: Primary source for dreaming, outcomes, multi-agent orchestration, and webhooks in Claude Managed Agents.
+- Code with Claude memory and dreaming session: https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents
+  - Type: conference session
+  - Accessed: 2026-05-11
+  - Note: Session context for Claude Managed Agents memory and dreaming.
+- Anthropic SpaceX compute deal: https://www.anthropic.com/news/higher-limits-spacex
+  - Type: company announcement
+  - Accessed: 2026-05-11
+  - Note: Supporting compute-capacity source for the Claude Managed Agents Topic.
 
 ## Models & Research
 
@@ -89,6 +101,14 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Announcement post for Gemma 4 MTP drafters.
+- GPT-5.5 Instant: https://openai.com/index/gpt-5-5-instant/
+  - Type: product announcement
+  - Accessed: 2026-05-11
+  - Note: Primary source for GPT-5.5 Instant becoming the default ChatGPT model and `chat-latest` API model.
+- GPT-5.5 Instant system card: https://openai.com/index/gpt-5-5-instant-system-card/
+  - Type: system card
+  - Accessed: 2026-05-11
+  - Note: Safety and model-card context for GPT-5.5 Instant.
 
 ## Security
 
@@ -112,6 +132,22 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 - Privacy Filter posts:
   - https://x.com/xenovacom/status/2046979474613268993
   - https://x.com/chiefofautism/status/2047582480140562542
+- GPT-5.5-Cyber and Trusted Access for Cyber: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/
+  - Type: company announcement
+  - Accessed: 2026-05-11
+  - Note: Primary source for GPT-5.5-Cyber limited preview and Trusted Access for Cyber positioning.
+- Trusted Access for Cyber overview: https://openai.com/index/trusted-access-for-cyber/
+  - Type: company announcement
+  - Accessed: 2026-05-11
+  - Note: Background source for OpenAI's vetted cyber access framework.
+- Anthropic HackerOne program: https://hackerone.com/anthropic
+  - Type: bug bounty page
+  - Accessed: 2026-05-11
+  - Note: Public bug bounty page for Anthropic security reports.
+- Anthropic bug bounty post: https://x.com/AnthropicAI/status/2052466175540629965
+  - Type: social post
+  - Accessed: 2026-05-11
+  - Note: Announcement post for Anthropic's public HackerOne program.
 
 ## Big Tech Moves
 
@@ -125,3 +161,15 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 - Anthropic post: https://x.com/anthropicai/status/2046327624092487688
   - Type: social post
   - Accessed: 2026-05-05
+- CAISI frontier AI testing agreements: https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing
+  - Type: government announcement
+  - Accessed: 2026-05-11
+  - Note: Primary source for CAISI agreements with Google DeepMind, Microsoft, and xAI.
+- Pentagon classified AI networks coverage: https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/
+  - Type: government technology reporting
+  - Accessed: 2026-05-11
+  - Note: Source for the eight-company Pentagon classified AI network agreements and IL6/IL7 framing.
+- Pentagon classified AI networks coverage: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
+  - Type: technology reporting
+  - Accessed: 2026-05-11
+  - Note: Supporting source for classified AI deployment agreements.

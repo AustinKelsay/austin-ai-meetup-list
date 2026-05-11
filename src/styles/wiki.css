@@ -208,6 +208,31 @@
   margin: 0;
 }
 
+.wiki-graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem 0.65rem;
+}
+
+.wiki-graph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.wiki-graph-legend-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+
 .wiki-graph-canvas {
   min-height: 34rem;
   width: 100%;
@@ -350,5 +375,14 @@
 
   .wiki-catalog-list {
     max-height: 22rem;
+  }
+
+  .wiki-panel-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .wiki-graph-legend {
+    justify-content: flex-start;
   }
 }
