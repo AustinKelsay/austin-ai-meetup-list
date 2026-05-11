@@ -12,6 +12,14 @@
       "destination": "/index.html"
     },
     {
+      "source": "/wiki",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/wiki/:id",
+      "destination": "/index.html"
+    },
+    {
       "source": "/submit-link",
       "destination": "/index.html"
     },
