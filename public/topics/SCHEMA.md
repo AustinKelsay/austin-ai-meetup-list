@@ -44,11 +44,25 @@ This repo is public. Do not copy full third-party articles, papers, transcripts,
 
 Use public link records instead:
 
+- meetup track
+- curated Topic title
 - title
 - URL
 - source type
 - date accessed
 - short note about why the source supports a Topic
+
+For dated source link record pages, organize sources by Track heading, then by curated Topic title subheading, with one or more supporting source records underneath. The Topic title should match the Meetup board wording, not the source's original headline.
+
+All dated source link record pages should follow this shape, including historical pages. When older records are encountered, backfill them into Topic title groups rather than preserving flat or source-cluster-only lists.
+
+During backfills, use the Topic titles already present on the dated Meetup page. Do not invent replacement titles in the source link record. If an older source cluster spans multiple Topics, split the sources under the matching Topic titles; if a source is ambiguous, keep it under the closest real Topic title and explain the broader support in its note.
+
+Showcase source groups use the same heading style, but the heading is the Showcase title, not a Topic title.
+
+The wiki linter enforces this hierarchy for dated source link record pages: source bullets must live under a `###` Topic or Showcase heading, not directly under a `##` Track or Showcase section.
+
+Backfills should preserve existing readable source labels where possible. Do not invent missing source metadata just to normalize old records; add metadata only when it is known.
 
 Short quotations are allowed only when needed and should be kept minimal.
 

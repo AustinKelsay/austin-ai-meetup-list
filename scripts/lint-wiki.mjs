@@ -158,7 +158,50 @@ async function checkRawRecords() {
     if (wordCount > 800 && urlCount < 4) {
       errors.push(`${rel}: raw records should be link metadata, not full copied source text`);
     }
+
+    if (rel.match(/^public\/topics\/raw\/articles\/\d{4}-\d{2}-\d{2}-link-records\.md$/)) {
+      errors.push(...checkDatedSourceLinkRecordHierarchy(rel, body));
+    }
   }
+}
+
+export function checkDatedSourceLinkRecordHierarchy(rel, body) {
+  const hierarchyErrors = [];
+  const lines = body.split("\n");
+  let currentSection = null;
+  let currentGroup = null;
+
+  for (const [index, rawLine] of lines.entries()) {
+    const line = rawLine.trimEnd();
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+      const title = headingMatch[2].trim();
+
+      if (depth === 2) {
+        currentSection = title;
+        currentGroup = null;
+      } else if (depth === 3) {
+        currentGroup = title;
+      } else if (depth <= 1) {
+        currentSection = null;
+        currentGroup = null;
+      }
+
+      continue;
+    }
+
+    if (!currentSection || currentGroup || !line.startsWith("- ")) {
+      continue;
+    }
+
+    hierarchyErrors.push(
+      `${rel}:${index + 1}: source bullets must be nested under a Topic or Showcase heading inside "${currentSection}"`,
+    );
+  }
+
+  return hierarchyErrors;
 }
 
 async function main() {
@@ -226,7 +269,9 @@ async function main() {
   console.log(`Wiki lint passed (${markdownFiles.length} markdown files checked).`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

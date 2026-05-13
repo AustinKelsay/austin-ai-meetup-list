@@ -2,6 +2,18 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-13] update | Source records grouped by board titles
+
+- Added the source-record convention that dated link records are grouped by Track, then curated Topic or Showcase title, then supporting Links.
+- Backfilled dated source link record pages so readers can see which Meetup board item each source supported.
+- Added wiki lint coverage to reject dated source records with source bullets directly under Track headings.
+
+## [2026-05-12] update | May 13 submitted links added
+
+- Added the six submitted May 13 Topics covering agent harness placement, vibe maths, AI resume screening, Talkie, Cursor/PocketOS data loss, and red/blue button model behavior.
+- Added public source records for the submitted links and updated Agent Infrastructure, Coding Agents, and Agent Security backlinks.
+- Mirrored the new Topics into `src/data.js` for frontend and Presentation Mode rendering.
+
 ## [2026-05-11] update | May 13 catch-up links curated
 
 - Added verified May 1-11 AI catch-up Topics to `2026-05-13.md`.

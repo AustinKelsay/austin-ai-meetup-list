@@ -32,6 +32,14 @@ _Avoid_: Section, bucket
 A single discussion item on a meetup board, backed by one or more Links.
 _Avoid_: Story, item, link
 
+**Topic Title**:
+The curator-authored title for a Topic as it appears on a Meetup board.
+_Avoid_: Link title, source title
+
+**Showcase Title**:
+The curator-authored title for a Showcase as it appears in the Community Slot.
+_Avoid_: Topic Title
+
 **Discussion Fit**:
 The editorial standard for whether an AI item belongs on the meetup board.
 _Avoid_: Interestingness
@@ -128,6 +136,12 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Meetup** is recorded in the **Markdown Archive**.
 - The **LLM Wiki** organizes the **Markdown Archive** without replacing it.
 - The **LLM Wiki** lives in public Markdown files and is safe to publish in GitHub.
+- **LLM Wiki** source link records are organized by **Track**, then **Topic Title**, then supporting **Links**.
+- Existing **LLM Wiki** source link records should be backfilled into the **Track** → **Topic Title** → **Links** structure.
+- **LLM Wiki** source link record backfills use actual **Topic Titles** from the dated **Meetup**, not newly invented titles.
+- **LLM Wiki** source link records use **Showcase Titles** for Showcase source groups without treating **Showcases** as **Topics**.
+- **LLM Wiki** linting enforces that dated source link records do not place source bullets directly under **Track** headings.
+- **LLM Wiki** source link record backfills preserve readable source labels instead of forcing a fully normalized citation schema.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.
 - The **Wiki Explorer** does not render full Markdown pages in v1.
@@ -137,6 +151,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Track** has zero or more **Topics**.
 - A **Topic** belongs to exactly one **Track**.
 - A **Topic** has one or more **Links**.
+- A **Topic** has exactly one **Topic Title**.
 - A **Topic** can have **Presenter Notes**.
 - A **Topic** must have **Discussion Fit** for Austin AI Club.
 - A **Major AI Story** has **Discussion Fit** even when its builder angle is not yet obvious.
@@ -224,6 +239,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 > **Dev:** "A submitted URL came in through the link form. Is that already a **Topic**?"
 > **Domain expert:** "No — it is a **Link** until it gets curated into a **Topic**, and one **Topic** may include many **Links**."
 >
+> **Dev:** "When a source link record points back to a Meetup, should it use the article title or the board wording?"
+> **Domain expert:** "Use the **Topic Title** from the **Meetup** so readers can see the curated discussion angle, not just the source title."
+>
 > **Dev:** "Does a submitted **Link** wait in a detached review queue?"
 > **Domain expert:** "No — it is a **Submission** for the target **Meetup** immediately, then the organizer can curate it into the board."
 >
@@ -250,6 +268,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 >
 > **Dev:** "Can a **Showcase** include a repo, demo URL, and announcement post?"
 > **Domain expert:** "Yes — a **Showcase** can have many **Links**, but it can also be ad hoc and spontaneous."
+>
+> **Dev:** "Should Showcase links use the same readable source-record grouping as Topics?"
+> **Domain expert:** "Yes — group them under the **Showcase Title**, but do not call that heading a **Topic Title**."
 
 ## Flagged ambiguities
 
@@ -271,6 +292,8 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - "security" was close to being only a **Track** — resolved: **Security** is both a standard **Track** and a **Security Lens**.
 - "big tech" was close to excluding policy and infrastructure — resolved: **Big Tech Moves** includes platform-scale policy, regulation, energy, export-control, and infrastructure changes when they shape AI development.
 - "link" was close to being treated as another name for **Topic** — resolved: **Links** are source material; **Topics** are curated discussion entries.
+- "title" was close to meaning the original source title — resolved: **Topic Title** means the curator-authored board title for the **Topic**.
+- "showcase title" was close to being folded into **Topic Title** — resolved: **Showcase Titles** use the same source-record grouping shape without making **Showcases** into **Topics**.
 - "topic without links" was considered — resolved: every **Topic** requires at least one **Link**.
 - "showcase without links" was considered — resolved: **Showcases** do not require **Links** because they can be ad hoc and spontaneous.
 - "submission" was close to being treated as pre-acceptance review state — resolved: **Submissions** are associated with their target **Meetup** immediately to keep contribution friction low.

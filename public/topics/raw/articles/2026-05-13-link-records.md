@@ -13,6 +13,8 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 
 ## Agent Infrastructure
 
+### Sandcastle
+
 - Sandcastle repo: https://github.com/mattpocock/sandcastle
   - Type: repo
   - Accessed: 2026-05-05
@@ -21,10 +23,16 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: project index
   - Accessed: 2026-05-05
   - Note: Secondary project context for Sandcastle.
+
+### Amnesic personal OS
+
 - Amnesic personal OS post: https://x.com/nichxbt/status/2046647915343741391
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Supports the local/private OS concept Topic.
+
+### Agents as fields
+
 - Agents as fields post: https://x.com/rrhoover/status/2048366028850163752
   - Type: social post
   - Accessed: 2026-05-05
@@ -33,6 +41,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: design reference
   - Accessed: 2026-05-05
   - Note: Visual/product reference for agents as fields.
+
+### Isaac Sim for beginners
+
 - Isaac Sim: https://developer.nvidia.com/isaac/sim
   - Type: product docs
   - Accessed: 2026-05-05
@@ -41,6 +52,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Secondary discussion reference for the Isaac Sim Topic.
+
+### Claude Managed Agents learn between runs
+
 - Claude Managed Agents: https://claude.com/blog/new-in-claude-managed-agents
   - Type: product announcement
   - Accessed: 2026-05-11
@@ -54,7 +68,16 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-11
   - Note: Supporting compute-capacity source for the Claude Managed Agents Topic.
 
+### The agent harness belongs outside the sandbox
+
+- The Agent Harness Belongs Outside the Sandbox: https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox
+  - Type: engineering blog
+  - Accessed: 2026-05-12
+  - Note: Supports the Topic about backend-run agent harnesses, sandbox RPC, durable execution, and virtualized file access.
+
 ## Models & Research
+
+### GPT Image 2 gets UI-ish
 
 - GPT Image 2 docs: https://developers.openai.com/api/docs/models/gpt-image-2
   - Type: product docs
@@ -65,6 +88,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - https://x.com/fofrAI/status/2046603571286720769
   - https://x.com/yacineMTB/status/2046751282904338672
   - https://x.com/cto_junior/status/2046543490151240168
+
+### Qwen3.6-27B gets laptop-shaped
+
 - Qwen3.6 blog: https://qwen.ai/blog?id=qwen3.6
   - Type: model release
   - Accessed: 2026-05-05
@@ -72,6 +98,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 - Qwen quant posts:
   - https://x.com/bnjmn_marie/status/2047786725846724918
   - https://x.com/teksedge/status/2047876512863633710
+
+### SubQ goes after 12M-token context
+
 - SubQ launch page: https://subq.ai/introducing-subq
   - Type: model launch
   - Accessed: 2026-05-05
@@ -80,9 +109,15 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Launch post claiming a 12M-token context window and 52x faster processing than FlashAttention at 1M tokens.
+
+### 12 models in 37 days
+
 - Model velocity posts:
   - https://x.com/stevibe/status/2047539989492498711
   - https://x.com/theo/status/2046767107178676636
+
+### Gemma 4 app surface
+
 - Gemma model page: https://deepmind.google/models/gemma/
   - Type: product page
   - Accessed: 2026-05-05
@@ -101,6 +136,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Announcement post for Gemma 4 MTP drafters.
+
+### GPT-5.5 Instant becomes the default
+
 - GPT-5.5 Instant: https://openai.com/index/gpt-5-5-instant/
   - Type: product announcement
   - Accessed: 2026-05-11
@@ -110,7 +148,38 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-11
   - Note: Safety and model-card context for GPT-5.5 Instant.
 
+### Vibe maths solves an Erdős problem
+
+- Scientific American Erdős problem article: https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/
+  - Type: science reporting
+  - Accessed: 2026-05-12
+  - Note: Supports the Topic about an amateur using ChatGPT to surface a new proof route for a 60-year-old Erdős problem.
+- HN discussion of Erdős problem article: https://news.ycombinator.com/item?id=47903126
+  - Type: discussion thread
+  - Accessed: 2026-05-12
+  - Note: Optional supporting context for prompts, proof interpretation, and community skepticism around the vibe-maths claim.
+
+### Talkie tests vintage-model generalization
+
+- Talkie launch blog: https://talkie-lm.com/introducing-talkie
+  - Type: research blog
+  - Accessed: 2026-05-12
+  - Note: Primary source for the 13B pre-1931 vintage language model, its benchmark framing, and generalization experiments.
+- Talkie announcement post: https://x.com/status_effects/status/2048878495539843211
+  - Type: social post
+  - Accessed: 2026-05-12
+  - Note: Social announcement and discussion hook for the Talkie Topic.
+
+### Red/blue button model behavior
+
+- Red/blue button model behavior post: https://x.com/jankulveit/status/2048808080188608953
+  - Type: social post
+  - Accessed: 2026-05-12
+  - Note: Supports the Topic about model behavior on the red/blue button dilemma under different reasoning settings.
+
 ## Security
+
+### Vercel's Context.ai breach
 
 - Vercel incident bulletin: https://vercel.com/kb/bulletin/vercel-april-2026-security-incident
   - Type: incident bulletin
@@ -120,6 +189,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: research note
   - Accessed: 2026-05-05
   - Note: Supports the AI SaaS supply-chain framing.
+
+### OpenAI Privacy Filter gets inverted
+
 - OpenAI Privacy Filter: https://openai.com/index/introducing-openai-privacy-filter/
   - Type: company announcement
   - Accessed: 2026-05-05
@@ -132,6 +204,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 - Privacy Filter posts:
   - https://x.com/xenovacom/status/2046979474613268993
   - https://x.com/chiefofautism/status/2047582480140562542
+
+### GPT-5.5-Cyber opens the trust gate
+
 - GPT-5.5-Cyber and Trusted Access for Cyber: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/
   - Type: company announcement
   - Accessed: 2026-05-11
@@ -140,6 +215,9 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: company announcement
   - Accessed: 2026-05-11
   - Note: Background source for OpenAI's vetted cyber access framework.
+
+### Anthropic opens the bounty door
+
 - Anthropic HackerOne program: https://hackerone.com/anthropic
   - Type: bug bounty page
   - Accessed: 2026-05-11
@@ -149,7 +227,23 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-11
   - Note: Announcement post for Anthropic's public HackerOne program.
 
+### AI resume screeners prefer AI-polished resumes
+
+- AI hiring tools prefer AI-polished resumes post: https://x.com/heynavtoor/status/2048088874686300431
+  - Type: social post
+  - Accessed: 2026-05-12
+  - Note: Supports the Topic about reported bias toward ChatGPT-rewritten resumes in AI resume screening.
+
+### Cursor + Claude deletes PocketOS production data
+
+- Cursor + Claude PocketOS deletion post: https://x.com/disclosetv/status/2048915961781104741
+  - Type: social post
+  - Accessed: 2026-05-12
+  - Note: Supports the Topic about alleged production-data loss from an AI-assisted Cursor agent workflow.
+
 ## Big Tech Moves
+
+### Anthropic buys the AWS compute runway
 
 - Anthropic compute announcement: https://www.anthropic.com/news/anthropic-amazon-compute
   - Type: company announcement
@@ -161,10 +255,16 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 - Anthropic post: https://x.com/anthropicai/status/2046327624092487688
   - Type: social post
   - Accessed: 2026-05-05
+
+### Frontier model testing gets a federal lane
+
 - CAISI frontier AI testing agreements: https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing
   - Type: government announcement
   - Accessed: 2026-05-11
   - Note: Primary source for CAISI agreements with Google DeepMind, Microsoft, and xAI.
+
+### Pentagon picks a classified AI stack
+
 - Pentagon classified AI networks coverage: https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/
   - Type: government technology reporting
   - Accessed: 2026-05-11
