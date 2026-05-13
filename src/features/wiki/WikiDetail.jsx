@@ -47,16 +47,33 @@ function PageLinkList({ title, pages, emptyLabel, onOpenRoute }) {
   );
 }
 
-function SourceLinkList({ links }) {
+function SourceLinkList({ links, references }) {
+  const items =
+    references?.length > 0
+      ? references
+      : links.map((href) => ({
+          href,
+          title: getSourceLinkLabel(href),
+          section: "source",
+        }));
+
   return (
     <section className="wiki-detail-section">
       <h3>Source Links</h3>
-      {links.length > 0 ? (
+      {items.length > 0 ? (
         <div className="wiki-link-list">
-          {links.map((href) => (
-            <a key={href} className="wiki-relation-link" href={href} rel="noreferrer">
-              <span className="wiki-link-label">{getSourceLinkLabel(href)}</span>
-              <small>source</small>
+          {items.map((item) => (
+            <a
+              key={`${item.title}-${item.href}`}
+              className="wiki-relation-link wiki-source-reference"
+              href={item.href}
+              rel="noreferrer"
+            >
+              <span className="wiki-source-reference-copy">
+                <span className="wiki-link-label">{item.title}</span>
+                <small>{getSourceLinkLabel(item.href)}</small>
+              </span>
+              <small>{item.section || "source"}</small>
             </a>
           ))}
         </div>
@@ -84,6 +101,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
   const outgoingPages = getConnectedPages(manifest, selectedPage.outgoingIds);
   const backlinkPages = getConnectedPages(manifest, selectedPage.backlinkIds);
   const sourceLinks = selectedPage.sourceLinks ?? [];
+  const sourceReferences = selectedPage.sourceReferences ?? [];
 
   return (
     <aside className="wiki-detail">
@@ -105,7 +123,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
         ))}
       </div>
 
-      <SourceLinkList links={sourceLinks} />
+      <SourceLinkList links={sourceLinks} references={sourceReferences} />
       <PageLinkList
         title="Related Wiki Pages"
         pages={outgoingPages}

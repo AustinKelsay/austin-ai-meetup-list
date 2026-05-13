@@ -174,4 +174,73 @@ sources: []
       "austin-ai-club-month-dd-yyyy",
     );
   });
+
+  it("captures source link context from meetup topic titles", async () => {
+    const topicsDir = await createTopicsDir({
+      "2026-04-01.md": `---
+title: Austin AI Club - April 1, 2026
+created: 2026-05-05
+updated: 2026-05-05
+type: meetup
+tags: [meetup, topic-board]
+sources: [raw/articles/2026-04-01-link-records.md]
+---
+
+# Austin AI Club
+
+## April 1, 2026
+
+### Agent Infrastructure
+- **402 Index paid API loop demo** - Ryan Gentry's demo shows service discovery.
+  Post: https://x.com/RyanTheGentry/status/2039036789252390970
+  Source: https://github.com/ryanthegentry/402index-mcp-server
+`,
+      "raw/articles/2026-04-01-link-records.md": `---
+title: April 1, 2026 Source Link Records
+created: 2026-05-05
+updated: 2026-05-05
+type: summary
+tags: [source-record, meetup]
+sources: []
+---
+
+# April 1, 2026 Source Link Records
+
+## Agent Infrastructure
+
+### 402 Index paid API loop demo
+
+- 402 Index records:
+  - https://x.com/RyanTheGentry/status/2039036789252390970
+  - https://github.com/ryanthegentry/402index-mcp-server
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+
+    expect(manifest.pagesById["austin-ai-club-april-1-2026"].sourceReferences).toEqual([
+      {
+        href: "https://x.com/RyanTheGentry/status/2039036789252390970",
+        title: "402 Index paid API loop demo",
+        section: "Agent Infrastructure",
+      },
+      {
+        href: "https://github.com/ryanthegentry/402index-mcp-server",
+        title: "402 Index paid API loop demo",
+        section: "Agent Infrastructure",
+      },
+    ]);
+    expect(manifest.pagesById["april-1-2026-source-link-records"].sourceReferences).toEqual([
+      {
+        href: "https://x.com/RyanTheGentry/status/2039036789252390970",
+        title: "402 Index paid API loop demo",
+        section: "Agent Infrastructure",
+      },
+      {
+        href: "https://github.com/ryanthegentry/402index-mcp-server",
+        title: "402 Index paid API loop demo",
+        section: "Agent Infrastructure",
+      },
+    ]);
+  });
 });

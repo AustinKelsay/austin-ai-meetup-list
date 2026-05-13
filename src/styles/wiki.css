@@ -320,6 +320,25 @@
   word-break: break-word;
 }
 
+.wiki-source-reference {
+  align-items: stretch;
+}
+
+.wiki-source-reference-copy {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.wiki-source-reference-copy small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .wiki-relation-link small {
   flex: 0 0 auto;
   padding-top: 0.08rem;

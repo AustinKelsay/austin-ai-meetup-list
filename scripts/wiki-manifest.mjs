@@ -109,6 +109,85 @@ function collectSourceLinks(content) {
   return links;
 }
 
+function extractUrls(line) {
+  const urls = [];
+  const pattern = /https?:\/\/[^\s<>)\]]+/g;
+  let match;
+
+  while ((match = pattern.exec(line)) !== null) {
+    urls.push(match[0].replace(/[.,;:!?]+$/g, ""));
+  }
+
+  return urls;
+}
+
+function collectSourceReferences(content, { sourceRecord = false } = {}) {
+  const searchableContent = stripFrontmatter(content).replace(/```[\s\S]*?```/g, "");
+  const references = [];
+  let currentSection = "";
+  let currentTitle = "";
+
+  for (const rawLine of searchableContent.split("\n")) {
+    const line = rawLine.trim();
+    const headingMatch = line.match(/^(#{2,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+      const title = headingMatch[2].trim();
+
+      if (sourceRecord && depth === 2) {
+        currentSection = title;
+        currentTitle = "";
+      } else if (sourceRecord && depth === 3) {
+        currentTitle = title;
+      } else if (!sourceRecord && depth === 3) {
+        currentSection = title;
+        currentTitle = "";
+      } else if (!sourceRecord && depth > 3) {
+        currentTitle = title;
+      } else if (!sourceRecord && depth === 2) {
+        currentTitle = "";
+      }
+    }
+
+    const topicMatch = line.match(/^-\s+\*\*([^*]+)\*\*/);
+
+    if (topicMatch) {
+      currentTitle = topicMatch[1].trim();
+    }
+
+    for (const href of extractUrls(line)) {
+      const reference = {
+        href,
+        title: currentTitle || currentSection || getSourceLinkTitle(href),
+        section: currentSection,
+      };
+
+      if (
+        !references.some(
+          (existing) =>
+            existing.href === reference.href &&
+            existing.title === reference.title &&
+            existing.section === reference.section,
+        )
+      ) {
+        references.push(reference);
+      }
+    }
+  }
+
+  return references;
+}
+
+function getSourceLinkTitle(href) {
+  try {
+    const url = new URL(href);
+    return `${url.hostname}${url.pathname === "/" ? "" : url.pathname}`;
+  } catch {
+    return href;
+  }
+}
+
 function stripFrontmatter(content) {
   return content.replace(/^---\n[\s\S]*?\n---\n?/, "");
 }
@@ -158,6 +237,9 @@ function createPage({ content, file, frontmatter, topicsDir }) {
   const sources = Array.isArray(frontmatter.sources) ? frontmatter.sources : [];
   const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
   const sourceLinks = collectSourceLinks(content);
+  const sourceReferences = collectSourceReferences(content, {
+    sourceRecord: tags.includes("source-record"),
+  });
 
   return {
     id,
@@ -167,6 +249,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     sources,
     sourceCount: sources.length,
     sourceLinks,
+    sourceReferences,
     created: frontmatter.created || "",
     updated: frontmatter.updated || "",
     excerpt: getExcerpt(content),

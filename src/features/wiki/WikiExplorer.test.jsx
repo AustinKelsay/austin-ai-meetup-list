@@ -36,4 +36,41 @@ describe("WikiDetail", () => {
     expect(html).toContain("class=\"wiki-link-label\"");
     expect(html).toContain("example.com/research/extremely-long-model-release-slug");
   });
+
+  it("shows source link topic titles when source references include context", () => {
+    const selectedPage = {
+      id: "austin-ai-club-april-1-2026",
+      title: "Austin AI Club - April 1, 2026",
+      type: "meetup",
+      tags: ["meetup"],
+      sourceCount: 1,
+      sourceLinks: ["https://github.com/ryanthegentry/402index-mcp-server"],
+      sourceReferences: [
+        {
+          href: "https://github.com/ryanthegentry/402index-mcp-server",
+          title: "402 Index paid API loop demo",
+          section: "Agent Infrastructure",
+        },
+      ],
+      outgoingIds: [],
+      backlinkIds: [],
+      unresolvedLinks: [],
+      excerpt: "April 1 meetup.",
+      rawHref: "/topics/2026-04-01.md",
+    };
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="austin-ai-club-april-1-2026"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("402 Index paid API loop demo");
+    expect(html).toContain("Agent Infrastructure");
+    expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
+  });
 });
