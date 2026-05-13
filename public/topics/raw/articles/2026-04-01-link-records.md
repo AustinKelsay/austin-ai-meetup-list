@@ -89,6 +89,10 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 - Search, coding, multimodal, and local model records:
   - https://x.com/trychroma/status/2037243681988894950
   - https://www.trychroma.com/research/context-1
+  - https://x.com/trychroma/status/2037243685038153823
+  - https://x.com/trychroma/status/2037243687240163693
+  - https://x.com/trychroma/status/2037243689853161868
+  - https://x.com/trychroma/status/2037243694894768143
 
 ### Nemotron-Cascade 2
 

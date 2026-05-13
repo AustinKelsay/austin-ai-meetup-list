@@ -189,6 +189,10 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: research note
   - Accessed: 2026-05-05
   - Note: Supports the AI SaaS supply-chain framing.
+- Vercel incident post: https://x.com/theo/status/2046767107178676636
+  - Type: social post
+  - Accessed: 2026-05-05
+  - Note: Supporting discussion reference for the Vercel Context.ai breach Topic.
 
 ### OpenAI Privacy Filter gets inverted
 
