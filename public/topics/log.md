@@ -5,6 +5,7 @@
 ## [2026-05-13] update | Missed May 13 highlight links added
 
 - Added Matt Pocock's skills repo as a highlighted Agent Infrastructure Topic and source record.
+- Added Attune as a Models & Research Topic about open-model tool-call reliability.
 - Added the Claude-assisted 5 BTC wallet recovery as an Agent Infrastructure Topic about AI forensics and debugging workflows.
 - Added Rohit's dumb AI loops article as an Agent Infrastructure and Agent Security Topic about production loop failures.
 - Broadened the OpenAI Privacy Filter Topic into a local PII-filter comparison with NVIDIA GLiNER-PII and Nemotron PII.

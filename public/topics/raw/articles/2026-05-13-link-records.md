@@ -157,6 +157,17 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - https://x.com/stevibe/status/2047539989492498711
   - https://x.com/theo/status/2046767107178676636
 
+### Attune patches the open-model tool-call boundary
+
+- Attune repo: https://github.com/AnthonyRonning/attune
+  - Type: repo
+  - Accessed: 2026-05-13
+  - Note: Primary source for Attune's OpenAI-compatible proxy, model-specific tool-call contract adapters, repair pipeline, traces, and eval loop.
+- Attune launch post: https://x.com/anthonyronning/status/2053823121975542061
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted launch post framing Attune around open-model silent failures like empty outputs and malformed tool calls.
+
 ### Gemma 4 app surface
 
 - Gemma model page: https://deepmind.google/models/gemma/

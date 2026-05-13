@@ -246,6 +246,17 @@ export const meetups = [
             ],
           },
           {
+            title: "Attune patches the open-model tool-call boundary",
+            description:
+              "Anthony Ronning's PoC treats empty outputs, malformed JSON, and missing tool_calls as contract failures between model, provider, and agent harness, not just bad model behavior.",
+            chip: "open models",
+            href: "https://github.com/AnthonyRonning/attune",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/anthonyronning/status/2053823121975542061?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
             title: "Gemma 4 app surface",
             description:
               "The follow-up question: how fast do the weights become useful across AI Studio, AI Edge Gallery, Ollama, LM Studio, llama.cpp, and now MTP drafters that promise up to 3x faster output.",

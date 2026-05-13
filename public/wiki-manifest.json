@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:06:37.260Z",
+  "generatedAt": "2026-05-13T20:10:01.204Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -4005,6 +4005,8 @@
         "https://x.com/alex_whedon/status/2051663268704636937",
         "https://x.com/stevibe/status/2047539989492498711",
         "https://x.com/theo/status/2046767107178676636",
+        "https://github.com/AnthonyRonning/attune",
+        "https://x.com/anthonyronning/status/2053823121975542061",
         "https://deepmind.google/models/gemma/",
         "https://ai.google.dev/gemma/docs/releases",
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -4205,6 +4207,16 @@
         {
           "href": "https://x.com/theo/status/2046767107178676636",
           "title": "12 models in 37 days",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research"
         },
         {
@@ -4499,7 +4511,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-12",
+      "updated": "2026-05-13",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -4871,6 +4883,20 @@
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
@@ -6050,6 +6076,8 @@
         "https://x.com/alex_whedon/status/2051663268704636937",
         "https://x.com/stevibe/status/2047539989492498711",
         "https://x.com/theo/status/2046767107178676636",
+        "https://github.com/AnthonyRonning/attune",
+        "https://x.com/anthonyronning/status/2053823121975542061",
         "https://deepmind.google/models/gemma/",
         "https://ai.google.dev/gemma/docs/releases",
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -6250,6 +6278,16 @@
         {
           "href": "https://x.com/theo/status/2046767107178676636",
           "title": "12 models in 37 days",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research"
         },
         {
@@ -7221,7 +7259,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
@@ -7267,6 +7305,20 @@
         {
           "href": "https://qwen.ai/blog?id=qwen3.6",
           "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -13073,6 +13125,8 @@
         "https://x.com/alex_whedon/status/2051663268704636937",
         "https://x.com/stevibe/status/2047539989492498711",
         "https://x.com/theo/status/2046767107178676636",
+        "https://github.com/AnthonyRonning/attune",
+        "https://x.com/anthonyronning/status/2053823121975542061",
         "https://deepmind.google/models/gemma/",
         "https://ai.google.dev/gemma/docs/releases",
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -13273,6 +13327,16 @@
         {
           "href": "https://x.com/theo/status/2046767107178676636",
           "title": "12 models in 37 days",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research"
         },
         {
@@ -13567,7 +13631,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-12",
+      "updated": "2026-05-13",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -13939,6 +14003,20 @@
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
@@ -15118,6 +15196,8 @@
         "https://x.com/alex_whedon/status/2051663268704636937",
         "https://x.com/stevibe/status/2047539989492498711",
         "https://x.com/theo/status/2046767107178676636",
+        "https://github.com/AnthonyRonning/attune",
+        "https://x.com/anthonyronning/status/2053823121975542061",
         "https://deepmind.google/models/gemma/",
         "https://ai.google.dev/gemma/docs/releases",
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -15318,6 +15398,16 @@
         {
           "href": "https://x.com/theo/status/2046767107178676636",
           "title": "12 models in 37 days",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research"
         },
         {
@@ -16289,7 +16379,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
@@ -16335,6 +16425,20 @@
         {
           "href": "https://qwen.ai/blog?id=qwen3.6",
           "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -19799,7 +19903,7 @@
     "rawPageCount": 0,
     "linkCount": 168,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 324,
+    "sourceLinkCount": 326,
     "unresolvedLinkCount": 0
   }
 }
