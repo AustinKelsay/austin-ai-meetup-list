@@ -32,8 +32,8 @@ export const meetups = [
     event: {
       title: "Austin AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
-      startAt: "2026-05-13T17:00:00-05:00",
-      endAt: "2026-05-13T19:00:00-05:00",
+      startAt: "2026-05-13T18:00:00-05:00",
+      endAt: "2026-05-13T20:00:00-05:00",
       timezone: "America/Chicago",
       locationName: "Bitcoin Park Austin",
       locationAddress: "Austin, TX",
@@ -67,18 +67,6 @@ export const meetups = [
           "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
         items: [
           {
-            title: "Matt Pocock skills turned prompts into infrastructure",
-            description:
-              "The viral bit is not the repo itself; it is that engineering taste, review loops, TDD, issue triage, and planning rituals are becoming portable agent behavior.",
-            chip: "agent skills",
-            href: "https://github.com/mattpocock/skills",
-            linkPair: [
-              "https://agentconn.com/agents/mattpocock-skills/",
-              "https://llmbase.ai/skills/mattpocock/",
-            ],
-            topStory: true,
-          },
-          {
             title: "Claude as bitcoin wallet forensics",
             description:
               "A lost-wallet story became a weirdly good agent demo: dump the old computer context in, have Claude trace files, debug btcrecover, and turn digital archaeology into recovered keys.",
@@ -94,11 +82,28 @@ export const meetups = [
             ],
           },
           {
+            title: "Matt Pocock, prompts better than me.",
+            description:
+              "The viral bit is not the repo itself; it is that engineering taste, review loops, TDD, issue triage, and planning rituals are becoming portable agent behavior.",
+            chip: "agent skills",
+            href: "https://github.com/mattpocock/skills",
+            linkPair: [
+              "https://agentconn.com/agents/mattpocock-skills/",
+              "https://llmbase.ai/skills/mattpocock/",
+            ],
+            topStory: true,
+          },
+          {
             title: "Sandcastle",
             description:
               "TypeScript runner for sending coding agents into isolated worktrees and collecting the results.",
             chip: "agent infra",
             href: "https://github.com/mattpocock/sandcastle",
+            image: {
+              src: "/images/sandcastle-workflow.png",
+              href: "https://github.com/mattpocock/sandcastle",
+              caption: "Sandcastle workflow: prompt files fan out into isolated worktrees and containers.",
+            },
             linkPair: ["https://www.sourcepulse.org/projects/27307520"],
           },
           {
@@ -166,6 +171,15 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/rohit4verse/status/2050968031493550202?ref_src=twsrc%5Etfw",
             },
+            video: {
+              href: "https://www.youtube.com/watch?v=2TLXsxkz0zI",
+              embedHref: "https://www.youtube.com/embed/2TLXsxkz0zI",
+              title:
+                "Ralph Loops: Build Dumb AI Loops That Ship — Chris Parsons, Cherrypick",
+              caption:
+                "AI Engineer talk behind the submitted dumb-loop production-risk post.",
+            },
+            topStory: true,
           },
         ],
       },
@@ -273,25 +287,6 @@ export const meetups = [
             ],
           },
           {
-            title: "GPT-5.5 Instant becomes the default",
-            description:
-              "The default ChatGPT and chat-latest model moved to GPT-5.5 Instant. Not the flashiest story, but default-model quality is the floor every prototype, workflow, and casual user suddenly inherits.",
-            chip: "default model",
-            href: "https://openai.com/index/gpt-5-5-instant/",
-            linkPair: [
-              "https://openai.com/index/gpt-5-5-instant-system-card/",
-            ],
-          },
-          {
-            title: "Vibe maths solves an Erdős problem",
-            description:
-              "The notable bit is not ChatGPT did math. It is an amateur prompt surfacing a proof route experts say humans had missed, with the human work shifting to interpretation and compression.",
-            chip: "math",
-            href: "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-            linkPair: ["https://news.ycombinator.com/item?id=47903126"],
-            topStory: true,
-          },
-          {
             title: "ProgramBench says agents still cannot rebuild software",
             description:
               "Given only binaries and docs, agents have to recreate full programs like jq, ripgrep, FFmpeg, and SQLite from scratch. GPT-5.5 xhigh tops the leaderboard at 0.5% fully solved, which is a useful cold shower for whole-codebase autonomy.",
@@ -301,6 +296,12 @@ export const meetups = [
               "https://arxiv.org/abs/2511.00079",
               "https://github.com/ProgramBench/ProgramBench",
             ],
+            image: {
+              src: "/images/programbench-leaderboard.png",
+              href: "https://programbench.com/",
+              caption:
+                "ProgramBench leaderboard: agents try to rebuild whole programs from binaries and docs.",
+            },
             topStory: true,
           },
           {
@@ -376,21 +377,9 @@ export const meetups = [
               "OpenAI shipped Privacy Filter, NVIDIA has GLiNER-PII, and the move is privacy protection becoming a small local model you put before logs, RAG, evals, and training data.",
             chip: "privacy",
             href: "https://openai.com/index/introducing-openai-privacy-filter/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/xenovacom/status/2046979474613268993?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/chiefofautism/status/2047582480140562542?ref_src=twsrc%5Etfw",
-              },
-            ],
             linkPair: [
               "https://huggingface.co/openai/privacy-filter",
               "https://huggingface.co/nvidia/gliner-PII",
-              "https://huggingface.co/datasets/nvidia/nemotron-pii",
-              "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
             ],
             topStory: true,
           },
@@ -411,6 +400,10 @@ export const meetups = [
               "OpenAI is giving vetted defenders more permissive cyber workflows through Trusted Access, with GPT-5.5-Cyber in limited preview for critical infrastructure teams. The main shift is access control around dual-use capability, not a simple cyber model beats everything launch.",
             chip: "cyber",
             href: "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/sama/status/2049712078836170843?ref_src=twsrc%5Etfw",
+            },
             linkPair: [
               "https://openai.com/daybreak",
               "https://openai.com/index/trusted-access-for-cyber/",

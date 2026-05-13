@@ -13,21 +13,6 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
 
 ## Agent Infrastructure
 
-### Matt Pocock skills turned prompts into infrastructure
-
-- Matt Pocock skills repo: https://github.com/mattpocock/skills
-  - Type: repo
-  - Accessed: 2026-05-13
-  - Note: Primary source for the reusable agent skills collection and installer workflow.
-- AgentConn mattpocock/skills profile: https://agentconn.com/agents/mattpocock-skills/
-  - Type: project index
-  - Accessed: 2026-05-13
-  - Note: Secondary popularity context for the repo's late-April trending and star-growth spike.
-- LLMBase Matt Pocock skills page: https://llmbase.ai/skills/mattpocock/
-  - Type: skills index
-  - Accessed: 2026-05-13
-  - Note: Supports the per-skill install/popularity angle for grill-me, TDD, architecture, and planning skills.
-
 ### Claude as bitcoin wallet forensics
 
 - Claude bitcoin wallet recovery post: https://x.com/cprkrn/status/2054586810475364536
@@ -42,6 +27,21 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: reporting
   - Accessed: 2026-05-13
   - Note: Secondary source for the 5 BTC recovery claim and AI-assisted technical workflow.
+
+### Matt Pocock, prompts better than me.
+
+- Matt Pocock skills repo: https://github.com/mattpocock/skills
+  - Type: repo
+  - Accessed: 2026-05-13
+  - Note: Primary source for the reusable agent skills collection and installer workflow.
+- AgentConn mattpocock/skills profile: https://agentconn.com/agents/mattpocock-skills/
+  - Type: project index
+  - Accessed: 2026-05-13
+  - Note: Secondary popularity context for the repo's late-April trending and star-growth spike.
+- LLMBase Matt Pocock skills page: https://llmbase.ai/skills/mattpocock/
+  - Type: skills index
+  - Accessed: 2026-05-13
+  - Note: Supports the per-skill install/popularity angle for grill-me, TDD, architecture, and planning skills.
 
 ### Sandcastle
 
@@ -115,6 +115,10 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-13
   - Note: Submitted discussion hook for the agent-loop production-risk Topic.
+- Ralph Loops AI Engineer talk: https://www.youtube.com/watch?v=2TLXsxkz0zI
+  - Type: video
+  - Accessed: 2026-05-13
+  - Note: Supporting visual source for the Chris Parsons dumb-loop talk referenced by the submitted post.
 
 ## Models & Research
 
@@ -189,28 +193,6 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-05
   - Note: Announcement post for Gemma 4 MTP drafters.
 
-### GPT-5.5 Instant becomes the default
-
-- GPT-5.5 Instant: https://openai.com/index/gpt-5-5-instant/
-  - Type: product announcement
-  - Accessed: 2026-05-11
-  - Note: Primary source for GPT-5.5 Instant becoming the default ChatGPT model and `chat-latest` API model.
-- GPT-5.5 Instant system card: https://openai.com/index/gpt-5-5-instant-system-card/
-  - Type: system card
-  - Accessed: 2026-05-11
-  - Note: Safety and model-card context for GPT-5.5 Instant.
-
-### Vibe maths solves an Erdős problem
-
-- Scientific American Erdős problem article: https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/
-  - Type: science reporting
-  - Accessed: 2026-05-12
-  - Note: Supports the Topic about an amateur using ChatGPT to surface a new proof route for a 60-year-old Erdős problem.
-- HN discussion of Erdős problem article: https://news.ycombinator.com/item?id=47903126
-  - Type: discussion thread
-  - Accessed: 2026-05-12
-  - Note: Optional supporting context for prompts, proof interpretation, and community skepticism around the vibe-maths claim.
-
 ### ProgramBench says agents still cannot rebuild software
 
 - ProgramBench leaderboard and project page: https://programbench.com/
@@ -225,6 +207,10 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: repo
   - Accessed: 2026-05-13
   - Note: Source repository for the benchmark artifacts and evaluation tooling.
+- ProgramBench leaderboard screenshot: /images/programbench-leaderboard.png
+  - Type: screenshot
+  - Accessed: 2026-05-13
+  - Note: Local screenshot of the ProgramBench homepage and leaderboard for Presentation Mode visual support.
 
 ### Talkie tests vintage-model generalization
 
@@ -337,6 +323,10 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: reporting
   - Accessed: 2026-05-13
   - Note: Same-day industry signal on Anthropic and OpenAI cyber models finding vulnerabilities in real products.
+- Sam Altman GPT-5.5-Cyber rollout post: https://x.com/sama/status/2049712078836170843
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Direct launch framing for critical cyber defender rollout and Trusted Access for Cyber.
 
 ### Loupe scans Bitcoin open source before attackers do
 

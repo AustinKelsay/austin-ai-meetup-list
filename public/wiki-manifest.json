@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:11:25.913Z",
+  "generatedAt": "2026-05-13T20:49:17.082Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -518,27 +518,6 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         },
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure",
@@ -555,6 +534,27 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -649,6 +649,13 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -705,6 +712,13 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://openai.com/daybreak",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security",
@@ -727,6 +741,13 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
@@ -3974,12 +3995,12 @@
       ],
       "sourceCount": 1,
       "sourceLinks": [
-        "https://github.com/mattpocock/skills",
-        "https://agentconn.com/agents/mattpocock-skills/",
-        "https://llmbase.ai/skills/mattpocock/",
         "https://x.com/cprkrn/status/2054586810475364536",
         "https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/",
         "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
+        "https://github.com/mattpocock/skills",
+        "https://agentconn.com/agents/mattpocock-skills/",
+        "https://llmbase.ai/skills/mattpocock/",
         "https://github.com/mattpocock/sandcastle",
         "https://www.sourcepulse.org/projects/27307520",
         "https://x.com/nichxbt/status/2046647915343741391",
@@ -3993,6 +4014,7 @@
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://x.com/i/article/2050613084558094336",
         "https://x.com/rohit4verse/status/2050968031493550202",
+        "https://www.youtube.com/watch?v=2TLXsxkz0zI",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -4012,10 +4034,6 @@
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
         "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
         "https://x.com/googledevs/status/2051700498328346945",
-        "https://openai.com/index/gpt-5-5-instant/",
-        "https://openai.com/index/gpt-5-5-instant-system-card/",
-        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-        "https://news.ycombinator.com/item?id=47903126",
         "https://programbench.com/",
         "https://arxiv.org/abs/2511.00079",
         "https://github.com/ProgramBench/ProgramBench",
@@ -4042,6 +4060,7 @@
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+        "https://x.com/sama/status/2049712078836170843",
         "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
         "https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/",
         "https://x.com/ProjectLoupe/status/2054252211756994678",
@@ -4058,21 +4077,6 @@
       ],
       "sourceReferences": [
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure"
@@ -4085,6 +4089,21 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure"
         },
         {
@@ -4149,6 +4168,11 @@
         },
         {
           "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
           "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
@@ -4245,26 +4269,6 @@
         {
           "href": "https://x.com/googledevs/status/2051700498328346945",
           "title": "Gemma 4 app surface",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-          "title": "Vibe maths solves an Erdős problem",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://news.ycombinator.com/item?id=47903126",
-          "title": "Vibe maths solves an Erdős problem",
           "section": "Models & Research"
         },
         {
@@ -4399,6 +4403,11 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security"
         },
@@ -4843,21 +4852,21 @@
         },
         {
           "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -6084,12 +6093,12 @@
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
-        "https://github.com/mattpocock/skills",
-        "https://agentconn.com/agents/mattpocock-skills/",
-        "https://llmbase.ai/skills/mattpocock/",
         "https://x.com/cprkrn/status/2054586810475364536",
         "https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/",
         "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
+        "https://github.com/mattpocock/skills",
+        "https://agentconn.com/agents/mattpocock-skills/",
+        "https://llmbase.ai/skills/mattpocock/",
         "https://github.com/mattpocock/sandcastle",
         "https://www.sourcepulse.org/projects/27307520",
         "https://x.com/nichxbt/status/2046647915343741391",
@@ -6103,6 +6112,7 @@
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://x.com/i/article/2050613084558094336",
         "https://x.com/rohit4verse/status/2050968031493550202",
+        "https://www.youtube.com/watch?v=2TLXsxkz0zI",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -6122,10 +6132,6 @@
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
         "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
         "https://x.com/googledevs/status/2051700498328346945",
-        "https://openai.com/index/gpt-5-5-instant/",
-        "https://openai.com/index/gpt-5-5-instant-system-card/",
-        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-        "https://news.ycombinator.com/item?id=47903126",
         "https://programbench.com/",
         "https://arxiv.org/abs/2511.00079",
         "https://github.com/ProgramBench/ProgramBench",
@@ -6152,6 +6158,7 @@
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+        "https://x.com/sama/status/2049712078836170843",
         "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
         "https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/",
         "https://x.com/ProjectLoupe/status/2054252211756994678",
@@ -6168,21 +6175,6 @@
       ],
       "sourceReferences": [
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure"
@@ -6195,6 +6187,21 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure"
         },
         {
@@ -6259,6 +6266,11 @@
         },
         {
           "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
           "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
@@ -6355,26 +6367,6 @@
         {
           "href": "https://x.com/googledevs/status/2051700498328346945",
           "title": "Gemma 4 app surface",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-          "title": "Vibe maths solves an Erdős problem",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://news.ycombinator.com/item?id=47903126",
-          "title": "Vibe maths solves an Erdős problem",
           "section": "Models & Research"
         },
         {
@@ -6509,6 +6501,11 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security"
         },
@@ -7868,6 +7865,13 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
+          "href": "https://x.com/sama/status/2049712078836170843",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
           "title": "Pentagon picks a classified AI stack",
           "section": "Big Tech Moves",
@@ -7878,20 +7882,6 @@
           "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
           "title": "Pentagon picks a classified AI stack",
           "section": "Big Tech Moves",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
@@ -9695,27 +9685,6 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         },
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure",
@@ -9732,6 +9701,27 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -9826,6 +9816,13 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -9882,6 +9879,13 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://openai.com/daybreak",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security",
@@ -9904,6 +9908,13 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
@@ -13151,12 +13162,12 @@
       ],
       "sourceCount": 1,
       "sourceLinks": [
-        "https://github.com/mattpocock/skills",
-        "https://agentconn.com/agents/mattpocock-skills/",
-        "https://llmbase.ai/skills/mattpocock/",
         "https://x.com/cprkrn/status/2054586810475364536",
         "https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/",
         "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
+        "https://github.com/mattpocock/skills",
+        "https://agentconn.com/agents/mattpocock-skills/",
+        "https://llmbase.ai/skills/mattpocock/",
         "https://github.com/mattpocock/sandcastle",
         "https://www.sourcepulse.org/projects/27307520",
         "https://x.com/nichxbt/status/2046647915343741391",
@@ -13170,6 +13181,7 @@
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://x.com/i/article/2050613084558094336",
         "https://x.com/rohit4verse/status/2050968031493550202",
+        "https://www.youtube.com/watch?v=2TLXsxkz0zI",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -13189,10 +13201,6 @@
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
         "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
         "https://x.com/googledevs/status/2051700498328346945",
-        "https://openai.com/index/gpt-5-5-instant/",
-        "https://openai.com/index/gpt-5-5-instant-system-card/",
-        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-        "https://news.ycombinator.com/item?id=47903126",
         "https://programbench.com/",
         "https://arxiv.org/abs/2511.00079",
         "https://github.com/ProgramBench/ProgramBench",
@@ -13219,6 +13227,7 @@
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+        "https://x.com/sama/status/2049712078836170843",
         "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
         "https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/",
         "https://x.com/ProjectLoupe/status/2054252211756994678",
@@ -13235,21 +13244,6 @@
       ],
       "sourceReferences": [
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure"
@@ -13262,6 +13256,21 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure"
         },
         {
@@ -13326,6 +13335,11 @@
         },
         {
           "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
           "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
@@ -13422,26 +13436,6 @@
         {
           "href": "https://x.com/googledevs/status/2051700498328346945",
           "title": "Gemma 4 app surface",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-          "title": "Vibe maths solves an Erdős problem",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://news.ycombinator.com/item?id=47903126",
-          "title": "Vibe maths solves an Erdős problem",
           "section": "Models & Research"
         },
         {
@@ -13576,6 +13570,11 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security"
         },
@@ -14020,21 +14019,21 @@
         },
         {
           "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -15261,12 +15260,12 @@
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
-        "https://github.com/mattpocock/skills",
-        "https://agentconn.com/agents/mattpocock-skills/",
-        "https://llmbase.ai/skills/mattpocock/",
         "https://x.com/cprkrn/status/2054586810475364536",
         "https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/",
         "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
+        "https://github.com/mattpocock/skills",
+        "https://agentconn.com/agents/mattpocock-skills/",
+        "https://llmbase.ai/skills/mattpocock/",
         "https://github.com/mattpocock/sandcastle",
         "https://www.sourcepulse.org/projects/27307520",
         "https://x.com/nichxbt/status/2046647915343741391",
@@ -15280,6 +15279,7 @@
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://x.com/i/article/2050613084558094336",
         "https://x.com/rohit4verse/status/2050968031493550202",
+        "https://www.youtube.com/watch?v=2TLXsxkz0zI",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -15299,10 +15299,6 @@
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
         "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
         "https://x.com/googledevs/status/2051700498328346945",
-        "https://openai.com/index/gpt-5-5-instant/",
-        "https://openai.com/index/gpt-5-5-instant-system-card/",
-        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-        "https://news.ycombinator.com/item?id=47903126",
         "https://programbench.com/",
         "https://arxiv.org/abs/2511.00079",
         "https://github.com/ProgramBench/ProgramBench",
@@ -15329,6 +15325,7 @@
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+        "https://x.com/sama/status/2049712078836170843",
         "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
         "https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/",
         "https://x.com/ProjectLoupe/status/2054252211756994678",
@@ -15345,21 +15342,6 @@
       ],
       "sourceReferences": [
         {
-          "href": "https://github.com/mattpocock/skills",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://agentconn.com/agents/mattpocock-skills/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://llmbase.ai/skills/mattpocock/",
-          "title": "Matt Pocock skills turned prompts into infrastructure",
-          "section": "Agent Infrastructure"
-        },
-        {
           "href": "https://x.com/cprkrn/status/2054586810475364536",
           "title": "Claude as bitcoin wallet forensics",
           "section": "Agent Infrastructure"
@@ -15372,6 +15354,21 @@
         {
           "href": "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
           "title": "Claude as bitcoin wallet forensics",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mattpocock/skills",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://agentconn.com/agents/mattpocock-skills/",
+          "title": "Matt Pocock, prompts better than me.",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://llmbase.ai/skills/mattpocock/",
+          "title": "Matt Pocock, prompts better than me.",
           "section": "Agent Infrastructure"
         },
         {
@@ -15436,6 +15433,11 @@
         },
         {
           "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=2TLXsxkz0zI",
           "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
@@ -15532,26 +15534,6 @@
         {
           "href": "https://x.com/googledevs/status/2051700498328346945",
           "title": "Gemma 4 app surface",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-          "title": "Vibe maths solves an Erdős problem",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://news.ycombinator.com/item?id=47903126",
-          "title": "Vibe maths solves an Erdős problem",
           "section": "Models & Research"
         },
         {
@@ -15686,6 +15668,11 @@
         },
         {
           "href": "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/sama/status/2049712078836170843",
           "title": "GPT-5.5-Cyber opens the trust gate",
           "section": "Security"
         },
@@ -17045,6 +17032,13 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
+          "href": "https://x.com/sama/status/2049712078836170843",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
           "title": "Pentagon picks a classified AI stack",
           "section": "Big Tech Moves",
@@ -17055,20 +17049,6 @@
           "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
           "title": "Pentagon picks a classified AI stack",
           "section": "Big Tech Moves",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://openai.com/index/gpt-5-5-instant-system-card/",
-          "title": "GPT-5.5 Instant becomes the default",
-          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
@@ -20017,7 +19997,7 @@
     "rawPageCount": 0,
     "linkCount": 168,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 329,
+    "sourceLinkCount": 327,
     "unresolvedLinkCount": 0
   }
 }

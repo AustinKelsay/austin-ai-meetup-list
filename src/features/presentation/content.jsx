@@ -456,6 +456,21 @@ function parseLinkMeta(href) {
       return { kind: "x", host, path, href };
     }
 
+    if (host === "huggingface.co") {
+      const parts = path.split("/").filter(Boolean);
+      const owner = parts[0] || "";
+      const model = parts[1] || "";
+      const isDataset = owner === "datasets";
+      return {
+        kind: "huggingface",
+        host,
+        owner: isDataset ? parts[1] || "" : owner,
+        model: isDataset ? parts[2] || "" : model,
+        type: isDataset ? "Dataset" : "Model",
+        href,
+      };
+    }
+
     return { kind: "generic", host, path, href };
   } catch {
     return { kind: "generic", host: href, path: "", href };
@@ -475,6 +490,24 @@ export function LinkCard({ href }) {
           <span className="link-card-domain">github.com</span>
           <span className="link-card-title">{meta.owner}/{meta.repo}</span>
           <span className="link-card-hint">Open repository -&gt;</span>
+        </div>
+      </a>
+    );
+  }
+
+  if (meta.kind === "huggingface") {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className="link-card link-card--huggingface">
+        <svg className="link-card-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="4" fill="currentColor" opacity="0.18" />
+          <path d="M8 10.5h8M8 14h5.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="8" cy="8" r="1.25" fill="currentColor" />
+          <circle cx="16" cy="8" r="1.25" fill="currentColor" />
+        </svg>
+        <div className="link-card-body">
+          <span className="link-card-domain">huggingface.co {meta.type}</span>
+          <span className="link-card-title">{meta.owner}/{meta.model}</span>
+          <span className="link-card-hint">Open model card -&gt;</span>
         </div>
       </a>
     );

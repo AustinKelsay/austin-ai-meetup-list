@@ -13,7 +13,7 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **GPT Image 2 gets UI-ish**, **PII filters are becoming local model infrastructure**, **GPT-5.5 Instant becomes the default**, and **GPT-5.5-Cyber opens the trust gate**.
+- [[Austin AI Club - May 13, 2026]]: **GPT Image 2 gets UI-ish**, **PII filters are becoming local model infrastructure**, and **GPT-5.5-Cyber opens the trust gate**.
 - [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.
 - [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **GPT-5.4 mini and nano**, and **OpenAI to acquire Astral**.
 - [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Claude Code + Codex updates roundup**, **GPT-5.4 mini**, and **Claude Kill?**.

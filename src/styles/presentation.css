@@ -563,6 +563,10 @@
   color: #f0f6fc;
 }
 
+.link-card--huggingface:hover .link-card-icon {
+  color: #ffcc4d;
+}
+
 .link-card--x:hover .link-card-icon {
   color: var(--text);
 }
