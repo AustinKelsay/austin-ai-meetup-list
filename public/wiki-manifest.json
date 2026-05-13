@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T15:44:27.582Z",
+  "generatedAt": "2026-05-13T18:15:56.615Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -3865,7 +3865,330 @@
         "supply-chain-security",
         "zai"
       ],
-      "referencedTopicSources": []
+      "referencedTopicSources": [
+        {
+          "href": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/addyosmani/status/2032875051830358197",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2038632251551023250",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://pandaily.com/zhipu-ai-launches-auto-claw-a-one-click-local-open-claw-that-turns-p-cs-into-24-7-ai-agents",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://cntechpost.com/2026/03/10/zhipu-launches-autoclaw-one-click-local-ai-deployment-rival-tech-giants/",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ollama/status/2038506792070914079",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.ollama.com/integrations/pi",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/hcompany_ai/status/2039021096649805937",
+          "title": "Holo3 computer-use models",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Fried_rice/status/2038894956459290963",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/realsigridjin/status/2038908883004227957",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/StraughterG/status/2039117804155068903",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/i/status/2039039787475353821",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/Gitlawb/openclaude",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.1",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.1",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2041550153354519022",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2040206444428189755",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2040206443094446558",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2042615534567457102",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2042648934238097842",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://finance.sina.com.cn/tech/roll/2026-04-11/doc-inhucmsx9421750.shtml",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NVIDIA/NemoClaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/sipeed/picoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/nullclaw/nullclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/qwibitai/nanoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/microclaw/microclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NousResearch/hermes-agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-Agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/badlogic/pi-mono",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.scalekit.com/blog/mcp-vs-cli-use",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/ravibits/status/2031807480448389375",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-the-codex-app/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2030221468244775131",
+          "title": "OpenClaw pairing bench",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/sandcastle",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.sourcepulse.org/projects/27307520",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://subq.ai/introducing-subq",
+          "title": "SubQ goes after 12M-token context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/alex_whedon/status/2051663268704636937",
+          "title": "SubQ goes after 12M-token context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/disclosetv/status/2048915961781104741",
+          "title": "Cursor + Claude deletes PocketOS production data",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
+      ]
     },
     {
       "id": "compute-strategy",
@@ -9322,7 +9645,330 @@
         "supply-chain-security",
         "zai"
       ],
-      "referencedTopicSources": []
+      "referencedTopicSources": [
+        {
+          "href": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/addyosmani/status/2032875051830358197",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2038632251551023250",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://pandaily.com/zhipu-ai-launches-auto-claw-a-one-click-local-open-claw-that-turns-p-cs-into-24-7-ai-agents",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://cntechpost.com/2026/03/10/zhipu-launches-autoclaw-one-click-local-ai-deployment-rival-tech-giants/",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ollama/status/2038506792070914079",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.ollama.com/integrations/pi",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/hcompany_ai/status/2039021096649805937",
+          "title": "Holo3 computer-use models",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Fried_rice/status/2038894956459290963",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/realsigridjin/status/2038908883004227957",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/StraughterG/status/2039117804155068903",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/i/status/2039039787475353821",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/Gitlawb/openclaude",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.1",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.1",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2041550153354519022",
+          "title": "GLM-5.1",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2040206444428189755",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2040206443094446558",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2042615534567457102",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2042648934238097842",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://finance.sina.com.cn/tech/roll/2026-04-11/doc-inhucmsx9421750.shtml",
+          "title": "Anthropic vs OpenClaw keeps escalating",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NVIDIA/NemoClaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/sipeed/picoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/nullclaw/nullclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/qwibitai/nanoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/microclaw/microclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NousResearch/hermes-agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-Agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/badlogic/pi-mono",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.scalekit.com/blog/mcp-vs-cli-use",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/ravibits/status/2031807480448389375",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-the-codex-app/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2030221468244775131",
+          "title": "OpenClaw pairing bench",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/sandcastle",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.sourcepulse.org/projects/27307520",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://subq.ai/introducing-subq",
+          "title": "SubQ goes after 12M-token context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/alex_whedon/status/2051663268704636937",
+          "title": "SubQ goes after 12M-token context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/disclosetv/status/2048915961781104741",
+          "title": "Cursor + Claude deletes PocketOS production data",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
+      ]
     },
     "compute-strategy": {
       "id": "compute-strategy",
