@@ -47,19 +47,34 @@ function PageLinkList({ title, pages, emptyLabel, onOpenRoute }) {
   );
 }
 
-function SourceReferenceList({ title, links, references, emptyLabel, showSourcePage = false }) {
-  const items =
+function buildSourceItems({ links, references, referencedTopicSources }) {
+  const directItems =
     references?.length > 0
-      ? references
+      ? references.map((reference) => ({
+          ...reference,
+          provenance: "Direct",
+        }))
       : links.map((href) => ({
           href,
           title: getSourceLinkLabel(href),
           section: "source",
+          provenance: "Direct",
         }));
 
+  const referencedItems = referencedTopicSources.map((reference) => ({
+    ...reference,
+    provenance: reference.sourcePageTitle
+      ? `From ${reference.sourcePageTitle}`
+      : "From referenced topic",
+  }));
+
+  return [...directItems, ...referencedItems];
+}
+
+function SourceReferenceList({ items, emptyLabel }) {
   return (
     <section className="wiki-detail-section">
-      <h3>{title}</h3>
+      <h3>Sources</h3>
       {items.length > 0 ? (
         <div className="wiki-link-list">
           {items.map((item) => (
@@ -72,7 +87,7 @@ function SourceReferenceList({ title, links, references, emptyLabel, showSourceP
               <span className="wiki-source-reference-copy">
                 <span className="wiki-link-label">{item.title}</span>
                 <small>{getSourceLinkLabel(item.href)}</small>
-                {showSourcePage && item.sourcePageTitle ? <small>{item.sourcePageTitle}</small> : null}
+                <small>{item.provenance}</small>
               </span>
               <small>{item.section || "source"}</small>
             </a>
@@ -104,6 +119,11 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
   const sourceLinks = selectedPage.sourceLinks ?? [];
   const sourceReferences = selectedPage.sourceReferences ?? [];
   const referencedTopicSources = selectedPage.referencedTopicSources ?? [];
+  const sourceItems = buildSourceItems({
+    links: sourceLinks,
+    references: sourceReferences,
+    referencedTopicSources,
+  });
 
   return (
     <aside className="wiki-detail">
@@ -114,7 +134,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
       </div>
 
       <div className="wiki-detail-meta">
-        <span>{pluralize(sourceLinks.length, "source link")}</span>
+        <span>{pluralize(sourceItems.length, "source")}</span>
         <span>{pluralize(outgoingPages.length, "wiki link")}</span>
         <span>{pluralize(backlinkPages.length, "backlink")}</span>
       </div>
@@ -125,19 +145,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
         ))}
       </div>
 
-      <SourceReferenceList
-        title="Source Links"
-        links={sourceLinks}
-        references={sourceReferences}
-        emptyLabel="No source links captured yet."
-      />
-      <SourceReferenceList
-        title="Referenced Topic Sources"
-        links={[]}
-        references={referencedTopicSources}
-        emptyLabel="No referenced topic sources yet."
-        showSourcePage
-      />
+      <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
       <PageLinkList
         title="Related Wiki Pages"
         pages={outgoingPages}

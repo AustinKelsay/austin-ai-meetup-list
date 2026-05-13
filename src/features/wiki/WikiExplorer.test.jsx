@@ -30,7 +30,8 @@ describe("WikiDetail", () => {
       />,
     );
 
-    expect(html).toContain("Source Links");
+    expect(html).toContain("Sources");
+    expect(html).toContain("Direct");
     expect(html).toContain("href=\"https://openai.com/release\"");
     expect(html).toContain("openai.com/release");
     expect(html).toContain("class=\"wiki-link-label\"");
@@ -74,7 +75,7 @@ describe("WikiDetail", () => {
     expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
   });
 
-  it("shows referenced topic sources separately from direct source links", () => {
+  it("shows referenced topic sources in the unified sources list", () => {
     const selectedPage = {
       id: "agent-infrastructure",
       title: "Agent Infrastructure",
@@ -108,10 +109,11 @@ describe("WikiDetail", () => {
       />,
     );
 
-    expect(html).toContain("Referenced Topic Sources");
-    expect(html).toContain("No source links captured yet.");
+    expect(html).toContain("Sources");
+    expect(html).not.toContain("Referenced Topic Sources");
+    expect(html).not.toContain("No source links captured yet.");
     expect(html).toContain("402 Index paid API loop demo");
-    expect(html).toContain("Austin AI Club - April 1, 2026");
+    expect(html).toContain("From Austin AI Club - April 1, 2026");
     expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
   });
 });
