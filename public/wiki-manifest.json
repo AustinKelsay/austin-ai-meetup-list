@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T19:45:17.169Z",
+  "generatedAt": "2026-05-13T19:58:59.863Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -4001,6 +4001,8 @@
         "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
         "https://x.com/xenovacom/status/2046979474613268993",
         "https://x.com/chiefofautism/status/2047582480140562542",
+        "https://hrf.org/program/ai-for-individual-rights/",
+        "https://x.com/TFTC21/status/2054591422959861780",
         "https://openai.com/daybreak",
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
@@ -4298,6 +4300,16 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security"
         },
         {
@@ -6022,6 +6034,8 @@
         "https://huggingface.co/datasets/nvidia/nemotron-pii",
         "https://x.com/xenovacom/status/2046979474613268993",
         "https://x.com/chiefofautism/status/2047582480140562542",
+        "https://hrf.org/program/ai-for-individual-rights/",
+        "https://x.com/TFTC21/status/2054591422959861780",
         "https://openai.com/daybreak",
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
@@ -6319,6 +6333,16 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security"
         },
         {
@@ -8348,6 +8372,20 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -12979,6 +13017,8 @@
         "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
         "https://x.com/xenovacom/status/2046979474613268993",
         "https://x.com/chiefofautism/status/2047582480140562542",
+        "https://hrf.org/program/ai-for-individual-rights/",
+        "https://x.com/TFTC21/status/2054591422959861780",
         "https://openai.com/daybreak",
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
@@ -13276,6 +13316,16 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security"
         },
         {
@@ -15000,6 +15050,8 @@
         "https://huggingface.co/datasets/nvidia/nemotron-pii",
         "https://x.com/xenovacom/status/2046979474613268993",
         "https://x.com/chiefofautism/status/2047582480140562542",
+        "https://hrf.org/program/ai-for-individual-rights/",
+        "https://x.com/TFTC21/status/2054591422959861780",
         "https://openai.com/daybreak",
         "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
         "https://openai.com/index/trusted-access-for-cyber/",
@@ -15297,6 +15349,16 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security"
         },
         {
@@ -17326,6 +17388,20 @@
         {
           "href": "https://x.com/chiefofautism/status/2047582480140562542",
           "title": "PII filters are becoming local model infrastructure",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://hrf.org/program/ai-for-individual-rights/",
+          "title": "HRF funds AI for individual rights",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/TFTC21/status/2054591422959861780",
+          "title": "HRF funds AI for individual rights",
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -19619,7 +19695,7 @@
     "rawPageCount": 0,
     "linkCount": 168,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 320,
+    "sourceLinkCount": 322,
     "unresolvedLinkCount": 0
   }
 }

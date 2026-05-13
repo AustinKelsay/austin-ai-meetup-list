@@ -361,6 +361,17 @@ export const meetups = [
             topStory: true,
           },
           {
+            title: "HRF funds AI for individual rights",
+            description:
+              "The Human Rights Foundation's AI grants are the freedom-tech version of the agent story: privacy-preserving assistants, pay-per-query AI over Bitcoin, and tools built for people under surveillance.",
+            chip: "freedom tech",
+            href: "https://hrf.org/program/ai-for-individual-rights/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/TFTC21/status/2054591422959861780?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
             title: "GPT-5.5-Cyber opens the trust gate",
             description:
               "OpenAI is giving vetted defenders more permissive cyber workflows through Trusted Access, with GPT-5.5-Cyber in limited preview for critical infrastructure teams. The main shift is access control around dual-use capability, not a simple cyber model beats everything launch.",

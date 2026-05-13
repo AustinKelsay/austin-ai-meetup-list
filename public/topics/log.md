@@ -7,6 +7,7 @@
 - Added Matt Pocock's skills repo as a highlighted Agent Infrastructure Topic and source record.
 - Added the Claude-assisted 5 BTC wallet recovery as an Agent Infrastructure Topic about AI forensics and debugging workflows.
 - Broadened the OpenAI Privacy Filter Topic into a local PII-filter comparison with NVIDIA GLiNER-PII and Nemotron PII.
+- Added HRF's AI for Individual Rights grant round as a Security Topic about privacy-preserving AI and freedom tech.
 - Added OpenAI Daybreak and same-day Palo Alto Networks coverage as support for the GPT-5.5-Cyber Topic.
 - Added Project Loupe as a Security Topic about AI vulnerability scanning for open-source Bitcoin projects.
 - Added the Mini Shai-Hulud npm/PyPI supply-chain wave as a highlighted Security Topic.

@@ -271,6 +271,17 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - https://x.com/xenovacom/status/2046979474613268993
   - https://x.com/chiefofautism/status/2047582480140562542
 
+### HRF funds AI for individual rights
+
+- HRF AI for Individual Rights program: https://hrf.org/program/ai-for-individual-rights/
+  - Type: program page
+  - Accessed: 2026-05-13
+  - Note: Primary source for HRF's AI for Individual Rights framing, privacy-protecting AI toolkit, pay-per-query AI tools, and grant program.
+- TFTC HRF AI grants post: https://x.com/TFTC21/status/2054591422959861780
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted discussion hook for HRF's 10 AI for Individual Rights grants and the Bitcoin/AI/freedom-tech angle.
+
 ### GPT-5.5-Cyber opens the trust gate
 
 - OpenAI Daybreak: https://openai.com/daybreak
