@@ -14,6 +14,7 @@
 // - mediaPair: combined topic, usually "video + reaction post"
 // - linkPair: side-by-side links, useful for repo + dashboard style items
 // - notes: optional presenter note (string) shown as a callout
+// - topStory: optional host-facing highlight in the meetup topic list
 // - suppressXEmbeds / suppressVideos / suppressImages: opt out of default media rendering
 //
 // Standard track taxonomy for recurring club meetups:
@@ -120,6 +121,14 @@ export const meetups = [
               "https://www.anthropic.com/news/higher-limits-spacex",
             ],
           },
+          {
+            title: "The agent harness belongs outside the sandbox",
+            description:
+              "Mendral's backend-harness argument is a clean agent infrastructure split: keep credentials, memory, and durable execution outside the disposable workspace, then reach into the sandbox over RPC.",
+            chip: "agent infra",
+            href: "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+            topStory: true,
+          },
         ],
       },
       {
@@ -224,6 +233,38 @@ export const meetups = [
               "https://openai.com/index/gpt-5-5-instant-system-card/",
             ],
           },
+          {
+            title: "Vibe maths solves an Erdős problem",
+            description:
+              "The notable bit is not ChatGPT did math. It is an amateur prompt surfacing a proof route experts say humans had missed, with the human work shifting to interpretation and compression.",
+            chip: "math",
+            href: "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+            linkPair: ["https://news.ycombinator.com/item?id=47903126"],
+            topStory: true,
+          },
+          {
+            title: "Talkie tests vintage-model generalization",
+            description:
+              "A 13B model trained only on pre-1931 text is a cleaner probe for what LMs learn from language versus the modern web. The fun question is whether scale lets a model learn post-cutoff skills like code from examples alone.",
+            chip: "vintage LM",
+            href: "https://talkie-lm.com/introducing-talkie",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/status_effects/status/2048878495539843211?ref_src=twsrc%5Etfw",
+            },
+            topStory: true,
+          },
+          {
+            title: "Red/blue button model behavior",
+            description:
+              "Jan Kulveit's red/blue button plots are a compact moral-decision probe: same dilemma, different models and reasoning settings, visibly different button preferences.",
+            chip: "behavior",
+            href: "https://x.com/jankulveit/status/2048808080188608953",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/jankulveit/status/2048808080188608953?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
       {
@@ -285,6 +326,32 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/AnthropicAI/status/2052466175540629965?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "AI resume screeners prefer AI-polished resumes",
+            description:
+              "Same candidate, AI-rewritten resume wins 97.6% of the time in the reported study. The security angle is automated gatekeeping that rewards model-fluent polish over the underlying human.",
+            chip: "hiring",
+            href: "https://x.com/heynavtoor/status/2048088874686300431",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/heynavtoor/status/2048088874686300431?ref_src=twsrc%5Etfw",
+            },
+            topStory: true,
+          },
+          {
+            title: "Cursor + Claude deletes PocketOS production data",
+            description:
+              "The alleged PocketOS incident is the nightmare version of agent authority: production database gone, backups destroyed, and the founder blaming his own prompt discipline afterward.",
+            chip: "agent risk",
+            href: "https://x.com/disclosetv/status/2048915961781104741",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/disclosetv/status/2048915961781104741?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "Host angle: compare whether the failure was agent autonomy, production permissions, backup design, or rage-prompting an agent with too much authority.",
+            topStory: true,
           },
         ],
       },

@@ -1,10 +1,10 @@
 ---
 title: Agent Security
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-12
 type: concept
 tags: [concept, security, agent-infrastructure]
-sources: [raw/articles/2026-04-15-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Agent Security
@@ -13,6 +13,7 @@ Agent Security covers the security controls, trust boundaries, governance toolin
 
 ## Mentioned In
 
+- [[Austin AI Club - May 13, 2026]]: the alleged Cursor/PocketOS deletion incident as an operational example of agent authority, production access, backup safety, and prompt discipline.
 - [[Austin AI Club - April 15, 2026]]: Microsoft Agent Governance Toolkit, OWASP Secure Agent Playbook, AI Trust Commons, and Anthropic Project Glasswing.
 - [[Austin AI Club - March 18, 2026]]: security nightmare thread, SEO injection, and agent threat-model examples.
 

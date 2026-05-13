@@ -394,6 +394,13 @@ export function TopicImage({ image }) {
 
 export function Topic({ item, id, onActivate }) {
   const isInteractive = typeof onActivate === "function";
+  const className = [
+    "topic",
+    isInteractive ? "topic--interactive" : "",
+    item.topStory ? "topic--top-story" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   const handleKeyDown = (event) => {
     if (!isInteractive) {
@@ -409,7 +416,7 @@ export function Topic({ item, id, onActivate }) {
   return (
     <li
       id={id}
-      className={`topic${isInteractive ? " topic--interactive" : ""}`}
+      className={className}
       role={isInteractive ? "button" : undefined}
       tabIndex={isInteractive ? 0 : undefined}
       onClick={isInteractive ? onActivate : undefined}

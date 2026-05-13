@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:14:10.988Z",
+  "generatedAt": "2026-05-12T18:53:19.094Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -19,7 +19,7 @@
       "sourceCount": 4,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -57,13 +57,14 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
       "rawHref": "/topics/concepts/agent-security.md",
       "relativePath": "concepts/agent-security.md",
@@ -72,6 +73,7 @@
         "ai-saas-supply-chain",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -794,6 +796,7 @@
         "https://claude.com/blog/new-in-claude-managed-agents",
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
+        "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -813,6 +816,11 @@
         "https://x.com/googledevs/status/2051700498328346945",
         "https://openai.com/index/gpt-5-5-instant/",
         "https://openai.com/index/gpt-5-5-instant-system-card/",
+        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+        "https://news.ycombinator.com/item?id=47903126",
+        "https://talkie-lm.com/introducing-talkie",
+        "https://x.com/status_effects/status/2048878495539843211",
+        "https://x.com/jankulveit/status/2048808080188608953",
         "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
         "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
         "https://openai.com/index/introducing-openai-privacy-filter/",
@@ -824,6 +832,8 @@
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://hackerone.com/anthropic",
         "https://x.com/AnthropicAI/status/2052466175540629965",
+        "https://x.com/heynavtoor/status/2048088874686300431",
+        "https://x.com/disclosetv/status/2048915961781104741",
         "https://www.anthropic.com/news/anthropic-amazon-compute",
         "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
         "https://x.com/anthropicai/status/2046327624092487688",
@@ -855,6 +865,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "agent-security",
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
@@ -881,14 +892,15 @@
         "local-builds"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -1134,6 +1146,7 @@
         "https://claude.com/blog/new-in-claude-managed-agents",
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
+        "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -1153,6 +1166,11 @@
         "https://x.com/googledevs/status/2051700498328346945",
         "https://openai.com/index/gpt-5-5-instant/",
         "https://openai.com/index/gpt-5-5-instant-system-card/",
+        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+        "https://news.ycombinator.com/item?id=47903126",
+        "https://talkie-lm.com/introducing-talkie",
+        "https://x.com/status_effects/status/2048878495539843211",
+        "https://x.com/jankulveit/status/2048808080188608953",
         "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
         "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
         "https://openai.com/index/introducing-openai-privacy-filter/",
@@ -1164,6 +1182,8 @@
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://hackerone.com/anthropic",
         "https://x.com/AnthropicAI/status/2052466175540629965",
+        "https://x.com/heynavtoor/status/2048088874686300431",
+        "https://x.com/disclosetv/status/2048915961781104741",
         "https://www.anthropic.com/news/anthropic-amazon-compute",
         "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
         "https://x.com/anthropicai/status/2046327624092487688",
@@ -1654,7 +1674,7 @@
       "sourceCount": 4,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -1692,13 +1712,14 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
       "rawHref": "/topics/concepts/agent-security.md",
       "relativePath": "concepts/agent-security.md",
@@ -1707,6 +1728,7 @@
         "ai-saas-supply-chain",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-may-13-2026",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -2429,6 +2451,7 @@
         "https://claude.com/blog/new-in-claude-managed-agents",
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
+        "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -2448,6 +2471,11 @@
         "https://x.com/googledevs/status/2051700498328346945",
         "https://openai.com/index/gpt-5-5-instant/",
         "https://openai.com/index/gpt-5-5-instant-system-card/",
+        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+        "https://news.ycombinator.com/item?id=47903126",
+        "https://talkie-lm.com/introducing-talkie",
+        "https://x.com/status_effects/status/2048878495539843211",
+        "https://x.com/jankulveit/status/2048808080188608953",
         "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
         "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
         "https://openai.com/index/introducing-openai-privacy-filter/",
@@ -2459,6 +2487,8 @@
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://hackerone.com/anthropic",
         "https://x.com/AnthropicAI/status/2052466175540629965",
+        "https://x.com/heynavtoor/status/2048088874686300431",
+        "https://x.com/disclosetv/status/2048915961781104741",
         "https://www.anthropic.com/news/anthropic-amazon-compute",
         "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
         "https://x.com/anthropicai/status/2046327624092487688",
@@ -2490,6 +2520,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "agent-security",
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
@@ -2516,14 +2547,15 @@
         "local-builds"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-12",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -2769,6 +2801,7 @@
         "https://claude.com/blog/new-in-claude-managed-agents",
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
+        "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -2788,6 +2821,11 @@
         "https://x.com/googledevs/status/2051700498328346945",
         "https://openai.com/index/gpt-5-5-instant/",
         "https://openai.com/index/gpt-5-5-instant-system-card/",
+        "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+        "https://news.ycombinator.com/item?id=47903126",
+        "https://talkie-lm.com/introducing-talkie",
+        "https://x.com/status_effects/status/2048878495539843211",
+        "https://x.com/jankulveit/status/2048808080188608953",
         "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
         "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
         "https://openai.com/index/introducing-openai-privacy-filter/",
@@ -2799,6 +2837,8 @@
         "https://openai.com/index/trusted-access-for-cyber/",
         "https://hackerone.com/anthropic",
         "https://x.com/AnthropicAI/status/2052466175540629965",
+        "https://x.com/heynavtoor/status/2048088874686300431",
+        "https://x.com/disclosetv/status/2048915961781104741",
         "https://www.anthropic.com/news/anthropic-amazon-compute",
         "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
         "https://x.com/anthropicai/status/2046327624092487688",
@@ -3295,6 +3335,10 @@
     {
       "source": "agent-infrastructure",
       "target": "vercel"
+    },
+    {
+      "source": "agent-security",
+      "target": "austin-ai-club-may-13-2026"
     },
     {
       "source": "agent-security",
@@ -4268,6 +4312,10 @@
       },
       {
         "source": "agent-security",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "agent-security",
         "target": "austin-ai-club-april-15-2026"
       },
       {
@@ -4907,9 +4955,9 @@
   "stats": {
     "pageCount": 28,
     "rawPageCount": 0,
-    "linkCount": 165,
+    "linkCount": 166,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 294,
+    "sourceLinkCount": 302,
     "unresolvedLinkCount": 0
   }
 }
