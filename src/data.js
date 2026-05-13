@@ -156,6 +156,17 @@ export const meetups = [
             href: "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
             topStory: true,
           },
+          {
+            title: "Dumb AI loops die in production",
+            description:
+              "Rohit's agent-systems writeup is the sober version of the loop hype: building, memory, harness, and orchestration all become product risk once state, auth, and unattended actions enter the chat.",
+            chip: "agent risk",
+            href: "https://x.com/i/article/2050613084558094336",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/rohit4verse/status/2050968031493550202?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
       {

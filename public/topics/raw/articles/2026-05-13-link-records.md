@@ -105,6 +105,17 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-12
   - Note: Supports the Topic about backend-run agent harnesses, sandbox RPC, durable execution, and virtualized file access.
 
+### Dumb AI loops die in production
+
+- Dumb AI loops article: https://x.com/i/article/2050613084558094336
+  - Type: article
+  - Accessed: 2026-05-13
+  - Note: Rohit's long-form writeup on production agent loops, covering building, memory, harnesses, orchestration, state poisoning, and auth failures.
+- Rohit dumb AI loops post: https://x.com/rohit4verse/status/2050968031493550202
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted discussion hook for the agent-loop production-risk Topic.
+
 ## Models & Research
 
 ### GPT Image 2 gets UI-ish

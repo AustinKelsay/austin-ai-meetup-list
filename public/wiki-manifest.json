@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T19:58:59.863Z",
+  "generatedAt": "2026-05-13T20:06:37.260Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -635,6 +635,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -676,6 +690,20 @@
         "supply-chain-security"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
         {
           "href": "https://openai.com/daybreak",
           "title": "GPT-5.5-Cyber opens the trust gate",
@@ -3963,6 +3991,8 @@
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+        "https://x.com/i/article/2050613084558094336",
+        "https://x.com/rohit4verse/status/2050968031493550202",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -4105,6 +4135,16 @@
         {
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
         {
@@ -5996,6 +6036,8 @@
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+        "https://x.com/i/article/2050613084558094336",
+        "https://x.com/rohit4verse/status/2050968031493550202",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -6138,6 +6180,16 @@
         {
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
         {
@@ -9651,6 +9703,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -9692,6 +9758,20 @@
         "supply-chain-security"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
         {
           "href": "https://openai.com/daybreak",
           "title": "GPT-5.5-Cyber opens the trust gate",
@@ -12979,6 +13059,8 @@
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+        "https://x.com/i/article/2050613084558094336",
+        "https://x.com/rohit4verse/status/2050968031493550202",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -13121,6 +13203,16 @@
         {
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
         {
@@ -15012,6 +15104,8 @@
         "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
         "https://www.anthropic.com/news/higher-limits-spacex",
         "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+        "https://x.com/i/article/2050613084558094336",
+        "https://x.com/rohit4verse/status/2050968031493550202",
         "https://developers.openai.com/api/docs/models/gpt-image-2",
         "https://x.com/chetaslua/status/2046489044243403029",
         "https://x.com/fofrAI/status/2046603571286720769",
@@ -15154,6 +15248,16 @@
         {
           "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
           "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/i/article/2050613084558094336",
+          "title": "Dumb AI loops die in production",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rohit4verse/status/2050968031493550202",
+          "title": "Dumb AI loops die in production",
           "section": "Agent Infrastructure"
         },
         {
@@ -19695,7 +19799,7 @@
     "rawPageCount": 0,
     "linkCount": 168,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 322,
+    "sourceLinkCount": 324,
     "unresolvedLinkCount": 0
   }
 }
