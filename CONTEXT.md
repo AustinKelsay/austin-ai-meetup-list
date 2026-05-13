@@ -155,7 +155,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - **Mentioned In** lists name exact **Topic Titles** in bold so humans can scan them and the **Wiki Explorer** can match them to source links.
 - Existing **Mentioned In** lists should be backfilled to use bold exact **Topic Titles**.
 - **LLM Wiki** linting lightly enforces that entity and concept **Mentioned In** bullets include a Meetup wikilink and at least one bold **Topic Title**.
-- The **Wiki Explorer** presents direct **Links** separately from aggregated **Referenced Topic Sources**.
+- The **Wiki Explorer** presents direct **Links** and aggregated **Referenced Topic Sources** in one **Sources** list with provenance labels.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.
 - The **Wiki Explorer** does not render full Markdown pages in v1.
@@ -269,7 +269,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 > **Domain expert:** "Use bold exact **Topic Titles** inside the note, like **Sandcastle**, so the wiki stays readable and machine-matchable."
 >
 > **Dev:** "Should referenced topic links appear in the same list as direct source links?"
-> **Domain expert:** "No — keep direct **Links** and aggregated **Referenced Topic Sources** in separate sections so readers know what each link supports."
+> **Domain expert:** "Yes in the **Wiki Explorer** UI — show both under **Sources**, while preserving provenance labels like direct source or referenced Meetup Topic source."
 >
 > **Dev:** "Does a submitted **Link** wait in a detached review queue?"
 > **Domain expert:** "No — it is a **Submission** for the target **Meetup** immediately, then the organizer can curate it into the board."
