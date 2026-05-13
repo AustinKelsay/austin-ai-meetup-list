@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T21:38:04.223Z",
+  "generatedAt": "2026-05-13T21:47:18.207Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -1365,32 +1365,69 @@
         "https://x.com/trychroma/status/2037243687240163693",
         "https://x.com/trychroma/status/2037243689853161868",
         "https://x.com/trychroma/status/2037243694894768143",
+        "https://x.com/_weiping/status/2034877099908243746",
+        "https://x.com/Wenliang_Dai/status/2035020886269690339",
         "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
         "https://huggingface.co/collections/nvidia/nemotron-cascade-2",
         "https://arxiv.org/abs/2603.19220",
+        "https://x.com/Zai_org/status/2037490078126084514",
         "https://docs.z.ai/devpack/using5.1",
         "https://docs.z.ai/guides/llm/glm-5",
         "https://x.com/Zai_org/status/2039371126984360085",
+        "https://x.com/MiniMax_AI/status/2034315320337522881",
         "https://www.minimax.io/news/minimax-m27-en",
         "https://platform.minimax.io/subscribe/coding-plan",
         "https://x.com/ArtificialAnlys/status/2037043552405119395",
         "https://x.com/hcompany_ai/status/2039021096649805937",
+        "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+        "https://x.com/Alibaba_Qwen/status/2038637124619231467",
+        "https://x.com/Ali_TongyiLab/status/2038609308750143762",
         "https://qwen.ai/research",
         "https://huggingface.co/collections/Qwen/qwen35",
+        "https://x.com/ArtificialAnlys/status/2038678855213568031",
+        "https://x.com/i/status/2039029358224871605",
+        "https://x.com/ArtificialAnlys/status/2038667075489808804",
+        "https://artificialanalysis.ai/leaderboards/models",
+        "https://x.com/ns123abc/status/2035058399067435474",
+        "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+        "https://x.com/fleetwood___/status/2037117778503626937",
+        "https://x.com/HuggingModels/status/2038398319417082125",
+        "https://x.com/KyleHessling1/status/2038672381850653119",
+        "https://x.com/Hesamation/status/2038642306434150427",
+        "https://x.com/UnslothAI/status/2038625148354679270",
+        "https://x.com/outsource_/status/2038999111039357302",
+        "https://x.com/aiwithmayank/status/2038918640519807340",
         "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
         "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "https://x.com/anthonyronning/status/2037586323834642859",
+        "https://weibo.com/6486870325/5277992772176164",
         "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "https://x.com/arcprize/status/2036860080541589529",
         "https://arcprize.org/arc-agi/3",
         "https://arcprize.org/competitions/2026/arc-agi-3",
+        "https://x.com/k1rallik/status/2038623484813648183",
+        "https://x.com/everyonebpup/status/2038589997788373139",
         "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
         "https://arxiv.org/abs/2504.19874",
+        "https://x.com/i/status/2036696569194647869",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
         "https://ngrok.com/blog/quantization",
         "https://huggingface.co/blog/not-lain/kv-caching",
+        "https://arxiv.org/html/2411.07191v2",
+        "https://x.com/i/status/2039089641043755036",
         "https://github.com/TheTom/turboquant_plus",
         "https://dnhkng.github.io/posts/rys/",
+        "https://x.com/anemll/status/2035901335984611412",
+        "https://x.com/adrgrondin/status/2039066539022778613",
+        "https://x.com/theo/status/2038051651823812839",
+        "https://x.com/thdxr/status/2038054914358645168",
+        "https://x.com/teortaxesTex/status/2038329816412283343",
+        "https://x.com/thdxr/status/2038619304447385906",
         "https://x.com/Fried_rice/status/2038894956459290963",
         "https://x.com/realsigridjin/status/2038908883004227957",
         "https://x.com/StraughterG/status/2039117804155068903",
+        "https://x.com/i/status/2039039787475353821",
         "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file",
         "https://github.com/Gitlawb/openclaude",
         "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
@@ -1401,13 +1438,17 @@
         "https://x.com/OpenAI/status/2039085161971896807",
         "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
         "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
+        "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
         "https://openai.com/index/openai-to-acquire-astral/",
         "https://astral.sh/blog/openai",
         "https://astral.sh",
         "https://x.com/soraofficialapp/status/2036532795984715896",
+        "https://x.com/i/status/2036577092360609999",
         "https://x.com/uncleJim21/status/2037241016626159979",
         "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
         "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+        "https://x.com/i/status/2036821577627517160",
         "https://electrek.co/2026/03/25/california-regulator-confirms-tesla-not-operating-autonomous-vehicle-service",
         "https://github.com/AustinKelsay/DISTILL"
       ],
@@ -1563,6 +1604,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/_weiping/status/2034877099908243746",
+          "title": "Nemotron-Cascade 2",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Wenliang_Dai/status/2035020886269690339",
+          "title": "Nemotron-Cascade 2",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
           "title": "Nemotron-Cascade 2",
           "section": "Models & Research"
@@ -1578,6 +1629,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Zai_org/status/2037490078126084514",
+          "title": "GLM-5.1",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://docs.z.ai/devpack/using5.1",
           "title": "GLM-5.1",
           "section": "Models & Research"
@@ -1590,6 +1646,11 @@
         {
           "href": "https://x.com/Zai_org/status/2039371126984360085",
           "title": "GLM-5V-Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
+          "title": "MiniMax M2.7",
           "section": "Models & Research"
         },
         {
@@ -1613,6 +1674,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2038637124619231467",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Ali_TongyiLab/status/2038609308750143762",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://qwen.ai/research",
           "title": "Qwen3.5-Omni",
           "section": "Models & Research"
@@ -1620,6 +1696,71 @@
         {
           "href": "https://huggingface.co/collections/Qwen/qwen35",
           "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2038678855213568031",
+          "title": "Cohere Transcribe",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/i/status/2039029358224871605",
+          "title": "Liquid AI LFM2.5-350M",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2038667075489808804",
+          "title": "GLM5 Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/leaderboards/models",
+          "title": "GLM5 Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ns123abc/status/2035058399067435474",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/fleetwood___/status/2037117778503626937",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/HuggingModels/status/2038398319417082125",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/KyleHessling1/status/2038672381850653119",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Hesamation/status/2038642306434150427",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2038625148354679270",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/outsource_/status/2038999111039357302",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/aiwithmayank/status/2038918640519807340",
+          "title": "Claude-distilled Qwen models trending on HF",
           "section": "Models & Research"
         },
         {
@@ -1633,6 +1774,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/anthonyronning/status/2037586323834642859",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://docs.z.ai/devpack/using5.1",
           "title": "Distillation hesitation",
           "section": "Models & Research"
@@ -1643,8 +1789,23 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://weibo.com/6486870325/5277992772176164",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
           "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/arcprize/status/2036860080541589529",
+          "title": "ARC AGI benchmark #3",
           "section": "Models & Research"
         },
         {
@@ -1654,6 +1815,16 @@
         },
         {
           "href": "https://arcprize.org/competitions/2026/arc-agi-3",
+          "title": "ARC AGI benchmark #3",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/k1rallik/status/2038623484813648183",
+          "title": "ARC AGI benchmark #3",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/everyonebpup/status/2038589997788373139",
           "title": "ARC AGI benchmark #3",
           "section": "Models & Research"
         },
@@ -1668,12 +1839,32 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/i/status/2036696569194647869",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ngrok.com/blog/quantization",
           "title": "Google TurboQuant",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/not-lain/kv-caching",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/html/2411.07191v2",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/i/status/2039089641043755036",
           "title": "Google TurboQuant",
           "section": "Models & Research"
         },
@@ -1688,6 +1879,36 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/anemll/status/2035901335984611412",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/adrgrondin/status/2039066539022778613",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/theo/status/2038051651823812839",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thdxr/status/2038054914358645168",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/teortaxesTex/status/2038329816412283343",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thdxr/status/2038619304447385906",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/Fried_rice/status/2038894956459290963",
           "title": "Claude Code source leaked via npm sourcemap",
           "section": "Security"
@@ -1699,6 +1920,11 @@
         },
         {
           "href": "https://x.com/StraughterG/status/2039117804155068903",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/i/status/2039039787475353821",
           "title": "Claude Code source leaked via npm sourcemap",
           "section": "Security"
         },
@@ -1753,6 +1979,16 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
+          "title": "White House pushes a national AI framework",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
+          "title": "White House pushes a national AI framework",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/openai-to-acquire-astral/",
           "title": "OpenAI to acquire Astral",
           "section": "Big Tech Moves"
@@ -1773,6 +2009,11 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/i/status/2036577092360609999",
+          "title": "Sora app shutdown",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://x.com/uncleJim21/status/2037241016626159979",
           "title": "MK-Ultrathink",
           "section": "Big Tech Moves"
@@ -1788,6 +2029,11 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/i/status/2036821577627517160",
+          "title": "Meta and Intel chip push",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://electrek.co/2026/03/25/california-regulator-confirms-tesla-not-operating-autonomous-vehicle-service",
           "title": "Tesla dodges AV regulation",
           "section": "Big Tech Moves"
@@ -1799,7 +2045,7 @@
         }
       ],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Public link records for Austin AI Club - April 1, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
       "rawHref": "/topics/raw/articles/2026-04-01-link-records.md",
       "relativePath": "raw/articles/2026-04-01-link-records.md",
@@ -4526,6 +4772,7 @@
         "google",
         "local-ai",
         "may-13-2026-source-link-records",
+        "microsoft",
         "nvidia",
         "open-models",
         "openai",
@@ -6785,13 +7032,14 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, and its changing relationship to OpenAI.",
       "rawHref": "/topics/entities/microsoft.md",
       "relativePath": "entities/microsoft.md",
@@ -6799,6 +7047,7 @@
         "agent-infrastructure",
         "agent-security",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-may-13-2026",
         "openai"
       ],
       "unresolvedLinks": [],
@@ -6806,6 +7055,27 @@
         "austin-ai-club-april-15-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+          "title": "Frontier model testing gets a federal lane",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
         {
           "href": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
           "title": "Everybody wants an agent story now",
@@ -10595,32 +10865,69 @@
         "https://x.com/trychroma/status/2037243687240163693",
         "https://x.com/trychroma/status/2037243689853161868",
         "https://x.com/trychroma/status/2037243694894768143",
+        "https://x.com/_weiping/status/2034877099908243746",
+        "https://x.com/Wenliang_Dai/status/2035020886269690339",
         "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
         "https://huggingface.co/collections/nvidia/nemotron-cascade-2",
         "https://arxiv.org/abs/2603.19220",
+        "https://x.com/Zai_org/status/2037490078126084514",
         "https://docs.z.ai/devpack/using5.1",
         "https://docs.z.ai/guides/llm/glm-5",
         "https://x.com/Zai_org/status/2039371126984360085",
+        "https://x.com/MiniMax_AI/status/2034315320337522881",
         "https://www.minimax.io/news/minimax-m27-en",
         "https://platform.minimax.io/subscribe/coding-plan",
         "https://x.com/ArtificialAnlys/status/2037043552405119395",
         "https://x.com/hcompany_ai/status/2039021096649805937",
+        "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+        "https://x.com/Alibaba_Qwen/status/2038637124619231467",
+        "https://x.com/Ali_TongyiLab/status/2038609308750143762",
         "https://qwen.ai/research",
         "https://huggingface.co/collections/Qwen/qwen35",
+        "https://x.com/ArtificialAnlys/status/2038678855213568031",
+        "https://x.com/i/status/2039029358224871605",
+        "https://x.com/ArtificialAnlys/status/2038667075489808804",
+        "https://artificialanalysis.ai/leaderboards/models",
+        "https://x.com/ns123abc/status/2035058399067435474",
+        "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+        "https://x.com/fleetwood___/status/2037117778503626937",
+        "https://x.com/HuggingModels/status/2038398319417082125",
+        "https://x.com/KyleHessling1/status/2038672381850653119",
+        "https://x.com/Hesamation/status/2038642306434150427",
+        "https://x.com/UnslothAI/status/2038625148354679270",
+        "https://x.com/outsource_/status/2038999111039357302",
+        "https://x.com/aiwithmayank/status/2038918640519807340",
         "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
         "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "https://x.com/anthonyronning/status/2037586323834642859",
+        "https://weibo.com/6486870325/5277992772176164",
         "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "https://x.com/arcprize/status/2036860080541589529",
         "https://arcprize.org/arc-agi/3",
         "https://arcprize.org/competitions/2026/arc-agi-3",
+        "https://x.com/k1rallik/status/2038623484813648183",
+        "https://x.com/everyonebpup/status/2038589997788373139",
         "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
         "https://arxiv.org/abs/2504.19874",
+        "https://x.com/i/status/2036696569194647869",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
         "https://ngrok.com/blog/quantization",
         "https://huggingface.co/blog/not-lain/kv-caching",
+        "https://arxiv.org/html/2411.07191v2",
+        "https://x.com/i/status/2039089641043755036",
         "https://github.com/TheTom/turboquant_plus",
         "https://dnhkng.github.io/posts/rys/",
+        "https://x.com/anemll/status/2035901335984611412",
+        "https://x.com/adrgrondin/status/2039066539022778613",
+        "https://x.com/theo/status/2038051651823812839",
+        "https://x.com/thdxr/status/2038054914358645168",
+        "https://x.com/teortaxesTex/status/2038329816412283343",
+        "https://x.com/thdxr/status/2038619304447385906",
         "https://x.com/Fried_rice/status/2038894956459290963",
         "https://x.com/realsigridjin/status/2038908883004227957",
         "https://x.com/StraughterG/status/2039117804155068903",
+        "https://x.com/i/status/2039039787475353821",
         "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file",
         "https://github.com/Gitlawb/openclaude",
         "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz",
@@ -10631,13 +10938,17 @@
         "https://x.com/OpenAI/status/2039085161971896807",
         "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
         "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
+        "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
         "https://openai.com/index/openai-to-acquire-astral/",
         "https://astral.sh/blog/openai",
         "https://astral.sh",
         "https://x.com/soraofficialapp/status/2036532795984715896",
+        "https://x.com/i/status/2036577092360609999",
         "https://x.com/uncleJim21/status/2037241016626159979",
         "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
         "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+        "https://x.com/i/status/2036821577627517160",
         "https://electrek.co/2026/03/25/california-regulator-confirms-tesla-not-operating-autonomous-vehicle-service",
         "https://github.com/AustinKelsay/DISTILL"
       ],
@@ -10793,6 +11104,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/_weiping/status/2034877099908243746",
+          "title": "Nemotron-Cascade 2",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Wenliang_Dai/status/2035020886269690339",
+          "title": "Nemotron-Cascade 2",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
           "title": "Nemotron-Cascade 2",
           "section": "Models & Research"
@@ -10808,6 +11129,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Zai_org/status/2037490078126084514",
+          "title": "GLM-5.1",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://docs.z.ai/devpack/using5.1",
           "title": "GLM-5.1",
           "section": "Models & Research"
@@ -10820,6 +11146,11 @@
         {
           "href": "https://x.com/Zai_org/status/2039371126984360085",
           "title": "GLM-5V-Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
+          "title": "MiniMax M2.7",
           "section": "Models & Research"
         },
         {
@@ -10843,6 +11174,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2038637124619231467",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Ali_TongyiLab/status/2038609308750143762",
+          "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://qwen.ai/research",
           "title": "Qwen3.5-Omni",
           "section": "Models & Research"
@@ -10850,6 +11196,71 @@
         {
           "href": "https://huggingface.co/collections/Qwen/qwen35",
           "title": "Qwen3.5-Omni",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2038678855213568031",
+          "title": "Cohere Transcribe",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/i/status/2039029358224871605",
+          "title": "Liquid AI LFM2.5-350M",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2038667075489808804",
+          "title": "GLM5 Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/leaderboards/models",
+          "title": "GLM5 Turbo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ns123abc/status/2035058399067435474",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/fleetwood___/status/2037117778503626937",
+          "title": "Composer 2 / Kimi K2.5 drama",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/HuggingModels/status/2038398319417082125",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/KyleHessling1/status/2038672381850653119",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Hesamation/status/2038642306434150427",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2038625148354679270",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/outsource_/status/2038999111039357302",
+          "title": "Claude-distilled Qwen models trending on HF",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/aiwithmayank/status/2038918640519807340",
+          "title": "Claude-distilled Qwen models trending on HF",
           "section": "Models & Research"
         },
         {
@@ -10863,6 +11274,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/anthonyronning/status/2037586323834642859",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://docs.z.ai/devpack/using5.1",
           "title": "Distillation hesitation",
           "section": "Models & Research"
@@ -10873,8 +11289,23 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://weibo.com/6486870325/5277992772176164",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
           "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+          "title": "Distillation hesitation",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/arcprize/status/2036860080541589529",
+          "title": "ARC AGI benchmark #3",
           "section": "Models & Research"
         },
         {
@@ -10884,6 +11315,16 @@
         },
         {
           "href": "https://arcprize.org/competitions/2026/arc-agi-3",
+          "title": "ARC AGI benchmark #3",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/k1rallik/status/2038623484813648183",
+          "title": "ARC AGI benchmark #3",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/everyonebpup/status/2038589997788373139",
           "title": "ARC AGI benchmark #3",
           "section": "Models & Research"
         },
@@ -10898,12 +11339,32 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/i/status/2036696569194647869",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ngrok.com/blog/quantization",
           "title": "Google TurboQuant",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/not-lain/kv-caching",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/html/2411.07191v2",
+          "title": "Google TurboQuant",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/i/status/2039089641043755036",
           "title": "Google TurboQuant",
           "section": "Models & Research"
         },
@@ -10918,6 +11379,36 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/anemll/status/2035901335984611412",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/adrgrondin/status/2039066539022778613",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/theo/status/2038051651823812839",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thdxr/status/2038054914358645168",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/teortaxesTex/status/2038329816412283343",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thdxr/status/2038619304447385906",
+          "title": "Local models getting glazed",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/Fried_rice/status/2038894956459290963",
           "title": "Claude Code source leaked via npm sourcemap",
           "section": "Security"
@@ -10929,6 +11420,11 @@
         },
         {
           "href": "https://x.com/StraughterG/status/2039117804155068903",
+          "title": "Claude Code source leaked via npm sourcemap",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/i/status/2039039787475353821",
           "title": "Claude Code source leaked via npm sourcemap",
           "section": "Security"
         },
@@ -10983,6 +11479,16 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a",
+          "title": "White House pushes a national AI framework",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework",
+          "title": "White House pushes a national AI framework",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/openai-to-acquire-astral/",
           "title": "OpenAI to acquire Astral",
           "section": "Big Tech Moves"
@@ -11003,6 +11509,11 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/i/status/2036577092360609999",
+          "title": "Sora app shutdown",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://x.com/uncleJim21/status/2037241016626159979",
           "title": "MK-Ultrathink",
           "section": "Big Tech Moves"
@@ -11018,6 +11529,11 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/i/status/2036821577627517160",
+          "title": "Meta and Intel chip push",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://electrek.co/2026/03/25/california-regulator-confirms-tesla-not-operating-autonomous-vehicle-service",
           "title": "Tesla dodges AV regulation",
           "section": "Big Tech Moves"
@@ -11029,7 +11545,7 @@
         }
       ],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Public link records for Austin AI Club - April 1, 2026. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.",
       "rawHref": "/topics/raw/articles/2026-04-01-link-records.md",
       "relativePath": "raw/articles/2026-04-01-link-records.md",
@@ -13756,6 +14272,7 @@
         "google",
         "local-ai",
         "may-13-2026-source-link-records",
+        "microsoft",
         "nvidia",
         "open-models",
         "openai",
@@ -16015,13 +16532,14 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-05-13",
       "excerpt": "Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, and its changing relationship to OpenAI.",
       "rawHref": "/topics/entities/microsoft.md",
       "relativePath": "entities/microsoft.md",
@@ -16029,6 +16547,7 @@
         "agent-infrastructure",
         "agent-security",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-may-13-2026",
         "openai"
       ],
       "unresolvedLinks": [],
@@ -16036,6 +16555,27 @@
         "austin-ai-club-april-15-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+          "title": "Frontier model testing gets a federal lane",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
         {
           "href": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
           "title": "Everybody wants an agent story now",
@@ -18908,6 +19448,10 @@
     },
     {
       "source": "microsoft",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "microsoft",
       "target": "austin-ai-club-april-15-2026"
     },
     {
@@ -19919,6 +20463,10 @@
       },
       {
         "source": "microsoft",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "microsoft",
         "target": "austin-ai-club-april-15-2026"
       },
       {
@@ -20170,7 +20718,7 @@
   "stats": {
     "pageCount": 29,
     "rawPageCount": 0,
-    "linkCount": 173,
+    "linkCount": 174,
     "sourceRecordCount": 4,
     "sourceLinkCount": 328,
     "unresolvedLinkCount": 0

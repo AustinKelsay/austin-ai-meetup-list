@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-13] update | Wiki consistency gardened
+
+- Backfilled missing April 1 board URLs into `raw/articles/2026-04-01-link-records.md` under the existing Track and Topic title groups.
+- Updated the Microsoft entity page with May 13 references for frontier-model testing and classified AI stack Topics.
+- Verified that dated Meetup URLs are covered by dated source records and that entity/concept `Mentioned In` Topic titles resolve to real Meetup board titles.
+
 ## [2026-05-13] update | Company Brain topic added
 
 - Added YC's Company Brain post as a highlighted Agent Infrastructure Topic.

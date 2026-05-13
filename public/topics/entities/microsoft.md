@@ -1,10 +1,10 @@
 ---
 title: Microsoft
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-13
 type: entity
 tags: [entity, company, agent-infrastructure, security]
-sources: [raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Microsoft
@@ -13,6 +13,7 @@ Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governan
 
 ## Mentioned In
 
+- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane** and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 15, 2026]]: **Everybody wants an agent story now**, **Microsoft Agent Governance Toolkit**, and **Microsoft ships in-house MAI models**.
 
 ## Related

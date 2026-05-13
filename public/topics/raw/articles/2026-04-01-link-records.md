@@ -1,7 +1,7 @@
 ---
 title: April 1, 2026 Source Link Records
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-13
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -97,6 +97,8 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 ### Nemotron-Cascade 2
 
 - Nemotron-Cascade 2 records:
+  - https://x.com/_weiping/status/2034877099908243746
+  - https://x.com/Wenliang_Dai/status/2035020886269690339
   - https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B
   - https://huggingface.co/collections/nvidia/nemotron-cascade-2
   - https://arxiv.org/abs/2603.19220
@@ -104,6 +106,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 ### GLM-5.1
 
 - GLM-5.1 records:
+  - https://x.com/Zai_org/status/2037490078126084514
   - https://docs.z.ai/devpack/using5.1
   - https://docs.z.ai/guides/llm/glm-5
 
@@ -115,6 +118,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 ### MiniMax M2.7
 
 - MiniMax records:
+  - https://x.com/MiniMax_AI/status/2034315320337522881
   - https://www.minimax.io/news/minimax-m27-en
   - https://platform.minimax.io/subscribe/coding-plan
 
@@ -131,41 +135,93 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 ### Qwen3.5-Omni
 
 - Qwen3.5-Omni records:
+  - https://x.com/Alibaba_Qwen/status/2038636335272194241
+  - https://x.com/Alibaba_Qwen/status/2038637124619231467
+  - https://x.com/Ali_TongyiLab/status/2038609308750143762
   - https://qwen.ai/research
   - https://huggingface.co/collections/Qwen/qwen35
+
+### Cohere Transcribe
+
+- Cohere Transcribe record:
+  - https://x.com/ArtificialAnlys/status/2038678855213568031
+
+### Liquid AI LFM2.5-350M
+
+- Liquid AI LFM2.5-350M record:
+  - https://x.com/i/status/2039029358224871605
+
+### GLM5 Turbo
+
+- GLM5 Turbo records:
+  - https://x.com/ArtificialAnlys/status/2038667075489808804
+  - https://artificialanalysis.ai/leaderboards/models
+
+### Composer 2 / Kimi K2.5 drama
+
+- Composer 2 / Kimi K2.5 records:
+  - https://x.com/ns123abc/status/2035058399067435474
+  - https://x.com/Kimi_Moonshot/status/2035074972943831491
+  - https://x.com/fleetwood___/status/2037117778503626937
 
 ### Claude-distilled Qwen models trending on HF
 
 - Distillation and benchmark records:
+  - https://x.com/HuggingModels/status/2038398319417082125
+  - https://x.com/KyleHessling1/status/2038672381850653119
+  - https://x.com/Hesamation/status/2038642306434150427
+  - https://x.com/UnslothAI/status/2038625148354679270
+  - https://x.com/outsource_/status/2038999111039357302
+  - https://x.com/aiwithmayank/status/2038918640519807340
   - https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled
   - https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
 
 ### Distillation hesitation
 
 - Distillation hesitation records:
+  - https://x.com/anthonyronning/status/2037586323834642859
   - https://docs.z.ai/devpack/using5.1
   - https://www.minimax.io/news/minimax-m27-en
+  - https://weibo.com/6486870325/5277992772176164
   - https://github.com/XiaomiMiMo/MiMo-V2-Flash
+  - https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
 
 ### ARC AGI benchmark #3
 
 - ARC AGI benchmark records:
+  - https://x.com/arcprize/status/2036860080541589529
   - https://arcprize.org/arc-agi/3
   - https://arcprize.org/competitions/2026/arc-agi-3
+  - https://x.com/k1rallik/status/2038623484813648183
+  - https://x.com/everyonebpup/status/2038589997788373139
 
 ### Google TurboQuant
 
 - Inference mechanics:
   - https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/
   - https://arxiv.org/abs/2504.19874
+  - https://x.com/i/status/2036696569194647869
+  - https://x.com/no_stp_on_snek/status/2036944965364834444
   - https://ngrok.com/blog/quantization
   - https://huggingface.co/blog/not-lain/kv-caching
+  - https://arxiv.org/html/2411.07191v2
+  - https://x.com/i/status/2039089641043755036
   - https://github.com/TheTom/turboquant_plus
 
 ### LLM neuroanatomy / RYS layer repetition
 
 - RYS layer repetition record:
   - https://dnhkng.github.io/posts/rys/
+
+### Local models getting glazed
+
+- Local models getting glazed records:
+  - https://x.com/anemll/status/2035901335984611412
+  - https://x.com/adrgrondin/status/2039066539022778613
+  - https://x.com/theo/status/2038051651823812839
+  - https://x.com/thdxr/status/2038054914358645168
+  - https://x.com/teortaxesTex/status/2038329816412283343
+  - https://x.com/thdxr/status/2038619304447385906
 
 ## Security
 
@@ -175,6 +231,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://x.com/Fried_rice/status/2038894956459290963
   - https://x.com/realsigridjin/status/2038908883004227957
   - https://x.com/StraughterG/status/2039117804155068903
+  - https://x.com/i/status/2039039787475353821
   - https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file
   - https://github.com/Gitlawb/openclaude
   - https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz
@@ -206,6 +263,8 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 - National AI framework records:
   - https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/
   - https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf
+  - https://apnews.com/article/479eb3d0a50fe7237678a9bfb146ac7a
+  - https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework
 
 ### OpenAI to acquire Astral
 
@@ -218,6 +277,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 
 - Sora app shutdown record:
   - https://x.com/soraofficialapp/status/2036532795984715896
+  - https://x.com/i/status/2036577092360609999
 
 ### MK-Ultrathink
 
@@ -229,6 +289,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 - Meta and Intel chip push records:
   - https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/
   - https://newsroom.arm.com/blog/introducing-arm-agi-cpu
+  - https://x.com/i/status/2036821577627517160
 
 ### Tesla dodges AV regulation
 
