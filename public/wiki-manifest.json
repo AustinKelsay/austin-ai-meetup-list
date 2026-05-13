@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:10:01.204Z",
+  "generatedAt": "2026-05-13T20:11:25.913Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -4016,6 +4016,9 @@
         "https://openai.com/index/gpt-5-5-instant-system-card/",
         "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
         "https://news.ycombinator.com/item?id=47903126",
+        "https://programbench.com/",
+        "https://arxiv.org/abs/2511.00079",
+        "https://github.com/ProgramBench/ProgramBench",
         "https://talkie-lm.com/introducing-talkie",
         "https://x.com/status_effects/status/2048878495539843211",
         "https://x.com/jankulveit/status/2048808080188608953",
@@ -4262,6 +4265,21 @@
         {
           "href": "https://news.ycombinator.com/item?id=47903126",
           "title": "Vibe maths solves an Erdős problem",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research"
         },
         {
@@ -4896,6 +4914,27 @@
         {
           "href": "https://x.com/anthonyronning/status/2053823121975542061",
           "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -6087,6 +6126,9 @@
         "https://openai.com/index/gpt-5-5-instant-system-card/",
         "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
         "https://news.ycombinator.com/item?id=47903126",
+        "https://programbench.com/",
+        "https://arxiv.org/abs/2511.00079",
+        "https://github.com/ProgramBench/ProgramBench",
         "https://talkie-lm.com/introducing-talkie",
         "https://x.com/status_effects/status/2048878495539843211",
         "https://x.com/jankulveit/status/2048808080188608953",
@@ -6333,6 +6375,21 @@
         {
           "href": "https://news.ycombinator.com/item?id=47903126",
           "title": "Vibe maths solves an Erdős problem",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research"
         },
         {
@@ -13136,6 +13193,9 @@
         "https://openai.com/index/gpt-5-5-instant-system-card/",
         "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
         "https://news.ycombinator.com/item?id=47903126",
+        "https://programbench.com/",
+        "https://arxiv.org/abs/2511.00079",
+        "https://github.com/ProgramBench/ProgramBench",
         "https://talkie-lm.com/introducing-talkie",
         "https://x.com/status_effects/status/2048878495539843211",
         "https://x.com/jankulveit/status/2048808080188608953",
@@ -13382,6 +13442,21 @@
         {
           "href": "https://news.ycombinator.com/item?id=47903126",
           "title": "Vibe maths solves an Erdős problem",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research"
         },
         {
@@ -14016,6 +14091,27 @@
         {
           "href": "https://x.com/anthonyronning/status/2053823121975542061",
           "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -15207,6 +15303,9 @@
         "https://openai.com/index/gpt-5-5-instant-system-card/",
         "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
         "https://news.ycombinator.com/item?id=47903126",
+        "https://programbench.com/",
+        "https://arxiv.org/abs/2511.00079",
+        "https://github.com/ProgramBench/ProgramBench",
         "https://talkie-lm.com/introducing-talkie",
         "https://x.com/status_effects/status/2048878495539843211",
         "https://x.com/jankulveit/status/2048808080188608953",
@@ -15453,6 +15552,21 @@
         {
           "href": "https://news.ycombinator.com/item?id=47903126",
           "title": "Vibe maths solves an Erdős problem",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://programbench.com/",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2511.00079",
+          "title": "ProgramBench says agents still cannot rebuild software",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/ProgramBench/ProgramBench",
+          "title": "ProgramBench says agents still cannot rebuild software",
           "section": "Models & Research"
         },
         {
@@ -19903,7 +20017,7 @@
     "rawPageCount": 0,
     "linkCount": 168,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 326,
+    "sourceLinkCount": 329,
     "unresolvedLinkCount": 0
   }
 }

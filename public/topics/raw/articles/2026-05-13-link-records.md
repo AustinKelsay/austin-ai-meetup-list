@@ -211,6 +211,21 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-12
   - Note: Optional supporting context for prompts, proof interpretation, and community skepticism around the vibe-maths claim.
 
+### ProgramBench says agents still cannot rebuild software
+
+- ProgramBench leaderboard and project page: https://programbench.com/
+  - Type: benchmark
+  - Accessed: 2026-05-13
+  - Note: Primary source for the binary-plus-docs whole-program recreation benchmark, 200-task leaderboard, and current frontier-model scores.
+- ProgramBench paper: https://arxiv.org/abs/2511.00079
+  - Type: paper
+  - Accessed: 2026-05-13
+  - Note: Research paper for the ProgramBench methodology, task design, and benchmark controls.
+- ProgramBench repo: https://github.com/ProgramBench/ProgramBench
+  - Type: repo
+  - Accessed: 2026-05-13
+  - Note: Source repository for the benchmark artifacts and evaluation tooling.
+
 ### Talkie tests vintage-model generalization
 
 - Talkie launch blog: https://talkie-lm.com/introducing-talkie

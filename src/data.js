@@ -292,6 +292,18 @@ export const meetups = [
             topStory: true,
           },
           {
+            title: "ProgramBench says agents still cannot rebuild software",
+            description:
+              "Given only binaries and docs, agents have to recreate full programs like jq, ripgrep, FFmpeg, and SQLite from scratch. GPT-5.5 xhigh tops the leaderboard at 0.5% fully solved, which is a useful cold shower for whole-codebase autonomy.",
+            chip: "benchmark",
+            href: "https://programbench.com/",
+            linkPair: [
+              "https://arxiv.org/abs/2511.00079",
+              "https://github.com/ProgramBench/ProgramBench",
+            ],
+            topStory: true,
+          },
+          {
             title: "Talkie tests vintage-model generalization",
             description:
               "A 13B model trained only on pre-1931 text is a cleaner probe for what LMs learn from language versus the modern web. The fun question is whether scale lets a model learn post-cutoff skills like code from examples alone.",
