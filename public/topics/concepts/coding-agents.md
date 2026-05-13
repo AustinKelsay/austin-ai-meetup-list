@@ -13,10 +13,10 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Sandcastle, Mendral's backend-harness architecture, SubQ's full-repo context claims, and the alleged Cursor/PocketOS deletion incident.
-- [[Austin AI Club - April 15, 2026]]: GLM-5.1, Anthropic/OpenClaw escalation, and agent-product launches.
-- [[Austin AI Club - April 1, 2026]]: Chrome DevTools MCP, AutoClaw, Ollama Pi, Claude Code source leak, and Holo3 computer-use models.
-- [[Austin AI Club - March 18, 2026]]: Agent Overload, CLI vs MCP, Claude Code plus Codex updates, and OpenClaw pairing benchmarks.
+- [[Austin AI Club - May 13, 2026]]: **Matt Pocock skills turned prompts into infrastructure**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **SubQ goes after 12M-token context**, and **Cursor + Claude deletes PocketOS production data**.
+- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.
+- [[Austin AI Club - April 1, 2026]]: **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code source leaked via npm sourcemap**, and **Holo3 computer-use models**.
+- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.
 
 ## Related
 

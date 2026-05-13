@@ -13,7 +13,7 @@ AI SaaS Supply Chain describes the security and operational risk created when AI
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Vercel's Context.ai incident was discussed as an AI SaaS supply-chain story rather than only a one-off vendor incident.
+- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**.
 
 ## Related
 

@@ -13,10 +13,10 @@ Qwen is a recurring model-family entity for open and API-accessible model releas
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Qwen3.6-27B was discussed through the lens of laptop-sized quantization and practical local-model tradeoffs.
-- [[Austin AI Club - April 15, 2026]]: Qwen3.6-Plus as a multimodal agent model with 1M context.
-- [[Austin AI Club - April 1, 2026]]: Qwen3.5-Omni, Claude-distilled Qwen models, and Qwen layer-repetition experiments.
-- [[Austin AI Club - March 18, 2026]]: Qwen 3.5 and Qwen Agent in the broader agent/model roundup.
+- [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**.
+- [[Austin AI Club - April 15, 2026]]: **Qwen3.6-Plus**.
+- [[Austin AI Club - April 1, 2026]]: **Qwen3.5-Omni**, **Claude-distilled Qwen models trending on HF**, and **LLM neuroanatomy / RYS layer repetition**.
+- [[Austin AI Club - March 18, 2026]]: **Qwen 3.5 series** and **Agent Overload**.
 
 ## Related
 

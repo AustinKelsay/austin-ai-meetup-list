@@ -13,9 +13,9 @@ Meta is a recurring Austin AI Club entity for open-weight model releases, agenti
 
 ## Mentioned In
 
-- [[Austin AI Club - April 15, 2026]]: Llama 4 and Muse Spark model positioning.
-- [[Austin AI Club - April 1, 2026]]: Meta and Arm data-center CPU work.
-- [[Austin AI Club - March 18, 2026]]: Moltbook and private AI with Confer.
+- [[Austin AI Club - April 15, 2026]]: **Llama 4 Scout & Maverick** and **Meta introduces Muse Spark**.
+- [[Austin AI Club - April 1, 2026]]: **Meta and Intel chip push**.
+- [[Austin AI Club - March 18, 2026]]: **Meta's "Moltbook"** and **Confer + Meta private AI**.
 
 ## Related
 

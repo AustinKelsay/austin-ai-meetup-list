@@ -13,7 +13,7 @@ Vercel is a recurring platform entity for frontend deployment, AI application in
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: the Context.ai incident was discussed as an [[AI SaaS Supply Chain]] story, where a third-party AI tool affected workspace access and operational trust boundaries.
+- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**.
 
 ## Related
 

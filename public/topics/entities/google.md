@@ -13,9 +13,9 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Gemma 4 app surfaces and MTP drafters.
-- [[Austin AI Club - April 15, 2026]]: Gemma 4 as an open model family with on-device agentic workflows.
-- [[Austin AI Club - April 1, 2026]]: TurboQuant as an inference-cost and KV-cache compression story.
+- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.
+- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.
+- [[Austin AI Club - April 1, 2026]]: **Google TurboQuant**.
 
 ## Related
 

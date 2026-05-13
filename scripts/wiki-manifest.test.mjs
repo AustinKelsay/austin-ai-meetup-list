@@ -402,4 +402,57 @@ sources: []
       },
     ]);
   });
+
+  it("aggregates referenced topic sources from exact topic titles in Mentioned In", async () => {
+    const topicsDir = await createTopicsDir({
+      "concepts/coding-agents.md": `---
+title: Coding Agents
+created: 2026-05-05
+updated: 2026-05-05
+type: concept
+tags: [concept, agent-infrastructure]
+sources: []
+---
+
+# Coding Agents
+
+Coding Agents covers tools that let models work in codebases.
+
+## Mentioned In
+
+- [[Austin AI Club - May 13, 2026]]: **SubQ goes after 12M-token context**.
+`,
+      "2026-05-13.md": `---
+title: Austin AI Club - May 13, 2026
+created: 2026-05-05
+updated: 2026-05-11
+type: meetup
+tags: [meetup, topic-board, models-research]
+sources: []
+---
+
+# Austin AI Club
+
+## May 13, 2026
+
+### Models & Research
+- **SubQ goes after 12M-token context** - Sparse attention changes context budgets.
+  Source: https://subq.ai/introducing-subq
+- **Other model story** - This should not be pulled into Coding Agents.
+  Source: https://example.com/other-model-story
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+
+    expect(manifest.pagesById["coding-agents"].referencedTopicSources).toEqual([
+      {
+        href: "https://subq.ai/introducing-subq",
+        title: "SubQ goes after 12M-token context",
+        section: "Models & Research",
+        sourcePageId: "austin-ai-club-may-13-2026",
+        sourcePageTitle: "Austin AI Club - May 13, 2026",
+      },
+    ]);
+  });
 });

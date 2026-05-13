@@ -2,6 +2,16 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-13] update | Missed May 13 highlight links added
+
+- Added Matt Pocock's skills repo as a highlighted Agent Infrastructure Topic and source record.
+- Added the Claude-assisted 5 BTC wallet recovery as an Agent Infrastructure Topic about AI forensics and debugging workflows.
+- Broadened the OpenAI Privacy Filter Topic into a local PII-filter comparison with NVIDIA GLiNER-PII and Nemotron PII.
+- Added OpenAI Daybreak and same-day Palo Alto Networks coverage as support for the GPT-5.5-Cyber Topic.
+- Added Project Loupe as a Security Topic about AI vulnerability scanning for open-source Bitcoin projects.
+- Added the Mini Shai-Hulud npm/PyPI supply-chain wave as a highlighted Security Topic.
+- Mirrored the new and broadened Topics into `src/data.js`.
+
 ## [2026-05-13] update | Source records grouped by board titles
 
 - Added the source-record convention that dated link records are grouped by Track, then curated Topic or Showcase title, then supporting Links.

@@ -13,8 +13,8 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Qwen quantization and Anthropic's AWS compute runway were discussed as different versions of the same pressure: make capable models usable within real compute limits.
-- [[Austin AI Club - April 1, 2026]]: NVIDIA AI factory infrastructure, TurboQuant, local-model flex posts, and Meta/Intel hardware moves.
+- [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.
+- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.
 
 ## Related
 

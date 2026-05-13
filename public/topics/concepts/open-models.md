@@ -13,10 +13,10 @@ Open Models covers open-weight and open-source model releases, their deployment 
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Qwen3.6 laptop-sized quantization and Gemma 4 deployment surfaces.
-- [[Austin AI Club - April 15, 2026]]: Gemma 4, Llama 4, Trinity-Large-Thinking, GLM-5.1, and Qwen3.6.
-- [[Austin AI Club - April 1, 2026]]: Nemotron-Cascade 2, Qwen3.5, Cohere Transcribe, Liquid AI, and Claude-distilled Qwen models.
-- [[Austin AI Club - March 18, 2026]]: Qwen 3.5, Nemotron v3, Mistral Small, MiniMax M2.7, and local model fit checks.
+- [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped** and **Gemma 4 app surface**.
+- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**, **Llama 4 Scout & Maverick**, **Trinity-Large-Thinking**, **GLM-5.1**, and **Qwen3.6-Plus**.
+- [[Austin AI Club - April 1, 2026]]: **Nemotron-Cascade 2**, **Qwen3.5-Omni**, **Cohere Transcribe**, **Liquid AI LFM2.5-350M**, and **Claude-distilled Qwen models trending on HF**.
+- [[Austin AI Club - March 18, 2026]]: **Qwen 3.5 series**, **Nemotron v3 series**, **Mistral Small**, **MiniMax M2.7**, and **LMfit**.
 
 ## Related
 

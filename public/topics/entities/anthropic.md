@@ -13,10 +13,10 @@ Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Anthropic's Amazon compute expansion was discussed as a [[Compute Strategy]] signal.
-- [[Austin AI Club - April 15, 2026]]: Project Glasswing, the fake-tool anti-distillation path, and the OpenClaw account-credit escalation.
-- [[Austin AI Club - April 1, 2026]]: Claude Code computer use, Claude-distilled Qwen models, and Claude Code source-leak fallout.
-- [[Austin AI Club - March 18, 2026]]: Anthropic Agent SDK, Claude Code updates, distillation claims, and the Department of War/OpenAI vendor fight.
+- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.
+- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.
+- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Claude-distilled Qwen models trending on HF**, and **Claude Code source leaked via npm sourcemap**.
+- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.
 
 ## Related
 

@@ -66,6 +66,10 @@ _Avoid_: Topic
 A Link shown from an entity or concept page because it supports a Topic that mentions or belongs to that page.
 _Avoid_: Concept source, entity source
 
+**Mentioned In**:
+The curated list on an entity or concept page that names the Meetups and specific Topics where that page is relevant.
+_Avoid_: Backlinks
+
 **Submission**:
 An incoming Link or Showcase contribution that is immediately associated with a target Meetup.
 _Avoid_: Suggestion, proposal
@@ -147,7 +151,10 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - **LLM Wiki** linting enforces that dated source link records do not place source bullets directly under **Track** headings.
 - **LLM Wiki** source link record backfills preserve readable source labels instead of forcing a fully normalized citation schema.
 - **LLM Wiki** entity and concept pages can aggregate **Referenced Topic Sources** without making those Links direct sources for the entity or concept itself.
-- **Referenced Topic Sources** are included when a **Topic** belongs to a matching **Track** or explicitly wikilinks to the entity or concept page.
+- **Referenced Topic Sources** are included when a **Topic** belongs to a matching **Track**, explicitly wikilinks to the entity or concept page, or is named by exact **Topic Title** in that page's **Mentioned In** list.
+- **Mentioned In** lists name exact **Topic Titles** in bold so humans can scan them and the **Wiki Explorer** can match them to source links.
+- Existing **Mentioned In** lists should be backfilled to use bold exact **Topic Titles**.
+- **LLM Wiki** linting lightly enforces that entity and concept **Mentioned In** bullets include a Meetup wikilink and at least one bold **Topic Title**.
 - The **Wiki Explorer** presents direct **Links** separately from aggregated **Referenced Topic Sources**.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.
@@ -255,6 +262,12 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 > **Dev:** "Should **OpenAI** show only links from OpenAI source pages, or links from any Topic that mentions OpenAI?"
 > **Domain expert:** "Show **Referenced Topic Sources** from any **Topic** that explicitly wikilinks [[OpenAI]], while preserving the Topic and Meetup context."
 >
+> **Dev:** "Can an entity or concept page's **Mentioned In** notes drive source aggregation?"
+> **Domain expert:** "Yes — but only when the note names exact **Topic Titles**, so **Referenced Topic Sources** stay traceable to curated Topics."
+>
+> **Dev:** "How should **Mentioned In** name those Topics?"
+> **Domain expert:** "Use bold exact **Topic Titles** inside the note, like **Sandcastle**, so the wiki stays readable and machine-matchable."
+>
 > **Dev:** "Should referenced topic links appear in the same list as direct source links?"
 > **Domain expert:** "No — keep direct **Links** and aggregated **Referenced Topic Sources** in separate sections so readers know what each link supports."
 >
@@ -310,6 +323,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - "link" was close to being treated as another name for **Topic** — resolved: **Links** are source material; **Topics** are curated discussion entries.
 - "source links on concept pages" was close to meaning direct sources for the **Concept** — resolved: concept and entity pages may show **Referenced Topic Sources** aggregated from related **Topics**.
 - "related sources" was close to meaning all links from related Meetups — resolved: **Referenced Topic Sources** come from matching **Track** placement or explicit Topic wikilinks.
+- "mentioned in" was close to being freeform prose only — resolved: **Mentioned In** can drive **Referenced Topic Sources** when it names exact **Topic Titles**.
 - "title" was close to meaning the original source title — resolved: **Topic Title** means the curator-authored board title for the **Topic**.
 - "showcase title" was close to being folded into **Topic Title** — resolved: **Showcase Titles** use the same source-record grouping shape without making **Showcases** into **Topics**.
 - "topic without links" was considered — resolved: every **Topic** requires at least one **Link**.

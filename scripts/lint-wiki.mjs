@@ -204,6 +204,46 @@ export function checkDatedSourceLinkRecordHierarchy(rel, body) {
   return hierarchyErrors;
 }
 
+export function checkMentionedInTopicTitles(rel, body, type) {
+  if (!["concept", "entity"].includes(type)) {
+    return [];
+  }
+
+  const mentionedInErrors = [];
+  const lines = body.split("\n");
+  let inMentionedIn = false;
+
+  for (const [index, rawLine] of lines.entries()) {
+    const line = rawLine.trimEnd();
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+      const title = headingMatch[2].trim().toLowerCase();
+      inMentionedIn = depth === 2 && title === "mentioned in";
+      continue;
+    }
+
+    if (!inMentionedIn || !line.trimStart().startsWith("- ")) {
+      continue;
+    }
+
+    if (!line.trimStart().match(/^-\s+\[\[Austin AI Club - [^\]]+\]\]/)) {
+      mentionedInErrors.push(
+        `${rel}:${index + 1}: Mentioned In bullets for concept/entity pages must start with a meetup wikilink`,
+      );
+    }
+
+    if (!/\*\*[^*]+\*\*/.test(line)) {
+      mentionedInErrors.push(
+        `${rel}:${index + 1}: Mentioned In bullets for concept/entity pages must include at least one bold exact Topic Title`,
+      );
+    }
+  }
+
+  return mentionedInErrors;
+}
+
 async function main() {
   for (const requiredPath of requiredPaths) {
     const absolutePath = path.join(topicsDir, requiredPath);
@@ -241,6 +281,8 @@ async function main() {
 
     if (frontmatter) {
       checkFrontmatter(file, frontmatter);
+      const rel = toPosix(path.relative(repoRoot, file));
+      errors.push(...checkMentionedInTopicTitles(rel, content, frontmatter.type));
       wikiIds.add(normalizeWikiId(frontmatter.title ?? ""));
     }
   }

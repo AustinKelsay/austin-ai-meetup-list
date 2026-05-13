@@ -6,7 +6,9 @@ export const TRACK_CATEGORY = {
   "Big Tech Moves": "platform",
 };
 
-export const REMINDER_SIGNUP_URL = (import.meta.env.VITE_REMINDER_SIGNUP_URL ?? "").trim();
+const viteEnv = import.meta.env ?? {};
+
+export const REMINDER_SIGNUP_URL = (viteEnv.VITE_REMINDER_SIGNUP_URL ?? "").trim();
 export const REMINDER_IFRAME_NAME = "reminder-signup-sink";
 export const BIWEEKLY_INTERVAL_DAYS = 14;
 export const DEFAULT_CALENDAR_EVENT_COUNT = 4;

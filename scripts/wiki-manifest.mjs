@@ -209,6 +209,47 @@ function collectSourceReferences(content, { sourceRecord = false } = {}) {
   return references;
 }
 
+function collectMentionedInTopicReferences(content) {
+  const references = [];
+  let inMentionedIn = false;
+
+  for (const rawLine of stripFrontmatter(content).split("\n")) {
+    const line = rawLine.trim();
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+      const title = headingMatch[2].trim().toLowerCase();
+      inMentionedIn = depth === 2 && title === "mentioned in";
+      continue;
+    }
+
+    if (!inMentionedIn || !line.startsWith("- ")) {
+      continue;
+    }
+
+    const meetupTitle = collectWikilinksFromLine(line)[0];
+    const topicTitles = [...line.matchAll(/\*\*([^*]+)\*\*/g)]
+      .map((match) => match[1].trim())
+      .filter(Boolean);
+
+    if (meetupTitle && topicTitles.length) {
+      references.push({ meetupTitle, topicTitles });
+    }
+  }
+
+  return references;
+}
+
+function normalizeTopicTitle(value) {
+  return String(value ?? "")
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
 function getSourceLinkTitle(href) {
   try {
     const url = new URL(href);
@@ -290,6 +331,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     backlinkIds: [],
     referencedTopicSources: [],
     wikilinks: collectWikilinks(content),
+    mentionedInTopicReferences: collectMentionedInTopicReferences(content),
   };
 }
 
@@ -418,10 +460,30 @@ export async function buildWikiManifest({ topicsDir }) {
     }
   }
 
+  for (const page of pages.filter((candidate) => ["concept", "entity"].includes(candidate.type))) {
+    for (const mention of page.mentionedInTopicReferences) {
+      const sourcePage = pagesById[titleToId.get(normalizeWikiId(mention.meetupTitle))];
+
+      if (!sourcePage) {
+        continue;
+      }
+
+      const topicTitles = new Set(mention.topicTitles.map(normalizeTopicTitle));
+
+      for (const reference of sourcePage.sourceReferences) {
+        if (topicTitles.has(normalizeTopicTitle(reference.title))) {
+          addReferencedTopicSource(page, reference, sourcePage);
+        }
+      }
+    }
+  }
+
   for (const page of pages) {
     for (const reference of page.sourceReferences) {
       delete reference.wikilinks;
     }
+
+    delete page.mentionedInTopicReferences;
   }
 
   const graph = {

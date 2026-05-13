@@ -67,6 +67,33 @@ export const meetups = [
           "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
         items: [
           {
+            title: "Matt Pocock skills turned prompts into infrastructure",
+            description:
+              "The viral bit is not the repo itself; it is that engineering taste, review loops, TDD, issue triage, and planning rituals are becoming portable agent behavior.",
+            chip: "agent skills",
+            href: "https://github.com/mattpocock/skills",
+            linkPair: [
+              "https://agentconn.com/agents/mattpocock-skills/",
+              "https://llmbase.ai/skills/mattpocock/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Claude as bitcoin wallet forensics",
+            description:
+              "A lost-wallet story became a weirdly good agent demo: dump the old computer context in, have Claude trace files, debug btcrecover, and turn digital archaeology into recovered keys.",
+            chip: "forensics",
+            href: "https://x.com/cprkrn/status/2054586810475364536",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/cprkrn/status/2054586810475364536?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/",
+              "https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/",
+            ],
+          },
+          {
             title: "Sandcastle",
             description:
               "TypeScript runner for sending coding agents into isolated worktrees and collecting the results.",
@@ -288,9 +315,31 @@ export const meetups = [
             ],
           },
           {
-            title: "OpenAI Privacy Filter gets inverted",
+            title: "Mini Shai-Hulud hits the AI dev supply chain",
             description:
-              "A 1.5B Apache-2.0 PII masking model becomes a local span extractor for names, emails, accounts, addresses, and secrets.",
+              "TanStack, Mistral AI, and other developer packages got pulled into a fresh supply-chain wave; the scary part is trusted package publishing turning into credential theft at CI speed.",
+            chip: "supply chain",
+            href: "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/hetmehtaa/status/2054158511073116266?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/theo/status/2054445127662477581?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://expel.com/blog/mini-shai-hulud-cross-ecosystem-supply-chain-worm-targeting-npm-pypi/",
+              "https://www.tomshardware.com/tech-industry/cyber-security/compromised-mistral-ai-and-tanstack-packages-may-have-exposed-github-cloud-and-ci-cd-credentials-in-mini-shai-hulud-malware-infection-supply-chain-campaign-spreads-across-npm-and-ai-developer-ecosystems-like-wildfire",
+            ],
+            topStory: true,
+          },
+          {
+            title: "PII filters are becoming local model infrastructure",
+            description:
+              "OpenAI shipped Privacy Filter, NVIDIA has GLiNER-PII, and the move is privacy protection becoming a small local model you put before logs, RAG, evals, and training data.",
             chip: "privacy",
             href: "https://openai.com/index/introducing-openai-privacy-filter/",
             embeds: [
@@ -305,8 +354,11 @@ export const meetups = [
             ],
             linkPair: [
               "https://huggingface.co/openai/privacy-filter",
+              "https://huggingface.co/nvidia/gliner-PII",
+              "https://huggingface.co/datasets/nvidia/nemotron-pii",
               "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
             ],
+            topStory: true,
           },
           {
             title: "GPT-5.5-Cyber opens the trust gate",
@@ -314,7 +366,25 @@ export const meetups = [
               "OpenAI is giving vetted defenders more permissive cyber workflows through Trusted Access, with GPT-5.5-Cyber in limited preview for critical infrastructure teams. The main shift is access control around dual-use capability, not a simple cyber model beats everything launch.",
             chip: "cyber",
             href: "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
-            linkPair: ["https://openai.com/index/trusted-access-for-cyber/"],
+            linkPair: [
+              "https://openai.com/daybreak",
+              "https://openai.com/index/trusted-access-for-cyber/",
+              "https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity",
+            ],
+          },
+          {
+            title: "Loupe scans Bitcoin open source before attackers do",
+            description:
+              "Block and Spiral are pointing AI vulnerability scanning at open-source Bitcoin projects, which is the practical defensive twin of the GPT-5.5-Cyber story.",
+            chip: "vuln scanning",
+            href: "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ProjectLoupe/status/2054252211756994678?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/",
+            ],
           },
           {
             title: "Anthropic opens the bounty door",

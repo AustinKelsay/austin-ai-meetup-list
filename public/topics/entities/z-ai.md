@@ -13,8 +13,8 @@ Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent w
 
 ## Mentioned In
 
-- [[Austin AI Club - April 15, 2026]]: GLM-5.1 as an open-source agentic coding model.
-- [[Austin AI Club - April 1, 2026]]: GLM-5.1, GLM-5V-Turbo, GLM5 Turbo, and AutoClaw.
+- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**.
+- [[Austin AI Club - April 1, 2026]]: **GLM-5.1**, **GLM-5V-Turbo**, **GLM5 Turbo**, and **Zai launches AutoClaw**.
 
 ## Related
 

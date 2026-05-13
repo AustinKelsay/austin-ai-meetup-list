@@ -13,7 +13,7 @@ Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governan
 
 ## Mentioned In
 
-- [[Austin AI Club - April 15, 2026]]: Microsoft Agent Framework, Agent Governance Toolkit, and MAI models.
+- [[Austin AI Club - April 15, 2026]]: **Everybody wants an agent story now**, **Microsoft Agent Governance Toolkit**, and **Microsoft ships in-house MAI models**.
 
 ## Related
 

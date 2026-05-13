@@ -1,7 +1,7 @@
 ---
 title: May 13, 2026 Source Link Records
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-13
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -12,6 +12,36 @@ sources: []
 Public link records for [[Austin AI Club - May 13, 2026]]. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.
 
 ## Agent Infrastructure
+
+### Matt Pocock skills turned prompts into infrastructure
+
+- Matt Pocock skills repo: https://github.com/mattpocock/skills
+  - Type: repo
+  - Accessed: 2026-05-13
+  - Note: Primary source for the reusable agent skills collection and installer workflow.
+- AgentConn mattpocock/skills profile: https://agentconn.com/agents/mattpocock-skills/
+  - Type: project index
+  - Accessed: 2026-05-13
+  - Note: Secondary popularity context for the repo's late-April trending and star-growth spike.
+- LLMBase Matt Pocock skills page: https://llmbase.ai/skills/mattpocock/
+  - Type: skills index
+  - Accessed: 2026-05-13
+  - Note: Supports the per-skill install/popularity angle for grill-me, TDD, architecture, and planning skills.
+
+### Claude as bitcoin wallet forensics
+
+- Claude bitcoin wallet recovery post: https://x.com/cprkrn/status/2054586810475364536
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted source for the claimed Claude-assisted 5 BTC wallet recovery.
+- Bitcoin.com Claude wallet recovery coverage: https://news.bitcoin.com/bitcoiner-dumps-old-computer-files-into-claude-ai-recovers-5-btc-lost-since-2015/
+  - Type: reporting
+  - Accessed: 2026-05-13
+  - Note: Durable source for the old-computer-files, btcrecover debugging, and legacy wallet recovery narrative.
+- BeInCrypto Claude wallet recovery coverage: https://beincrypto.com/bitcoin-wallet-claude-ai-recovery/
+  - Type: reporting
+  - Accessed: 2026-05-13
+  - Note: Secondary source for the 5 BTC recovery claim and AI-assisted technical workflow.
 
 ### Sandcastle
 
@@ -194,31 +224,86 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-05
   - Note: Supporting discussion reference for the Vercel Context.ai breach Topic.
 
-### OpenAI Privacy Filter gets inverted
+### Mini Shai-Hulud hits the AI dev supply chain
+
+- Wiz Mini Shai-Hulud TanStack writeup: https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised
+  - Type: security research
+  - Accessed: 2026-05-13
+  - Note: Durable technical source for the May 11 npm compromise wave and affected TanStack/developer-tooling packages.
+- Expel Mini Shai-Hulud npm/PyPI writeup: https://expel.com/blog/mini-shai-hulud-cross-ecosystem-supply-chain-worm-targeting-npm-pypi/
+  - Type: security research
+  - Accessed: 2026-05-13
+  - Note: Cross-ecosystem source for npm and PyPI package compromises, including TanStack, Mistral AI, and OpenSearch-related packages.
+- Tom's Hardware Mini Shai-Hulud coverage: https://www.tomshardware.com/tech-industry/cyber-security/compromised-mistral-ai-and-tanstack-packages-may-have-exposed-github-cloud-and-ci-cd-credentials-in-mini-shai-hulud-malware-infection-supply-chain-campaign-spreads-across-npm-and-ai-developer-ecosystems-like-wildfire
+  - Type: technology reporting
+  - Accessed: 2026-05-13
+  - Note: Reporting source connecting compromised Mistral AI and TanStack packages to GitHub, cloud, and CI/CD credential exposure risk.
+- Mini Shai-Hulud Het Mehta post: https://x.com/hetmehtaa/status/2054158511073116266
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted discussion hook for the ongoing Mini Shai-Hulud supply-chain wave.
+- Mini Shai-Hulud Theo post: https://x.com/theo/status/2054445127662477581
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted discussion hook for developer impact and urgency around the supply-chain wave.
+
+### PII filters are becoming local model infrastructure
 
 - OpenAI Privacy Filter: https://openai.com/index/introducing-openai-privacy-filter/
   - Type: company announcement
-  - Accessed: 2026-05-05
+  - Accessed: 2026-05-13
+  - Note: Primary source for OpenAI's open-weight local PII detection and redaction model.
 - Privacy Filter model: https://huggingface.co/openai/privacy-filter
   - Type: model page
-  - Accessed: 2026-05-05
+  - Accessed: 2026-05-13
 - Privacy Filter model card: https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf
   - Type: model card
-  - Accessed: 2026-05-05
+  - Accessed: 2026-05-13
+- NVIDIA GLiNER-PII model: https://huggingface.co/nvidia/gliner-PII
+  - Type: model page
+  - Accessed: 2026-05-13
+  - Note: NVIDIA span-level PII/PHI detector for structured and unstructured text, trained for 55+ entity types.
+- NVIDIA Nemotron PII dataset: https://huggingface.co/datasets/nvidia/nemotron-pii
+  - Type: dataset page
+  - Accessed: 2026-05-13
+  - Note: Synthetic training-data source for NVIDIA's PII filtering work.
 - Privacy Filter posts:
   - https://x.com/xenovacom/status/2046979474613268993
   - https://x.com/chiefofautism/status/2047582480140562542
 
 ### GPT-5.5-Cyber opens the trust gate
 
+- OpenAI Daybreak: https://openai.com/daybreak
+  - Type: product page
+  - Accessed: 2026-05-13
+  - Note: OpenAI's cyber-defense product surface for Codex Security, vulnerability scanning, patching, and trusted cyber access.
 - GPT-5.5-Cyber and Trusted Access for Cyber: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/
   - Type: company announcement
-  - Accessed: 2026-05-11
+  - Accessed: 2026-05-13
   - Note: Primary source for GPT-5.5-Cyber limited preview and Trusted Access for Cyber positioning.
 - Trusted Access for Cyber overview: https://openai.com/index/trusted-access-for-cyber/
   - Type: company announcement
-  - Accessed: 2026-05-11
+  - Accessed: 2026-05-13
   - Note: Background source for OpenAI's vetted cyber access framework.
+- Palo Alto Networks AI cyber model scan coverage: https://www.axios.com/2026/05/13/palo-alto-networks-mythos-gpt-cybersecurity
+  - Type: reporting
+  - Accessed: 2026-05-13
+  - Note: Same-day industry signal on Anthropic and OpenAI cyber models finding vulnerabilities in real products.
+
+### Loupe scans Bitcoin open source before attackers do
+
+- Meet Loupe: https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability
+  - Type: product announcement
+  - Accessed: 2026-05-13
+  - Note: Primary source for Block and Spiral's AI-powered vulnerability scanner for open-source Bitcoin projects.
+- Loupe launch coverage: https://glitchwire.com/news/blocks-spiral-launches-loupe-an-ai-vulnerability-scanner-for-open-source-bitcoin/
+  - Type: reporting
+  - Accessed: 2026-05-13
+  - Note: Secondary source for the defensive open-source Bitcoin security framing.
+- Project Loupe launch post: https://x.com/ProjectLoupe/status/2054252211756994678
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted launch post defining Loupe as an AI-powered vulnerability scanner for open-source Bitcoin projects.
 
 ### Anthropic opens the bounty door
 
