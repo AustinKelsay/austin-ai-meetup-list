@@ -89,6 +89,22 @@ function collectWikilinks(content) {
   return [...new Set(links)];
 }
 
+function collectWikilinksFromLine(line) {
+  const links = [];
+  const pattern = /\[\[([^\]\n]+)\]\]/g;
+  let match;
+
+  while ((match = pattern.exec(line)) !== null) {
+    const rawTarget = match[1].split("|")[0].split("#")[0].trim();
+
+    if (rawTarget && !links.includes(rawTarget)) {
+      links.push(rawTarget);
+    }
+  }
+
+  return links;
+}
+
 function collectSourceLinks(content) {
   const searchableContent = content
     .replace(/^---\n[\s\S]*?\n---\n?/, "")
@@ -126,6 +142,7 @@ function collectSourceReferences(content, { sourceRecord = false } = {}) {
   const references = [];
   let currentSection = "";
   let currentTitle = "";
+  let currentTopicWikilinks = [];
 
   for (const rawLine of searchableContent.split("\n")) {
     const line = rawLine.trim();
@@ -138,15 +155,20 @@ function collectSourceReferences(content, { sourceRecord = false } = {}) {
       if (sourceRecord && depth === 2) {
         currentSection = title;
         currentTitle = "";
+        currentTopicWikilinks = [];
       } else if (sourceRecord && depth === 3) {
         currentTitle = title;
+        currentTopicWikilinks = collectWikilinksFromLine(title);
       } else if (!sourceRecord && depth === 3) {
         currentSection = title;
         currentTitle = "";
+        currentTopicWikilinks = [];
       } else if (!sourceRecord && depth > 3) {
         currentTitle = title;
+        currentTopicWikilinks = collectWikilinksFromLine(title);
       } else if (!sourceRecord && depth === 2) {
         currentTitle = "";
+        currentTopicWikilinks = [];
       }
     }
 
@@ -154,6 +176,13 @@ function collectSourceReferences(content, { sourceRecord = false } = {}) {
 
     if (topicMatch) {
       currentTitle = topicMatch[1].trim();
+      currentTopicWikilinks = collectWikilinksFromLine(line);
+    } else if (currentTitle) {
+      for (const wikilink of collectWikilinksFromLine(line)) {
+        if (!currentTopicWikilinks.includes(wikilink)) {
+          currentTopicWikilinks.push(wikilink);
+        }
+      }
     }
 
     for (const href of extractUrls(line)) {
@@ -161,6 +190,7 @@ function collectSourceReferences(content, { sourceRecord = false } = {}) {
         href,
         title: currentTitle || currentSection || getSourceLinkTitle(href),
         section: currentSection,
+        wikilinks: currentTopicWikilinks,
       };
 
       if (
@@ -258,6 +288,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     outgoingIds: [],
     unresolvedLinks: [],
     backlinkIds: [],
+    referencedTopicSources: [],
     wikilinks: collectWikilinks(content),
   };
 }
@@ -268,6 +299,28 @@ function shouldIncludeInManifest(relativePath) {
 
 function sortByTitle(a, b) {
   return a.title.localeCompare(b.title) || a.id.localeCompare(b.id);
+}
+
+function addReferencedTopicSource(page, reference, sourcePage) {
+  const item = {
+    href: reference.href,
+    title: reference.title,
+    section: reference.section,
+    sourcePageId: sourcePage.id,
+    sourcePageTitle: sourcePage.title,
+  };
+
+  if (
+    !page.referencedTopicSources.some(
+      (existing) =>
+        existing.href === item.href &&
+        existing.title === item.title &&
+        existing.section === item.section &&
+        existing.sourcePageId === item.sourcePageId,
+    )
+  ) {
+    page.referencedTopicSources.push(item);
+  }
 }
 
 function isPublicPage(page) {
@@ -341,6 +394,34 @@ export async function buildWikiManifest({ topicsDir }) {
       .map((link) => link.source)
       .sort();
     delete page.wikilinks;
+  }
+
+  const trackConcepts = pages.filter((page) => page.type === "concept" && page.tags.includes("track"));
+
+  for (const sourcePage of pages.filter((page) => page.type === "meetup")) {
+    for (const reference of sourcePage.sourceReferences) {
+      const matchingConcept = trackConcepts.find(
+        (page) => normalizeWikiId(reference.section) === page.id,
+      );
+
+      if (matchingConcept) {
+        addReferencedTopicSource(matchingConcept, reference, sourcePage);
+      }
+
+      for (const wikilink of reference.wikilinks) {
+        const targetPage = pagesById[titleToId.get(normalizeWikiId(wikilink))];
+
+        if (targetPage) {
+          addReferencedTopicSource(targetPage, reference, sourcePage);
+        }
+      }
+    }
+  }
+
+  for (const page of pages) {
+    for (const reference of page.sourceReferences) {
+      delete reference.wikilinks;
+    }
   }
 
   const graph = {

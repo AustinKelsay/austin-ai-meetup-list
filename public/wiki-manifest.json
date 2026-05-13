@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T15:30:37.869Z",
+  "generatedAt": "2026-05-13T15:44:27.582Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -46,6 +46,554 @@
         "openai",
         "openclaw",
         "vercel"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.nvidia.com/gtc",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/ai-agents",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://build.nvidia.com/openshell",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://build.nvidia.com/nvidia/aiq",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-expands-open-model-families-to-power-the-next-wave-of-agentic-physical-and-healthcare-ai",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/jahooma/status/2034784332569878618",
+          "title": "Free coding agent with ad model",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/addyosmani/status/2032875051830358197",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ThrillerX_/status/2036864088341360670",
+          "title": "OpenAgents Autopilot",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/RyanTheGentry/status/2039036789252390970",
+          "title": "402 Index paid API loop demo",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/ryanthegentry/402index-mcp-server",
+          "title": "402 Index paid API loop demo",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2038632251551023250",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://pandaily.com/zhipu-ai-launches-auto-claw-a-one-click-local-open-claw-that-turns-p-cs-into-24-7-ai-agents",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://cntechpost.com/2026/03/10/zhipu-launches-autoclaw-one-click-local-ai-deployment-rival-tech-giants/",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ollama/status/2038506792070914079",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.ollama.com/integrations/pi",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/pleb_devs/status/2036911139485798755",
+          "title": "Osaurus local AI suite",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/claudeai/status/2038663014098899416",
+          "title": "Claude Code gets computer use",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.anarchai.org/",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/michaelneale/mesh-llm",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2039736688457507251",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2039805659525644595",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2040470801506541998",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://slack.com/blog/news/agent-orchestration",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://rivet.dev/changelog/2026-04-04-introducing-agentos/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/rivet-dev/agent-os",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.zenml.io/blog/kitaru-launch",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/zenml-io/kitaru",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://medium.com/agentspan/open-sourcing-agentspan-durable-ai-agents-069adc",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://agentspan.ai/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the-salesforce-acquisition/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NVIDIA/NemoClaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/sipeed/picoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/nullclaw/nullclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/qwibitai/nanoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/microclaw/microclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NousResearch/hermes-agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-Agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/badlogic/pi-mono",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.scalekit.com/blog/mcp-vs-cli-use",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/ravibits/status/2031807480448389375",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-websocket",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-conversations",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-models-prompting",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-server-controls",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-transcription",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.github.io/openai-agents-js/guides/voice-agents/quickstart/",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://agentclientprotocol.com/overview/introduction",
+          "title": "Frontier lab agent frameworks",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://platform.claude.com/docs/en/agent-sdk/quickstart",
+          "title": "Frontier lab agent frameworks",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-the-codex-app/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-accuses-deepseek-other-chinese-ai-developers-of-industrial-scale-copying-claims-distillation-included-24-000-fraudulent-accounts-and-16-million-exchanges-to-train-smaller-models",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.pcgamer.com/software/ai/anthropic-says-it-has-identified-thousands-of-fraudulent-accounts-taking-claude-and-extracting-its-capabilities-to-train-and-improve-their-own-models/",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.business-standard.com/technology/tech-news/anthropic-accuses-deepseek-minimax-of-stealing-data-from-ai-model-claude-126022400092_1.html",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2030221468244775131",
+          "title": "OpenClaw pairing bench",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/sandcastle",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.sourcepulse.org/projects/27307520",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/nichxbt/status/2046647915343741391",
+          "title": "Amnesic personal OS",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rrhoover/status/2048366028850163752",
+          "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+          "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/_vmlops/status/2048594851374243967",
+          "title": "Isaac Sim for beginners",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://developer.nvidia.com/isaac/sim",
+          "title": "Isaac Sim for beginners",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://claude.com/blog/new-in-claude-managed-agents",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/higher-limits-spacex",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+          "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -84,7 +632,8 @@
         "austin-ai-club-march-18-2026",
         "microsoft",
         "supply-chain-security"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "ai-saas-supply-chain",
@@ -118,6 +667,29 @@
         "privacy-tooling",
         "supply-chain-security",
         "vercel"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/theo/status/2046767107178676636",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -157,6 +729,43 @@
         "coding-agents",
         "compute-strategy",
         "model-distillation"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://hackerone.com/anthropic",
+          "title": "Anthropic opens the bounty door",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2052466175540629965",
+          "title": "Anthropic opens the bounty door",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthropicai/status/2046327624092487688",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -642,7 +1251,8 @@
         "austin-ai-club-april-1-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     {
       "id": "april-15-2026-source-link-records",
@@ -1099,7 +1709,8 @@
         "austin-ai-club-april-15-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     {
       "id": "austin-ai-club-april-1-2026",
@@ -1876,7 +2487,8 @@
         "qwen",
         "supply-chain-security",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "austin-ai-club-april-15-2026",
@@ -2366,7 +2978,8 @@
         "openclaw",
         "qwen",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "austin-ai-club-march-18-2026",
@@ -2815,7 +3428,8 @@
         "openclaw",
         "privacy-tooling",
         "qwen"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "austin-ai-club-may-13-2026",
@@ -3205,7 +3819,8 @@
         "qwen",
         "supply-chain-security",
         "vercel"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "coding-agents",
@@ -3249,7 +3864,8 @@
         "openclaw",
         "supply-chain-security",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "compute-strategy",
@@ -3288,6 +3904,50 @@
         "meta",
         "nvidia",
         "qwen"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/bnjmn_marie/status/2047786725846724918",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/teksedge/status/2047876512863633710",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.6",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthropicai/status/2046327624092487688",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -3324,6 +3984,29 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+          "title": "Frontier model testing gets a federal lane",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -3364,7 +4047,8 @@
         "austin-ai-club-may-13-2026",
         "google",
         "open-models"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "march-18-2026-source-link-records",
@@ -3779,7 +4463,8 @@
         "austin-ai-club-march-18-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     {
       "id": "may-13-2026-source-link-records",
@@ -4133,7 +4818,8 @@
         "austin-ai-club-may-13-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     {
       "id": "meta",
@@ -4171,7 +4857,8 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "open-models"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "microsoft",
@@ -4203,7 +4890,8 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-15-2026"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "model-distillation",
@@ -4244,7 +4932,8 @@
         "austin-ai-club-march-18-2026",
         "open-models",
         "openclaw"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "nvidia",
@@ -4283,6 +4972,22 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -4331,7 +5036,8 @@
         "model-distillation",
         "nvidia",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "openai",
@@ -4375,6 +5081,71 @@
         "coding-agents",
         "microsoft",
         "privacy-tooling"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://developers.openai.com/api/docs/models/gpt-image-2",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/chetaslua/status/2046489044243403029",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/fofrAI/status/2046603571286720769",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/yacineMTB/status/2046751282904338672",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/cto_junior/status/2046543490151240168",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openai.com/index/trusted-access-for-cyber/",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -4415,7 +5186,8 @@
         "austin-ai-club-march-18-2026",
         "coding-agents",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "privacy-tooling",
@@ -4451,6 +5223,43 @@
         "local-ai",
         "meta",
         "openai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/introducing-openai-privacy-filter/",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openai/privacy-filter",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/xenovacom/status/2046979474613268993",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/chiefofautism/status/2047582480140562542",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -4493,6 +5302,29 @@
         "compute-strategy",
         "model-distillation",
         "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/bnjmn_marie/status/2047786725846724918",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/teksedge/status/2047876512863633710",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.6",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -4529,7 +5361,8 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-may-13-2026",
         "model-distillation"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     {
       "id": "vercel",
@@ -4562,6 +5395,29 @@
         "agent-infrastructure",
         "ai-saas-supply-chain",
         "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/theo/status/2046767107178676636",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     {
@@ -4597,7 +5453,8 @@
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026"
-      ]
+      ],
+      "referencedTopicSources": []
     }
   ],
   "pagesById": {
@@ -4646,6 +5503,554 @@
         "openai",
         "openclaw",
         "vercel"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.nvidia.com/gtc",
+          "title": "GTC 2026 was an AI factory pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/ai-agents",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://build.nvidia.com/openshell",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://build.nvidia.com/nvidia/aiq",
+          "title": "NVIDIA wants a place in the agent stack too",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-expands-open-model-families-to-power-the-next-wave-of-agentic-physical-and-healthcare-ai",
+          "title": "Physical AI got pulled into the same pitch",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/jahooma/status/2034784332569878618",
+          "title": "Free coding agent with ad model",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/addyosmani/status/2032875051830358197",
+          "title": "Chrome DevTools MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ThrillerX_/status/2036864088341360670",
+          "title": "OpenAgents Autopilot",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/RyanTheGentry/status/2039036789252390970",
+          "title": "402 Index paid API loop demo",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/ryanthegentry/402index-mcp-server",
+          "title": "402 Index paid API loop demo",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2038632251551023250",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://pandaily.com/zhipu-ai-launches-auto-claw-a-one-click-local-open-claw-that-turns-p-cs-into-24-7-ai-agents",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://cntechpost.com/2026/03/10/zhipu-launches-autoclaw-one-click-local-ai-deployment-rival-tech-giants/",
+          "title": "Zai launches AutoClaw",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/ollama/status/2038506792070914079",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.ollama.com/integrations/pi",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://www.sci-tech-today.com/news/ollama-pi-coding-agent-launch-openclaw-customization/",
+          "title": "Ollama launches Pi",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/pleb_devs/status/2036911139485798755",
+          "title": "Osaurus local AI suite",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/claudeai/status/2038663014098899416",
+          "title": "Claude Code gets computer use",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-1-2026",
+          "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.anarchai.org/",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/michaelneale/mesh-llm",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2039736688457507251",
+          "title": "mesh-llm pools compute for open models",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2039805659525644595",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2040470801506541998",
+          "title": "Karpathy's LLM wiki idea",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://slack.com/blog/news/agent-orchestration",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://rivet.dev/changelog/2026-04-04-introducing-agentos/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/rivet-dev/agent-os",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.zenml.io/blog/kitaru-launch",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/zenml-io/kitaru",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://medium.com/agentspan/open-sourcing-agentspan-durable-ai-agents-069adc",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://agentspan.ai/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the-salesforce-acquisition/",
+          "title": "Everybody wants an agent story now",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-april-15-2026",
+          "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NVIDIA/NemoClaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/sipeed/picoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/nullclaw/nullclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/qwibitai/nanoclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/microclaw/microclaw",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/NousResearch/hermes-agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-Agent",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/badlogic/pi-mono",
+          "title": "Agent Overload",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.scalekit.com/blog/mcp-vs-cli-use",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/ravibits/status/2031807480448389375",
+          "title": "CLI vs MCP",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-websocket",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-conversations",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-models-prompting",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-server-controls",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/realtime-transcription",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.github.io/openai-agents-js/guides/voice-agents/quickstart/",
+          "title": "OpenAI WebSockets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://agentclientprotocol.com/overview/introduction",
+          "title": "Frontier lab agent frameworks",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://platform.claude.com/docs/en/agent-sdk/quickstart",
+          "title": "Frontier lab agent frameworks",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-the-codex-app/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
+          "title": "Claude Code + Codex updates roundup",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-accuses-deepseek-other-chinese-ai-developers-of-industrial-scale-copying-claims-distillation-included-24-000-fraudulent-accounts-and-16-million-exchanges-to-train-smaller-models",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.pcgamer.com/software/ai/anthropic-says-it-has-identified-thousands-of-fraudulent-accounts-taking-claude-and-extracting-its-capabilities-to-train-and-improve-their-own-models/",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://www.business-standard.com/technology/tech-news/anthropic-accuses-deepseek-minimax-of-stealing-data-from-ai-model-claude-126022400092_1.html",
+          "title": "Claude distillation claims",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2030221468244775131",
+          "title": "OpenClaw pairing bench",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/mattpocock/sandcastle",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.sourcepulse.org/projects/27307520",
+          "title": "Sandcastle",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/nichxbt/status/2046647915343741391",
+          "title": "Amnesic personal OS",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/rrhoover/status/2048366028850163752",
+          "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+          "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/_vmlops/status/2048594851374243967",
+          "title": "Isaac Sim for beginners",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://developer.nvidia.com/isaac/sim",
+          "title": "Isaac Sim for beginners",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://claude.com/blog/new-in-claude-managed-agents",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/higher-limits-spacex",
+          "title": "Claude Managed Agents learn between runs",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+          "title": "The agent harness belongs outside the sandbox",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "agent-security": {
@@ -4684,7 +6089,8 @@
         "austin-ai-club-march-18-2026",
         "microsoft",
         "supply-chain-security"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "ai-saas-supply-chain": {
       "id": "ai-saas-supply-chain",
@@ -4718,6 +6124,29 @@
         "privacy-tooling",
         "supply-chain-security",
         "vercel"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/theo/status/2046767107178676636",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "anthropic": {
@@ -4757,6 +6186,43 @@
         "coding-agents",
         "compute-strategy",
         "model-distillation"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://hackerone.com/anthropic",
+          "title": "Anthropic opens the bounty door",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2052466175540629965",
+          "title": "Anthropic opens the bounty door",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthropicai/status/2046327624092487688",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "april-1-2026-source-link-records": {
@@ -5242,7 +6708,8 @@
         "austin-ai-club-april-1-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     "april-15-2026-source-link-records": {
       "id": "april-15-2026-source-link-records",
@@ -5699,7 +7166,8 @@
         "austin-ai-club-april-15-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     "austin-ai-club-april-1-2026": {
       "id": "austin-ai-club-april-1-2026",
@@ -6476,7 +7944,8 @@
         "qwen",
         "supply-chain-security",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "austin-ai-club-april-15-2026": {
       "id": "austin-ai-club-april-15-2026",
@@ -6966,7 +8435,8 @@
         "openclaw",
         "qwen",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "austin-ai-club-march-18-2026": {
       "id": "austin-ai-club-march-18-2026",
@@ -7415,7 +8885,8 @@
         "openclaw",
         "privacy-tooling",
         "qwen"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "austin-ai-club-may-13-2026": {
       "id": "austin-ai-club-may-13-2026",
@@ -7805,7 +9276,8 @@
         "qwen",
         "supply-chain-security",
         "vercel"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "coding-agents": {
       "id": "coding-agents",
@@ -7849,7 +9321,8 @@
         "openclaw",
         "supply-chain-security",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "compute-strategy": {
       "id": "compute-strategy",
@@ -7888,6 +9361,50 @@
         "meta",
         "nvidia",
         "qwen"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/bnjmn_marie/status/2047786725846724918",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/teksedge/status/2047876512863633710",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.6",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthropicai/status/2046327624092487688",
+          "title": "Anthropic buys the AWS compute runway",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "google": {
@@ -7924,6 +9441,29 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+          "title": "Frontier model testing gets a federal lane",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "local-ai": {
@@ -7964,7 +9504,8 @@
         "austin-ai-club-may-13-2026",
         "google",
         "open-models"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "march-18-2026-source-link-records": {
       "id": "march-18-2026-source-link-records",
@@ -8379,7 +9920,8 @@
         "austin-ai-club-march-18-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     "may-13-2026-source-link-records": {
       "id": "may-13-2026-source-link-records",
@@ -8733,7 +10275,8 @@
         "austin-ai-club-may-13-2026"
       ],
       "unresolvedLinks": [],
-      "backlinkIds": []
+      "backlinkIds": [],
+      "referencedTopicSources": []
     },
     "meta": {
       "id": "meta",
@@ -8771,7 +10314,8 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "open-models"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "microsoft": {
       "id": "microsoft",
@@ -8803,7 +10347,8 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-15-2026"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "model-distillation": {
       "id": "model-distillation",
@@ -8844,7 +10389,8 @@
         "austin-ai-club-march-18-2026",
         "open-models",
         "openclaw"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "nvidia": {
       "id": "nvidia",
@@ -8883,6 +10429,22 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "open-models": {
@@ -8931,7 +10493,8 @@
         "model-distillation",
         "nvidia",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "openai": {
       "id": "openai",
@@ -8975,6 +10538,71 @@
         "coding-agents",
         "microsoft",
         "privacy-tooling"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://developers.openai.com/api/docs/models/gpt-image-2",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/chetaslua/status/2046489044243403029",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/fofrAI/status/2046603571286720769",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/yacineMTB/status/2046751282904338672",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/cto_junior/status/2046543490151240168",
+          "title": "GPT Image 2 gets UI-ish",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openai.com/index/trusted-access-for-cyber/",
+          "title": "GPT-5.5-Cyber opens the trust gate",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-makes-agreements-7-companies-add-ai-classified-networks/413264/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "title": "Pentagon picks a classified AI stack",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "openclaw": {
@@ -9015,7 +10643,8 @@
         "austin-ai-club-march-18-2026",
         "coding-agents",
         "zai"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "privacy-tooling": {
       "id": "privacy-tooling",
@@ -9051,6 +10680,43 @@
         "local-ai",
         "meta",
         "openai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/introducing-openai-privacy-filter/",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openai/privacy-filter",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/xenovacom/status/2046979474613268993",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/chiefofautism/status/2047582480140562542",
+          "title": "OpenAI Privacy Filter gets inverted",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "qwen": {
@@ -9093,6 +10759,29 @@
         "compute-strategy",
         "model-distillation",
         "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/bnjmn_marie/status/2047786725846724918",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/teksedge/status/2047876512863633710",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.6",
+          "title": "Qwen3.6-27B gets laptop-shaped",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "supply-chain-security": {
@@ -9129,7 +10818,8 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-may-13-2026",
         "model-distillation"
-      ]
+      ],
+      "referencedTopicSources": []
     },
     "vercel": {
       "id": "vercel",
@@ -9162,6 +10852,29 @@
         "agent-infrastructure",
         "ai-saas-supply-chain",
         "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-saas-supply-chain-vercel-contextai-2026/",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/theo/status/2046767107178676636",
+          "title": "Vercel's Context.ai breach",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
       ]
     },
     "zai": {
@@ -9197,7 +10910,8 @@
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026"
-      ]
+      ],
+      "referencedTopicSources": []
     }
   },
   "rawPages": [],

@@ -73,4 +73,45 @@ describe("WikiDetail", () => {
     expect(html).toContain("Agent Infrastructure");
     expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
   });
+
+  it("shows referenced topic sources separately from direct source links", () => {
+    const selectedPage = {
+      id: "agent-infrastructure",
+      title: "Agent Infrastructure",
+      type: "concept",
+      tags: ["concept", "track"],
+      sourceCount: 0,
+      sourceLinks: [],
+      sourceReferences: [],
+      referencedTopicSources: [
+        {
+          href: "https://github.com/ryanthegentry/402index-mcp-server",
+          title: "402 Index paid API loop demo",
+          section: "Agent Infrastructure",
+          sourcePageTitle: "Austin AI Club - April 1, 2026",
+        },
+      ],
+      outgoingIds: [],
+      backlinkIds: [],
+      unresolvedLinks: [],
+      excerpt: "Agent Infrastructure covers runtimes and protocols.",
+      rawHref: "/topics/concepts/agent-infrastructure.md",
+    };
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="agent-infrastructure"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("Referenced Topic Sources");
+    expect(html).toContain("No source links captured yet.");
+    expect(html).toContain("402 Index paid API loop demo");
+    expect(html).toContain("Austin AI Club - April 1, 2026");
+    expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
+  });
 });

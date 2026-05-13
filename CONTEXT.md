@@ -62,6 +62,10 @@ An editorial lens for evaluating how topics affect attack surfaces, misuse paths
 A source URL that supports a Topic or is submitted for possible curation into a Topic.
 _Avoid_: Topic
 
+**Referenced Topic Source**:
+A Link shown from an entity or concept page because it supports a Topic that mentions or belongs to that page.
+_Avoid_: Concept source, entity source
+
 **Submission**:
 An incoming Link or Showcase contribution that is immediately associated with a target Meetup.
 _Avoid_: Suggestion, proposal
@@ -142,6 +146,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - **LLM Wiki** source link records use **Showcase Titles** for Showcase source groups without treating **Showcases** as **Topics**.
 - **LLM Wiki** linting enforces that dated source link records do not place source bullets directly under **Track** headings.
 - **LLM Wiki** source link record backfills preserve readable source labels instead of forcing a fully normalized citation schema.
+- **LLM Wiki** entity and concept pages can aggregate **Referenced Topic Sources** without making those Links direct sources for the entity or concept itself.
+- **Referenced Topic Sources** are included when a **Topic** belongs to a matching **Track** or explicitly wikilinks to the entity or concept page.
+- The **Wiki Explorer** presents direct **Links** separately from aggregated **Referenced Topic Sources**.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.
 - The **Wiki Explorer** does not render full Markdown pages in v1.
@@ -242,6 +249,15 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 > **Dev:** "When a source link record points back to a Meetup, should it use the article title or the board wording?"
 > **Domain expert:** "Use the **Topic Title** from the **Meetup** so readers can see the curated discussion angle, not just the source title."
 >
+> **Dev:** "Should **Agent Infrastructure** show every source link from Topics in that track?"
+> **Domain expert:** "Yes — show them as **Referenced Topic Sources**, because they support the underlying **Topics**, not the abstract **Concept** directly."
+>
+> **Dev:** "Should **OpenAI** show only links from OpenAI source pages, or links from any Topic that mentions OpenAI?"
+> **Domain expert:** "Show **Referenced Topic Sources** from any **Topic** that explicitly wikilinks [[OpenAI]], while preserving the Topic and Meetup context."
+>
+> **Dev:** "Should referenced topic links appear in the same list as direct source links?"
+> **Domain expert:** "No — keep direct **Links** and aggregated **Referenced Topic Sources** in separate sections so readers know what each link supports."
+>
 > **Dev:** "Does a submitted **Link** wait in a detached review queue?"
 > **Domain expert:** "No — it is a **Submission** for the target **Meetup** immediately, then the organizer can curate it into the board."
 >
@@ -292,6 +308,8 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - "security" was close to being only a **Track** — resolved: **Security** is both a standard **Track** and a **Security Lens**.
 - "big tech" was close to excluding policy and infrastructure — resolved: **Big Tech Moves** includes platform-scale policy, regulation, energy, export-control, and infrastructure changes when they shape AI development.
 - "link" was close to being treated as another name for **Topic** — resolved: **Links** are source material; **Topics** are curated discussion entries.
+- "source links on concept pages" was close to meaning direct sources for the **Concept** — resolved: concept and entity pages may show **Referenced Topic Sources** aggregated from related **Topics**.
+- "related sources" was close to meaning all links from related Meetups — resolved: **Referenced Topic Sources** come from matching **Track** placement or explicit Topic wikilinks.
 - "title" was close to meaning the original source title — resolved: **Topic Title** means the curator-authored board title for the **Topic**.
 - "showcase title" was close to being folded into **Topic Title** — resolved: **Showcase Titles** use the same source-record grouping shape without making **Showcases** into **Topics**.
 - "topic without links" was considered — resolved: every **Topic** requires at least one **Link**.
