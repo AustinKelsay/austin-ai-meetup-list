@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-13] update | Company Brain topic added
+
+- Added YC's Company Brain post as a highlighted Agent Infrastructure Topic.
+- Added the submitted Company Brain visual thumbnail as a local image asset.
+- Created the Company Brain concept page and updated related wiki indexes.
+- Mirrored the new Topic into `src/data.js` with a tweet embed and image.
+
 ## [2026-05-13] update | Missed May 13 highlight links added
 
 - Added Matt Pocock's skills repo as a highlighted Agent Infrastructure Topic and source record.

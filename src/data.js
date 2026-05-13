@@ -132,6 +132,23 @@ export const meetups = [
             ],
           },
           {
+            title: "YC wants a company brain",
+            description:
+              "YC's Company Brain RFS is the same agent-memory story at company scale: turn Slack, tickets, docs, and database know-how into a living map that agents can actually operate against.",
+            chip: "company brain",
+            href: "https://x.com/ycombinator/status/2048834293779378437",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ycombinator/status/2048834293779378437?ref_src=twsrc%5Etfw",
+            },
+            image: {
+              src: "/images/company-brain-yc.jpg",
+              href: "https://x.com/ycombinator/status/2048834293779378437",
+              caption: "YC's Company Brain post thumbnail.",
+            },
+            topStory: true,
+          },
+          {
             title: "Isaac Sim for beginners",
             description:
               "NVIDIA's robotics simulator pitch: prototype the chassis, wheels, sensors, and environment before touching hardware.",

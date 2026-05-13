@@ -72,6 +72,17 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-05
   - Note: Visual/product reference for agents as fields.
 
+### YC wants a company brain
+
+- YC Company Brain post: https://x.com/ycombinator/status/2048834293779378437
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted source for YC's company-brain framing: a living map of company know-how for agents.
+- YC Company Brain post thumbnail: /images/company-brain-yc.jpg
+  - Type: image
+  - Accessed: 2026-05-13
+  - Note: Local copy of the visual thumbnail attached to the submitted X post.
+
 ### Isaac Sim for beginners
 
 - Isaac Sim: https://developer.nvidia.com/isaac/sim

@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-05-13 | Total pages: 28
+> Last updated: 2026-05-13 | Total pages: 29
 
 ## Meetups
 
@@ -28,6 +28,7 @@
 - [[Agent Infrastructure]]
 - [[Agent Security]]
 - [[AI SaaS Supply Chain]]
+- [[Company Brain]]
 - [[Coding Agents]]
 - [[Compute Strategy]]
 - [[Local AI]]

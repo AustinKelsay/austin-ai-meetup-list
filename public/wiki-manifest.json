@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:49:17.082Z",
+  "generatedAt": "2026-05-13T21:38:04.223Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -29,6 +29,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "company-brain",
         "openai",
         "vercel"
       ],
@@ -41,6 +42,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "coding-agents",
+        "company-brain",
         "microsoft",
         "nvidia",
         "openai",
@@ -590,6 +592,13 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -4006,6 +4015,7 @@
         "https://x.com/nichxbt/status/2046647915343741391",
         "https://x.com/rrhoover/status/2048366028850163752",
         "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+        "https://x.com/ycombinator/status/2048834293779378437",
         "https://x.com/_vmlops/status/2048594851374243967",
         "https://developer.nvidia.com/isaac/sim",
         "https://claude.com/blog/new-in-claude-managed-agents",
@@ -4129,6 +4139,11 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure"
         },
         {
@@ -4479,7 +4494,7 @@
       ],
       "created": "2026-05-05",
       "updated": "2026-05-13",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Company Brain, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
       "rawHref": "/topics/2026-05-13.md",
       "relativePath": "2026-05-13.md",
       "outgoingIds": [
@@ -4487,6 +4502,7 @@
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
+        "company-brain",
         "compute-strategy",
         "google",
         "local-ai",
@@ -4505,6 +4521,7 @@
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
+        "company-brain",
         "compute-strategy",
         "google",
         "local-ai",
@@ -4558,6 +4575,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "company-brain",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -5017,6 +5035,45 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-april-15-2026",
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        }
+      ]
+    },
+    {
+      "id": "company-brain",
+      "title": "Company Brain",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-13",
+      "updated": "2026-05-13",
+      "excerpt": "Company Brain is the idea that a company's tacit and scattered know-how should become a living operational map for AI agents: docs, tickets, Slack context, support history, databases, and workflows turned into something agents can search, update, and act against.",
+      "rawHref": "/topics/concepts/company-brain.md",
+      "relativePath": "concepts/company-brain.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -6104,6 +6161,7 @@
         "https://x.com/nichxbt/status/2046647915343741391",
         "https://x.com/rrhoover/status/2048366028850163752",
         "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+        "https://x.com/ycombinator/status/2048834293779378437",
         "https://developer.nvidia.com/isaac/sim",
         "https://x.com/_vmlops/status/2048594851374243967",
         "https://claude.com/blog/new-in-claude-managed-agents",
@@ -6227,6 +6285,11 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure"
         },
         {
@@ -9196,6 +9259,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "company-brain",
         "openai",
         "vercel"
       ],
@@ -9208,6 +9272,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "coding-agents",
+        "company-brain",
         "microsoft",
         "nvidia",
         "openai",
@@ -9757,6 +9822,13 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
@@ -13173,6 +13245,7 @@
         "https://x.com/nichxbt/status/2046647915343741391",
         "https://x.com/rrhoover/status/2048366028850163752",
         "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+        "https://x.com/ycombinator/status/2048834293779378437",
         "https://x.com/_vmlops/status/2048594851374243967",
         "https://developer.nvidia.com/isaac/sim",
         "https://claude.com/blog/new-in-claude-managed-agents",
@@ -13296,6 +13369,11 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure"
         },
         {
@@ -13646,7 +13724,7 @@
       ],
       "created": "2026-05-05",
       "updated": "2026-05-13",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Company Brain, Coding Agents, Open Models, Local AI, AI SaaS Supply Chain, Supply Chain Security, Privacy Tooling, OpenAI, Anthropic, Google, NVIDIA, Qwen, Vercel, Compute Strategy.",
       "rawHref": "/topics/2026-05-13.md",
       "relativePath": "2026-05-13.md",
       "outgoingIds": [
@@ -13654,6 +13732,7 @@
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
+        "company-brain",
         "compute-strategy",
         "google",
         "local-ai",
@@ -13672,6 +13751,7 @@
         "ai-saas-supply-chain",
         "anthropic",
         "coding-agents",
+        "company-brain",
         "compute-strategy",
         "google",
         "local-ai",
@@ -13725,6 +13805,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "company-brain",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -14184,6 +14265,45 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-april-15-2026",
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        }
+      ]
+    },
+    "company-brain": {
+      "id": "company-brain",
+      "title": "Company Brain",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-13-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-13",
+      "updated": "2026-05-13",
+      "excerpt": "Company Brain is the idea that a company's tacit and scattered know-how should become a living operational map for AI agents: docs, tickets, Slack context, support history, databases, and workflows turned into something agents can search, update, and act against.",
+      "rawHref": "/topics/concepts/company-brain.md",
+      "relativePath": "concepts/company-brain.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-13-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         }
       ]
     },
@@ -15271,6 +15391,7 @@
         "https://x.com/nichxbt/status/2046647915343741391",
         "https://x.com/rrhoover/status/2048366028850163752",
         "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
+        "https://x.com/ycombinator/status/2048834293779378437",
         "https://developer.nvidia.com/isaac/sim",
         "https://x.com/_vmlops/status/2048594851374243967",
         "https://claude.com/blog/new-in-claude-managed-agents",
@@ -15394,6 +15515,11 @@
         {
           "href": "https://dribbble.com/shots/25870869-Attio-AI-Attributes",
           "title": "Agents as fields",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ycombinator/status/2048834293779378437",
+          "title": "YC wants a company brain",
           "section": "Agent Infrastructure"
         },
         {
@@ -18361,6 +18487,10 @@
       "target": "vercel"
     },
     {
+      "source": "agent-infrastructure",
+      "target": "company-brain"
+    },
+    {
       "source": "agent-security",
       "target": "austin-ai-club-may-13-2026"
     },
@@ -18582,6 +18712,10 @@
     },
     {
       "source": "austin-ai-club-may-13-2026",
+      "target": "company-brain"
+    },
+    {
+      "source": "austin-ai-club-may-13-2026",
       "target": "coding-agents"
     },
     {
@@ -18663,6 +18797,18 @@
     {
       "source": "coding-agents",
       "target": "anthropic"
+    },
+    {
+      "source": "company-brain",
+      "target": "austin-ai-club-may-13-2026"
+    },
+    {
+      "source": "company-brain",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "company-brain",
+      "target": "coding-agents"
     },
     {
       "source": "compute-strategy",
@@ -19137,6 +19283,15 @@
         ]
       },
       {
+        "id": "company-brain",
+        "label": "Company Brain",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "agent-infrastructure"
+        ]
+      },
+      {
         "id": "compute-strategy",
         "label": "Compute Strategy",
         "type": "concept",
@@ -19341,6 +19496,10 @@
       {
         "source": "agent-infrastructure",
         "target": "vercel"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "company-brain"
       },
       {
         "source": "agent-security",
@@ -19564,6 +19723,10 @@
       },
       {
         "source": "austin-ai-club-may-13-2026",
+        "target": "company-brain"
+      },
+      {
+        "source": "austin-ai-club-may-13-2026",
         "target": "coding-agents"
       },
       {
@@ -19645,6 +19808,18 @@
       {
         "source": "coding-agents",
         "target": "anthropic"
+      },
+      {
+        "source": "company-brain",
+        "target": "austin-ai-club-may-13-2026"
+      },
+      {
+        "source": "company-brain",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "company-brain",
+        "target": "coding-agents"
       },
       {
         "source": "compute-strategy",
@@ -19993,11 +20168,11 @@
     ]
   },
   "stats": {
-    "pageCount": 28,
+    "pageCount": 29,
     "rawPageCount": 0,
-    "linkCount": 168,
+    "linkCount": 173,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 327,
+    "sourceLinkCount": 328,
     "unresolvedLinkCount": 0
   }
 }
