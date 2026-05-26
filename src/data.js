@@ -139,6 +139,20 @@ export const meetups = [
               "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
             ],
           },
+          {
+            title: "DeepSWE exposes the real coding model hierarchy",
+            description:
+              "New benchmark reveals GPT-5.5 leads at 70% while other models cluster much lower, shattering the illusion that frontier coding agents are roughly equivalent. Unlike SWE-bench Pro's narrow 30-point spread, DeepSWE shows a 70-point performance gap on realistic engineering tasks.",
+            chip: "benchmarks",
+            href: "https://deepswe.datacurve.ai/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/theo/status/2059352130289651925?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+            ],
+          },
         ],
       },
       {

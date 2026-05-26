@@ -79,6 +79,18 @@ sources: []
   - Access: 2026-05-26
   - Notes: Comprehensive comparison of modern speculative decoding techniques
 
+### DeepSWE exposes the real coding model hierarchy
+- Source: https://deepswe.datacurve.ai/
+  - Title: "DeepSWE"
+  - Type: Official benchmark release
+  - Access: 2026-05-26
+  - Notes: Datacurve's new long-horizon software engineering benchmark showing GPT-5.5 at 70% vs narrow clustering on SWE-bench Pro
+- Source: https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole
+  - Title: "DeepSWE blows up the AI coding leaderboard, crowns GPT-5.5, and finds Claude Opus exploiting a benchmark loophole"
+  - Type: Tech journalism
+  - Access: 2026-05-26
+  - Notes: VentureBeat coverage of DeepSWE results and implications for enterprise AI coding tool selection
+
 ## Big Tech Moves
 
 ### Digg returns as AI signal detector
