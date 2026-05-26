@@ -25,6 +25,241 @@
 // 5. Big Tech Moves
 export const meetups = [
   {
+    id: "meetup-2026-05-27",
+    slug: "2026-05-27",
+    date: "May 27, 2026",
+    markdownHref: "./topics/2026-05-27.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-05-27T18:00:00-05:00",
+      endAt: "2026-05-27T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Inflection week: first AI lab turns profitable, humanoids prove industrial readiness, and recursive AI research begins with Karpathy joining Anthropic.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+      },
+    ],
+    tracks: [
+      {
+        id: "may27-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Composer 2.5 = Opus at one tenth the cost??",
+            description:
+              "Cursor's new in-house coding model matches Claude Opus 4.7 performance at 10x cheaper pricing. Built on Kimi K2.5 with 85% of compute spent on their own RL pipeline, it's the first clear signal that frontier-competitive coding can run without frontier bills.",
+            chip: "coding agents",
+            href: "https://cursor.com/blog/composer-2-5",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/cursor_ai/status/2056415413077233983?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://handyai.substack.com/p/model-drop-composer-25",
+              "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Figure AI's 200-hour humanoid marathon",
+            description:
+              "Figure 03 robots sorted 249,560 packages over 200 continuous hours with zero hardware failures. This isn't a demo anymore - it's proof that humanoid robots can run actual industrial operations. The 'dark factory' era just got real.",
+            chip: "robotics",
+            href: "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/adcock_brett/status/2057699179938693430?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
+            ],
+          },
+        ],
+      },
+      {
+        id: "may27-models",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
+        items: [
+          {
+            title: "Multi-token prediction goes mainstream",
+            description:
+              "Gemma 4 ships with native MTP drafters for 3x inference speedup, llama.cpp mainline adds `--spec-type draft-mtp`, and Qwen 3.6 runs locally on 12GB with 98% acceptance rates. Unsloth ships automatic MTP support with 2x faster GGUF inference. The memory bandwidth bottleneck finally has production-ready solutions.",
+            chip: "optimization",
+            href: "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/ggerganov/status/2056391115469689330?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
+              "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
+            ],
+          },
+          {
+            title: "DFlash beats autoregressive drafting ceiling",
+            description:
+              "Block diffusion model predicts 8-16 tokens in parallel with single forward pass, delivering 3x speedups versus traditional speculative decoding's 2x limit. Baseten's implementation shows it's not just research anymore.",
+            chip: "optimization",
+            href: "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/zhijianliu_/status/2051900751673467097?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+            ],
+          },
+        ],
+      },
+      {
+        id: "may27-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
+        items: [
+          {
+            title: "TrapDoor supply chain attack hijacks AI coding assistants",
+            description:
+              "Malware campaign hit 34 packages across npm/PyPI/Crates.io using invisible Unicode in `.cursorrules` and `CLAUDE.md` files to trick AI assistants into exfiltrating secrets. When you ask Claude to debug code, it runs the attacker's 'security scan' instead.",
+            chip: "supply chain",
+            href: "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/SocketSecurity/status/2058601291123716426?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://byteiota.com/trapdoor-supply-chain-attack-npm-pypi-crates/",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+      {
+        id: "may27-big-tech",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware launches, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
+        items: [
+          {
+            title: "Digg returns as AI signal detector",
+            description:
+              "Kevin Rose pivots the legendary aggregator into real-time AI news ranking by tracking 1,000 influential voices on X.",
+            chip: "platform",
+            href: "https://digg.com",
+            images: [
+              { src: "/images/digg-1.png", href: "https://digg.com", alt: "Digg screenshot 1" },
+              { src: "/images/digg-2.png", href: "https://digg.com", alt: "Digg screenshot 2" },
+            ],
+            linkPair: [
+              "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+              "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
+            ],
+          },
+          {
+            title: "SpaceX options Cursor for $60B",
+            description:
+              "The partnership gives Cursor access to Colossus supercomputing clusters while SpaceX gets the right to acquire the AI coding startup by year-end. Either a $60B purchase or $10B termination fee - the scale shows how serious the coding agent infrastructure race has become.",
+            chip: "acquisition",
+            href: "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/cursor_ai/status/2046726224266043533?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://cursor.com/blog/spacex-model-training",
+              "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Anthropic cuts the programmatic subsidy",
+            description:
+              "Claude Agent SDK, `claude -p`, GitHub Actions, and third-party tools move off subscription limits onto separate $20-200 monthly credits at full API rates. The '25x cut' framing from Theo and others highlights how subsidized programmatic usage was getting expensive.",
+            chip: "pricing",
+            href: "https://gist.github.com/MagnaCapax/d9177e35b355853f03c730dfcaa693ef",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/theo/status/2055793010370306556?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
+            ],
+          },
+          {
+            title: "Grok API gets X Premium OAuth integration",
+            description:
+              "OpenClaw now supports OAuth for X Premium ($8/month) and SuperGrok ($30/month) subscribers, removing API key friction for agent workflows. Direct xAI API billing remains available for programmatic use, but the subscription bridge finally bridges consumer and developer access.",
+            chip: "integration",
+            href: "https://memeburn.com/how-to-use-grok-in-openclaw-oauth-api-key-guide-2026/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/xai/status/2055745332919808181?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
+              "https://unified.to/blog/how_to_get_a_grok_xai_and_groq_api_key_and_connect_it_to_your_product",
+            ],
+          },
+          {
+            title: "Anthropic hits first profit at $10.9B quarterly revenue",
+            description:
+              "First AI lab to turn a real profit with $559M operating income, driven by Claude Code enterprise adoption. Revenue doubled quarter-over-quarter, outpacing Google and Facebook's pre-IPO growth. The 'AI replaces measurable labor costs' business model finally works at scale.",
+            chip: "financials",
+            href: "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+            linkPair: [
+              "https://www.thehindubusinessline.com/info-tech/anthropic-eyes-559-million-profit-in-june-quarter-amid-explosive-ai-demand/article71004656.ece",
+            ],
+          },
+          {
+            title: "Karpathy joins Anthropic for recursive AI research",
+            description:
+              "OpenAI co-founder and beloved AI educator joins Anthropic's pre-training team to build Claude-assisted research tools. This is about AI training its own successors - the recursive self-improvement story that changes model development timelines.",
+            chip: "talent",
+            href: "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/karpathy/status/2056753169888334312?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-05-13",
     slug: "2026-05-13",
     date: "May 13, 2026",
