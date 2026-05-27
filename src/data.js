@@ -153,6 +153,20 @@ export const meetups = [
               "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
             ],
           },
+          {
+            title: "PrismML ships 1-bit image gen that runs on iPhone",
+            description:
+              "Bonsai Image 4B compresses the FLUX.2 Klein 4B diffusion transformer from 7.75 GB to 0.93 GB (1-bit) and 1.21 GB (ternary), an 8.3x and 6.4x reduction while retaining 88-95% quality. First 4B-class diffusion model to run directly on iPhone hardware — 512x512 in 9.4s on iPhone 17 Pro Max. Apache 2.0.",
+            chip: "models",
+            href: "https://prismml.com/news/bonsai-image-4b",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/PrismML/status/2059339159899390326?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
+            ],
+          },
         ],
       },
       {

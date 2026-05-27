@@ -91,6 +91,18 @@ sources: []
   - Access: 2026-05-26
   - Notes: VentureBeat coverage of DeepSWE results and implications for enterprise AI coding tool selection
 
+### PrismML ships 1-bit image gen that runs on iPhone
+- Source: https://prismml.com/news/bonsai-image-4b
+  - Title: "Introducing 1-bit and Ternary Bonsai Image 4B: Image Generation for Local Devices"
+  - Type: Official announcement
+  - Access: 2026-05-26
+  - Notes: Bonsai Image 4B compresses FLUX.2 Klein 4B diffusion transformer from 7.75GB to 0.93GB (1-bit) / 1.21GB (ternary), an 8.3x/6.4x reduction while retaining 88%/95% quality. First 4B-class diffusion model to run on iPhone (512x512 in 9.4s on iPhone 17 Pro Max). Apache 2.0. Built by Caltech researchers backed by Khosla Ventures, Cerberus, and Google.
+- Source: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu
+  - Title: "Bonsai Image WebGPU Demo – a Hugging Face Space by webml-community"
+  - Type: Demo
+  - Access: 2026-05-26
+  - Notes: Live in-browser WebGPU demo for trying Bonsai Image 4B image generation directly in the browser
+
 ## Big Tech Moves
 
 ### Digg returns as AI signal detector
