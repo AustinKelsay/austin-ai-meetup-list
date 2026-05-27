@@ -167,6 +167,17 @@ export const meetups = [
               "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
             ],
           },
+          {
+            title: "Epicure squeezes global cooking into 2MB",
+            description:
+              "KAIKAKU.AI maps 4.1M multilingual recipes into a 2MB embedding model—1,790 ingredients, 300 dimensions, walkable flavor geometry from recipe and chemistry graphs.",
+            chip: "embeddings",
+            href: "https://arxiv.org/abs/2605.22391",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/josefchen/status/2059350978109874677?ref_src=twsrc%5Etfw",
+            },
+          },
         ],
       },
       {

@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - May 27, 2026 - Source Link Records
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 type: source-links
 sources: []
 ---
@@ -102,6 +102,18 @@ sources: []
   - Type: Demo
   - Access: 2026-05-26
   - Notes: Live in-browser WebGPU demo for trying Bonsai Image 4B image generation directly in the browser
+
+### Epicure squeezes global cooking into 2MB
+- Source: https://arxiv.org/abs/2605.22391
+  - Title: "Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings"
+  - Type: arXiv preprint
+  - Access: 2026-05-27
+  - Notes: KAIKAKU.AI trains three Metapath2Vec food embedding variants on 4.14M multilingual recipes normalized to 1,790 ingredients, blending recipe co-occurrence and FlavorDB chemistry walks
+- Post: https://x.com/josefchen/status/2059350978109874677
+  - Title: "Josef Chen launch post for Epicure"
+  - Type: X post
+  - Access: 2026-05-27
+  - Notes: Hook framing: 4.1M recipes, 7 languages, 1,790 ingredients, 300 dimensions, 2 megabytes total
 
 ## Big Tech Moves
 

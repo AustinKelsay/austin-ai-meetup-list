@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-27] update | Epicure food embedding topic added
+
+- Added Josef Chen's Epicure arXiv paper as a Models & Research Topic on the May 27 board.
+- Backfilled source link records for the paper and launch post.
+- Mirrored the Topic into `src/data.js` with the arXiv source and tweet embed.
+
 ## [2026-05-13] update | Wiki consistency gardened
 
 - Backfilled missing April 1 board URLs into `raw/articles/2026-04-01-link-records.md` under the existing Track and Topic title groups.

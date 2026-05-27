@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T00:25:12.435Z",
+  "generatedAt": "2026-05-27T13:20:15.784Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -4868,6 +4868,8 @@
         "https://prismml.com/news/bonsai-image-4b",
         "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
         "https://x.com/PrismML/status/2059339159899390326",
+        "https://arxiv.org/abs/2605.22391",
+        "https://x.com/josefchen/status/2059350978109874677",
         "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
         "https://byteiota.com/trapdoor-supply-chain-attack-npm-pypi-crates/",
         "https://x.com/SocketSecurity/status/2058601291123716426",
@@ -4998,6 +5000,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2605.22391",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/josefchen/status/2059350978109874677",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
           "section": "Security"
@@ -5109,7 +5121,7 @@
         }
       ],
       "created": "2026-05-26",
-      "updated": "2026-05-26",
+      "updated": "2026-05-27",
       "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, Speculative Decoding, Cursor, Anthropic, SpaceX, xAI, Figure AI, Andrej Karpathy, Humanoid Robotics.",
       "rawHref": "/topics/2026-05-27.md",
       "relativePath": "2026-05-27.md",
@@ -5155,6 +5167,8 @@
         "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
         "https://prismml.com/news/bonsai-image-4b",
         "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
+        "https://arxiv.org/abs/2605.22391",
+        "https://x.com/josefchen/status/2059350978109874677",
         "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
         "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
         "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
@@ -5245,6 +5259,16 @@
           "section": "PrismML ships 1-bit image gen that runs on iPhone"
         },
         {
+          "href": "https://arxiv.org/abs/2605.22391",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Epicure squeezes global cooking into 2MB"
+        },
+        {
+          "href": "https://x.com/josefchen/status/2059350978109874677",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Epicure squeezes global cooking into 2MB"
+        },
+        {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
           "section": "Digg returns as AI signal detector"
@@ -5306,7 +5330,7 @@
         }
       ],
       "created": "2026-05-26",
-      "updated": "2026-05-26",
+      "updated": "2026-05-27",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-05-27-link-records.md",
       "relativePath": "raw/articles/2026-05-27-link-records.md",
@@ -14903,6 +14927,8 @@
         "https://prismml.com/news/bonsai-image-4b",
         "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
         "https://x.com/PrismML/status/2059339159899390326",
+        "https://arxiv.org/abs/2605.22391",
+        "https://x.com/josefchen/status/2059350978109874677",
         "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
         "https://byteiota.com/trapdoor-supply-chain-attack-npm-pypi-crates/",
         "https://x.com/SocketSecurity/status/2058601291123716426",
@@ -15033,6 +15059,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2605.22391",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/josefchen/status/2059350978109874677",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
           "section": "Security"
@@ -15144,7 +15180,7 @@
         }
       ],
       "created": "2026-05-26",
-      "updated": "2026-05-26",
+      "updated": "2026-05-27",
       "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Open Models, Local AI, Speculative Decoding, Cursor, Anthropic, SpaceX, xAI, Figure AI, Andrej Karpathy, Humanoid Robotics.",
       "rawHref": "/topics/2026-05-27.md",
       "relativePath": "2026-05-27.md",
@@ -15190,6 +15226,8 @@
         "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
         "https://prismml.com/news/bonsai-image-4b",
         "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
+        "https://arxiv.org/abs/2605.22391",
+        "https://x.com/josefchen/status/2059350978109874677",
         "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
         "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
         "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
@@ -15280,6 +15318,16 @@
           "section": "PrismML ships 1-bit image gen that runs on iPhone"
         },
         {
+          "href": "https://arxiv.org/abs/2605.22391",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Epicure squeezes global cooking into 2MB"
+        },
+        {
+          "href": "https://x.com/josefchen/status/2059350978109874677",
+          "title": "Epicure squeezes global cooking into 2MB",
+          "section": "Epicure squeezes global cooking into 2MB"
+        },
+        {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
           "section": "Digg returns as AI signal detector"
@@ -15341,7 +15389,7 @@
         }
       ],
       "created": "2026-05-26",
-      "updated": "2026-05-26",
+      "updated": "2026-05-27",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-05-27-link-records.md",
       "relativePath": "raw/articles/2026-05-27-link-records.md",
@@ -21874,7 +21922,7 @@
     "rawPageCount": 0,
     "linkCount": 179,
     "sourceRecordCount": 4,
-    "sourceLinkCount": 375,
+    "sourceLinkCount": 377,
     "unresolvedLinkCount": 7
   }
 }
