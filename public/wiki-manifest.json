@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T13:20:15.784Z",
+  "generatedAt": "2026-05-27T20:13:31.288Z",
   "pages": [
     {
       "id": "agent-infrastructure",
@@ -44,6 +44,9 @@
         "austin-ai-club-may-27-2026",
         "coding-agents",
         "company-brain",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
         "microsoft",
         "nvidia",
         "openai",
@@ -994,6 +997,59 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
+      ]
+    },
+    {
+      "id": "andrej-karpathy",
+      "title": "Andrej Karpathy",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "person",
+        "models-research",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership and recursive AI development.",
+      "rawHref": "/topics/entities/andrej-karpathy.md",
+      "relativePath": "entities/andrej-karpathy.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2056753169888334312",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ]
     },
@@ -4891,7 +4947,8 @@
         "https://www.thehindubusinessline.com/info-tech/anthropic-eyes-559-million-profit-in-june-quarter-amid-explosive-ai-demand/article71004656.ece",
         "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
         "https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai",
-        "https://x.com/karpathy/status/2056753169888334312"
+        "https://x.com/karpathy/status/2056753169888334312",
+        "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526"
       ],
       "sourceReferences": [
         {
@@ -5118,6 +5175,11 @@
           "href": "https://x.com/karpathy/status/2056753169888334312",
           "title": "Karpathy joins Anthropic for recursive AI research",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526",
+          "title": "Ostrich LLMs",
+          "section": "Showcase"
         }
       ],
       "created": "2026-05-26",
@@ -5127,28 +5189,38 @@
       "relativePath": "2026-05-27.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "andrej-karpathy",
         "anthropic",
         "coding-agents",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
         "local-ai",
-        "open-models"
+        "open-models",
+        "spacex",
+        "speculative-decoding",
+        "xai"
       ],
-      "unresolvedLinks": [
-        "Andrej Karpathy",
-        "Cursor",
-        "Figure AI",
-        "Humanoid Robotics",
-        "SpaceX",
-        "Speculative Decoding",
-        "xAI"
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "andrej-karpathy",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
+        "spacex",
+        "speculative-decoding",
+        "xai"
       ],
-      "backlinkIds": [],
       "referencedTopicSources": []
     },
     {
       "id": "austin-ai-club-may-27-2026-source-link-records",
       "title": "Austin AI Club - May 27, 2026 - Source Link Records",
-      "type": "source-links",
-      "tags": [],
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
@@ -5180,153 +5252,159 @@
         "https://zenaicorp.com/en/news/anthropic-q2-2026-revenue-10-billion-first-profit",
         "https://opentools.ai/news/anthropic-first-profitable-quarter-10-billion-revenue",
         "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-        "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear"
+        "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear",
+        "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526"
       ],
       "sourceReferences": [
         {
           "href": "https://cursor.com/blog/composer-2-5",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://handyai.substack.com/p/model-drop-composer-25",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
           "title": "Figure AI's 200-hour humanoid marathon",
-          "section": "Figure AI's 200-hour humanoid marathon"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
           "title": "Figure AI's 200-hour humanoid marathon",
-          "section": "Figure AI's 200-hour humanoid marathon"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
-          "section": "TrapDoor supply chain attack hijacks AI coding assistants"
+          "section": "Security"
         },
         {
           "href": "https://byteiota.com/trapdoor-supply-chain-attack-npm-pypi-crates/",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
-          "section": "TrapDoor supply chain attack hijacks AI coding assistants"
+          "section": "Security"
         },
         {
           "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
           "title": "Multi-token prediction goes mainstream",
-          "section": "Multi-token prediction goes mainstream"
+          "section": "Models & Research"
         },
         {
           "href": "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
           "title": "Multi-token prediction goes mainstream",
-          "section": "Multi-token prediction goes mainstream"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
           "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "DFlash beats autoregressive drafting ceiling"
+          "section": "Models & Research"
         },
         {
           "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
           "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "DFlash beats autoregressive drafting ceiling"
+          "section": "Models & Research"
         },
         {
           "href": "https://deepswe.datacurve.ai/",
           "title": "DeepSWE exposes the real coding model hierarchy",
-          "section": "DeepSWE exposes the real coding model hierarchy"
+          "section": "Models & Research"
         },
         {
           "href": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
           "title": "DeepSWE exposes the real coding model hierarchy",
-          "section": "DeepSWE exposes the real coding model hierarchy"
+          "section": "Models & Research"
         },
         {
           "href": "https://prismml.com/news/bonsai-image-4b",
           "title": "PrismML ships 1-bit image gen that runs on iPhone",
-          "section": "PrismML ships 1-bit image gen that runs on iPhone"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
           "title": "PrismML ships 1-bit image gen that runs on iPhone",
-          "section": "PrismML ships 1-bit image gen that runs on iPhone"
+          "section": "Models & Research"
         },
         {
           "href": "https://arxiv.org/abs/2605.22391",
           "title": "Epicure squeezes global cooking into 2MB",
-          "section": "Epicure squeezes global cooking into 2MB"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/josefchen/status/2059350978109874677",
           "title": "Epicure squeezes global cooking into 2MB",
-          "section": "Epicure squeezes global cooking into 2MB"
+          "section": "Models & Research"
         },
         {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
-          "section": "Digg returns as AI signal detector"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
-          "section": "Digg returns as AI signal detector"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
           "title": "SpaceX options Cursor for $60B",
-          "section": "SpaceX options Cursor for $60B"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
           "title": "SpaceX options Cursor for $60B",
-          "section": "SpaceX options Cursor for $60B"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://gist.github.com/MagnaCapax/d9177e35b355853f03c730dfcaa693ef",
           "title": "Anthropic cuts the programmatic subsidy",
-          "section": "Anthropic cuts the programmatic subsidy"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
           "title": "Anthropic cuts the programmatic subsidy",
-          "section": "Anthropic cuts the programmatic subsidy"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
           "title": "Grok API stays separate from X Premium",
-          "section": "Grok API stays separate from X Premium"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://mem0.ai/blog/xai-grok-api-pricing",
           "title": "Grok API stays separate from X Premium",
-          "section": "Grok API stays separate from X Premium"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://zenaicorp.com/en/news/anthropic-q2-2026-revenue-10-billion-first-profit",
           "title": "Anthropic hits first profit at $10.9B quarterly revenue",
-          "section": "Anthropic hits first profit at $10.9B quarterly revenue"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://opentools.ai/news/anthropic-first-profitable-quarter-10-billion-revenue",
           "title": "Anthropic hits first profit at $10.9B quarterly revenue",
-          "section": "Anthropic hits first profit at $10.9B quarterly revenue"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
           "title": "Karpathy joins Anthropic for recursive AI research",
-          "section": "Karpathy joins Anthropic for recursive AI research"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear",
           "title": "Karpathy joins Anthropic for recursive AI research",
-          "section": "Karpathy joins Anthropic for recursive AI research"
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526",
+          "title": "Ostrich LLMs",
+          "section": "Showcase"
         }
       ],
       "created": "2026-05-26",
@@ -5380,6 +5458,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "company-brain",
+        "cursor",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -5917,7 +5996,8 @@
         "local-ai",
         "meta",
         "nvidia",
-        "qwen"
+        "qwen",
+        "spacex"
       ],
       "referencedTopicSources": [
         {
@@ -6133,6 +6213,150 @@
       ]
     },
     {
+      "id": "cursor",
+      "title": "Cursor",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "coding-agents",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
+      "rawHref": "/topics/entities/cursor.md",
+      "relativePath": "entities/cursor.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://cursor.com/blog/composer-2-5",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://handyai.substack.com/p/model-drop-composer-25",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2056415413077233983",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://cursor.com/blog/spacex-model-training",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2046726224266043533",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
+      "id": "figure-ai",
+      "title": "Figure AI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Figure AI is a recurring Austin AI Club entity for humanoid robotics and autonomous industrial operations.",
+      "rawHref": "/topics/entities/figure-ai.md",
+      "relativePath": "entities/figure-ai.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "humanoid-robotics"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026",
+        "humanoid-robotics"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/adcock_brett/status/2057699179938693430",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
       "id": "google",
       "title": "Google",
       "type": "entity",
@@ -6318,6 +6542,60 @@
       ]
     },
     {
+      "id": "humanoid-robotics",
+      "title": "Humanoid Robotics",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Humanoid Robotics is a recurring Austin AI Club concept for autonomous physical agents and industrial automation.",
+      "rawHref": "/topics/concepts/humanoid-robotics.md",
+      "relativePath": "concepts/humanoid-robotics.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "figure-ai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026",
+        "figure-ai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/adcock_brett/status/2057699179938693430",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
       "id": "local-ai",
       "title": "Local AI",
       "type": "concept",
@@ -6355,7 +6633,8 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "google",
-        "open-models"
+        "open-models",
+        "speculative-decoding"
       ],
       "referencedTopicSources": [
         {
@@ -8221,6 +8500,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "andrej-karpathy",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
@@ -8231,6 +8511,8 @@
         "meta",
         "model-distillation",
         "nvidia",
+        "speculative-decoding",
+        "xai",
         "zai"
       ],
       "referencedTopicSources": [
@@ -9718,6 +10000,154 @@
       ]
     },
     {
+      "id": "spacex",
+      "title": "SpaceX",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "compute"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "SpaceX is a recurring Austin AI Club entity for Colossus supercomputing clusters and AI infrastructure partnerships.",
+      "rawHref": "/topics/entities/spacex.md",
+      "relativePath": "entities/spacex.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://cursor.com/blog/spacex-model-training",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2046726224266043533",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "title": "Speculative Decoding",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "performance"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Speculative decoding is a recurring Austin AI Club concept for accelerating LLM inference through parallel token prediction and verification.",
+      "rawHref": "/topics/concepts/speculative-decoding.md",
+      "relativePath": "concepts/speculative-decoding.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/ggerganov/status/2056391115469689330",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2056369392666194108",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
       "id": "supply-chain-security",
       "title": "Supply Chain Security",
       "type": "concept",
@@ -9938,6 +10368,66 @@
       ]
     },
     {
+      "id": "xai",
+      "title": "xAI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "xAI is a recurring Austin AI Club entity for Grok models, API access, and X platform integration.",
+      "rawHref": "/topics/entities/xai.md",
+      "relativePath": "entities/xai.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://memeburn.com/how-to-use-grok-in-openclaw-oauth-api-key-guide-2026/",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://unified.to/blog/how_to_get_a_grok_xai_and_groq_api_key_and_connect_it_to_your_product",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/xai/status/2055745332919808181",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    {
       "id": "zai",
       "title": "Z.ai",
       "type": "entity",
@@ -10103,6 +10593,9 @@
         "austin-ai-club-may-27-2026",
         "coding-agents",
         "company-brain",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
         "microsoft",
         "nvidia",
         "openai",
@@ -11053,6 +11546,59 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        }
+      ]
+    },
+    "andrej-karpathy": {
+      "id": "andrej-karpathy",
+      "title": "Andrej Karpathy",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "person",
+        "models-research",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership and recursive AI development.",
+      "rawHref": "/topics/entities/andrej-karpathy.md",
+      "relativePath": "entities/andrej-karpathy.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2056753169888334312",
+          "title": "Karpathy joins Anthropic for recursive AI research",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ]
     },
@@ -14950,7 +15496,8 @@
         "https://www.thehindubusinessline.com/info-tech/anthropic-eyes-559-million-profit-in-june-quarter-amid-explosive-ai-demand/article71004656.ece",
         "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
         "https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai",
-        "https://x.com/karpathy/status/2056753169888334312"
+        "https://x.com/karpathy/status/2056753169888334312",
+        "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526"
       ],
       "sourceReferences": [
         {
@@ -15177,6 +15724,11 @@
           "href": "https://x.com/karpathy/status/2056753169888334312",
           "title": "Karpathy joins Anthropic for recursive AI research",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526",
+          "title": "Ostrich LLMs",
+          "section": "Showcase"
         }
       ],
       "created": "2026-05-26",
@@ -15186,28 +15738,38 @@
       "relativePath": "2026-05-27.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "andrej-karpathy",
         "anthropic",
         "coding-agents",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
         "local-ai",
-        "open-models"
+        "open-models",
+        "spacex",
+        "speculative-decoding",
+        "xai"
       ],
-      "unresolvedLinks": [
-        "Andrej Karpathy",
-        "Cursor",
-        "Figure AI",
-        "Humanoid Robotics",
-        "SpaceX",
-        "Speculative Decoding",
-        "xAI"
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "andrej-karpathy",
+        "cursor",
+        "figure-ai",
+        "humanoid-robotics",
+        "spacex",
+        "speculative-decoding",
+        "xai"
       ],
-      "backlinkIds": [],
       "referencedTopicSources": []
     },
     "austin-ai-club-may-27-2026-source-link-records": {
       "id": "austin-ai-club-may-27-2026-source-link-records",
       "title": "Austin AI Club - May 27, 2026 - Source Link Records",
-      "type": "source-links",
-      "tags": [],
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
@@ -15239,153 +15801,159 @@
         "https://zenaicorp.com/en/news/anthropic-q2-2026-revenue-10-billion-first-profit",
         "https://opentools.ai/news/anthropic-first-profitable-quarter-10-billion-revenue",
         "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-        "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear"
+        "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear",
+        "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526"
       ],
       "sourceReferences": [
         {
           "href": "https://cursor.com/blog/composer-2-5",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://handyai.substack.com/p/model-drop-composer-25",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
           "title": "Composer 2.5 hits the sweet spot",
-          "section": "Composer 2.5 hits the sweet spot"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
           "title": "Figure AI's 200-hour humanoid marathon",
-          "section": "Figure AI's 200-hour humanoid marathon"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
           "title": "Figure AI's 200-hour humanoid marathon",
-          "section": "Figure AI's 200-hour humanoid marathon"
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
-          "section": "TrapDoor supply chain attack hijacks AI coding assistants"
+          "section": "Security"
         },
         {
           "href": "https://byteiota.com/trapdoor-supply-chain-attack-npm-pypi-crates/",
           "title": "TrapDoor supply chain attack hijacks AI coding assistants",
-          "section": "TrapDoor supply chain attack hijacks AI coding assistants"
+          "section": "Security"
         },
         {
           "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
           "title": "Multi-token prediction goes mainstream",
-          "section": "Multi-token prediction goes mainstream"
+          "section": "Models & Research"
         },
         {
           "href": "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
           "title": "Multi-token prediction goes mainstream",
-          "section": "Multi-token prediction goes mainstream"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
           "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "DFlash beats autoregressive drafting ceiling"
+          "section": "Models & Research"
         },
         {
           "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
           "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "DFlash beats autoregressive drafting ceiling"
+          "section": "Models & Research"
         },
         {
           "href": "https://deepswe.datacurve.ai/",
           "title": "DeepSWE exposes the real coding model hierarchy",
-          "section": "DeepSWE exposes the real coding model hierarchy"
+          "section": "Models & Research"
         },
         {
           "href": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
           "title": "DeepSWE exposes the real coding model hierarchy",
-          "section": "DeepSWE exposes the real coding model hierarchy"
+          "section": "Models & Research"
         },
         {
           "href": "https://prismml.com/news/bonsai-image-4b",
           "title": "PrismML ships 1-bit image gen that runs on iPhone",
-          "section": "PrismML ships 1-bit image gen that runs on iPhone"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
           "title": "PrismML ships 1-bit image gen that runs on iPhone",
-          "section": "PrismML ships 1-bit image gen that runs on iPhone"
+          "section": "Models & Research"
         },
         {
           "href": "https://arxiv.org/abs/2605.22391",
           "title": "Epicure squeezes global cooking into 2MB",
-          "section": "Epicure squeezes global cooking into 2MB"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/josefchen/status/2059350978109874677",
           "title": "Epicure squeezes global cooking into 2MB",
-          "section": "Epicure squeezes global cooking into 2MB"
+          "section": "Models & Research"
         },
         {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
-          "section": "Digg returns as AI signal detector"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
-          "section": "Digg returns as AI signal detector"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
           "title": "SpaceX options Cursor for $60B",
-          "section": "SpaceX options Cursor for $60B"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
           "title": "SpaceX options Cursor for $60B",
-          "section": "SpaceX options Cursor for $60B"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://gist.github.com/MagnaCapax/d9177e35b355853f03c730dfcaa693ef",
           "title": "Anthropic cuts the programmatic subsidy",
-          "section": "Anthropic cuts the programmatic subsidy"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
           "title": "Anthropic cuts the programmatic subsidy",
-          "section": "Anthropic cuts the programmatic subsidy"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
           "title": "Grok API stays separate from X Premium",
-          "section": "Grok API stays separate from X Premium"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://mem0.ai/blog/xai-grok-api-pricing",
           "title": "Grok API stays separate from X Premium",
-          "section": "Grok API stays separate from X Premium"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://zenaicorp.com/en/news/anthropic-q2-2026-revenue-10-billion-first-profit",
           "title": "Anthropic hits first profit at $10.9B quarterly revenue",
-          "section": "Anthropic hits first profit at $10.9B quarterly revenue"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://opentools.ai/news/anthropic-first-profitable-quarter-10-billion-revenue",
           "title": "Anthropic hits first profit at $10.9B quarterly revenue",
-          "section": "Anthropic hits first profit at $10.9B quarterly revenue"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
           "title": "Karpathy joins Anthropic for recursive AI research",
-          "section": "Karpathy joins Anthropic for recursive AI research"
+          "section": "Big Tech Moves"
         },
         {
           "href": "https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear",
           "title": "Karpathy joins Anthropic for recursive AI research",
-          "section": "Karpathy joins Anthropic for recursive AI research"
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526",
+          "title": "Ostrich LLMs",
+          "section": "Showcase"
         }
       ],
       "created": "2026-05-26",
@@ -15439,6 +16007,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "company-brain",
+        "cursor",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -15976,7 +16545,8 @@
         "local-ai",
         "meta",
         "nvidia",
-        "qwen"
+        "qwen",
+        "spacex"
       ],
       "referencedTopicSources": [
         {
@@ -16191,6 +16761,150 @@
         }
       ]
     },
+    "cursor": {
+      "id": "cursor",
+      "title": "Cursor",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "coding-agents",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
+      "rawHref": "/topics/entities/cursor.md",
+      "relativePath": "entities/cursor.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://cursor.com/blog/composer-2-5",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://handyai.substack.com/p/model-drop-composer-25",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2056415413077233983",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://cursor.com/blog/spacex-model-training",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2046726224266043533",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    "figure-ai": {
+      "id": "figure-ai",
+      "title": "Figure AI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Figure AI is a recurring Austin AI Club entity for humanoid robotics and autonomous industrial operations.",
+      "rawHref": "/topics/entities/figure-ai.md",
+      "relativePath": "entities/figure-ai.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "humanoid-robotics"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026",
+        "humanoid-robotics"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/adcock_brett/status/2057699179938693430",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
     "google": {
       "id": "google",
       "title": "Google",
@@ -16376,6 +17090,60 @@
         }
       ]
     },
+    "humanoid-robotics": {
+      "id": "humanoid-robotics",
+      "title": "Humanoid Robotics",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Humanoid Robotics is a recurring Austin AI Club concept for autonomous physical agents and industrial automation.",
+      "rawHref": "/topics/concepts/humanoid-robotics.md",
+      "relativePath": "concepts/humanoid-robotics.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-may-27-2026",
+        "figure-ai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026",
+        "figure-ai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://en.sedaily.com/finance/2026/05/26/figure-ais-humanoid-robot-works-200-hours-nonstop-sorting",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/adcock_brett/status/2057699179938693430",
+          "title": "Figure AI's 200-hour humanoid marathon",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
     "local-ai": {
       "id": "local-ai",
       "title": "Local AI",
@@ -16414,7 +17182,8 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "google",
-        "open-models"
+        "open-models",
+        "speculative-decoding"
       ],
       "referencedTopicSources": [
         {
@@ -18280,6 +19049,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "andrej-karpathy",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
@@ -18290,6 +19060,8 @@
         "meta",
         "model-distillation",
         "nvidia",
+        "speculative-decoding",
+        "xai",
         "zai"
       ],
       "referencedTopicSources": [
@@ -19776,6 +20548,154 @@
         }
       ]
     },
+    "spacex": {
+      "id": "spacex",
+      "title": "SpaceX",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "compute"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "SpaceX is a recurring Austin AI Club entity for Colossus supercomputing clusters and AI infrastructure partnerships.",
+      "rawHref": "/topics/entities/spacex.md",
+      "relativePath": "entities/spacex.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://cursor.com/blog/spacex-model-training",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2046726224266043533",
+          "title": "SpaceX options Cursor for $60B",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
+    "speculative-decoding": {
+      "id": "speculative-decoding",
+      "title": "Speculative Decoding",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "performance"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "Speculative decoding is a recurring Austin AI Club concept for accelerating LLM inference through parallel token prediction and verification.",
+      "rawHref": "/topics/concepts/speculative-decoding.md",
+      "relativePath": "concepts/speculative-decoding.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/ggerganov/status/2056391115469689330",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2056369392666194108",
+          "title": "Multi-token prediction goes mainstream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
     "supply-chain-security": {
       "id": "supply-chain-security",
       "title": "Supply Chain Security",
@@ -19996,6 +20916,66 @@
         }
       ]
     },
+    "xai": {
+      "id": "xai",
+      "title": "xAI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-05-27-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-05-27",
+      "updated": "2026-05-27",
+      "excerpt": "xAI is a recurring Austin AI Club entity for Grok models, API access, and X platform integration.",
+      "rawHref": "/topics/entities/xai.md",
+      "relativePath": "entities/xai.md",
+      "outgoingIds": [
+        "austin-ai-club-may-27-2026",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-may-27-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://memeburn.com/how-to-use-grok-in-openclaw-oauth-api-key-guide-2026/",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://unified.to/blog/how_to_get_a_grok_xai_and_groq_api_key_and_connect_it_to_your_product",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/xai/status/2055745332919808181",
+          "title": "Grok API gets X Premium OAuth integration",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        }
+      ]
+    },
     "zai": {
       "id": "zai",
       "title": "Z.ai",
@@ -20183,6 +21163,14 @@
     {
       "source": "ai-saas-supply-chain",
       "target": "agent-infrastructure"
+    },
+    {
+      "source": "andrej-karpathy",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "andrej-karpathy",
+      "target": "open-models"
     },
     {
       "source": "anthropic",
@@ -20442,7 +21430,35 @@
     },
     {
       "source": "austin-ai-club-may-27-2026",
+      "target": "speculative-decoding"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "cursor"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
       "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "spacex"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "xai"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "figure-ai"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "andrej-karpathy"
+    },
+    {
+      "source": "austin-ai-club-may-27-2026",
+      "target": "humanoid-robotics"
     },
     {
       "source": "coding-agents",
@@ -20505,6 +21521,30 @@
       "target": "qwen"
     },
     {
+      "source": "cursor",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "cursor",
+      "target": "coding-agents"
+    },
+    {
+      "source": "cursor",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "figure-ai",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "figure-ai",
+      "target": "humanoid-robotics"
+    },
+    {
+      "source": "figure-ai",
+      "target": "agent-infrastructure"
+    },
+    {
       "source": "google",
       "target": "austin-ai-club-may-13-2026"
     },
@@ -20527,6 +21567,18 @@
     {
       "source": "google",
       "target": "local-ai"
+    },
+    {
+      "source": "humanoid-robotics",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "humanoid-robotics",
+      "target": "figure-ai"
+    },
+    {
+      "source": "humanoid-robotics",
+      "target": "agent-infrastructure"
     },
     {
       "source": "local-ai",
@@ -20785,6 +21837,26 @@
       "target": "compute-strategy"
     },
     {
+      "source": "spacex",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "spacex",
+      "target": "compute-strategy"
+    },
+    {
+      "source": "speculative-decoding",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "speculative-decoding",
+      "target": "open-models"
+    },
+    {
+      "source": "speculative-decoding",
+      "target": "local-ai"
+    },
+    {
       "source": "supply-chain-security",
       "target": "austin-ai-club-may-13-2026"
     },
@@ -20817,6 +21889,14 @@
       "target": "agent-infrastructure"
     },
     {
+      "source": "xai",
+      "target": "austin-ai-club-may-27-2026"
+    },
+    {
+      "source": "xai",
+      "target": "open-models"
+    },
+    {
       "source": "zai",
       "target": "austin-ai-club-april-15-2026"
     },
@@ -20837,36 +21917,7 @@
       "target": "openclaw"
     }
   ],
-  "unresolvedLinks": [
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "Speculative Decoding"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "Cursor"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "SpaceX"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "xAI"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "Figure AI"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "Andrej Karpathy"
-    },
-    {
-      "source": "austin-ai-club-may-27-2026",
-      "target": "Humanoid Robotics"
-    }
-  ],
+  "unresolvedLinks": [],
   "graph": {
     "nodes": [
       {
@@ -20897,6 +21948,17 @@
           "concept",
           "security",
           "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "andrej-karpathy",
+        "label": "Andrej Karpathy",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "person",
+          "models-research",
+          "big-tech-moves"
         ]
       },
       {
@@ -20995,8 +22057,11 @@
       {
         "id": "austin-ai-club-may-27-2026-source-link-records",
         "label": "Austin AI Club - May 27, 2026 - Source Link Records",
-        "type": "source-links",
-        "tags": []
+        "type": "summary",
+        "tags": [
+          "source-record",
+          "meetup"
+        ]
       },
       {
         "id": "coding-agents",
@@ -21028,6 +22093,28 @@
         ]
       },
       {
+        "id": "cursor",
+        "label": "Cursor",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "coding-agents",
+          "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "figure-ai",
+        "label": "Figure AI",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "agent-infrastructure",
+          "models-research"
+        ]
+      },
+      {
         "id": "google",
         "label": "Google",
         "type": "entity",
@@ -21036,6 +22123,16 @@
           "company",
           "model",
           "big-tech-moves"
+        ]
+      },
+      {
+        "id": "humanoid-robotics",
+        "label": "Humanoid Robotics",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "agent-infrastructure",
+          "models-research"
         ]
       },
       {
@@ -21166,6 +22263,27 @@
         ]
       },
       {
+        "id": "spacex",
+        "label": "SpaceX",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves",
+          "compute"
+        ]
+      },
+      {
+        "id": "speculative-decoding",
+        "label": "Speculative Decoding",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "models-research",
+          "performance"
+        ]
+      },
+      {
         "id": "supply-chain-security",
         "label": "Supply Chain Security",
         "type": "concept",
@@ -21184,6 +22302,17 @@
           "company",
           "security",
           "agent-infrastructure"
+        ]
+      },
+      {
+        "id": "xai",
+        "label": "xAI",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves",
+          "models-research"
         ]
       },
       {
@@ -21262,6 +22391,14 @@
       {
         "source": "ai-saas-supply-chain",
         "target": "agent-infrastructure"
+      },
+      {
+        "source": "andrej-karpathy",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "andrej-karpathy",
+        "target": "open-models"
       },
       {
         "source": "anthropic",
@@ -21521,7 +22658,35 @@
       },
       {
         "source": "austin-ai-club-may-27-2026",
+        "target": "speculative-decoding"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "cursor"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
         "target": "anthropic"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "spacex"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "xai"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "figure-ai"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "andrej-karpathy"
+      },
+      {
+        "source": "austin-ai-club-may-27-2026",
+        "target": "humanoid-robotics"
       },
       {
         "source": "coding-agents",
@@ -21584,6 +22749,30 @@
         "target": "qwen"
       },
       {
+        "source": "cursor",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "cursor",
+        "target": "coding-agents"
+      },
+      {
+        "source": "cursor",
+        "target": "agent-infrastructure"
+      },
+      {
+        "source": "figure-ai",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "figure-ai",
+        "target": "humanoid-robotics"
+      },
+      {
+        "source": "figure-ai",
+        "target": "agent-infrastructure"
+      },
+      {
         "source": "google",
         "target": "austin-ai-club-may-13-2026"
       },
@@ -21606,6 +22795,18 @@
       {
         "source": "google",
         "target": "local-ai"
+      },
+      {
+        "source": "humanoid-robotics",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "humanoid-robotics",
+        "target": "figure-ai"
+      },
+      {
+        "source": "humanoid-robotics",
+        "target": "agent-infrastructure"
       },
       {
         "source": "local-ai",
@@ -21864,6 +23065,26 @@
         "target": "compute-strategy"
       },
       {
+        "source": "spacex",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "spacex",
+        "target": "compute-strategy"
+      },
+      {
+        "source": "speculative-decoding",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "speculative-decoding",
+        "target": "open-models"
+      },
+      {
+        "source": "speculative-decoding",
+        "target": "local-ai"
+      },
+      {
         "source": "supply-chain-security",
         "target": "austin-ai-club-may-13-2026"
       },
@@ -21896,6 +23117,14 @@
         "target": "agent-infrastructure"
       },
       {
+        "source": "xai",
+        "target": "austin-ai-club-may-27-2026"
+      },
+      {
+        "source": "xai",
+        "target": "open-models"
+      },
+      {
         "source": "zai",
         "target": "austin-ai-club-april-15-2026"
       },
@@ -21918,11 +23147,11 @@
     ]
   },
   "stats": {
-    "pageCount": 31,
+    "pageCount": 38,
     "rawPageCount": 0,
-    "linkCount": 179,
-    "sourceRecordCount": 4,
-    "sourceLinkCount": 377,
-    "unresolvedLinkCount": 7
+    "linkCount": 204,
+    "sourceRecordCount": 5,
+    "sourceLinkCount": 378,
+    "unresolvedLinkCount": 0
   }
 }

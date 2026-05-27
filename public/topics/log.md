@@ -2,6 +2,15 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-05-27] update | Ostrich LLMs showcase and entity pages added
+
+- Added Ostrich LLMs showcase from GitHub issue #26 to the May 27 Community Slot.
+- Created entity pages for Cursor, SpaceX, xAI, Figure AI, and Andrej Karpathy.
+- Created concept pages for Speculative Decoding and Humanoid Robotics.
+- Added source records for the showcase submission.
+- Mirrored the showcase into `src/data.js` for frontend rendering.
+- Updated index.md with new pages and corrected page count to 35.
+
 ## [2026-05-27] update | Epicure food embedding topic added
 
 - Added Josef Chen's Epicure arXiv paper as a Models & Research Topic on the May 27 board.

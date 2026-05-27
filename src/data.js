@@ -52,6 +52,13 @@ export const meetups = [
     },
     showcases: [
       {
+        title: "Ostrich LLMs",
+        description:
+          "Qwen 3.6-based 27B model fine-tuned for healthcare autonomy outside traditional medical systems.",
+        chip: "showcase",
+        href: "https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526",
+      },
+      {
         title: "Community Slot",
         description:
           "Bring a project, prototype, repo, demo, or weird link worth showing the room.",

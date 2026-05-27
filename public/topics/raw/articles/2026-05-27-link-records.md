@@ -2,7 +2,8 @@
 title: Austin AI Club - May 27, 2026 - Source Link Records
 created: 2026-05-26
 updated: 2026-05-27
-type: source-links
+type: summary
+tags: [source-record, meetup]
 sources: []
 ---
 
@@ -188,3 +189,12 @@ sources: []
   - Type: Industry analysis
   - Access: 2026-05-26
   - Notes: Analysis of the implications for recursive AI research and self-improvement
+
+## Showcase
+
+### Ostrich LLMs
+- Source: https://huggingface.co/etemiz/Ostrich-27B-Qwen3.6-260526
+  - Title: "etemiz/Ostrich-27B-Qwen3.6-260526 · Hugging Face"
+  - Type: Model repository
+  - Access: 2026-05-27
+  - Notes: Qwen 3.6-based 27B model fine-tuned for healthcare autonomy outside traditional medical systems
