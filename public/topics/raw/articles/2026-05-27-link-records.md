@@ -27,6 +27,11 @@ sources: []
   - Type: Industry analysis
   - Access: 2026-05-26
   - Notes: Analysis of cost-performance breakthrough in coding agents
+- Post: https://x.com/cursor_ai/status/2056415413077233983
+  - Title: "Cursor AI announcement post for Composer 2.5"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Official Cursor announcement on X
 
 ### Figure AI's 200-hour humanoid marathon
 - Source: https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift
@@ -39,6 +44,11 @@ sources: []
   - Type: News coverage
   - Access: 2026-05-26
   - Notes: Details on the 249,560 packages processed and implications for industrial automation
+- Post: https://x.com/adcock_brett/status/2057699179938693430
+  - Title: "Brett Adcock post on Figure 03's 200-hour marathon"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Figure AI CEO's announcement of the milestone
 
 ## Security
 
@@ -53,6 +63,11 @@ sources: []
   - Type: Technical analysis
   - Access: 2026-05-26
   - Notes: Detailed breakdown of the 34 malicious packages and Unicode-based AI assistant hijacking technique
+- Post: https://x.com/SocketSecurity/status/2058601291123716426
+  - Title: "SocketSecurity discovery post for TrapDoor campaign"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Initial disclosure of the TrapDoor malware campaign affecting AI coding assistants
 
 ## Models & Research
 
@@ -67,6 +82,16 @@ sources: []
   - Type: Technical guide
   - Access: 2026-05-26
   - Notes: Practical implementation guide for running MTP models locally
+- Post: https://x.com/ggerganov/status/2056391115469689330
+  - Title: "Georgi Gerganov post on llama.cpp MTP support"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: llama.cpp mainline adds --spec-type draft-mtp support announcement
+- Post: https://x.com/UnslothAI/status/2056369392666194108
+  - Title: "Unsloth AI announcement of automatic MTP support"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: 2x faster GGUF inference with automatic MTP support announcement
 
 ### DFlash beats autoregressive drafting ceiling
 - Source: https://www.baseten.co/blog/dflash-faster-llm-inference/
@@ -79,6 +104,11 @@ sources: []
   - Type: Technical overview
   - Access: 2026-05-26
   - Notes: Comprehensive comparison of modern speculative decoding techniques
+- Post: https://x.com/zhijianliu_/status/2051900751673467097
+  - Title: "Zhijian Liu post on DFlash block diffusion model"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Research announcement for 8-16 parallel token prediction with single forward pass
 
 ### DeepSWE exposes the real coding model hierarchy
 - Source: https://deepswe.datacurve.ai/
@@ -91,6 +121,11 @@ sources: []
   - Type: Tech journalism
   - Access: 2026-05-26
   - Notes: VentureBeat coverage of DeepSWE results and implications for enterprise AI coding tool selection
+- Post: https://x.com/theo/status/2059352130289651925
+  - Title: "Theo post on DeepSWE benchmark results"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Industry commentary on 70-point performance gap exposed by DeepSWE
 
 ### PrismML ships 1-bit image gen that runs on iPhone
 - Source: https://prismml.com/news/bonsai-image-4b
@@ -103,6 +138,11 @@ sources: []
   - Type: Demo
   - Access: 2026-05-26
   - Notes: Live in-browser WebGPU demo for trying Bonsai Image 4B image generation directly in the browser
+- Post: https://x.com/PrismML/status/2059339159899390326
+  - Title: "PrismML announcement post for Bonsai Image 4B"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Official launch post for 1-bit/ternary image generation on iPhone
 
 ### Epicure squeezes global cooking into 2MB
 - Source: https://arxiv.org/abs/2605.22391
@@ -141,6 +181,11 @@ sources: []
   - Type: Analysis
   - Access: 2026-05-26
   - Notes: Analysis of how the partnership affects the competitive landscape
+- Post: https://x.com/cursor_ai/status/2046726224266043533
+  - Title: "Cursor AI post on SpaceX partnership announcement"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Official Cursor announcement of SpaceX training partnership
 
 ### Anthropic cuts the programmatic subsidy
 - Source: https://gist.github.com/MagnaCapax/d9177e35b355853f03c730dfcaa693ef
@@ -153,6 +198,11 @@ sources: []
   - Type: Analysis
   - Access: 2026-05-26
   - Notes: Breakdown of the billing changes and impact on developers
+- Post: https://x.com/theo/status/2055793010370306556
+  - Title: "Theo post on Anthropic's programmatic subsidy cut"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: "25x cut" framing highlighting subsidized programmatic usage changes
 
 ### Grok API stays separate from X Premium
 - Source: https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key
@@ -165,6 +215,11 @@ sources: []
   - Type: Pricing guide
   - Access: 2026-05-26
   - Notes: Comprehensive breakdown of Grok API vs subscription pricing
+- Post: https://x.com/xai/status/2055745332919808181
+  - Title: "xAI announcement post for X Premium OAuth integration"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Official xAI announcement of OpenClaw OAuth support for X Premium subscribers
 
 ### Anthropic hits first profit at $10.9B quarterly revenue
 - Source: https://zenaicorp.com/en/news/anthropic-q2-2026-revenue-10-billion-first-profit
@@ -189,6 +244,11 @@ sources: []
   - Type: Industry analysis
   - Access: 2026-05-26
   - Notes: Analysis of the implications for recursive AI research and self-improvement
+- Post: https://x.com/karpathy/status/2056753169888334312
+  - Title: "Andrej Karpathy announcement post on joining Anthropic"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Karpathy's personal announcement of joining Anthropic's pre-training team
 
 ## Showcase
 

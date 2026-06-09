@@ -12,6 +12,7 @@ Start with:
 
 ## Meetups
 
+- [2026-06-10](./2026-06-10.md) - Austin AI Club meetup notes
 - [2026-05-27](./2026-05-27.md) - Austin AI Club meetup notes
 - [2026-05-13](./2026-05-13.md) - Austin AI Club meetup notes
 - [2026-04-15](./2026-04-15.md) - Austin AI Club meetup notes

@@ -1,10 +1,10 @@
 ---
 title: Compute Strategy
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-06-08
 type: concept
 tags: [concept, big-tech-moves, models-research]
-sources: [raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Compute Strategy
@@ -13,10 +13,14 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
+- [[Austin AI Club - June 10, 2026]]: **Closed labs start the June model wave**, **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.
 - [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.
 
 ## Related
 
 - [[Anthropic]]
+- [[Apple]]
+- [[Google]]
+- [[NVIDIA]]
 - [[Qwen]]

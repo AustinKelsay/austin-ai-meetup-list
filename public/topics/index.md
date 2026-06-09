@@ -1,10 +1,11 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-05-27 | Total pages: 35
+> Last updated: 2026-06-09 | Total pages: 45
 
 ## Meetups
 
+- [[Austin AI Club - June 10, 2026]]
 - [[Austin AI Club - May 27, 2026]]
 - [[Austin AI Club - May 13, 2026]]
 - [[Austin AI Club - April 15, 2026]]
@@ -14,7 +15,9 @@
 ## Entities
 
 - [[Andrej Karpathy]]
+- [[Apple]]
 - [[Anthropic]]
+- [[Cohere]]
 - [[Cursor]]
 - [[Figure AI]]
 - [[Google]]
@@ -23,6 +26,7 @@
 - [[NVIDIA]]
 - [[OpenAI]]
 - [[OpenClaw]]
+- [[PrismML]]
 - [[Qwen]]
 - [[SpaceX]]
 - [[Vercel]]
@@ -32,7 +36,9 @@
 ## Concepts
 
 - [[Agent Infrastructure]]
+- [[Agent Cost Controls]]
 - [[Agent Security]]
+- [[AI Governance]]
 - [[AI SaaS Supply Chain]]
 - [[Company Brain]]
 - [[Coding Agents]]
@@ -47,6 +53,7 @@
 
 ## Source Records
 
+- [June 10, 2026 source records](./raw/articles/2026-06-10-link-records.md)
 - [May 27, 2026 source records](./raw/articles/2026-05-27-link-records.md)
 - [May 13, 2026 source records](./raw/articles/2026-05-13-link-records.md)
 - [April 15, 2026 source records](./raw/articles/2026-04-15-link-records.md)

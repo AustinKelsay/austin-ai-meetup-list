@@ -25,6 +25,433 @@
 // 5. Big Tech Moves
 export const meetups = [
   {
+    id: "meetup-2026-06-10",
+    slug: "2026-06-10",
+    date: "June 10, 2026",
+    markdownHref: "./topics/2026-06-10.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-06-10T18:00:00-05:00",
+      endAt: "2026-06-10T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Platform week: Microsoft wants the enterprise agent stack, Washington wants early frontier-model access, Anthropic is pricing Claude like a public-market giant, and Google is renting SpaceX compute.",
+    },
+    showcases: [],
+    tracks: [
+      {
+        id: "jun10-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Microsoft wants the whole agent stack",
+            description:
+              "Build 2026 was not one launch: Microsoft IQ, Work IQ, Scout, Agent 365, the GitHub Copilot app, Windows 365 for Agents, and MAI models all point to the same pitch. Enterprise agents live inside Microsoft's identity, data, OS, and developer surfaces.",
+            chip: "agent platform",
+            href: "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+            linkPair: [
+              "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+              "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
+              "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Claude gets its cloud-bill moment",
+            description:
+              'Axios says an unnamed client allegedly spent $500M in a month after failing to cap employee Claude licenses, while The Verge says Microsoft is winding down most Claude Code licenses partly for financial reasons. The takeaway is not "guess the company"; it is that agentic AI needs budgets, routing, per-user limits, and token observability before the bill becomes the incident.',
+            chip: "cost controls",
+            href: "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Polymarket/status/2060034216906068131?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/_alialkhatib/status/2060056690221838552?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+              "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+      {
+        id: "jun10-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
+        items: [
+          {
+            title: "Closed labs start the June model wave",
+            description:
+              "Anthropic moved the top of the proprietary stack again: Claude Fable 5 is the public Mythos-class release, Mythos 5 is trusted-access, and risky cyber/bio/distillation requests can fall back to Opus 4.8. Put that next to Grok Imagine 1.5 Preview and Microsoft's seven-model MAI push: frontier labs are shipping capability and safety gating as one product surface.",
+            chip: "proprietary models",
+            href: "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/claudeai/status/2064394146916229443?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/claudeai/status/2060042702150930686?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/grok/status/2062225080843747351?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/mustafasuleyman/status/2061880164498428188?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MicrosoftAI/status/2061887504916087224?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://www.anthropic.com/news/claude-opus-4-8",
+              "https://x.ai/news",
+              "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+              "https://microsoft.ai/news/introducing-mai-thinking-1/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Open-weight release week turns into a firehose",
+            description:
+              "The open slide is now a stack, not a list: Nemotron/Cosmos/OmniDreams for physical AI, Gemma/Liquid/Step/OpenBMB/Tencent/Cohere for local LLMs and coding agents, PaddleOCR/LocateAnything for vision, MOSS/Higgs/dots for audio, Ideogram/Magenta/NAVA/Lance/Bernini/JoyAI for media, WALL-OSS for robotics, and Unsloth/Comfy/NVFP4 quants for deployment.",
+            chip: "open models",
+            href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/NVIDIAAI/status/2062521325076299981?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MiniMax_AI/status/2061266317815296322?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/googlegemma/status/2062202706882883696?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NVIDIAAI/status/2061308434629132553?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ideogram_ai/status/2062202228770045991?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/GoogleMagenta/status/2062589313372594538?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/jetbrains/status/2061444430884675791?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NVIDIAAI/status/2062896815784219076?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/hcompany_ai/status/2061815365168923083?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ModelScope2022/status/2061008636634394819?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ModelScope2022/status/2063881896153543022?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/JinWeiyang18434/status/2062034336929677578?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/HuggingModels/status/2062025488147849246?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/boson_ai/status/2062629221411995896?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/AdinaYakup/status/2062923324896727048?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/liquidai/status/2060023455290974474?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/PaddlePaddle/status/2059990434827661769?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenBMB/status/2061810723169415205?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenBMB/status/2058903449379717319?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ArtificialAnlys/status/2062381047212638697?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/TencentHunyuan/status/2057384034544804136?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/TencentHunyuan/status/2059104921778352626?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ModelScope2022/status/2059243470469185617?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ClementDelangue/status/2061968482640523365?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ModelScope2022/status/2059244401189163391?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/pmarca/status/2063179832008356119?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/XiaomiMiMo/status/2063993799085633911?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2062207258810053084?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2062470072179044447?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/HuggingPapers/status/2060470519775043879?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NVIDIAAI/status/2056887241432014959?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/AdinaYakup/status/2063901313578963072?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/cohere/status/2064378058329526556?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
+              "https://huggingface.co/google/gemma-4-12B",
+              "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+              "https://ideogram.ai/news/ideogram-4.0/",
+              "https://huggingface.co/google/magenta-realtime-2",
+              "https://huggingface.co/blog/JetBrains/mellum2-launch",
+              "https://huggingface.co/nvidia/omni-dreams-models",
+              "https://hcompany.ai/holo3",
+              "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
+              "https://huggingface.co/nex-agi/Nex-N2-Pro",
+              "https://huggingface.co/jdopensource/JoyAI-Echo",
+              "https://huggingface.co/ByteDance/Bernini-R",
+              "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+              "https://github.com/rednote-hilab/dots.tts",
+              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+              "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+              "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+              "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+              "https://huggingface.co/tencent/Hy-MT2-1.8B",
+              "https://huggingface.co/tencent/Hy-MT2-7B",
+              "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+              "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
+              "https://github.com/OpenMOSS/MOSS-TTS",
+              "https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0",
+              "https://huggingface.co/baidu/NAVA",
+              "https://huggingface.co/bytedance-research/Lance",
+              "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
+              "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+              "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+              "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+              "https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4",
+              "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+              "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+              "https://huggingface.co/Kijai/WanVideo_comfy",
+              "https://huggingface.co/Kijai/LTX2.3_comfy",
+              "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+              "https://huggingface.co/Comfy-Org/PixelDiT",
+              "https://huggingface.co/Comfy-Org/Ideogram-4",
+              "https://huggingface.co/amazon/chronos-2",
+              "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+              "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+              "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+              "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8",
+              "https://huggingface.co/nvidia/LocateAnything-3B",
+              "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+              "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
+              "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
+              "https://huggingface.co/x-square-robot/wall-oss-flow",
+              "https://huggingface.co/x-square-robot/wall-oss-0.5",
+              "https://github.com/X-Square-Robot/wall-x",
+              "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+      {
+        id: "jun10-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
+        items: [
+          {
+            title: "Frontier model review gets a federal lane",
+            description:
+              "Trump's June 2 AI order creates a classified cyber benchmark and a voluntary 30-day pre-release access path for covered frontier models, while explicitly avoiding mandatory licensing. The trust boundary is now government early access, not just lab evals.",
+            chip: "governance",
+            href: "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+            linkPair: [
+              "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
+              "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
+              "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+      {
+        id: "jun10-big-tech",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware launches, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
+        items: [
+          {
+            title: "Apple finally shows Siri AI",
+            description:
+              "WWDC26 gave the first real look at Apple's delayed assistant reset: screen awareness, personal context search, app actions, web grounding, and a dedicated Siri app. The question is whether privacy-first OS agents can catch up to chat-native AI before users stop asking Siri for anything serious.",
+            chip: "consumer agents",
+            href: "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/tftc21/status/2064042445021868257?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+              "https://www.axios.com/2026/06/08/apple-intelligence-ai-siri-golden-gate",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Apple stretches PCC onto Google/NVIDIA",
+            description:
+              "The sharper Siri infra story is that Apple now says AFM Cloud Pro extends Private Cloud Compute to NVIDIA GPUs in Google's cloud. If the privacy guarantees hold, PCC just changed from an Apple-Silicon-only cloud story into a verifiable confidential-inference architecture that can rent frontier GPU scale.",
+            chip: "private compute",
+            href: "https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/anthonyronning/status/2064091573571477857?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/BenBajarin/status/2064065407615717659?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NewsFromGoogle/status/2010760810751017017?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/",
+              "https://security.apple.com/blog/private-cloud-compute/",
+              "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+              "https://appleinsider.com/articles/26/01/12/google-confirms-that-it-wont-get-apple-user-data-in-new-siri-deal",
+            ],
+            topStory: true,
+          },
+          {
+            title: "OpenAI says AI research automation is the race",
+            description:
+              "OpenAI's new plan memo frames phase three around an automated AI researcher, personal AGI for everyone, and governance that can coordinate or slow frontier work when needed. The loud sentence is that AI doing AI research will determine the pace of progress within the next few years.",
+            chip: "strategy",
+            href: "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/sama/status/2064088940932641225?ref_src=twsrc%5Etfw",
+            },
+            topStory: true,
+          },
+          {
+            title: "Anthropic enters IPO mode at $965B",
+            description:
+              "A $65B Series H, $47B run-rate, and confidential S-1 in the same week as Opus 4.8 makes the bet explicit: Claude's enterprise agent revenue is being priced like a near-trillion public-market company.",
+            chip: "ipo",
+            href: "https://www.anthropic.com/news/series-h",
+            linkPair: [
+              "https://www.anthropic.com/news/confidential-draft-s1-sec",
+              "https://www.axios.com/2026/06/01/anthropic-ipo-openai",
+              "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Google rents SpaceX's GPU bridge",
+            description:
+              "The SEC filing says Google will pay SpaceX $920M/month for roughly 110K NVIDIA GPUs from October 2026 through June 2029. Google needing bridge capacity from Musk's compute pile says the agent-platform demand curve is outrunning even hyperscalers.",
+            chip: "compute",
+            href: "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041150/spacexagreementfwp.htm",
+            linkPair: [
+              "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+            ],
+            topStory: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-05-27",
     slug: "2026-05-27",
     date: "May 27, 2026",

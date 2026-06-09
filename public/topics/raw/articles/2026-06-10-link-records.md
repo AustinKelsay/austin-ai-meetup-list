@@ -1,0 +1,739 @@
+---
+title: Austin AI Club - June 10, 2026 - Source Link Records
+created: 2026-06-08
+updated: 2026-06-09
+type: summary
+tags: [source-record, meetup]
+sources: []
+---
+
+# Austin AI Club - June 10, 2026 - Source Link Records
+
+## Local Builds & Projects
+
+## Agent Infrastructure
+
+### Microsoft wants the whole agent stack
+- Source: https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/
+  - Title: "Microsoft Build 2026: Be yourself at work"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Microsoft's Build 2026 overview covering Microsoft IQ, Work IQ, Scout, MAI models, Agent 365, Frontier Tuning, and the enterprise agent platform pitch.
+- Source: https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/
+  - Title: "GitHub Copilot app: The agent-native desktop experience"
+  - Type: Official product announcement
+  - Access: 2026-06-08
+  - Notes: GitHub's June 2 announcement for the Copilot desktop app and agent-native development workflow.
+- Source: https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/
+  - Title: "Expanded technical preview availability for the GitHub Copilot app"
+  - Type: Official changelog
+  - Access: 2026-06-08
+  - Notes: GitHub changelog entry describing broader Copilot app preview availability and the agent experience framing.
+- Source: https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/
+  - Title: "Build 2026: Furthering Windows as the trusted platform for development"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Windows Developer Blog source for Windows 365 for Agents and Windows as part of Microsoft's agent platform.
+
+### Claude gets its cloud-bill moment
+- Source: https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs
+  - Title: "AI sticker shock hits corporate America"
+  - Type: Reporting
+  - Access: 2026-06-09
+  - Notes: Original Axios report for the unnamed-client anecdote: an AI consultant says a client spent half a billion dollars in one month after failing to put usage limits on Claude licenses for employees. Treated as a reported anecdote, not audited public billing evidence.
+- Source: https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad
+  - Title: "Microsoft starts canceling Claude Code licenses"
+  - Type: Reporting
+  - Access: 2026-06-09
+  - Notes: The Verge reports Microsoft is removing most Claude Code licenses in Experiences + Devices by the end of June, with toolchain convergence as the official reason and financial pressure as a factor.
+- Source: https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html
+  - Title: "A company accidentally spent $500 million on Claude in one month"
+  - Type: News summary
+  - Access: 2026-06-09
+  - Notes: Readable summary of the Axios anecdote and broader tokenmaxxing / agentic-AI cost-control framing.
+- Post: https://x.com/Polymarket/status/2060034216906068131
+  - Title: "Polymarket post on the alleged $500M Claude bill"
+  - Type: Viral X post
+  - Access: 2026-06-09
+  - Notes: Viral X framing of the Axios anecdote, used as the room-friendly embed.
+- Post: https://x.com/_alialkhatib/status/2060056690221838552
+  - Title: "Ali Alkhatib skeptical reply on the $500M Claude framing"
+  - Type: Commentary X post
+  - Access: 2026-06-09
+  - Notes: Useful caveat post questioning whether the headline number represents actual cash spend or token-value accounting.
+
+## Models & Research
+
+### Closed labs start the June model wave
+- Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+  - Title: "Claude Fable 5 and Claude Mythos 5"
+  - Type: Official release
+  - Access: 2026-06-09
+  - Notes: Anthropic's June 9 launch of Claude Fable 5, a public Mythos-class model with safeguards, and Claude Mythos 5 for trusted-access cyberdefenders and infrastructure providers; includes Opus 4.8 fallback for flagged cyber, bio/chem, and distillation requests, $10/M input and $50/M output pricing, and staged availability details.
+- Post: https://x.com/claudeai/status/2064394146916229443
+  - Title: "Claude announcement post for Claude Fable 5 and Claude Mythos 5"
+  - Type: Official X post
+  - Access: 2026-06-09
+  - Notes: User-submitted Claude post used as the first embed on the proprietary model release super-slide.
+- Source: https://www.anthropic.com/news/claude-opus-4-8
+  - Title: "Introducing Claude Opus 4.8"
+  - Type: Official release
+  - Access: 2026-06-08
+  - Notes: Anthropic's May 28 release for Opus 4.8, including agentic task improvements, Claude Code workflow updates, effort control, and unchanged regular pricing.
+- Post: https://x.com/claudeai/status/2060042702150930686
+  - Title: "Claude announcement post for Claude Opus 4.8"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official announcement post used as the slide embed.
+- Source: https://x.ai/news
+  - Title: "xAI news"
+  - Type: Official news index
+  - Access: 2026-06-08
+  - Notes: xAI's June 3 listing for Grok Imagine 1.5 Preview and related API releases.
+- Post: https://x.com/grok/status/2062225080843747351
+  - Title: "Grok announcement post for Imagine 1.5 Preview"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official Grok post used as the slide embed.
+- Source: https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/
+  - Title: "Building a hill-climbing machine: Launching seven new MAI models"
+  - Type: Official release
+  - Access: 2026-06-08
+  - Notes: Microsoft's June 2 announcement of seven in-house MAI models across reasoning, code, image, transcription, and voice.
+- Source: https://microsoft.ai/news/introducing-mai-thinking-1/
+  - Title: "Introducing MAI-Thinking-1"
+  - Type: Official release
+  - Access: 2026-06-08
+  - Notes: Microsoft AI's June 2 model card-style post for MAI-Thinking-1, including the 35B-active, roughly 1T-total MoE claim and private preview availability.
+- Post: https://x.com/mustafasuleyman/status/2061880164498428188
+  - Title: "Mustafa Suleyman post on seven new MAI models"
+  - Type: Official-adjacent X post
+  - Access: 2026-06-08
+  - Notes: Microsoft AI CEO post used for the broader family-level embed.
+- Post: https://x.com/MicrosoftAI/status/2061887504916087224
+  - Title: "Microsoft AI announcement post for MAI-Thinking-1"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official model-specific announcement post used as supporting embed.
+
+### Open-weight release week turns into a firehose
+- Source: https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16
+  - Title: "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA's June 4 open-weight Nemotron 3 Ultra BF16 model card with OpenMDW license terms and 550B total, 55B active positioning.
+- Source: https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm
+  - Title: "Announcing Day-0 Support for NVIDIA Nemotron 3 Ultra on vLLM"
+  - Type: Runtime integration
+  - Access: 2026-06-08
+  - Notes: vLLM support for running the Nemotron 3 Ultra release.
+- Post: https://x.com/NVIDIAAI/status/2062521325076299981
+  - Title: "NVIDIA AI announcement post for Nemotron 3 Ultra"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Post: https://x.com/MiniMax_AI/status/2061266317815296322
+  - Title: "MiniMax announcement post for M3"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official M3 announcement with benchmark claims and a caveat that weights and tech report were expected in roughly 10 days.
+- Source: https://huggingface.co/google/gemma-4-12B
+  - Title: "google/gemma-4-12B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Google's Apache 2.0 Gemma 4 12B model card.
+- Source: https://ai.google.dev/gemma/docs/core
+  - Title: "Gemma docs"
+  - Type: Official documentation
+  - Access: 2026-06-08
+  - Notes: Official Gemma core documentation supporting the Gemma 4 12B entry.
+- Post: https://x.com/googlegemma/status/2062202706882883696
+  - Title: "Google Gemma announcement post for Gemma 4 12B"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai
+  - Title: "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI"
+  - Type: Official newsroom release
+  - Access: 2026-06-08
+  - Notes: NVIDIA's release positioning Cosmos 3 as an open frontier foundation model for physical AI.
+- Source: https://github.com/nvidia/cosmos
+  - Title: "nvidia/cosmos"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official Cosmos repository.
+- Post: https://x.com/NVIDIAAI/status/2061308434629132553
+  - Title: "NVIDIA AI announcement post for Cosmos 3"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://ideogram.ai/news/ideogram-4.0/
+  - Title: "Ideogram 4.0 Press Release"
+  - Type: Official release
+  - Access: 2026-06-08
+  - Notes: June 3 Ideogram 4.0 open-weight image model release with commercial license and 2K/text-layout claims.
+- Source: https://huggingface.co/collections/ideogram-ai/ideogram-4
+  - Title: "Ideogram 4"
+  - Type: Hugging Face collection
+  - Access: 2026-06-08
+  - Notes: Official Ideogram 4 Hugging Face collection for fp8, nf4, and related weights.
+- Post: https://x.com/ideogram_ai/status/2062202228770045991
+  - Title: "Ideogram announcement post for Ideogram 4"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://huggingface.co/google/magenta-realtime-2
+  - Title: "google/magenta-realtime-2"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Google DeepMind's open music generation model card, with Apache 2.0 code, CC-BY 4.0 weights, and low-latency live music positioning.
+- Source: https://github.com/magenta/magenta-realtime
+  - Title: "magenta/magenta-realtime"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official Magenta RealTime repository.
+- Post: https://x.com/GoogleMagenta/status/2062589313372594538
+  - Title: "Google Magenta announcement post for Magenta RealTime 2"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://huggingface.co/blog/JetBrains/mellum2-launch
+  - Title: "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains"
+  - Type: Official Hugging Face blog
+  - Access: 2026-06-08
+  - Notes: JetBrains' Mellum2 launch post for the 12B, 2.5B-active Apache 2.0 text/code MoE model.
+- Post: https://x.com/jetbrains/status/2061444430884675791
+  - Title: "JetBrains announcement post for Mellum2"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://huggingface.co/nvidia/omni-dreams-models
+  - Title: "nvidia/omni-dreams-models"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA OmniDreams model card for real-time generative closed-loop autonomous vehicle simulation under NVIDIA open model terms.
+- Source: https://github.com/nv-tlabs/omni-dreams
+  - Title: "nv-tlabs/omni-dreams"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official OmniDreams repository.
+- Post: https://x.com/NVIDIAAI/status/2062896815784219076
+  - Title: "NVIDIA AI announcement post for OmniDreams"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://hcompany.ai/holo3
+  - Title: "Holo3"
+  - Type: Official product page
+  - Access: 2026-06-08
+  - Notes: H Company page for the Holo computer-use model family.
+- Source: https://huggingface.co/Hcompany/Holo-3.1-35B-A3B-NVFP4
+  - Title: "Hcompany/Holo-3.1-35B-A3B-NVFP4"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Holo3.1 NVFP4 model card for the open computer-use agent VLM family.
+- Post: https://x.com/hcompany_ai/status/2061815365168923083
+  - Title: "H Company announcement post for Holo3.1"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B
+  - Title: "Kwai-Keye/Keye-VL-2.0-30B-A3B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Open long-video and multimodal VLM model card included from the research list.
+- Post: https://x.com/ModelScope2022/status/2061008636634394819
+  - Title: "ModelScope post for Keye-VL-2.0-30B-A3B"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: Best official ecosystem post recovered for the slide embed.
+- Source: https://huggingface.co/nex-agi/Nex-N2-Pro
+  - Title: "nex-agi/Nex-N2-Pro"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Nex-N2-Pro model card for agentic reasoning and tool-use oriented model release.
+- Source: https://hf.co/collections/nex-agi/nex-n2
+  - Title: "Nex-N2 collection"
+  - Type: Hugging Face collection
+  - Access: 2026-06-08
+  - Notes: Nex-N2 model family collection.
+- Post: https://x.com/ModelScope2022/status/2063881896153543022
+  - Title: "ModelScope post for Nex-N2 open source"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: Best official ecosystem post recovered for the slide embed.
+- Source: https://huggingface.co/jdopensource/JoyAI-Echo
+  - Title: "jdopensource/JoyAI-Echo"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: JD open long-form audio and video generation model card.
+- Source: https://github.com/jd-opensource/JoyAI-Echo
+  - Title: "jd-opensource/JoyAI-Echo"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official JoyAI-Echo repository.
+- Post: https://x.com/JinWeiyang18434/status/2062034336929677578
+  - Title: "Community post for JoyAI-Echo"
+  - Type: Community X post
+  - Access: 2026-06-08
+  - Notes: Best X post recovered; no clean official JD or JoyAI X launch post surfaced in the supplied research.
+- Source: https://huggingface.co/ByteDance/Bernini-R
+  - Title: "ByteDance/Bernini-R"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: ByteDance open video diffusion renderer model card.
+- Post: https://x.com/HuggingModels/status/2062025488147849246
+  - Title: "HuggingModels post for Bernini-R"
+  - Type: Community X post
+  - Access: 2026-06-08
+  - Notes: Best X post recovered; no clean official ByteDance X launch post surfaced in the supplied research.
+- Source: https://huggingface.co/bosonai/higgs-audio-v3-tts-4b
+  - Title: "bosonai/higgs-audio-v3-tts-4b"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: BosonAI's Higgs Audio v3 TTS model card for 100+ language conversational speech, zero-shot voice cloning, and non-commercial research license terms.
+- Post: https://x.com/boson_ai/status/2062629221411995896
+  - Title: "BosonAI announcement post for Higgs Audio v3 TTS"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post used as the slide embed.
+- Source: https://github.com/rednote-hilab/dots.tts
+  - Title: "rednote-hilab/dots.tts"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Apache 2.0 2B continuous autoregressive TTS system with pretrained and fine-tuning code.
+- Post: https://x.com/AdinaYakup/status/2062923324896727048
+  - Title: "Community post for dots.tts"
+  - Type: Community X post
+  - Access: 2026-06-08
+  - Notes: Best X post recovered; no official rednote-hilab X announcement surfaced in the supplied research.
+
+#### Second-pass open model additions
+- Source: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+  - Title: "LiquidAI/LFM2.5-8B-A1B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Liquid AI hybrid edge model card for an 8.3B-total, 1.5B-active local assistant model with 128K context and GGUF, ONNX, MLX, vLLM, and SGLang support.
+- Post: https://x.com/liquidai/status/2060023455290974474
+  - Title: "Liquid AI announcement post for LFM2.5"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Source: https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6
+  - Title: "PaddlePaddle/PaddleOCR-VL-1.6"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: PaddlePaddle open OCR/document-parsing VLM card included for the practical document AI angle.
+- Post: https://x.com/PaddlePaddle/status/2059990434827661769
+  - Title: "PaddlePaddle announcement post for PaddleOCR-VL-1.6"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Source: https://huggingface.co/openbmb/MiniCPM-V-4.6
+  - Title: "openbmb/MiniCPM-V-4.6"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: OpenBMB compact multimodal VLM card; included as a high-signal edge/mobile VLM even though some release activity predates the strict two-week window.
+- Post: https://x.com/OpenBMB/status/2061810723169415205
+  - Title: "OpenBMB post for MiniCPM-V-4.6"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official/ecosystem post supplied in the second scrape.
+- Source: https://huggingface.co/openbmb/MiniCPM5-1B
+  - Title: "openbmb/MiniCPM5-1B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Tiny 1B, long-context OpenBMB model card included for the local small-model story.
+- Post: https://x.com/OpenBMB/status/2058903449379717319
+  - Title: "OpenBMB post for MiniCPM5-1B"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Source: https://huggingface.co/stepfun-ai/Step-3.7-Flash
+  - Title: "stepfun-ai/Step-3.7-Flash"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: StepFun sparse MoE/VLM model card; included for the open multimodal agent model angle.
+- Post: https://x.com/ArtificialAnlys/status/2062381047212638697
+  - Title: "Artificial Analysis benchmark post for Step-3.7-Flash"
+  - Type: Benchmark X post
+  - Access: 2026-06-08
+  - Notes: Benchmark/context post supplied in the second scrape because no clean official status URL was provided.
+- Source: https://huggingface.co/tencent/Hy-MT2-1.8B
+  - Title: "tencent/Hy-MT2-1.8B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Small Tencent Hunyuan multilingual translation model card; included as part of the Hy-MT2 family.
+- Source: https://huggingface.co/tencent/Hy-MT2-7B
+  - Title: "tencent/Hy-MT2-7B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Mid-size Tencent Hunyuan multilingual translation model card; included as part of the Hy-MT2 family.
+- Source: https://huggingface.co/tencent/Hy-MT2-30B-A3B
+  - Title: "tencent/Hy-MT2-30B-A3B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Larger Tencent Hunyuan sparse translation model card; included as a specialized open model family with strong HF signal.
+- Post: https://x.com/TencentHunyuan/status/2057384034544804136
+  - Title: "Tencent Hunyuan announcement post for Hy-MT2"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape; release is slightly older than the strict two-week window but still relevant as a trending family.
+- Post: https://x.com/TencentHunyuan/status/2059104921778352626
+  - Title: "Tencent Hunyuan HF-trending post for Hy-MT2"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official ecosystem post supplied in the second scrape.
+- Source: https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5
+  - Title: "OpenMOSS-Team/MOSS-TTS-v1.5"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: OpenMOSS TTS v1.5 card included for multilingual TTS, voice cloning, long-reference cloning, and explicit pause-control capabilities.
+- Source: https://github.com/OpenMOSS/MOSS-TTS
+  - Title: "OpenMOSS/MOSS-TTS"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official repository with MOSS-TTS v1.5 and MOSS-SoundEffect v2.0 documentation and code.
+- Post: https://x.com/ModelScope2022/status/2059243470469185617
+  - Title: "ModelScope post for MOSS-TTS-v1.5"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: Ecosystem post supplied in the second scrape.
+- Post: https://x.com/ClementDelangue/status/2061968482640523365
+  - Title: "Hugging Face trending post for MOSS-TTS-v1.5"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: HF-trending context post supplied in the second scrape.
+- Source: https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0
+  - Title: "OpenMOSS-Team/MOSS-SoundEffect-v2.0"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Text-to-audio/sound-effect generation model card included as an audio-creator sibling to MOSS-TTS.
+- Post: https://x.com/ModelScope2022/status/2059244401189163391
+  - Title: "ModelScope post for MOSS-SoundEffect-v2.0"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: Ecosystem post supplied in the second scrape.
+- Source: https://huggingface.co/baidu/NAVA
+  - Title: "baidu/NAVA"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Baidu joint audio-video generation model card included alongside JoyAI-Echo and Bernini-R for the open media wave.
+- Post: https://x.com/pmarca/status/2063179832008356119
+  - Title: "Popular X post for Baidu NAVA"
+  - Type: Community X post
+  - Access: 2026-06-08
+  - Notes: Popular post supplied in the second scrape; no clean official Baidu X post surfaced.
+- Source: https://huggingface.co/bytedance-research/Lance
+  - Title: "bytedance-research/Lance"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: ByteDance research artifact for unified image/video understanding, generation, and editing; initial weights predate the window, with HF Space/update activity inside it.
+- Source: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash
+  - Title: "XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Xiaomi inference-optimized checkpoint included as a late-breaking large-model deployment artifact rather than a new base family.
+- Post: https://x.com/XiaomiMiMo/status/2063993799085633911
+  - Title: "Xiaomi MiMo post for MiMo-V2.5-Pro-FP4-DFlash"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Source: https://huggingface.co/unsloth/gemma-4-12b-it-GGUF
+  - Title: "unsloth/gemma-4-12b-it-GGUF"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Unsloth GGUF conversion that makes Gemma 4 locally runnable; tracked as deployment enablement, not a separate base model.
+- Source: https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF
+  - Title: "unsloth/gemma-4-26B-A4B-it-GGUF"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Unsloth GGUF conversion for the Gemma 4 26B-A4B instruction model; included for local deployment signal.
+- Source: https://huggingface.co/unsloth/gemma-4-31B-it-GGUF
+  - Title: "unsloth/gemma-4-31B-it-GGUF"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Unsloth GGUF conversion for the Gemma 4 31B instruction model; included for local deployment signal.
+- Post: https://x.com/UnslothAI/status/2062207258810053084
+  - Title: "Unsloth post for Gemma 4 GGUFs"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Post: https://x.com/UnslothAI/status/2062470072179044447
+  - Title: "Unsloth 2-bit Gemma 4 demo post"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official demo post supplied in the second scrape.
+- Source: https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block
+  - Title: "RedHatAI/gemma-4-31B-it-FP8-block"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Red Hat AI FP8 deployment artifact for Gemma 4; tracked as serving enablement.
+- Source: https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4
+  - Title: "RedHatAI/gemma-4-12B-it-NVFP4"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Red Hat AI NVFP4 deployment artifact for Gemma 4; tracked as serving enablement.
+- Source: https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4
+  - Title: "nvidia/Qwen3.6-35B-A3B-NVFP4"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: NVIDIA NVFP4 quantization for Qwen3.6; included as hardware-aware deployment infrastructure, not a new model family.
+- Post: https://x.com/HuggingPapers/status/2060470519775043879
+  - Title: "Hugging Papers post for NVIDIA Qwen3.6 NVFP4"
+  - Type: Ecosystem X post
+  - Access: 2026-06-08
+  - Notes: Ecosystem post supplied in the second scrape.
+- Source: https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF
+  - Title: "unsloth/Qwen3.6-27B-MTP-GGUF"
+  - Type: Quantization
+  - Access: 2026-06-08
+  - Notes: Unsloth local Qwen3.6 MTP GGUF release included for the multi-token prediction local speedup angle.
+- Post: https://x.com/UnslothAI/status/2056369392666194108
+  - Title: "Unsloth post for Qwen3.6 MTP GGUF"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape.
+- Source: https://huggingface.co/Kijai/WanVideo_comfy
+  - Title: "Kijai/WanVideo_comfy"
+  - Type: ComfyUI deployment artifact
+  - Access: 2026-06-08
+  - Notes: High-traction ComfyUI-friendly Wan video model pack; included as practitioner deployment signal rather than a frontier base release.
+- Source: https://huggingface.co/Kijai/LTX2.3_comfy
+  - Title: "Kijai/LTX2.3_comfy"
+  - Type: ComfyUI deployment artifact
+  - Access: 2026-06-08
+  - Notes: High-traction ComfyUI LTX 2.3 checkpoint pack; included as practitioner deployment signal.
+- Source: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI
+  - Title: "Comfy-Org/Qwen-Image_ComfyUI"
+  - Type: ComfyUI deployment artifact
+  - Access: 2026-06-08
+  - Notes: ComfyUI Qwen Image artifact with strong HF download signal; included as local image-generation workflow infrastructure.
+- Source: https://huggingface.co/Comfy-Org/PixelDiT
+  - Title: "Comfy-Org/PixelDiT"
+  - Type: ComfyUI deployment artifact
+  - Access: 2026-06-08
+  - Notes: ComfyUI PixelDiT artifact included in the second scrape's deployment layer.
+- Source: https://huggingface.co/Comfy-Org/Ideogram-4
+  - Title: "Comfy-Org/Ideogram-4"
+  - Type: ComfyUI deployment artifact
+  - Access: 2026-06-08
+  - Notes: ComfyUI artifact tied to the Ideogram 4 open-weight release.
+- Source: https://huggingface.co/amazon/chronos-2
+  - Title: "amazon/chronos-2"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Open time-series foundation model with very large HF usage signal; included as an HF-trending specialized model, not a launch-window genAI headline.
+- Source: https://huggingface.co/CohereLabs/cohere-transcribe-03-2026
+  - Title: "CohereLabs/cohere-transcribe-03-2026"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Apache 2.0 ASR model card; included as an HF-trending specialized model even though the original release predates the strict window.
+- Source: https://huggingface.co/blog/CohereLabs/introducing-north-mini-code
+  - Title: "Introducing North Mini Code: Cohere's First Model For Developers"
+  - Type: Official Hugging Face blog
+  - Access: 2026-06-09
+  - Notes: Cohere Labs' June 9 release post for North Mini Code, a 30B-total, 3B-active MoE agentic coding model trained for software engineering, terminal tasks, and cross-harness robustness.
+- Source: https://huggingface.co/CohereLabs/North-Mini-Code-1.0
+  - Title: "CohereLabs/North-Mini-Code-1.0"
+  - Type: Model card
+  - Access: 2026-06-09
+  - Notes: BF16 open-weights model card; includes Transformers, vLLM, SGLang, Docker Model Runner, and local OpenCode serving paths, plus 256K context and 64K max output positioning.
+- Source: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8
+  - Title: "CohereLabs/North-Mini-Code-1.0-fp8"
+  - Type: Quantization
+  - Access: 2026-06-09
+  - Notes: FP8 North Mini Code variant included for local/serving efficiency.
+- Post: https://x.com/cohere/status/2064378058329526556
+  - Title: "Cohere announcement post for North Mini Code"
+  - Type: Official X post
+  - Access: 2026-06-09
+  - Notes: User-submitted Cohere post used as the Presentation Mode embed.
+- Source: https://huggingface.co/nvidia/LocateAnything-3B
+  - Title: "nvidia/LocateAnything-3B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA vision grounding/object-localization model card included as a high-signal HF-trending specialized vision model.
+- Source: https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b
+  - Title: "nvidia/nemotron-3.5-asr-streaming-0.6b"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA streaming ASR model card; included as a specialized speech release adjacent to Nemotron 3 Ultra.
+- Source: https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base
+  - Title: "nvidia/Nemotron-Labs-Diffusion-3B-Base"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA diffusion-language research model card; included as an in-window update/watchlist item.
+- Source: https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B
+  - Title: "nvidia/Nemotron-Labs-Diffusion-VLM-8B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: NVIDIA diffusion VLM research model card; included as an in-window update/watchlist item.
+- Post: https://x.com/NVIDIAAI/status/2056887241432014959
+  - Title: "NVIDIA AI post for Nemotron Labs Diffusion"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official post supplied in the second scrape; original release is older than the main window.
+- Source: https://huggingface.co/x-square-robot/wall-oss-flow
+  - Title: "x-square-robot/wall-oss-flow"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Robotics/embodied manipulation policy model card included for the open robotics angle.
+- Source: https://huggingface.co/x-square-robot/wall-oss-0.5
+  - Title: "x-square-robot/wall-oss-0.5"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Companion WALL-OSS model card included with the robotics release.
+- Source: https://github.com/X-Square-Robot/wall-x
+  - Title: "X-Square-Robot/wall-x"
+  - Type: Repository
+  - Access: 2026-06-08
+  - Notes: Official repository for the WALL-X/WALL-OSS robotics release.
+- Source: https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B
+  - Title: "mindlab-research/Macaron-V1-Preview-749B"
+  - Type: Model card
+  - Access: 2026-06-08
+  - Notes: Very new personal-agent MoL/Mixture-of-LoRA model card; included as a watchlist item with medium confidence pending more official context.
+- Post: https://x.com/AdinaYakup/status/2063901313578963072
+  - Title: "Community post for Macaron-V1-Preview-749B"
+  - Type: Community X post
+  - Access: 2026-06-08
+  - Notes: Best X post supplied in the second scrape for the watchlist item.
+
+## Security
+
+### Frontier model review gets a federal lane
+- Source: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/
+  - Title: "Promoting Advanced Artificial Intelligence Innovation and Security"
+  - Type: Executive order
+  - Access: 2026-06-08
+  - Notes: June 2 White House order creating a classified cyber benchmark and voluntary 30-day pre-release access framework for covered frontier models.
+- Source: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/
+  - Title: "Fact Sheet: President Donald J. Trump Promotes Advanced Artificial Intelligence Innovation and Security"
+  - Type: Official fact sheet
+  - Access: 2026-06-08
+  - Notes: White House summary of the voluntary framework, cybersecurity clearinghouse, and security emphasis.
+- Source: https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3
+  - Title: "Trump signs an executive order that invites vetting of top AI models for national security risks"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: AP coverage clarifying the up-to-30-day review framing and the voluntary nature of the model access lane.
+- Source: https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/
+  - Title: "Trump signs narrower executive order on AI oversight after industry objections"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: TechCrunch context on the narrower final order and lack of mandatory model licensing or preclearance.
+
+## Big Tech Moves
+
+### Apple finally shows Siri AI
+- Source: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
+  - Title: "WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Apple primary source for Siri AI, including personal context understanding, screen awareness, systemwide app actions, web grounding, a dedicated Siri app, and beta availability later in 2026.
+- Source: https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/
+  - Title: "Apple's long-awaited AI Siri overhaul is finally here"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: TechCrunch context on Siri AI as Apple's delayed move from voice assistant toward AI companion.
+- Source: https://www.axios.com/2026/06/08/apple-intelligence-ai-siri-golden-gate
+  - Title: "Apple debuts software updates amid Siri overhaul"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: Axios context on Apple's WWDC preview, privacy-first pitch, developer access, and delayed regional availability.
+- Post: https://x.com/tftc21/status/2064042445021868257
+  - Title: "TFTC post with first-look Siri AI clip"
+  - Type: X post
+  - Access: 2026-06-08
+  - Notes: Submitted post used as the room-friendly embed for the first Siri AI sneak peek.
+
+### Apple stretches PCC onto Google/NVIDIA
+- Source: https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/
+  - Title: "Craig Federighi details Apple's collaboration with Google for Siri AI in iOS 27"
+  - Type: Reporting / transcript excerpt
+  - Access: 2026-06-08
+  - Notes: Reports Apple leadership's WWDC26 technical briefing quote that AFM Cloud Pro extends Private Cloud Compute to NVIDIA GPUs in Google's cloud while preserving Apple's privacy guarantees.
+- Source: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
+  - Title: "Joint statement from Google and Apple"
+  - Type: Official joint statement
+  - Access: 2026-06-08
+  - Notes: Official Google-hosted joint statement that next-generation Apple Foundation Models are based on Google's Gemini models and cloud technology, while Apple Intelligence continues to run on Apple devices and Private Cloud Compute.
+- Source: https://security.apple.com/blog/private-cloud-compute/
+  - Title: "Private Cloud Compute: A new frontier for AI privacy in the cloud"
+  - Type: Official security architecture writeup
+  - Access: 2026-06-08
+  - Notes: Apple's original PCC architecture post, emphasizing Apple Silicon servers, stateless processing, no privileged runtime access, non-targetability, and verifiable transparency.
+- Source: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
+  - Title: "WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, and more"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Official WWDC26 announcement for Siri AI and the next generation of Apple Intelligence, used as context for why the PCC/GCP/NVIDIA architecture matters.
+- Source: https://appleinsider.com/articles/26/01/12/google-confirms-that-it-wont-get-apple-user-data-in-new-siri-deal
+  - Title: "Google confirms that it won't get Apple user data in new Siri deal"
+  - Type: Reporting
+  - Access: 2026-06-08
+  - Notes: January context on the Apple/Google statement and Google's claim that the deal operates under PCC and Apple's privacy rules.
+- Post: https://x.com/anthonyronning/status/2064091573571477857
+  - Title: "Anthony Ronning post on PCC extending beyond Apple Silicon"
+  - Type: Commentary X post
+  - Access: 2026-06-08
+  - Notes: Submitted post framing the story as PCC extending to other TEE/confidential-compute implementations.
+- Post: https://x.com/BenBajarin/status/2064065407615717659
+  - Title: "Ben Bajarin post on Apple PCC, Google Cloud, and NVIDIA"
+  - Type: Commentary X post
+  - Access: 2026-06-08
+  - Notes: Quote-post source supplied by the user; includes the Apple leadership quote about extending PCC to NVIDIA GPUs in Google's cloud.
+- Post: https://x.com/NewsFromGoogle/status/2010760810751017017
+  - Title: "News from Google post with Apple-Google joint statement"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Official Google X post for the Apple-Google joint statement.
+
+### OpenAI says AI research automation is the race
+- Source: https://openai.com/index/built-to-benefit-everyone-our-plan/
+  - Title: "Built to benefit everyone: our plan"
+  - Type: Official strategy memo
+  - Access: 2026-06-08
+  - Notes: OpenAI plan memo by Sam Altman and Jakub Pachocki, dated June 8, 2026, framing OpenAI's third phase around automated AI research, broad distribution of AI power, personal AGI, safety/alignment, affordability, privacy, open ecosystems, public oversight, and global coordination.
+- Post: https://x.com/sama/status/2064088940932641225
+  - Title: "Sam Altman post linking OpenAI's current plan"
+  - Type: Official X post
+  - Access: 2026-06-08
+  - Notes: Sam Altman post used as the Presentation Mode embed.
+
+### Anthropic enters IPO mode at $965B
+- Source: https://www.anthropic.com/news/series-h
+  - Title: "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Anthropic's May 28 Series H announcement with $65B funding, $965B post-money valuation, $47B run-rate revenue, and compute expansion context.
+- Source: https://www.anthropic.com/news/confidential-draft-s1-sec
+  - Title: "Anthropic confidentially submits draft S-1 to the SEC"
+  - Type: Official announcement
+  - Access: 2026-06-08
+  - Notes: Anthropic's June 1 confidential draft S-1 announcement for a proposed IPO.
+- Source: https://www.axios.com/2026/06/01/anthropic-ipo-openai
+  - Title: "Anthropic files for its IPO"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: Axios context on Anthropic's IPO timing and near-trillion-dollar public-market implications.
+- Source: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
+  - Title: "Anthropic raises $65 billion, nears $1T valuation ahead of IPO"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: TechCrunch coverage linking the round to enterprise Claude adoption, Opus 4.8, compute, and IPO expectations.
+
+### Google rents SpaceX's GPU bridge
+- Source: https://www.sec.gov/Archives/edgar/data/1181412/000162828026041150/spacexagreementfwp.htm
+  - Title: "SpaceX Cloud Service Agreement with Google"
+  - Type: SEC filing
+  - Access: 2026-06-08
+  - Notes: SpaceX filing says Google will pay $920M/month from October 2026 through June 2029 for access to approximately 110K NVIDIA GPUs plus related compute components.
+- Source: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/
+  - Title: "Google will pay SpaceX $920M per month for compute"
+  - Type: News coverage
+  - Access: 2026-06-08
+  - Notes: TechCrunch context comparing the Google deal to Anthropic's SpaceX compute deal and framing it as short-term bridge capacity for surging agent platform demand.
+
+## Showcase
