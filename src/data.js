@@ -69,7 +69,6 @@ export const meetups = [
               "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
               "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
             ],
-            topStory: true,
           },
           {
             title: "Claude gets its cloud-bill moment",
@@ -91,7 +90,49 @@ export const meetups = [
               "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
               "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
             ],
-            topStory: true,
+          },
+          {
+            title: "AI Twitter advice has a six-month half-life",
+            description:
+              "The useful part of the Karpathy-filter thread is not the dunk list; it is what keeps compounding: context engineering, tool design, evals, orchestrator/subagent boundaries, and harness > model. Good palate cleanser before a board full of fast-expiring model drops.",
+            chip: "agent craft",
+            href: "https://x.com/0xMortyx/status/2061491256107159736",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/0xMortyx/status/2061491256107159736?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Local AI becomes bandwidth math",
+            description:
+              'parakeet.cpp running Nemotron ASR on CPU, VoxCPM2 local TTS, TurboVec/TurboQuant vector compression, and fresh bandwidth tables all point to the same local-AI reality: the question is no longer just "can it run?" but whether the memory path can keep up.',
+            chip: "local infra",
+            href: "https://github.com/mudler/parakeet.cpp",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/mudler_it/status/2063207757692441056?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NFTCPS/status/2061240890879017168?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/RoundtableSpace/status/2063233191062700280?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/The_Only_Signal/status/2060321842716365147?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://huggingface.co/openbmb/VoxCPM2",
+              "https://github.com/OpenBMB/VoxCPM",
+              "https://arxiv.org/html/2606.06928v1",
+              "https://github.com/RyanCodrai/turbovec",
+              "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+            ],
           },
         ],
       },
@@ -135,7 +176,6 @@ export const meetups = [
               "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
               "https://microsoft.ai/news/introducing-mai-thinking-1/",
             ],
-            topStory: true,
           },
           {
             title: "Open-weight release week turns into a firehose",
@@ -336,7 +376,17 @@ export const meetups = [
               "https://github.com/X-Square-Robot/wall-x",
               "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
             ],
-            topStory: true,
+          },
+          {
+            title: "World models need a taxonomy, not another demo",
+            description:
+              "Fei-Fei Li splits the overloaded world models label into renderers, simulators, and planners. That is the cleanest way to compare video generators, physics simulators, robotics policies, and agent planning without pretending they are the same capability.",
+            chip: "world models",
+            href: "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/a16z/status/2062266181890031815?ref_src=twsrc%5Etfw",
+            },
           },
         ],
       },
@@ -357,7 +407,6 @@ export const meetups = [
               "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
               "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
             ],
-            topStory: true,
           },
         ],
       },
@@ -381,7 +430,6 @@ export const meetups = [
               "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
               "https://www.axios.com/2026/06/08/apple-intelligence-ai-siri-golden-gate",
             ],
-            topStory: true,
           },
           {
             title: "Apple stretches PCC onto Google/NVIDIA",
@@ -409,7 +457,6 @@ export const meetups = [
               "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
               "https://appleinsider.com/articles/26/01/12/google-confirms-that-it-wont-get-apple-user-data-in-new-siri-deal",
             ],
-            topStory: true,
           },
           {
             title: "OpenAI says AI research automation is the race",
@@ -421,7 +468,6 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/sama/status/2064088940932641225?ref_src=twsrc%5Etfw",
             },
-            topStory: true,
           },
           {
             title: "Anthropic enters IPO mode at $965B",
@@ -434,7 +480,6 @@ export const meetups = [
               "https://www.axios.com/2026/06/01/anthropic-ipo-openai",
               "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
             ],
-            topStory: true,
           },
           {
             title: "Google rents SpaceX's GPU bridge",
@@ -445,7 +490,6 @@ export const meetups = [
             linkPair: [
               "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
             ],
-            topStory: true,
           },
         ],
       },

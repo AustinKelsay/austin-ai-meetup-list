@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:44:23.814Z",
+  "generatedAt": "2026-06-09T21:16:29.084Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -107,6 +107,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "company-brain",
+        "local-ai",
         "openai",
         "vercel"
       ],
@@ -132,7 +133,8 @@
         "nvidia",
         "openai",
         "openclaw",
-        "vercel"
+        "vercel",
+        "world-models"
       ],
       "referencedTopicSources": [
         {
@@ -474,6 +476,83 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -4449,6 +4528,17 @@
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
+        "https://x.com/0xMortyx/status/2061491256107159736",
+        "https://github.com/mudler/parakeet.cpp",
+        "https://x.com/mudler_it/status/2063207757692441056",
+        "https://huggingface.co/openbmb/VoxCPM2",
+        "https://github.com/OpenBMB/VoxCPM",
+        "https://arxiv.org/html/2606.06928v1",
+        "https://x.com/NFTCPS/status/2061240890879017168",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/The_Only_Signal/status/2060321842716365147",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -4555,6 +4645,8 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+        "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
         "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
         "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
@@ -4623,6 +4715,61 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure"
         },
         {
@@ -5153,6 +5300,16 @@
         {
           "href": "https://x.com/AdinaYakup/status/2063901313578963072",
           "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
         },
         {
@@ -5272,8 +5429,8 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
+      "updated": "2026-06-09",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, World Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
       "rawHref": "/topics/2026-06-10.md",
       "relativePath": "2026-06-10.md",
       "outgoingIds": [
@@ -5293,6 +5450,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "world-models",
         "xai"
       ],
       "unresolvedLinks": [],
@@ -5313,6 +5471,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "world-models",
         "xai"
       ],
       "referencedTopicSources": []
@@ -5337,6 +5496,17 @@
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
+        "https://x.com/0xMortyx/status/2061491256107159736",
+        "https://github.com/mudler/parakeet.cpp",
+        "https://x.com/mudler_it/status/2063207757692441056",
+        "https://huggingface.co/openbmb/VoxCPM2",
+        "https://github.com/OpenBMB/VoxCPM",
+        "https://arxiv.org/html/2606.06928v1",
+        "https://x.com/NFTCPS/status/2061240890879017168",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/The_Only_Signal/status/2060321842716365147",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -5443,6 +5613,8 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+        "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
         "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
         "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
@@ -5511,6 +5683,61 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure"
         },
         {
@@ -6041,6 +6268,16 @@
         {
           "href": "https://x.com/AdinaYakup/status/2063901313578963072",
           "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
         },
         {
@@ -8232,6 +8469,13 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -11348,7 +11592,8 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-may-27-2026",
-        "figure-ai"
+        "figure-ai",
+        "world-models"
       ],
       "referencedTopicSources": [
         {
@@ -11410,6 +11655,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
@@ -11423,6 +11669,76 @@
         "speculative-decoding"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -14835,7 +15151,8 @@
         "meta",
         "model-distillation",
         "nvidia",
-        "qwen"
+        "qwen",
+        "world-models"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -14855,10 +15172,81 @@
         "nvidia",
         "prismml",
         "speculative-decoding",
+        "world-models",
         "xai",
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -17530,6 +17918,55 @@
       ]
     },
     {
+      "id": "world-models",
+      "title": "World Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "robotics",
+        "simulation"
+      ],
+      "sources": [
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-09",
+      "updated": "2026-06-09",
+      "excerpt": "World Models covers models and systems that represent, simulate, predict, render, or plan over the physical or interactive world, especially when the distinction between video generation, simulation, and action planning matters.",
+      "rawHref": "/topics/concepts/world-models.md",
+      "relativePath": "concepts/world-models.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "humanoid-robotics",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-10-2026",
+        "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        }
+      ]
+    },
+    {
       "id": "xai",
       "title": "xAI",
       "type": "entity",
@@ -17891,6 +18328,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "company-brain",
+        "local-ai",
         "openai",
         "vercel"
       ],
@@ -17916,7 +18354,8 @@
         "nvidia",
         "openai",
         "openclaw",
-        "vercel"
+        "vercel",
+        "world-models"
       ],
       "referencedTopicSources": [
         {
@@ -18258,6 +18697,83 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -22233,6 +22749,17 @@
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
+        "https://x.com/0xMortyx/status/2061491256107159736",
+        "https://github.com/mudler/parakeet.cpp",
+        "https://x.com/mudler_it/status/2063207757692441056",
+        "https://huggingface.co/openbmb/VoxCPM2",
+        "https://github.com/OpenBMB/VoxCPM",
+        "https://arxiv.org/html/2606.06928v1",
+        "https://x.com/NFTCPS/status/2061240890879017168",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/The_Only_Signal/status/2060321842716365147",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -22339,6 +22866,8 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+        "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
         "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
         "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
@@ -22407,6 +22936,61 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure"
         },
         {
@@ -22937,6 +23521,16 @@
         {
           "href": "https://x.com/AdinaYakup/status/2063901313578963072",
           "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
         },
         {
@@ -23056,8 +23650,8 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
+      "updated": "2026-06-09",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, World Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
       "rawHref": "/topics/2026-06-10.md",
       "relativePath": "2026-06-10.md",
       "outgoingIds": [
@@ -23077,6 +23671,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "world-models",
         "xai"
       ],
       "unresolvedLinks": [],
@@ -23097,6 +23692,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "world-models",
         "xai"
       ],
       "referencedTopicSources": []
@@ -23121,6 +23717,17 @@
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
+        "https://x.com/0xMortyx/status/2061491256107159736",
+        "https://github.com/mudler/parakeet.cpp",
+        "https://x.com/mudler_it/status/2063207757692441056",
+        "https://huggingface.co/openbmb/VoxCPM2",
+        "https://github.com/OpenBMB/VoxCPM",
+        "https://arxiv.org/html/2606.06928v1",
+        "https://x.com/NFTCPS/status/2061240890879017168",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/The_Only_Signal/status/2060321842716365147",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -23227,6 +23834,8 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+        "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
         "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
         "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
@@ -23295,6 +23904,61 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure"
         },
         {
@@ -23825,6 +24489,16 @@
         {
           "href": "https://x.com/AdinaYakup/status/2063901313578963072",
           "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
         },
         {
@@ -26016,6 +26690,13 @@
         {
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -29132,7 +29813,8 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-may-27-2026",
-        "figure-ai"
+        "figure-ai",
+        "world-models"
       ],
       "referencedTopicSources": [
         {
@@ -29194,6 +29876,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
@@ -29207,6 +29890,76 @@
         "speculative-decoding"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -32619,7 +33372,8 @@
         "meta",
         "model-distillation",
         "nvidia",
-        "qwen"
+        "qwen",
+        "world-models"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -32639,10 +33393,81 @@
         "nvidia",
         "prismml",
         "speculative-decoding",
+        "world-models",
         "xai",
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://github.com/mudler/parakeet.cpp",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mudler_it/status/2063207757692441056",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/VoxCPM2",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenBMB/VoxCPM",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://arxiv.org/html/2606.06928v1",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NFTCPS/status/2061240890879017168",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -35313,6 +36138,55 @@
         }
       ]
     },
+    "world-models": {
+      "id": "world-models",
+      "title": "World Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "models-research",
+        "robotics",
+        "simulation"
+      ],
+      "sources": [
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-09",
+      "updated": "2026-06-09",
+      "excerpt": "World Models covers models and systems that represent, simulate, predict, render, or plan over the physical or interactive world, especially when the distinction between video generation, simulation, and action planning matters.",
+      "rawHref": "/topics/concepts/world-models.md",
+      "relativePath": "concepts/world-models.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "humanoid-robotics",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-10-2026",
+        "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/a16z/status/2062266181890031815",
+          "title": "World models need a taxonomy, not another demo",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        }
+      ]
+    },
     "xai": {
       "id": "xai",
       "title": "xAI",
@@ -35620,6 +36494,10 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "local-ai"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "vercel"
     },
     {
@@ -35873,6 +36751,10 @@
     {
       "source": "austin-ai-club-june-10-2026",
       "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-june-10-2026",
+      "target": "world-models"
     },
     {
       "source": "austin-ai-club-june-10-2026",
@@ -36440,6 +37322,10 @@
     },
     {
       "source": "open-models",
+      "target": "world-models"
+    },
+    {
+      "source": "open-models",
       "target": "model-distillation"
     },
     {
@@ -36640,6 +37526,22 @@
     },
     {
       "source": "vercel",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "world-models",
+      "target": "austin-ai-club-june-10-2026"
+    },
+    {
+      "source": "world-models",
+      "target": "open-models"
+    },
+    {
+      "source": "world-models",
+      "target": "humanoid-robotics"
+    },
+    {
+      "source": "world-models",
       "target": "agent-infrastructure"
     },
     {
@@ -37137,6 +38039,17 @@
         ]
       },
       {
+        "id": "world-models",
+        "label": "World Models",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "models-research",
+          "robotics",
+          "simulation"
+        ]
+      },
+      {
         "id": "xai",
         "label": "xAI",
         "type": "entity",
@@ -37207,6 +38120,10 @@
       {
         "source": "agent-infrastructure",
         "target": "agent-cost-controls"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "local-ai"
       },
       {
         "source": "agent-infrastructure",
@@ -37463,6 +38380,10 @@
       {
         "source": "austin-ai-club-june-10-2026",
         "target": "open-models"
+      },
+      {
+        "source": "austin-ai-club-june-10-2026",
+        "target": "world-models"
       },
       {
         "source": "austin-ai-club-june-10-2026",
@@ -38030,6 +38951,10 @@
       },
       {
         "source": "open-models",
+        "target": "world-models"
+      },
+      {
+        "source": "open-models",
         "target": "model-distillation"
       },
       {
@@ -38233,6 +39158,22 @@
         "target": "agent-infrastructure"
       },
       {
+        "source": "world-models",
+        "target": "austin-ai-club-june-10-2026"
+      },
+      {
+        "source": "world-models",
+        "target": "open-models"
+      },
+      {
+        "source": "world-models",
+        "target": "humanoid-robotics"
+      },
+      {
+        "source": "world-models",
+        "target": "agent-infrastructure"
+      },
+      {
         "source": "xai",
         "target": "austin-ai-club-june-10-2026"
       },
@@ -38267,11 +39208,11 @@
     ]
   },
   "stats": {
-    "pageCount": 45,
+    "pageCount": 46,
     "rawPageCount": 0,
-    "linkCount": 276,
+    "linkCount": 283,
     "sourceRecordCount": 6,
-    "sourceLinkCount": 515,
+    "sourceLinkCount": 528,
     "unresolvedLinkCount": 0
   }
 }

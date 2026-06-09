@@ -13,7 +13,7 @@ Open Models covers open-weight and open-source model releases, their deployment 
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts.
+- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.
 - [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**, **Attune patches the open-model tool-call boundary**, and **Gemma 4 app surface**.
 - [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**, **Llama 4 Scout & Maverick**, **Trinity-Large-Thinking**, **GLM-5.1**, and **Qwen3.6-Plus**.
 - [[Austin AI Club - April 1, 2026]]: **Nemotron-Cascade 2**, **Qwen3.5-Omni**, **Cohere Transcribe**, **Liquid AI LFM2.5-350M**, and **Claude-distilled Qwen models trending on HF**.
@@ -22,6 +22,7 @@ Open Models covers open-weight and open-source model releases, their deployment 
 ## Related
 
 - [[Local AI]]
+- [[World Models]]
 - [[Model Distillation]]
 - [[Cohere]]
 - [[Qwen]]

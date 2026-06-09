@@ -2,6 +2,14 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-09] update | Cohost bookmark sweep added
+
+- Reviewed `ai-bookmarks-20260608.md` and omitted duplicate stories plus links older than the two-week cutoff.
+- Added three June 10 Topics from the cohost list: **AI Twitter advice has a six-month half-life**, **Local AI becomes bandwidth math**, and **World models need a taxonomy, not another demo**.
+- Added source records for the Karpathy-filter thread, parakeet.cpp, VoxCPM2, TurboVec/TurboQuant, local hardware bandwidth, and Fei-Fei Li's world-model taxonomy.
+- Created the World Models concept page and updated Agent Infrastructure, Coding Agents, Local AI, Open Models, and index.md.
+- Mirrored the new Topics into `src/data.js`.
+
 ## [2026-06-09] update | Claude cloud-bill topic added
 
 - Added **Claude gets its cloud-bill moment** as an Agent Infrastructure Topic on the June 10 board.

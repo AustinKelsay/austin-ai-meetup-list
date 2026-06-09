@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-06-09 | Total pages: 45
+> Last updated: 2026-06-09 | Total pages: 46
 
 ## Meetups
 
@@ -50,6 +50,7 @@
 - [[Privacy Tooling]]
 - [[Speculative Decoding]]
 - [[Supply Chain Security]]
+- [[World Models]]
 
 ## Source Records
 

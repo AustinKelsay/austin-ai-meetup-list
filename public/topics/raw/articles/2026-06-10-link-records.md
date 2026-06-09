@@ -62,6 +62,65 @@ sources: []
   - Access: 2026-06-09
   - Notes: Useful caveat post questioning whether the headline number represents actual cash spend or token-value accounting.
 
+### AI Twitter advice has a six-month half-life
+- Post: https://x.com/0xMortyx/status/2061491256107159736
+  - Title: "Karpathy-filter thread on fast-expiring AI Twitter advice"
+  - Type: X thread
+  - Access: 2026-06-09
+  - Notes: Cohost-submitted June 1 thread summarizing the "90% of AI Twitter advice dies in six months" filter and emphasizing durable practices: context engineering, tool design, eval discipline, orchestrator/subagent patterns, and harness-over-model thinking.
+
+### Local AI becomes bandwidth math
+- Repo: https://github.com/mudler/parakeet.cpp
+  - Title: "mudler/parakeet.cpp"
+  - Type: Repository
+  - Access: 2026-06-09
+  - Notes: LocalAI team's C++/ggml runtime for Parakeet-style ASR models, including support for NVIDIA Nemotron 3.5 ASR streaming 0.6B.
+- Post: https://x.com/mudler_it/status/2063207757692441056
+  - Title: "mudler post on Nemotron-3.5-ASR running through parakeet.cpp"
+  - Type: X post
+  - Access: 2026-06-09
+  - Notes: Cohost-submitted June 6 post claiming CPU/offline support and faster-than-NVIDIA-runtime local ASR behavior for the Nemotron 3.5 ASR model.
+- Source: https://huggingface.co/openbmb/VoxCPM2
+  - Title: "openbmb/VoxCPM2"
+  - Type: Model card
+  - Access: 2026-06-09
+  - Notes: Apache 2.0 text-to-speech model card for VoxCPM2, included as a recent local/on-device audio model from the cohost list.
+- Repo: https://github.com/OpenBMB/VoxCPM
+  - Title: "OpenBMB/VoxCPM"
+  - Type: Repository
+  - Access: 2026-06-09
+  - Notes: Official VoxCPM repository for VoxCPM2 code, demos, and local speech-generation setup.
+- Source: https://arxiv.org/html/2606.06928v1
+  - Title: "VoxCPM2 Technical Report"
+  - Type: Paper
+  - Access: 2026-06-09
+  - Notes: Technical report describing VoxCPM2 as a fully open-source multilingual and controllable speech generation foundation model.
+- Post: https://x.com/NFTCPS/status/2061240890879017168
+  - Title: "Cohost-submitted VoxCPM2 post"
+  - Type: X post
+  - Access: 2026-06-09
+  - Notes: Social post from the cohost list used as the VoxCPM2 room embed.
+- Repo: https://github.com/RyanCodrai/turbovec
+  - Title: "RyanCodrai/turbovec"
+  - Type: Repository
+  - Access: 2026-06-09
+  - Notes: Rust vector index built on Google's older TurboQuant research; included because the recent TurboVec demo, not the original Google paper, drove the June 6 "31GB to 4GB" bookmark.
+- Source: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/
+  - Title: "TurboQuant: Redefining AI efficiency with extreme compression"
+  - Type: Official research blog
+  - Access: 2026-06-09
+  - Notes: Older-than-two-weeks Google source used only as technical background for the recent TurboVec/TurboQuant discussion, not counted as the new story by itself.
+- Post: https://x.com/RoundtableSpace/status/2063233191062700280
+  - Title: "Roundtable Space post on TurboVec / TurboQuant memory compression"
+  - Type: X post
+  - Access: 2026-06-09
+  - Notes: Cohost-submitted June 6 post with the viral 31GB-to-4GB framing.
+- Post: https://x.com/The_Only_Signal/status/2060321842716365147
+  - Title: "Memory bandwidth comparison for local AI hardware"
+  - Type: X post
+  - Access: 2026-06-09
+  - Notes: Cohost-submitted May 29 bandwidth table used as local hardware planning context.
+
 ## Models & Research
 
 ### Closed labs start the June model wave
@@ -599,6 +658,18 @@ sources: []
   - Type: Community X post
   - Access: 2026-06-08
   - Notes: Best X post supplied in the second scrape for the watchlist item.
+
+### World models need a taxonomy, not another demo
+- Source: https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models
+  - Title: "A Functional Taxonomy of World Models"
+  - Type: Essay
+  - Access: 2026-06-09
+  - Notes: Fei-Fei Li's June 3 essay separating the overloaded world-model label into renderers, simulators, and planners, with simulation as the consequential bridge.
+- Post: https://x.com/a16z/status/2062266181890031815
+  - Title: "a16z post for Fei-Fei Li's world models taxonomy"
+  - Type: X post
+  - Access: 2026-06-09
+  - Notes: Cohost-submitted X post used as the room embed.
 
 ## Security
 

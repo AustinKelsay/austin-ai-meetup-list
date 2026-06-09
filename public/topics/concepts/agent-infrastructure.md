@@ -13,7 +13,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack** and **Claude gets its cloud-bill moment**.
+- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Local AI becomes bandwidth math**.
 - [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, and **Claude Managed Agents learn between runs**.
 - [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.
 - [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.
@@ -23,5 +23,6 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 
 - [[OpenAI]]
 - [[Agent Cost Controls]]
+- [[Local AI]]
 - [[Vercel]]
 - [[Company Brain]]

@@ -13,7 +13,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
+- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose** and **Local AI becomes bandwidth math**.
 - [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Qwen3.6-27B gets laptop-shaped**.
 - [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.
 - [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.
