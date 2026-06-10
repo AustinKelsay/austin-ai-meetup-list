@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - June 10, 2026 - Source Link Records
 created: 2026-06-08
-updated: 2026-06-09
+updated: 2026-06-10
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -34,6 +34,36 @@ sources: []
   - Type: Official announcement
   - Access: 2026-06-08
   - Notes: Windows Developer Blog source for Windows 365 for Agents and Windows as part of Microsoft's agent platform.
+- Post: https://x.com/Microsoft/status/2061889381137523028
+  - Title: "Microsoft Build 2026: 'Be yourself at work'"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Primary Microsoft X post covering the Build 2026 agent stack pitch including Microsoft IQ, Work IQ, Scout, Agent 365, and MAI models.
+- Post: https://x.com/github/status/2061868358526709816
+  - Title: "GitHub Copilot app expanded technical preview"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Official GitHub X post announcing the Copilot app as "an agent-native desktop experience built on GitHub."
+- Post: https://x.com/github/status/2061868367133413665
+  - Title: "GitHub Copilot app launch roundup"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: GitHub X post linking to the "GitHub Copilot app: The agent-native desktop experience" blog announcement.
+- Post: https://x.com/Microsoft365/status/2061857362130973083
+  - Title: "Work IQ API for agents"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Microsoft 365 X post announcing Work IQ helps developers build agents that understand "context, intent, and organizational signals."
+- Post: https://x.com/Microsoft365/status/2062308351338242278
+  - Title: "Work IQ APIs are here"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Microsoft 365 X post promoting Work IQ APIs for powering apps and agents.
+- Post: https://x.com/windowsdev/status/2061869705636241852
+  - Title: "Windows Developer Build 2026 platform post"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Official Windows Developer X post linking to the Build 2026 Windows platform and agent development announcement.
 
 ### Claude gets its cloud-bill moment
 - Source: https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs
@@ -69,52 +99,86 @@ sources: []
   - Access: 2026-06-09
   - Notes: Cohost-submitted June 1 thread summarizing the "90% of AI Twitter advice dies in six months" filter and emphasizing durable practices: context engineering, tool design, eval discipline, orchestrator/subagent patterns, and harness-over-model thinking.
 
+### Stop prompting agents, start designing loops
+- Post: https://x.com/steipete/status/2063697162748260627
+  - Title: "Peter Steinberger viral post on designing loops instead of prompting agents"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: OpenClaw founder's June 7 viral post (8.1M views, 19.4K likes) saying "you shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."
+- Post: https://x.com/bcherny/status/2064426115255730578
+  - Title: "Boris Cherny on self-verification loops in Claude Code"
+  - Type: X post  
+  - Access: 2026-06-10
+  - Notes: Anthropic Claude Code head's June 9 post (339K views) on setting up self-verification loops for long-running model tasks.
+- Source: https://digg.com/ai/7ifyvmb9
+  - Title: "Developers Shift to AI Coding Loops from Manual Prompts"
+  - Type: Trending AI topic
+  - Access: 2026-06-10
+  - Notes: Digg AI trending topic covering the Peter/Boris loop orchestration theme that dominated AI Twitter this week.
+
 ### Local AI becomes bandwidth math
-- Repo: https://github.com/mudler/parakeet.cpp
-  - Title: "mudler/parakeet.cpp"
-  - Type: Repository
-  - Access: 2026-06-09
-  - Notes: LocalAI team's C++/ggml runtime for Parakeet-style ASR models, including support for NVIDIA Nemotron 3.5 ASR streaming 0.6B.
-- Post: https://x.com/mudler_it/status/2063207757692441056
-  - Title: "mudler post on Nemotron-3.5-ASR running through parakeet.cpp"
+- Post: https://x.com/The_Only_Signal/status/2060321842716365147
+  - Title: "Memory bandwidth comparison for local AI hardware"
   - Type: X post
   - Access: 2026-06-09
-  - Notes: Cohost-submitted June 6 post claiming CPU/offline support and faster-than-NVIDIA-runtime local ASR behavior for the Nemotron 3.5 ASR model.
-- Source: https://huggingface.co/openbmb/VoxCPM2
-  - Title: "openbmb/VoxCPM2"
-  - Type: Model card
-  - Access: 2026-06-09
-  - Notes: Apache 2.0 text-to-speech model card for VoxCPM2, included as a recent local/on-device audio model from the cohost list.
-- Repo: https://github.com/OpenBMB/VoxCPM
-  - Title: "OpenBMB/VoxCPM"
+  - Notes: Cohost-submitted May 29 bandwidth table used as local hardware planning context.
+
+### Vector compression hits 10x without the quality tax
+- Repo: https://github.com/krish1905/shard
+  - Title: "krish1905/shard"
   - Type: Repository
-  - Access: 2026-06-09
-  - Notes: Official VoxCPM repository for VoxCPM2 code, demos, and local speech-generation setup.
-- Source: https://arxiv.org/html/2606.06928v1
-  - Title: "VoxCPM2 Technical Report"
-  - Type: Paper
-  - Access: 2026-06-09
-  - Notes: Technical report describing VoxCPM2 as a fully open-source multilingual and controllable speech generation foundation model.
-- Post: https://x.com/NFTCPS/status/2061240890879017168
-  - Title: "Cohost-submitted VoxCPM2 post"
+  - Access: 2026-06-10
+  - Notes: Drop-in HuggingFace Cache subclass achieving 10-11x KV cache compression on Llama-3.1-8B with zero quality loss. Uses PCA+int4 for Keys, Hadamard+VQ for Values.
+- Source: https://krishgarg.com/shard
+  - Title: "Shard - getting to 10× KV cache compression"
+  - Type: Research blog
+  - Access: 2026-06-10
+  - Notes: Krish Garg's technical writeup detailing how Shard beats Google's TurboQuant (4-6x) by reaching 10-11x compression with zero NIAH degradation and near-lossless quality metrics.
+- Post: https://x.com/krishgarg/status/2059041521576648980
+  - Title: "Krish Garg introducing Shard - beats Google DeepMind's TurboQuant"
   - Type: X post
-  - Access: 2026-06-09
-  - Notes: Social post from the cohost list used as the VoxCPM2 room embed.
-- Repo: https://github.com/RyanCodrai/turbovec
-  - Title: "RyanCodrai/turbovec"
-  - Type: Repository
-  - Access: 2026-06-09
-  - Notes: Rust vector index built on Google's older TurboQuant research; included because the recent TurboVec demo, not the original Google paper, drove the June 6 "31GB to 4GB" bookmark.
+  - Access: 2026-06-10
+  - Notes: Main Shard announcement (153K views, 1.3K likes): "10x KV cache compression on Llama-3.1-8B. zero quality loss... TurboQuant tops out at 4-6x at the same quality. we doubled it."
+- Post: https://x.com/Tim_Dettmers/status/2059345041240244611
+  - Title: "Tim Dettmers criticism of TurboQuant comparison"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Tim Dettmers pushback (61K views): "TurboQuant is not a competitive method nor a good benchmark. Researcher -- including me -- cannot replicate the TurboQuant paper."
 - Source: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/
   - Title: "TurboQuant: Redefining AI efficiency with extreme compression"
   - Type: Official research blog
   - Access: 2026-06-09
-  - Notes: Older-than-two-weeks Google source used only as technical background for the recent TurboVec/TurboQuant discussion, not counted as the new story by itself.
+  - Notes: Google DeepMind's foundational TurboQuant research that became the disputed benchmark for Shard's comparison claims.
+- Repo: https://github.com/RyanCodrai/turbovec
+  - Title: "RyanCodrai/turbovec"
+  - Type: Repository
+  - Access: 2026-06-09
+  - Notes: Rust vector index implementation demonstrating practical TurboQuant deployment with 31GB to 4GB compression demos.
+- Source: https://digg.com/ai/jo5iwt70
+  - Title: "Digg AI topic on Shard vs TurboQuant dispute"
+  - Type: Trending AI topic
+  - Access: 2026-06-10
+  - Notes: Digg coverage of the Krish Garg/Tim Dettmers dispute over TurboQuant benchmarking and compression comparison claims.
 - Post: https://x.com/RoundtableSpace/status/2063233191062700280
   - Title: "Roundtable Space post on TurboVec / TurboQuant memory compression"
   - Type: X post
   - Access: 2026-06-09
   - Notes: Cohost-submitted June 6 post with the viral 31GB-to-4GB framing.
+- Post: https://x.com/GoogleResearch/status/2036533564158910740
+  - Title: "Google Research official TurboQuant announcement"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Google Research's official TurboQuant announcement (19.3M views, 38.8K likes): 6x+ KV cache compression, up to 8x speedup, zero accuracy loss. Canonical research source.
+- Post: https://x.com/no_stp_on_snek/status/2036944965364834444
+  - Title: "Tom Turney's TurboQuant+ implementation in llama.cpp"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Tom Turney's (no_stp_on_snek) post (127K views): Google dropped TurboQuant yesterday morning, 36 hours later it's running in llama.cpp on Apple Silicon. 4.6x KV cache compression, 102% of q8_0 speed, PPL within 1.3% of baseline. Shows research-to-implementation velocity.
+- Post: https://x.com/VaibhavSisinty/status/2063357634267509010
+  - Title: "Vaibhav Sisinty on TurboVec / Ryan Codrai"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Vaibhav Sisinty's explanation (4.9K views) of TurboVec: someone fit 31GB of AI memory into 4GB running on a MacBook. Ryan Codrai built it in Rust, open source, MIT licensed, faster than FAISS. Practical local deployment of TurboQuant.
 - Post: https://x.com/The_Only_Signal/status/2060321842716365147
   - Title: "Memory bandwidth comparison for local AI hardware"
   - Type: X post
@@ -211,6 +275,11 @@ sources: []
   - Type: Official X post
   - Access: 2026-06-08
   - Notes: Official post used as the slide embed.
+- Post: https://x.com/googleaidevs/status/2064743223491449013
+  - Title: "Google AI Developers DiffusionGemma announcement"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Google AI Developers' June 10 announcement of DiffusionGemma, an experimental Apache 2.0 open model exploring text diffusion. 3.8B active parameters, up to 4x faster token output on dedicated GPUs, fits in 24GB VRAM consumer GPUs when quantized. Prioritizes speed over raw quality; parallel token generation enables self-correction, code infilling, and in-line editing.
 - Source: https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai
   - Title: "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI"
   - Type: Official newsroom release
@@ -658,6 +727,53 @@ sources: []
   - Type: Community X post
   - Access: 2026-06-08
   - Notes: Best X post supplied in the second scrape for the watchlist item.
+
+### Fable's refusals go too far
+- Post: https://x.com/ClaudeDevs/status/2064428347678220691
+  - Title: "ClaudeDevs official Fable 5 safety classifiers announcement"
+  - Type: Official X post
+  - Access: 2026-06-10
+  - Notes: Anthropic/ClaudeDevs official announcement (362K views, 4.9K likes): Claude Fable 5 ships with new safety classifiers that flag cyber/bio prompts and fallback to Opus 4.8. The official anchor for the refusal story.
+- Post: https://x.com/djcows/status/2064513368002842732
+  - Title: "djcows viral post: 'I asked Fable a very basic biology question and it refused'"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Viral post (190K views, 5.4K likes) that became the meme vehicle for Fable over-refusals. Caveat: visible screenshot says 'Build a bioweapon,' though tweet frames it as 'basic biology.'
+- Post: https://x.com/DerekCroote/status/2064472087167930372
+  - Title: "Derek Croote biology eval: 38/40 questions refused"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Biology private eval showing 95% refusal rate (38/40) on Claude Fable 5 vs near-zero for other models. Best 'legit eval-ish' post for the refusal story.
+- Post: https://x.com/petergostev/status/2064435631594291304
+  - Title: "Peter Gostev: Claude Fable 5 refused a third of BullshitBench questions"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: BullshitBench eval showing Claude Fable 5 refused 33-36% of questions. Fable 5 Xhigh: 33% refusals, Fable 5 Low: 36% refusals.
+- Post: https://x.com/petergostev/status/2064634015382978941
+  - Title: "Peter Gostev clarification: refusals are classifier blocks"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Clarification that Fable refusals are classifier blocks, not the model being smart enough to detect BS. 'Refusals = no response, it is a BAD thing.'
+- Post: https://x.com/TimothyKassis/status/2064438011417481570
+  - Title: "Timothy Kassis: Fable 5 unusable for scientific applications"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Scientific user complaint: 'Claude Fable 5 is sadly unusable right now for most scientific applications. Too many refusals.' Low engagement but relevant.
+- Post: https://x.com/LechMazur/status/2064511888793161887
+  - Title: "Lech Mazur: Fable 5 refused to debate on three topics"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Refused debate topics: deep-sea pause, sharing vaccine-manufacturing know-how, counseling before health-genomics results. Concrete refusal categories beyond bioweapon.
+- Post: https://x.com/mykola/status/2064400637857591666
+  - Title: "Mykola: Michael Levin research prompt caused refusal/fallback"
+  - Type: X post
+  - Access: 2026-06-10
+  - Notes: Benign prompt with Michael Levin research caused refusal and fallback to Opus 4.8. 'Weird false-positive' example.
+- Post: https://x.com/antirez/status/2064766429887352971
+  - Title: "antirez on Claude Fable 5 over-refusals"
+  - Type: X thread
+  - Access: 2026-06-10
+  - Notes: Redis creator antirez's thread about ridiculous over-refusals from Claude Fable 5 for basic questions. Lead embed for the Fable refusal behavior topic. 15.8K views, 330 likes, 42 bookmarks.
 
 ### World models need a taxonomy, not another demo
 - Source: https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models

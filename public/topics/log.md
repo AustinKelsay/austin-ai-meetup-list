@@ -2,6 +2,17 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-10] update | Peter/Boris agent loops topic added
+
+- Added **Stop prompting agents, start designing loops** as an Agent Infrastructure Topic based on user submission.
+- Added source records for Peter Steinberger's viral OpenClaw post (8.1M views), Boris Cherny's Claude Code self-verification loops, and the trending Digg AI topic.
+- Mirrored the new Topic into `src/data.js` with dual embeds and supporting linkPair.
+- Enhanced **Microsoft wants the whole agent stack** with six official X post embeds covering Build 2026, GitHub Copilot app, Work IQ APIs, and Windows agent platform announcements.
+- Improved **Local AI becomes bandwidth math** by replacing non-English hype post with official OpenBMB VoxCPM2 technical report announcement for better source quality.
+- Refactored confusing **Local AI becomes bandwidth math** topic by splitting into focused **Local AI becomes bandwidth math** (CPU/memory bottleneck angle) and new **Vector compression hits 10x without the quality tax** topic featuring Shard KV cache compression, TurboVec, and TurboQuant.
+- Enhanced **Vector compression hits 10x without the quality tax** with key social posts: Krish Garg's viral Shard announcement (153K views) claiming to beat Google's TurboQuant, and Tim Dettmers' critical response about TurboQuant reproducibility issues.
+- Simplified **Local AI becomes bandwidth math** to focus purely on hardware bandwidth constraints, removing specific model examples and showing just the hardware comparison tables post.
+
 ## [2026-06-09] update | Cohost bookmark sweep added
 
 - Reviewed `ai-bookmarks-20260608.md` and omitted duplicate stories plus links older than the two-week cutoff.

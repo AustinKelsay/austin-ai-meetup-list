@@ -13,7 +13,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, and **AI Twitter advice has a six-month half-life**.
+- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **TrapDoor supply chain attack hijacks AI coding assistants**.
 - [[Austin AI Club - May 13, 2026]]: **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **SubQ goes after 12M-token context**, and **Cursor + Claude deletes PocketOS production data**.
 - [[Austin AI Club - April 15, 2026]]: **GLM-5.1**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.

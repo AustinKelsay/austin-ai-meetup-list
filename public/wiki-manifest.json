@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T21:16:29.084Z",
+  "generatedAt": "2026-06-10T19:24:59.188Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -446,6 +446,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -488,64 +530,22 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -553,6 +553,76 @@
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -4523,22 +4593,32 @@
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
         "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+        "https://x.com/Microsoft/status/2061889381137523028",
+        "https://x.com/github/status/2061868358526709816",
+        "https://x.com/github/status/2061868367133413665",
+        "https://x.com/Microsoft365/status/2061857362130973083",
+        "https://x.com/Microsoft365/status/2062308351338242278",
+        "https://x.com/windowsdev/status/2061869705636241852",
         "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
         "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
         "https://x.com/0xMortyx/status/2061491256107159736",
-        "https://github.com/mudler/parakeet.cpp",
-        "https://x.com/mudler_it/status/2063207757692441056",
-        "https://huggingface.co/openbmb/VoxCPM2",
-        "https://github.com/OpenBMB/VoxCPM",
-        "https://arxiv.org/html/2606.06928v1",
-        "https://x.com/NFTCPS/status/2061240890879017168",
-        "https://github.com/RyanCodrai/turbovec",
-        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/steipete/status/2063697162748260627",
+        "https://x.com/bcherny/status/2064426115255730578",
+        "https://digg.com/ai/7ifyvmb9",
         "https://x.com/The_Only_Signal/status/2060321842716365147",
+        "https://github.com/krish1905/shard",
+        "https://krishgarg.com/shard",
+        "https://x.com/krishgarg/status/2059041521576648980",
+        "https://x.com/Tim_Dettmers/status/2059345041240244611",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/GoogleResearch/status/2036533564158910740",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://x.com/VaibhavSisinty/status/2063357634267509010",
+        "https://digg.com/ai/jo5iwt70",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -4556,6 +4636,7 @@
         "https://huggingface.co/google/gemma-4-12B",
         "https://ai.google.dev/gemma/docs/core",
         "https://x.com/googlegemma/status/2062202706882883696",
+        "https://x.com/googleaidevs/status/2064743223491449013",
         "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
         "https://github.com/nvidia/cosmos",
         "https://x.com/NVIDIAAI/status/2061308434629132553",
@@ -4645,6 +4726,15 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://x.com/ClaudeDevs/status/2064428347678220691",
+        "https://x.com/djcows/status/2064513368002842732",
+        "https://x.com/DerekCroote/status/2064472087167930372",
+        "https://x.com/petergostev/status/2064435631594291304",
+        "https://x.com/petergostev/status/2064634015382978941",
+        "https://x.com/antirez/status/2064766429887352971",
+        "https://x.com/TimothyKassis/status/2064438011417481570",
+        "https://x.com/LechMazur/status/2064511888793161887",
+        "https://x.com/mykola/status/2064400637857591666",
         "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
         "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
@@ -4693,6 +4783,36 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure"
@@ -4723,53 +4843,73 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
         {
@@ -4854,6 +4994,11 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research"
         },
@@ -5303,6 +5448,51 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
           "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
@@ -5429,7 +5619,7 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-09",
+      "updated": "2026-06-10",
       "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, World Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
       "rawHref": "/topics/2026-06-10.md",
       "relativePath": "2026-06-10.md",
@@ -5491,22 +5681,33 @@
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
         "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+        "https://x.com/Microsoft/status/2061889381137523028",
+        "https://x.com/github/status/2061868358526709816",
+        "https://x.com/github/status/2061868367133413665",
+        "https://x.com/Microsoft365/status/2061857362130973083",
+        "https://x.com/Microsoft365/status/2062308351338242278",
+        "https://x.com/windowsdev/status/2061869705636241852",
         "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
         "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
         "https://x.com/0xMortyx/status/2061491256107159736",
-        "https://github.com/mudler/parakeet.cpp",
-        "https://x.com/mudler_it/status/2063207757692441056",
-        "https://huggingface.co/openbmb/VoxCPM2",
-        "https://github.com/OpenBMB/VoxCPM",
-        "https://arxiv.org/html/2606.06928v1",
-        "https://x.com/NFTCPS/status/2061240890879017168",
-        "https://github.com/RyanCodrai/turbovec",
-        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/steipete/status/2063697162748260627",
+        "https://x.com/bcherny/status/2064426115255730578",
+        "https://digg.com/ai/7ifyvmb9",
         "https://x.com/The_Only_Signal/status/2060321842716365147",
+        "https://github.com/krish1905/shard",
+        "https://krishgarg.com/shard",
+        "https://x.com/krishgarg/status/2059041521576648980",
+        "https://x.com/Tim_Dettmers/status/2059345041240244611",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://digg.com/ai/jo5iwt70",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/GoogleResearch/status/2036533564158910740",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
+        "https://x.com/VaibhavSisinty/status/2063357634267509010",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -5524,6 +5725,7 @@
         "https://huggingface.co/google/gemma-4-12B",
         "https://ai.google.dev/gemma/docs/core",
         "https://x.com/googlegemma/status/2062202706882883696",
+        "https://x.com/googleaidevs/status/2064743223491449013",
         "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
         "https://github.com/nvidia/cosmos",
         "https://x.com/NVIDIAAI/status/2061308434629132553",
@@ -5613,6 +5815,15 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://x.com/ClaudeDevs/status/2064428347678220691",
+        "https://x.com/djcows/status/2064513368002842732",
+        "https://x.com/DerekCroote/status/2064472087167930372",
+        "https://x.com/petergostev/status/2064435631594291304",
+        "https://x.com/petergostev/status/2064634015382978941",
+        "https://x.com/TimothyKassis/status/2064438011417481570",
+        "https://x.com/LechMazur/status/2064511888793161887",
+        "https://x.com/mykola/status/2064400637857591666",
+        "https://x.com/antirez/status/2064766429887352971",
         "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
         "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
@@ -5661,6 +5872,36 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure"
@@ -5691,53 +5932,83 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
         {
@@ -5822,6 +6093,11 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research"
         },
@@ -6271,6 +6547,51 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
           "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
@@ -6402,7 +6723,7 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-09",
+      "updated": "2026-06-10",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-06-10-link-records.md",
       "relativePath": "raw/articles/2026-06-10-link-records.md",
@@ -8439,6 +8760,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -8476,6 +8839,27 @@
         {
           "href": "https://x.com/0xMortyx/status/2061491256107159736",
           "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -8724,6 +9108,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -9605,6 +9996,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -10814,6 +11212,13 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
@@ -11670,71 +12075,78 @@
       ],
       "referencedTopicSources": [
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
           "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -11783,6 +12195,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -13700,6 +14119,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -14339,6 +14800,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -15178,69 +15646,6 @@
       ],
       "referencedTopicSources": [
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
@@ -15291,6 +15696,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -18667,6 +19079,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -18709,64 +19163,22 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -18774,6 +19186,76 @@
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -22744,22 +23226,32 @@
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
         "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+        "https://x.com/Microsoft/status/2061889381137523028",
+        "https://x.com/github/status/2061868358526709816",
+        "https://x.com/github/status/2061868367133413665",
+        "https://x.com/Microsoft365/status/2061857362130973083",
+        "https://x.com/Microsoft365/status/2062308351338242278",
+        "https://x.com/windowsdev/status/2061869705636241852",
         "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
         "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
         "https://x.com/0xMortyx/status/2061491256107159736",
-        "https://github.com/mudler/parakeet.cpp",
-        "https://x.com/mudler_it/status/2063207757692441056",
-        "https://huggingface.co/openbmb/VoxCPM2",
-        "https://github.com/OpenBMB/VoxCPM",
-        "https://arxiv.org/html/2606.06928v1",
-        "https://x.com/NFTCPS/status/2061240890879017168",
-        "https://github.com/RyanCodrai/turbovec",
-        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/steipete/status/2063697162748260627",
+        "https://x.com/bcherny/status/2064426115255730578",
+        "https://digg.com/ai/7ifyvmb9",
         "https://x.com/The_Only_Signal/status/2060321842716365147",
+        "https://github.com/krish1905/shard",
+        "https://krishgarg.com/shard",
+        "https://x.com/krishgarg/status/2059041521576648980",
+        "https://x.com/Tim_Dettmers/status/2059345041240244611",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://x.com/GoogleResearch/status/2036533564158910740",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://x.com/VaibhavSisinty/status/2063357634267509010",
+        "https://digg.com/ai/jo5iwt70",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -22777,6 +23269,7 @@
         "https://huggingface.co/google/gemma-4-12B",
         "https://ai.google.dev/gemma/docs/core",
         "https://x.com/googlegemma/status/2062202706882883696",
+        "https://x.com/googleaidevs/status/2064743223491449013",
         "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
         "https://github.com/nvidia/cosmos",
         "https://x.com/NVIDIAAI/status/2061308434629132553",
@@ -22866,6 +23359,15 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://x.com/ClaudeDevs/status/2064428347678220691",
+        "https://x.com/djcows/status/2064513368002842732",
+        "https://x.com/DerekCroote/status/2064472087167930372",
+        "https://x.com/petergostev/status/2064435631594291304",
+        "https://x.com/petergostev/status/2064634015382978941",
+        "https://x.com/antirez/status/2064766429887352971",
+        "https://x.com/TimothyKassis/status/2064438011417481570",
+        "https://x.com/LechMazur/status/2064511888793161887",
+        "https://x.com/mykola/status/2064400637857591666",
         "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
         "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
@@ -22914,6 +23416,36 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure"
@@ -22944,53 +23476,73 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
         {
@@ -23075,6 +23627,11 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research"
         },
@@ -23524,6 +24081,51 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
           "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
@@ -23650,7 +24252,7 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-09",
+      "updated": "2026-06-10",
       "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, World Models, Local AI, Compute Strategy, Privacy Tooling, AI Governance, Apple, Anthropic, Cohere, Microsoft, OpenAI, xAI, Google, NVIDIA, SpaceX.",
       "rawHref": "/topics/2026-06-10.md",
       "relativePath": "2026-06-10.md",
@@ -23712,22 +24314,33 @@
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
         "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+        "https://x.com/Microsoft/status/2061889381137523028",
+        "https://x.com/github/status/2061868358526709816",
+        "https://x.com/github/status/2061868367133413665",
+        "https://x.com/Microsoft365/status/2061857362130973083",
+        "https://x.com/Microsoft365/status/2062308351338242278",
+        "https://x.com/windowsdev/status/2061869705636241852",
         "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
         "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
         "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
         "https://x.com/Polymarket/status/2060034216906068131",
         "https://x.com/_alialkhatib/status/2060056690221838552",
         "https://x.com/0xMortyx/status/2061491256107159736",
-        "https://github.com/mudler/parakeet.cpp",
-        "https://x.com/mudler_it/status/2063207757692441056",
-        "https://huggingface.co/openbmb/VoxCPM2",
-        "https://github.com/OpenBMB/VoxCPM",
-        "https://arxiv.org/html/2606.06928v1",
-        "https://x.com/NFTCPS/status/2061240890879017168",
-        "https://github.com/RyanCodrai/turbovec",
-        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/steipete/status/2063697162748260627",
+        "https://x.com/bcherny/status/2064426115255730578",
+        "https://digg.com/ai/7ifyvmb9",
         "https://x.com/The_Only_Signal/status/2060321842716365147",
+        "https://github.com/krish1905/shard",
+        "https://krishgarg.com/shard",
+        "https://x.com/krishgarg/status/2059041521576648980",
+        "https://x.com/Tim_Dettmers/status/2059345041240244611",
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://github.com/RyanCodrai/turbovec",
+        "https://digg.com/ai/jo5iwt70",
+        "https://x.com/RoundtableSpace/status/2063233191062700280",
+        "https://x.com/GoogleResearch/status/2036533564158910740",
+        "https://x.com/no_stp_on_snek/status/2036944965364834444",
+        "https://x.com/VaibhavSisinty/status/2063357634267509010",
         "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "https://x.com/claudeai/status/2064394146916229443",
         "https://www.anthropic.com/news/claude-opus-4-8",
@@ -23745,6 +24358,7 @@
         "https://huggingface.co/google/gemma-4-12B",
         "https://ai.google.dev/gemma/docs/core",
         "https://x.com/googlegemma/status/2062202706882883696",
+        "https://x.com/googleaidevs/status/2064743223491449013",
         "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
         "https://github.com/nvidia/cosmos",
         "https://x.com/NVIDIAAI/status/2061308434629132553",
@@ -23834,6 +24448,15 @@
         "https://github.com/X-Square-Robot/wall-x",
         "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
         "https://x.com/AdinaYakup/status/2063901313578963072",
+        "https://x.com/ClaudeDevs/status/2064428347678220691",
+        "https://x.com/djcows/status/2064513368002842732",
+        "https://x.com/DerekCroote/status/2064472087167930372",
+        "https://x.com/petergostev/status/2064435631594291304",
+        "https://x.com/petergostev/status/2064634015382978941",
+        "https://x.com/TimothyKassis/status/2064438011417481570",
+        "https://x.com/LechMazur/status/2064511888793161887",
+        "https://x.com/mykola/status/2064400637857591666",
+        "https://x.com/antirez/status/2064766429887352971",
         "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
         "https://x.com/a16z/status/2062266181890031815",
         "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
@@ -23882,6 +24505,36 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure"
@@ -23912,53 +24565,83 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
         {
@@ -24043,6 +24726,11 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research"
         },
@@ -24492,6 +25180,51 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
           "title": "World models need a taxonomy, not another demo",
           "section": "Models & Research"
@@ -24623,7 +25356,7 @@
         }
       ],
       "created": "2026-06-08",
-      "updated": "2026-06-09",
+      "updated": "2026-06-10",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-06-10-link-records.md",
       "relativePath": "raw/articles/2026-06-10-link-records.md",
@@ -26660,6 +27393,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -26697,6 +27472,27 @@
         {
           "href": "https://x.com/0xMortyx/status/2061491256107159736",
           "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/steipete/status/2063697162748260627",
+          "title": "Stop prompting agents, start designing loops",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/bcherny/status/2064426115255730578",
+          "title": "Stop prompting agents, start designing loops",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/7ifyvmb9",
+          "title": "Stop prompting agents, start designing loops",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -26945,6 +27741,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -27826,6 +28629,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -29035,6 +29845,13 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
@@ -29891,71 +30708,78 @@
       ],
       "referencedTopicSources": [
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
+          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://github.com/krish1905/shard",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://krishgarg.com/shard",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/krishgarg/status/2059041521576648980",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/Tim_Dettmers/status/2059345041240244611",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
           "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/GoogleResearch/status/2036533564158910740",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
-          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
-          "title": "Local AI becomes bandwidth math",
+          "href": "https://x.com/no_stp_on_snek/status/2036944965364834444",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/RyanCodrai/turbovec",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
+          "title": "Vector compression hits 10x without the quality tax",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://digg.com/ai/jo5iwt70",
+          "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
@@ -30004,6 +30828,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -31921,6 +32752,48 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
         {
+          "href": "https://x.com/Microsoft/status/2061889381137523028",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868358526709816",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/github/status/2061868367133413665",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2061857362130973083",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/Microsoft365/status/2062308351338242278",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/windowsdev/status/2061869705636241852",
+          "title": "Microsoft wants the whole agent stack",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
@@ -32560,6 +33433,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -33399,69 +34279,6 @@
       ],
       "referencedTopicSources": [
         {
-          "href": "https://github.com/mudler/parakeet.cpp",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/mudler_it/status/2063207757692441056",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://huggingface.co/openbmb/VoxCPM2",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/OpenBMB/VoxCPM",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://arxiv.org/html/2606.06928v1",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/NFTCPS/status/2061240890879017168",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://github.com/RyanCodrai/turbovec",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
-          "href": "https://x.com/RoundtableSpace/status/2063233191062700280",
-          "title": "Local AI becomes bandwidth math",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-june-10-2026",
-          "sourcePageTitle": "Austin AI Club - June 10, 2026"
-        },
-        {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
           "section": "Agent Infrastructure",
@@ -33512,6 +34329,13 @@
         },
         {
           "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
@@ -39212,7 +40036,7 @@
     "rawPageCount": 0,
     "linkCount": 283,
     "sourceRecordCount": 6,
-    "sourceLinkCount": 528,
+    "sourceLinkCount": 548,
     "unresolvedLinkCount": 0
   }
 }

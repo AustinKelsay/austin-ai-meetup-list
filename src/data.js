@@ -64,6 +64,20 @@ export const meetups = [
               "Build 2026 was not one launch: Microsoft IQ, Work IQ, Scout, Agent 365, the GitHub Copilot app, Windows 365 for Agents, and MAI models all point to the same pitch. Enterprise agents live inside Microsoft's identity, data, OS, and developer surfaces.",
             chip: "agent platform",
             href: "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Microsoft/status/2061889381137523028?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/github/status/2061868358526709816?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Microsoft365/status/2061857362130973083?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
               "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
@@ -103,35 +117,69 @@ export const meetups = [
             },
           },
           {
-            title: "Local AI becomes bandwidth math",
+            title: "Stop prompting agents, start designing loops",
             description:
-              'parakeet.cpp running Nemotron ASR on CPU, VoxCPM2 local TTS, TurboVec/TurboQuant vector compression, and fresh bandwidth tables all point to the same local-AI reality: the question is no longer just "can it run?" but whether the memory path can keep up.',
-            chip: "local infra",
-            href: "https://github.com/mudler/parakeet.cpp",
+              'Peter Steinberger\'s 8M-view post and Boris Cherny\'s self-verification loops both landed the same week with the same message: manual prompting is dead, orchestrated loops are the new baseline. The shift from "ask Claude to code" to "build systems that supervise Claude coding" is no longer early-adopter territory.',
+            chip: "orchestration",
+            href: "https://x.com/steipete/status/2063697162748260627",
             embeds: [
               {
                 type: "tweet",
-                href: "https://twitter.com/mudler_it/status/2063207757692441056?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/steipete/status/2063697162748260627?ref_src=twsrc%5Etfw",
               },
               {
-                type: "tweet",
-                href: "https://twitter.com/NFTCPS/status/2061240890879017168?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/RoundtableSpace/status/2063233191062700280?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/The_Only_Signal/status/2060321842716365147?ref_src=twsrc%5Etfw",
+                type: "tweet", 
+                href: "https://twitter.com/bcherny/status/2064426115255730578?ref_src=twsrc%5Etfw",
               },
             ],
             linkPair: [
-              "https://huggingface.co/openbmb/VoxCPM2",
-              "https://github.com/OpenBMB/VoxCPM",
-              "https://arxiv.org/html/2606.06928v1",
-              "https://github.com/RyanCodrai/turbovec",
+              "https://digg.com/ai/7ifyvmb9",
+            ],
+          },
+          {
+            title: "Local AI becomes bandwidth math",
+            description:
+              'The question for local AI deployment is no longer just "can it run?" but whether the memory path can keep up with model demands. Fresh bandwidth comparisons show the hardware reality behind local inference planning.',
+            chip: "local infra",
+            href: "https://x.com/The_Only_Signal/status/2060321842716365147",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/The_Only_Signal/status/2060321842716365147?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Vector compression hits 10x without the quality tax",
+            description:
+              "Shard KV cache compression, TurboVec, and TurboQuant all crossed the same threshold this year: aggressive compression that actually works in production. Shard gets 10-11x memory reduction on Llama with zero NIAH degradation, though Tim Dettmers called out the TurboQuant comparison as non-reproducible. Tom Turney shipped TurboQuant+ in llama.cpp within 36 hours of the Google paper, and Ryan Codrai's TurboVec fits 31GB of embeddings into 4GB on a MacBook. The real story is compression moving from research to practical local deployment.",
+            chip: "compression",
+            href: "https://github.com/krish1905/shard",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/krishgarg/status/2059041521576648980?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Tim_Dettmers/status/2059345041240244611?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/GoogleResearch/status/2036533564158910740?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/no_stp_on_snek/status/2036944965364834444?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/VaibhavSisinty/status/2063357634267509010?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://krishgarg.com/shard",
               "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+              "https://github.com/RyanCodrai/turbovec",
+              "https://digg.com/ai/jo5iwt70",
             ],
           },
         ],
@@ -180,7 +228,7 @@ export const meetups = [
           {
             title: "Open-weight release week turns into a firehose",
             description:
-              "The open slide is now a stack, not a list: Nemotron/Cosmos/OmniDreams for physical AI, Gemma/Liquid/Step/OpenBMB/Tencent/Cohere for local LLMs and coding agents, PaddleOCR/LocateAnything for vision, MOSS/Higgs/dots for audio, Ideogram/Magenta/NAVA/Lance/Bernini/JoyAI for media, WALL-OSS for robotics, and Unsloth/Comfy/NVFP4 quants for deployment.",
+              "The open slide is now a stack, not a list: Nemotron/Cosmos/OmniDreams for physical AI, Gemma/Liquid/Step/OpenBMB/Tencent/Cohere for local LLMs and coding agents, DiffusionGemma for text diffusion, PaddleOCR/LocateAnything for vision, MOSS/Higgs/dots for audio, Ideogram/Magenta/NAVA/Lance/Bernini/JoyAI for media, WALL-OSS for robotics, and Unsloth/Comfy/NVFP4 quants for deployment.",
             chip: "open models",
             href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
             embeds: [
@@ -320,6 +368,10 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/cohere/status/2064378058329526556?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/googleaidevs/status/2064743223491449013?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
               "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
@@ -375,6 +427,44 @@ export const meetups = [
               "https://huggingface.co/x-square-robot/wall-oss-0.5",
               "https://github.com/X-Square-Robot/wall-x",
               "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+            ],
+          },
+          {
+            title: "Fable's refusals go too far",
+            description:
+              "Anthropic shipped Claude Fable 5 with new cyber/bio safety classifiers that fallback to Opus 4.8 on refused requests. The result: 38/40 biology questions refused in one private eval, a third of BullshitBench questions blocked, and viral X posts about 'basic questions' getting rejected. The official line is these measures let Mythos-level capability ship sooner; the user reality is a model that refuses harmless queries loses more trust than one that occasionally gets a risky answer wrong.",
+            chip: "model behavior",
+            href: "https://x.com/ClaudeDevs/status/2064428347678220691",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/ClaudeDevs/status/2064428347678220691?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/djcows/status/2064513368002842732?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/DerekCroote/status/2064472087167930372?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/petergostev/status/2064435631594291304?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/petergostev/status/2064634015382978941?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/antirez/status/2064766429887352971?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://x.com/TimothyKassis/status/2064438011417481570",
+              "https://x.com/LechMazur/status/2064511888793161887",
+              "https://x.com/mykola/status/2064400637857591666",
             ],
           },
           {
