@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T19:24:59.188Z",
+  "generatedAt": "2026-06-10T21:20:14.912Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -4589,6 +4589,7 @@
       ],
       "sourceCount": 1,
       "sourceLinks": [
+        "https://github.com/benthecarman/twitter-to-dataset",
         "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
@@ -4762,6 +4763,11 @@
         "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/benthecarman/twitter-to-dataset",
+          "title": "Ben's twitter export to dataset",
+          "section": "Local Builds & Projects"
+        },
         {
           "href": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
           "title": "Microsoft wants the whole agent stack",
@@ -23222,6 +23228,7 @@
       ],
       "sourceCount": 1,
       "sourceLinks": [
+        "https://github.com/benthecarman/twitter-to-dataset",
         "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
         "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
         "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/",
@@ -23395,6 +23402,11 @@
         "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/benthecarman/twitter-to-dataset",
+          "title": "Ben's twitter export to dataset",
+          "section": "Local Builds & Projects"
+        },
         {
           "href": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
           "title": "Microsoft wants the whole agent stack",
@@ -40036,7 +40048,7 @@
     "rawPageCount": 0,
     "linkCount": 283,
     "sourceRecordCount": 6,
-    "sourceLinkCount": 548,
+    "sourceLinkCount": 549,
     "unresolvedLinkCount": 0
   }
 }

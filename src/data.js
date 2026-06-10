@@ -53,6 +53,21 @@ export const meetups = [
     showcases: [],
     tracks: [
       {
+        id: "jun10-local-builds",
+        title: "Local Builds & Projects",
+        purpose:
+          "This section covers member projects, prototypes, demos, and builds shared by the community.",
+        items: [
+          {
+            title: "Ben's twitter export to dataset",
+            description:
+              "Tool for converting Twitter archive exports into structured datasets.",
+            chip: "data tooling",
+            href: "https://github.com/benthecarman/twitter-to-dataset",
+          },
+        ],
+      },
+      {
         id: "jun10-agent-infra",
         title: "Agent Infrastructure",
         purpose:
