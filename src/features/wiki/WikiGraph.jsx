@@ -93,6 +93,14 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .linkDirectionalParticleWidth(1.4)
       .linkDirectionalParticleSpeed(0.004)
       .cooldownTicks(80)
+      .enableZoomInteraction(false)
+      .enablePanInteraction(false)
+      .onEngineStop(() => {
+        if (!hasFocusedRef.current) {
+          focusGraph(instance);
+          hasFocusedRef.current = true;
+        }
+      })
       .onNodeClick((node) => onSelectPageRef.current(node.id));
 
     graphRef.current = instance;
@@ -101,6 +109,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       const bounds = containerRef.current.getBoundingClientRect();
       instance.width(Math.max(280, bounds.width));
       instance.height(Math.max(280, bounds.height));
+
+      if (hasFocusedRef.current) {
+        focusGraph(instance, 250);
+      }
     };
 
     const resizeObserver = new ResizeObserver(resize);
@@ -127,11 +139,6 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
     }
 
     graphRef.current.graphData(graphData);
-
-    if (!hasFocusedRef.current) {
-      focusGraph(graphRef.current, 350);
-      hasFocusedRef.current = true;
-    }
   }, [graphData]);
 
   useEffect(() => {

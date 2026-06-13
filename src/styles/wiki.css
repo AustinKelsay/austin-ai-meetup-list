@@ -72,8 +72,8 @@
 .wiki-workspace {
   display: grid;
   grid-template-columns: minmax(15rem, 24rem) minmax(0, 1fr);
-  grid-template-rows: minmax(34rem, 58vh) auto;
-  min-height: 38rem;
+  grid-template-rows: minmax(28rem, 58vh) auto;
+  min-height: 34rem;
   overflow: hidden;
 }
 
@@ -699,5 +699,9 @@
 
   .wiki-graph-legend {
     justify-content: flex-start;
+  }
+
+  .wiki-graph-canvas {
+    min-height: 22rem;
   }
 }
