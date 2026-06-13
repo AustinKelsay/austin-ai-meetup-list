@@ -73,26 +73,119 @@ function buildSourceItems({ links, references, referencedTopicSources }) {
   return [...directItems, ...referencedItems];
 }
 
+function groupSourcesBySection(items) {
+  const groups = new Map();
+
+  for (const item of items) {
+    const section = item.section || "source";
+    if (!groups.has(section)) {
+      groups.set(section, []);
+    }
+    groups.get(section).push(item);
+  }
+
+  const preferredOrder = [
+    "source",
+    "Local Builds & Projects",
+    "Agent Infrastructure",
+    "Models & Research",
+    "Security",
+    "Big Tech Moves",
+  ];
+
+  return [...groups.entries()].sort(([a], [b]) => {
+    const aIndex = preferredOrder.indexOf(a);
+    const bIndex = preferredOrder.indexOf(b);
+
+    if (aIndex !== -1 && bIndex !== -1) {
+      return aIndex - bIndex;
+    }
+
+    if (aIndex !== -1) {
+      return -1;
+    }
+
+    if (bIndex !== -1) {
+      return 1;
+    }
+
+    return a.localeCompare(b);
+  });
+}
+
+function getSectionLabel(section) {
+  if (section === "source") {
+    return "Direct sources";
+  }
+
+  return section;
+}
+
+function SourceReferenceLink({ item }) {
+  return (
+    <a
+      className="wiki-relation-link wiki-source-reference"
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="wiki-source-reference-copy">
+        <span className="wiki-link-label">{item.title}</span>
+        <small>{getSourceLinkLabel(item.href)}</small>
+        <small>{item.provenance}</small>
+      </span>
+      <small>{item.section || "source"}</small>
+    </a>
+  );
+}
+
 function SourceReferenceList({ items, emptyLabel }) {
+  if (items.length === 0) {
+    return (
+      <section className="wiki-detail-section">
+        <h3>Sources</h3>
+        <p className="wiki-empty-copy">{emptyLabel}</p>
+      </section>
+    );
+  }
+
+  const grouped = groupSourcesBySection(items);
+
   return (
     <section className="wiki-detail-section">
       <h3>Sources</h3>
-      {items.length > 0 ? (
+      <div className="wiki-source-groups">
+        {grouped.map(([section, sectionItems]) => (
+          <div key={section} className="wiki-source-group">
+            <h4 className="wiki-source-group-title">{getSectionLabel(section)}</h4>
+            <div className="wiki-link-list">
+              {sectionItems.map((item) => (
+                <SourceReferenceLink key={`${item.title}-${item.href}`} item={item} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function MentionedInSection({ meetups, emptyLabel, onOpenRoute }) {
+  return (
+    <section className="wiki-detail-section">
+      <h3>Mentioned In</h3>
+      {meetups.length > 0 ? (
         <div className="wiki-link-list">
-          {items.map((item) => (
-            <a
-              key={`${item.title}-${item.href}`}
-              className="wiki-relation-link wiki-source-reference"
-              href={item.href}
-              rel="noreferrer"
+          {meetups.map((meetup) => (
+            <RouteLink
+              key={meetup.id}
+              to={buildWikiPath(meetup.id)}
+              onOpenRoute={onOpenRoute}
+              className="wiki-relation-link"
             >
-              <span className="wiki-source-reference-copy">
-                <span className="wiki-link-label">{item.title}</span>
-                <small>{getSourceLinkLabel(item.href)}</small>
-                <small>{item.provenance}</small>
-              </span>
-              <small>{item.section || "source"}</small>
-            </a>
+              <span className="wiki-link-label">{meetup.title}</span>
+              <small>{getPageTypeLabel(meetup.type)}</small>
+            </RouteLink>
           ))}
         </div>
       ) : (
@@ -147,7 +240,14 @@ function CopyLinkButton({ page }) {
   );
 }
 
-export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute, onTagClick }) {
+export function WikiDetail({
+  manifest,
+  selectedPage,
+  focusedWikiId,
+  onOpenRoute,
+  onTagClick,
+  activeTag = null,
+}) {
   if (!selectedPage) {
     return (
       <aside className="wiki-detail wiki-detail--missing">
@@ -163,6 +263,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute,
 
   const outgoingPages = getConnectedPages(manifest, selectedPage.outgoingIds);
   const backlinkPages = getConnectedPages(manifest, selectedPage.backlinkIds);
+  const meetupBacklinks = backlinkPages.filter((page) => page.type === "meetup");
   const sourceLinks = selectedPage.sourceLinks ?? [];
   const sourceReferences = selectedPage.sourceReferences ?? [];
   const referencedTopicSources = selectedPage.referencedTopicSources ?? [];
@@ -199,7 +300,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute,
             <button
               key={tag}
               type="button"
-              className="wiki-tag wiki-tag--clickable"
+              className={`wiki-tag wiki-tag--clickable ${tag === activeTag ? "wiki-tag--active" : ""}`}
               onClick={() => onTagClick(tag)}
             >
               {tag}
@@ -213,6 +314,11 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute,
       </div>
 
       <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
+      <MentionedInSection
+        meetups={meetupBacklinks}
+        emptyLabel="Not mentioned in a meetup yet."
+        onOpenRoute={onOpenRoute}
+      />
       <PageLinkList
         title="Related Wiki Pages"
         pages={outgoingPages}

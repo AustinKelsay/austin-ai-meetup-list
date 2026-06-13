@@ -398,6 +398,7 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
             focusedWikiId={focusedWikiId}
             onOpenRoute={onOpenRoute}
             onTagClick={(tag) => setTagFilter(tag)}
+            activeTag={tagFilter}
           />
         </section>
       </main>

@@ -482,6 +482,12 @@
   transform: scale(0.96);
 }
 
+.wiki-tag--active {
+  border-color: var(--accent-dim);
+  color: var(--text);
+  background: rgba(71, 243, 170, 0.12);
+}
+
 .wiki-tags--quiet .wiki-tag {
   color: var(--muted);
   background: rgba(159, 184, 176, 0.04);
@@ -527,6 +533,25 @@
   color: var(--text);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wiki-source-groups {
+  display: grid;
+  gap: 1rem;
+}
+
+.wiki-source-group {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.wiki-source-group-title {
+  margin: 0;
+  color: var(--accent-dim);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 

@@ -138,6 +138,29 @@ describe("WikiDetail", () => {
     expect(html).not.toMatch(/<span[^>]*class="[^"]*wiki-tag[^"]*"[^>]*>entity<\/span>/);
   });
 
+  it("highlights the active tag filter", () => {
+    const selectedPage = buildPage();
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+        onTagClick={() => {}}
+        activeTag="company"
+      />,
+    );
+
+    expect(html).toMatch(
+      /<button[^>]*class="[^"]*wiki-tag--active[^"]*"[^>]*>company<\/button>/,
+    );
+    expect(html).not.toMatch(
+      /<button[^>]*class="[^"]*wiki-tag--active[^"]*"[^>]*>entity<\/button>/,
+    );
+  });
+
   it("renders tags as plain spans when onTagClick is omitted", () => {
     const selectedPage = buildPage();
     const manifest = { pagesById: {} };
@@ -203,6 +226,103 @@ describe("WikiDetail", () => {
     );
 
     expect(html).toMatch(/<button[^>]*class="[^"]*wiki-copy-link[^"]*"[^>]*>Copy link<\/button>/);
+  });
+
+  it("opens external source links in a new tab", () => {
+    const selectedPage = buildPage({
+      sourceLinks: ["https://openai.com/release"],
+    });
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain('target="_blank"');
+    expect(html).toContain('rel="noopener noreferrer"');
+  });
+
+  it("shows a Mentioned In section with meetup backlinks", () => {
+    const selectedPage = buildPage({
+      id: "anthropic",
+      backlinkIds: ["austin-ai-club-june-10-2026", "agent-cost-controls"],
+    });
+    const manifest = {
+      pagesById: {
+        "austin-ai-club-june-10-2026": {
+          id: "austin-ai-club-june-10-2026",
+          title: "Austin AI Club - June 10, 2026",
+          type: "meetup",
+        },
+        "agent-cost-controls": {
+          id: "agent-cost-controls",
+          title: "Agent Cost Controls",
+          type: "concept",
+        },
+      },
+    };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="anthropic"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("Mentioned In");
+    expect(html).toContain("Austin AI Club - June 10, 2026");
+  });
+
+  it("groups referenced topic sources by track section", () => {
+    const selectedPage = buildPage({
+      id: "agent-infrastructure",
+      type: "concept",
+      sourceLinks: ["https://direct.example.com"],
+      sourceReferences: [],
+      referencedTopicSources: [
+        {
+          href: "https://agent.example.com/one",
+          title: "Agent topic one",
+          section: "Agent Infrastructure",
+          sourcePageTitle: "Austin AI Club - June 10, 2026",
+        },
+        {
+          href: "https://agent.example.com/two",
+          title: "Agent topic two",
+          section: "Agent Infrastructure",
+          sourcePageTitle: "Austin AI Club - May 27, 2026",
+        },
+        {
+          href: "https://models.example.com/one",
+          title: "Model topic one",
+          section: "Models & Research",
+          sourcePageTitle: "Austin AI Club - June 10, 2026",
+        },
+      ],
+    });
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="agent-infrastructure"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("Agent Infrastructure");
+    expect(html).toContain("Models &amp; Research");
+    expect(html).toContain("Agent topic one");
+    expect(html).toContain("Agent topic two");
+    expect(html).toContain("Model topic one");
   });
 });
 

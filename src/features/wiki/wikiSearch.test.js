@@ -80,6 +80,41 @@ describe("wikiSearch", () => {
     ).toBe(true);
   });
 
+  it("matches against source link urls", () => {
+    expect(
+      matchesPageSearch(
+        page({ sourceLinks: ["https://openai.com/research/gpt-5"] }),
+        "openai.com/research",
+        {},
+      ),
+    ).toBe(true);
+  });
+
+  it("matches against source reference titles and sections", () => {
+    expect(
+      matchesPageSearch(
+        page({
+          sourceReferences: [
+            { href: "https://x", title: "Claude Code launch", section: "Agent Infrastructure" },
+          ],
+        }),
+        "claude code",
+        {},
+      ),
+    ).toBe(true);
+    expect(
+      matchesPageSearch(
+        page({
+          sourceReferences: [
+            { href: "https://x", title: "Claude Code launch", section: "Agent Infrastructure" },
+          ],
+        }),
+        "agent infrastructure",
+        {},
+      ),
+    ).toBe(true);
+  });
+
   it("returns false when no haystack token matches", () => {
     expect(matchesPageSearch(page({ title: "OpenAI" }), "anthropic", {})).toBe(false);
   });

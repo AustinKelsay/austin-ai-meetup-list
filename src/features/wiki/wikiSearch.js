@@ -25,6 +25,23 @@ function getReferencedSourceTitles(page) {
   return page.referencedTopicSources.map((reference) => reference.title).join(" ");
 }
 
+function getSourceLinkHrefs(page) {
+  if (!page.sourceLinks?.length) {
+    return "";
+  }
+  return page.sourceLinks.join(" ");
+}
+
+function getSourceReferenceContext(page) {
+  if (!page.sourceReferences?.length) {
+    return "";
+  }
+  return page.sourceReferences
+    .flatMap((reference) => [reference.title, reference.section])
+    .filter(Boolean)
+    .join(" ");
+}
+
 function getPageSearchHaystack(page, pagesById) {
   return [
     page.title,
@@ -33,6 +50,8 @@ function getPageSearchHaystack(page, pagesById) {
     getOutgoingTitles(page, pagesById),
     getBacklinkTitles(page, pagesById),
     getReferencedSourceTitles(page),
+    getSourceLinkHrefs(page),
+    getSourceReferenceContext(page),
   ]
     .filter(Boolean)
     .join(" ")

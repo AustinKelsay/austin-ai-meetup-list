@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   BASE_NODE_VAL,
+  buildNeighborIds,
   buildNodeTooltip,
   DEGREE_VAL_MULTIPLIER,
   getLinkColor,
@@ -8,7 +9,11 @@ import {
   getLinkWidth,
   getNodeColor,
   getNodeVal,
+  isNeighborLink,
+  isNeighborNode,
+  isSelectedNode,
   SELECTED_NODE_VAL,
+  shouldShowNodeLabel,
 } from "./wikiGraphVisuals.js";
 
 describe("wikiGraphVisuals", () => {
@@ -25,12 +30,68 @@ describe("wikiGraphVisuals", () => {
 
   it("uses the type color or falls back to neutral", () => {
     const colors = { entity: "#47d4f3" };
-    expect(getNodeColor({ id: "a", type: "entity" }, "x", colors)).toBe("#47d4f3");
-    expect(getNodeColor({ id: "a", type: "concept" }, "x", colors)).toBe("#9fb8b0");
+    expect(getNodeColor({ id: "a", type: "entity" }, null, colors)).toBe("rgba(71, 212, 243, 1)");
+    expect(getNodeColor({ id: "a", type: "concept" }, null, colors)).toBe(
+      "rgba(159, 184, 176, 1)",
+    );
   });
 
   it("overrides the node color when selected", () => {
     expect(getNodeColor({ id: "a", type: "entity" }, "a", { entity: "#47d4f3" })).toBe("#ffffff");
+  });
+
+  it("fades non-neighbor nodes when a node is selected", () => {
+    const colors = { entity: "#47d4f3", concept: "#c47df3" };
+    const neighbors = new Set(["b"]);
+
+    expect(getNodeColor({ id: "a", type: "entity" }, "a", colors, neighbors)).toBe("#ffffff");
+    expect(getNodeColor({ id: "b", type: "concept" }, "a", colors, neighbors)).toBe(
+      "rgba(196, 125, 243, 1)",
+    );
+    expect(getNodeColor({ id: "c", type: "entity" }, "a", colors, neighbors)).toBe(
+      "rgba(71, 212, 243, 0.35)",
+    );
+  });
+
+  it("identifies selected and neighbor nodes", () => {
+    const neighbors = new Set(["b", "c"]);
+
+    expect(isSelectedNode({ id: "a" }, "a")).toBe(true);
+    expect(isSelectedNode({ id: "b" }, "a")).toBe(false);
+    expect(isNeighborNode({ id: "b" }, "a", neighbors)).toBe(true);
+    expect(isNeighborNode({ id: "d" }, "a", neighbors)).toBe(false);
+    expect(isNeighborNode({ id: "a" }, "a", neighbors)).toBe(false);
+  });
+
+  it("identifies links connected to a selected node and its neighbors", () => {
+    const neighbors = new Set(["b", "c"]);
+
+    expect(isNeighborLink({ source: "a", target: "b" }, "a", neighbors)).toBe(true);
+    expect(isNeighborLink({ source: "b", target: "a" }, "a", neighbors)).toBe(true);
+    expect(isNeighborLink({ source: "b", target: "c" }, "a", neighbors)).toBe(false);
+    expect(isNeighborLink({ source: "d", target: "e" }, "a", neighbors)).toBe(false);
+  });
+
+  it("builds a set of neighbor ids from link data", () => {
+    const links = [
+      { source: "a", target: "b" },
+      { source: "a", target: "c" },
+      { source: "b", target: "d" },
+    ];
+
+    expect([...buildNeighborIds(links, "a")].sort()).toEqual(["b", "c"]);
+    expect([...buildNeighborIds(links, "b")].sort()).toEqual(["a", "d"]);
+    expect(buildNeighborIds(links, "z").size).toBe(0);
+    expect(buildNeighborIds(links, null).size).toBe(0);
+  });
+
+  it("handles object-style link endpoints when building neighbors", () => {
+    const links = [
+      { source: { id: "a" }, target: { id: "b" } },
+      { source: { id: "c" }, target: { id: "a" } },
+    ];
+
+    expect([...buildNeighborIds(links, "a")].sort()).toEqual(["b", "c"]);
   });
 
   it("styles topic links brighter and wider than wiki links", () => {
@@ -39,6 +100,32 @@ describe("wikiGraphVisuals", () => {
     expect(getLinkWidth({ kind: "topic" })).toBeGreaterThan(getLinkWidth({ kind: "wiki" }));
     expect(getLinkParticleCount({ kind: "topic" })).toBe(1);
     expect(getLinkParticleCount({ kind: "wiki" })).toBe(0);
+  });
+
+  it("highlights links connected to the selected node", () => {
+    const neighbors = new Set(["b"]);
+    const topicLink = { kind: "topic", source: "a", target: "b" };
+    const wikiLink = { kind: "wiki", source: "b", target: "c" };
+
+    expect(getLinkColor(topicLink, "a", neighbors)).toContain("0.85");
+    expect(getLinkColor(wikiLink, "a", neighbors)).toContain("0.12");
+    expect(getLinkWidth(topicLink, "a", neighbors)).toBeGreaterThan(
+      getLinkWidth(wikiLink, "a", neighbors),
+    );
+  });
+
+  it("falls back to default link styling when no node is selected", () => {
+    const topicLink = { kind: "topic", source: "a", target: "b" };
+
+    expect(getLinkColor(topicLink)).toContain("0.45");
+    expect(getLinkWidth(topicLink)).toBeGreaterThan(0);
+  });
+
+  it("shows labels for selected or high-degree nodes", () => {
+    expect(shouldShowNodeLabel({ id: "a", degree: 1 }, "a")).toBe(true);
+    expect(shouldShowNodeLabel({ id: "a", degree: 1 }, "b")).toBe(false);
+    expect(shouldShowNodeLabel({ id: "a", degree: 10 }, "b", 8)).toBe(true);
+    expect(shouldShowNodeLabel({ id: "a", degree: 5 }, "b", 8)).toBe(false);
   });
 
   it("builds a tooltip with title, type, and link count", () => {
