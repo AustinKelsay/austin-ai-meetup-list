@@ -2,6 +2,15 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-13] update | Wiki gardening pass
+
+- Fixed May 27 source record title drift: renamed "Composer 2.5 hits the sweet spot" to **Composer 2.5 = Opus at one tenth the cost??** and "Grok API stays separate from X Premium" to **Grok API gets X Premium OAuth integration** so source record headings match the May 27 meetup board wording.
+- Added missing May 27 Digg source records: Link https://digg.com plus the two local Presentation Mode images `/images/digg-1.png` and `/images/digg-2.png` under the **Digg returns as AI signal detector** heading.
+- Added **Fable's refusals go too far** to the [[Anthropic]] entity page Mentioned In for June 10 so the safety-classifier story travels with the entity.
+- Added `[[xAI]]` wikilink inside the June 10 **Closed labs start the June model wave** topic body so the xAI entity page's June 10 Mentioned In entry is resolvable from the source topic.
+- Added `[[Andrej Karpathy]]` wikilink inside the June 10 **AI Twitter advice has a six-month half-life** topic body and added the June 10 reference to the Karpathy entity page Mentioned In.
+- Removed the duplicate `https://x.com/The_Only_Signal/status/2060321842716365147` entry at the end of the June 10 Vector compression source cluster; the same source is already captured under **Local AI becomes bandwidth math**.
+
 ## [2026-06-10] update | Peter/Boris agent loops topic added
 
 - Added **Stop prompting agents, start designing loops** as an Agent Infrastructure Topic based on user submission.

@@ -126,8 +126,10 @@ Public link records for [[OpenAI]].
       label: "OpenAI",
       type: "entity",
       tags: ["entity", "company", "model"],
+      degree: 3,
+      updated: "2026-05-05",
     });
-    expect(manifest.graph.links).toContainEqual({ source: "openai", target: "coding-agents" });
+    expect(manifest.graph.links).toContainEqual({ source: "openai", target: "coding-agents", kind: "wiki" });
     expect(manifest.stats).toMatchObject({
       pageCount: 3,
       rawPageCount: 0,
@@ -135,6 +137,7 @@ Public link records for [[OpenAI]].
       sourceRecordCount: 1,
       sourceLinkCount: 2,
       unresolvedLinkCount: 1,
+      lastUpdatedAt: "2026-05-05",
     });
   });
 

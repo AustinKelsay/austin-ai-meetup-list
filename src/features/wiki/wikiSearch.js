@@ -1,0 +1,61 @@
+function getOutgoingTitles(page, pagesById) {
+  if (!page.outgoingIds?.length) {
+    return "";
+  }
+  return page.outgoingIds
+    .map((id) => pagesById[id]?.title ?? "")
+    .filter(Boolean)
+    .join(" ");
+}
+
+function getBacklinkTitles(page, pagesById) {
+  if (!page.backlinkIds?.length) {
+    return "";
+  }
+  return page.backlinkIds
+    .map((id) => pagesById[id]?.title ?? "")
+    .filter(Boolean)
+    .join(" ");
+}
+
+function getReferencedSourceTitles(page) {
+  if (!page.referencedTopicSources?.length) {
+    return "";
+  }
+  return page.referencedTopicSources.map((reference) => reference.title).join(" ");
+}
+
+function getPageSearchHaystack(page, pagesById) {
+  return [
+    page.title,
+    page.excerpt,
+    (page.tags ?? []).join(" "),
+    getOutgoingTitles(page, pagesById),
+    getBacklinkTitles(page, pagesById),
+    getReferencedSourceTitles(page),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+export function buildPageSearchHaystack(page, pagesById) {
+  return getPageSearchHaystack(page, pagesById);
+}
+
+export function matchesPageSearch(page, normalizedQuery, pagesById) {
+  if (!normalizedQuery) {
+    return true;
+  }
+  return getPageSearchHaystack(page, pagesById).includes(normalizedQuery);
+}
+
+export function filterPagesByQuery(pages, query, pagesById) {
+  const normalized = query.trim().toLowerCase();
+
+  if (!normalized) {
+    return pages;
+  }
+
+  return pages.filter((page) => matchesPageSearch(page, normalized, pagesById));
+}

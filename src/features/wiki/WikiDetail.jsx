@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
+import { formatRelativeDate } from "./wikiDates.js";
 
 function pluralize(count, singular) {
   return `${count} ${singular}${count === 1 ? "" : "s"}`;
@@ -100,7 +102,52 @@ function SourceReferenceList({ items, emptyLabel }) {
   );
 }
 
-export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute }) {
+function CopyLinkButton({ page }) {
+  const [copied, setCopied] = useState(false);
+
+  if (!page) {
+    return null;
+  }
+
+  const handleCopy = async () => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    const url = `${window.location.origin}${buildWikiPath(page.id)}`;
+
+    try {
+      if (navigator?.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url);
+      } else {
+        const textarea = document.createElement("textarea");
+        textarea.value = url;
+        textarea.setAttribute("readonly", "");
+        textarea.style.position = "absolute";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+      }
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    } catch {
+      setCopied(false);
+    }
+  };
+
+  return (
+    <button
+      type="button"
+      className={`wiki-source-link wiki-copy-link ${copied ? "wiki-copy-link--copied" : ""}`}
+      onClick={handleCopy}
+    >
+      {copied ? "Link copied" : "Copy link"}
+    </button>
+  );
+}
+
+export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute, onTagClick }) {
   if (!selectedPage) {
     return (
       <aside className="wiki-detail wiki-detail--missing">
@@ -125,12 +172,19 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
     referencedTopicSources,
   });
 
+  const updatedLabel = formatRelativeDate(selectedPage.updated || selectedPage.created);
+
   return (
     <aside className="wiki-detail">
       <div>
         <p className="eyebrow">{getPageTypeLabel(selectedPage.type)}</p>
         <h2>{selectedPage.title}</h2>
         <p className="wiki-detail-copy">{selectedPage.excerpt || "No excerpt is available yet."}</p>
+        {updatedLabel ? (
+          <p className="wiki-detail-freshness" aria-label={`Last updated ${updatedLabel}`}>
+            Updated {updatedLabel}
+          </p>
+        ) : null}
       </div>
 
       <div className="wiki-detail-meta">
@@ -140,9 +194,22 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
       </div>
 
       <div className="wiki-tags" aria-label={`${selectedPage.title} tags`}>
-        {selectedPage.tags.map((tag) => (
-          <span key={tag}>{tag}</span>
-        ))}
+        {selectedPage.tags.map((tag) =>
+          onTagClick ? (
+            <button
+              key={tag}
+              type="button"
+              className="wiki-tag wiki-tag--clickable"
+              onClick={() => onTagClick(tag)}
+            >
+              {tag}
+            </button>
+          ) : (
+            <span key={tag} className="wiki-tag">
+              {tag}
+            </span>
+          ),
+        )}
       </div>
 
       <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
@@ -173,6 +240,7 @@ export function WikiDetail({ manifest, selectedPage, focusedWikiId, onOpenRoute 
       <a className="wiki-source-link" href={selectedPage.rawHref}>
         Open Markdown source
       </a>
+      <CopyLinkButton page={selectedPage} />
     </aside>
   );
 }

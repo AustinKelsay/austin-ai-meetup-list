@@ -179,11 +179,6 @@ sources: []
   - Type: X post
   - Access: 2026-06-10
   - Notes: Vaibhav Sisinty's explanation (4.9K views) of TurboVec: someone fit 31GB of AI memory into 4GB running on a MacBook. Ryan Codrai built it in Rust, open source, MIT licensed, faster than FAISS. Practical local deployment of TurboQuant.
-- Post: https://x.com/The_Only_Signal/status/2060321842716365147
-  - Title: "Memory bandwidth comparison for local AI hardware"
-  - Type: X post
-  - Access: 2026-06-09
-  - Notes: Cohost-submitted May 29 bandwidth table used as local hardware planning context.
 
 ## Models & Research
 

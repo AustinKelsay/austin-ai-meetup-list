@@ -139,7 +139,10 @@ export default function App() {
 
   useEffect(() => {
     const syncFromLocation = () => {
-      syncLocationState(window.location.pathname, window.location.hash);
+      syncLocationState(
+        `${window.location.pathname}${window.location.search}`,
+        window.location.hash,
+      );
     };
 
     syncFromLocation();
@@ -299,6 +302,7 @@ export default function App() {
       <WikiExplorer
         manifest={wikiManifest}
         focusedWikiId={route.wikiId}
+        search={route.search ?? ""}
         onOpenRoute={openRoute}
       />
     );

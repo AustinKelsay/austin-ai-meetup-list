@@ -1,16 +1,26 @@
 import ForceGraph from "force-graph";
 import { useEffect, useMemo, useRef } from "react";
+import { getDefaultVisibleTypes } from "./wikiGraphFilters.js";
 import { updateLatestValueRef } from "./WikiGraphController.js";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
+import {
+  buildNodeTooltip,
+  getLinkColor,
+  getLinkParticleCount,
+  getLinkWidth,
+  getNodeColor,
+  getNodeVal,
+} from "./wikiGraphVisuals.js";
 
 function focusGraph(instance, duration = 450) {
   instance.zoomToFit(duration, 56);
 }
 
-export default function WikiGraph({ graph, selectedId, onSelectPage }) {
+export default function WikiGraph({ graph, selectedId, onSelectPage, visibleTypes = getDefaultVisibleTypes() }) {
   const containerRef = useRef(null);
   const graphRef = useRef(null);
   const onSelectPageRef = useRef(onSelectPage);
+  const visibleTypesRef = useRef(visibleTypes);
   const graphData = useMemo(
     () => ({
       nodes: graph.nodes.map((node) => ({ ...node })),
@@ -24,6 +34,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
   }, [onSelectPage]);
 
   useEffect(() => {
+    visibleTypesRef.current = visibleTypes;
+  }, [visibleTypes]);
+
+  useEffect(() => {
     if (!containerRef.current) {
       return undefined;
     }
@@ -31,14 +45,14 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
     const instance = ForceGraph()(containerRef.current)
       .backgroundColor("rgba(0,0,0,0)")
       .nodeId("id")
-      .nodeLabel((node) => node.label)
+      .nodeLabel((node) => buildNodeTooltip(node))
       .nodeRelSize(3)
-      .nodeVal((node) => (node.id === selectedId ? 5 : 2.5))
-      .nodeColor((node) =>
-        node.id === selectedId ? "#ffffff" : WIKI_GRAPH_TYPE_COLORS[node.type] ?? "#9fb8b0",
-      )
-      .linkColor(() => "rgba(159, 184, 176, 0.3)")
-      .linkDirectionalParticles(1)
+      .nodeVal((node) => getNodeVal(node, selectedIdRef.current))
+      .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
+      .nodeColor((node) => getNodeColor(node, selectedIdRef.current, WIKI_GRAPH_TYPE_COLORS))
+      .linkColor((link) => getLinkColor(link))
+      .linkWidth((link) => getLinkWidth(link))
+      .linkDirectionalParticles((link) => getLinkParticleCount(link))
       .linkDirectionalParticleWidth(1.4)
       .linkDirectionalParticleSpeed(0.004)
       .cooldownTicks(80)
@@ -72,6 +86,11 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
     };
   }, []);
 
+  const selectedIdRef = useRef(selectedId);
+  useEffect(() => {
+    selectedIdRef.current = selectedId;
+  }, [selectedId]);
+
   useEffect(() => {
     if (!graphRef.current) {
       return;
@@ -87,11 +106,12 @@ export default function WikiGraph({ graph, selectedId, onSelectPage }) {
     }
 
     graphRef.current
-      .nodeVal((node) => (node.id === selectedId ? 5 : 2.5))
-      .nodeColor((node) =>
-        node.id === selectedId ? "#ffffff" : WIKI_GRAPH_TYPE_COLORS[node.type] ?? "#9fb8b0",
-      );
-  }, [selectedId]);
+      .nodeVal((node) => getNodeVal(node, selectedId))
+      .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
+      .nodeColor((node) => getNodeColor(node, selectedId, WIKI_GRAPH_TYPE_COLORS))
+      .linkColor((link) => getLinkColor(link))
+      .linkWidth((link) => getLinkWidth(link));
+  }, [selectedId, visibleTypes]);
 
   return <div ref={containerRef} className="wiki-graph-canvas" aria-label="Wiki link graph" />;
 }

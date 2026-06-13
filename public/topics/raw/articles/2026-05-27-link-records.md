@@ -11,7 +11,7 @@ sources: []
 
 ## Agent Infrastructure
 
-### Composer 2.5 hits the sweet spot
+### Composer 2.5 = Opus at one tenth the cost??
 - Source: https://cursor.com/blog/composer-2-5
   - Title: "Introducing Composer 2.5 · Cursor"
   - Type: Official announcement
@@ -159,6 +159,21 @@ sources: []
 ## Big Tech Moves
 
 ### Digg returns as AI signal detector
+- Link: https://digg.com
+  - Title: "Digg"
+  - Type: Product page
+  - Access: 2026-05-27
+  - Notes: Primary link for the Digg AI news aggregator product surface.
+- Image: /images/digg-1.png
+  - Title: "Digg AI news screenshot 1"
+  - Type: Local image
+  - Access: 2026-05-27
+  - Notes: Digg AI product screenshot used as Presentation Mode hero image.
+- Image: /images/digg-2.png
+  - Title: "Digg AI news screenshot 2"
+  - Type: Local image
+  - Access: 2026-05-27
+  - Notes: Second Digg AI product screenshot used as Presentation Mode hero image.
 - Source: https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/
   - Title: "Digg tries again, this time as an AI news aggregator | TechCrunch"
   - Type: News coverage
@@ -204,7 +219,7 @@ sources: []
   - Access: 2026-05-26
   - Notes: "25x cut" framing highlighting subsidized programmatic usage changes
 
-### Grok API stays separate from X Premium
+### Grok API gets X Premium OAuth integration
 - Source: https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key
   - Title: "How to Get Your Grok (XAI) API Key"
   - Type: Guide

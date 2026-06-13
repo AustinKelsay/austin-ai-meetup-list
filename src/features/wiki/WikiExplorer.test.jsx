@@ -2,23 +2,33 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import { WikiDetail } from "./WikiDetail.jsx";
 
+function buildPage(overrides) {
+  return {
+    id: "openai",
+    title: "OpenAI",
+    type: "entity",
+    tags: ["entity", "company"],
+    sourceCount: 1,
+    sourceLinks: ["https://openai.com/release"],
+    sourceReferences: [],
+    referencedTopicSources: [],
+    outgoingIds: [],
+    backlinkIds: [],
+    unresolvedLinks: [],
+    excerpt: "OpenAI is a recurring Austin AI Club entity.",
+    rawHref: "/topics/entities/openai.md",
+    ...overrides,
+  };
+}
+
 describe("WikiDetail", () => {
   it("shows source links for the selected wiki page", () => {
     const longSourceLink =
       "https://example.com/research/extremely-long-model-release-slug-without-friendly-breakpoints";
-    const selectedPage = {
+    const selectedPage = buildPage({
       id: "openai",
-      title: "OpenAI",
-      type: "entity",
-      tags: ["entity"],
-      sourceCount: 1,
       sourceLinks: ["https://openai.com/release", longSourceLink],
-      outgoingIds: [],
-      backlinkIds: [],
-      unresolvedLinks: [],
-      excerpt: "OpenAI is a recurring Austin AI Club entity.",
-      rawHref: "/topics/entities/openai.md",
-    };
+    });
     const manifest = { pagesById: {} };
 
     const html = renderToStaticMarkup(
@@ -39,12 +49,11 @@ describe("WikiDetail", () => {
   });
 
   it("shows source link topic titles when source references include context", () => {
-    const selectedPage = {
+    const selectedPage = buildPage({
       id: "austin-ai-club-april-1-2026",
       title: "Austin AI Club - April 1, 2026",
       type: "meetup",
       tags: ["meetup"],
-      sourceCount: 1,
       sourceLinks: ["https://github.com/ryanthegentry/402index-mcp-server"],
       sourceReferences: [
         {
@@ -53,12 +62,9 @@ describe("WikiDetail", () => {
           section: "Agent Infrastructure",
         },
       ],
-      outgoingIds: [],
-      backlinkIds: [],
-      unresolvedLinks: [],
       excerpt: "April 1 meetup.",
       rawHref: "/topics/2026-04-01.md",
-    };
+    });
     const manifest = { pagesById: {} };
 
     const html = renderToStaticMarkup(
@@ -76,12 +82,11 @@ describe("WikiDetail", () => {
   });
 
   it("shows referenced topic sources in the unified sources list", () => {
-    const selectedPage = {
+    const selectedPage = buildPage({
       id: "agent-infrastructure",
       title: "Agent Infrastructure",
       type: "concept",
       tags: ["concept", "track"],
-      sourceCount: 0,
       sourceLinks: [],
       sourceReferences: [],
       referencedTopicSources: [
@@ -92,12 +97,9 @@ describe("WikiDetail", () => {
           sourcePageTitle: "Austin AI Club - April 1, 2026",
         },
       ],
-      outgoingIds: [],
-      backlinkIds: [],
-      unresolvedLinks: [],
       excerpt: "Agent Infrastructure covers runtimes and protocols.",
       rawHref: "/topics/concepts/agent-infrastructure.md",
-    };
+    });
     const manifest = { pagesById: {} };
 
     const html = renderToStaticMarkup(
@@ -116,4 +118,91 @@ describe("WikiDetail", () => {
     expect(html).toContain("From Austin AI Club - April 1, 2026");
     expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
   });
+
+  it("renders tags as clickable buttons when onTagClick is provided", () => {
+    const selectedPage = buildPage();
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+        onTagClick={() => {}}
+      />,
+    );
+
+    expect(html).toMatch(/<button[^>]*class="[^"]*wiki-tag--clickable[^"]*"[^>]*>entity<\/button>/);
+    expect(html).toMatch(/<button[^>]*class="[^"]*wiki-tag--clickable[^"]*"[^>]*>company<\/button>/);
+    expect(html).not.toMatch(/<span[^>]*class="[^"]*wiki-tag[^"]*"[^>]*>entity<\/span>/);
+  });
+
+  it("renders tags as plain spans when onTagClick is omitted", () => {
+    const selectedPage = buildPage();
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toMatch(/<span[^>]*class="[^"]*wiki-tag[^"]*"[^>]*>entity<\/span>/);
+    expect(html).not.toContain("wiki-tag--clickable");
+  });
+
+  it("shows a freshness line when the page has a recent updated date", () => {
+    const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+    const selectedPage = buildPage({ updated: yesterday });
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("wiki-detail-freshness");
+    expect(html).toMatch(/Updated (yesterday|1 day ago)/);
+  });
+
+  it("omits the freshness line when no date is available", () => {
+    const selectedPage = buildPage({ updated: "", created: "" });
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).not.toContain("wiki-detail-freshness");
+  });
+
+  it("renders a copy link button next to the markdown source link", () => {
+    const selectedPage = buildPage();
+    const manifest = { pagesById: {} };
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={manifest}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toMatch(/<button[^>]*class="[^"]*wiki-copy-link[^"]*"[^>]*>Copy link<\/button>/);
+  });
 });
+

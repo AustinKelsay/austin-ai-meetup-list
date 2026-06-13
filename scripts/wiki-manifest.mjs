@@ -492,11 +492,26 @@ export async function buildWikiManifest({ topicsDir }) {
       label: page.title,
       type: page.type,
       tags: page.tags,
+      degree: page.outgoingIds.length + page.backlinkIds.length,
+      updated: page.updated || page.created || "",
     })),
-    links,
+    links: links.map((link) => {
+      const sourcePage = pagesById[link.source];
+      const targetPage = pagesById[link.target];
+      const isMeetupSource = sourcePage?.type === "meetup";
+      const isMeetupTarget = targetPage?.type === "meetup";
+      const kind = isMeetupSource || isMeetupTarget ? "topic" : "wiki";
+
+      return { ...link, kind };
+    }),
   };
   const sourceLinkCount = new Set(pages.flatMap((page) => page.sourceLinks)).size;
   const sourceRecordCount = pages.filter((page) => page.tags.includes("source-record")).length;
+  const lastUpdatedAt = pages
+    .map((page) => page.updated || page.created || "")
+    .filter(Boolean)
+    .sort()
+    .at(-1) ?? "";
 
   return {
     generatedAt: new Date().toISOString(),
@@ -513,6 +528,7 @@ export async function buildWikiManifest({ topicsDir }) {
       sourceRecordCount,
       sourceLinkCount,
       unresolvedLinkCount: unresolvedLinks.length,
+      lastUpdatedAt,
     },
   };
 }

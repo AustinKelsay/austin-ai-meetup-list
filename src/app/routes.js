@@ -4,9 +4,18 @@ import {
   LINK_SUBMISSION_PATH,
   MEETUP_PATH_PREFIX,
   SHOWCASE_SUBMISSION_PATH,
+  WIKI_EXPLORER_SORT_DEFAULT,
+  WIKI_EXPLORER_SORT_KEYS,
+  WIKI_EXPLORER_TYPE_ALL,
   WIKI_PATH_PREFIX,
 } from "./constants.js";
 import { slugify } from "../lib/meetup-ui.js";
+import {
+  getDefaultVisibleTypes,
+  WIKI_GRAPH_TYPE_LIST,
+} from "../features/wiki/wikiGraphFilters.js";
+
+export { WIKI_EXPLORER_TYPE_ALL, WIKI_EXPLORER_SORT_DEFAULT, WIKI_EXPLORER_SORT_KEYS };
 
 export function getTrackRouteSlug(track) {
   if (!track) {
@@ -69,8 +78,106 @@ export function buildMeetupPath(slug) {
   return `${MEETUP_PATH_PREFIX}/${encodeURIComponent(slug)}`;
 }
 
-export function buildWikiPath(id) {
-  return id ? `${WIKI_PATH_PREFIX}/${encodeURIComponent(id)}` : WIKI_PATH_PREFIX;
+export function buildWikiPath(id, search = "") {
+  const base = id ? `${WIKI_PATH_PREFIX}/${encodeURIComponent(id)}` : WIKI_PATH_PREFIX;
+
+  if (!search) {
+    return base;
+  }
+
+  return `${base}?${search.replace(/^\?/, "")}`;
+}
+
+function sortParamsByKey(entries) {
+  return entries.sort(([a], [b]) => a.localeCompare(b));
+}
+
+export function buildWikiExplorerSearch({
+  query = "",
+  typeFilter = WIKI_EXPLORER_TYPE_ALL,
+  tagFilter = WIKI_EXPLORER_TYPE_ALL,
+  sort = WIKI_EXPLORER_SORT_DEFAULT,
+  visibleTypes = getDefaultVisibleTypes(),
+} = {}) {
+  const params = new URLSearchParams();
+  const trimmedQuery = query.trim();
+
+  if (trimmedQuery) {
+    params.set("q", trimmedQuery);
+  }
+
+  if (typeFilter !== WIKI_EXPLORER_TYPE_ALL) {
+    params.set("type", typeFilter);
+  }
+
+  if (tagFilter !== WIKI_EXPLORER_TYPE_ALL) {
+    params.set("tag", tagFilter);
+  }
+
+  if (sort !== WIKI_EXPLORER_SORT_DEFAULT) {
+    params.set("sort", sort);
+  }
+
+  const knownVisible = new Set(WIKI_GRAPH_TYPE_LIST);
+  const hiddenTypes = WIKI_GRAPH_TYPE_LIST.filter((type) => !visibleTypes.has(type) && knownVisible.has(type));
+
+  if (hiddenTypes.length > 0 && hiddenTypes.length < WIKI_GRAPH_TYPE_LIST.length) {
+    params.set("types", hiddenTypes.map((type) => `-${type}`).join(","));
+  }
+
+  const sorted = sortParamsByKey([...params.entries()]);
+  const rebuilt = new URLSearchParams();
+
+  for (const [key, value] of sorted) {
+    rebuilt.set(key, value);
+  }
+
+  const serialized = rebuilt.toString();
+
+  return serialized ? `?${serialized}` : "";
+}
+
+export function parseWikiExplorerSearch(search = "") {
+  const params = new URLSearchParams(search.replace(/^\?/, ""));
+  const query = params.get("q")?.trim() ?? "";
+  const typeFilter = params.get("type")?.trim() || WIKI_EXPLORER_TYPE_ALL;
+  const tagFilter = params.get("tag")?.trim() || WIKI_EXPLORER_TYPE_ALL;
+  const sortParam = params.get("sort")?.trim();
+  const sort =
+    sortParam && WIKI_EXPLORER_SORT_KEYS.has(sortParam) ? sortParam : WIKI_EXPLORER_SORT_DEFAULT;
+
+  const visibleTypes = getDefaultVisibleTypes();
+  const typesParam = params.get("types");
+
+  if (typesParam) {
+    for (const rawToken of typesParam.split(",")) {
+      const token = rawToken.trim();
+      if (!token) {
+        continue;
+      }
+
+      const isHidden = token.startsWith("-");
+      const type = isHidden ? token.slice(1) : token.startsWith("+") ? token.slice(1) : token;
+
+      if (!WIKI_GRAPH_TYPE_LIST.includes(type)) {
+        continue;
+      }
+
+      if (isHidden) {
+        visibleTypes.delete(type);
+      } else {
+        visibleTypes.add(type);
+      }
+    }
+  }
+
+  return {
+    query,
+    typeFilter,
+    tagFilter,
+    sort,
+    visibleTypes,
+  };
 }
 
 function normalizePathname(pathname) {
@@ -81,15 +188,27 @@ function normalizePathname(pathname) {
   return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
 }
 
-export function getAppRoute(pathname) {
-  const normalized = normalizePathname(pathname);
+export function getAppRoute(pathnameOrUrl) {
+  let normalizedPath = pathnameOrUrl;
+  let search = "";
+
+  if (typeof pathnameOrUrl === "string") {
+    const queryIndex = pathnameOrUrl.indexOf("?");
+
+    if (queryIndex !== -1) {
+      normalizedPath = pathnameOrUrl.slice(0, queryIndex);
+      search = pathnameOrUrl.slice(queryIndex);
+    }
+  }
+
+  const normalized = normalizePathname(normalizedPath);
 
   if (normalized === CALENDAR_PATH) {
     return { name: APP_ROUTE.CALENDAR };
   }
 
   if (normalized === WIKI_PATH_PREFIX) {
-    return { name: APP_ROUTE.WIKI, wikiId: null };
+    return { name: APP_ROUTE.WIKI, wikiId: null, search };
   }
 
   const wikiPrefix = `${WIKI_PATH_PREFIX}/`;
@@ -100,6 +219,7 @@ export function getAppRoute(pathname) {
         return {
           name: APP_ROUTE.WIKI,
           wikiId: decodeURIComponent(wikiId),
+          search,
         };
       } catch {
         return { name: APP_ROUTE.HOME };
@@ -142,14 +262,20 @@ export function setHash(hash) {
 }
 
 export function setPathname(pathname, options = {}) {
-  const { replace = false, hash = window.location.hash, state = null } = options;
+  const {
+    replace = false,
+    hash = window.location.hash,
+    search = window.location.search,
+    state = null,
+  } = options;
   const nextHash = hash
     ? hash.startsWith("#")
       ? hash
       : `#${hash}`
     : "";
-  const nextUrl = `${pathname}${nextHash}`;
-  const currentUrl = `${window.location.pathname}${window.location.hash}`;
+  const nextSearch = search || "";
+  const nextUrl = `${pathname}${nextSearch}${nextHash}`;
+  const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
 
   if (currentUrl === nextUrl && window.history.state === state) {
     return;

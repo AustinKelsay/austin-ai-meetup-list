@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T21:20:14.912Z",
+  "generatedAt": "2026-06-13T20:08:11.914Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -1384,25 +1384,35 @@
         "big-tech-moves"
       ],
       "sources": [
+        "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-27-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-05-27",
-      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership and recursive AI development.",
+      "updated": "2026-06-13",
+      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership, durable practitioner advice, and recursive AI development.",
       "rawHref": "/topics/entities/andrej-karpathy.md",
       "relativePath": "entities/andrej-karpathy.md",
       "outgoingIds": [
+        "austin-ai-club-june-10-2026",
         "austin-ai-club-may-27-2026",
         "open-models"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "austin-ai-club-june-10-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
           "title": "Karpathy joins Anthropic for recursive AI research",
@@ -1445,7 +1455,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-13",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -1611,6 +1621,69 @@
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
@@ -5633,6 +5706,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "andrej-karpathy",
         "anthropic",
         "apple",
         "coding-agents",
@@ -5654,6 +5728,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "andrej-karpathy",
         "anthropic",
         "apple",
         "coding-agents",
@@ -6009,11 +6084,6 @@
         },
         {
           "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
-          "title": "Vector compression hits 10x without the quality tax",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
@@ -8100,6 +8170,7 @@
         "https://x.com/PrismML/status/2059339159899390326",
         "https://arxiv.org/abs/2605.22391",
         "https://x.com/josefchen/status/2059350978109874677",
+        "https://digg.com",
         "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
         "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
         "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
@@ -8121,22 +8192,22 @@
       "sourceReferences": [
         {
           "href": "https://cursor.com/blog/composer-2-5",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://handyai.substack.com/p/model-drop-composer-25",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/cursor_ai/status/2056415413077233983",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
@@ -8245,6 +8316,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://digg.com",
+          "title": "Digg returns as AI signal detector",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
           "section": "Big Tech Moves"
@@ -8286,17 +8362,17 @@
         },
         {
           "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://mem0.ai/blog/xai-grok-api-pricing",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://x.com/xai/status/2055745332919808181",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
@@ -20023,25 +20099,35 @@
         "big-tech-moves"
       ],
       "sources": [
+        "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-27-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-05-27",
-      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership and recursive AI development.",
+      "updated": "2026-06-13",
+      "excerpt": "Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership, durable practitioner advice, and recursive AI development.",
       "rawHref": "/topics/entities/andrej-karpathy.md",
       "relativePath": "entities/andrej-karpathy.md",
       "outgoingIds": [
+        "austin-ai-club-june-10-2026",
         "austin-ai-club-may-27-2026",
         "open-models"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "austin-ai-club-june-10-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/0xMortyx/status/2061491256107159736",
+          "title": "AI Twitter advice has a six-month half-life",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
         {
           "href": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
           "title": "Karpathy joins Anthropic for recursive AI research",
@@ -20084,7 +20170,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-13",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -20250,6 +20336,69 @@
           "href": "https://x.com/_alialkhatib/status/2060056690221838552",
           "title": "Claude gets its cloud-bill moment",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ClaudeDevs/status/2064428347678220691",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/djcows/status/2064513368002842732",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/DerekCroote/status/2064472087167930372",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064435631594291304",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/petergostev/status/2064634015382978941",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/antirez/status/2064766429887352971",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TimothyKassis/status/2064438011417481570",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/LechMazur/status/2064511888793161887",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/mykola/status/2064400637857591666",
+          "title": "Fable's refusals go too far",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         },
@@ -24272,6 +24421,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "andrej-karpathy",
         "anthropic",
         "apple",
         "coding-agents",
@@ -24293,6 +24443,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "andrej-karpathy",
         "anthropic",
         "apple",
         "coding-agents",
@@ -24648,11 +24799,6 @@
         },
         {
           "href": "https://x.com/VaibhavSisinty/status/2063357634267509010",
-          "title": "Vector compression hits 10x without the quality tax",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Vector compression hits 10x without the quality tax",
           "section": "Agent Infrastructure"
         },
@@ -26739,6 +26885,7 @@
         "https://x.com/PrismML/status/2059339159899390326",
         "https://arxiv.org/abs/2605.22391",
         "https://x.com/josefchen/status/2059350978109874677",
+        "https://digg.com",
         "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
         "https://www.engadget.com/2170484/digg-ai-news-aggregator/",
         "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
@@ -26760,22 +26907,22 @@
       "sourceReferences": [
         {
           "href": "https://cursor.com/blog/composer-2-5",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://handyai.substack.com/p/model-drop-composer-25",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://turion.ai/blog/cursor-composer-2-5-coding-agents-may-2026/",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/cursor_ai/status/2056415413077233983",
-          "title": "Composer 2.5 hits the sweet spot",
+          "title": "Composer 2.5 = Opus at one tenth the cost??",
           "section": "Agent Infrastructure"
         },
         {
@@ -26884,6 +27031,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://digg.com",
+          "title": "Digg returns as AI signal detector",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
           "title": "Digg returns as AI signal detector",
           "section": "Big Tech Moves"
@@ -26925,17 +27077,17 @@
         },
         {
           "href": "https://www.apideck.com/blog/how-to-get-your-grok-xai-api-key",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://mem0.ai/blog/xai-grok-api-pricing",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://x.com/xai/status/2055745332919808181",
-          "title": "Grok API stays separate from X Premium",
+          "title": "Grok API gets X Premium OAuth integration",
           "section": "Big Tech Moves"
         },
         {
@@ -37398,6 +37550,10 @@
     },
     {
       "source": "andrej-karpathy",
+      "target": "austin-ai-club-june-10-2026"
+    },
+    {
+      "source": "andrej-karpathy",
       "target": "austin-ai-club-may-27-2026"
     },
     {
@@ -37643,6 +37799,10 @@
     {
       "source": "austin-ai-club-june-10-2026",
       "target": "spacex"
+    },
+    {
+      "source": "austin-ai-club-june-10-2026",
+      "target": "andrej-karpathy"
     },
     {
       "source": "austin-ai-club-march-18-2026",
@@ -38425,7 +38585,9 @@
           "agent-infrastructure",
           "coding-agents",
           "cost-control"
-        ]
+        ],
+        "degree": 10,
+        "updated": "2026-06-09"
       },
       {
         "id": "agent-infrastructure",
@@ -38435,7 +38597,9 @@
           "concept",
           "track",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 32,
+        "updated": "2026-06-09"
       },
       {
         "id": "agent-security",
@@ -38445,7 +38609,9 @@
           "concept",
           "security",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 11,
+        "updated": "2026-05-13"
       },
       {
         "id": "ai-governance",
@@ -38455,7 +38621,9 @@
           "concept",
           "security",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 9,
+        "updated": "2026-06-08"
       },
       {
         "id": "ai-saas-supply-chain",
@@ -38465,7 +38633,9 @@
           "concept",
           "security",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 8,
+        "updated": "2026-05-05"
       },
       {
         "id": "andrej-karpathy",
@@ -38476,7 +38646,9 @@
           "person",
           "models-research",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 5,
+        "updated": "2026-06-13"
       },
       {
         "id": "anthropic",
@@ -38487,7 +38659,9 @@
           "company",
           "big-tech-moves",
           "compute"
-        ]
+        ],
+        "degree": 19,
+        "updated": "2026-06-13"
       },
       {
         "id": "apple",
@@ -38498,7 +38672,9 @@
           "company",
           "big-tech-moves",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 9,
+        "updated": "2026-06-08"
       },
       {
         "id": "april-1-2026-source-link-records",
@@ -38507,7 +38683,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 1,
+        "updated": "2026-05-13"
       },
       {
         "id": "april-15-2026-source-link-records",
@@ -38516,7 +38694,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 1,
+        "updated": "2026-05-05"
       },
       {
         "id": "austin-ai-club-april-1-2026",
@@ -38530,7 +38710,9 @@
           "security",
           "big-tech-moves",
           "local-builds"
-        ]
+        ],
+        "degree": 30,
+        "updated": "2026-05-05"
       },
       {
         "id": "austin-ai-club-april-15-2026",
@@ -38544,7 +38726,9 @@
           "models-research",
           "security",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 26,
+        "updated": "2026-05-05"
       },
       {
         "id": "austin-ai-club-june-10-2026",
@@ -38553,7 +38737,9 @@
         "tags": [
           "meetup",
           "topic-board"
-        ]
+        ],
+        "degree": 38,
+        "updated": "2026-06-10"
       },
       {
         "id": "austin-ai-club-june-10-2026-source-link-records",
@@ -38562,7 +38748,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 0,
+        "updated": "2026-06-10"
       },
       {
         "id": "austin-ai-club-march-18-2026",
@@ -38576,7 +38764,9 @@
           "security",
           "big-tech-moves",
           "local-builds"
-        ]
+        ],
+        "degree": 27,
+        "updated": "2026-05-05"
       },
       {
         "id": "austin-ai-club-may-13-2026",
@@ -38589,7 +38779,9 @@
           "models-research",
           "security",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 33,
+        "updated": "2026-05-13"
       },
       {
         "id": "austin-ai-club-may-27-2026",
@@ -38598,7 +38790,9 @@
         "tags": [
           "meetup",
           "topic-board"
-        ]
+        ],
+        "degree": 22,
+        "updated": "2026-05-27"
       },
       {
         "id": "austin-ai-club-may-27-2026-source-link-records",
@@ -38607,7 +38801,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 0,
+        "updated": "2026-05-27"
       },
       {
         "id": "coding-agents",
@@ -38617,7 +38813,9 @@
           "concept",
           "agent-infrastructure",
           "local-builds"
-        ]
+        ],
+        "degree": 23,
+        "updated": "2026-06-09"
       },
       {
         "id": "cohere",
@@ -38629,7 +38827,9 @@
           "open-models",
           "local-ai",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 8,
+        "updated": "2026-06-09"
       },
       {
         "id": "company-brain",
@@ -38638,7 +38838,9 @@
         "tags": [
           "concept",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 5,
+        "updated": "2026-05-13"
       },
       {
         "id": "compute-strategy",
@@ -38648,7 +38850,9 @@
           "concept",
           "big-tech-moves",
           "models-research"
-        ]
+        ],
+        "degree": 21,
+        "updated": "2026-06-08"
       },
       {
         "id": "cursor",
@@ -38659,7 +38863,9 @@
           "company",
           "coding-agents",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 4,
+        "updated": "2026-05-27"
       },
       {
         "id": "figure-ai",
@@ -38670,7 +38876,9 @@
           "company",
           "agent-infrastructure",
           "models-research"
-        ]
+        ],
+        "degree": 5,
+        "updated": "2026-05-27"
       },
       {
         "id": "google",
@@ -38681,7 +38889,9 @@
           "company",
           "model",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 12,
+        "updated": "2026-06-08"
       },
       {
         "id": "humanoid-robotics",
@@ -38691,7 +38901,9 @@
           "concept",
           "agent-infrastructure",
           "models-research"
-        ]
+        ],
+        "degree": 6,
+        "updated": "2026-05-27"
       },
       {
         "id": "local-ai",
@@ -38702,7 +38914,9 @@
           "local-builds",
           "open-source",
           "privacy"
-        ]
+        ],
+        "degree": 20,
+        "updated": "2026-06-09"
       },
       {
         "id": "march-18-2026-source-link-records",
@@ -38711,7 +38925,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 1,
+        "updated": "2026-05-05"
       },
       {
         "id": "may-13-2026-source-link-records",
@@ -38720,7 +38936,9 @@
         "tags": [
           "source-record",
           "meetup"
-        ]
+        ],
+        "degree": 1,
+        "updated": "2026-05-13"
       },
       {
         "id": "meta",
@@ -38731,7 +38949,9 @@
           "company",
           "model",
           "big-tech-moves"
-        ]
+        ],
+        "degree": 9,
+        "updated": "2026-05-05"
       },
       {
         "id": "microsoft",
@@ -38742,7 +38962,9 @@
           "company",
           "agent-infrastructure",
           "security"
-        ]
+        ],
+        "degree": 10,
+        "updated": "2026-06-09"
       },
       {
         "id": "model-distillation",
@@ -38753,7 +38975,9 @@
           "models-research",
           "security",
           "open-source"
-        ]
+        ],
+        "degree": 13,
+        "updated": "2026-05-05"
       },
       {
         "id": "nvidia",
@@ -38765,7 +38989,9 @@
           "compute",
           "model",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 15,
+        "updated": "2026-06-08"
       },
       {
         "id": "open-models",
@@ -38775,7 +39001,9 @@
           "concept",
           "models-research",
           "open-source"
-        ]
+        ],
+        "degree": 31,
+        "updated": "2026-06-09"
       },
       {
         "id": "openai",
@@ -38786,7 +39014,9 @@
           "company",
           "model",
           "privacy"
-        ]
+        ],
+        "degree": 18,
+        "updated": "2026-06-08"
       },
       {
         "id": "openclaw",
@@ -38797,7 +39027,9 @@
           "product",
           "coding-agents",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 11,
+        "updated": "2026-05-05"
       },
       {
         "id": "prismml",
@@ -38809,7 +39041,9 @@
           "models-research",
           "local-ai",
           "open-source"
-        ]
+        ],
+        "degree": 4,
+        "updated": "2026-05-27"
       },
       {
         "id": "privacy-tooling",
@@ -38819,7 +39053,9 @@
           "concept",
           "privacy",
           "security"
-        ]
+        ],
+        "degree": 18,
+        "updated": "2026-06-08"
       },
       {
         "id": "qwen",
@@ -38830,7 +39066,9 @@
           "model",
           "models-research",
           "open-source"
-        ]
+        ],
+        "degree": 12,
+        "updated": "2026-05-05"
       },
       {
         "id": "spacex",
@@ -38841,7 +39079,9 @@
           "company",
           "big-tech-moves",
           "compute"
-        ]
+        ],
+        "degree": 5,
+        "updated": "2026-06-08"
       },
       {
         "id": "speculative-decoding",
@@ -38851,7 +39091,9 @@
           "concept",
           "models-research",
           "performance"
-        ]
+        ],
+        "degree": 4,
+        "updated": "2026-05-27"
       },
       {
         "id": "supply-chain-security",
@@ -38861,7 +39103,9 @@
           "concept",
           "security",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 9,
+        "updated": "2026-05-13"
       },
       {
         "id": "vercel",
@@ -38872,7 +39116,9 @@
           "company",
           "security",
           "agent-infrastructure"
-        ]
+        ],
+        "degree": 6,
+        "updated": "2026-05-05"
       },
       {
         "id": "world-models",
@@ -38883,7 +39129,9 @@
           "models-research",
           "robotics",
           "simulation"
-        ]
+        ],
+        "degree": 6,
+        "updated": "2026-06-09"
       },
       {
         "id": "xai",
@@ -38894,7 +39142,9 @@
           "company",
           "big-tech-moves",
           "models-research"
-        ]
+        ],
+        "degree": 5,
+        "updated": "2026-06-08"
       },
       {
         "id": "zai",
@@ -38905,1150 +39155,1446 @@
           "company",
           "model",
           "coding-agents"
-        ]
+        ],
+        "degree": 7,
+        "updated": "2026-05-05"
       }
     ],
     "links": [
       {
         "source": "agent-cost-controls",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-cost-controls",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "agent-cost-controls",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "agent-cost-controls",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "wiki"
       },
       {
         "source": "agent-cost-controls",
-        "target": "microsoft"
+        "target": "microsoft",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-infrastructure",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-infrastructure",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-infrastructure",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-infrastructure",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-infrastructure",
-        "target": "openai"
+        "target": "openai",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
-        "target": "agent-cost-controls"
+        "target": "agent-cost-controls",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
-        "target": "vercel"
+        "target": "vercel",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
-        "target": "company-brain"
+        "target": "company-brain",
+        "kind": "wiki"
       },
       {
         "source": "agent-security",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-security",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-security",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "agent-security",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "agent-security",
-        "target": "supply-chain-security"
+        "target": "supply-chain-security",
+        "kind": "wiki"
       },
       {
         "source": "agent-security",
-        "target": "ai-saas-supply-chain"
+        "target": "ai-saas-supply-chain",
+        "kind": "wiki"
       },
       {
         "source": "ai-governance",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "ai-governance",
-        "target": "agent-security"
+        "target": "agent-security",
+        "kind": "wiki"
       },
       {
         "source": "ai-governance",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "ai-governance",
-        "target": "openai"
+        "target": "openai",
+        "kind": "wiki"
       },
       {
         "source": "ai-governance",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "ai-saas-supply-chain",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "ai-saas-supply-chain",
-        "target": "vercel"
+        "target": "vercel",
+        "kind": "wiki"
       },
       {
         "source": "ai-saas-supply-chain",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "andrej-karpathy",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "andrej-karpathy",
-        "target": "open-models"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "andrej-karpathy",
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "anthropic",
-        "target": "ai-governance"
+        "target": "ai-governance",
+        "kind": "wiki"
       },
       {
         "source": "anthropic",
-        "target": "agent-cost-controls"
+        "target": "agent-cost-controls",
+        "kind": "wiki"
       },
       {
         "source": "apple",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "apple",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "apple",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "apple",
-        "target": "ai-governance"
+        "target": "ai-governance",
+        "kind": "wiki"
       },
       {
         "source": "apple",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "apple",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "april-1-2026-source-link-records",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "april-15-2026-source-link-records",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "supply-chain-security"
+        "target": "supply-chain-security",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "openai"
+        "target": "openai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "zai"
+        "target": "zai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-1-2026",
-        "target": "openclaw"
+        "target": "openclaw",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "agent-security"
+        "target": "agent-security",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "openai"
+        "target": "openai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "meta"
+        "target": "meta",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "microsoft"
+        "target": "microsoft",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "zai"
+        "target": "zai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-april-15-2026",
-        "target": "openclaw"
+        "target": "openclaw",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "agent-cost-controls"
+        "target": "agent-cost-controls",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "world-models"
+        "target": "world-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "ai-governance"
+        "target": "ai-governance",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "apple"
+        "target": "apple",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "cohere"
+        "target": "cohere",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "microsoft"
+        "target": "microsoft",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "openai"
+        "target": "openai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "xai"
+        "target": "xai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "google"
+        "target": "google",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-june-10-2026",
-        "target": "spacex"
+        "target": "spacex",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-10-2026",
+        "target": "andrej-karpathy",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "agent-security"
+        "target": "agent-security",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "openai"
+        "target": "openai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "meta"
+        "target": "meta",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-march-18-2026",
-        "target": "openclaw"
+        "target": "openclaw",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "company-brain"
+        "target": "company-brain",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "ai-saas-supply-chain"
+        "target": "ai-saas-supply-chain",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "supply-chain-security"
+        "target": "supply-chain-security",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "openai"
+        "target": "openai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "google"
+        "target": "google",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "vercel"
+        "target": "vercel",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-13-2026",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "speculative-decoding"
+        "target": "speculative-decoding",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "cursor"
+        "target": "cursor",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "spacex"
+        "target": "spacex",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "xai"
+        "target": "xai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "figure-ai"
+        "target": "figure-ai",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "andrej-karpathy"
+        "target": "andrej-karpathy",
+        "kind": "topic"
       },
       {
         "source": "austin-ai-club-may-27-2026",
-        "target": "humanoid-robotics"
+        "target": "humanoid-robotics",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "coding-agents",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "coding-agents",
-        "target": "agent-cost-controls"
+        "target": "agent-cost-controls",
+        "kind": "wiki"
       },
       {
         "source": "coding-agents",
-        "target": "openclaw"
+        "target": "openclaw",
+        "kind": "wiki"
       },
       {
         "source": "coding-agents",
-        "target": "openai"
+        "target": "openai",
+        "kind": "wiki"
       },
       {
         "source": "coding-agents",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "wiki"
       },
       {
         "source": "cohere",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "cohere",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "cohere",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "cohere",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "cohere",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "company-brain",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "company-brain",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "company-brain",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "compute-strategy",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "compute-strategy",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "compute-strategy",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
-        "target": "apple"
+        "target": "apple",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
-        "target": "google"
+        "target": "google",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "wiki"
       },
       {
         "source": "cursor",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "cursor",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "cursor",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "figure-ai",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "figure-ai",
-        "target": "humanoid-robotics"
+        "target": "humanoid-robotics",
+        "kind": "wiki"
       },
       {
         "source": "figure-ai",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "google",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "google",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "google",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "google",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "google",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "google",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "google",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "google",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "humanoid-robotics",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "humanoid-robotics",
-        "target": "figure-ai"
+        "target": "figure-ai",
+        "kind": "wiki"
       },
       {
         "source": "humanoid-robotics",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "local-ai",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "local-ai",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "local-ai",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "local-ai",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "local-ai",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "local-ai",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "local-ai",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "local-ai",
-        "target": "cohere"
+        "target": "cohere",
+        "kind": "wiki"
       },
       {
         "source": "march-18-2026-source-link-records",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "may-13-2026-source-link-records",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "meta",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "meta",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "meta",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "meta",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "meta",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "meta",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "microsoft",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "microsoft",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "microsoft",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "microsoft",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "microsoft",
-        "target": "agent-cost-controls"
+        "target": "agent-cost-controls",
+        "kind": "wiki"
       },
       {
         "source": "microsoft",
-        "target": "agent-security"
+        "target": "agent-security",
+        "kind": "wiki"
       },
       {
         "source": "microsoft",
-        "target": "openai"
+        "target": "openai",
+        "kind": "wiki"
       },
       {
         "source": "model-distillation",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "model-distillation",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "model-distillation",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "model-distillation",
-        "target": "anthropic"
+        "target": "anthropic",
+        "kind": "wiki"
       },
       {
         "source": "model-distillation",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "wiki"
       },
       {
         "source": "model-distillation",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "model-distillation",
-        "target": "supply-chain-security"
+        "target": "supply-chain-security",
+        "kind": "wiki"
       },
       {
         "source": "nvidia",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "nvidia",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "nvidia",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "nvidia",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "nvidia",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "nvidia",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "nvidia",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "nvidia",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "world-models"
+        "target": "world-models",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "cohere"
+        "target": "cohere",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "qwen"
+        "target": "qwen",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "wiki"
       },
       {
         "source": "open-models",
-        "target": "meta"
+        "target": "meta",
+        "kind": "wiki"
       },
       {
         "source": "openai",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "openai",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "openai",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "openai",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "openai",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "openai",
-        "target": "privacy-tooling"
+        "target": "privacy-tooling",
+        "kind": "wiki"
       },
       {
         "source": "openai",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "openai",
-        "target": "ai-governance"
+        "target": "ai-governance",
+        "kind": "wiki"
       },
       {
         "source": "openclaw",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "openclaw",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "openclaw",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "openclaw",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "openclaw",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "openclaw",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "wiki"
       },
       {
         "source": "prismml",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "prismml",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "prismml",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "prismml",
-        "target": "model-distillation"
+        "target": "model-distillation",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "privacy-tooling",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "privacy-tooling",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "privacy-tooling",
-        "target": "apple"
+        "target": "apple",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "google"
+        "target": "google",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "openai"
+        "target": "openai",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "nvidia"
+        "target": "nvidia",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
-        "target": "ai-saas-supply-chain"
+        "target": "ai-saas-supply-chain",
+        "kind": "wiki"
       },
       {
         "source": "qwen",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "qwen",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "qwen",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "qwen",
-        "target": "austin-ai-club-march-18-2026"
+        "target": "austin-ai-club-march-18-2026",
+        "kind": "topic"
       },
       {
         "source": "qwen",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "spacex",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "spacex",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "spacex",
-        "target": "compute-strategy"
+        "target": "compute-strategy",
+        "kind": "wiki"
       },
       {
         "source": "speculative-decoding",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "speculative-decoding",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "speculative-decoding",
-        "target": "local-ai"
+        "target": "local-ai",
+        "kind": "wiki"
       },
       {
         "source": "supply-chain-security",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "supply-chain-security",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "supply-chain-security",
-        "target": "ai-saas-supply-chain"
+        "target": "ai-saas-supply-chain",
+        "kind": "wiki"
       },
       {
         "source": "supply-chain-security",
-        "target": "agent-security"
+        "target": "agent-security",
+        "kind": "wiki"
       },
       {
         "source": "supply-chain-security",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "vercel",
-        "target": "austin-ai-club-may-13-2026"
+        "target": "austin-ai-club-may-13-2026",
+        "kind": "topic"
       },
       {
         "source": "vercel",
-        "target": "ai-saas-supply-chain"
+        "target": "ai-saas-supply-chain",
+        "kind": "wiki"
       },
       {
         "source": "vercel",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "world-models",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "world-models",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "world-models",
-        "target": "humanoid-robotics"
+        "target": "humanoid-robotics",
+        "kind": "wiki"
       },
       {
         "source": "world-models",
-        "target": "agent-infrastructure"
+        "target": "agent-infrastructure",
+        "kind": "wiki"
       },
       {
         "source": "xai",
-        "target": "austin-ai-club-june-10-2026"
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
       },
       {
         "source": "xai",
-        "target": "austin-ai-club-may-27-2026"
+        "target": "austin-ai-club-may-27-2026",
+        "kind": "topic"
       },
       {
         "source": "xai",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "zai",
-        "target": "austin-ai-club-april-15-2026"
+        "target": "austin-ai-club-april-15-2026",
+        "kind": "topic"
       },
       {
         "source": "zai",
-        "target": "austin-ai-club-april-1-2026"
+        "target": "austin-ai-club-april-1-2026",
+        "kind": "topic"
       },
       {
         "source": "zai",
-        "target": "coding-agents"
+        "target": "coding-agents",
+        "kind": "wiki"
       },
       {
         "source": "zai",
-        "target": "open-models"
+        "target": "open-models",
+        "kind": "wiki"
       },
       {
         "source": "zai",
-        "target": "openclaw"
+        "target": "openclaw",
+        "kind": "wiki"
       }
     ]
   },
   "stats": {
     "pageCount": 46,
     "rawPageCount": 0,
-    "linkCount": 283,
+    "linkCount": 285,
     "sourceRecordCount": 6,
     "sourceLinkCount": 549,
-    "unresolvedLinkCount": 0
+    "unresolvedLinkCount": 0,
+    "lastUpdatedAt": "2026-06-13"
   }
 }

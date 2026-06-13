@@ -29,3 +29,12 @@ export const APP_ROUTE = {
   SUBMIT_LINK: "submit-link",
   SUBMIT_SHOWCASE: "submit-showcase",
 };
+
+export const WIKI_EXPLORER_TYPE_ALL = "all";
+export const WIKI_EXPLORER_SORT_DEFAULT = "title";
+export const WIKI_EXPLORER_SORT_KEYS = new Set([
+  "title",
+  "updated",
+  "connections",
+  "sources",
+]);
