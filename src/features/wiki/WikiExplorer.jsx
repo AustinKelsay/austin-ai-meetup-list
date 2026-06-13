@@ -209,10 +209,6 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     () => [ALL, ...Array.from(new Set(pages.flatMap((page) => page.tags))).sort()],
     [pages],
   );
-  const groupedPages = useMemo(
-    () => groupPagesByType(filteredPages, new Set(pages.map((page) => page.type))),
-    [filteredPages, pages],
-  );
   const sortedPages = useMemo(() => sortPages(pages, sort), [pages, sort]);
   const searchedPages = useMemo(
     () => filterPagesByQuery(sortedPages, query, manifest?.pagesById ?? {}),
@@ -227,6 +223,10 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
         return matchesType && matchesTag;
       }),
     [searchedPages, typeFilter, tagFilter],
+  );
+  const groupedPages = useMemo(
+    () => groupPagesByType(filteredPages, new Set(pages.map((page) => page.type))),
+    [filteredPages, pages],
   );
 
   const selectPage = useCallback((id) => {
