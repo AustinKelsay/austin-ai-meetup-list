@@ -25,6 +25,158 @@
 // 5. Big Tech Moves
 export const meetups = [
   {
+    id: "meetup-2026-06-24",
+    slug: "2026-06-24",
+    date: "June 24, 2026",
+    markdownHref: "./topics/2026-06-24.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-06-24T18:00:00-05:00",
+      endAt: "2026-06-24T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Agent payments, open model drops, Fable fallout, and Cursor's platform play: Hermes gets Stripe checkout, GLM-5.2 ships open weights with a 1M context, DiffusionGemma claims 4x speed, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+      },
+    ],
+    tracks: [
+      {
+        id: "jun24-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Hermes Agent gets a Stripe wallet",
+            description:
+              "Nous Research shipped Stripe skills for Hermes Agent, so agents can buy things, pay per-call APIs, and provision SaaS under configurable limits. The real trust boundary is spend approval and controlled limits, not giving an agent an unlimited card.",
+            chip: "agent payments",
+            href: "https://x.com/NousResearch/status/2066647737613832624",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/NousResearch/status/2066647737613832624?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "jun24-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
+        items: [
+          {
+            title: "GLM-5.2 ships open weights with a 1M context",
+            description:
+              "Z.ai's GLM-5.2 jumps past GLM-5.1 with solid 1M-token context, stronger coding and agentic task performance, and an MIT license with no regional limits. Two reasoning modes trade latency for performance, and IndexShare sparse attention cuts per-token FLOPs 2.9× at 1M context. Same API pricing as GLM-5.1.",
+            chip: "open models",
+            href: "https://z.ai/blog/glm-5.2",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Zai_org/status/2066938937344495629?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://huggingface.co/zai-org/GLM-5.2",
+              "https://github.com/zai-org/GLM-5",
+              "https://docs.z.ai/guides/llm/glm-5.2",
+              "https://arxiv.org/abs/2602.15763",
+              "https://arxiv.org/abs/2603.12201",
+            ],
+            topStory: true,
+          },
+          {
+            title: "DiffusionGemma makes text diffusion practical",
+            description:
+              "Google's experimental 26B MoE text-diffusion model drafts and refines 256-token blocks in parallel, claiming 1000+ tok/s on H100 and 700+ tok/s on RTX 5090. Apache 2.0 weights are on Hugging Face, but quality still trails standard autoregressive Gemma for production text.",
+            chip: "text diffusion",
+            href: "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Google/status/2064741293163418032?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/sundarpichai/status/2064744345216196942?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+              "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+            ],
+          },
+        ],
+      },
+      {
+        id: "jun24-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
+        items: [
+          {
+            title: "Who reported the Fable jailbreak?",
+            description:
+              'David Sacks called the source a "highly credible trusted partner" of both Anthropic and the USG. Reporting identifies Amazon as the key complainant, with Andy Jassy raising concerns to the White House and Amazon researchers reportedly demonstrating the bypass; at least five other companies also contacted senior officials.',
+            chip: "security",
+            href: "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/DavidSacks/status/2065853007619588171?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/v_shakthi/status/2065985743340839080?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://www.anthropic.com/news/fable-mythos-access",
+            ],
+          },
+        ],
+      },
+      {
+        id: "jun24-big-tech",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware launches, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
+        items: [
+          {
+            title: "Cursor previews Origin, a GitHub competitor",
+            description:
+              'Cursor is no longer just an editor. A leaked "Origin" positioning shows the AI coding companies want to own the full dev stack — code host, collaboration, and agent runtime — not just the IDE.',
+            chip: "platform",
+            href: "https://x.com/morganlinton/status/2066927927997190564?s=46",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/morganlinton/status/2066927927997190564?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-06-10",
     slug: "2026-06-10",
     date: "June 10, 2026",

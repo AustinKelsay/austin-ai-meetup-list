@@ -2,6 +2,29 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-16] update | Cursor Origin topic added to June 24 board
+
+- Added **Cursor previews Origin, a GitHub competitor** as a Big Tech Moves Topic on the June 24 board.
+- Added source link record for the Morgan Linton X post leaking Cursor's "Origin" positioning.
+- Updated [[Cursor]] entity page with the June 24 reference.
+- Mirrored the Topic into `src/data.js` with the X post as the embed.
+
+## [2026-06-16] update | GLM-5.2 added to June 24 board
+
+- Added **GLM-5.2 ships open weights with a 1M context** as a Models & Research Topic on the June 24 board.
+- Added source link records for the Z.ai launch blog, Hugging Face model card, GitHub repo, Z.ai API docs, and both technical reports.
+- Updated [[Z.ai]] and [[Open Models]] wiki pages with the June 24 reference.
+- Added `[[Z.ai]]` to the June 24 meetup related-page spine.
+- Mirrored the Topic into `src/data.js` with the launch X post as the embed and supporting links as linkPair.
+
+## [2026-06-16] update | June 24 meetup board initialized
+
+- Created the June 24 Meetup page with three submitted Topics: **Hermes Agent gets a Stripe wallet** (Agent Infrastructure), **DiffusionGemma makes text diffusion practical** (Models & Research), and **Who reported the Fable jailbreak?** (Security).
+- Added source link records for the Nous Research Stripe announcement, DiffusionGemma blog/Hugging Face/developer guide, and the Politico/Anthropic/Sacks reporting around the Fable 5 export controls.
+- Created entity pages for [[Amazon]] and [[Nous Research]] and updated [[Anthropic]] and [[Google]] with June 24 references.
+- Updated `index.md` page count to 50 and added the new meetup, entities, and source record.
+- Mirrored the June 24 board into `src/data.js` with Presentation Mode shape.
+
 ## [2026-06-13] update | Wiki gardening pass
 
 - Fixed May 27 source record title drift: renamed "Composer 2.5 hits the sweet spot" to **Composer 2.5 = Opus at one tenth the cost??** and "Grok API stays separate from X Premium" to **Grok API gets X Premium OAuth integration** so source record headings match the May 27 meetup board wording.

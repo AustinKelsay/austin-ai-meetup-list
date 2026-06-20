@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T20:08:11.914Z",
+  "generatedAt": "2026-06-16T21:20:48.225Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -34,6 +34,7 @@
         "agent-infrastructure",
         "anthropic",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "coding-agents",
         "microsoft"
       ],
@@ -120,6 +121,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -130,6 +132,7 @@
         "figure-ai",
         "humanoid-robotics",
         "microsoft",
+        "nous-research",
         "nvidia",
         "openai",
         "openclaw",
@@ -626,6 +629,13 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://github.com/openclaw/openclaw",
@@ -1266,9 +1276,11 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "amazon",
         "anthropic",
         "apple",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "openai"
       ],
       "referencedTopicSources": [
@@ -1374,6 +1386,68 @@
       ]
     },
     {
+      "id": "amazon",
+      "title": "Amazon",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Amazon is a recurring Austin AI Club entity through AWS, Bedrock, and now as a reported source in the Fable 5 export-control episode.",
+      "rawHref": "/topics/entities/amazon.md",
+      "relativePath": "entities/amazon.md",
+      "outgoingIds": [
+        "ai-governance",
+        "anthropic",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-24-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        }
+      ]
+    },
+    {
       "id": "andrej-karpathy",
       "title": "Andrej Karpathy",
       "type": "entity",
@@ -1447,15 +1521,16 @@
         "compute"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-05-27-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-13",
+      "updated": "2026-06-16",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -1465,6 +1540,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -1473,9 +1549,11 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-cost-controls",
+        "amazon",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -1588,6 +1666,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
@@ -6809,6 +6915,291 @@
       "referencedTopicSources": []
     },
     {
+      "id": "austin-ai-club-june-24-2026",
+      "title": "Austin AI Club - June 24, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://x.com/NousResearch/status/2066647737613832624",
+        "https://z.ai/blog/glm-5.2",
+        "https://huggingface.co/zai-org/GLM-5.2",
+        "https://github.com/zai-org/GLM-5",
+        "https://docs.z.ai/guides/llm/glm-5.2",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://x.com/Zai_org/status/2066938937344495629",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+        "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+        "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+        "https://x.com/Google/status/2064741293163418032",
+        "https://x.com/sundarpichai/status/2064744345216196942",
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+        "https://www.anthropic.com/news/fable-mythos-access",
+        "https://x.com/DavidSacks/status/2065853007619588171",
+        "https://x.com/v_shakthi/status/2065985743340839080",
+        "https://x.com/morganlinton/status/2066927927997190564?s=46"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "[[Cursor]] previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Open Models, AI Governance, Anthropic, Amazon, Cursor, Google, Nous Research, Z.ai.",
+      "rawHref": "/topics/2026-06-24.md",
+      "relativePath": "2026-06-24.md",
+      "outgoingIds": [
+        "agent-cost-controls",
+        "agent-infrastructure",
+        "ai-governance",
+        "amazon",
+        "anthropic",
+        "cursor",
+        "google",
+        "nous-research",
+        "open-models",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "amazon",
+        "anthropic",
+        "cursor",
+        "google",
+        "nous-research",
+        "open-models",
+        "zai"
+      ],
+      "referencedTopicSources": []
+    },
+    {
+      "id": "austin-ai-club-june-24-2026-source-link-records",
+      "title": "Austin AI Club - June 24, 2026 - Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://x.com/NousResearch/status/2066647737613832624",
+        "https://z.ai/blog/glm-5.2",
+        "https://huggingface.co/zai-org/GLM-5.2",
+        "https://github.com/zai-org/GLM-5",
+        "https://docs.z.ai/guides/llm/glm-5.2",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://x.com/Zai_org/status/2066938937344495629",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+        "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+        "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+        "https://x.com/Google/status/2064741293163418032",
+        "https://x.com/sundarpichai/status/2064744345216196942",
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+        "https://www.anthropic.com/news/fable-mythos-access",
+        "https://x.com/DavidSacks/status/2065853007619588171",
+        "https://x.com/v_shakthi/status/2065985743340839080",
+        "https://x.com/morganlinton/status/2066927927997190564?s=46"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "Cursor previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "",
+      "rawHref": "/topics/raw/articles/2026-06-24-link-records.md",
+      "relativePath": "raw/articles/2026-06-24-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
       "id": "austin-ai-club-march-18-2026",
       "title": "Austin AI Club - March 18, 2026",
       "type": "meetup",
@@ -8465,6 +8856,7 @@
         "austin-ai-club-may-27-2026",
         "company-brain",
         "cursor",
+        "nous-research",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -9908,6 +10300,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "ai-governance",
+        "amazon",
         "anthropic",
         "apple",
         "austin-ai-club-april-1-2026",
@@ -10991,20 +11384,29 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-05-27",
+      "updated": "2026-06-16",
       "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
       "rawHref": "/topics/entities/cursor.md",
       "relativePath": "entities/cursor.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-27-2026",
         "coding-agents"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "[[Cursor]] previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://cursor.com/blog/composer-2-5",
           "title": "Composer 2.5 = Opus at one tenth the cost??",
@@ -11129,16 +11531,17 @@
         "big-tech-moves"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-08",
+      "updated": "2026-06-16",
       "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
       "rawHref": "/topics/entities/google.md",
       "relativePath": "entities/google.md",
@@ -11146,6 +11549,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "local-ai",
@@ -11155,6 +11559,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "privacy-tooling"
@@ -11243,6 +11648,41 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -14667,6 +15107,47 @@
       ]
     },
     {
+      "id": "nous-research",
+      "title": "Nous Research",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Nous Research is an open AI research collective known for the Hermes model family and agent tooling experiments.",
+      "rawHref": "/topics/entities/nous-research.md",
+      "relativePath": "entities/nous-research.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-24-2026",
+        "coding-agents",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-24-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        }
+      ]
+    },
+    {
       "id": "nvidia",
       "title": "NVIDIA",
       "type": "entity",
@@ -15676,17 +16157,18 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-16",
       "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
@@ -15694,6 +16176,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "cohere",
@@ -15711,6 +16194,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -15719,6 +16203,7 @@
         "local-ai",
         "meta",
         "model-distillation",
+        "nous-research",
         "nvidia",
         "prismml",
         "speculative-decoding",
@@ -15727,6 +16212,55 @@
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
@@ -18604,20 +19138,22 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-06-16",
       "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
       "rawHref": "/topics/entities/z-ai.md",
       "relativePath": "entities/z-ai.md",
       "outgoingIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-june-24-2026",
         "coding-agents",
         "open-models",
         "openclaw"
@@ -18625,9 +19161,59 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
-        "austin-ai-club-april-15-2026"
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-june-24-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://docs.z.ai/guides/llm/glm-5.1",
           "title": "GLM-5.1",
@@ -18749,6 +19335,7 @@
         "agent-infrastructure",
         "anthropic",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "coding-agents",
         "microsoft"
       ],
@@ -18835,6 +19422,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -18845,6 +19433,7 @@
         "figure-ai",
         "humanoid-robotics",
         "microsoft",
+        "nous-research",
         "nvidia",
         "openai",
         "openclaw",
@@ -19341,6 +19930,13 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://github.com/openclaw/openclaw",
@@ -19981,9 +20577,11 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "amazon",
         "anthropic",
         "apple",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "openai"
       ],
       "referencedTopicSources": [
@@ -20088,6 +20686,68 @@
         }
       ]
     },
+    "amazon": {
+      "id": "amazon",
+      "title": "Amazon",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Amazon is a recurring Austin AI Club entity through AWS, Bedrock, and now as a reported source in the Fable 5 export-control episode.",
+      "rawHref": "/topics/entities/amazon.md",
+      "relativePath": "entities/amazon.md",
+      "outgoingIds": [
+        "ai-governance",
+        "anthropic",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-24-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        }
+      ]
+    },
     "andrej-karpathy": {
       "id": "andrej-karpathy",
       "title": "Andrej Karpathy",
@@ -20162,15 +20822,16 @@
         "compute"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-05-27-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-13",
+      "updated": "2026-06-16",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -20180,6 +20841,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -20188,9 +20850,11 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-cost-controls",
+        "amazon",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -20303,6 +20967,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
@@ -25523,6 +26215,291 @@
       "backlinkIds": [],
       "referencedTopicSources": []
     },
+    "austin-ai-club-june-24-2026": {
+      "id": "austin-ai-club-june-24-2026",
+      "title": "Austin AI Club - June 24, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://x.com/NousResearch/status/2066647737613832624",
+        "https://z.ai/blog/glm-5.2",
+        "https://huggingface.co/zai-org/GLM-5.2",
+        "https://github.com/zai-org/GLM-5",
+        "https://docs.z.ai/guides/llm/glm-5.2",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://x.com/Zai_org/status/2066938937344495629",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+        "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+        "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+        "https://x.com/Google/status/2064741293163418032",
+        "https://x.com/sundarpichai/status/2064744345216196942",
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+        "https://www.anthropic.com/news/fable-mythos-access",
+        "https://x.com/DavidSacks/status/2065853007619588171",
+        "https://x.com/v_shakthi/status/2065985743340839080",
+        "https://x.com/morganlinton/status/2066927927997190564?s=46"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "[[Cursor]] previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Open Models, AI Governance, Anthropic, Amazon, Cursor, Google, Nous Research, Z.ai.",
+      "rawHref": "/topics/2026-06-24.md",
+      "relativePath": "2026-06-24.md",
+      "outgoingIds": [
+        "agent-cost-controls",
+        "agent-infrastructure",
+        "ai-governance",
+        "amazon",
+        "anthropic",
+        "cursor",
+        "google",
+        "nous-research",
+        "open-models",
+        "zai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "amazon",
+        "anthropic",
+        "cursor",
+        "google",
+        "nous-research",
+        "open-models",
+        "zai"
+      ],
+      "referencedTopicSources": []
+    },
+    "austin-ai-club-june-24-2026-source-link-records": {
+      "id": "austin-ai-club-june-24-2026-source-link-records",
+      "title": "Austin AI Club - June 24, 2026 - Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://x.com/NousResearch/status/2066647737613832624",
+        "https://z.ai/blog/glm-5.2",
+        "https://huggingface.co/zai-org/GLM-5.2",
+        "https://github.com/zai-org/GLM-5",
+        "https://docs.z.ai/guides/llm/glm-5.2",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://x.com/Zai_org/status/2066938937344495629",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+        "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+        "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+        "https://x.com/Google/status/2064741293163418032",
+        "https://x.com/sundarpichai/status/2064744345216196942",
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+        "https://www.anthropic.com/news/fable-mythos-access",
+        "https://x.com/DavidSacks/status/2065853007619588171",
+        "https://x.com/v_shakthi/status/2065985743340839080",
+        "https://x.com/morganlinton/status/2066927927997190564?s=46"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.anthropic.com/news/fable-mythos-access",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/DavidSacks/status/2065853007619588171",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v_shakthi/status/2065985743340839080",
+          "title": "Who reported the Fable jailbreak?",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "Cursor previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "",
+      "rawHref": "/topics/raw/articles/2026-06-24-link-records.md",
+      "relativePath": "raw/articles/2026-06-24-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
     "austin-ai-club-march-18-2026": {
       "id": "austin-ai-club-march-18-2026",
       "title": "Austin AI Club - March 18, 2026",
@@ -27180,6 +28157,7 @@
         "austin-ai-club-may-27-2026",
         "company-brain",
         "cursor",
+        "nous-research",
         "openclaw",
         "supply-chain-security",
         "zai"
@@ -28623,6 +29601,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "ai-governance",
+        "amazon",
         "anthropic",
         "apple",
         "austin-ai-club-april-1-2026",
@@ -29706,20 +30685,29 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-05-27",
+      "updated": "2026-06-16",
       "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
       "rawHref": "/topics/entities/cursor.md",
       "relativePath": "entities/cursor.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-27-2026",
         "coding-agents"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
+          "title": "[[Cursor]] previews Origin, a GitHub competitor",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://cursor.com/blog/composer-2-5",
           "title": "Composer 2.5 = Opus at one tenth the cost??",
@@ -29844,16 +30832,17 @@
         "big-tech-moves"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-08",
+      "updated": "2026-06-16",
       "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
       "rawHref": "/topics/entities/google.md",
       "relativePath": "entities/google.md",
@@ -29861,6 +30850,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "local-ai",
@@ -29870,6 +30860,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "privacy-tooling"
@@ -29958,6 +30949,41 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Google/status/2064741293163418032",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/sundarpichai/status/2064744345216196942",
+          "title": "DiffusionGemma makes text diffusion practical",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -33381,6 +34407,47 @@
         }
       ]
     },
+    "nous-research": {
+      "id": "nous-research",
+      "title": "Nous Research",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-16",
+      "updated": "2026-06-16",
+      "excerpt": "Nous Research is an open AI research collective known for the Hermes model family and agent tooling experiments.",
+      "rawHref": "/topics/entities/nous-research.md",
+      "relativePath": "entities/nous-research.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-24-2026",
+        "coding-agents",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-june-24-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/NousResearch/status/2066647737613832624",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        }
+      ]
+    },
     "nvidia": {
       "id": "nvidia",
       "title": "NVIDIA",
@@ -34391,17 +35458,18 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-16",
       "excerpt": "Open Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.",
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
@@ -34409,6 +35477,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "cohere",
@@ -34426,6 +35495,7 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -34434,6 +35504,7 @@
         "local-ai",
         "meta",
         "model-distillation",
+        "nous-research",
         "nvidia",
         "prismml",
         "speculative-decoding",
@@ -34442,6 +35513,55 @@
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://x.com/The_Only_Signal/status/2060321842716365147",
           "title": "Local AI becomes bandwidth math",
@@ -37319,20 +38439,22 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-05-05",
+      "updated": "2026-06-16",
       "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
       "rawHref": "/topics/entities/z-ai.md",
       "relativePath": "entities/z-ai.md",
       "outgoingIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-june-24-2026",
         "coding-agents",
         "open-models",
         "openclaw"
@@ -37340,9 +38462,59 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
-        "austin-ai-club-april-15-2026"
+        "austin-ai-club-april-15-2026",
+        "austin-ai-club-june-24-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://z.ai/blog/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/zai-org/GLM-5",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://docs.z.ai/guides/llm/glm-5.2",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2066938937344495629",
+          "title": "GLM-5.2 ships open weights with a 1M context",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://docs.z.ai/guides/llm/glm-5.1",
           "title": "GLM-5.1",
@@ -37549,6 +38721,22 @@
       "target": "agent-infrastructure"
     },
     {
+      "source": "amazon",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "amazon",
+      "target": "anthropic"
+    },
+    {
+      "source": "amazon",
+      "target": "ai-governance"
+    },
+    {
+      "source": "amazon",
+      "target": "compute-strategy"
+    },
+    {
       "source": "andrej-karpathy",
       "target": "austin-ai-club-june-10-2026"
     },
@@ -37559,6 +38747,10 @@
     {
       "source": "andrej-karpathy",
       "target": "open-models"
+    },
+    {
+      "source": "anthropic",
+      "target": "austin-ai-club-june-24-2026"
     },
     {
       "source": "anthropic",
@@ -37803,6 +38995,46 @@
     {
       "source": "austin-ai-club-june-10-2026",
       "target": "andrej-karpathy"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "agent-cost-controls"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "open-models"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "ai-governance"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "anthropic"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "amazon"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "cursor"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "google"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "nous-research"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "zai"
     },
     {
       "source": "austin-ai-club-march-18-2026",
@@ -38074,6 +39306,10 @@
     },
     {
       "source": "cursor",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "cursor",
       "target": "austin-ai-club-may-27-2026"
     },
     {
@@ -38095,6 +39331,10 @@
     {
       "source": "figure-ai",
       "target": "agent-infrastructure"
+    },
+    {
+      "source": "google",
+      "target": "austin-ai-club-june-24-2026"
     },
     {
       "source": "google",
@@ -38261,6 +39501,22 @@
       "target": "supply-chain-security"
     },
     {
+      "source": "nous-research",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "nous-research",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "nous-research",
+      "target": "open-models"
+    },
+    {
+      "source": "nous-research",
+      "target": "coding-agents"
+    },
+    {
       "source": "nvidia",
       "target": "austin-ai-club-june-10-2026"
     },
@@ -38291,6 +39547,10 @@
     {
       "source": "nvidia",
       "target": "privacy-tooling"
+    },
+    {
+      "source": "open-models",
+      "target": "austin-ai-club-june-24-2026"
     },
     {
       "source": "open-models",
@@ -38554,6 +39814,10 @@
     },
     {
       "source": "zai",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "zai",
       "target": "austin-ai-club-april-15-2026"
     },
     {
@@ -38586,7 +39850,7 @@
           "coding-agents",
           "cost-control"
         ],
-        "degree": 10,
+        "degree": 11,
         "updated": "2026-06-09"
       },
       {
@@ -38598,7 +39862,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 32,
+        "degree": 34,
         "updated": "2026-06-09"
       },
       {
@@ -38622,7 +39886,7 @@
           "security",
           "big-tech-moves"
         ],
-        "degree": 9,
+        "degree": 11,
         "updated": "2026-06-08"
       },
       {
@@ -38636,6 +39900,19 @@
         ],
         "degree": 8,
         "updated": "2026-05-05"
+      },
+      {
+        "id": "amazon",
+        "label": "Amazon",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves",
+          "security"
+        ],
+        "degree": 5,
+        "updated": "2026-06-16"
       },
       {
         "id": "andrej-karpathy",
@@ -38660,8 +39937,8 @@
           "big-tech-moves",
           "compute"
         ],
-        "degree": 19,
-        "updated": "2026-06-13"
+        "degree": 22,
+        "updated": "2026-06-16"
       },
       {
         "id": "apple",
@@ -38753,6 +40030,28 @@
         "updated": "2026-06-10"
       },
       {
+        "id": "austin-ai-club-june-24-2026",
+        "label": "Austin AI Club - June 24, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board"
+        ],
+        "degree": 17,
+        "updated": "2026-06-16"
+      },
+      {
+        "id": "austin-ai-club-june-24-2026-source-link-records",
+        "label": "Austin AI Club - June 24, 2026 - Source Link Records",
+        "type": "summary",
+        "tags": [
+          "source-record",
+          "meetup"
+        ],
+        "degree": 0,
+        "updated": "2026-06-16"
+      },
+      {
         "id": "austin-ai-club-march-18-2026",
         "label": "Austin AI Club - March 18, 2026",
         "type": "meetup",
@@ -38814,7 +40113,7 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 23,
+        "degree": 24,
         "updated": "2026-06-09"
       },
       {
@@ -38851,7 +40150,7 @@
           "big-tech-moves",
           "models-research"
         ],
-        "degree": 21,
+        "degree": 22,
         "updated": "2026-06-08"
       },
       {
@@ -38864,8 +40163,8 @@
           "coding-agents",
           "agent-infrastructure"
         ],
-        "degree": 4,
-        "updated": "2026-05-27"
+        "degree": 6,
+        "updated": "2026-06-16"
       },
       {
         "id": "figure-ai",
@@ -38890,8 +40189,8 @@
           "model",
           "big-tech-moves"
         ],
-        "degree": 12,
-        "updated": "2026-06-08"
+        "degree": 14,
+        "updated": "2026-06-16"
       },
       {
         "id": "humanoid-robotics",
@@ -38980,6 +40279,19 @@
         "updated": "2026-05-05"
       },
       {
+        "id": "nous-research",
+        "label": "Nous Research",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "agent-infrastructure",
+          "open-source"
+        ],
+        "degree": 5,
+        "updated": "2026-06-16"
+      },
+      {
         "id": "nvidia",
         "label": "NVIDIA",
         "type": "entity",
@@ -39002,8 +40314,8 @@
           "models-research",
           "open-source"
         ],
-        "degree": 31,
-        "updated": "2026-06-09"
+        "degree": 34,
+        "updated": "2026-06-16"
       },
       {
         "id": "openai",
@@ -39156,8 +40468,8 @@
           "model",
           "coding-agents"
         ],
-        "degree": 7,
-        "updated": "2026-05-05"
+        "degree": 9,
+        "updated": "2026-06-16"
       }
     ],
     "links": [
@@ -39307,6 +40619,26 @@
         "kind": "wiki"
       },
       {
+        "source": "amazon",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "amazon",
+        "target": "anthropic",
+        "kind": "wiki"
+      },
+      {
+        "source": "amazon",
+        "target": "ai-governance",
+        "kind": "wiki"
+      },
+      {
+        "source": "amazon",
+        "target": "compute-strategy",
+        "kind": "wiki"
+      },
+      {
         "source": "andrej-karpathy",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
@@ -39320,6 +40652,11 @@
         "source": "andrej-karpathy",
         "target": "open-models",
         "kind": "wiki"
+      },
+      {
+        "source": "anthropic",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
       },
       {
         "source": "anthropic",
@@ -39624,6 +40961,56 @@
       {
         "source": "austin-ai-club-june-10-2026",
         "target": "andrej-karpathy",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "agent-infrastructure",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "agent-cost-controls",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "open-models",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "ai-governance",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "anthropic",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "amazon",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "cursor",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "google",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "nous-research",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "zai",
         "kind": "topic"
       },
       {
@@ -39963,6 +41350,11 @@
       },
       {
         "source": "cursor",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "cursor",
         "target": "austin-ai-club-may-27-2026",
         "kind": "topic"
       },
@@ -39990,6 +41382,11 @@
         "source": "figure-ai",
         "target": "agent-infrastructure",
         "kind": "wiki"
+      },
+      {
+        "source": "google",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
       },
       {
         "source": "google",
@@ -40197,6 +41594,26 @@
         "kind": "wiki"
       },
       {
+        "source": "nous-research",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "nous-research",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "nous-research",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "nous-research",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
         "source": "nvidia",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
@@ -40235,6 +41652,11 @@
         "source": "nvidia",
         "target": "privacy-tooling",
         "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
       },
       {
         "source": "open-models",
@@ -40563,6 +41985,11 @@
       },
       {
         "source": "zai",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "zai",
         "target": "austin-ai-club-april-15-2026",
         "kind": "topic"
       },
@@ -40589,12 +42016,12 @@
     ]
   },
   "stats": {
-    "pageCount": 46,
+    "pageCount": 50,
     "rawPageCount": 0,
-    "linkCount": 285,
-    "sourceRecordCount": 6,
-    "sourceLinkCount": 549,
+    "linkCount": 308,
+    "sourceRecordCount": 7,
+    "sourceLinkCount": 567,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-06-13"
+    "lastUpdatedAt": "2026-06-16"
   }
 }
