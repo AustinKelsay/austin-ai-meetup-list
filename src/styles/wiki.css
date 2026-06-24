@@ -443,6 +443,7 @@
 }
 
 .wiki-surprise {
+  min-height: 2.5rem;
   padding: 0.3rem 0.65rem;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -486,6 +487,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+  min-height: 2.5rem;
   padding: 0.3rem 0.55rem;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -544,6 +546,34 @@
     linear-gradient(180deg, rgba(71, 243, 170, 0.055), transparent 14rem),
     linear-gradient(90deg, rgba(71, 212, 243, 0.035), transparent 22rem),
     rgba(2, 8, 14, 0.28);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.wiki-graph-frame--fullscreen {
+  position: fixed;
+  inset: 1rem;
+  z-index: 60;
+  height: auto;
+  min-height: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: calc(var(--radius) + 0.15rem);
+  background:
+    linear-gradient(180deg, rgba(71, 243, 170, 0.075), transparent 18rem),
+    linear-gradient(90deg, rgba(71, 212, 243, 0.052), transparent 28rem),
+    #02080e;
+  box-shadow:
+    0 0 0 9999px rgba(1, 5, 8, 0.86),
+    0 28px 96px rgba(0, 0, 0, 0.68);
+}
+
+.wiki-graph-frame--fullscreen .wiki-graph-canvas {
+  background: rgba(2, 8, 14, 0.92);
+}
+
+.wiki-graph-fullscreen-open {
+  overflow: hidden;
 }
 
 .wiki-graph-canvas {
@@ -571,9 +601,14 @@
   max-width: 100%;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 0.75rem 0.85rem;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.055);
+}
+
+.wiki-graph-frame--fullscreen .wiki-graph-status-row {
+  padding: 0.85rem 1rem;
 }
 
 .wiki-graph-lens,
@@ -613,14 +648,16 @@
 .wiki-graph-fit-controls {
   display: flex;
   flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 0.28rem;
   padding: 0.25rem;
   border-radius: 999px;
 }
 
 .wiki-graph-fit-controls button {
-  min-height: 2rem;
-  padding: 0 0.62rem;
+  min-height: 2.5rem;
+  padding: 0 0.72rem;
   border: 1px solid transparent;
   border-radius: 999px;
   background: transparent;
@@ -635,7 +672,8 @@
 }
 
 .wiki-graph-fit-controls button:hover,
-.wiki-graph-fit-controls button:focus-visible {
+.wiki-graph-fit-controls button:focus-visible,
+.wiki-graph-fit-controls button[aria-pressed="true"] {
   border-color: var(--line-strong);
   color: var(--text);
   background: rgba(71, 243, 170, 0.08);
@@ -1178,6 +1216,16 @@
   .wiki-graph-frame {
     height: 22rem;
     min-height: 22rem;
+  }
+
+  .wiki-graph-frame--fullscreen {
+    inset: 0.5rem;
+    height: auto;
+    min-height: 0;
+  }
+
+  .wiki-graph-frame--fullscreen .wiki-graph-status-row {
+    padding: 0.65rem;
   }
 
   .wiki-graph-lens {

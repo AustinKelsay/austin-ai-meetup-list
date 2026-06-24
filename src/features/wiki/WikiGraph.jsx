@@ -1,5 +1,5 @@
 import ForceGraph from "force-graph";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { getDefaultVisibleTypes } from "./wikiGraphFilters.js";
 import { updateLatestValueRef } from "./WikiGraphController.js";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
@@ -71,11 +71,13 @@ function formatGraphCount(count, singular) {
 export default function WikiGraph({ graph, selectedId, onSelectPage, visibleTypes = getDefaultVisibleTypes() }) {
   const containerRef = useRef(null);
   const graphRef = useRef(null);
+  const resizeGraphRef = useRef(null);
   const onSelectPageRef = useRef(onSelectPage);
   const visibleTypesRef = useRef(visibleTypes);
   const selectedIdRef = useRef(selectedId);
   const neighborIdsRef = useRef(new Set());
   const hasFocusedRef = useRef(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   const graphData = useMemo(
     () => ({
@@ -171,6 +173,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
         );
       }
     };
+    resizeGraphRef.current = resize;
 
     const resizeObserver = new ResizeObserver(resize);
     resizeObserver.observe(containerRef.current);
@@ -186,9 +189,36 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       resizeObserver.disconnect();
       instance.pauseAnimation();
       instance.graphData({ nodes: [], links: [] });
+      resizeGraphRef.current = null;
       graphRef.current = null;
     };
   }, []);
+
+  useEffect(() => {
+    if (!isFullscreen) {
+      return undefined;
+    }
+
+    document.body.classList.add("wiki-graph-fullscreen-open");
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setIsFullscreen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    const animationFrame = window.requestAnimationFrame(() => resizeGraphRef.current?.());
+    const settledResize = window.setTimeout(() => resizeGraphRef.current?.(), 180);
+
+    return () => {
+      document.body.classList.remove("wiki-graph-fullscreen-open");
+      window.removeEventListener("keydown", handleKeyDown);
+      window.cancelAnimationFrame(animationFrame);
+      window.clearTimeout(settledResize);
+      window.setTimeout(() => resizeGraphRef.current?.(), 80);
+    };
+  }, [isFullscreen]);
 
   useEffect(() => {
     if (!graphRef.current) {
@@ -219,9 +249,18 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
   const visibleNodeCount = getVisibleNodeCount(graphData.nodes, visibleTypes);
   const focusNodeCount = selectedId ? neighborIds.size + 1 : visibleNodeCount;
   const focusLinkCount = getFocusLinkCount(graphData.links, selectedId, neighborIds);
+  const frameClassName = [
+    "wiki-graph-frame",
+    isFullscreen ? "wiki-graph-frame--fullscreen" : "",
+  ].filter(Boolean).join(" ");
 
   return (
-    <div className="wiki-graph-frame">
+    <div
+      className={frameClassName}
+      role={isFullscreen ? "dialog" : undefined}
+      aria-modal={isFullscreen ? "true" : undefined}
+      aria-label={isFullscreen ? "Fullscreen wiki graph" : undefined}
+    >
       <div className="wiki-graph-status-row">
         <div className="wiki-graph-lens" aria-label="Graph focus">
           <span>{selectedId ? "Neighborhood" : "Full map"}</span>
@@ -251,6 +290,14 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
             }
           >
             All
+          </button>
+          <button
+            type="button"
+            aria-label={isFullscreen ? "Close fullscreen graph" : "Open fullscreen graph"}
+            aria-pressed={isFullscreen}
+            onClick={() => setIsFullscreen((current) => !current)}
+          >
+            {isFullscreen ? "Close" : "Full screen"}
           </button>
         </div>
       </div>
