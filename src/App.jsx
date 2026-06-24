@@ -39,7 +39,10 @@ export default function App() {
   const calendarEntries = buildCalendarTimelineEntries(meetups);
   const wikiTopicLookup = useMemo(() => buildMeetupTopicLookup(wikiManifest), [wikiManifest]);
 
-  const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
+  const syncLocationState = (
+    pathname = `${window.location.pathname}${window.location.search}`,
+    hash = window.location.hash,
+  ) => {
     let nextRoute = getAppRoute(pathname);
 
     const next = resolvePresentationHash(meetups, hash, {

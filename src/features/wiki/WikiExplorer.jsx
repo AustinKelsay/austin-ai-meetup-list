@@ -212,7 +212,7 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
       return;
     }
     lastSyncedSearchRef.current = nextSearch;
-    onOpenRoute(buildWikiPath(focusedWikiId, nextSearch), { replace: true, search: nextSearch });
+    onOpenRoute(buildWikiPath(focusedWikiId), { replace: true, search: nextSearch });
   }, [
     query,
     typeFilter,

@@ -1,15 +1,27 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 import { APP_ROUTE } from "./constants.js";
 import {
   buildWikiExplorerSearch,
   buildWikiPath,
   getAppRoute,
   parseWikiExplorerSearch,
+  setPathname,
   WIKI_EXPLORER_SORT_DEFAULT,
   WIKI_EXPLORER_TYPE_ALL,
   WIKI_EXPLORER_SORT_KEYS,
 } from "./routes.js";
 import { WIKI_GRAPH_TYPE_LIST } from "../features/wiki/wikiGraphFilters.js";
+
+const originalWindow = globalThis.window;
+
+afterEach(() => {
+  if (originalWindow === undefined) {
+    delete globalThis.window;
+    return;
+  }
+
+  globalThis.window = originalWindow;
+});
 
 describe("wiki routes", () => {
   it("resolves the wiki explorer route", () => {
@@ -148,5 +160,61 @@ describe("wiki explorer URL state", () => {
     expect([...WIKI_EXPLORER_SORT_KEYS]).toEqual(
       expect.arrayContaining(["title", "updated", "connections", "sources"]),
     );
+  });
+});
+
+describe("setPathname", () => {
+  function mockWindowLocation({ pathname = "/", search = "", hash = "", state = null } = {}) {
+    const calls = [];
+
+    globalThis.window = {
+      location: { pathname, search, hash },
+      history: {
+        state,
+        pushState(nextState, _title, url) {
+          calls.push({ method: "pushState", state: nextState, url });
+        },
+        replaceState(nextState, _title, url) {
+          calls.push({ method: "replaceState", state: nextState, url });
+        },
+      },
+    };
+
+    return calls;
+  }
+
+  it("does not duplicate a query embedded in the target pathname", () => {
+    const calls = mockWindowLocation({ pathname: "/wiki", search: "" });
+
+    setPathname("/wiki?entities=cursor%2Cspacex", {
+      replace: true,
+      search: "?entities=cursor%2Cspacex",
+      hash: "",
+    });
+
+    expect(calls).toEqual([
+      {
+        method: "replaceState",
+        state: null,
+        url: "/wiki?entities=cursor%2Cspacex",
+      },
+    ]);
+  });
+
+  it("does not carry an old search string to an unfiltered target pathname", () => {
+    const calls = mockWindowLocation({
+      pathname: "/wiki",
+      search: "?entities=cursor%2Cspacex",
+    });
+
+    setPathname("/wiki/cursor", { hash: "" });
+
+    expect(calls).toEqual([
+      {
+        method: "pushState",
+        state: null,
+        url: "/wiki/cursor",
+      },
+    ]);
   });
 });

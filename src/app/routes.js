@@ -289,16 +289,18 @@ export function setPathname(pathname, options = {}) {
   const {
     replace = false,
     hash = window.location.hash,
-    search = window.location.search,
     state = null,
   } = options;
+  const queryIndex = pathname.indexOf("?");
+  const nextPathname = queryIndex === -1 ? pathname : pathname.slice(0, queryIndex);
+  const pathnameSearch = queryIndex === -1 ? "" : pathname.slice(queryIndex);
   const nextHash = hash
     ? hash.startsWith("#")
       ? hash
       : `#${hash}`
     : "";
-  const nextSearch = search || "";
-  const nextUrl = `${pathname}${nextSearch}${nextHash}`;
+  const nextSearch = options.search ?? pathnameSearch;
+  const nextUrl = `${nextPathname}${nextSearch}${nextHash}`;
   const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
 
   if (currentUrl === nextUrl && window.history.state === state) {
