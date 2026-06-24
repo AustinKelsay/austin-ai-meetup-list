@@ -9,7 +9,7 @@
 - Feature branch: codex/wiki-topic-explorer
 - Human owner: AustinKelsay
 - Started: 2026-06-24
-- Current status: Review complete; ready for PR
+- Current status: PR opened
 - Skill setup status: Existing `AGENTS.md`, issue tracker docs, triage label docs, and domain docs found. Missing GitHub labels `needs-info`, `ready-for-agent`, and `ready-for-human` were created to match `docs/agents/triage-labels.md`.
 
 ## Goal
@@ -29,7 +29,7 @@ Build the Wiki Explorer into a practical front-end exploration surface where a m
 - Agent briefs: Pending issue links.
 - Review packets: This ledger records final review status and verification evidence.
 - Local CodeRabbit report: Final `coderabbit review --agent --base main -c AGENTS.md` pass raised 0 issues after fixing 2 major findings and 1 minor finding from earlier rounds.
-- PR URL: Pending.
+- PR URL: https://github.com/AustinKelsay/austin-ai-meetup-list/pull/33
 
 ## Commands
 
