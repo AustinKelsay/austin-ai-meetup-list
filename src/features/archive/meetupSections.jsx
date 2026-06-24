@@ -1,3 +1,4 @@
+import { buildWikiPath } from "../../app/routes.js";
 import {
   COMMUNITY_SLOT_LABEL,
   LINK_SUBMISSION_PATH,
@@ -14,6 +15,11 @@ import {
   slugify,
 } from "../../lib/meetup-ui.js";
 import { Topic } from "../presentation/content.jsx";
+import {
+  buildTopicExplorerSearch,
+  getMeetupTopicLookupKey,
+  getTopicWikiPages,
+} from "../wiki/wikiTopicEntryPoints.js";
 
 export function shouldShowCommunitySlot(meetup, acceptsSubmissions = false) {
   return Boolean((meetup.showcases?.length ?? 0) || acceptsSubmissions);
@@ -65,7 +71,51 @@ export function MeetupEventBar({ meetup }) {
   );
 }
 
-export function StaticTrackSection({ track, index, onOpenTopic }) {
+function TopicWikiEntryPoints({ topic, pagesById, onOpenRoute }) {
+  const pages = getTopicWikiPages(topic, pagesById);
+
+  if (pages.length === 0) {
+    return null;
+  }
+
+  const relatedSearch = buildTopicExplorerSearch(topic, pagesById);
+
+  return (
+    <div className="topic-wiki-entry-points" aria-label={`${topic.title} wiki entry points`}>
+      <div className="topic-wiki-chip-row">
+        {pages.map((page) => (
+          <RouteLink
+            key={page.id}
+            to={buildWikiPath(page.id)}
+            onOpenRoute={onOpenRoute}
+            className="topic-wiki-chip"
+          >
+            {page.title}
+          </RouteLink>
+        ))}
+      </div>
+      {relatedSearch ? (
+        <RouteLink
+          to={buildWikiPath(null, relatedSearch)}
+          onOpenRoute={onOpenRoute}
+          className="topic-wiki-related-link"
+        >
+          related Topics
+        </RouteLink>
+      ) : null}
+    </div>
+  );
+}
+
+export function StaticTrackSection({
+  track,
+  index,
+  meetupSlug,
+  wikiTopicLookup,
+  wikiPagesById,
+  onOpenRoute,
+  onOpenTopic,
+}) {
   return (
     <section className="track track--static" id={track.id} data-track={TRACK_CATEGORY[track.title]}>
       <div className="track-header track-header--static">
@@ -79,6 +129,7 @@ export function StaticTrackSection({ track, index, onOpenTopic }) {
       <ul className="topic-list">
         {track.items.map((item, itemIndex) => {
           const topicId = getTopicId(track.id, item, itemIndex);
+          const wikiTopic = wikiTopicLookup?.get(getMeetupTopicLookupKey(meetupSlug, item.title));
 
           return (
             <Topic
@@ -86,7 +137,15 @@ export function StaticTrackSection({ track, index, onOpenTopic }) {
               id={topicId}
               item={item}
               onActivate={onOpenTopic ? () => onOpenTopic(item, topicId) : undefined}
-            />
+            >
+              {wikiTopic ? (
+                <TopicWikiEntryPoints
+                  topic={wikiTopic}
+                  pagesById={wikiPagesById}
+                  onOpenRoute={onOpenRoute}
+                />
+              ) : null}
+            </Topic>
           );
         })}
       </ul>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { meetups } from "./data.js";
 import { APP_ROUTE } from "./app/constants.js";
 import { buildMeetupPath, getAppRoute, setPathname } from "./app/routes.js";
@@ -19,6 +19,7 @@ import {
 } from "./features/presentation/slides.js";
 import SubmissionScreen from "./features/submissions/SubmissionScreen.jsx";
 import WikiExplorer from "./features/wiki/WikiExplorer.jsx";
+import { buildMeetupTopicLookup } from "./features/wiki/wikiTopicEntryPoints.js";
 
 const PRESENTATION_ENTRY_MODE = {
   FULL: "full",
@@ -36,6 +37,7 @@ export default function App() {
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
   const [wikiManifest, setWikiManifest] = useState(null);
   const calendarEntries = buildCalendarTimelineEntries(meetups);
+  const wikiTopicLookup = useMemo(() => buildMeetupTopicLookup(wikiManifest), [wikiManifest]);
 
   const syncLocationState = (pathname = window.location.pathname, hash = window.location.hash) => {
     let nextRoute = getAppRoute(pathname);
@@ -317,6 +319,8 @@ export default function App() {
           meetup={meetup}
           meetupSlug={route.meetupSlug}
           nextMeetupId={nextMeetup?.id ?? null}
+          wikiTopicLookup={wikiTopicLookup}
+          wikiPagesById={wikiManifest?.pagesById ?? {}}
           onOpenRoute={openRoute}
           onOpenPresentation={(candidate) =>
             openPresentation(candidate, 0, {

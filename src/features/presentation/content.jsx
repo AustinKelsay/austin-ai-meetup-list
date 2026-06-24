@@ -464,7 +464,7 @@ export function TopicArticle({ article }) {
   );
 }
 
-export function Topic({ item, id, onActivate }) {
+export function Topic({ item, id, onActivate, children }) {
   const isInteractive = typeof onActivate === "function";
   const className = [
     "topic",
@@ -507,6 +507,15 @@ export function Topic({ item, id, onActivate }) {
         <p>{item.description}</p>
       </div>
       <span className="source-chip">{item.chip}</span>
+      {children ? (
+        <div
+          className="topic-extra"
+          onClick={(event) => event.stopPropagation()}
+          onKeyDown={(event) => event.stopPropagation()}
+        >
+          {children}
+        </div>
+      ) : null}
     </li>
   );
 }

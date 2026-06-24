@@ -53,6 +53,8 @@ export default function MeetupDetailView({
   meetup,
   meetupSlug,
   nextMeetupId,
+  wikiTopicLookup,
+  wikiPagesById,
   onOpenRoute,
   onOpenPresentation,
   onOpenTopicPresentation,
@@ -104,6 +106,10 @@ export default function MeetupDetailView({
                 key={track.id}
                 track={track}
                 index={index}
+                meetupSlug={meetup.slug}
+                wikiTopicLookup={wikiTopicLookup}
+                wikiPagesById={wikiPagesById}
+                onOpenRoute={onOpenRoute}
                 onOpenTopic={onOpenTopicPresentation}
               />
             ))}
