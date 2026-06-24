@@ -96,14 +96,26 @@ export function buildWikiExplorerSearch({
   query = "",
   typeFilter = WIKI_EXPLORER_TYPE_ALL,
   tagFilter = WIKI_EXPLORER_TYPE_ALL,
+  entityFilters = [],
+  conceptFilters = [],
   sort = WIKI_EXPLORER_SORT_DEFAULT,
   visibleTypes = getDefaultVisibleTypes(),
 } = {}) {
   const params = new URLSearchParams();
   const trimmedQuery = query.trim();
+  const normalizedEntityFilters = normalizeWikiFilterIds(entityFilters);
+  const normalizedConceptFilters = normalizeWikiFilterIds(conceptFilters);
 
   if (trimmedQuery) {
     params.set("q", trimmedQuery);
+  }
+
+  if (normalizedEntityFilters.length > 0) {
+    params.set("entities", normalizedEntityFilters.join(","));
+  }
+
+  if (normalizedConceptFilters.length > 0) {
+    params.set("concepts", normalizedConceptFilters.join(","));
   }
 
   if (typeFilter !== WIKI_EXPLORER_TYPE_ALL) {
@@ -137,11 +149,21 @@ export function buildWikiExplorerSearch({
   return serialized ? `?${serialized}` : "";
 }
 
+function normalizeWikiFilterIds(values = []) {
+  return [...new Set(values.map((value) => value.trim()).filter(Boolean))].sort();
+}
+
+function parseWikiFilterParam(params, key) {
+  return normalizeWikiFilterIds((params.get(key) ?? "").split(","));
+}
+
 export function parseWikiExplorerSearch(search = "") {
   const params = new URLSearchParams(search.replace(/^\?/, ""));
   const query = params.get("q")?.trim() ?? "";
   const typeFilter = params.get("type")?.trim() || WIKI_EXPLORER_TYPE_ALL;
   const tagFilter = params.get("tag")?.trim() || WIKI_EXPLORER_TYPE_ALL;
+  const entityFilters = parseWikiFilterParam(params, "entities");
+  const conceptFilters = parseWikiFilterParam(params, "concepts");
   const sortParam = params.get("sort")?.trim();
   const sort =
     sortParam && WIKI_EXPLORER_SORT_KEYS.has(sortParam) ? sortParam : WIKI_EXPLORER_SORT_DEFAULT;
@@ -175,6 +197,8 @@ export function parseWikiExplorerSearch(search = "") {
     query,
     typeFilter,
     tagFilter,
+    entityFilters,
+    conceptFilters,
     sort,
     visibleTypes,
   };

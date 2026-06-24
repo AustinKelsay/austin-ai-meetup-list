@@ -14,6 +14,8 @@ import { WikiDetail } from "./WikiDetail.jsx";
 import WikiGraph from "./WikiGraph.jsx";
 import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
+import { filterTopicsByExplorerState, getSelectedTopicFilterIds } from "./wikiTopicFilters.js";
+import { WikiTopicResults } from "./WikiTopicResults.jsx";
 import { filterPagesByQuery } from "./wikiSearch.js";
 import { pickRandomPage } from "./wikiSurprise.js";
 
@@ -168,6 +170,8 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
   const [query, setQuery] = useState(initial.query);
   const [typeFilter, setTypeFilter] = useState(initial.typeFilter);
   const [tagFilter, setTagFilter] = useState(initial.tagFilter);
+  const [entityFilters, setEntityFilters] = useState(initial.entityFilters);
+  const [conceptFilters, setConceptFilters] = useState(initial.conceptFilters);
   const [sort, setSort] = useState(initial.sort);
   const [visibleTypes, setVisibleTypes] = useState(initial.visibleTypes);
   const [selectedId, setSelectedId] = useState(focusedWikiId ?? null);
@@ -188,18 +192,38 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     setQuery(next.query);
     setTypeFilter(next.typeFilter);
     setTagFilter(next.tagFilter);
+    setEntityFilters(next.entityFilters);
+    setConceptFilters(next.conceptFilters);
     setSort(next.sort);
     setVisibleTypes(next.visibleTypes);
   }, [search]);
 
   useEffect(() => {
-    const nextSearch = buildWikiExplorerSearch({ query, typeFilter, tagFilter, sort, visibleTypes });
+    const nextSearch = buildWikiExplorerSearch({
+      query,
+      typeFilter,
+      tagFilter,
+      entityFilters,
+      conceptFilters,
+      sort,
+      visibleTypes,
+    });
     if (nextSearch === lastSyncedSearchRef.current) {
       return;
     }
     lastSyncedSearchRef.current = nextSearch;
     onOpenRoute(buildWikiPath(focusedWikiId, nextSearch), { replace: true, search: nextSearch });
-  }, [query, typeFilter, tagFilter, sort, visibleTypes, focusedWikiId, onOpenRoute]);
+  }, [
+    query,
+    typeFilter,
+    tagFilter,
+    entityFilters,
+    conceptFilters,
+    sort,
+    visibleTypes,
+    focusedWikiId,
+    onOpenRoute,
+  ]);
 
   const pageTypes = useMemo(
     () => [ALL, ...Array.from(new Set(pages.map((page) => page.type))).sort()],
@@ -228,11 +252,33 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     () => groupPagesByType(filteredPages, new Set(pages.map((page) => page.type))),
     [filteredPages, pages],
   );
+  const filteredTopics = useMemo(
+    () =>
+      filterTopicsByExplorerState(manifest?.topics ?? [], {
+        query,
+        entityFilters,
+        conceptFilters,
+      }),
+    [manifest, query, entityFilters, conceptFilters],
+  );
+  const activeTopicFilterIds = useMemo(
+    () => getSelectedTopicFilterIds({ entityFilters, conceptFilters }),
+    [entityFilters, conceptFilters],
+  );
+  const shouldShowTopicResults = Boolean(query || activeTopicFilterIds.length > 0);
 
   const selectPage = useCallback((id) => {
     setSelectedId(id);
     onOpenRoute(buildWikiPath(id, lastSyncedSearchRef.current));
   }, [onOpenRoute]);
+
+  const filterTopicsForPage = useCallback((page) => {
+    if (page.type === "entity") {
+      setEntityFilters((current) => [...new Set([...current, page.id])].sort());
+    } else if (page.type === "concept") {
+      setConceptFilters((current) => [...new Set([...current, page.id])].sort());
+    }
+  }, []);
 
   const handleToggleType = useCallback((type) => {
     setVisibleTypes((current) => toggleVisibleType(current, type));
@@ -242,6 +288,8 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     setQuery("");
     setTypeFilter(ALL);
     setTagFilter(ALL);
+    setEntityFilters([]);
+    setConceptFilters([]);
   }, []);
 
   const handleSurprise = useCallback(() => {
@@ -254,7 +302,10 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
 
   useEffect(() => {
     const handler = (event) => {
-      if (event.key === "Escape" && (query || typeFilter !== ALL || tagFilter !== ALL)) {
+      if (
+        event.key === "Escape" &&
+        (query || typeFilter !== ALL || tagFilter !== ALL || activeTopicFilterIds.length > 0)
+      ) {
         clearFilters();
         return;
       }
@@ -268,7 +319,7 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
 
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [query, typeFilter, tagFilter, clearFilters]);
+  }, [query, typeFilter, tagFilter, activeTopicFilterIds, clearFilters]);
 
   if (!manifest) {
     return <WikiLoading onOpenRoute={onOpenRoute} />;
@@ -278,7 +329,7 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     (selectedId ? manifest.pagesById[selectedId] : null) ??
     (focusedWikiId ? null : pages.find((page) => page.sourceLinks?.length > 0) ?? pages[0] ?? null);
   const selectedPageId = selectedPage?.id ?? selectedId;
-  const hasActiveFilters = Boolean(query) || typeFilter !== ALL || tagFilter !== ALL;
+  const hasActiveFilters = Boolean(query) || typeFilter !== ALL || tagFilter !== ALL || activeTopicFilterIds.length > 0;
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki">
@@ -392,14 +443,25 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
             />
           </section>
 
-          <WikiDetail
-            manifest={manifest}
-            selectedPage={selectedPage}
-            focusedWikiId={focusedWikiId}
-            onOpenRoute={onOpenRoute}
-            onTagClick={(tag) => setTagFilter(tag)}
-            activeTag={tagFilter}
-          />
+          <div className="wiki-detail-stack">
+            {shouldShowTopicResults ? (
+              <WikiTopicResults
+                topics={filteredTopics}
+                pagesById={manifest.pagesById}
+                activeFilterIds={activeTopicFilterIds}
+                onOpenRoute={onOpenRoute}
+              />
+            ) : null}
+            <WikiDetail
+              manifest={manifest}
+              selectedPage={selectedPage}
+              focusedWikiId={focusedWikiId}
+              onOpenRoute={onOpenRoute}
+              onTagClick={(tag) => setTagFilter(tag)}
+              onTopicFilterClick={filterTopicsForPage}
+              activeTag={tagFilter}
+            />
+          </div>
         </section>
       </main>
     </ArchiveShell>

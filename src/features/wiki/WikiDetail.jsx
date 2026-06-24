@@ -246,6 +246,7 @@ export function WikiDetail({
   focusedWikiId,
   onOpenRoute,
   onTagClick,
+  onTopicFilterClick,
   activeTag = null,
 }) {
   if (!selectedPage) {
@@ -312,6 +313,16 @@ export function WikiDetail({
           ),
         )}
       </div>
+
+      {onTopicFilterClick && ["entity", "concept"].includes(selectedPage.type) ? (
+        <button
+          type="button"
+          className="wiki-source-link wiki-topic-filter-button"
+          onClick={() => onTopicFilterClick(selectedPage)}
+        >
+          Show matching Topics
+        </button>
+      ) : null}
 
       <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
       <MentionedInSection

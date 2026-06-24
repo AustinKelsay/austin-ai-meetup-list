@@ -69,6 +69,15 @@ describe("wiki explorer URL state", () => {
     expect(search).toBe("?tag=open-source&type=entity");
   });
 
+  it("encodes entity and concept topic filters", () => {
+    const search = buildWikiExplorerSearch({
+      entityFilters: ["cursor", "spacex"],
+      conceptFilters: ["coding-agents"],
+    });
+
+    expect(search).toBe("?concepts=coding-agents&entities=cursor%2Cspacex");
+  });
+
   it("encodes a non-default sort key", () => {
     const search = buildWikiExplorerSearch({ sort: "updated" });
 
@@ -92,12 +101,16 @@ describe("wiki explorer URL state", () => {
   });
 
   it("parses a complete explorer state from a search string", () => {
-    const parsed = parseWikiExplorerSearch("?q=claude&type=entity&tag=open-source&sort=updated&types=-query");
+    const parsed = parseWikiExplorerSearch(
+      "?q=claude&type=entity&tag=open-source&sort=updated&types=-query&entities=cursor,spacex&concepts=coding-agents",
+    );
 
     expect(parsed).toEqual({
       query: "claude",
       typeFilter: "entity",
       tagFilter: "open-source",
+      entityFilters: ["cursor", "spacex"],
+      conceptFilters: ["coding-agents"],
       sort: "updated",
       visibleTypes: new Set(["meetup", "entity", "concept", "comparison"]),
     });
@@ -110,6 +123,8 @@ describe("wiki explorer URL state", () => {
       query: "",
       typeFilter: WIKI_EXPLORER_TYPE_ALL,
       tagFilter: WIKI_EXPLORER_TYPE_ALL,
+      entityFilters: [],
+      conceptFilters: [],
       sort: WIKI_EXPLORER_SORT_DEFAULT,
       visibleTypes: new Set(WIKI_GRAPH_TYPE_LIST),
     });

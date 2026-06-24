@@ -66,7 +66,11 @@ export function matchesPageSearch(page, normalizedQuery, pagesById) {
   if (!normalizedQuery) {
     return true;
   }
-  return getPageSearchHaystack(page, pagesById).includes(normalizedQuery);
+
+  const haystack = getPageSearchHaystack(page, pagesById);
+  const tokens = normalizedQuery.split(/\s+/).filter(Boolean);
+
+  return tokens.every((token) => haystack.includes(token));
 }
 
 export function filterPagesByQuery(pages, query, pagesById) {

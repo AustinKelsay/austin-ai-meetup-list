@@ -44,8 +44,8 @@ Build the Wiki Explorer into a practical front-end exploration surface where a m
 
 | Issue | Type | Status | Review thread | Fixes needed | Verified |
 | --- | --- | --- | --- | --- | --- |
-| #30 Topic Index Manifest | AFK | Pending | Pending | Pending | Pending |
-| #31 Wiki Explorer Filters | AFK | Pending | Pending | Pending | Pending |
+| #30 Topic Index Manifest | AFK | Complete | Pending final review | None | `npm test -- scripts/wiki-manifest.test.mjs`; `npm test`; `npm run generate:wiki` |
+| #31 Wiki Explorer Filters | AFK | Complete | Pending final review | None | targeted route/search/topic/UI tests; `npm test` |
 | #32 Meetup Topic Entry Points | AFK | Pending | Pending | Pending | Pending |
 
 ## Parked HITL Slices
@@ -58,9 +58,9 @@ Build the Wiki Explorer into a practical front-end exploration surface where a m
 
 | Issue | Fixed point | Worker session | Commit | Review result | Checks |
 | --- | --- | --- | --- | --- | --- |
-| #30 Topic Index Manifest | d73c6aa | Orchestrator acting as worker session | Pending | Pending | Pending |
-| #31 Wiki Explorer Filters | Pending | Orchestrator acting as worker session | Pending | Pending | Pending |
-| #32 Meetup Topic Entry Points | Pending | Orchestrator acting as worker session | Pending | Pending | Pending |
+| #30 Topic Index Manifest | d73c6aa | Orchestrator acting as worker session | d33a6a8 | Pending final review | `npm test -- scripts/wiki-manifest.test.mjs`; `npm test`; `npm run generate:wiki` |
+| #31 Wiki Explorer Filters | d33a6a8 | Orchestrator acting as worker session | 20a0d88 | Pending final review | `npm test -- src/app/routes.test.js src/features/wiki/wikiSearch.test.js src/features/wiki/wikiTopicFilters.test.js src/features/wiki/WikiExplorer.test.jsx`; `npm test` |
+| #32 Meetup Topic Entry Points | 20a0d88 | Orchestrator acting as worker session | Pending | Pending | Pending |
 
 ## Open Questions
 

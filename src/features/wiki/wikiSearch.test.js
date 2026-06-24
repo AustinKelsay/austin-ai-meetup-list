@@ -66,6 +66,27 @@ describe("wikiSearch", () => {
     ).toBe(true);
   });
 
+  it("matches multi-term queries across different haystack fields", () => {
+    const pagesById = {
+      spacex: page({ id: "spacex", title: "SpaceX" }),
+    };
+
+    expect(
+      matchesPageSearch(
+        page({ id: "cursor", title: "Cursor", backlinkIds: ["spacex"] }),
+        "cursor spacex",
+        pagesById,
+      ),
+    ).toBe(true);
+    expect(
+      matchesPageSearch(
+        page({ id: "cursor", title: "Cursor", backlinkIds: ["spacex"] }),
+        "cursor anthropic",
+        pagesById,
+      ),
+    ).toBe(false);
+  });
+
   it("matches against referenced topic source titles", () => {
     expect(
       matchesPageSearch(
