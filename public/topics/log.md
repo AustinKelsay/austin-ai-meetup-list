@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-24] update | Fugu-Ultra live on OpenRouter added to model-panel topic
+
+- Picked up the same-day Sakana AI X post (`x.com/SakanaAILabs/status/2069811015152493052`) announcing Fugu-Ultra live on OpenRouter, with the joint "single monolithic model vs collective intelligence" framing.
+- Added the post to **One API, many models becomes the frontier wrapper** as a third embed alongside the existing OpenRouter Fusion and Sakana Fugu launch posts, and added the `openrouter.ai/sakana/fugu-ultra` product page to its `linkPair` so the slide points at the durable API page behind the launch.
+- Source records updated with the post (63.9K views, 31 replies, 55 reposts, 529 likes, 115 bookmarks) and the OpenRouter routing entry so the topic's link bullets stay traceable.
+
 ## [2026-06-24] update | open-models board split: model releases vs research
 
 - The **Open models are eating the frontier gap** topic was carrying four model releases (GLM-5.2, Kimi K2.7 Code, MiniMax M3, TMax-27B) plus a stack of non-model-release artifacts: the GLM-5 technical report, the IndexCache sparse-attention paper, the TMax HF paper, the ArtificialAnlys GDPval-AA benchmark X post, and the natolambert TMax-references meta-post. Per the room's editor standard, the slide is supposed to be model releases only.

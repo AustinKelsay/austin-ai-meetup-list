@@ -219,11 +219,16 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/SakanaAILabs/status/2068861630327443966?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/SakanaAILabs/status/2069811015152493052?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
               "https://openrouter.ai/openrouter/fusion",
               "https://sakana.ai/fugu-release/",
               "https://sakana.ai/fugu/",
+              "https://openrouter.ai/sakana/fugu-ultra",
             ],
           },
         ],

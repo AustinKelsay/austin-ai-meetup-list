@@ -179,6 +179,16 @@ sources: []
   - Type: Official X post
   - Access: 2026-06-24
   - Notes: Official Sakana AI launch-thread source for Fugu; the official release and product pages are the durable source of technical detail.
+- Post: https://x.com/SakanaAILabs/status/2069811015152493052
+  - Title: "Sakana AI launches Fugu-Ultra on OpenRouter"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Same-day follow-up to the Fugu launch: Sakana shipped Fugu-Ultra live on OpenRouter, the joint framing is "the future of AI isn't a single monolithic model, but the collective intelligence of the world's best models working together." 63.9K views, 31 replies, 55 reposts, 529 likes, 115 bookmarks. Adds a concrete production deployment to the same panel-orchestration story.
+- Source: https://openrouter.ai/sakana/fugu-ultra
+  - Title: "Fugu-Ultra on OpenRouter"
+  - Type: Product/API page
+  - Access: 2026-06-24
+  - Notes: OpenRouter routing entry for Sakana Fugu-Ultra, the model Sakana put live on OpenRouter the same day as the meetup. Useful as the durable product page behind the launch X post.
 
 ## Models & Research
 
