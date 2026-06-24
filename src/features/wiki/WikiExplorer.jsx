@@ -135,11 +135,49 @@ function WikiCatalogItem({ page, selected, onOpenRoute }) {
   );
 }
 
-function WikiCatalogGroup({ group, selectedPageId, onOpenRoute }) {
-  const color = WIKI_GRAPH_TYPE_COLORS[group.type] ?? "#9fb8b0";
+function getCatalogTypeCounts(pages) {
+  const counts = new Map([[ALL, pages.length]]);
+
+  for (const page of pages) {
+    counts.set(page.type, (counts.get(page.type) ?? 0) + 1);
+  }
+
+  return counts;
+}
+
+function WikiIndexTabs({ pageTypes, activeType, pages, onSelectType }) {
+  const counts = getCatalogTypeCounts(pages);
+
   return (
-    <details className="wiki-catalog-group" open>
-      <summary>
+    <div className="wiki-index-tabs" role="tablist" aria-label="Browse wiki page types">
+      {pageTypes.map((type) => {
+        const isActive = type === activeType;
+        const label = type === ALL ? "All" : getGroupLabel(type);
+
+        return (
+          <button
+            key={type}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
+            className={`wiki-index-tab ${isActive ? "wiki-index-tab--active" : ""}`}
+            onClick={() => onSelectType(type)}
+          >
+            <span>{label}</span>
+            <strong>{counts.get(type) ?? 0}</strong>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+function WikiCatalogSection({ group, selectedPageId, onOpenRoute }) {
+  const color = WIKI_GRAPH_TYPE_COLORS[group.type] ?? "#9fb8b0";
+
+  return (
+    <section className="wiki-index-section" aria-labelledby={`wiki-index-${group.type}`}>
+      <div className="wiki-index-section-heading" id={`wiki-index-${group.type}`}>
         <span
           className="wiki-catalog-group-dot"
           style={{ backgroundColor: color }}
@@ -147,7 +185,7 @@ function WikiCatalogGroup({ group, selectedPageId, onOpenRoute }) {
         />
         <span className="wiki-catalog-group-label">{getGroupLabel(group.type)}</span>
         <span className="wiki-catalog-group-count">{group.pages.length}</span>
-      </summary>
+      </div>
       <div className="wiki-catalog-group-list">
         {group.pages.map((page) => (
           <WikiCatalogItem
@@ -158,7 +196,7 @@ function WikiCatalogGroup({ group, selectedPageId, onOpenRoute }) {
           />
         ))}
       </div>
-    </details>
+    </section>
   );
 }
 
@@ -367,16 +405,6 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
               </label>
               <div className="wiki-select-row">
                 <label>
-                  <span className="sr-only">Filter by page type</span>
-                  <select value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}>
-                    {pageTypes.map((type) => (
-                      <option key={type} value={type}>
-                        {type === ALL ? "All types" : getPageTypeLabel(type)}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label>
                   <span className="sr-only">Filter by tag</span>
                   <select value={tagFilter} onChange={(event) => setTagFilter(event.target.value)}>
                     {tags.map((tag) => (
@@ -407,19 +435,34 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
               ) : null}
             </div>
 
-            <div className="wiki-catalog-list" aria-label="Wiki pages">
-              {groupedPages.length > 0 ? (
-                groupedPages.map((group) => (
-                  <WikiCatalogGroup
-                    key={group.type}
-                    group={group}
-                    selectedPageId={selectedPageId}
-                    onOpenRoute={onOpenRoute}
-                  />
-                ))
-              ) : (
-                <p className="wiki-empty-copy">No wiki pages match those filters.</p>
-              )}
+            <div className="wiki-index-browser">
+              <div className="wiki-index-header">
+                <div>
+                  <p className="eyebrow">Index</p>
+                  <strong>{pluralize(filteredPages.length, "page")}</strong>
+                </div>
+                <span>{typeFilter === ALL ? "All types" : getGroupLabel(typeFilter)}</span>
+              </div>
+              <WikiIndexTabs
+                pageTypes={pageTypes}
+                activeType={typeFilter}
+                pages={searchedPages}
+                onSelectType={setTypeFilter}
+              />
+              <div className="wiki-catalog-list" aria-label="Wiki pages">
+                {groupedPages.length > 0 ? (
+                  groupedPages.map((group) => (
+                    <WikiCatalogSection
+                      key={group.type}
+                      group={group}
+                      selectedPageId={selectedPageId}
+                      onOpenRoute={onOpenRoute}
+                    />
+                  ))
+                ) : (
+                  <p className="wiki-empty-copy">No wiki pages match those filters.</p>
+                )}
+              </div>
             </div>
           </div>
 
