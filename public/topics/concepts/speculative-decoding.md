@@ -1,7 +1,7 @@
 ---
 title: Speculative Decoding
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-24
 type: concept
 tags: [concept, models-research, performance]
 sources: [raw/articles/2026-05-27-link-records.md]
@@ -19,3 +19,5 @@ Speculative decoding is a recurring Austin AI Club concept for accelerating LLM 
 
 - [[Open Models]]
 - [[Local AI]]
+- [[Inference Optimization]]
+- [[AI Benchmarks & Evals]]

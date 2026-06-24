@@ -1,7 +1,7 @@
 ---
 title: Humanoid Robotics
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-24
 type: concept
 tags: [concept, agent-infrastructure, models-research]
 sources: [raw/articles/2026-05-27-link-records.md]
@@ -19,3 +19,4 @@ Humanoid Robotics is a recurring Austin AI Club concept for autonomous physical 
 
 - [[Figure AI]]
 - [[Agent Infrastructure]]
+- [[Physical AI]]

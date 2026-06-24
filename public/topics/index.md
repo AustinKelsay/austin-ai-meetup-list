@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-06-24 | Total pages: 61
+> Last updated: 2026-06-24 | Total pages: 71
 
 ## Meetups
 
@@ -50,18 +50,27 @@
 ## Concepts
 
 - [[Agent Infrastructure]]
+- [[Agent Payments]]
 - [[Agent Cost Controls]]
 - [[Agent Security]]
+- [[AI Benchmarks & Evals]]
 - [[AI Governance]]
 - [[AI SaaS Supply Chain]]
+- [[AI Signal Discovery]]
+- [[Big Tech Moves]]
 - [[Company Brain]]
 - [[Coding Agents]]
 - [[Compute Strategy]]
 - [[Humanoid Robotics]]
+- [[Inference Optimization]]
 - [[Local AI]]
+- [[Local Builds & Projects]]
 - [[Model Distillation]]
+- [[Models & Research]]
 - [[Open Models]]
+- [[Physical AI]]
 - [[Privacy Tooling]]
+- [[Security]]
 - [[Speculative Decoding]]
 - [[Supply Chain Security]]
 - [[World Models]]
@@ -82,4 +91,4 @@ No durable comparison pages yet.
 
 ## Queries
 
-No durable query pages yet.
+- [[Cursor and SpaceX]]

@@ -1,10 +1,10 @@
 ---
 title: AI Governance
 created: 2026-06-08
-updated: 2026-06-23
+updated: 2026-06-24
 type: concept
 tags: [concept, security, big-tech-moves]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # AI Governance
@@ -13,12 +13,18 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**.
+- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week** and **Who reported the Fable jailbreak?**.
 - [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.
+- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.
+- [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.
+- [[Austin AI Club - April 1, 2026]]: **White House pushes a national AI framework** and **Tesla dodges AV regulation**.
 
 ## Related
 
 - [[Agent Security]]
 - [[Compute Strategy]]
+- [[AI Benchmarks & Evals]]
+- [[Security]]
+- [[Big Tech Moves]]
 - [[OpenAI]]
 - [[Open Models]]

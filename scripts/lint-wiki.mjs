@@ -25,6 +25,14 @@ const requiredPaths = [
 
 const requiredFrontmatter = ["title", "created", "updated", "type", "tags", "sources"];
 const validTypes = new Set(["entity", "concept", "comparison", "query", "summary", "meetup"]);
+const indexTrackedTypes = new Set(["entity", "concept", "comparison", "query", "meetup"]);
+const standardRelatedPageIds = new Set([
+  "local-builds-projects",
+  "agent-infrastructure",
+  "models-research",
+  "security",
+  "big-tech-moves",
+]);
 const errors = [];
 
 function toPosix(value) {
@@ -44,6 +52,30 @@ function normalizeWikiId(value) {
     .replace(/[^a-z0-9-]/g, "")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+function stripFrontmatter(content) {
+  return content.replace(/^---\n[\s\S]*?\n---\n?/, "");
+}
+
+function normalizeTopicTitle(value) {
+  return value
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function collectUrls(content) {
+  const urls = new Set();
+
+  for (const match of content.matchAll(/https?:\/\/[^\s<>)"]+/g)) {
+    const url = match[0].replace(/[.,;:]+$/g, "");
+    urls.add(url);
+  }
+
+  return urls;
 }
 
 async function pathExists(targetPath) {
@@ -105,6 +137,19 @@ function parseFrontmatter(content) {
   return fields;
 }
 
+function parseInlineArray(rawValue) {
+  const match = String(rawValue ?? "").trim().match(/^\[(.*)\]$/);
+
+  if (!match || !match[1].trim()) {
+    return [];
+  }
+
+  return match[1]
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
+
 function checkFrontmatter(file, frontmatter) {
   const rel = toPosix(path.relative(repoRoot, file));
 
@@ -142,6 +187,98 @@ function collectWikilinks(content) {
   }
 
   return links;
+}
+
+function collectTopicBlocks(content, meetupTitle) {
+  const topicBlocks = [];
+  const lines = content.split("\n");
+  let currentSection = "";
+  let currentBlock = null;
+
+  const flushCurrentBlock = () => {
+    if (currentBlock) {
+      topicBlocks.push(currentBlock);
+      currentBlock = null;
+    }
+  };
+
+  for (const [index, line] of lines.entries()) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      flushCurrentBlock();
+
+      if (headingMatch[1].length === 2) {
+        currentSection = headingMatch[2].trim();
+      }
+
+      continue;
+    }
+
+    const topicMatch = line.match(/^-\s+\*\*([^*]+)\*\*/);
+
+    if (topicMatch) {
+      flushCurrentBlock();
+      currentBlock = {
+        line: index + 1,
+        meetupTitle,
+        section: currentSection,
+        title: topicMatch[1],
+        text: line,
+      };
+      continue;
+    }
+
+    if (currentBlock) {
+      currentBlock.text += `\n${line}`;
+    }
+  }
+
+  flushCurrentBlock();
+  return topicBlocks;
+}
+
+function collectSourceRecordTopicGroups(content) {
+  const groupsByTitle = new Map();
+  const lines = stripFrontmatter(content).split("\n");
+  let currentGroup = null;
+
+  const flushCurrentGroup = () => {
+    if (currentGroup) {
+      groupsByTitle.set(normalizeTopicTitle(currentGroup.title), currentGroup);
+      currentGroup = null;
+    }
+  };
+
+  for (const [index, line] of lines.entries()) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+
+      if (depth === 3) {
+        flushCurrentGroup();
+        currentGroup = {
+          line: index + 1,
+          title: headingMatch[2].trim(),
+          text: line,
+        };
+      } else if (depth <= 2) {
+        flushCurrentGroup();
+      } else if (currentGroup) {
+        currentGroup.text += `\n${line}`;
+      }
+
+      continue;
+    }
+
+    if (currentGroup) {
+      currentGroup.text += `\n${line}`;
+    }
+  }
+
+  flushCurrentGroup();
+  return groupsByTitle;
 }
 
 async function checkRawRecords() {
@@ -204,7 +341,247 @@ export function checkDatedSourceLinkRecordHierarchy(rel, body) {
   return hierarchyErrors;
 }
 
+export function checkDatedMeetupSourceRecordCoverage(rel, meetupContent, sourceRecordContent) {
+  const coverageErrors = [];
+  const dateMatch = rel.match(/public\/topics\/(\d{4}-\d{2}-\d{2})\.md$/);
+
+  if (!dateMatch) {
+    return coverageErrors;
+  }
+
+  const meetupUrls = collectUrls(stripFrontmatter(meetupContent));
+
+  if (meetupUrls.size === 0) {
+    return coverageErrors;
+  }
+
+  if (!sourceRecordContent) {
+    coverageErrors.push(
+      `${rel}: missing dated source record public/topics/raw/articles/${dateMatch[1]}-link-records.md`,
+    );
+    return coverageErrors;
+  }
+
+  const sourceRecordUrls = collectUrls(sourceRecordContent);
+
+  for (const url of meetupUrls) {
+    if (!sourceRecordUrls.has(url)) {
+      coverageErrors.push(
+        `${rel}: source URL is missing from public/topics/raw/articles/${dateMatch[1]}-link-records.md: ${url}`,
+      );
+    }
+  }
+
+  return coverageErrors;
+}
+
+export function checkDatedSourceRecordTopicHeadings(rel, sourceRecordContent, meetupTopicTitles) {
+  const headingErrors = [];
+  const groupsByTitle = collectSourceRecordTopicGroups(sourceRecordContent);
+
+  for (const group of groupsByTitle.values()) {
+    if (!meetupTopicTitles.has(normalizeTopicTitle(group.title))) {
+      headingErrors.push(
+        `${rel}:${group.line}: source-record group "${group.title}" must match a Topic or Showcase title from the dated Meetup page`,
+      );
+    }
+  }
+
+  return headingErrors;
+}
+
+export function checkDatedSourceRecordTopicUrlPlacement(rel, meetupContent, sourceRecordContent) {
+  const placementErrors = [];
+  const groupsByTitle = collectSourceRecordTopicGroups(sourceRecordContent);
+
+  for (const topicBlock of collectTopicBlocks(meetupContent, "")) {
+    const topicUrls = collectUrls(topicBlock.text);
+
+    if (topicUrls.size === 0) {
+      continue;
+    }
+
+    const sourceRecordGroup = groupsByTitle.get(normalizeTopicTitle(topicBlock.title));
+
+    if (!sourceRecordGroup) {
+      placementErrors.push(
+        `${rel}: missing source-record group for Topic "${topicBlock.title}"`,
+      );
+      continue;
+    }
+
+    const groupUrls = collectUrls(sourceRecordGroup.text);
+
+    for (const url of topicUrls) {
+      if (!groupUrls.has(url)) {
+        placementErrors.push(
+          `${rel}:${sourceRecordGroup.line}: URL from Topic "${topicBlock.title}" must be under the matching source-record group: ${url}`,
+        );
+      }
+    }
+  }
+
+  return placementErrors;
+}
+
+export function checkIndexCompleteness(indexRel, indexContent, wikiPages) {
+  const indexErrors = [];
+  const indexedIds = new Set(collectWikilinks(indexContent).map((link) => normalizeWikiId(link)));
+
+  for (const page of wikiPages) {
+    if (page.rel.endsWith("/TEMPLATE.md") || page.rel.endsWith("/templates/TEMPLATE.md")) {
+      continue;
+    }
+
+    if (!indexTrackedTypes.has(page.type)) {
+      continue;
+    }
+
+    if (!indexedIds.has(normalizeWikiId(page.title))) {
+      indexErrors.push(
+        `${indexRel}: missing index entry for ${page.type} page [[${page.title}]] (${page.rel})`,
+      );
+    }
+  }
+
+  return indexErrors;
+}
+
+export function checkTopicWikilinkBacklinks(rel, meetupContent, meetupTitle, pagesById) {
+  const backlinkErrors = [];
+
+  for (const topicBlock of collectTopicBlocks(meetupContent, meetupTitle)) {
+    if (/showcase/i.test(topicBlock.section) || /community slot/i.test(topicBlock.title)) {
+      continue;
+    }
+
+    for (const link of new Set(collectWikilinks(topicBlock.text))) {
+      const targetPage = pagesById.get(normalizeWikiId(link));
+
+      if (!targetPage) {
+        continue;
+      }
+
+      const body = stripFrontmatter(targetPage.content);
+
+      if (!body.includes(`[[${topicBlock.meetupTitle}]]`) || !body.includes(`**${topicBlock.title}**`)) {
+        backlinkErrors.push(
+          `${rel}:${topicBlock.line}: Topic wikilink [[${link}]] must have a reciprocal Mentioned In entry for "${topicBlock.title}" in ${targetPage.rel}`,
+        );
+      }
+    }
+  }
+
+  return backlinkErrors;
+}
+
+export function checkMeetupRelatedPageSpine(
+  rel,
+  meetupContent,
+  meetupTitle = "",
+  relatedPagesById = null,
+) {
+  const relatedErrors = [];
+  const relatedLine = meetupContent
+    .split("\n")
+    .find((line) => line.startsWith("Related wiki pages:"));
+  const relatedLinks = collectWikilinks(relatedLine ?? "");
+  const relatedIds = new Set(relatedLinks.map((link) => normalizeWikiId(link)));
+  const topicLinkIds = new Set();
+
+  for (const topicBlock of collectTopicBlocks(meetupContent, "")) {
+    if (/showcase/i.test(topicBlock.section) || /community slot/i.test(topicBlock.title)) {
+      continue;
+    }
+
+    for (const link of new Set(collectWikilinks(topicBlock.text))) {
+      const linkId = normalizeWikiId(link);
+
+      topicLinkIds.add(linkId);
+
+      if (!relatedIds.has(linkId)) {
+        relatedErrors.push(
+          `${rel}:${topicBlock.line}: Related wiki pages must include [[${link}]] used by Topic "${topicBlock.title}"`,
+        );
+      }
+    }
+  }
+
+  if (!meetupTitle || !relatedPagesById) {
+    return relatedErrors;
+  }
+
+  for (const link of new Set(relatedLinks)) {
+    const linkId = normalizeWikiId(link);
+
+    if (standardRelatedPageIds.has(linkId) || topicLinkIds.has(linkId)) {
+      continue;
+    }
+
+    const relatedPage = relatedPagesById.get(linkId);
+
+    if (!relatedPage) {
+      continue;
+    }
+
+    if (!stripFrontmatter(relatedPage.content).includes(`[[${meetupTitle}]]`)) {
+      relatedErrors.push(
+        `${rel}: Related wiki page [[${link}]] must be used by Topic prose or have a Mentioned In entry for [[${meetupTitle}]] in ${relatedPage.rel}`,
+      );
+    }
+  }
+
+  return relatedErrors;
+}
+
 export function checkMentionedInTopicTitles(rel, body, type) {
+  return checkMentionedInTopicReferences(rel, body, type);
+}
+
+export function checkMentionedInSourceRecords(rel, body, type, sources, meetupSourceById) {
+  if (!["concept", "entity"].includes(type)) {
+    return [];
+  }
+
+  const sourceRecordErrors = [];
+  const sourceSet = new Set(sources);
+  const lines = body.split("\n");
+  let inMentionedIn = false;
+
+  for (const [index, rawLine] of lines.entries()) {
+    const line = rawLine.trimEnd();
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const depth = headingMatch[1].length;
+      const title = headingMatch[2].trim().toLowerCase();
+      inMentionedIn = depth === 2 && title === "mentioned in";
+      continue;
+    }
+
+    if (!inMentionedIn || !line.trimStart().startsWith("- ")) {
+      continue;
+    }
+
+    const meetupLinkMatch = line.trimStart().match(/^-\s+\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
+
+    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith("Austin AI Club - ")) {
+      continue;
+    }
+
+    const requiredSource = meetupSourceById.get(normalizeWikiId(meetupLinkMatch[1]));
+
+    if (requiredSource && !sourceSet.has(requiredSource)) {
+      sourceRecordErrors.push(
+        `${rel}:${index + 1}: Mentioned In meetup ${meetupLinkMatch[1]} requires frontmatter source ${requiredSource}`,
+      );
+    }
+  }
+
+  return sourceRecordErrors;
+}
+
+export function checkMentionedInTopicReferences(rel, body, type, meetupTopicTitlesById = null) {
   if (!["concept", "entity"].includes(type)) {
     return [];
   }
@@ -228,20 +605,61 @@ export function checkMentionedInTopicTitles(rel, body, type) {
       continue;
     }
 
-    if (!line.trimStart().match(/^-\s+\[\[Austin AI Club - [^\]]+\]\]/)) {
+    const meetupLinkMatch = line.trimStart().match(/^-\s+\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
+
+    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith("Austin AI Club - ")) {
       mentionedInErrors.push(
         `${rel}:${index + 1}: Mentioned In bullets for concept/entity pages must start with a meetup wikilink`,
       );
     }
 
-    if (!/\*\*[^*]+\*\*/.test(line)) {
+    const topicTitleMatches = [...line.matchAll(/\*\*([^*]+)\*\*/g)];
+
+    if (topicTitleMatches.length === 0) {
       mentionedInErrors.push(
         `${rel}:${index + 1}: Mentioned In bullets for concept/entity pages must include at least one bold exact Topic Title`,
       );
     }
+
+    if (!meetupTopicTitlesById || !meetupLinkMatch) {
+      continue;
+    }
+
+    const meetupTopicTitles = meetupTopicTitlesById.get(normalizeWikiId(meetupLinkMatch[1]));
+
+    if (!meetupTopicTitles) {
+      mentionedInErrors.push(
+        `${rel}:${index + 1}: Mentioned In meetup wikilink must point to a dated Meetup page`,
+      );
+      continue;
+    }
+
+    for (const match of topicTitleMatches) {
+      const topicTitle = normalizeTopicTitle(match[1]);
+
+      if (!meetupTopicTitles.has(topicTitle)) {
+        mentionedInErrors.push(
+          `${rel}:${index + 1}: Mentioned In Topic Title "${match[1]}" was not found on ${meetupLinkMatch[1]}`,
+        );
+      }
+    }
   }
 
   return mentionedInErrors;
+}
+
+function collectMeetupTopicTitles(content) {
+  const topicTitles = new Set();
+
+  for (const rawLine of stripFrontmatter(content).split("\n")) {
+    const topicMatch = rawLine.trim().match(/^-\s+\*\*([^*]+)\*\*/);
+
+    if (topicMatch) {
+      topicTitles.add(normalizeTopicTitle(topicMatch[1]));
+    }
+  }
+
+  return topicTitles;
 }
 
 async function main() {
@@ -270,20 +688,79 @@ async function main() {
   const markdownFiles = await collectMarkdownFiles(topicsDir);
   const wikiIds = new Set();
   const fileContents = new Map();
+  const frontmatterByFile = new Map();
+  const meetupTopicTitlesById = new Map();
+  const meetupSourceById = new Map();
+  const wikiPages = [];
+  const entityConceptPagesById = new Map();
 
   for (const file of markdownFiles) {
     const content = await fs.readFile(file, "utf8");
     const relFromTopics = toPosix(path.relative(topicsDir, file));
+    const rel = toPosix(path.relative(repoRoot, file));
     const frontmatter = parseFrontmatter(content);
 
     fileContents.set(file, content);
+    frontmatterByFile.set(file, frontmatter);
     wikiIds.add(normalizeWikiId(relFromTopics));
+
+    if (frontmatter) {
+      wikiIds.add(normalizeWikiId(frontmatter.title ?? ""));
+      wikiPages.push({
+        rel,
+        title: frontmatter.title ?? "",
+        type: frontmatter.type,
+      });
+
+      if (frontmatter.type === "meetup" && relFromTopics.match(/^\d{4}-\d{2}-\d{2}\.md$/)) {
+        const date = relFromTopics.replace(/\.md$/, "");
+
+        meetupTopicTitlesById.set(
+          normalizeWikiId(frontmatter.title ?? ""),
+          collectMeetupTopicTitles(content),
+        );
+        meetupSourceById.set(
+          normalizeWikiId(frontmatter.title ?? ""),
+          `raw/articles/${date}-link-records.md`,
+        );
+      }
+
+      if (["entity", "concept"].includes(frontmatter.type)) {
+        const page = {
+          rel,
+          title: frontmatter.title ?? "",
+          type: frontmatter.type,
+          content,
+        };
+        entityConceptPagesById.set(normalizeWikiId(frontmatter.title ?? ""), page);
+        entityConceptPagesById.set(normalizeWikiId(relFromTopics), page);
+      }
+    }
+  }
+
+  const indexPath = path.join(topicsDir, "index.md");
+  const indexContent = fileContents.get(indexPath);
+
+  if (indexContent) {
+    errors.push(...checkIndexCompleteness("public/topics/index.md", indexContent, wikiPages));
+  }
+
+  for (const [file, content] of fileContents) {
+    const frontmatter = frontmatterByFile.get(file);
 
     if (frontmatter) {
       checkFrontmatter(file, frontmatter);
       const rel = toPosix(path.relative(repoRoot, file));
-      errors.push(...checkMentionedInTopicTitles(rel, content, frontmatter.type));
-      wikiIds.add(normalizeWikiId(frontmatter.title ?? ""));
+      errors.push(
+        ...checkMentionedInTopicReferences(rel, content, frontmatter.type, meetupTopicTitlesById),
+        ...checkMentionedInSourceRecords(
+          rel,
+          content,
+          frontmatter.type,
+          parseInlineArray(frontmatter.sources),
+          meetupSourceById,
+        ),
+      );
     }
   }
 
@@ -294,6 +771,63 @@ async function main() {
       if (!wikiIds.has(normalizeWikiId(link))) {
         errors.push(`${rel}: unresolved wikilink [[${link}]]`);
       }
+    }
+  }
+
+  for (const [file, content] of fileContents) {
+    const rel = toPosix(path.relative(repoRoot, file));
+    const dateMatch = rel.match(/^public\/topics\/(\d{4}-\d{2}-\d{2})\.md$/);
+
+    if (!dateMatch) {
+      continue;
+    }
+
+    const sourceRecordPath = path.join(
+      topicsDir,
+      "raw",
+      "articles",
+      `${dateMatch[1]}-link-records.md`,
+    );
+
+    const frontmatter = frontmatterByFile.get(file);
+
+    errors.push(
+      ...checkDatedMeetupSourceRecordCoverage(rel, content, fileContents.get(sourceRecordPath)),
+      ...checkMeetupRelatedPageSpine(
+        rel,
+        content,
+        frontmatter?.title ?? "",
+        entityConceptPagesById,
+      ),
+    );
+
+    const sourceRecordContent = fileContents.get(sourceRecordPath);
+
+    if (sourceRecordContent) {
+      const sourceRecordRel = toPosix(path.relative(repoRoot, sourceRecordPath));
+      errors.push(
+        ...checkDatedSourceRecordTopicHeadings(
+          sourceRecordRel,
+          sourceRecordContent,
+          collectMeetupTopicTitles(content),
+        ),
+        ...checkDatedSourceRecordTopicUrlPlacement(
+          sourceRecordRel,
+          content,
+          sourceRecordContent,
+        ),
+      );
+    }
+
+    if (frontmatter?.title) {
+      errors.push(
+        ...checkTopicWikilinkBacklinks(
+          rel,
+          content,
+          frontmatter.title,
+          entityConceptPagesById,
+        ),
+      );
     }
   }
 

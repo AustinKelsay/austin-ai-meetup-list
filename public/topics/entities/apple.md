@@ -4,7 +4,7 @@ created: 2026-06-08
 updated: 2026-06-24
 type: entity
 tags: [entity, company, big-tech-moves, agent-infrastructure]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Apple
@@ -15,6 +15,7 @@ Apple is a recurring Austin AI Club entity for Apple Intelligence, Siri, privacy
 
 - [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native**.
 - [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI** and **Apple stretches PCC onto Google/NVIDIA**.
+- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**.
 
 ## Related
 

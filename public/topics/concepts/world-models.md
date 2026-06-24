@@ -1,7 +1,7 @@
 ---
 title: World Models
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-24
 type: concept
 tags: [concept, models-research, robotics, simulation]
 sources: [raw/articles/2026-06-10-link-records.md]
@@ -18,5 +18,7 @@ World Models covers models and systems that represent, simulate, predict, render
 ## Related
 
 - [[Open Models]]
+- [[Physical AI]]
+- [[AI Benchmarks & Evals]]
 - [[Humanoid Robotics]]
 - [[Agent Infrastructure]]

@@ -1,0 +1,32 @@
+---
+title: AI Benchmarks & Evals
+created: 2026-06-24
+updated: 2026-06-24
+type: concept
+tags: [concept, models-research, agent-infrastructure]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+---
+
+# AI Benchmarks & Evals
+
+AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.
+
+## Mentioned In
+
+- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open models are eating the frontier gap**, and **Research behind the open model wave**.
+- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed labs start the June model wave**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.
+- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.
+- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Qwen3.6-27B gets laptop-shaped**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.
+- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**, **Trinity-Large-Thinking**, **Meta introduces Muse Spark**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.
+- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **GLM5 Turbo**, **Claude-distilled Qwen models trending on HF**, and **Google TurboQuant**.
+- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Qwen 3.5 series**, **Nemotron 3 VoiceChat frontier**, **Xiaomi MiMo-V2-Pro**, **Frontier check**, and **plebdev-bench**.
+
+## Related
+
+- [[Models & Research]]
+- [[AI Signal Discovery]]
+- [[Coding Agents]]
+- [[Agent Infrastructure]]
+- [[Open Models]]
+- [[Speculative Decoding]]
+- [[AI Governance]]

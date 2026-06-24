@@ -1,7 +1,7 @@
 ---
 title: April 1, 2026 Source Link Records
 created: 2026-05-05
-updated: 2026-05-13
+updated: 2026-06-24
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -181,7 +181,9 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
 - Distillation hesitation records:
   - https://x.com/anthonyronning/status/2037586323834642859
   - https://docs.z.ai/devpack/using5.1
+  - https://docs.z.ai/guides/llm/glm-5
   - https://www.minimax.io/news/minimax-m27-en
+  - https://platform.minimax.io/subscribe/coding-plan
   - https://weibo.com/6486870325/5277992772176164
   - https://github.com/XiaomiMiMo/MiMo-V2-Flash
   - https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled

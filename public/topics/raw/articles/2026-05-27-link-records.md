@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - May 27, 2026 - Source Link Records
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-24
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -82,6 +82,11 @@ sources: []
   - Type: Technical guide
   - Access: 2026-05-26
   - Notes: Practical implementation guide for running MTP models locally
+- Source: https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta
+  - Title: "Unsloth v0.1.405-beta release"
+  - Type: Release notes
+  - Access: 2026-06-24
+  - Notes: Release notes for automatic MTP support referenced by the May 27 inference Topic.
 - Post: https://x.com/ggerganov/status/2056391115469689330
   - Title: "Georgi Gerganov post on llama.cpp MTP support"
   - Type: X post
@@ -191,6 +196,11 @@ sources: []
   - Type: News coverage
   - Access: 2026-05-26
   - Notes: Coverage of the SpaceX-Cursor partnership and acquisition option
+- Source: https://cursor.com/blog/spacex-model-training
+  - Title: "SpaceX and Cursor model training partnership"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: Cursor's official source for the SpaceX training partnership referenced by the May 27 Topic.
 - Post: https://www.linkedin.com/pulse/claude-codes-quiet-victory-lap-how-spacex-cursor-tie-up-john-cloud-jfbec
   - Title: "Claude Code's Quiet Victory Lap: How the SpaceX-Cursor Tie-Up Supercharges Anthropic's Coding Dominance"
   - Type: Analysis
@@ -225,11 +235,21 @@ sources: []
   - Type: Guide
   - Access: 2026-05-26
   - Notes: Guide explaining Grok API access and billing separation from X subscriptions
+- Source: https://memeburn.com/how-to-use-grok-in-openclaw-oauth-api-key-guide-2026/
+  - Title: "How to use Grok in OpenClaw with OAuth or API key"
+  - Type: Guide
+  - Access: 2026-06-24
+  - Notes: Guide source for the OpenClaw OAuth bridge referenced by the May 27 Grok Topic.
 - Source: https://mem0.ai/blog/xai-grok-api-pricing
   - Title: "Grok API Pricing: Every Model, Plan & Cost (May 2026)"
   - Type: Pricing guide
   - Access: 2026-05-26
   - Notes: Comprehensive breakdown of Grok API vs subscription pricing
+- Source: https://unified.to/blog/how_to_get_a_grok_xai_and_groq_api_key_and_connect_it_to_your_product
+  - Title: "How to get a Grok xAI API key and connect it to your product"
+  - Type: Guide
+  - Access: 2026-06-24
+  - Notes: Additional API-key workflow source linked from the May 27 Grok Topic.
 - Post: https://x.com/xai/status/2055745332919808181
   - Title: "xAI announcement post for X Premium OAuth integration"
   - Type: X post
@@ -242,6 +262,16 @@ sources: []
   - Type: Financial news
   - Access: 2026-05-26
   - Notes: Coverage of Anthropic's first profitable quarter with $559M operating income
+- Source: https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/
+  - Title: "Anthropic says it's about to have its first profitable quarter"
+  - Type: News coverage
+  - Access: 2026-06-24
+  - Notes: TechCrunch coverage linked from the May 27 Anthropic profitability Topic.
+- Source: https://www.thehindubusinessline.com/info-tech/anthropic-eyes-559-million-profit-in-june-quarter-amid-explosive-ai-demand/article71004656.ece
+  - Title: "Anthropic eyes $559 million profit in June quarter amid explosive AI demand"
+  - Type: News coverage
+  - Access: 2026-06-24
+  - Notes: Secondary profitability source linked from the May 27 Anthropic Topic.
 - Source: https://opentools.ai/news/anthropic-first-profitable-quarter-10-billion-revenue
   - Title: "Anthropic Hits First-Ever Profit as Revenue Doubles to $1..."
   - Type: Financial analysis
@@ -254,6 +284,11 @@ sources: []
   - Type: News coverage
   - Access: 2026-05-26
   - Notes: TechCrunch coverage of Karpathy's move to Anthropic and his new role
+- Source: https://www.thestreet.com/technology/anthropic-hires-karpathy-in-one-of-biggest-deals-in-ai
+  - Title: "Anthropic hires Karpathy in one of biggest deals in AI"
+  - Type: News coverage
+  - Access: 2026-06-24
+  - Notes: Secondary source linked from the May 27 Karpathy Topic.
 - Source: https://www.aichatdaily.com/ai-business/andrej-karpathy-joins-anthropic-lead-ai-accelerated-pretraining-resear
   - Title: "Andrej Karpathy joins Anthropic to lead AI-accelerated pretraining research"
   - Type: Industry analysis

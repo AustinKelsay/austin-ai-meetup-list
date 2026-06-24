@@ -1,10 +1,10 @@
 ---
 title: Agent Cost Controls
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-24
 type: concept
 tags: [concept, agent-infrastructure, coding-agents, cost-control]
-sources: [raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Agent Cost Controls
@@ -13,11 +13,17 @@ Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, u
 
 ## Mentioned In
 
+- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.
 - [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
+- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **Anthropic cuts the programmatic subsidy**.
+- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.
 
 ## Related
 
 - [[Agent Infrastructure]]
+- [[Agent Payments]]
 - [[Coding Agents]]
 - [[Anthropic]]
+- [[Cursor]]
 - [[Microsoft]]
+- [[OpenClaw]]

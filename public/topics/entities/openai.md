@@ -4,7 +4,7 @@ created: 2026-05-05
 updated: 2026-06-24
 type: entity
 tags: [entity, company, model, privacy]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # OpenAI
@@ -13,12 +13,13 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, and **OpenAI gets its own inference chip**.
+- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.
 - [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.
-- [[Austin AI Club - May 13, 2026]]: **GPT Image 2 gets UI-ish**, **PII filters are becoming local model infrastructure**, and **GPT-5.5-Cyber opens the trust gate**.
+- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
+- [[Austin AI Club - May 13, 2026]]: **GPT Image 2 gets UI-ish**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.
 - [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **GPT-5.4 mini and nano**, and **OpenAI to acquire Astral**.
-- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Claude Code + Codex updates roundup**, **GPT-5.4 mini**, and **Claude Kill?**.
+- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **GPT-5.4 mini**, and **Claude Kill?**.
 
 ## Related
 

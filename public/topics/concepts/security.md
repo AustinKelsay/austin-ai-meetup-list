@@ -1,0 +1,33 @@
+---
+title: Security
+created: 2026-06-24
+updated: 2026-06-24
+type: concept
+tags: [concept, track, security]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+---
+
+# Security
+
+Security is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.
+
+## Mentioned In
+
+- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.
+- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.
+- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.
+- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.
+- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.
+- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.
+- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.
+
+## Related
+
+- [[Agent Security]]
+- [[Supply Chain Security]]
+- [[AI SaaS Supply Chain]]
+- [[Privacy Tooling]]
+- [[AI Governance]]
+- [[Coding Agents]]
+- [[OpenAI]]
+- [[Anthropic]]

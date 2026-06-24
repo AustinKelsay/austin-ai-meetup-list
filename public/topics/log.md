@@ -2,6 +2,38 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-24] update | Signal discovery, agent payments, and governance links gardened
+
+- Created durable concept pages for AI Signal Discovery and Agent Payments after auditing remaining sparse historical Topics.
+- Backfilled central wikilinks across June 24, June 10, May 27, May 13, and April 1 Meetup pages for model-release source discovery, agent spend/payment rails, and older governance/regulatory stories.
+- Tightened older bare Topic heads across March 18 through June 10 so local/security/model Topics route into existing pages like Agent Security, Supply Chain Security, Local AI, Open Models, Privacy Tooling, Apple, Anthropic, and OpenClaw.
+- Added a durable Cursor and SpaceX query page as a saved example of entity-intersection exploration, with adjacent Cursor-only and SpaceX-only context Topics for host prep.
+- Deepened Compute Strategy and Agent Cost Controls around SpaceX/Cursor compute access, OpenAI Stargate UK, mesh-llm, Cursor Composer pricing, and Anthropic/OpenClaw subscription-credit pressure.
+- Cleared the last non-showcase bare Topic heads by routing Mistral Small to Open Models, visibible to Local Builds & Projects, and Epicure to Models & Research.
+- Backfilled the May 27 source records so every dated Meetup URL from March 18 through June 24 is present in its matching dated source-record page.
+- Deepened AI Governance to include May 13 federal testing/classified-stack Topics and April 1 White House/Tesla regulation Topics.
+- Updated related links on Agent Cost Controls, Agent Infrastructure, Models & Research, AI Benchmarks & Evals, and Open Models.
+- Repaired reciprocal Mentioned In backlinks for every dated Topic wikilink into entity/concept pages, covering older OpenAI, Moonshot AI, Apple, OpenClaw, Coding Agents, Agent Security, Privacy Tooling, Open Models, AI Benchmarks & Evals, Agent Payments, and Inference Optimization references.
+- Repaired April 1 source-record placement for **Distillation hesitation** so each Topic URL now appears under its matching source-record group, not only somewhere else in the dated source page.
+- Backfilled entity/concept frontmatter `sources` for historical Mentioned In references on Anthropic, OpenAI, Agent Security, AI Benchmarks & Evals, Physical AI, and Privacy Tooling so each dated backlink has its matching source-record file.
+- Backfilled dated meetup Related wiki pages spines so every non-showcase Topic wikilink is exposed from the meetup overview, including older Moonshot AI, Agent Security, Privacy Tooling, NVIDIA, Agent Cost Controls, PrismML, OpenClaw, Qwen, Andrej Karpathy, and MiniMax references.
+- Repaired implicit Related wiki page spines by adding supporting Topic wikilinks and Mentioned In entries for AI Signal Discovery, Open Models, Local AI, Agent Cost Controls, and Z.ai.
+- Expanded `lint:wiki` guardrails so future gardening checks source-record URL coverage, source-record group title matching, per-Topic source URL placement, Mentioned In source provenance, meetup related-page spine coverage, implicit Related wiki page support, index completeness, exact Mentioned In topic titles, and bidirectional Topic wikilinks.
+
+## [2026-06-24] update | Benchmark, inference, and physical-AI concepts gardened
+
+- Created durable concept pages for AI Benchmarks & Evals, Inference Optimization, and Physical AI after auditing weakly connected historical Topics.
+- Backfilled central wikilinks across March 18 through June 24 Meetup pages for benchmark/eval stories, inference-speed and compression stories, and physical-world AI stories.
+- Updated related links on Models & Research, Compute Strategy, Local AI, Open Models, Coding Agents, Speculative Decoding, World Models, Humanoid Robotics, and AI Governance.
+- Updated index.md page count and regenerated the wiki manifest.
+
+## [2026-06-24] update | Historical track pages and entity anchors gardened
+
+- Created durable track concept pages for Local Builds & Projects, Models & Research, Security, and Big Tech Moves so the Wiki Explorer can aggregate referenced Topic sources across past meetups.
+- Backfilled dated Meetup related-page spines and topic-level wikilinks for recurring entities including Cursor, SpaceX, OpenAgents, Human Rights Foundation, Qwen, xAI, Andrej Karpathy, NVIDIA, Google, Meta, MiniMax, and OpenAI.
+- Updated Cursor, SpaceX, xAI, Qwen, and Andrej Karpathy entity pages with exact Mentioned In Topic Titles for older meetup references.
+- Updated index.md page count and regenerated the wiki manifest.
+
 ## [2026-06-24] update | Apple Container sandbox topic added
 
 - Added **Apple makes Mac agent sandboxes native** as a June 24 Agent Infrastructure Topic from the user's Ayaan X submission.

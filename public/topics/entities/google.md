@@ -15,7 +15,7 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.
-- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.
+- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**, **Vercel's Context.ai breach**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.
 - [[Austin AI Club - April 1, 2026]]: **Google TurboQuant**.
 
