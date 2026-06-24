@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:59:21.589Z",
+  "generatedAt": "2026-06-24T21:49:01.295Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -104,6 +104,7 @@
       "relativePath": "concepts/agent-infrastructure.md",
       "outgoingIds": [
         "agent-cost-controls",
+        "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
@@ -666,6 +667,41 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -730,6 +766,20 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -2453,13 +2503,14 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-08",
-      "updated": "2026-06-08",
+      "updated": "2026-06-24",
       "excerpt": "Apple is a recurring Austin AI Club entity for Apple Intelligence, Siri, privacy-first AI, device-integrated agents, and AI features built into consumer operating systems.",
       "rawHref": "/topics/entities/apple.md",
       "relativePath": "entities/apple.md",
@@ -2467,13 +2518,17 @@
         "agent-infrastructure",
         "ai-governance",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "compute-strategy",
         "local-ai",
         "privacy-tooling"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "coding-agents",
         "compute-strategy",
         "privacy-tooling"
       ],
@@ -2526,6 +2581,41 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
@@ -7230,6 +7320,11 @@
         "https://x.com/NousResearch/status/2066647737613832624",
         "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
         "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy",
         "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
         "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
         "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
@@ -7240,6 +7335,8 @@
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
         "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -7256,11 +7353,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -7270,10 +7364,13 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
         "https://github.com/hamishivi/tmax",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://x.com/natolambert/status/2069055568124281315",
         "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
         "https://www.anthropic.com/news/fable-mythos-access",
@@ -7386,6 +7483,31 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
@@ -7432,6 +7554,16 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -7516,27 +7648,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -7586,11 +7703,6 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
@@ -7606,8 +7718,28 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/natolambert/status/2069055568124281315",
-          "title": "Open models are eating the frontier gap",
+          "title": "Research behind the open model wave",
           "section": "Models & Research"
         },
         {
@@ -7678,7 +7810,7 @@
       ],
       "created": "2026-06-16",
       "updated": "2026-06-24",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Broadcom, Christopher David, Cursor, Google, Human Rights Foundation, Midjourney, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, OpenAgents, OpenRouter, Sakana AI, vLLM, Z.ai.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Amazon, Apple, Ben Carman, Broadcom, Christopher David, Cursor, Google, Human Rights Foundation, Midjourney, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, OpenAgents, OpenRouter, Sakana AI, vLLM, Z.ai.",
       "rawHref": "/topics/2026-06-24.md",
       "relativePath": "2026-06-24.md",
       "outgoingIds": [
@@ -7687,6 +7819,7 @@
         "ai-governance",
         "amazon",
         "anthropic",
+        "apple",
         "ben-carman",
         "broadcom",
         "christopher-david",
@@ -7716,6 +7849,7 @@
         "ai-governance",
         "amazon",
         "anthropic",
+        "apple",
         "ben-carman",
         "broadcom",
         "christopher-david",
@@ -7773,6 +7907,11 @@
         "https://x.com/NousResearch/status/2066647737613832624",
         "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
         "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy",
         "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
         "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
         "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
@@ -7783,6 +7922,8 @@
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
         "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -7799,11 +7940,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -7813,10 +7951,13 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
         "https://github.com/hamishivi/tmax",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://x.com/natolambert/status/2069055568124281315",
         "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
         "https://www.anthropic.com/news/fable-mythos-access",
@@ -7939,6 +8080,31 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
@@ -7985,6 +8151,16 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -8069,27 +8245,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -8139,11 +8300,6 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
@@ -8159,8 +8315,28 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/natolambert/status/2069055568124281315",
-          "title": "Open models are eating the frontier gap",
+          "title": "Research behind the open model wave",
           "section": "Models & Research"
         },
         {
@@ -10072,7 +10248,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-23",
+      "updated": "2026-06-24",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -10080,6 +10256,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "anthropic",
+        "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
@@ -10291,6 +10468,41 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://github.com/openclaw/openclaw",
           "title": "Agent Overload",
           "section": "Agent Infrastructure",
@@ -10487,20 +10699,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -10509,13 +10707,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -10585,13 +10776,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -10607,13 +10791,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -11907,20 +12084,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -11929,13 +12092,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -12005,13 +12161,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -12027,13 +12176,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -17669,20 +17811,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -17691,13 +17819,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -17767,13 +17888,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -17789,13 +17903,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -18198,20 +18305,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -18220,13 +18313,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -18296,13 +18382,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -18318,13 +18397,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -19549,20 +19621,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -19571,13 +19629,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -19647,13 +19698,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -19669,13 +19713,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -21777,6 +21814,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ]
     },
@@ -22397,6 +22448,20 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -23790,20 +23855,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -23812,13 +23863,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -23888,13 +23932,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -23910,13 +23947,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -24113,6 +24143,7 @@
       "relativePath": "concepts/agent-infrastructure.md",
       "outgoingIds": [
         "agent-cost-controls",
+        "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
@@ -24675,6 +24706,41 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -24739,6 +24805,20 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -26462,13 +26542,14 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-08",
-      "updated": "2026-06-08",
+      "updated": "2026-06-24",
       "excerpt": "Apple is a recurring Austin AI Club entity for Apple Intelligence, Siri, privacy-first AI, device-integrated agents, and AI features built into consumer operating systems.",
       "rawHref": "/topics/entities/apple.md",
       "relativePath": "entities/apple.md",
@@ -26476,13 +26557,17 @@
         "agent-infrastructure",
         "ai-governance",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "compute-strategy",
         "local-ai",
         "privacy-tooling"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "coding-agents",
         "compute-strategy",
         "privacy-tooling"
       ],
@@ -26535,6 +26620,41 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-june-10-2026",
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
@@ -31239,6 +31359,11 @@
         "https://x.com/NousResearch/status/2066647737613832624",
         "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
         "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy",
         "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
         "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
         "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
@@ -31249,6 +31374,8 @@
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
         "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -31265,11 +31392,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -31279,10 +31403,13 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
         "https://github.com/hamishivi/tmax",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://x.com/natolambert/status/2069055568124281315",
         "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
         "https://www.anthropic.com/news/fable-mythos-access",
@@ -31395,6 +31522,31 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
@@ -31441,6 +31593,16 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -31525,27 +31687,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -31595,11 +31742,6 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
@@ -31615,8 +31757,28 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/natolambert/status/2069055568124281315",
-          "title": "Open models are eating the frontier gap",
+          "title": "Research behind the open model wave",
           "section": "Models & Research"
         },
         {
@@ -31687,7 +31849,7 @@
       ],
       "created": "2026-06-16",
       "updated": "2026-06-24",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Broadcom, Christopher David, Cursor, Google, Human Rights Foundation, Midjourney, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, OpenAgents, OpenRouter, Sakana AI, vLLM, Z.ai.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Amazon, Apple, Ben Carman, Broadcom, Christopher David, Cursor, Google, Human Rights Foundation, Midjourney, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, OpenAgents, OpenRouter, Sakana AI, vLLM, Z.ai.",
       "rawHref": "/topics/2026-06-24.md",
       "relativePath": "2026-06-24.md",
       "outgoingIds": [
@@ -31696,6 +31858,7 @@
         "ai-governance",
         "amazon",
         "anthropic",
+        "apple",
         "ben-carman",
         "broadcom",
         "christopher-david",
@@ -31725,6 +31888,7 @@
         "ai-governance",
         "amazon",
         "anthropic",
+        "apple",
         "ben-carman",
         "broadcom",
         "christopher-david",
@@ -31782,6 +31946,11 @@
         "https://x.com/NousResearch/status/2066647737613832624",
         "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
         "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy",
         "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
         "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
         "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
@@ -31792,6 +31961,8 @@
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
         "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -31808,11 +31979,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -31822,10 +31990,13 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
         "https://github.com/hamishivi/tmax",
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://x.com/natolambert/status/2069055568124281315",
         "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
         "https://www.anthropic.com/news/fable-mythos-access",
@@ -31948,6 +32119,31 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
@@ -31994,6 +32190,16 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -32078,27 +32284,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -32148,11 +32339,6 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
@@ -32168,8 +32354,28 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/natolambert/status/2069055568124281315",
-          "title": "Open models are eating the frontier gap",
+          "title": "Research behind the open model wave",
           "section": "Models & Research"
         },
         {
@@ -34081,7 +34287,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-23",
+      "updated": "2026-06-24",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -34089,6 +34295,7 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "anthropic",
+        "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
@@ -34300,6 +34507,41 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://github.com/openclaw/openclaw",
           "title": "Agent Overload",
           "section": "Agent Infrastructure",
@@ -34496,20 +34738,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -34518,13 +34746,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -34594,13 +34815,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -34616,13 +34830,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -35916,20 +36123,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -35938,13 +36131,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -36014,13 +36200,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -36036,13 +36215,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -41678,20 +41850,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -41700,13 +41858,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -41776,13 +41927,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -41798,13 +41942,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -42207,20 +42344,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -42229,13 +42352,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -42305,13 +42421,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -42327,13 +42436,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -43558,20 +43660,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -43580,13 +43668,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -43656,13 +43737,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -43678,13 +43752,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -45786,6 +45853,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ]
     },
@@ -46406,6 +46487,20 @@
         },
         {
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -47799,20 +47894,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://digg.com/ai/wmry8acg",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -47821,13 +47902,6 @@
         },
         {
           "href": "https://x.com/Zai_org/status/2066938937344495629",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -47897,13 +47971,6 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
           "href": "https://wai-org.com/blog/tmax/",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -47919,13 +47986,6 @@
         },
         {
           "href": "https://github.com/hamishivi/tmax",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-june-24-2026",
-          "sourcePageTitle": "Austin AI Club - June 24, 2026"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
@@ -48020,6 +48080,63 @@
   },
   "topics": [
     {
+      "id": "austin-ai-club-june-24-2026-agent-infrastructure-apple-makes-mac-agent-sandboxes-native",
+      "title": "Apple makes Mac agent sandboxes native",
+      "rawTitle": "Apple makes Mac agent sandboxes native",
+      "normalizedTitle": "apple makes mac agent sandboxes native",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-june-24-2026",
+      "meetupTitle": "Austin AI Club - June 24, 2026",
+      "meetupSlug": "2026-06-24",
+      "meetupHref": "/topics/2026-06-24.md",
+      "sourceLinks": [
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "apple",
+        "coding-agents"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Apple",
+        "Coding Agents"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Apple makes Mac agent sandboxes native Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://x.com/twtayaan/status/2069307717177737658 https://github.com/apple/container https://github.com/apple/container/releases/tag/1.0.0 https://github.com/apple/containerization https://github.com/apple/containerization/tree/main/examples/sandboxy Agent Infrastructure Apple Coding Agents"
+    },
+    {
       "id": "austin-ai-club-june-24-2026-agent-infrastructure-hermes-agent-gets-a-stripe-wallet",
       "title": "Hermes Agent gets a Stripe wallet",
       "rawTitle": "Hermes Agent gets a Stripe wallet",
@@ -48078,7 +48195,9 @@
         "https://x.com/OpenRouter/status/2065856853989270011",
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
-        "https://x.com/SakanaAILabs/status/2068861630327443966"
+        "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra"
       ],
       "sourceReferences": [
         {
@@ -48088,6 +48207,11 @@
         },
         {
           "href": "https://openrouter.ai/openrouter/fusion",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -48110,6 +48234,11 @@
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
@@ -48123,7 +48252,7 @@
         "Sakana AI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "One API, many models becomes the frontier wrapper Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://openrouter.ai/blog/announcements/fusion-beats-frontier/ https://openrouter.ai/openrouter/fusion https://x.com/OpenRouter/status/2065856853989270011 https://sakana.ai/fugu-release/ https://sakana.ai/fugu/ https://x.com/SakanaAILabs/status/2068861630327443966 Agent Infrastructure OpenRouter Sakana AI"
+      "searchText": "One API, many models becomes the frontier wrapper Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://openrouter.ai/blog/announcements/fusion-beats-frontier/ https://openrouter.ai/openrouter/fusion https://x.com/OpenRouter/status/2065856853989270011 https://sakana.ai/fugu-release/ https://sakana.ai/fugu/ https://x.com/SakanaAILabs/status/2068861630327443966 https://x.com/SakanaAILabs/status/2069811015152493052 https://openrouter.ai/sakana/fugu-ultra Agent Infrastructure OpenRouter Sakana AI"
     },
     {
       "id": "austin-ai-club-june-24-2026-agent-infrastructure-vllm-turns-weird-open-models-into-runnable-systems",
@@ -48631,11 +48760,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -48645,23 +48771,11 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
-        "https://github.com/hamishivi/tmax",
-        "https://x.com/natolambert/status/2069055568124281315"
+        "https://github.com/hamishivi/tmax"
       ],
       "sourceReferences": [
-        {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
         {
           "href": "https://digg.com/ai/opo8qjez",
           "title": "Open models are eating the frontier gap",
@@ -48718,22 +48832,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://huggingface.co/zai-org/GLM-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://wai-org.com/blog/tmax/",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -48749,11 +48853,6 @@
         },
         {
           "href": "https://x.com/MiniMax_AI/status/2065436935188058208",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -48785,7 +48884,56 @@
         "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open models are eating the frontier gap Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://z.ai/blog/glm-5.2 https://huggingface.co/zai-org/GLM-5.2 https://github.com/zai-org/GLM-5 https://docs.z.ai/guides/llm/glm-5.2 https://arxiv.org/abs/2602.15763 https://arxiv.org/abs/2603.12201 https://digg.com/ai/wmry8acg https://x.com/Zai_org/status/2066938937344495629 https://x.com/ArtificialAnlys/status/2069121548670406947 https://huggingface.co/moonshotai/Kimi-K2.7-Code https://digg.com/tech/lvlg9m33 https://digg.com/tech/27r7m6uc https://x.com/Kimi_Moonshot/status/2065377579130142937 https://huggingface.co/MiniMaxAI/MiniMax-M3 https://x.com/MiniMax_AI/status/2065436935188058208 https://x.com/huggingface/status/2065464345413239151 https://huggingface.co/collections/allenai/tmax https://huggingface.co/allenai/tmax-27b https://huggingface.co/papers/2606.23321 https://wai-org.com/blog/tmax/ https://digg.com/ai/opo8qjez https://github.com/hamishivi/tmax https://x.com/natolambert/status/2069055568124281315 Coding Agents Compute Strategy MiniMax Moonshot AI Open Models Z.ai"
+      "searchText": "Open models are eating the frontier gap Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://z.ai/blog/glm-5.2 https://huggingface.co/zai-org/GLM-5.2 https://github.com/zai-org/GLM-5 https://docs.z.ai/guides/llm/glm-5.2 https://digg.com/ai/wmry8acg https://x.com/Zai_org/status/2066938937344495629 https://huggingface.co/moonshotai/Kimi-K2.7-Code https://digg.com/tech/lvlg9m33 https://digg.com/tech/27r7m6uc https://x.com/Kimi_Moonshot/status/2065377579130142937 https://huggingface.co/MiniMaxAI/MiniMax-M3 https://x.com/MiniMax_AI/status/2065436935188058208 https://x.com/huggingface/status/2065464345413239151 https://huggingface.co/collections/allenai/tmax https://huggingface.co/allenai/tmax-27b https://wai-org.com/blog/tmax/ https://digg.com/ai/opo8qjez https://github.com/hamishivi/tmax Coding Agents Compute Strategy MiniMax Moonshot AI Open Models Z.ai"
+    },
+    {
+      "id": "austin-ai-club-june-24-2026-models-research-research-behind-the-open-model-wave",
+      "title": "Research behind the open model wave",
+      "rawTitle": "Research behind the open model wave",
+      "normalizedTitle": "research behind the open model wave",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-june-24-2026",
+      "meetupTitle": "Austin AI Club - June 24, 2026",
+      "meetupSlug": "2026-06-24",
+      "meetupHref": "/topics/2026-06-24.md",
+      "sourceLinks": [
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
+        "https://x.com/natolambert/status/2069055568124281315"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/natolambert/status/2069055568124281315",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "Research behind the open model wave Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://arxiv.org/abs/2602.15763 https://arxiv.org/abs/2603.12201 https://huggingface.co/papers/2606.23321 https://x.com/ArtificialAnlys/status/2069121548670406947 https://x.com/natolambert/status/2069055568124281315"
     },
     {
       "id": "austin-ai-club-june-24-2026-security-who-reported-the-fable-jailbreak",
@@ -55909,6 +56057,63 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-june-24-2026-agent-infrastructure-apple-makes-mac-agent-sandboxes-native": {
+      "id": "austin-ai-club-june-24-2026-agent-infrastructure-apple-makes-mac-agent-sandboxes-native",
+      "title": "Apple makes Mac agent sandboxes native",
+      "rawTitle": "Apple makes Mac agent sandboxes native",
+      "normalizedTitle": "apple makes mac agent sandboxes native",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-june-24-2026",
+      "meetupTitle": "Austin AI Club - June 24, 2026",
+      "meetupSlug": "2026-06-24",
+      "meetupHref": "/topics/2026-06-24.md",
+      "sourceLinks": [
+        "https://x.com/twtayaan/status/2069307717177737658",
+        "https://github.com/apple/container",
+        "https://github.com/apple/container/releases/tag/1.0.0",
+        "https://github.com/apple/containerization",
+        "https://github.com/apple/containerization/tree/main/examples/sandboxy"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/apple/container",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/container/releases/tag/1.0.0",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/apple/containerization/tree/main/examples/sandboxy",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/twtayaan/status/2069307717177737658",
+          "title": "Apple makes Mac agent sandboxes native",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "apple",
+        "coding-agents"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Apple",
+        "Coding Agents"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Apple makes Mac agent sandboxes native Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://x.com/twtayaan/status/2069307717177737658 https://github.com/apple/container https://github.com/apple/container/releases/tag/1.0.0 https://github.com/apple/containerization https://github.com/apple/containerization/tree/main/examples/sandboxy Agent Infrastructure Apple Coding Agents"
+    },
     "austin-ai-club-june-24-2026-agent-infrastructure-hermes-agent-gets-a-stripe-wallet": {
       "id": "austin-ai-club-june-24-2026-agent-infrastructure-hermes-agent-gets-a-stripe-wallet",
       "title": "Hermes Agent gets a Stripe wallet",
@@ -55968,7 +56173,9 @@
         "https://x.com/OpenRouter/status/2065856853989270011",
         "https://sakana.ai/fugu-release/",
         "https://sakana.ai/fugu/",
-        "https://x.com/SakanaAILabs/status/2068861630327443966"
+        "https://x.com/SakanaAILabs/status/2068861630327443966",
+        "https://x.com/SakanaAILabs/status/2069811015152493052",
+        "https://openrouter.ai/sakana/fugu-ultra"
       ],
       "sourceReferences": [
         {
@@ -55978,6 +56185,11 @@
         },
         {
           "href": "https://openrouter.ai/openrouter/fusion",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openrouter.ai/sakana/fugu-ultra",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
         },
@@ -56000,6 +56212,11 @@
           "href": "https://x.com/SakanaAILabs/status/2068861630327443966",
           "title": "One API, many models becomes the frontier wrapper",
           "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/SakanaAILabs/status/2069811015152493052",
+          "title": "One API, many models becomes the frontier wrapper",
+          "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
@@ -56013,7 +56230,7 @@
         "Sakana AI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "One API, many models becomes the frontier wrapper Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://openrouter.ai/blog/announcements/fusion-beats-frontier/ https://openrouter.ai/openrouter/fusion https://x.com/OpenRouter/status/2065856853989270011 https://sakana.ai/fugu-release/ https://sakana.ai/fugu/ https://x.com/SakanaAILabs/status/2068861630327443966 Agent Infrastructure OpenRouter Sakana AI"
+      "searchText": "One API, many models becomes the frontier wrapper Agent Infrastructure Austin AI Club - June 24, 2026 2026-06-24 https://openrouter.ai/blog/announcements/fusion-beats-frontier/ https://openrouter.ai/openrouter/fusion https://x.com/OpenRouter/status/2065856853989270011 https://sakana.ai/fugu-release/ https://sakana.ai/fugu/ https://x.com/SakanaAILabs/status/2068861630327443966 https://x.com/SakanaAILabs/status/2069811015152493052 https://openrouter.ai/sakana/fugu-ultra Agent Infrastructure OpenRouter Sakana AI"
     },
     "austin-ai-club-june-24-2026-agent-infrastructure-vllm-turns-weird-open-models-into-runnable-systems": {
       "id": "austin-ai-club-june-24-2026-agent-infrastructure-vllm-turns-weird-open-models-into-runnable-systems",
@@ -56521,11 +56738,8 @@
         "https://huggingface.co/zai-org/GLM-5.2",
         "https://github.com/zai-org/GLM-5",
         "https://docs.z.ai/guides/llm/glm-5.2",
-        "https://arxiv.org/abs/2602.15763",
-        "https://arxiv.org/abs/2603.12201",
         "https://digg.com/ai/wmry8acg",
         "https://x.com/Zai_org/status/2066938937344495629",
-        "https://x.com/ArtificialAnlys/status/2069121548670406947",
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "https://digg.com/tech/lvlg9m33",
         "https://digg.com/tech/27r7m6uc",
@@ -56535,23 +56749,11 @@
         "https://x.com/huggingface/status/2065464345413239151",
         "https://huggingface.co/collections/allenai/tmax",
         "https://huggingface.co/allenai/tmax-27b",
-        "https://huggingface.co/papers/2606.23321",
         "https://wai-org.com/blog/tmax/",
         "https://digg.com/ai/opo8qjez",
-        "https://github.com/hamishivi/tmax",
-        "https://x.com/natolambert/status/2069055568124281315"
+        "https://github.com/hamishivi/tmax"
       ],
       "sourceReferences": [
-        {
-          "href": "https://arxiv.org/abs/2602.15763",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://arxiv.org/abs/2603.12201",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
         {
           "href": "https://digg.com/ai/opo8qjez",
           "title": "Open models are eating the frontier gap",
@@ -56608,22 +56810,12 @@
           "section": "Models & Research"
         },
         {
-          "href": "https://huggingface.co/papers/2606.23321",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
           "href": "https://huggingface.co/zai-org/GLM-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
         {
           "href": "https://wai-org.com/blog/tmax/",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -56639,11 +56831,6 @@
         },
         {
           "href": "https://x.com/MiniMax_AI/status/2065436935188058208",
-          "title": "Open models are eating the frontier gap",
-          "section": "Models & Research"
-        },
-        {
-          "href": "https://x.com/natolambert/status/2069055568124281315",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research"
         },
@@ -56675,7 +56862,56 @@
         "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open models are eating the frontier gap Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://z.ai/blog/glm-5.2 https://huggingface.co/zai-org/GLM-5.2 https://github.com/zai-org/GLM-5 https://docs.z.ai/guides/llm/glm-5.2 https://arxiv.org/abs/2602.15763 https://arxiv.org/abs/2603.12201 https://digg.com/ai/wmry8acg https://x.com/Zai_org/status/2066938937344495629 https://x.com/ArtificialAnlys/status/2069121548670406947 https://huggingface.co/moonshotai/Kimi-K2.7-Code https://digg.com/tech/lvlg9m33 https://digg.com/tech/27r7m6uc https://x.com/Kimi_Moonshot/status/2065377579130142937 https://huggingface.co/MiniMaxAI/MiniMax-M3 https://x.com/MiniMax_AI/status/2065436935188058208 https://x.com/huggingface/status/2065464345413239151 https://huggingface.co/collections/allenai/tmax https://huggingface.co/allenai/tmax-27b https://huggingface.co/papers/2606.23321 https://wai-org.com/blog/tmax/ https://digg.com/ai/opo8qjez https://github.com/hamishivi/tmax https://x.com/natolambert/status/2069055568124281315 Coding Agents Compute Strategy MiniMax Moonshot AI Open Models Z.ai"
+      "searchText": "Open models are eating the frontier gap Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://z.ai/blog/glm-5.2 https://huggingface.co/zai-org/GLM-5.2 https://github.com/zai-org/GLM-5 https://docs.z.ai/guides/llm/glm-5.2 https://digg.com/ai/wmry8acg https://x.com/Zai_org/status/2066938937344495629 https://huggingface.co/moonshotai/Kimi-K2.7-Code https://digg.com/tech/lvlg9m33 https://digg.com/tech/27r7m6uc https://x.com/Kimi_Moonshot/status/2065377579130142937 https://huggingface.co/MiniMaxAI/MiniMax-M3 https://x.com/MiniMax_AI/status/2065436935188058208 https://x.com/huggingface/status/2065464345413239151 https://huggingface.co/collections/allenai/tmax https://huggingface.co/allenai/tmax-27b https://wai-org.com/blog/tmax/ https://digg.com/ai/opo8qjez https://github.com/hamishivi/tmax Coding Agents Compute Strategy MiniMax Moonshot AI Open Models Z.ai"
+    },
+    "austin-ai-club-june-24-2026-models-research-research-behind-the-open-model-wave": {
+      "id": "austin-ai-club-june-24-2026-models-research-research-behind-the-open-model-wave",
+      "title": "Research behind the open model wave",
+      "rawTitle": "Research behind the open model wave",
+      "normalizedTitle": "research behind the open model wave",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-june-24-2026",
+      "meetupTitle": "Austin AI Club - June 24, 2026",
+      "meetupSlug": "2026-06-24",
+      "meetupHref": "/topics/2026-06-24.md",
+      "sourceLinks": [
+        "https://arxiv.org/abs/2602.15763",
+        "https://arxiv.org/abs/2603.12201",
+        "https://huggingface.co/papers/2606.23321",
+        "https://x.com/ArtificialAnlys/status/2069121548670406947",
+        "https://x.com/natolambert/status/2069055568124281315"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://arxiv.org/abs/2602.15763",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2603.12201",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/papers/2606.23321",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2069121548670406947",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/natolambert/status/2069055568124281315",
+          "title": "Research behind the open model wave",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "Research behind the open model wave Models & Research Austin AI Club - June 24, 2026 2026-06-24 https://arxiv.org/abs/2602.15763 https://arxiv.org/abs/2603.12201 https://huggingface.co/papers/2606.23321 https://x.com/ArtificialAnlys/status/2069121548670406947 https://x.com/natolambert/status/2069055568124281315"
     },
     "austin-ai-club-june-24-2026-security-who-reported-the-fable-jailbreak": {
       "id": "austin-ai-club-june-24-2026-security-who-reported-the-fable-jailbreak",
@@ -63862,6 +64098,10 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "apple"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "human-rights-foundation"
     },
     {
@@ -64011,6 +64251,10 @@
     {
       "source": "anthropic",
       "target": "agent-cost-controls"
+    },
+    {
+      "source": "apple",
+      "target": "austin-ai-club-june-24-2026"
     },
     {
       "source": "apple",
@@ -64267,6 +64511,10 @@
     {
       "source": "austin-ai-club-june-24-2026",
       "target": "amazon"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "apple"
     },
     {
       "source": "austin-ai-club-june-24-2026",
@@ -64587,6 +64835,10 @@
     {
       "source": "coding-agents",
       "target": "anthropic"
+    },
+    {
+      "source": "coding-agents",
+      "target": "apple"
     },
     {
       "source": "coding-agents",
@@ -65510,7 +65762,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 46,
+        "degree": 47,
         "updated": "2026-06-24"
       },
       {
@@ -65598,8 +65850,8 @@
           "big-tech-moves",
           "agent-infrastructure"
         ],
-        "degree": 9,
-        "updated": "2026-06-08"
+        "degree": 13,
+        "updated": "2026-06-24"
       },
       {
         "id": "april-1-2026-source-link-records",
@@ -65685,7 +65937,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 53,
+        "degree": 55,
         "updated": "2026-06-24"
       },
       {
@@ -65797,8 +66049,8 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 33,
-        "updated": "2026-06-23"
+        "degree": 34,
+        "updated": "2026-06-24"
       },
       {
         "id": "cohere",
@@ -66338,6 +66590,11 @@
       },
       {
         "source": "agent-infrastructure",
+        "target": "apple",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
         "target": "human-rights-foundation",
         "kind": "wiki"
       },
@@ -66525,6 +66782,11 @@
         "source": "anthropic",
         "target": "agent-cost-controls",
         "kind": "wiki"
+      },
+      {
+        "source": "apple",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
       },
       {
         "source": "apple",
@@ -66844,6 +67106,11 @@
       {
         "source": "austin-ai-club-june-24-2026",
         "target": "amazon",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "apple",
         "kind": "topic"
       },
       {
@@ -67244,6 +67511,11 @@
       {
         "source": "coding-agents",
         "target": "anthropic",
+        "kind": "wiki"
+      },
+      {
+        "source": "coding-agents",
+        "target": "apple",
         "kind": "wiki"
       },
       {
@@ -68370,11 +68642,11 @@
   },
   "stats": {
     "pageCount": 61,
-    "topicCount": 168,
+    "topicCount": 170,
     "rawPageCount": 0,
-    "linkCount": 421,
+    "linkCount": 425,
     "sourceRecordCount": 7,
-    "sourceLinkCount": 626,
+    "sourceLinkCount": 633,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-06-24"
   }

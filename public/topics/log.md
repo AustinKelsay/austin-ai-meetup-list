@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-24] update | Apple Container sandbox topic added
+
+- Added **Apple makes Mac agent sandboxes native** as a June 24 Agent Infrastructure Topic from the user's Ayaan X submission.
+- Backed the topic with Apple Container 1.0.0, the Apple Containerization framework, and the `sandboxy` example for running Claude Code in per-session Linux microVMs with workspace mounts, cached environments, and HTTP allowlists.
+- Updated [[Apple]], [[Agent Infrastructure]], and [[Coding Agents]], and mirrored the Topic into `src/data.js` with the X embed and supporting Apple/GitHub links.
+
 ## [2026-06-24] update | Fugu-Ultra live on OpenRouter added to model-panel topic
 
 - Picked up the same-day Sakana AI X post (`x.com/SakanaAILabs/status/2069811015152493052`) announcing Fugu-Ultra live on OpenRouter, with the joint "single monolithic model vs collective intelligence" framing.

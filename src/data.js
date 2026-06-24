@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Local model services, Bitcoin-paid training runs, HRF's activist agent camps, agent payments, open serving infra, compound model APIs, model-release super-slides, rumor-watch delays, Fable fallout, and big company platform pulls: Ben turns Bwen into qwenstradamus, OpenAgents asks the room to kick the tires on Tassadar/Pylon, HRF turns Agent Camp and AI Hack for Freedom into a real build pipeline, Hermes gets Stripe checkout, vLLM makes weird open models runnable, OpenRouter and Sakana turn model panels into endpoints, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, AI Twitter says GPT-5.6/Gemini 3.5 Pro slipped while Sonnet 5 is still unconfirmed, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, OpenAI shows its Broadcom inference chip, Midjourney tries to turn ultrasound scans into spa hardware, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
+        "Local model services, Bitcoin-paid training runs, HRF's activist agent camps, agent payments, Apple Container sandboxes, open serving infra, compound model APIs, model-release super-slides, rumor-watch delays, Fable fallout, and big company platform pulls: Ben turns Bwen into qwenstradamus, OpenAgents asks the room to kick the tires on Tassadar/Pylon, HRF turns Agent Camp and AI Hack for Freedom into a real build pipeline, Hermes gets Stripe checkout, Apple makes Mac agent sandboxes native, vLLM makes weird open models runnable, OpenRouter and Sakana turn model panels into endpoints, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, AI Twitter says GPT-5.6/Gemini 3.5 Pro slipped while Sonnet 5 is still unconfirmed, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, OpenAI shows its Broadcom inference chip, Midjourney tries to turn ultrasound scans into spa hardware, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
     },
     showcases: [
       {
@@ -190,6 +190,22 @@ export const meetups = [
             linkPair: [
               "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
               "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+            ],
+          },
+          {
+            title: "Apple makes Mac agent sandboxes native",
+            description:
+              "Apple Container 1.0 makes Docker Desktop optional on Apple Silicon, and sandboxy shows the agent version: coding agents run in per-session Linux microVMs with workspace mounts, cached environments, and HTTP allowlists. Still experimental, but this is the local trust boundary moving into Apple's own stack.",
+            chip: "agent sandbox",
+            href: "https://github.com/apple/container",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/twtayaan/status/2069307717177737658?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/apple/container/releases/tag/1.0.0",
+              "https://github.com/apple/containerization",
+              "https://github.com/apple/containerization/tree/main/examples/sandboxy",
             ],
           },
           {

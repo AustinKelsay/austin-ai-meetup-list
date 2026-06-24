@@ -126,6 +126,33 @@ sources: []
   - Access: 2026-06-23
   - Notes: Hermes docs for the optional Stripe Link CLI skill. The page says the skill wraps `@stripe/link-cli`, supports one-time virtual cards or Shared Payment Tokens, and gates every spend through in-app Link approval that Hermes cannot self-approve.
 
+### Apple makes Mac agent sandboxes native
+- Post: https://x.com/twtayaan/status/2069307717177737658
+  - Title: "Apple just made Docker Desktop optional on Mac"
+  - Type: X post
+  - Access: 2026-06-24
+  - Notes: Ayaan's June 23 post amplified Apple Container as a free native way to run Linux containers on Mac without Docker Desktop. X oEmbed text calls out Docker Desktop optionality and the GitHub traction around `apple/container`.
+- Repo: https://github.com/apple/container
+  - Title: "apple/container"
+  - Type: Repository
+  - Access: 2026-06-24
+  - Notes: Apple Container is a Swift CLI for creating and running Linux containers as lightweight VMs on Apple Silicon. The repo readme says it consumes and produces OCI-compatible images, uses Containerization for low-level management, and requires macOS 26 for the current supported path.
+- Release: https://github.com/apple/container/releases/tag/1.0.0
+  - Title: "apple/container 1.0.0"
+  - Type: Release notes
+  - Access: 2026-06-24
+  - Notes: June 9 1.0.0 release. The release notes frame Container as one year old and highlight `container machine` for long-lived Linux environments with tight host integration.
+- Source: https://github.com/apple/containerization
+  - Title: "apple/containerization"
+  - Type: Framework repository
+  - Access: 2026-06-24
+  - Notes: Containerization is Apple's Swift package for running Linux containers on macOS with Virtualization.framework. The readme says each Linux container executes inside its own lightweight VM, with sub-second starts using an optimized Linux kernel configuration and minimal root filesystem.
+- Repo: https://github.com/apple/containerization/tree/main/examples/sandboxy
+  - Title: "sandboxy"
+  - Type: Example tool
+  - Access: 2026-06-24
+  - Notes: `sandboxy` is an experimental Containerization example that runs AI coding agents in sandboxed Linux environments on Apple Silicon. It mounts the current workspace, caches the environment for fast reruns, supports Claude Code by default, uses per-agent-session microVMs, and enforces HTTP/HTTPS allowlists via a host proxy. The README caveats that services listening on `0.0.0.0` on the host are currently reachable and should be tightened later.
+
 ### vLLM turns weird open models into runnable systems
 - Source: https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html
   - Title: "MiniMax M3 in vLLM: Day-0 Serving for 1M-Token Multimodal Reasoning"
