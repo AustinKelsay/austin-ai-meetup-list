@@ -2,6 +2,42 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-24] update | HRF Agent Camp mini-doc topic added
+
+- Added **HRF turns AI hackathons into an activist training pipeline** as a June 24 Local Builds & Projects Topic from Alex Gladstein's mini-doc launch post and HRF's own AI for Individual Rights sources.
+- Connected the Topic to Agent Camp, AI Hack for Freedom II, the Oslo Freedom Forum AI Lounge, and the room's participant angle rather than duplicating the older May 13 HRF grants story.
+- Created [[Human Rights Foundation]], updated [[Agent Infrastructure]] and [[Privacy Tooling]], and mirrored the Topic into `src/data.js` with the X embed, YouTube mini-doc, and HRF support links.
+
+## [2026-06-24] update | OpenAgents Tassadar training-run topic added
+
+- Added **OpenAgents pays the training run in sats** as a June 24 Local Builds & Projects Topic from the meetup-chat request around Christopher David and OpenAgents.
+- Verified the OpenAgents X launch post, the current Pylon v1.0 forum thread, live public Tassadar run summary, and live Pylon stats; framed the topic as a real kick-the-tires local/community build rather than a polished launch claim.
+- Created [[Christopher David]] and [[OpenAgents]], updated [[Agent Infrastructure]] and [[Compute Strategy]], and mirrored the Topic into `src/data.js` with the OpenAgents X embed.
+
+## [2026-06-24] update | Midjourney scanner hardware topic added
+
+- Added **Midjourney turns image-gen into body hardware** as a June 24 Big Tech Moves Topic, grouping the official Midjourney Medical launch, technical scanner thread, Butterfly Network hardware statement, and skeptical medical-imaging coverage.
+- Created [[Midjourney]] and updated [[Compute Strategy]] so the scanner stays tied to the recurring "AI labs become physical infrastructure companies" thread.
+- Mirrored the Topic into `src/data.js` with the official Midjourney X embeds for Presentation Mode.
+
+## [2026-06-24] update | OpenAI Broadcom inference chip topic added
+
+- Added **OpenAI gets its own inference chip** as a June 24 Big Tech Moves Topic from the user's OpenAI X submission, backed by OpenAI's official Jalapeno announcement.
+- Created [[Broadcom]] and updated [[OpenAI]] plus [[Compute Strategy]] so the custom inference-chip story stays connected to the recurring compute thread.
+- Mirrored the Topic into `src/data.js` with the official OpenAI X embed for Presentation Mode.
+
+## [2026-06-24] update | frontier-model rumor watch added
+
+- Added **AI Twitter's model-release calendar slips** as a June 24 Models & Research Topic, preserving the user's research-agent source chain while framing GPT-5.6, Gemini 3.5 Pro, and Sonnet 5 timing as unconfirmed release-cadence chatter.
+- Added source records for the core X scoop, Digg amplification and prior hype clusters, Google's official Gemini 3.5 Pro timing language, OpenAI release notes, and Anthropic release/model docs.
+- Updated [[OpenAI]], [[Google]], and [[Anthropic]], and mirrored the Topic into `src/data.js` with the X scoop embed and official/Digg supporting links.
+
+## [2026-06-24] update | model-orchestration topic added
+
+- Added **One API, many models becomes the frontier wrapper** as a June 24 Agent Infrastructure Topic, combining OpenRouter Fusion and Sakana Fugu as the same emerging pattern: model panels and learned agent pools behind one API.
+- Added public source records for the OpenRouter Fusion blog/product page, official OpenRouter X launch post, Sakana Fugu release/product page, and official Sakana AI X launch post.
+- Created [[OpenRouter]] and [[Sakana AI]], updated [[Agent Infrastructure]], and mirrored the Topic into `src/data.js` with official X embeds and supporting links for Presentation Mode.
+
 ## [2026-06-23] update | vLLM serving-infra topic added
 
 - Added **vLLM turns weird open models into runnable systems** as a June 24 Agent Infrastructure Topic, validating the non-duplicate research-agent suggestions around MiniMax M3 serving, DiffusionGemma runtime support, vLLM Semantic Router Fusion, and NVIDIA's local DiffusionGemma numbers.

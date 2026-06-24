@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Local model services, agent payments, open serving infra, model-release super-slides, Fable fallout, and Cursor's platform play: Ben turns Bwen into qwenstradamus, Hermes gets Stripe checkout, vLLM makes weird open models runnable, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
+        "Local model services, Bitcoin-paid training runs, HRF's activist agent camps, agent payments, open serving infra, compound model APIs, model-release super-slides, rumor-watch delays, Fable fallout, and big company platform pulls: Ben turns Bwen into qwenstradamus, OpenAgents asks the room to kick the tires on Tassadar/Pylon, HRF turns Agent Camp and AI Hack for Freedom into a real build pipeline, Hermes gets Stripe checkout, vLLM makes weird open models runnable, OpenRouter and Sakana turn model panels into endpoints, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, AI Twitter says GPT-5.6/Gemini 3.5 Pro slipped while Sonnet 5 is still unconfirmed, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, OpenAI shows its Broadcom inference chip, Midjourney tries to turn ultrasound scans into spa hardware, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
     },
     showcases: [
       {
@@ -130,6 +130,45 @@ export const meetups = [
             },
             topStory: true,
           },
+          {
+            title: "OpenAgents pays the training run in sats",
+            description:
+              "Christopher David's OpenAgents has the Tassadar run live: Pylon nodes claim executor-trace work, exact-replay validators check it, and receipt-backed sats settle through the system. The fun part for tonight is that this came through meetup chat as a real kick-the-tires request, not a polished launch page.",
+            chip: "local build",
+            href: "https://openagents.com/forum/t/e56dffa7-5166-496f-9458-11fcfe150e36",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAgents/status/2067700091750879691?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://openagents.com/api/public/tassadar-run-summary",
+              "https://openagents.com/api/public/pylon-stats",
+              "https://openagents.com/",
+            ],
+          },
+          {
+            title: "HRF turns AI hackathons into an activist training pipeline",
+            description:
+              "Human Rights Foundation's mini-doc makes the local angle concrete: AI Hack for Freedom, Agent Camp, and the AI Lounge are becoming a pipeline where dissidents learn to run open-source agents and ship freedom-tech tools fast. This is not abstract AI-for-good; people in this room have been part of the build/training loop.",
+            chip: "freedom tech",
+            href: "https://hrf.org/latest/hrfs-ai-for-individual-rights-newsletter-10/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/gladstein/status/2066869619902578776?ref_src=twsrc%5Etfw",
+            },
+            video: {
+              href: "https://www.youtube.com/watch?v=JkmXxLmC1Uo",
+              embedHref: "https://www.youtube.com/embed/JkmXxLmC1Uo",
+              title: "HRF's AI Agent Camps: Supercharging Activism with AI",
+              caption:
+                "Mini-doc on HRF's first 18 months of Agent Camps, AI Hack for Freedom, and activist open-agent training.",
+            },
+            linkPair: [
+              "https://hrf.org/program/ai-for-individual-rights/",
+              "https://hrf.org/latest/hrf-sponsors-second-edition-of-ai-hack-for-freedom-in-nashville-tn-may-9-10/",
+              "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-ii/",
+            ],
+          },
         ],
       },
       {
@@ -165,6 +204,28 @@ export const meetups = [
               "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
             ],
           },
+          {
+            title: "One API, many models becomes the frontier wrapper",
+            description:
+              "OpenRouter Fusion and Sakana AI Fugu both turn model choice into orchestration: send one request, fan out to a panel or learned agent pool, then synthesize the answer behind an OpenAI-compatible API. The shift is from \"which model wins?\" to who controls the router, judge, and swappable model pool.",
+            chip: "model orchestration",
+            href: "https://openrouter.ai/blog/announcements/fusion-beats-frontier/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenRouter/status/2065856853989270011?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/SakanaAILabs/status/2068861630327443966?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://openrouter.ai/openrouter/fusion",
+              "https://sakana.ai/fugu-release/",
+              "https://sakana.ai/fugu/",
+            ],
+          },
         ],
       },
       {
@@ -187,6 +248,25 @@ export const meetups = [
             ],
             linkPair: ["https://digg.com/ai/a95mmx07"],
             topStory: true,
+          },
+          {
+            title: "AI Twitter's model-release calendar slips",
+            description:
+              "The current leak says GPT-5.6 moved to mid-July, Gemini 3.5 Pro missed June, and \"Claude Sonnet 5\" is enterprise-EA chatter, not a public launch. Treat it as release-cadence signal, not confirmed fact: Digg amplified the scoop, Google did publicly say 3.5 Pro was coming \"next month,\" OpenAI has no GPT-5.6 release note, and Anthropic public docs still stop at Sonnet 4.6 plus Fable/Mythos 5.",
+            chip: "rumor watch",
+            href: "https://digg.com/ai/6hp5va4b",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/synthwavedd/status/2069432791184650426?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://digg.com/ai/djnhbslr",
+              "https://digg.com/ai/kia1m38d",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+              "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+              "https://support.claude.com/en/articles/12138966-release-notes",
+              "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            ],
           },
           {
             title: "Open models are eating the frontier gap",
@@ -272,6 +352,39 @@ export const meetups = [
         purpose:
           "This section covers major company moves, hardware launches, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
         items: [
+          {
+            title: "OpenAI gets its own inference chip",
+            description:
+              "OpenAI and Broadcom unveiled Jalapeno, a custom LLM inference accelerator with lab samples running GPT-5.3-Codex-Spark and a multi-generation gigawatt-scale deployment plan. The point is cost-per-token control: frontier labs are starting to own the silicon path, not just rent GPU clusters.",
+            chip: "compute",
+            href: "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2069770172802773292?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Midjourney turns image-gen into body hardware",
+            description:
+              'Midjourney is pitching a full-body "Ultrasonic CT" scanner plus a San Francisco spa: water, half a million ultrasound elements, a 60-second scan target, and Butterfly ultrasound-on-chip modules underneath. Treat the MRI-rival language as unproven, but the company-shape shift is real: AI labs are trying to own weird physical infrastructure, not just model APIs.',
+            chip: "hardware",
+            href: "https://www.midjourney.com/medical",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/midjourney/status/2067421950314688759?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/midjourney/status/2067422898407837797?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://www.midjourney.com/medical/blogpost",
+              "https://ir.butterflynetwork.com/News/press-releases/news-details/2026/Butterfly-Network-Provides-Commentary-on-Midjourney-Medicals-Full-Body-Ultrasound-Scanner-Announcement/default.aspx",
+              "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
+            ],
+          },
           {
             title: "Cursor previews Origin, a GitHub competitor",
             description:

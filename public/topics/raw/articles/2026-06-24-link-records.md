@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - June 24, 2026 - Source Link Records
 created: 2026-06-16
-updated: 2026-06-23
+updated: 2026-06-24
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -42,6 +42,70 @@ sources: []
   - Type: Repository
   - Access: 2026-06-23
   - Notes: Public source repo for the bwen training pipeline; `git ls-remote` resolved HEAD to `cd58bb5c355516913d1b1cec83f79b92e7b70c2c`.
+
+### OpenAgents pays the training run in sats
+- Post: https://x.com/OpenAgents/status/2067700091750879691
+  - Title: "Episode 238: The Training Run Begins"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: OpenAgents launch post for the Tassadar model training run. X oEmbed text says the run pays compute providers in Bitcoin and is the first public training run for Percepta's "LLM-computer" architecture.
+- Source: https://openagents.com/forum/t/e56dffa7-5166-496f-9458-11fcfe150e36
+  - Title: "Pylon v1.0.0 is live - install it, join the Tassadar run, help us shake out the basics"
+  - Type: Forum thread
+  - Access: 2026-06-24
+  - Notes: Public thread Christopher David pointed the meetup chat toward. The thread records Pylon v1.0.0 launch, the initial "no claimable window" catch, self-serve claiming opening on `run.tassadar.executor.20260615`, first verified self-serve worker/validator pair, and patches through v1.0.5.
+- Source: https://openagents.com/api/public/tassadar-run-summary
+  - Title: "OpenAgents public Tassadar run summary"
+  - Type: Live JSON status
+  - Access: 2026-06-24
+  - Notes: Public run projection showed `runState: active`, objective "Grow the Tassadar verified-trace corpus via paid executor-trace work, verified by exact replay", `paymentMode: operator_approved_small_sats`, 21 active windows, 9 assigned contributors, 12 verified work challenges, and 5 settled receipts totaling 1,020 sats.
+- Source: https://openagents.com/api/public/pylon-stats
+  - Title: "OpenAgents public Pylon stats"
+  - Type: Live JSON status
+  - Access: 2026-06-24
+  - Notes: Public Pylon stats showed status live, 86 total registered Pylons, 7 seen in the last 24 hours, 2 online/wallet-ready/assignment-ready/sellable now, 9 training assigned contributors, and receipt-backed public real sats settled totals. Counts are live-at-read and should be rechecked before quoting later.
+- Source: https://openagents.com/
+  - Title: "OpenAgents"
+  - Type: Product page
+  - Access: 2026-06-24
+  - Notes: Homepage currently points to "Join the Tassadar training run" and exposes public JSON discovery endpoints for homepage data, Pylon stats, product promises, forum launch status, and the capability manifest.
+- Source: https://oslofreedomforum.com/speaker/christopher-david/
+  - Title: "Christopher David - Oslo Freedom Forum"
+  - Type: Profile
+  - Access: 2026-06-24
+  - Notes: Public profile identifying Christopher David as founder and CEO of OpenAgents; used only to support the local person/entity context.
+
+### HRF turns AI hackathons into an activist training pipeline
+- Post: https://x.com/gladstein/status/2066869619902578776
+  - Title: "Alex Gladstein announces HRF AI mini-doc"
+  - Type: X post
+  - Access: 2026-06-24
+  - Notes: June 16 mini-doc launch post from Alex Gladstein. Search/oEmbed text says HRF began filming a mini-doc about its AI program 18 months ago and frames the program as moving from the idea that AI should help freedom to helping dissidents scale their work.
+- Video: https://www.youtube.com/watch?v=JkmXxLmC1Uo
+  - Title: "HRF's AI Agent Camps: Supercharging Activism with AI"
+  - Type: YouTube video
+  - Access: 2026-06-24
+  - Notes: HRF mini-doc highlighting the first 18 months of the AI for Individual Rights program and the movement to use AI in service of human rights defenders.
+- Source: https://hrf.org/latest/hrfs-ai-for-individual-rights-newsletter-10/
+  - Title: "HRF's AI for Individual Rights Newsletter #10"
+  - Type: Newsletter
+  - Access: 2026-06-24
+  - Notes: June 15 HRF newsletter says Agent Camp is a hands-on program for human rights defenders to deploy open-source AI agents; it also reports that the Oslo Freedom Forum AI Lounge helped participants build more than 100 websites in two days.
+- Source: https://hrf.org/program/ai-for-individual-rights/
+  - Title: "AI for Individual Rights"
+  - Type: Program page
+  - Access: 2026-06-24
+  - Notes: HRF program page frames AI for Individual Rights around open-source, privacy-protecting AI tools for dissidents, and lists Agent Camp plus AI Hack for Freedom as program initiatives.
+- Source: https://hrf.org/latest/hrf-sponsors-second-edition-of-ai-hack-for-freedom-in-nashville-tn-may-9-10/
+  - Title: "HRF Sponsors Second Edition of AI Hack for Freedom in Nashville, TN, May 9-10"
+  - Type: Press release
+  - Access: 2026-06-24
+  - Notes: May 8 HRF release says AI Hack for Freedom II paired eight human rights and democracy advocates with open-source developers. It also says activists prepared through a San Diego Agent Camp run by HRF and Finite using Hermes, OpenClaw, OpenCode, and Finite.Computer.
+- Source: https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-ii/
+  - Title: "Announcing the Winners of AI Hack for Freedom II"
+  - Type: Press release
+  - Access: 2026-06-24
+  - Notes: May 13 HRF results post says developers used AI agents to prototype tools that otherwise would have taken months, prizes were paid in Bitcoin, and Agent Camp equipped activists to keep building after the hackathon.
 
 ## Agent Infrastructure
 
@@ -84,6 +148,38 @@ sources: []
   - Access: 2026-06-23
   - Notes: NVIDIA's June 10 local-AI post frames DiffusionGemma as a compute-bound block-generation workload, reports 1,000 tokens/sec on H100, 150 tokens/sec on DGX Spark, and up to 2,000 tokens/sec on DGX Station, with day-zero support in Hugging Face Transformers, vLLM, and Unsloth.
 
+### One API, many models becomes the frontier wrapper
+- Source: https://openrouter.ai/blog/announcements/fusion-beats-frontier/
+  - Title: "Surpassing Frontier Performance with Fusion"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: OpenRouter's June 12 Fusion launch post. It frames Fusion as one API call that sends a prompt to a panel of models, gives them web search/fetch, uses a judge model to synthesize consensus/contradictions/blind spots, and reports DRACO results where model panels beat solo frontier models on deep research tasks.
+- Source: https://openrouter.ai/openrouter/fusion
+  - Title: "OpenRouter: Fusion"
+  - Type: Product/API page
+  - Access: 2026-06-24
+  - Notes: Product page for `openrouter/fusion`. The page describes Quality and Budget presets, custom `analysis_models` and judge configuration, OpenAI-compatible usage, and pricing as the sum of underlying panel and judge completions.
+- Post: https://x.com/OpenRouter/status/2065856853989270011
+  - Title: "OpenRouter introduces Fusion API"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Official OpenRouter announcement post for Fusion, useful as the social launch source; the official blog and product page carry the durable technical details.
+- Source: https://sakana.ai/fugu-release/
+  - Title: "Sakana Fugu: One Model to Command Them All"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: Sakana AI's June 22 launch post for Fugu and Fugu Ultra. It describes a full multi-agent orchestration system exposed as a single foundation-model API, with Fugu itself trained to call and coordinate an agent pool of LLMs.
+- Source: https://sakana.ai/fugu/
+  - Title: "Sakana Fugu - Multi-Agent System as a Model"
+  - Type: Product/API page
+  - Access: 2026-06-24
+  - Notes: Product page describing Fugu and Fugu Ultra behind one OpenAI-compatible API, opt-outs for specific agents/providers, and research grounding in TRINITY and Conductor learned-orchestration papers.
+- Post: https://x.com/SakanaAILabs/status/2068861630327443966
+  - Title: "Sakana AI announces Fugu"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Official Sakana AI launch-thread source for Fugu; the official release and product pages are the durable source of technical detail.
+
 ## Models & Research
 
 ### Closed model releases are a quiet week
@@ -107,6 +203,48 @@ sources: []
   - Type: Official X post
   - Access: 2026-06-23
   - Notes: Official OpenAI thread post describing GPT-5.5-Cyber as its most capable cyber model for authorized defensive work; retained to support the June 22 access/productization update.
+
+### AI Twitter's model-release calendar slips
+- Post: https://x.com/synthwavedd/status/2069432791184650426
+  - Title: "leo scoop on GPT-5.6, Gemini 3.5 Pro, Bidi, and Sonnet 5 timing"
+  - Type: X post
+  - Access: 2026-06-24
+  - Notes: Main leak source claiming GPT-5.6 slipped from the current week to roughly mid-July, Gemini 3.5 Pro will not launch in June, Bidi preparations are underway, and Claude Sonnet 5 may exist in enterprise early access. Treated as an unconfirmed rumor source, not official release information.
+- Source: https://digg.com/ai/6hp5va4b
+  - Title: "OpenAI postpones GPT-5.6 release to mid-July as Google DeepMind pauses Gemini 3.5 Pro"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Digg aggregation of the delay rumor. Useful as amplification/context, while Digg itself notes no official word confirms mid-July timing or the specific pause reasons.
+- Source: https://digg.com/ai/djnhbslr
+  - Title: "Rumors claim OpenAI is preparing to release GPT-5.6, GPT-5.6 Pro, and bidirectional voice model GPT-Bidi-1"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Earlier pre-delay rumor cluster establishing the June GPT-5.6 hype cycle and Bidi chatter. Included to show the expectation the newer delay rumor is reacting against.
+- Source: https://digg.com/ai/kia1m38d
+  - Title: "A 'claude-sonnet-5' model slug appears on an Anthropic partner platform"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Digg aggregation of Sonnet 5 slug/partner-platform chatter. Supports the careful framing that Sonnet 5 is an unannounced slug or enterprise-access rumor, not a public launch delay.
+- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+  - Title: "Gemini 3.5: frontier intelligence with action"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: Official Google Gemini 3.5 post: Gemini 3.5 Flash was available immediately, while Google said 3.5 Pro was already in internal use and expected to roll out "next month." This supports the June expectation, not the unconfirmed delay claim.
+- Source: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - Title: "ChatGPT - Release Notes"
+  - Type: Official release notes
+  - Access: 2026-06-24
+  - Notes: OpenAI's public ChatGPT release notes showed no GPT-5.6 launch or delay notice when checked; recent official model context still centered on GPT-5.5 and GPT-5.2 retirement.
+- Source: https://support.claude.com/en/articles/12138966-release-notes
+  - Title: "Claude Release Notes"
+  - Type: Official release notes
+  - Access: 2026-06-24
+  - Notes: Anthropic's public release notes list June 9 Fable 5 launch and June 12 Fable/Mythos suspension, with no public Sonnet 5 launch note.
+- Source: https://docs.anthropic.com/en/docs/about-claude/models/overview
+  - Title: "Claude models overview"
+  - Type: Official model documentation
+  - Access: 2026-06-24
+  - Notes: Anthropic's public model overview lists Fable 5/Mythos 5 plus Opus 4.8, Sonnet 4.6, and Haiku 4.5; no public Sonnet 5 model is listed.
 
 ### Open models are eating the frontier gap
 - Source: https://z.ai/blog/glm-5.2
@@ -250,6 +388,50 @@ sources: []
   - Notes: Low-engagement pointer (265 views, 3 likes) summarizing the Politico report that Andy Jassy and Amazon raised Fable concerns to the White House, leading to export controls.
 
 ## Big Tech Moves
+
+### OpenAI gets its own inference chip
+- Source: https://openai.com/index/openai-broadcom-jalapeno-inference-chip/
+  - Title: "OpenAI and Broadcom unveil LLM-optimized inference chip"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: OpenAI's June 24 announcement for Jalapeno, its first Intelligence Processor and a custom LLM inference accelerator co-developed with Broadcom and Celestica. The post says lab samples are running GPT-5.3-Codex-Spark, early tests show substantially better performance per watt than current state of the art, and OpenAI plans multi-generation gigawatt-scale deployment with data center partners.
+- Post: https://x.com/OpenAI/status/2069770172802773292
+  - Title: "OpenAI announces Jalapeno with Broadcom"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Official OpenAI social launch post supplied by the user; the durable technical details are in the OpenAI announcement.
+
+### Midjourney turns image-gen into body hardware
+- Source: https://www.midjourney.com/medical
+  - Title: "Midjourney Medical - the full-body ultrasound (Ultrasonic CT)"
+  - Type: Official product page
+  - Access: 2026-06-24
+  - Notes: Official product page for Midjourney Medical and its Ultrasonic CT scanner. The page frames the device as sound-and-water full-body ultrasound with a 60-second scan target, a San Francisco spa planned for late 2027, and a goal of 50,000 scanners over six years.
+- Source: https://www.midjourney.com/medical/blogpost
+  - Title: "A New Era of Midjourney"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: Official launch post explaining the scanner mechanics: a shallow water pool, descending platform, ring of roughly half a million ultrasound elements, very high data volume, and image reconstruction from wave changes. Also states the near-term plan starts with body-composition maps while pursuing FDA-expanded capabilities.
+- Source: https://ir.butterflynetwork.com/News/press-releases/news-details/2026/Butterfly-Network-Provides-Commentary-on-Midjourney-Medicals-Full-Body-Ultrasound-Scanner-Announcement/default.aspx
+  - Title: "Butterfly Network Provides Commentary on Midjourney Medical's Full Body Ultrasound Scanner Announcement"
+  - Type: Partner statement
+  - Access: 2026-06-24
+  - Notes: Butterfly Network confirms the current prototype incorporates 40 Butterfly Ultrasound-on-Chip imaging modules per system under a co-development and licensing agreement, with future generations expected to use more modules.
+- Source: https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence
+  - Title: "Something's off with Midjourney's pivot to body scanners"
+  - Type: Skeptical reporting
+  - Access: 2026-06-24
+  - Notes: Medical-imaging experts tell The Verge the idea is plausible but the MRI-equivalence and clinical-impact claims need evidence. Useful caveat source for framing the story as a major physical-infrastructure pivot, not validated diagnostics.
+- Post: https://x.com/midjourney/status/2067421950314688759
+  - Title: "Midjourney announces Midjourney Medical"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Official Midjourney social launch post for the new medical division.
+- Post: https://x.com/midjourney/status/2067422898407837797
+  - Title: "Midjourney technical dive into the Midjourney Scanner"
+  - Type: Official X post
+  - Access: 2026-06-24
+  - Notes: Official technical video post used as the main slide-friendly social embed for the scanner mechanics.
 
 ### Cursor previews Origin, a GitHub competitor
 - Post: https://x.com/morganlinton/status/2066927927997190564?s=46
