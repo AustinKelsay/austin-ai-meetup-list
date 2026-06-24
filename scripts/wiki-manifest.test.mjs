@@ -557,4 +557,35 @@ sources: []
     );
     expect(cursorOnlyTopic.wikiIds).toEqual(["cursor"]);
   });
+
+  it("disambiguates Topic ids that collapse to the same slug", async () => {
+    const topicsDir = await createTopicsDir({
+      "2026-05-27.md": `---
+title: Austin AI Club - May 27, 2026
+created: 2026-05-05
+updated: 2026-05-27
+type: meetup
+tags: [meetup, topic-board]
+sources: []
+---
+
+# Austin AI Club
+
+## May 27, 2026
+
+### Agent Infrastructure
+- **Foo.Bar** - Dot punctuation should not silently overwrite another topic id.
+  Source: https://example.com/foo-dot
+- **FooBar** - The readable title is distinct even though the slug base collides.
+  Source: https://example.com/foobar
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+    const ids = manifest.topics.map((topic) => topic.id);
+
+    expect(manifest.topics.map((topic) => topic.title).sort()).toEqual(["Foo.Bar", "FooBar"]);
+    expect(new Set(ids).size).toBe(2);
+    expect(Object.keys(manifest.topicsById).sort()).toEqual([...ids].sort());
+  });
 });

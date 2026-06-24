@@ -45,5 +45,7 @@ describe("StaticTrackSection", () => {
     expect(html).toContain("href=\"/wiki/cursor\"");
     expect(html).toContain("href=\"/wiki?entities=cursor%2Cspacex\"");
     expect(html).toContain("related Topics");
+    expect(html).not.toMatch(/<li[^>]*role="button"/);
+    expect(html).toMatch(/<div class="topic-main topic-main--interactive" role="button" tabindex="0">/);
   });
 });

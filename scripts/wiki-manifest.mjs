@@ -286,6 +286,60 @@ function buildTopicId({ meetupId, section, title }) {
     .join("-");
 }
 
+function getStableIdSuffix(value) {
+  let hash = 0;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash = (hash * 31 + value.charCodeAt(index)) >>> 0;
+  }
+
+  return hash.toString(36);
+}
+
+function disambiguateTopicIds(topics) {
+  const groups = new Map();
+
+  for (const topic of topics) {
+    const group = groups.get(topic.id) ?? [];
+    group.push(topic);
+    groups.set(topic.id, group);
+  }
+
+  const claimedIds = new Set();
+
+  for (const group of groups.values()) {
+    const needsSuffix = group.length > 1 || claimedIds.has(group[0].id);
+    const sortedGroup = [...group].sort(
+      (a, b) =>
+        a.meetupId.localeCompare(b.meetupId) ||
+        a.section.localeCompare(b.section) ||
+        a.normalizedTitle.localeCompare(b.normalizedTitle),
+    );
+
+    for (const topic of sortedGroup) {
+      if (!needsSuffix && !claimedIds.has(topic.id)) {
+        claimedIds.add(topic.id);
+        continue;
+      }
+
+      const baseId = topic.id;
+      const suffix = getStableIdSuffix(
+        [topic.meetupId, topic.section, topic.normalizedTitle].join("::"),
+      );
+      let candidateId = `${baseId}-${suffix}`;
+      let attempt = 2;
+
+      while (claimedIds.has(candidateId)) {
+        candidateId = `${baseId}-${suffix}-${attempt}`;
+        attempt += 1;
+      }
+
+      topic.id = candidateId;
+      claimedIds.add(candidateId);
+    }
+  }
+}
+
 function addUniqueSorted(list, value) {
   if (!value || list.includes(value)) {
     return;
@@ -683,6 +737,7 @@ export async function buildWikiManifest({ topicsDir }) {
     const meetupDiff = b.meetupSlug.localeCompare(a.meetupSlug);
     return meetupDiff || a.section.localeCompare(b.section) || a.title.localeCompare(b.title);
   });
+  disambiguateTopicIds(topics);
   const topicsById = Object.fromEntries(topics.map((topic) => [topic.id, topic]));
 
   const graph = {

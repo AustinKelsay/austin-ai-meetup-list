@@ -562,6 +562,16 @@
   min-width: 0;
 }
 
+.topic-main--interactive {
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.topic-main--interactive:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.16);
+}
+
 .track h4 {
   margin: 0 0 0.06rem;
   font-size: 0.95rem;

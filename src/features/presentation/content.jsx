@@ -466,6 +466,9 @@ export function TopicArticle({ article }) {
 
 export function Topic({ item, id, onActivate, children }) {
   const isInteractive = typeof onActivate === "function";
+  const hasExtra = Boolean(children);
+  const isCardInteractive = isInteractive && !hasExtra;
+  const isMainInteractive = isInteractive && hasExtra;
   const className = [
     "topic",
     isInteractive ? "topic--interactive" : "",
@@ -489,12 +492,20 @@ export function Topic({ item, id, onActivate, children }) {
     <li
       id={id}
       className={className}
-      role={isInteractive ? "button" : undefined}
-      tabIndex={isInteractive ? 0 : undefined}
-      onClick={isInteractive ? onActivate : undefined}
-      onKeyDown={handleKeyDown}
+      role={isCardInteractive ? "button" : undefined}
+      tabIndex={isCardInteractive ? 0 : undefined}
+      onClick={isCardInteractive ? onActivate : undefined}
+      onKeyDown={isCardInteractive ? handleKeyDown : undefined}
     >
-      <div className="topic-main">
+      <div
+        className={["topic-main", isMainInteractive ? "topic-main--interactive" : ""]
+          .filter(Boolean)
+          .join(" ")}
+        role={isMainInteractive ? "button" : undefined}
+        tabIndex={isMainInteractive ? 0 : undefined}
+        onClick={isMainInteractive ? onActivate : undefined}
+        onKeyDown={isMainInteractive ? handleKeyDown : undefined}
+      >
         <h4>
           {item.href && !isInteractive ? (
             <a href={item.href} target="_blank" rel="noreferrer">
