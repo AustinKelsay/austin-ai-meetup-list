@@ -469,4 +469,92 @@ sources: []
       kind: "topic",
     });
   });
+
+  it("publishes meetup Topics with source links and resolved wiki page IDs", async () => {
+    const topicsDir = await createTopicsDir({
+      "entities/cursor.md": `---
+title: Cursor
+created: 2026-05-05
+updated: 2026-05-05
+type: entity
+tags: [entity, company]
+sources: []
+---
+
+# Cursor
+
+Cursor is a recurring Austin AI Club entity.
+
+## Mentioned In
+
+- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+`,
+      "entities/spacex.md": `---
+title: SpaceX
+created: 2026-05-05
+updated: 2026-05-05
+type: entity
+tags: [entity, company]
+sources: []
+---
+
+# SpaceX
+
+SpaceX is a recurring Austin AI Club entity.
+
+## Mentioned In
+
+- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+`,
+      "2026-05-27.md": `---
+title: Austin AI Club - May 27, 2026
+created: 2026-05-05
+updated: 2026-05-27
+type: meetup
+tags: [meetup, topic-board]
+sources: []
+---
+
+# Austin AI Club
+
+## May 27, 2026
+
+### Big Tech Moves
+- **SpaceX options Cursor for $60B** - The partnership gives Cursor access to Colossus supercomputing clusters while SpaceX gets the right to acquire the AI coding startup by year-end.
+  Source: https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/
+  Source: https://cursor.com/blog/spacex-model-training
+
+### Agent Infrastructure
+- **Composer 2.5 = Opus at one tenth the cost??** - [[Cursor]] ships a cheaper coding model.
+  Source: https://cursor.com/blog/composer-2-5
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+    const cursorSpaceXTopic = manifest.topics.find(
+      (topic) => topic.title === "SpaceX options Cursor for $60B",
+    );
+
+    expect(cursorSpaceXTopic).toMatchObject({
+      title: "SpaceX options Cursor for $60B",
+      normalizedTitle: "spacex options cursor for $60b",
+      section: "Big Tech Moves",
+      meetupId: "austin-ai-club-may-27-2026",
+      meetupTitle: "Austin AI Club - May 27, 2026",
+      meetupSlug: "2026-05-27",
+      sourceLinks: [
+        "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
+        "https://cursor.com/blog/spacex-model-training",
+      ],
+      wikiIds: ["cursor", "spacex"],
+      wikiTitles: ["Cursor", "SpaceX"],
+    });
+    expect(manifest.topicsById[cursorSpaceXTopic.id]).toEqual(cursorSpaceXTopic);
+    expect(manifest.stats.topicCount).toBe(2);
+
+    const cursorOnlyTopic = manifest.topics.find(
+      (topic) => topic.title === "Composer 2.5 = Opus at one tenth the cost??",
+    );
+    expect(cursorOnlyTopic.wikiIds).toEqual(["cursor"]);
+  });
 });

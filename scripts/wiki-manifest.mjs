@@ -250,6 +250,51 @@ function normalizeTopicTitle(value) {
     .toLowerCase();
 }
 
+function getReadableWikiText(value) {
+  return String(value ?? "")
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getMeetupSlugFromPage(page) {
+  const datedMatch = page.relativePath.match(/^(\d{4}-\d{2}-\d{2})\.md$/);
+
+  if (datedMatch) {
+    return datedMatch[1];
+  }
+
+  return normalizeWikiId(page.title);
+}
+
+function getTopicKey({ meetupId, section, title }) {
+  return [
+    meetupId,
+    normalizeWikiId(section || "topic"),
+    normalizeTopicTitle(title),
+  ].join("::");
+}
+
+function buildTopicId({ meetupId, section, title }) {
+  return [
+    meetupId,
+    normalizeWikiId(section || "topic"),
+    normalizeWikiId(getReadableWikiText(title)),
+  ]
+    .filter(Boolean)
+    .join("-");
+}
+
+function addUniqueSorted(list, value) {
+  if (!value || list.includes(value)) {
+    return;
+  }
+
+  list.push(value);
+  list.sort();
+}
+
 function getSourceLinkTitle(href) {
   try {
     const url = new URL(href);
@@ -365,6 +410,33 @@ function addReferencedTopicSource(page, reference, sourcePage) {
   }
 }
 
+function addTopicSourceReference(topic, reference) {
+  const sourceReference = {
+    href: reference.href,
+    title: getReadableWikiText(reference.title),
+    section: reference.section,
+  };
+
+  if (
+    !topic.sourceReferences.some(
+      (existing) =>
+        existing.href === sourceReference.href &&
+        existing.title === sourceReference.title &&
+        existing.section === sourceReference.section,
+    )
+  ) {
+    topic.sourceReferences.push(sourceReference);
+  }
+
+  if (!topic.sourceLinks.includes(reference.href)) {
+    topic.sourceLinks.push(reference.href);
+  }
+}
+
+function addTopicWikiId(topic, id) {
+  addUniqueSorted(topic.wikiIds, id);
+}
+
 function addGraphLink({ links, pagesById, sourceId, targetId }) {
   const sourcePage = pagesById[sourceId];
   const targetPage = pagesById[targetId];
@@ -462,9 +534,72 @@ export async function buildWikiManifest({ topicsDir }) {
   }
 
   const trackConcepts = pages.filter((page) => page.type === "concept" && page.tags.includes("track"));
+  const topicRecordsByKey = new Map();
+
+  function upsertTopicRecord(sourcePage, reference) {
+    if (!reference.title || !reference.href) {
+      return null;
+    }
+
+    const key = getTopicKey({
+      meetupId: sourcePage.id,
+      section: reference.section,
+      title: reference.title,
+    });
+
+    if (!topicRecordsByKey.has(key)) {
+      topicRecordsByKey.set(key, {
+        id: buildTopicId({
+          meetupId: sourcePage.id,
+          section: reference.section,
+          title: reference.title,
+        }),
+        title: getReadableWikiText(reference.title),
+        rawTitle: reference.title,
+        normalizedTitle: normalizeTopicTitle(reference.title),
+        section: reference.section,
+        meetupId: sourcePage.id,
+        meetupTitle: sourcePage.title,
+        meetupSlug: getMeetupSlugFromPage(sourcePage),
+        meetupHref: sourcePage.rawHref,
+        sourceLinks: [],
+        sourceReferences: [],
+        wikiIds: [],
+        wikiTitles: [],
+        unresolvedWikiLinks: [],
+        searchText: "",
+      });
+    }
+
+    const topic = topicRecordsByKey.get(key);
+    addTopicSourceReference(topic, reference);
+
+    const matchingConcept = trackConcepts.find(
+      (page) => normalizeWikiId(reference.section) === page.id,
+    );
+
+    if (matchingConcept) {
+      addTopicWikiId(topic, matchingConcept.id);
+    }
+
+    for (const wikilink of reference.wikilinks) {
+      const targetId = titleToId.get(normalizeWikiId(wikilink));
+
+      if (targetId) {
+        addTopicWikiId(topic, targetId);
+      } else if (!topic.unresolvedWikiLinks.includes(wikilink)) {
+        topic.unresolvedWikiLinks.push(wikilink);
+        topic.unresolvedWikiLinks.sort();
+      }
+    }
+
+    return topic;
+  }
 
   for (const sourcePage of pages.filter((page) => page.type === "meetup")) {
     for (const reference of sourcePage.sourceReferences) {
+      upsertTopicRecord(sourcePage, reference);
+
       const matchingConcept = trackConcepts.find(
         (page) => normalizeWikiId(reference.section) === page.id,
       );
@@ -496,6 +631,10 @@ export async function buildWikiManifest({ topicsDir }) {
       for (const reference of sourcePage.sourceReferences) {
         if (topicTitles.has(normalizeTopicTitle(reference.title))) {
           addReferencedTopicSource(page, reference, sourcePage);
+          const topic = upsertTopicRecord(sourcePage, reference);
+          if (topic) {
+            addTopicWikiId(topic, page.id);
+          }
           addGraphLink({
             links,
             pagesById,
@@ -514,6 +653,37 @@ export async function buildWikiManifest({ topicsDir }) {
 
     delete page.mentionedInTopicReferences;
   }
+
+  const topics = [...topicRecordsByKey.values()].map((topic) => {
+    topic.sourceReferences.sort(
+      (a, b) =>
+        a.section.localeCompare(b.section) ||
+        a.title.localeCompare(b.title) ||
+        a.href.localeCompare(b.href),
+    );
+    topic.wikiIds.sort((a, b) => {
+      const titleA = pagesById[a]?.title ?? a;
+      const titleB = pagesById[b]?.title ?? b;
+      return titleA.localeCompare(titleB) || a.localeCompare(b);
+    });
+    topic.wikiTitles = topic.wikiIds.map((id) => pagesById[id]?.title ?? id);
+    topic.searchText = [
+      topic.title,
+      topic.section,
+      topic.meetupTitle,
+      topic.meetupSlug,
+      ...topic.sourceLinks,
+      ...topic.wikiTitles,
+    ]
+      .filter(Boolean)
+      .join(" ");
+
+    return topic;
+  }).sort((a, b) => {
+    const meetupDiff = b.meetupSlug.localeCompare(a.meetupSlug);
+    return meetupDiff || a.section.localeCompare(b.section) || a.title.localeCompare(b.title);
+  });
+  const topicsById = Object.fromEntries(topics.map((topic) => [topic.id, topic]));
 
   const graph = {
     nodes: pages.map((page) => ({
@@ -546,12 +716,15 @@ export async function buildWikiManifest({ topicsDir }) {
     generatedAt: new Date().toISOString(),
     pages,
     pagesById,
+    topics,
+    topicsById,
     rawPages,
     links,
     unresolvedLinks,
     graph,
     stats: {
       pageCount: pages.length,
+      topicCount: topics.length,
       rawPageCount: rawPages.length,
       linkCount: links.length,
       sourceRecordCount,
