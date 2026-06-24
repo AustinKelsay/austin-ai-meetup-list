@@ -133,7 +133,7 @@ export const meetups = [
           {
             title: "OpenAgents pays the training run in sats",
             description:
-              "Christopher David's OpenAgents has the Tassadar run live: Pylon nodes claim executor-trace work, exact-replay validators check it, and receipt-backed sats settle through the system. The fun part for tonight is that this came through meetup chat as a real kick-the-tires request, not a polished launch page.",
+              "Christopher David's OpenAgents is running the first public training run for Percepta's \"LLM-computer\" architecture, and the first to pay compute providers in Bitcoin for it. Pylon nodes claim executor-trace work, exact-replay validators check it, and receipt-backed sats settle only on verified windows. Live board right now: 9 active Pylons, 21 open windows, 1,020 sats paid across 5 real settlements on Pylon v1.0.5. Christopher David pointed the room at the run, so tonight is \"install Pylon, watch sats land.\"",
             chip: "local build",
             href: "https://openagents.com/forum/t/e56dffa7-5166-496f-9458-11fcfe150e36",
             embed: {
@@ -207,7 +207,7 @@ export const meetups = [
           {
             title: "One API, many models becomes the frontier wrapper",
             description:
-              "OpenRouter Fusion and Sakana AI Fugu both turn model choice into orchestration: send one request, fan out to a panel or learned agent pool, then synthesize the answer behind an OpenAI-compatible API. The shift is from \"which model wins?\" to who controls the router, judge, and swappable model pool.",
+              "OpenRouter Fusion and Sakana AI Fugu both pitch the same wrapper this month: one request, fan out to a model panel or learned agent pool, then synthesize the answer behind an OpenAI-compatible API. Both are getting launch attention and benchmark wins (Fusion's DRACO result, Fugu's TRINITY/Conductor papers); the open question is whether panels actually beat solo models on real work, or just spend more tokens per answer.",
             chip: "model orchestration",
             href: "https://openrouter.ai/blog/announcements/fusion-beats-frontier/",
             embeds: [
@@ -281,27 +281,17 @@ export const meetups = [
               },
               {
                 type: "tweet",
-                href: "https://twitter.com/ArtificialAnlys/status/2069121548670406947?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
                 href: "https://twitter.com/Kimi_Moonshot/status/2065377579130142937?ref_src=twsrc%5Etfw",
               },
               {
                 type: "tweet",
                 href: "https://twitter.com/MiniMax_AI/status/2065436935188058208?ref_src=twsrc%5Etfw",
               },
-              {
-                type: "tweet",
-                href: "https://twitter.com/natolambert/status/2069055568124281315?ref_src=twsrc%5Etfw",
-              },
             ],
             linkPair: [
               "https://huggingface.co/zai-org/GLM-5.2",
               "https://github.com/zai-org/GLM-5",
               "https://docs.z.ai/guides/llm/glm-5.2",
-              "https://arxiv.org/abs/2602.15763",
-              "https://arxiv.org/abs/2603.12201",
               "https://digg.com/ai/wmry8acg",
               "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
               "https://digg.com/tech/lvlg9m33",
@@ -310,10 +300,25 @@ export const meetups = [
               "https://x.com/huggingface/status/2065464345413239151",
               "https://huggingface.co/collections/allenai/tmax",
               "https://huggingface.co/allenai/tmax-27b",
-              "https://huggingface.co/papers/2606.23321",
               "https://wai-org.com/blog/tmax/",
               "https://digg.com/ai/opo8qjez",
               "https://github.com/hamishivi/tmax",
+            ],
+          },
+          {
+            title: "Research behind the open model wave",
+            description:
+              "Three research artifacts back the June 24 open-model wave: IndexCache (sparse attention for GLM-5.2's long context), the GLM-5 technical report, and the TMax HF paper with the RL recipe and TMax-15k dataset. The benchmark and reference posts are the supporting reads; the model releases themselves are the previous slide.",
+            chip: "open model research",
+            href: "https://arxiv.org/abs/2603.12201",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ArtificialAnlys/status/2069121548670406947?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://arxiv.org/abs/2602.15763",
+              "https://huggingface.co/papers/2606.23321",
+              "https://twitter.com/natolambert/status/2069055568124281315?s=46",
             ],
           },
         ],
@@ -355,7 +360,7 @@ export const meetups = [
           {
             title: "OpenAI gets its own inference chip",
             description:
-              "OpenAI and Broadcom unveiled Jalapeno, a custom LLM inference accelerator with lab samples running GPT-5.3-Codex-Spark and a multi-generation gigawatt-scale deployment plan. The point is cost-per-token control: frontier labs are starting to own the silicon path, not just rent GPU clusters.",
+              "OpenAI and Broadcom unveiled Jalapeno, a custom LLM inference accelerator with lab samples running GPT-5.3-Codex-Spark and a multi-generation gigawatt-scale deployment plan. The play is cost-per-token control: frontier labs want to own the silicon path instead of renting GPU clusters.",
             chip: "compute",
             href: "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
             embed: {
@@ -366,7 +371,7 @@ export const meetups = [
           {
             title: "Midjourney turns image-gen into body hardware",
             description:
-              'Midjourney is pitching a full-body "Ultrasonic CT" scanner plus a San Francisco spa: water, half a million ultrasound elements, a 60-second scan target, and Butterfly ultrasound-on-chip modules underneath. Treat the MRI-rival language as unproven, but the company-shape shift is real: AI labs are trying to own weird physical infrastructure, not just model APIs.',
+              'Midjourney is pitching a full-body "Ultrasonic CT" scanner plus a San Francisco spa: water, half a million ultrasound elements, a 60-second scan target, and Butterfly ultrasound-on-chip modules underneath. MRI-rival claims are unproven, but the company-shape shift is real: AI labs are starting to own weird physical infrastructure, not just model APIs.',
             chip: "hardware",
             href: "https://www.midjourney.com/medical",
             embeds: [
@@ -388,7 +393,7 @@ export const meetups = [
           {
             title: "Cursor previews Origin, a GitHub competitor",
             description:
-              'Cursor is no longer just an editor. A leaked "Origin" positioning shows the AI coding companies want to own the full dev stack — code host, collaboration, and agent runtime — not just the IDE.',
+              'A leaked "Origin" slide shows Cursor wants to be more than an IDE: code host, collaboration, and agent runtime, all under one product line. Single X-post source, no feature or timing confirmation yet, so treat this as product ambition, not launch news.',
             chip: "platform",
             href: "https://x.com/morganlinton/status/2066927927997190564?s=46",
             embed: {

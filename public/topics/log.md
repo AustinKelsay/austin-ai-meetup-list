@@ -2,6 +2,32 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-24] update | open-models board split: model releases vs research
+
+- The **Open models are eating the frontier gap** topic was carrying four model releases (GLM-5.2, Kimi K2.7 Code, MiniMax M3, TMax-27B) plus a stack of non-model-release artifacts: the GLM-5 technical report, the IndexCache sparse-attention paper, the TMax HF paper, the ArtificialAnlys GDPval-AA benchmark X post, and the natolambert TMax-references meta-post. Per the room's editor standard, the slide is supposed to be model releases only.
+- Cleaned the open-models topic to model releases and model-release support (model cards, GitHub repos, docs, blogs, Digg coverage, and the three model-launch X embeds from Z.ai, Moonshot, and MiniMax).
+- Spun the non-model-release items into a new Models & Research topic **Research behind the open model wave**: IndexCache, the GLM-5 technical report, the TMax HF paper, the ArtificialAnlys GDPval-AA post, and the natolambert TMax-references post. Copy frames these as the research artifacts behind the model release wave rather than the model releases themselves.
+- Mirrored the split into `src/data.js` (new `jun24-models-research` item with chip "open model research" placed right after the open-models topic) and re-keyed the `raw/articles/2026-06-24-link-records.md` source bullets under the new `### Research behind the open model wave` heading so the wiki linter stays clean.
+
+## [2026-06-24] update | one-API-many-models copy reframed
+
+- Dropped the "The shift is from 'which model wins?' to who controls the router, judge, and swappable model pool" framing on **One API, many models becomes the frontier wrapper**. It read as evangelistic for the panel-orchestration pitch when the user flagged the underlying benchmark claims (Fusion's DRACO panel-wins, Fugu's TRINITY/Conductor grounding) as overstated.
+- New copy is descriptive of the wrapper, acknowledges the launch attention and benchmark wins, and lands the room question: do model panels actually beat solo models on real work, or do they just spend more tokens per answer.
+- Mirrored into `src/data.js` so Presentation Mode and the topic list stay aligned with the Markdown Archive.
+
+## [2026-06-24] update | de-AI-slop pass on the June 24 meetup
+
+- Audited every June 24 description for em-dashes and AI tells. The only em-dashes in the meetup were the two punchy asides in **Cursor previews Origin, a GitHub competitor** ("the full dev stack — code host, collaboration, and agent runtime — not just the IDE"); removed both, replaced "is no longer just" with a cleaner "wants to be more than," and added the source caveat (single X-post leak, no feature or timing confirmation) so the room knows to treat Origin as product ambition, not launch news.
+- Tightened **OpenAI gets its own inference chip**: "The point is cost-per-token control" became "The play is," and "starting to own the silicon path, not just rent GPU clusters" became "want to own the silicon path instead of renting GPU clusters" so the AI-style "X, not just Y" pattern collapses.
+- Tightened **Midjourney turns image-gen into body hardware**: "Treat the MRI-rival language as unproven, but the company-shape shift is real" became "MRI-rival claims are unproven, but the company-shape shift is real" so the "Treat X as" wrapper drops without losing the disclaimer.
+- Mirrored all three descriptions into `src/data.js` so Presentation Mode and the topic list stay aligned with the Markdown Archive.
+
+## [2026-06-24] update | OpenAgents Tassadar copy refreshed
+
+- Tightened the **OpenAgents pays the training run in sats** description to lead with the two X-post "world firsts" (first AI training run paid in Bitcoin, first public training run for Percepta's "LLM-computer" architecture) and added live board numbers (9 active Pylons, 21 open windows, 1,020 sats paid across 5 real settlements on Pylon v1.0.5) verified against `openagents.com/api/public/tassadar-run-summary` and `openagents.com/api/public/pylon-stats`.
+- Replaced the soft "not a polished launch page" meta-commentary with an actionable invite ("install Pylon, watch sats land") so the topic lands as a real kick-the-tires ask rather than commentary about one.
+- Mirrored the new description into `src/data.js` so Presentation Mode and the topic list stay aligned with the Markdown Archive.
+
 ## [2026-06-24] update | HRF Agent Camp mini-doc topic added
 
 - Added **HRF turns AI hackathons into an activist training pipeline** as a June 24 Local Builds & Projects Topic from Alex Gladstein's mini-doc launch post and HRF's own AI for Individual Rights sources.

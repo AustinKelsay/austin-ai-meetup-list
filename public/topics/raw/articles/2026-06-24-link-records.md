@@ -267,16 +267,6 @@ sources: []
   - Type: Documentation
   - Access: 2026-06-23
   - Notes: API guide for using GLM-5.2 on the Z.ai platform, including model endpoints and parameters.
-- Source: https://arxiv.org/abs/2602.15763
-  - Title: "GLM-5: from Vibe Coding to Agentic Engineering"
-  - Type: Research paper
-  - Access: 2026-06-23
-  - Notes: Technical report for the GLM-5 model family.
-- Source: https://arxiv.org/abs/2603.12201
-  - Title: "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse"
-  - Type: Research paper
-  - Access: 2026-06-23
-  - Notes: Paper describing the IndexShare/IndexCache sparse-attention architecture used in GLM-5.2 to reduce per-token FLOPs at long context.
 - Source: https://digg.com/ai/wmry8acg
   - Title: "Zai_org's open-weights GLM-5.2 ranks third overall on the GDPval-AA"
   - Type: Digg cluster
@@ -287,11 +277,6 @@ sources: []
   - Type: Official X post
   - Access: 2026-06-23
   - Notes: Z.ai's official announcement thread introducing GLM-5.2 with open weights, 1M context, and coding/agentic improvements.
-- Post: https://x.com/ArtificialAnlys/status/2069121548670406947
-  - Title: "Artificial Analysis GDPval-AA result for GLM-5.2"
-  - Type: X post
-  - Access: 2026-06-23
-  - Notes: Artificial Analysis post stating GLM-5.2 leads open weights and sits #3 overall on GDPval-AA.
 - Source: https://huggingface.co/moonshotai/Kimi-K2.7-Code
   - Title: "moonshotai/Kimi-K2.7-Code"
   - Type: Model card
@@ -337,11 +322,6 @@ sources: []
   - Type: Model card
   - Access: 2026-06-23
   - Notes: TMax 27B model card. HF card reports roughly 43% on Terminal Bench 2.0 after 160 RL steps.
-- Source: https://huggingface.co/papers/2606.23321
-  - Title: "Tmax: A simple recipe for terminal agents"
-  - Type: Paper page
-  - Access: 2026-06-23
-  - Notes: Hugging Face paper page for the TMax terminal-agent RL recipe.
 - Source: https://wai-org.com/blog/tmax/
   - Title: "TMax: A Simple Recipe for Terminal Agents"
   - Type: Blog
@@ -357,6 +337,28 @@ sources: []
   - Type: Repository
   - Access: 2026-06-23
   - Notes: GitHub repo for TMax data generation, training, evaluation, and paper assets.
+
+### Research behind the open model wave
+- Source: https://arxiv.org/abs/2602.15763
+  - Title: "GLM-5: from Vibe Coding to Agentic Engineering"
+  - Type: Research paper
+  - Access: 2026-06-23
+  - Notes: Technical report for the GLM-5 model family.
+- Source: https://arxiv.org/abs/2603.12201
+  - Title: "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse"
+  - Type: Research paper
+  - Access: 2026-06-23
+  - Notes: Paper describing the IndexShare/IndexCache sparse-attention architecture used in GLM-5.2 to reduce per-token FLOPs at long context.
+- Source: https://huggingface.co/papers/2606.23321
+  - Title: "Tmax: A simple recipe for terminal agents"
+  - Type: Paper page
+  - Access: 2026-06-23
+  - Notes: Hugging Face paper page for the TMax terminal-agent RL recipe.
+- Post: https://x.com/ArtificialAnlys/status/2069121548670406947
+  - Title: "Artificial Analysis GDPval-AA result for GLM-5.2"
+  - Type: X post
+  - Access: 2026-06-23
+  - Notes: Artificial Analysis post stating GLM-5.2 leads open weights and sits #3 overall on GDPval-AA.
 - Post: https://x.com/natolambert/status/2069055568124281315
   - Title: "Nathan Lambert shares TMax references"
   - Type: X post
