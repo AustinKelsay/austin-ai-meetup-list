@@ -12,19 +12,60 @@ import {
   getLinkWidth,
   getNodeColor,
   getNodeVal,
+  isNeighborLink,
   shouldShowNodeLabel,
 } from "./wikiGraphVisuals.js";
 
-function focusGraph(instance, duration = 450) {
-  instance.zoomToFit(duration, 56);
+const FIT_PADDING = 72;
+const SMALL_FOCUS_NODE_LIMIT = 6;
+const TINY_FOCUS_ZOOM = 1.2;
+const SMALL_FOCUS_ZOOM = 1.45;
+
+function focusGraph(instance, duration = 450, nodeFilter) {
+  instance.zoomToFit(duration, FIT_PADDING, nodeFilter);
 }
 
-function centerOnNode(instance, node, duration = 350) {
-  if (!node || node.x == null || node.y == null) {
-    return;
+function buildFocusNodeFilter(selectedId, neighborIds, visibleTypes) {
+  if (!selectedId) {
+    return (node) => visibleTypes.has(node.type);
   }
 
-  instance.centerAt(node.x, node.y, duration);
+  return (node) =>
+    visibleTypes.has(node.type) && (node.id === selectedId || neighborIds.has(node.id));
+}
+
+function focusNeighborhood(instance, selectedId, neighborIds, visibleTypes, duration = 450) {
+  const nodeFilter = buildFocusNodeFilter(selectedId, neighborIds, visibleTypes);
+  const graphData = instance.graphData();
+  const focusNodeCount = graphData.nodes.filter(nodeFilter).length;
+
+  if (selectedId && focusNodeCount <= SMALL_FOCUS_NODE_LIMIT) {
+    const selectedNode = graphData.nodes.find((node) => node.id === selectedId);
+
+    if (selectedNode?.x != null && selectedNode.y != null) {
+      instance.centerAt(selectedNode.x, selectedNode.y, duration);
+      instance.zoom(focusNodeCount <= 2 ? TINY_FOCUS_ZOOM : SMALL_FOCUS_ZOOM, duration);
+      return;
+    }
+  }
+
+  focusGraph(instance, duration, nodeFilter);
+}
+
+function getVisibleNodeCount(nodes, visibleTypes) {
+  return nodes.filter((node) => visibleTypes.has(node.type)).length;
+}
+
+function getFocusLinkCount(links, selectedId, neighborIds) {
+  if (!selectedId) {
+    return links.length;
+  }
+
+  return links.filter((link) => isNeighborLink(link, selectedId, neighborIds)).length;
+}
+
+function formatGraphCount(count, singular) {
+  return `${count} ${singular}${count === 1 ? "" : "s"}`;
 }
 
 export default function WikiGraph({ graph, selectedId, onSelectPage, visibleTypes = getDefaultVisibleTypes() }) {
@@ -71,14 +112,14 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .backgroundColor("rgba(0,0,0,0)")
       .nodeId("id")
       .nodeLabel((node) => buildNodeTooltip(node))
-      .nodeRelSize(3)
-      .nodeVal((node) => getNodeVal(node, selectedIdRef.current))
+      .nodeRelSize(3.4)
+      .nodeVal((node) => getNodeVal(node, selectedIdRef.current, neighborIdsRef.current))
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
       .nodeColor((node) =>
         getNodeColor(node, selectedIdRef.current, WIKI_GRAPH_TYPE_COLORS, neighborIdsRef.current),
       )
       .nodeCanvasObject((node, ctx, globalScale) => {
-        if (shouldShowNodeLabel(node, selectedIdRef.current)) {
+        if (shouldShowNodeLabel(node, selectedIdRef.current, neighborIdsRef.current)) {
           drawNodeLabel(ctx, node, "#ffffff", globalScale);
         }
       })
@@ -89,19 +130,29 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .linkWidth((link) =>
         getLinkWidth(link, selectedIdRef.current, neighborIdsRef.current),
       )
-      .linkDirectionalParticles((link) => getLinkParticleCount(link))
+      .linkDirectionalParticles((link) =>
+        getLinkParticleCount(link, selectedIdRef.current, neighborIdsRef.current),
+      )
       .linkDirectionalParticleWidth(1.4)
       .linkDirectionalParticleSpeed(0.004)
-      .cooldownTicks(80)
-      .enableZoomInteraction(false)
-      .enablePanInteraction(false)
+      .cooldownTicks(110)
+      .enableZoomInteraction(true)
+      .enablePanInteraction(true)
       .onEngineStop(() => {
         if (!hasFocusedRef.current) {
-          focusGraph(instance);
+          focusNeighborhood(
+            instance,
+            selectedIdRef.current,
+            neighborIdsRef.current,
+            visibleTypesRef.current,
+          );
           hasFocusedRef.current = true;
         }
       })
       .onNodeClick((node) => onSelectPageRef.current(node.id));
+
+    instance.d3Force("charge")?.strength(-95);
+    instance.d3Force("link")?.distance((link) => (link.kind === "topic" ? 92 : 64));
 
     graphRef.current = instance;
 
@@ -111,7 +162,13 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       instance.height(Math.max(280, bounds.height));
 
       if (hasFocusedRef.current) {
-        focusGraph(instance, 250);
+        focusNeighborhood(
+          instance,
+          selectedIdRef.current,
+          neighborIdsRef.current,
+          visibleTypesRef.current,
+          250,
+        );
       }
     };
 
@@ -147,19 +204,55 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
     }
 
     graphRef.current
-      .nodeVal((node) => getNodeVal(node, selectedId))
+      .nodeVal((node) => getNodeVal(node, selectedId, neighborIds))
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
       .nodeColor((node) =>
         getNodeColor(node, selectedId, WIKI_GRAPH_TYPE_COLORS, neighborIds),
       )
       .linkColor((link) => getLinkColor(link, selectedId, neighborIds))
-      .linkWidth((link) => getLinkWidth(link, selectedId, neighborIds));
+      .linkWidth((link) => getLinkWidth(link, selectedId, neighborIds))
+      .linkDirectionalParticles((link) => getLinkParticleCount(link, selectedId, neighborIds));
 
-    const selectedNode = graphData.nodes.find((node) => node.id === selectedId);
-    if (selectedNode) {
-      centerOnNode(graphRef.current, selectedNode, 350);
-    }
+    focusNeighborhood(graphRef.current, selectedId, neighborIds, visibleTypesRef.current, 450);
   }, [selectedId, neighborIds, visibleTypes, graphData.nodes]);
 
-  return <div ref={containerRef} className="wiki-graph-canvas" aria-label="Wiki link graph" />;
+  const visibleNodeCount = getVisibleNodeCount(graphData.nodes, visibleTypes);
+  const focusNodeCount = selectedId ? neighborIds.size + 1 : visibleNodeCount;
+  const focusLinkCount = getFocusLinkCount(graphData.links, selectedId, neighborIds);
+
+  return (
+    <div className="wiki-graph-frame">
+      <div ref={containerRef} className="wiki-graph-canvas" aria-label="Wiki link graph" />
+      <div className="wiki-graph-lens" aria-label="Graph focus">
+        <span>{selectedId ? "Neighborhood" : "Full map"}</span>
+        <strong>
+          {formatGraphCount(focusNodeCount, "node")} / {formatGraphCount(focusLinkCount, "link")}
+        </strong>
+      </div>
+      <div className="wiki-graph-fit-controls">
+        <button
+          type="button"
+          aria-label="Fit selected graph neighborhood"
+          onClick={() =>
+            graphRef.current
+              ? focusNeighborhood(graphRef.current, selectedId, neighborIds, visibleTypes, 350)
+              : null
+          }
+        >
+          Focus
+        </button>
+        <button
+          type="button"
+          aria-label="Fit all visible graph nodes"
+          onClick={() =>
+            graphRef.current
+              ? focusGraph(graphRef.current, 350, (node) => visibleTypes.has(node.type))
+              : null
+          }
+        >
+          All
+        </button>
+      </div>
+    </div>
+  );
 }

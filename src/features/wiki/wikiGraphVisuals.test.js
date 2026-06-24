@@ -12,6 +12,8 @@ import {
   isNeighborLink,
   isNeighborNode,
   isSelectedNode,
+  MAX_NEIGHBOR_NODE_VAL,
+  MAX_NODE_VAL,
   SELECTED_NODE_VAL,
   shouldShowNodeLabel,
 } from "./wikiGraphVisuals.js";
@@ -26,6 +28,22 @@ describe("wikiGraphVisuals", () => {
 
   it("forces a flat selected size regardless of degree", () => {
     expect(getNodeVal({ id: "a", degree: 30 }, "a")).toBe(SELECTED_NODE_VAL);
+  });
+
+  it("enlarges neighbor nodes inside the selected neighborhood", () => {
+    const neighbors = new Set(["b"]);
+    const neighborValue = getNodeVal({ id: "b", degree: 4 }, "a", neighbors);
+    const unrelatedValue = getNodeVal({ id: "c", degree: 4 }, "a", neighbors);
+
+    expect(neighborValue).toBeGreaterThan(unrelatedValue);
+    expect(neighborValue).toBeCloseTo(BASE_NODE_VAL + 1.2 + 4 * (DEGREE_VAL_MULTIPLIER * 0.5));
+  });
+
+  it("caps high-degree hub sizes so focused graph nodes stay readable", () => {
+    const neighbors = new Set(["b"]);
+
+    expect(getNodeVal({ id: "b", degree: 200 }, "a", neighbors)).toBe(MAX_NEIGHBOR_NODE_VAL);
+    expect(getNodeVal({ id: "c", degree: 200 }, "a", neighbors)).toBe(MAX_NODE_VAL);
   });
 
   it("uses the type color or falls back to neutral", () => {
@@ -49,7 +67,7 @@ describe("wikiGraphVisuals", () => {
       "rgba(196, 125, 243, 1)",
     );
     expect(getNodeColor({ id: "c", type: "entity" }, "a", colors, neighbors)).toBe(
-      "rgba(71, 212, 243, 0.35)",
+      "rgba(71, 212, 243, 0.16)",
     );
   });
 
@@ -108,10 +126,19 @@ describe("wikiGraphVisuals", () => {
     const wikiLink = { kind: "wiki", source: "b", target: "c" };
 
     expect(getLinkColor(topicLink, "a", neighbors)).toContain("0.85");
-    expect(getLinkColor(wikiLink, "a", neighbors)).toContain("0.12");
+    expect(getLinkColor(wikiLink, "a", neighbors)).toContain("0.06");
     expect(getLinkWidth(topicLink, "a", neighbors)).toBeGreaterThan(
       getLinkWidth(wikiLink, "a", neighbors),
     );
+  });
+
+  it("only animates selected-neighborhood topic links when focused", () => {
+    const neighbors = new Set(["b"]);
+    const neighborTopicLink = { kind: "topic", source: "a", target: "b" };
+    const unrelatedTopicLink = { kind: "topic", source: "c", target: "d" };
+
+    expect(getLinkParticleCount(neighborTopicLink, "a", neighbors)).toBe(1);
+    expect(getLinkParticleCount(unrelatedTopicLink, "a", neighbors)).toBe(0);
   });
 
   it("falls back to default link styling when no node is selected", () => {
@@ -121,11 +148,14 @@ describe("wikiGraphVisuals", () => {
     expect(getLinkWidth(topicLink)).toBeGreaterThan(0);
   });
 
-  it("shows labels for selected or high-degree nodes", () => {
+  it("shows labels for selected, neighbor, or high-degree nodes", () => {
+    const neighbors = new Set(["b"]);
+
     expect(shouldShowNodeLabel({ id: "a", degree: 1 }, "a")).toBe(true);
-    expect(shouldShowNodeLabel({ id: "a", degree: 1 }, "b")).toBe(false);
-    expect(shouldShowNodeLabel({ id: "a", degree: 10 }, "b", 8)).toBe(true);
-    expect(shouldShowNodeLabel({ id: "a", degree: 5 }, "b", 8)).toBe(false);
+    expect(shouldShowNodeLabel({ id: "b", degree: 1 }, "a", neighbors)).toBe(true);
+    expect(shouldShowNodeLabel({ id: "c", degree: 10 }, "a", neighbors)).toBe(false);
+    expect(shouldShowNodeLabel({ id: "a", degree: 10 }, null, 8)).toBe(true);
+    expect(shouldShowNodeLabel({ id: "a", degree: 5 }, null, 8)).toBe(false);
   });
 
   it("builds a tooltip with title, type, and link count", () => {

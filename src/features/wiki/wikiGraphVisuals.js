@@ -1,25 +1,35 @@
 export const BASE_NODE_VAL = 2.5;
 export const SELECTED_NODE_VAL = 5.5;
+export const MAX_NODE_VAL = 7.5;
+export const MAX_NEIGHBOR_NODE_VAL = 5.2;
 export const DEGREE_VAL_MULTIPLIER = 0.18;
 export const TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.45)";
 export const WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.22)";
 export const SELECTED_TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.85)";
 export const SELECTED_WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.85)";
-export const NON_SELECTED_TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.12)";
-export const NON_SELECTED_WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.12)";
+export const NON_SELECTED_TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.06)";
+export const NON_SELECTED_WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.06)";
 export const NEIGHBOR_NODE_ALPHA = 1;
-export const NON_NEIGHBOR_NODE_ALPHA = 0.35;
+export const NON_NEIGHBOR_NODE_ALPHA = 0.16;
 export const DEFAULT_LABEL_DEGREE_THRESHOLD = 8;
 
 const DEFAULT_NODE_COLOR = "#9fb8b0";
 const SELECTED_NODE_COLOR = "#ffffff";
 
-export function getNodeVal(node, selectedId) {
+export function getNodeVal(node, selectedId, neighborIds = new Set()) {
   if (node.id === selectedId) {
     return SELECTED_NODE_VAL;
   }
+
   const degree = node.degree ?? 0;
-  return BASE_NODE_VAL + degree * DEGREE_VAL_MULTIPLIER;
+  if (isNeighborNode(node, selectedId, neighborIds)) {
+    return Math.min(
+      MAX_NEIGHBOR_NODE_VAL,
+      BASE_NODE_VAL + 1.2 + degree * (DEGREE_VAL_MULTIPLIER * 0.5),
+    );
+  }
+
+  return Math.min(MAX_NODE_VAL, BASE_NODE_VAL + degree * DEGREE_VAL_MULTIPLIER);
 }
 
 export function isSelectedNode(node, selectedId) {
@@ -118,20 +128,64 @@ export function getLinkWidth(link, selectedId = null, neighborIds = new Set()) {
   return base;
 }
 
-export function getLinkParticleCount(link) {
+export function getLinkParticleCount(link, selectedId = null, neighborIds = new Set()) {
+  if (selectedId != null && !isNeighborLink(link, selectedId, neighborIds)) {
+    return 0;
+  }
+
   return link.kind === "topic" ? 1 : 0;
 }
 
-export function shouldShowNodeLabel(node, selectedId, degreeThreshold = DEFAULT_LABEL_DEGREE_THRESHOLD) {
+export function shouldShowNodeLabel(
+  node,
+  selectedId,
+  neighborIdsOrThreshold = new Set(),
+  degreeThreshold = DEFAULT_LABEL_DEGREE_THRESHOLD,
+) {
+  const neighborIds =
+    neighborIdsOrThreshold instanceof Set ? neighborIdsOrThreshold : new Set();
+  const threshold =
+    typeof neighborIdsOrThreshold === "number" ? neighborIdsOrThreshold : degreeThreshold;
+
   if (isSelectedNode(node, selectedId)) {
     return true;
   }
 
-  return (node.degree ?? 0) >= degreeThreshold;
+  if (selectedId != null) {
+    return neighborIds.has(node.id);
+  }
+
+  return (node.degree ?? 0) >= threshold;
+}
+
+function getTruncatedLabel(value, maxLength = 34) {
+  const label = String(value ?? "");
+
+  if (label.length <= maxLength) {
+    return label;
+  }
+
+  return `${label.slice(0, maxLength - 3).trimEnd()}...`;
+}
+
+function drawRoundedRect(ctx, x, y, width, height, radius) {
+  const safeRadius = Math.min(radius, width / 2, height / 2);
+
+  ctx.beginPath();
+  ctx.moveTo(x + safeRadius, y);
+  ctx.lineTo(x + width - safeRadius, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + safeRadius);
+  ctx.lineTo(x + width, y + height - safeRadius);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - safeRadius, y + height);
+  ctx.lineTo(x + safeRadius, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - safeRadius);
+  ctx.lineTo(x, y + safeRadius);
+  ctx.quadraticCurveTo(x, y, x + safeRadius, y);
+  ctx.closePath();
 }
 
 export function drawNodeLabel(ctx, node, color, globalScale = 1) {
-  const label = node.label ?? "";
+  const label = getTruncatedLabel(node.label);
   if (!label) {
     return;
   }
@@ -140,10 +194,21 @@ export function drawNodeLabel(ctx, node, color, globalScale = 1) {
   ctx.font = `${fontSize}px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace`;
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillStyle = color;
 
   const radius = (node.val ?? BASE_NODE_VAL) * 1.6;
-  ctx.fillText(label, node.x, node.y + radius + fontSize * 0.9);
+  const y = node.y + radius + fontSize * 0.9;
+  const metrics = ctx.measureText(label);
+  const paddingX = Math.max(4, 5 / globalScale);
+  const paddingY = Math.max(2, 3 / globalScale);
+  const width = metrics.width + paddingX * 2;
+  const height = fontSize + paddingY * 2;
+  const x = node.x - width / 2;
+
+  ctx.fillStyle = "rgba(2, 8, 14, 0.78)";
+  drawRoundedRect(ctx, x, y - height / 2, width, height, Math.max(4, 5 / globalScale));
+  ctx.fill();
+  ctx.fillStyle = color;
+  ctx.fillText(label, node.x, y);
 }
 
 function escapeTooltipText(value) {
