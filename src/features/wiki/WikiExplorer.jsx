@@ -116,6 +116,7 @@ function WikiCatalogItem({ page, selected, onOpenRoute }) {
       to={buildWikiPath(page.id)}
       onOpenRoute={onOpenRoute}
       className={`wiki-catalog-item ${selected ? "wiki-catalog-item--selected" : ""}`}
+      aria-label={`Open ${page.title} wiki page`}
     >
       <span className="wiki-catalog-item-copy">
         <strong>{page.title}</strong>

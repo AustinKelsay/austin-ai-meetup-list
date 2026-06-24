@@ -132,7 +132,24 @@
   gap: 0.85rem;
   max-height: min(54rem, calc(58vh + 20rem));
   overflow: auto;
+  overscroll-behavior: contain;
   padding-right: 0.2rem;
+  scrollbar-color: rgba(124, 220, 183, 0.42) rgba(4, 12, 20, 0.56);
+  scrollbar-width: thin;
+}
+
+.wiki-catalog-list::-webkit-scrollbar {
+  width: 0.55rem;
+}
+
+.wiki-catalog-list::-webkit-scrollbar-track {
+  background: rgba(4, 12, 20, 0.56);
+  border-radius: 999px;
+}
+
+.wiki-catalog-list::-webkit-scrollbar-thumb {
+  background: rgba(124, 220, 183, 0.42);
+  border-radius: 999px;
 }
 
 .wiki-catalog-group {
@@ -152,6 +169,23 @@
   transition: background-color 160ms ease;
 }
 
+.wiki-catalog-group summary::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  transform: rotate(45deg);
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.wiki-catalog-group:not([open]) summary::after {
+  transform: rotate(-45deg);
+}
+
 .wiki-catalog-group summary::-webkit-details-marker {
   display: none;
 }
@@ -160,6 +194,11 @@
 .wiki-catalog-group summary:focus-visible {
   background: rgba(71, 243, 170, 0.04);
   outline: none;
+}
+
+.wiki-catalog-group summary:hover::after,
+.wiki-catalog-group summary:focus-visible::after {
+  border-color: var(--text);
 }
 
 .wiki-catalog-group-dot {
@@ -232,12 +271,35 @@
     transform 160ms ease;
 }
 
+.wiki-catalog-item::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  opacity: 0.62;
+  transform: rotate(-45deg);
+  transition:
+    border-color 160ms ease,
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
 .wiki-catalog-item:hover,
 .wiki-catalog-item:focus-visible,
 .wiki-catalog-item--selected {
   border-color: var(--line-strong);
   background: rgba(71, 243, 170, 0.06);
   outline: none;
+}
+
+.wiki-catalog-item:hover::after,
+.wiki-catalog-item:focus-visible::after,
+.wiki-catalog-item--selected::after {
+  border-color: var(--text);
+  opacity: 1;
+  transform: translateX(2px) rotate(-45deg);
 }
 
 .wiki-catalog-item:active {
@@ -788,7 +850,9 @@
   }
 
   .wiki-catalog-list {
-    max-height: 22rem;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .wiki-panel-heading {
