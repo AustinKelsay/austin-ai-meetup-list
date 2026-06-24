@@ -222,37 +222,39 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
 
   return (
     <div className="wiki-graph-frame">
+      <div className="wiki-graph-status-row">
+        <div className="wiki-graph-lens" aria-label="Graph focus">
+          <span>{selectedId ? "Neighborhood" : "Full map"}</span>
+          <strong>
+            {formatGraphCount(focusNodeCount, "node")} / {formatGraphCount(focusLinkCount, "link")}
+          </strong>
+        </div>
+        <div className="wiki-graph-fit-controls">
+          <button
+            type="button"
+            aria-label="Fit selected graph neighborhood"
+            onClick={() =>
+              graphRef.current
+                ? focusNeighborhood(graphRef.current, selectedId, neighborIds, visibleTypes, 350)
+                : null
+            }
+          >
+            Focus
+          </button>
+          <button
+            type="button"
+            aria-label="Fit all visible graph nodes"
+            onClick={() =>
+              graphRef.current
+                ? focusGraph(graphRef.current, 350, (node) => visibleTypes.has(node.type))
+                : null
+            }
+          >
+            All
+          </button>
+        </div>
+      </div>
       <div ref={containerRef} className="wiki-graph-canvas" aria-label="Wiki link graph" />
-      <div className="wiki-graph-lens" aria-label="Graph focus">
-        <span>{selectedId ? "Neighborhood" : "Full map"}</span>
-        <strong>
-          {formatGraphCount(focusNodeCount, "node")} / {formatGraphCount(focusLinkCount, "link")}
-        </strong>
-      </div>
-      <div className="wiki-graph-fit-controls">
-        <button
-          type="button"
-          aria-label="Fit selected graph neighborhood"
-          onClick={() =>
-            graphRef.current
-              ? focusNeighborhood(graphRef.current, selectedId, neighborIds, visibleTypes, 350)
-              : null
-          }
-        >
-          Focus
-        </button>
-        <button
-          type="button"
-          aria-label="Fit all visible graph nodes"
-          onClick={() =>
-            graphRef.current
-              ? focusGraph(graphRef.current, 350, (node) => visibleTypes.has(node.type))
-              : null
-          }
-        >
-          All
-        </button>
-      </div>
     </div>
   );
 }

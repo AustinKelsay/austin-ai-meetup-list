@@ -24,9 +24,9 @@ function getSourceLinkLabel(href) {
   }
 }
 
-function PageLinkList({ title, pages, emptyLabel, onOpenRoute }) {
+function PageLinkList({ title, pages, emptyLabel, onOpenRoute, className = "" }) {
   return (
-    <section className="wiki-detail-section">
+    <section className={["wiki-detail-section", className].filter(Boolean).join(" ")}>
       <h3>{title}</h3>
       {pages.length > 0 ? (
         <div className="wiki-link-list">
@@ -142,7 +142,7 @@ function SourceReferenceLink({ item }) {
 function SourceReferenceList({ items, emptyLabel }) {
   if (items.length === 0) {
     return (
-      <section className="wiki-detail-section">
+      <section className="wiki-detail-section wiki-detail-section--sources">
         <h3>Sources</h3>
         <p className="wiki-empty-copy">{emptyLabel}</p>
       </section>
@@ -152,7 +152,7 @@ function SourceReferenceList({ items, emptyLabel }) {
   const grouped = groupSourcesBySection(items);
 
   return (
-    <section className="wiki-detail-section">
+    <section className="wiki-detail-section wiki-detail-section--sources">
       <h3>Sources</h3>
       <div className="wiki-source-groups">
         {grouped.map(([section, sectionItems]) => (
@@ -172,7 +172,7 @@ function SourceReferenceList({ items, emptyLabel }) {
 
 function MentionedInSection({ meetups, emptyLabel, onOpenRoute }) {
   return (
-    <section className="wiki-detail-section">
+    <section className="wiki-detail-section wiki-detail-section--mentioned">
       <h3>Mentioned In</h3>
       {meetups.length > 0 ? (
         <div className="wiki-link-list">
@@ -232,7 +232,7 @@ function CopyLinkButton({ page }) {
   return (
     <button
       type="button"
-      className={`wiki-source-link wiki-copy-link ${copied ? "wiki-copy-link--copied" : ""}`}
+      className={`wiki-source-link wiki-copy-link wiki-detail-action ${copied ? "wiki-copy-link--copied" : ""}`}
       onClick={handleCopy}
     >
       {copied ? "Link copied" : "Copy link"}
@@ -278,7 +278,7 @@ export function WikiDetail({
 
   return (
     <aside className="wiki-detail">
-      <div>
+      <div className="wiki-detail-summary">
         <p className="eyebrow">{getPageTypeLabel(selectedPage.type)}</p>
         <h2>{selectedPage.title}</h2>
         <p className="wiki-detail-copy">{selectedPage.excerpt || "No excerpt is available yet."}</p>
@@ -317,7 +317,7 @@ export function WikiDetail({
       {onTopicFilterClick && ["entity", "concept"].includes(selectedPage.type) ? (
         <button
           type="button"
-          className="wiki-source-link wiki-topic-filter-button"
+          className="wiki-source-link wiki-topic-filter-button wiki-detail-topic-filter"
           onClick={() => onTopicFilterClick(selectedPage)}
         >
           Show matching Topics
@@ -325,39 +325,46 @@ export function WikiDetail({
       ) : null}
 
       <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
-      <MentionedInSection
-        meetups={meetupBacklinks}
-        emptyLabel="Not mentioned in a meetup yet."
-        onOpenRoute={onOpenRoute}
-      />
-      <PageLinkList
-        title="Related Wiki Pages"
-        pages={outgoingPages}
-        emptyLabel="No related wiki pages yet."
-        onOpenRoute={onOpenRoute}
-      />
-      <PageLinkList
-        title="Backlinks"
-        pages={backlinkPages}
-        emptyLabel="No backlinks yet."
-        onOpenRoute={onOpenRoute}
-      />
 
-      {selectedPage.unresolvedLinks.length > 0 ? (
-        <section className="wiki-detail-section">
-          <h3>Unresolved</h3>
-          <div className="wiki-tags wiki-tags--quiet">
-            {selectedPage.unresolvedLinks.map((link) => (
-              <span key={link}>{link}</span>
-            ))}
-          </div>
-        </section>
-      ) : null}
+      <div className="wiki-detail-side">
+        <MentionedInSection
+          meetups={meetupBacklinks}
+          emptyLabel="Not mentioned in a meetup yet."
+          onOpenRoute={onOpenRoute}
+        />
+        <PageLinkList
+          title="Related Wiki Pages"
+          pages={outgoingPages}
+          emptyLabel="No related wiki pages yet."
+          onOpenRoute={onOpenRoute}
+          className="wiki-detail-section--related"
+        />
+        <PageLinkList
+          title="Backlinks"
+          pages={backlinkPages}
+          emptyLabel="No backlinks yet."
+          onOpenRoute={onOpenRoute}
+          className="wiki-detail-section--backlinks"
+        />
 
-      <a className="wiki-source-link" href={selectedPage.rawHref}>
-        Open Markdown source
-      </a>
-      <CopyLinkButton page={selectedPage} />
+        {selectedPage.unresolvedLinks.length > 0 ? (
+          <section className="wiki-detail-section wiki-detail-section--unresolved">
+            <h3>Unresolved</h3>
+            <div className="wiki-tags wiki-tags--quiet">
+              {selectedPage.unresolvedLinks.map((link) => (
+                <span key={link}>{link}</span>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
+        <div className="wiki-detail-actions">
+          <a className="wiki-source-link wiki-detail-action" href={selectedPage.rawHref}>
+            Open Markdown source
+          </a>
+          <CopyLinkButton page={selectedPage} />
+        </div>
+      </div>
     </aside>
   );
 }
