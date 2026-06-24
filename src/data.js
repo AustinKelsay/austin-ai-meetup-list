@@ -11,7 +11,8 @@
 // - embed / embeds: X/Twitter embed override(s)
 // - image / images: linked hero image override(s)
 // - video / videos: standalone video embed override(s)
-// - mediaPair: combined topic, usually "video + reaction post"
+// - mediaPair: combined topic media, including tweet/image/video/link/article cards
+// - xArticle(...): curated article card for X longform articles that do not embed cleanly
 // - linkPair: side-by-side links, useful for repo + dashboard style items
 // - notes: optional presenter note (string) shown as a callout
 // - topStory: optional host-facing highlight in the meetup topic list
@@ -23,6 +24,14 @@
 // 3. Models & Research
 // 4. Security
 // 5. Big Tech Moves
+function xArticle(article) {
+  return {
+    ...article,
+    type: "article",
+    eyebrow: "X article",
+  };
+}
+
 export const meetups = [
   {
     id: "meetup-2026-06-24",
@@ -48,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Agent payments, open model drops, Fable fallout, and Cursor's platform play: Hermes gets Stripe checkout, GLM-5.2 ships open weights with a 1M context, DiffusionGemma claims 4x speed, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
+        "Local model services, agent payments, model-release super-slides, Fable fallout, and Cursor's platform play: Ben turns Bwen into qwenstradamus, Hermes gets Stripe checkout, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
     },
     showcases: [
       {
@@ -60,6 +69,69 @@ export const meetups = [
       },
     ],
     tracks: [
+      {
+        id: "jun24-local-builds",
+        title: "Local Builds & Projects",
+        purpose:
+          "This section covers member projects, prototypes, demos, and builds shared by the community.",
+        items: [
+          {
+            title: "Ben turns Bwen into Qwenstradamus",
+            description:
+              "Ben Carman moved bwen:14b from a one-off Qwen3-14B LoRA trained on his tweets into qwenstradamus.com, a service that trains a downloadable model of your own voice from your tweets. Nice local-AI loop: archive export, clustered themes, hand prompts, LoRA, retrieval over original tweets, then a tiny paid product.",
+            chip: "local build",
+            href: "https://qwenstradamus.com/",
+            mediaPair: {
+              left: xArticle({
+                title: "Training a model on my tweets",
+                source: "Ben Carman",
+                date: "June 21, 2026",
+                href: "https://x.com/i/article/2068794888406376448",
+                image:
+                  "https://pbs.twimg.com/media/HLXW2tgXAAAuj4P.jpg",
+                description:
+                  "The build notes behind bwen:14b: Qwen3-14B fine-tune, tweet clustering, roughly 300 hand prompts, LoRA training, and retrieval over original tweets.",
+                links: [
+                  {
+                    label: "Model",
+                    href: "https://huggingface.co/benthecarman/bwen-14b",
+                  },
+                  {
+                    label: "Dataset",
+                    href: "https://huggingface.co/datasets/benthecarman/bwen-dataset",
+                  },
+                  {
+                    label: "Repo",
+                    href: "https://github.com/benthecarman/bwen",
+                  },
+                ],
+              }),
+              right: {
+                type: "article",
+                eyebrow: "Service",
+                title: "qwenstradamus",
+                source: "Built on Bwen",
+                date: "June 23, 2026",
+                href: "https://qwenstradamus.com/",
+                image: "https://qwenstradamus.com/og.png",
+                description:
+                  "Train an AI model on your own tweets that writes in your voice, then download it.",
+                links: [
+                  {
+                    label: "Launch post",
+                    href: "https://twitter.com/benthecarman/status/2069442971070566874?ref_src=twsrc%5Etfw",
+                  },
+                  {
+                    label: "Service",
+                    href: "https://qwenstradamus.com/",
+                  },
+                ],
+              },
+            },
+            topStory: true,
+          },
+        ],
+      },
       {
         id: "jun24-agent-infra",
         title: "Agent Infrastructure",
@@ -86,43 +158,66 @@ export const meetups = [
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
           {
-            title: "GLM-5.2 ships open weights with a 1M context",
+            title: "Closed model releases are a quiet week",
             description:
-              "Z.ai's GLM-5.2 jumps past GLM-5.1 with solid 1M-token context, stronger coding and agentic task performance, and an MIT license with no regional limits. Two reasoning modes trade latency for performance, and IndexShare sparse attention cuts per-token FLOPs 2.9× at 1M context. Same API pricing as GLM-5.1.",
+              "No net-new proprietary model release survived the duplicate pass. OpenAI's June 22 Daybreak expansion is new access/product packaging for GPT-5.5-Cyber, but the model itself was a May 13 topic; Fable/Mythos, Opus 4.8, Grok Imagine, and MAI were June 10.",
+            chip: "closed models",
+            href: "https://openai.com/index/daybreak-securing-the-world/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2069104283824640023?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: ["https://digg.com/ai/a95mmx07"],
+            topStory: true,
+          },
+          {
+            title: "Open models are eating the frontier gap",
+            description:
+              "The fresh post-June-10 open wave is GLM-5.2, Moonshot AI's Kimi K2.7 Code, MiniMax M3 weights, and Ai2's TMax: long-horizon coding, agent benchmarks, and terminal-agent RL all moved open. Nemotron/Cosmos, DiffusionGemma, and MiniMax's launch post were already June 10; June 24 adds the actual M3 HF weights.",
             chip: "open models",
             href: "https://z.ai/blog/glm-5.2",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/Zai_org/status/2066938937344495629?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Zai_org/status/2066938937344495629?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ArtificialAnlys/status/2069121548670406947?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Kimi_Moonshot/status/2065377579130142937?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MiniMax_AI/status/2065436935188058208?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/natolambert/status/2069055568124281315?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://huggingface.co/zai-org/GLM-5.2",
               "https://github.com/zai-org/GLM-5",
               "https://docs.z.ai/guides/llm/glm-5.2",
               "https://arxiv.org/abs/2602.15763",
               "https://arxiv.org/abs/2603.12201",
-            ],
-            topStory: true,
-          },
-          {
-            title: "DiffusionGemma makes text diffusion practical",
-            description:
-              "Google's experimental 26B MoE text-diffusion model drafts and refines 256-token blocks in parallel, claiming 1000+ tok/s on H100 and 700+ tok/s on RTX 5090. Apache 2.0 weights are on Hugging Face, but quality still trails standard autoregressive Gemma for production text.",
-            chip: "text diffusion",
-            href: "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/Google/status/2064741293163418032?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/sundarpichai/status/2064744345216196942?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-              "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide",
+              "https://digg.com/ai/wmry8acg",
+              "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+              "https://digg.com/tech/lvlg9m33",
+              "https://digg.com/tech/27r7m6uc",
+              "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+              "https://x.com/huggingface/status/2065464345413239151",
+              "https://huggingface.co/collections/allenai/tmax",
+              "https://huggingface.co/allenai/tmax-27b",
+              "https://huggingface.co/papers/2606.23321",
+              "https://wai-org.com/blog/tmax/",
+              "https://digg.com/ai/opo8qjez",
+              "https://github.com/hamishivi/tmax",
             ],
           },
         ],
@@ -213,7 +308,7 @@ export const meetups = [
           {
             title: "Ben's twitter export to dataset",
             description:
-              "Tool for converting Twitter archive exports into structured datasets.",
+              "Ben Carman's tool for converting Twitter archive exports into structured datasets.",
             chip: "data tooling",
             href: "https://github.com/benthecarman/twitter-to-dataset",
           },

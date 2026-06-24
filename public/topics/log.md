@@ -2,6 +2,24 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-23] update | Ben's Bwen service added
+
+- Added **Ben turns Bwen into Qwenstradamus** as a June 24 Local Builds & Projects Topic, combining Ben's `bwen:14b` Qwen3 fine-tune and qwenstradamus.com service launch.
+- Added source records for the service announcement post, original Bwen X article, qwenstradamus product page, Hugging Face model, Hugging Face dataset, and bwen repo.
+- Created [[Ben Carman]], updated [[Local AI]], [[Open Models]], and [[Coding Agents]], and backfilled the June 10 **Ben's twitter export to dataset** source record.
+- Mirrored the Topic into `src/data.js` with the launch post as the embed and the service/model/dataset/repo links as supporting sources.
+
+## [2026-06-23] update | June 24 model release super-slides rebuilt
+
+- Replaced the separate June 24 GLM-5.2 and DiffusionGemma Topics with two Models & Research super-slides: **Closed model releases are a quiet week** and **Open models are eating the frontier gap**.
+- Added OpenAI Daybreak access/productization context, GLM-5.2, Kimi K2.7 Code, MiniMax M3 weights, and Ai2 TMax source records with X, Hugging Face, and Digg links where available.
+- Reframed the closed-model slide after duplicate audit: GPT-5.5-Cyber itself was already covered on May 13, so the June 24 angle is only Daybreak packaging/access rather than a net-new model release.
+- Removed repeat closed-model links from the June 24 slide for Anthropic Fable/Mythos/Opus, Grok Imagine Preview, and Microsoft MAI because those were already covered on June 10.
+- Removed the xAI Grok Imagine Video 1.5 item from the June 24 closed-model slide because the Grok Imagine launch was already covered on June 10.
+- Removed repeat open-model links from the June 24 slide for NVIDIA Nemotron/Cosmos and Google DiffusionGemma because those were already covered on June 10, and dropped DeepSeek V4 because its release predates this meetup window.
+- Created [[MiniMax]] and [[Moonshot AI]] and updated recurring wiki backlinks for Open Models, Compute Strategy, Coding Agents, AI Governance, MiniMax, Moonshot AI, OpenAI, and Z.ai.
+- Mirrored the rebuilt slide pair into `src/data.js` with X embeds and supporting links for Presentation Mode.
+
 ## [2026-06-16] update | Cursor Origin topic added to June 24 board
 
 - Added **Cursor previews Origin, a GitHub competitor** as a Big Tech Moves Topic on the June 24 board.

@@ -365,6 +365,29 @@ function addReferencedTopicSource(page, reference, sourcePage) {
   }
 }
 
+function addGraphLink({ links, pagesById, sourceId, targetId }) {
+  const sourcePage = pagesById[sourceId];
+  const targetPage = pagesById[targetId];
+
+  if (!sourcePage || !targetPage || sourceId === targetId) {
+    return;
+  }
+
+  if (!sourcePage.outgoingIds.includes(targetId)) {
+    sourcePage.outgoingIds.push(targetId);
+    sourcePage.outgoingIds.sort();
+  }
+
+  if (!targetPage.backlinkIds.includes(sourceId)) {
+    targetPage.backlinkIds.push(sourceId);
+    targetPage.backlinkIds.sort();
+  }
+
+  if (!links.some((link) => link.source === sourceId && link.target === targetId)) {
+    links.push({ source: sourceId, target: targetId });
+  }
+}
+
 function isPublicPage(page) {
   return PRIMARY_TYPES.has(page.type) || page.relativePath.startsWith("raw/articles/");
 }
@@ -473,6 +496,12 @@ export async function buildWikiManifest({ topicsDir }) {
       for (const reference of sourcePage.sourceReferences) {
         if (topicTitles.has(normalizeTopicTitle(reference.title))) {
           addReferencedTopicSource(page, reference, sourcePage);
+          addGraphLink({
+            links,
+            pagesById,
+            sourceId: sourcePage.id,
+            targetId: page.id,
+          });
         }
       }
     }

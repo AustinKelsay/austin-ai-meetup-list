@@ -1,7 +1,7 @@
 ---
 title: Microsoft
 created: 2026-05-05
-updated: 2026-06-09
+updated: 2026-06-23
 type: entity
 tags: [entity, company, agent-infrastructure, security]
 sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]

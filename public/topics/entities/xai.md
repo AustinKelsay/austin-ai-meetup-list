@@ -1,7 +1,7 @@
 ---
 title: xAI
 created: 2026-05-27
-updated: 2026-06-08
+updated: 2026-06-23
 type: entity
 tags: [entity, company, big-tech-moves, models-research]
 sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md]

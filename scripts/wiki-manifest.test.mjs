@@ -395,6 +395,12 @@ sources: []
 
     const manifest = await buildWikiManifest({ topicsDir });
 
+    expect(manifest.pagesById["austin-ai-club-may-13-2026"].outgoingIds).toEqual([
+      "coding-agents",
+    ]);
+    expect(manifest.pagesById["coding-agents"].backlinkIds).toEqual([
+      "austin-ai-club-may-13-2026",
+    ]);
     expect(manifest.pagesById["coding-agents"].referencedTopicSources).toEqual([
       {
         href: "https://subq.ai/introducing-subq",
@@ -457,5 +463,10 @@ sources: []
         sourcePageTitle: "Austin AI Club - May 13, 2026",
       },
     ]);
+    expect(manifest.graph.links).toContainEqual({
+      source: "austin-ai-club-may-13-2026",
+      target: "coding-agents",
+      kind: "topic",
+    });
   });
 });

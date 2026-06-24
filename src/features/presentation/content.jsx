@@ -392,6 +392,56 @@ export function TopicImage({ image }) {
   );
 }
 
+export function TopicArticle({ article }) {
+  if (!article?.href) {
+    return null;
+  }
+
+  const articleLinks =
+    article.links?.filter((link) => link?.label && link?.href) ?? [];
+
+  return (
+    <article className="article-card">
+      {article.image ? (
+        <a
+          href={article.href}
+          target="_blank"
+          rel="noreferrer"
+          className="article-card-image"
+          aria-label={`Open ${article.title ?? "article"}`}
+        >
+          <img src={article.image} alt="" loading="lazy" />
+        </a>
+      ) : null}
+      <div className="article-card-body">
+        <div className="article-card-meta">
+          {article.eyebrow ? <span>{article.eyebrow}</span> : null}
+          {article.source ? <span>{article.source}</span> : null}
+          {article.date ? <span>{article.date}</span> : null}
+        </div>
+        <a href={article.href} target="_blank" rel="noreferrer" className="article-card-title">
+          {article.title ?? article.href}
+        </a>
+        {article.description ? (
+          <p className="article-card-description">{article.description}</p>
+        ) : null}
+        {articleLinks.length ? (
+          <div className="article-card-links">
+            {articleLinks.map((link) => (
+              <a key={`${link.label}-${link.href}`} href={link.href} target="_blank" rel="noreferrer">
+                {link.label}
+              </a>
+            ))}
+          </div>
+        ) : null}
+        <a href={article.href} target="_blank" rel="noreferrer" className="article-card-action">
+          Open article -&gt;
+        </a>
+      </div>
+    </article>
+  );
+}
+
 export function Topic({ item, id, onActivate }) {
   const isInteractive = typeof onActivate === "function";
   const className = [
@@ -572,6 +622,10 @@ function TopicMediaPairItem({ media }) {
 
   if (media.type === "video") {
     return <VideoEmbed video={media} />;
+  }
+
+  if (media.type === "article") {
+    return <TopicArticle article={media} />;
   }
 
   if (media.type === "link") {

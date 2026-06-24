@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-05-05
-updated: 2026-06-16
+updated: 2026-06-23
 type: entity
 tags: [entity, company, big-tech-moves, compute]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-05-27-link-records.md]

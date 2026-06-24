@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - June 10, 2026 - Source Link Records
 created: 2026-06-08
-updated: 2026-06-10
+updated: 2026-06-23
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -10,6 +10,13 @@ sources: []
 # Austin AI Club - June 10, 2026 - Source Link Records
 
 ## Local Builds & Projects
+
+### Ben's twitter export to dataset
+- Repo: https://github.com/benthecarman/twitter-to-dataset
+  - Title: "benthecarman/twitter-to-dataset"
+  - Type: Repository
+  - Access: 2026-06-23
+  - Notes: Local-build source for Ben Carman's June 10 topic: a tool for converting Twitter archive exports into structured datasets.
 
 ## Agent Infrastructure
 
