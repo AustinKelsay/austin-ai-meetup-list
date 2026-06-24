@@ -13,7 +13,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.
+- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.
 - [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Qwen3.6-27B gets laptop-shaped**.
 - [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.
@@ -26,3 +26,4 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 - [[Compute Strategy]]
 - [[Ben Carman]]
 - [[Cohere]]
+- [[vLLM]]

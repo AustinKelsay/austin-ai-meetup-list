@@ -1,10 +1,10 @@
 ---
 title: Agent Infrastructure
 created: 2026-05-05
-updated: 2026-06-09
+updated: 2026-06-23
 type: concept
 tags: [concept, track, agent-infrastructure]
-sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Agent Infrastructure
@@ -13,6 +13,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 
 ## Mentioned In
 
+- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet** and **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.
 - [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, and **Claude Managed Agents learn between runs**.
 - [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.
@@ -24,5 +25,6 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 - [[OpenAI]]
 - [[Agent Cost Controls]]
 - [[Local AI]]
+- [[vLLM]]
 - [[Vercel]]
 - [[Company Brain]]

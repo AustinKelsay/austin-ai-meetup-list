@@ -13,7 +13,7 @@ MiniMax is a recurring Austin AI Club entity for open-weight coding and agent mo
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
+- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open models are eating the frontier gap**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
 - [[Austin AI Club - April 1, 2026]]: **MiniMax M2.7** and **Distillation hesitation**.
 - [[Austin AI Club - March 18, 2026]]: **Claude distillation claims** and **MiniMax M2.7**.
@@ -23,3 +23,4 @@ MiniMax is a recurring Austin AI Club entity for open-weight coding and agent mo
 - [[Open Models]]
 - [[Coding Agents]]
 - [[Model Distillation]]
+- [[vLLM]]

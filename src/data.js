@@ -28,7 +28,7 @@ function xArticle(article) {
   return {
     ...article,
     type: "article",
-    eyebrow: "X article",
+    eyebrow: article.eyebrow ?? "X article",
   };
 }
 
@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Local model services, agent payments, model-release super-slides, Fable fallout, and Cursor's platform play: Ben turns Bwen into qwenstradamus, Hermes gets Stripe checkout, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
+        "Local model services, agent payments, open serving infra, model-release super-slides, Fable fallout, and Cursor's platform play: Ben turns Bwen into qwenstradamus, Hermes gets Stripe checkout, vLLM makes weird open models runnable, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
     },
     showcases: [
       {
@@ -148,6 +148,22 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/NousResearch/status/2066647737613832624?ref_src=twsrc%5Etfw",
             },
+            linkPair: [
+              "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+              "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+            ],
+          },
+          {
+            title: "vLLM turns weird open models into runnable systems",
+            description:
+              "vLLM is doing the unglamorous work that decides whether the open-model wave is usable: MiniMax M3 sparse-attention serving, native DiffusionGemma support, and Fusion routing for model panels. The takeaway is not more weights; it is turning weird architectures into deployable systems.",
+            chip: "serving infra",
+            href: "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+            linkPair: [
+              "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+              "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+              "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+            ],
           },
         ],
       },

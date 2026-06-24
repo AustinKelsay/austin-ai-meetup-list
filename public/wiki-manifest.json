@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:07:35.046Z",
+  "generatedAt": "2026-06-24T00:26:36.537Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -87,17 +87,18 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-23",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -106,12 +107,14 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "company-brain",
         "local-ai",
         "openai",
-        "vercel"
+        "vercel",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -138,6 +141,7 @@
         "openai",
         "openclaw",
         "vercel",
+        "vllm",
         "world-models"
       ],
       "referencedTopicSources": [
@@ -634,6 +638,48 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
@@ -5866,6 +5912,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "vllm",
         "world-models",
         "xai"
       ],
@@ -5890,6 +5937,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "vllm",
         "world-models",
         "xai"
       ],
@@ -6981,6 +7029,12 @@
         "https://huggingface.co/datasets/benthecarman/bwen-dataset",
         "https://github.com/benthecarman/bwen",
         "https://x.com/NousResearch/status/2066647737613832624",
+        "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+        "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+        "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+        "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -7043,6 +7097,36 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
         },
         {
@@ -7208,7 +7292,7 @@
       ],
       "created": "2026-06-16",
       "updated": "2026-06-23",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Cursor, MiniMax, Moonshot AI, Nous Research, OpenAI, Z.ai.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Cursor, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, vLLM, Z.ai.",
       "rawHref": "/topics/2026-06-24.md",
       "relativePath": "2026-06-24.md",
       "outgoingIds": [
@@ -7225,12 +7309,15 @@
         "minimax",
         "moonshot-ai",
         "nous-research",
+        "nvidia",
         "open-models",
         "openai",
+        "vllm",
         "zai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "ai-governance",
         "amazon",
         "anthropic",
@@ -7242,8 +7329,10 @@
         "minimax",
         "moonshot-ai",
         "nous-research",
+        "nvidia",
         "open-models",
         "openai",
+        "vllm",
         "zai"
       ],
       "referencedTopicSources": []
@@ -7266,6 +7355,12 @@
         "https://huggingface.co/datasets/benthecarman/bwen-dataset",
         "https://github.com/benthecarman/bwen",
         "https://x.com/NousResearch/status/2066647737613832624",
+        "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+        "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+        "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+        "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -7333,6 +7428,36 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
         },
         {
@@ -10861,7 +10986,8 @@
         "austin-ai-club-may-13-2026",
         "google",
         "nvidia",
-        "qwen"
+        "qwen",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -10879,7 +11005,8 @@
         "nvidia",
         "privacy-tooling",
         "qwen",
-        "spacex"
+        "spacex",
+        "vllm"
       ],
       "referencedTopicSources": [
         {
@@ -10923,6 +11050,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://openai.com/index/daybreak-securing-the-world/",
@@ -13301,7 +13456,8 @@
         "cohere",
         "compute-strategy",
         "open-models",
-        "privacy-tooling"
+        "privacy-tooling",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -13318,7 +13474,8 @@
         "google",
         "open-models",
         "prismml",
-        "speculative-decoding"
+        "speculative-decoding",
+        "vllm"
       ],
       "referencedTopicSources": [
         {
@@ -13353,6 +13510,34 @@
           "href": "https://github.com/benthecarman/bwen",
           "title": "Ben turns Bwen into Qwenstradamus",
           "section": "Local Builds & Projects",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
@@ -15709,7 +15894,8 @@
         "austin-ai-club-march-18-2026",
         "coding-agents",
         "model-distillation",
-        "open-models"
+        "open-models",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -16562,6 +16748,34 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
           "title": "MiniMax M2.7",
           "section": "Models & Research",
@@ -17102,6 +17316,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ]
     },
@@ -17117,12 +17345,13 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
@@ -17134,16 +17363,19 @@
         "agent-infrastructure",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "open-models",
-        "privacy-tooling"
+        "privacy-tooling",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
@@ -17276,6 +17508,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -18146,6 +18406,7 @@
         "moonshot-ai",
         "nvidia",
         "qwen",
+        "vllm",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -18171,11 +18432,40 @@
         "nvidia",
         "prismml",
         "speculative-decoding",
+        "vllm",
         "world-models",
         "xai",
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
@@ -21055,6 +21345,757 @@
       ]
     },
     {
+      "id": "vllm",
+      "title": "vLLM",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "agent-infrastructure",
+        "open-source",
+        "local-ai"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md",
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 2,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "excerpt": "vLLM is an open-source inference and serving stack for large language models, increasingly important when new open models need nonstandard attention, routing, multimodal, speculative-decoding, or long-context support before builders can actually run them.",
+      "rawHref": "/topics/entities/vllm.md",
+      "relativePath": "entities/vllm.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy",
+        "local-ai",
+        "minimax",
+        "nvidia",
+        "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2062521325076299981",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/MiniMax_AI/status/2061266317815296322",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/gemma-4-12B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://ai.google.dev/gemma/docs/core",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/nvidia/cosmos",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2061308434629132553",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://ideogram.ai/news/ideogram-4.0/",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/collections/ideogram-ai/ideogram-4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ideogram_ai/status/2062202228770045991",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/magenta-realtime-2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/magenta/magenta-realtime",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleMagenta/status/2062589313372594538",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/jetbrains/status/2061444430884675791",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/omni-dreams-models",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/nv-tlabs/omni-dreams",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2062896815784219076",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://hcompany.ai/holo3",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Hcompany/Holo-3.1-35B-A3B-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/hcompany_ai/status/2061815365168923083",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2061008636634394819",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://hf.co/collections/nex-agi/nex-n2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2063881896153543022",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/jdopensource/JoyAI-Echo",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/jd-opensource/JoyAI-Echo",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/JinWeiyang18434/status/2062034336929677578",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/ByteDance/Bernini-R",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingModels/status/2062025488147849246",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/boson_ai/status/2062629221411995896",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/rednote-hilab/dots.tts",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/AdinaYakup/status/2062923324896727048",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2060023455290974474",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/PaddlePaddle/status/2059990434827661769",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/OpenBMB/status/2061810723169415205",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/MiniCPM5-1B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/OpenBMB/status/2058903449379717319",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2062381047212638697",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-7B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2057384034544804136",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2059104921778352626",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenMOSS/MOSS-TTS",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2059243470469185617",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ClementDelangue/status/2061968482640523365",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2059244401189163391",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/baidu/NAVA",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/pmarca/status/2063179832008356119",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/bytedance-research/Lance",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/XiaomiMiMo/status/2063993799085633911",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2062207258810053084",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2062470072179044447",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2060470519775043879",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2056369392666194108",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kijai/WanVideo_comfy",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kijai/LTX2.3_comfy",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/PixelDiT",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/Ideogram-4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/amazon/chronos-2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2064378058329526556",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/LocateAnything-3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2056887241432014959",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/x-square-robot/wall-oss-flow",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/x-square-robot/wall-oss-0.5",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/X-Square-Robot/wall-x",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/AdinaYakup/status/2063901313578963072",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        }
+      ]
+    },
+    {
       "id": "world-models",
       "title": "World Models",
       "type": "concept",
@@ -21609,17 +22650,18 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-09",
+      "updated": "2026-06-23",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -21628,12 +22670,14 @@
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "company-brain",
         "local-ai",
         "openai",
-        "vercel"
+        "vercel",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -21660,6 +22704,7 @@
         "openai",
         "openclaw",
         "vercel",
+        "vllm",
         "world-models"
       ],
       "referencedTopicSources": [
@@ -22156,6 +23201,48 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
@@ -27388,6 +28475,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "vllm",
         "world-models",
         "xai"
       ],
@@ -27412,6 +28500,7 @@
         "openai",
         "privacy-tooling",
         "spacex",
+        "vllm",
         "world-models",
         "xai"
       ],
@@ -28503,6 +29592,12 @@
         "https://huggingface.co/datasets/benthecarman/bwen-dataset",
         "https://github.com/benthecarman/bwen",
         "https://x.com/NousResearch/status/2066647737613832624",
+        "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+        "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+        "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+        "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -28565,6 +29660,36 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
         },
         {
@@ -28730,7 +29855,7 @@
       ],
       "created": "2026-06-16",
       "updated": "2026-06-23",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Cursor, MiniMax, Moonshot AI, Nous Research, OpenAI, Z.ai.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Coding Agents, Open Models, Local AI, AI Governance, Compute Strategy, Anthropic, Amazon, Ben Carman, Cursor, MiniMax, Moonshot AI, Nous Research, NVIDIA, OpenAI, vLLM, Z.ai.",
       "rawHref": "/topics/2026-06-24.md",
       "relativePath": "2026-06-24.md",
       "outgoingIds": [
@@ -28747,12 +29872,15 @@
         "minimax",
         "moonshot-ai",
         "nous-research",
+        "nvidia",
         "open-models",
         "openai",
+        "vllm",
         "zai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
         "ai-governance",
         "amazon",
         "anthropic",
@@ -28764,8 +29892,10 @@
         "minimax",
         "moonshot-ai",
         "nous-research",
+        "nvidia",
         "open-models",
         "openai",
+        "vllm",
         "zai"
       ],
       "referencedTopicSources": []
@@ -28788,6 +29918,12 @@
         "https://huggingface.co/datasets/benthecarman/bwen-dataset",
         "https://github.com/benthecarman/bwen",
         "https://x.com/NousResearch/status/2066647737613832624",
+        "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+        "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+        "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+        "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+        "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
         "https://openai.com/index/daybreak-securing-the-world/",
         "https://digg.com/ai/a95mmx07",
         "https://x.com/OpenAI/status/2069104283824640023",
@@ -28855,6 +29991,36 @@
         {
           "href": "https://x.com/NousResearch/status/2066647737613832624",
           "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure"
         },
         {
@@ -32383,7 +33549,8 @@
         "austin-ai-club-may-13-2026",
         "google",
         "nvidia",
-        "qwen"
+        "qwen",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -32401,7 +33568,8 @@
         "nvidia",
         "privacy-tooling",
         "qwen",
-        "spacex"
+        "spacex",
+        "vllm"
       ],
       "referencedTopicSources": [
         {
@@ -32445,6 +33613,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://openai.com/index/daybreak-securing-the-world/",
@@ -34823,7 +36019,8 @@
         "cohere",
         "compute-strategy",
         "open-models",
-        "privacy-tooling"
+        "privacy-tooling",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -34840,7 +36037,8 @@
         "google",
         "open-models",
         "prismml",
-        "speculative-decoding"
+        "speculative-decoding",
+        "vllm"
       ],
       "referencedTopicSources": [
         {
@@ -34875,6 +36073,34 @@
           "href": "https://github.com/benthecarman/bwen",
           "title": "Ben turns Bwen into Qwenstradamus",
           "section": "Local Builds & Projects",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
@@ -37231,7 +38457,8 @@
         "austin-ai-club-march-18-2026",
         "coding-agents",
         "model-distillation",
-        "open-models"
+        "open-models",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -38084,6 +39311,34 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
           "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
           "title": "MiniMax M2.7",
           "section": "Models & Research",
@@ -38624,6 +39879,20 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli",
+          "title": "Hermes Agent gets a Stripe wallet",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ]
     },
@@ -38639,12 +39908,13 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
@@ -38656,16 +39926,19 @@
         "agent-infrastructure",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
         "open-models",
-        "privacy-tooling"
+        "privacy-tooling",
+        "vllm"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "compute-strategy",
@@ -38798,6 +40071,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
         },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -39668,6 +40969,7 @@
         "moonshot-ai",
         "nvidia",
         "qwen",
+        "vllm",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -39693,11 +40995,40 @@
         "nvidia",
         "prismml",
         "speculative-decoding",
+        "vllm",
         "world-models",
         "xai",
         "zai"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
         {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
@@ -42576,6 +43907,757 @@
         }
       ]
     },
+    "vllm": {
+      "id": "vllm",
+      "title": "vLLM",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "agent-infrastructure",
+        "open-source",
+        "local-ai"
+      ],
+      "sources": [
+        "raw/articles/2026-06-24-link-records.md",
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 2,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "excerpt": "vLLM is an open-source inference and serving stack for large language models, increasingly important when new open models need nonstandard attention, routing, multimodal, speculative-decoding, or long-context support before builders can actually run them.",
+      "rawHref": "/topics/entities/vllm.md",
+      "relativePath": "entities/vllm.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy",
+        "local-ai",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-june-10-2026",
+        "austin-ai-club-june-24-2026",
+        "compute-strategy",
+        "local-ai",
+        "minimax",
+        "nvidia",
+        "open-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/10/diffusion-gemma.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+          "title": "vLLM turns weird open models into runnable systems",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-june-24-2026",
+          "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2062521325076299981",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/MiniMax_AI/status/2061266317815296322",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/gemma-4-12B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://ai.google.dev/gemma/docs/core",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2062202706882883696",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/googleaidevs/status/2064743223491449013",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/nvidia/cosmos",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2061308434629132553",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://ideogram.ai/news/ideogram-4.0/",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/collections/ideogram-ai/ideogram-4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ideogram_ai/status/2062202228770045991",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/magenta-realtime-2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/magenta/magenta-realtime",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleMagenta/status/2062589313372594538",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/jetbrains/status/2061444430884675791",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/omni-dreams-models",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/nv-tlabs/omni-dreams",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2062896815784219076",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://hcompany.ai/holo3",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Hcompany/Holo-3.1-35B-A3B-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/hcompany_ai/status/2061815365168923083",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2061008636634394819",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://hf.co/collections/nex-agi/nex-n2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2063881896153543022",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/jdopensource/JoyAI-Echo",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/jd-opensource/JoyAI-Echo",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/JinWeiyang18434/status/2062034336929677578",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/ByteDance/Bernini-R",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingModels/status/2062025488147849246",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/boson_ai/status/2062629221411995896",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/rednote-hilab/dots.tts",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/AdinaYakup/status/2062923324896727048",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2060023455290974474",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/PaddlePaddle/status/2059990434827661769",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/OpenBMB/status/2061810723169415205",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/openbmb/MiniCPM5-1B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/OpenBMB/status/2058903449379717319",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ArtificialAnlys/status/2062381047212638697",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-7B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2057384034544804136",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2059104921778352626",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/OpenMOSS/MOSS-TTS",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2059243470469185617",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ClementDelangue/status/2061968482640523365",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/ModelScope2022/status/2059244401189163391",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/baidu/NAVA",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/pmarca/status/2063179832008356119",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/bytedance-research/Lance",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/XiaomiMiMo/status/2063993799085633911",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2062207258810053084",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2062470072179044447",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2060470519775043879",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/UnslothAI/status/2056369392666194108",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kijai/WanVideo_comfy",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Kijai/LTX2.3_comfy",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/PixelDiT",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Comfy-Org/Ideogram-4",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/amazon/chronos-2",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2064378058329526556",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/LocateAnything-3B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2056887241432014959",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/x-square-robot/wall-oss-flow",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/x-square-robot/wall-oss-0.5",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://github.com/X-Square-Robot/wall-x",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        },
+        {
+          "href": "https://x.com/AdinaYakup/status/2063901313578963072",
+          "title": "Open-weight release week turns into a firehose",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-june-10-2026",
+          "sourcePageTitle": "Austin AI Club - June 10, 2026"
+        }
+      ]
+    },
     "world-models": {
       "id": "world-models",
       "title": "World Models",
@@ -43068,6 +45150,10 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "austin-ai-club-june-10-2026"
     },
     {
@@ -43097,6 +45183,10 @@
     {
       "source": "agent-infrastructure",
       "target": "local-ai"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "vllm"
     },
     {
       "source": "agent-infrastructure",
@@ -43508,7 +45598,15 @@
     },
     {
       "source": "austin-ai-club-june-24-2026",
+      "target": "nvidia"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
       "target": "openai"
+    },
+    {
+      "source": "austin-ai-club-june-24-2026",
+      "target": "vllm"
     },
     {
       "source": "austin-ai-club-june-24-2026",
@@ -43823,6 +45921,10 @@
       "target": "qwen"
     },
     {
+      "source": "compute-strategy",
+      "target": "vllm"
+    },
+    {
       "source": "cursor",
       "target": "austin-ai-club-june-24-2026"
     },
@@ -43935,6 +46037,10 @@
       "target": "cohere"
     },
     {
+      "source": "local-ai",
+      "target": "vllm"
+    },
+    {
       "source": "march-18-2026-source-link-records",
       "target": "austin-ai-club-march-18-2026"
     },
@@ -44023,6 +46129,10 @@
       "target": "model-distillation"
     },
     {
+      "source": "minimax",
+      "target": "vllm"
+    },
+    {
       "source": "model-distillation",
       "target": "austin-ai-club-april-15-2026"
     },
@@ -44084,6 +46194,10 @@
     },
     {
       "source": "nvidia",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "nvidia",
       "target": "austin-ai-club-june-10-2026"
     },
     {
@@ -44113,6 +46227,10 @@
     {
       "source": "nvidia",
       "target": "privacy-tooling"
+    },
+    {
+      "source": "nvidia",
+      "target": "vllm"
     },
     {
       "source": "open-models",
@@ -44177,6 +46295,10 @@
     {
       "source": "open-models",
       "target": "meta"
+    },
+    {
+      "source": "open-models",
+      "target": "vllm"
     },
     {
       "source": "openai",
@@ -44367,6 +46489,30 @@
       "target": "agent-infrastructure"
     },
     {
+      "source": "vllm",
+      "target": "austin-ai-club-june-24-2026"
+    },
+    {
+      "source": "vllm",
+      "target": "austin-ai-club-june-10-2026"
+    },
+    {
+      "source": "vllm",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "vllm",
+      "target": "open-models"
+    },
+    {
+      "source": "vllm",
+      "target": "local-ai"
+    },
+    {
+      "source": "vllm",
+      "target": "compute-strategy"
+    },
+    {
       "source": "world-models",
       "target": "austin-ai-club-june-10-2026"
     },
@@ -44453,6 +46599,10 @@
     {
       "source": "austin-ai-club-may-27-2026",
       "target": "prismml"
+    },
+    {
+      "source": "austin-ai-club-june-10-2026",
+      "target": "vllm"
     }
   ],
   "unresolvedLinks": [],
@@ -44480,8 +46630,8 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 34,
-        "updated": "2026-06-09"
+        "degree": 37,
+        "updated": "2026-06-23"
       },
       {
         "id": "agent-security",
@@ -44633,7 +46783,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 42,
+        "degree": 44,
         "updated": "2026-06-23"
       },
       {
@@ -44655,7 +46805,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 30,
+        "degree": 35,
         "updated": "2026-06-23"
       },
       {
@@ -44780,7 +46930,7 @@
           "big-tech-moves",
           "models-research"
         ],
-        "degree": 24,
+        "degree": 26,
         "updated": "2026-06-23"
       },
       {
@@ -44844,7 +46994,7 @@
           "open-source",
           "privacy"
         ],
-        "degree": 24,
+        "degree": 26,
         "updated": "2026-06-23"
       },
       {
@@ -44906,7 +47056,7 @@
           "coding-agents",
           "open-source"
         ],
-        "degree": 13,
+        "degree": 14,
         "updated": "2026-06-23"
       },
       {
@@ -44959,7 +47109,7 @@
           "model",
           "agent-infrastructure"
         ],
-        "degree": 15,
+        "degree": 18,
         "updated": "2026-06-23"
       },
       {
@@ -44971,7 +47121,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 40,
+        "degree": 42,
         "updated": "2026-06-23"
       },
       {
@@ -45090,6 +47240,19 @@
         "updated": "2026-05-05"
       },
       {
+        "id": "vllm",
+        "label": "vLLM",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "agent-infrastructure",
+          "open-source",
+          "local-ai"
+        ],
+        "degree": 14,
+        "updated": "2026-06-23"
+      },
+      {
         "id": "world-models",
         "label": "World Models",
         "type": "concept",
@@ -45157,6 +47320,11 @@
       },
       {
         "source": "agent-infrastructure",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "agent-infrastructure",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
       },
@@ -45193,6 +47361,11 @@
       {
         "source": "agent-infrastructure",
         "target": "local-ai",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "vllm",
         "kind": "wiki"
       },
       {
@@ -45707,7 +47880,17 @@
       },
       {
         "source": "austin-ai-club-june-24-2026",
+        "target": "nvidia",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
         "target": "openai",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-24-2026",
+        "target": "vllm",
         "kind": "topic"
       },
       {
@@ -46101,6 +48284,11 @@
         "kind": "wiki"
       },
       {
+        "source": "compute-strategy",
+        "target": "vllm",
+        "kind": "wiki"
+      },
+      {
         "source": "cursor",
         "target": "austin-ai-club-june-24-2026",
         "kind": "topic"
@@ -46241,6 +48429,11 @@
         "kind": "wiki"
       },
       {
+        "source": "local-ai",
+        "target": "vllm",
+        "kind": "wiki"
+      },
+      {
         "source": "march-18-2026-source-link-records",
         "target": "austin-ai-club-march-18-2026",
         "kind": "topic"
@@ -46351,6 +48544,11 @@
         "kind": "wiki"
       },
       {
+        "source": "minimax",
+        "target": "vllm",
+        "kind": "wiki"
+      },
+      {
         "source": "model-distillation",
         "target": "austin-ai-club-april-15-2026",
         "kind": "topic"
@@ -46427,6 +48625,11 @@
       },
       {
         "source": "nvidia",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "nvidia",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
       },
@@ -46463,6 +48666,11 @@
       {
         "source": "nvidia",
         "target": "privacy-tooling",
+        "kind": "wiki"
+      },
+      {
+        "source": "nvidia",
+        "target": "vllm",
         "kind": "wiki"
       },
       {
@@ -46543,6 +48751,11 @@
       {
         "source": "open-models",
         "target": "meta",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "vllm",
         "kind": "wiki"
       },
       {
@@ -46781,6 +48994,36 @@
         "kind": "wiki"
       },
       {
+        "source": "vllm",
+        "target": "austin-ai-club-june-24-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "vllm",
+        "target": "austin-ai-club-june-10-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "vllm",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "vllm",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "vllm",
+        "target": "local-ai",
+        "kind": "wiki"
+      },
+      {
+        "source": "vllm",
+        "target": "compute-strategy",
+        "kind": "wiki"
+      },
+      {
         "source": "world-models",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
@@ -46889,15 +49132,20 @@
         "source": "austin-ai-club-may-27-2026",
         "target": "prismml",
         "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-june-10-2026",
+        "target": "vllm",
+        "kind": "topic"
       }
     ]
   },
   "stats": {
-    "pageCount": 53,
+    "pageCount": 54,
     "rawPageCount": 0,
-    "linkCount": 352,
+    "linkCount": 369,
     "sourceRecordCount": 7,
-    "sourceLinkCount": 588,
+    "sourceLinkCount": 594,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-06-23"
   }

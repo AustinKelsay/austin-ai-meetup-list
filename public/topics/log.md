@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-06-23] update | vLLM serving-infra topic added
+
+- Added **vLLM turns weird open models into runnable systems** as a June 24 Agent Infrastructure Topic, validating the non-duplicate research-agent suggestions around MiniMax M3 serving, DiffusionGemma runtime support, vLLM Semantic Router Fusion, and NVIDIA's local DiffusionGemma numbers.
+- Added Stripe's Projects blog and Hermes Stripe Link CLI docs as stronger supporting sources for **Hermes Agent gets a Stripe wallet**.
+- Created [[vLLM]] and updated [[Agent Infrastructure]], [[Open Models]], [[Local AI]], [[Compute Strategy]], [[MiniMax]], and [[NVIDIA]] with the June 24 serving-infra reference.
+- Mirrored the new topic and supporting links into `src/data.js` for Presentation Mode.
+
 ## [2026-06-23] update | Ben's Bwen service added
 
 - Added **Ben turns Bwen into Qwenstradamus** as a June 24 Local Builds & Projects Topic, combining Ben's `bwen:14b` Qwen3 fine-tune and qwenstradamus.com service launch.
@@ -18,7 +25,7 @@
 - Removed the xAI Grok Imagine Video 1.5 item from the June 24 closed-model slide because the Grok Imagine launch was already covered on June 10.
 - Removed repeat open-model links from the June 24 slide for NVIDIA Nemotron/Cosmos and Google DiffusionGemma because those were already covered on June 10, and dropped DeepSeek V4 because its release predates this meetup window.
 - Created [[MiniMax]] and [[Moonshot AI]] and updated recurring wiki backlinks for Open Models, Compute Strategy, Coding Agents, AI Governance, MiniMax, Moonshot AI, OpenAI, and Z.ai.
-- Mirrored the rebuilt slide pair into `src/data.js` with X embeds and supporting links for Presentation Mode.
+- Confirmed the rebuilt Topics are represented in `src/data.js` as **Closed model releases are a quiet week** and **Open models are eating the frontier gap**, with X embeds and supporting links for Presentation Mode.
 
 ## [2026-06-16] update | Cursor Origin topic added to June 24 board
 

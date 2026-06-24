@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-06-23 | Total pages: 53
+> Last updated: 2026-06-23 | Total pages: 54
 
 ## Meetups
 
@@ -36,6 +36,7 @@
 - [[Qwen]]
 - [[SpaceX]]
 - [[Vercel]]
+- [[vLLM]]
 - [[xAI]]
 - [[Z.ai]]
 

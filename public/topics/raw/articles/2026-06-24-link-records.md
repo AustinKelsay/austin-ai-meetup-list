@@ -51,6 +51,38 @@ sources: []
   - Type: Official X post
   - Access: 2026-06-16
   - Notes: Nous Research's June 15 announcement that Hermes Agent can buy things, pay per-call APIs, and provision SaaS with configurable safety limits on every action. 338.5K views, 4.1K likes, 325 reposts, 134 quotes, 1.3K bookmarks.
+- Source: https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls
+  - Title: "Stripe Projects adds new agent integrations, more providers, and custom developer controls"
+  - Type: Official product blog
+  - Access: 2026-06-23
+  - Notes: Stripe's June 11 Projects update says Hermes, Factory Droids, and Warp agents can provision infrastructure directly, adds 16 new providers for 49 total, and adds per-provider spend limits plus isolated credentials for development/staging/production.
+- Source: https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/payments/payments-stripe-link-cli
+  - Title: "Stripe Link Cli - Agent payments via Stripe Link - cards, SPT, approvals"
+  - Type: Hermes documentation
+  - Access: 2026-06-23
+  - Notes: Hermes docs for the optional Stripe Link CLI skill. The page says the skill wraps `@stripe/link-cli`, supports one-time virtual cards or Shared Payment Tokens, and gates every spend through in-app Link approval that Hermes cannot self-approve.
+
+### vLLM turns weird open models into runnable systems
+- Source: https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html
+  - Title: "MiniMax M3 in vLLM: Day-0 Serving for 1M-Token Multimodal Reasoning"
+  - Type: Runtime integration
+  - Access: 2026-06-23
+  - Notes: vLLM's June 12 post announcing day-zero support for MiniMax M3 BF16 and MXFP8 checkpoints, including MiniMax Sparse Attention, multimodal preprocessing, tool/reasoning parsers, EAGLE3 speculative decoding, prefix caching, chunked prefill, and long-context deployment recipes.
+- Source: https://vllm-project.github.io/2026/06/10/diffusion-gemma.html
+  - Title: "DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM"
+  - Type: Runtime integration
+  - Access: 2026-06-23
+  - Notes: vLLM and Google DeepMind's June 10 post explaining native DiffusionGemma support, including bidirectional attention, iterative block refinement, custom sampling, prefix caching, and batched serving for 256-token diffusion canvases.
+- Source: https://vllm-project.github.io/2026/06/16/vllm-sr-fusion-api.html
+  - Title: "Beyond One Model: Fusion in vLLM Semantic Router"
+  - Type: Runtime integration
+  - Access: 2026-06-23
+  - Notes: vLLM Semantic Router post introducing Fusion as a routing primitive for panel, judge, synthesis, traces, policy, and model diversity across local vLLM backends and provider APIs.
+- Source: https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/
+  - Title: "NVIDIA Accelerates Google DeepMind's DiffusionGemma for Local AI"
+  - Type: Official technical blog
+  - Access: 2026-06-23
+  - Notes: NVIDIA's June 10 local-AI post frames DiffusionGemma as a compute-bound block-generation workload, reports 1,000 tokens/sec on H100, 150 tokens/sec on DGX Spark, and up to 2,000 tokens/sec on DGX Station, with day-zero support in Hugging Face Transformers, vLLM, and Unsloth.
 
 ## Models & Research
 

@@ -39,6 +39,28 @@ function getTweetMatch(href) {
   };
 }
 
+function getXArticleMatch(href) {
+  const url = parseUrl(href);
+  if (!url) {
+    return null;
+  }
+
+  const host = url.hostname.replace(/^www\./, "");
+  if (host !== "x.com" && host !== "twitter.com") {
+    return null;
+  }
+
+  const parts = url.pathname.split("/").filter(Boolean);
+  if (parts[0] !== "i" || parts[1] !== "article" || !parts[2]) {
+    return null;
+  }
+
+  return {
+    id: parts[2],
+    href,
+  };
+}
+
 function getTweetKey(href) {
   const match = getTweetMatch(href);
   return match ? `tweet:${match.id}` : null;
@@ -489,7 +511,7 @@ export function Topic({ item, id, onActivate }) {
   );
 }
 
-function parseLinkMeta(href) {
+export function parseLinkMeta(href) {
   try {
     const url = new URL(href);
     const host = url.hostname.replace(/^www\./, "");
@@ -500,6 +522,11 @@ function parseLinkMeta(href) {
       const owner = parts[0] || "";
       const repo = parts[1] || "";
       return { kind: "github", host, owner, repo, href };
+    }
+
+    const xArticle = getXArticleMatch(href);
+    if (xArticle) {
+      return { kind: "x-article", host, articleId: xArticle.id, href };
     }
 
     if (host === "x.com" || host === "twitter.com") {
@@ -558,6 +585,21 @@ export function LinkCard({ href }) {
           <span className="link-card-domain">huggingface.co {meta.type}</span>
           <span className="link-card-title">{meta.owner}/{meta.model}</span>
           <span className="link-card-hint">Open model card -&gt;</span>
+        </div>
+      </a>
+    );
+  }
+
+  if (meta.kind === "x-article") {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className="link-card link-card--x link-card--x-article">
+        <svg className="link-card-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+        <div className="link-card-body">
+          <span className="link-card-domain">x.com article</span>
+          <span className="link-card-title">View article</span>
+          <span className="link-card-hint">Open on X -&gt;</span>
         </div>
       </a>
     );

@@ -13,7 +13,7 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week** and **Open models are eating the frontier gap**.
+- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Closed model releases are a quiet week**, and **Open models are eating the frontier gap**.
 - [[Austin AI Club - June 10, 2026]]: **Closed labs start the June model wave**, **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.
 - [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.
@@ -25,3 +25,4 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 - [[Google]]
 - [[NVIDIA]]
 - [[Qwen]]
+- [[vLLM]]
