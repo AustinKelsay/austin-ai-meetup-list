@@ -77,8 +77,8 @@ export function WikiTopicResults({
               </div>
 
               <div className="wiki-topic-source-list" aria-label={`${topic.title} source links`}>
-                {(topic.sourceLinks ?? []).map((href) => (
-                  <TopicSourceLink key={href} href={href} />
+                {(topic.sourceLinks ?? []).map((href, index) => (
+                  <TopicSourceLink key={`${href}-${index}`} href={href} />
                 ))}
               </div>
             </article>
