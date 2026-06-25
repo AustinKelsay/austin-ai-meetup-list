@@ -150,4 +150,46 @@ describe("wikiSearch", () => {
     expect(filterPagesByQuery(pages, "", {}).map((p) => p.id)).toEqual(["a", "b", "c"]);
     expect(filterPagesByQuery(pages, "open", {}).map((p) => p.id)).toEqual(["b"]);
   });
+
+  it("ranks exact title matches above broad contextual matches", () => {
+    const pages = [
+      page({
+        id: "agent-cost-controls",
+        title: "Agent Cost Controls",
+        referencedTopicSources: [{ title: "SpaceX options Cursor for $60B" }],
+      }),
+      page({ id: "june-24", title: "Austin AI Club - June 24, 2026", excerpt: "Cursor previews Origin" }),
+      page({ id: "cursor", title: "Cursor", excerpt: "Cursor is a recurring entity." }),
+      page({ id: "cursor-spacex", title: "Cursor and SpaceX", type: "query" }),
+    ];
+
+    expect(filterPagesByQuery(pages, "cursor", {}).map((p) => p.id)).toEqual([
+      "cursor",
+      "cursor-spacex",
+      "agent-cost-controls",
+      "june-24",
+    ]);
+  });
+
+  it("ranks multi-token title matches before pages that only match through references", () => {
+    const pages = [
+      page({
+        id: "cursor",
+        title: "Cursor",
+        referencedTopicSources: [{ title: "SpaceX options Cursor for $60B" }],
+      }),
+      page({ id: "cursor-spacex", title: "Cursor and SpaceX", type: "query" }),
+      page({
+        id: "compute-strategy",
+        title: "Compute Strategy",
+        referencedTopicSources: [{ title: "SpaceX options Cursor for $60B" }],
+      }),
+    ];
+
+    expect(filterPagesByQuery(pages, "cursor spacex", {}).map((p) => p.id)).toEqual([
+      "cursor-spacex",
+      "cursor",
+      "compute-strategy",
+    ]);
+  });
 });

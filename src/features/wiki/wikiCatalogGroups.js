@@ -15,14 +15,37 @@ export function getGroupOrder(knownTypes) {
   return order.filter((type) => knownTypes instanceof Set ? knownTypes.has(type) || DEFAULT_GROUP_ORDER.includes(type) : knownList.includes(type) || DEFAULT_GROUP_ORDER.includes(type));
 }
 
-export function groupPagesByType(pages, knownTypes) {
+function getFirstMatchOrder(pages, knownTypes) {
+  const ordered = [];
+  const seen = new Set();
+
+  for (const page of pages) {
+    if (!seen.has(page.type)) {
+      ordered.push(page.type);
+      seen.add(page.type);
+    }
+  }
+
+  const defaults = getGroupOrder(knownTypes ?? []);
+
+  for (const type of defaults) {
+    if (!seen.has(type)) {
+      ordered.push(type);
+      seen.add(type);
+    }
+  }
+
+  return ordered;
+}
+
+export function groupPagesByType(pages, knownTypes, { preserveFirstMatchOrder = false } = {}) {
   const observedTypes = new Set(pages.map((page) => page.type));
   const combined =
     knownTypes instanceof Set
       ? new Set([...knownTypes, ...observedTypes])
       : new Set([...(knownTypes ?? []), ...observedTypes]);
 
-  const order = getGroupOrder(combined);
+  const order = preserveFirstMatchOrder ? getFirstMatchOrder(pages, combined) : getGroupOrder(combined);
   const groups = new Map(order.map((type) => [type, []]));
 
   for (const page of pages) {

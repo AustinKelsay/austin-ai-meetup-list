@@ -31,6 +31,62 @@ function TopicSourceLink({ href }) {
   );
 }
 
+function TopicPagePills({ topic, pagesById, limit = 3 }) {
+  const pages = (topic.wikiIds ?? []).map((id) => pagesById[id]).filter(Boolean).slice(0, limit);
+
+  if (pages.length === 0) {
+    return null;
+  }
+
+  return (
+    <span className="wiki-topic-hit-pills" aria-label={`${topic.title} wiki pages`}>
+      {pages.map((page) => (
+        <span key={page.id} className="wiki-topic-hit-pill">
+          {page.title}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+export function WikiTopicSpotlight({
+  topics,
+  pagesById,
+  onOpenRoute,
+  limit = 5,
+}) {
+  const visibleTopics = topics.slice(0, limit);
+
+  return (
+    <section className="wiki-topic-spotlight" aria-label="Matching past Topics">
+      <div className="wiki-topic-spotlight-heading">
+        <span>Topic hits</span>
+        <strong>{topics.length}</strong>
+      </div>
+      {visibleTopics.length > 0 ? (
+        <div className="wiki-topic-hit-list">
+          {visibleTopics.map((topic) => (
+            <RouteLink
+              key={topic.id}
+              to={buildMeetupPath(topic.meetupSlug)}
+              onOpenRoute={onOpenRoute}
+              className="wiki-topic-hit"
+            >
+              <span className="wiki-topic-hit-copy">
+                <strong>{topic.title}</strong>
+                <small>{topic.meetupTitle} · {topic.section}</small>
+              </span>
+              <TopicPagePills topic={topic} pagesById={pagesById} />
+            </RouteLink>
+          ))}
+        </div>
+      ) : (
+        <p className="wiki-empty-copy">No past Topics match yet.</p>
+      )}
+    </section>
+  );
+}
+
 export function WikiTopicResults({
   topics,
   pagesById,

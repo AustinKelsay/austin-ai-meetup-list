@@ -1,7 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import { WikiDetail } from "./WikiDetail.jsx";
-import { WikiTopicResults } from "./WikiTopicResults.jsx";
+import { WikiTopicResults, WikiTopicSpotlight } from "./WikiTopicResults.jsx";
 
 function buildPage(overrides) {
   return {
@@ -328,6 +328,44 @@ describe("WikiDetail", () => {
 });
 
 describe("WikiTopicResults", () => {
+  it("renders compact Topic hits for search discovery", () => {
+    const html = renderToStaticMarkup(
+      <WikiTopicSpotlight
+        topics={[
+          {
+            id: "cursor-origin",
+            title: "Cursor previews Origin, a GitHub competitor",
+            section: "Big Tech Moves",
+            meetupTitle: "Austin AI Club - June 24, 2026",
+            meetupSlug: "2026-06-24",
+            wikiIds: ["cursor", "big-tech-moves"],
+          },
+          {
+            id: "cursor-spacex",
+            title: "SpaceX options Cursor for $60B",
+            section: "Big Tech Moves",
+            meetupTitle: "Austin AI Club - May 27, 2026",
+            meetupSlug: "2026-05-27",
+            wikiIds: ["cursor", "spacex"],
+          },
+        ]}
+        pagesById={{
+          cursor: { id: "cursor", title: "Cursor", type: "entity" },
+          spacex: { id: "spacex", title: "SpaceX", type: "entity" },
+          "big-tech-moves": { id: "big-tech-moves", title: "Big Tech Moves", type: "concept" },
+        }}
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("Topic hits");
+    expect(html).toContain("Cursor previews Origin");
+    expect(html).toContain("SpaceX options Cursor for $60B");
+    expect(html).toContain("Austin AI Club - June 24, 2026");
+    expect(html).toContain("Cursor");
+    expect(html).toContain("SpaceX");
+  });
+
   it("renders filtered Topic Results with wiki chips and source links", () => {
     const html = renderToStaticMarkup(
       <WikiTopicResults

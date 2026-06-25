@@ -15,7 +15,7 @@ import WikiGraph from "./WikiGraph.jsx";
 import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
 import { filterTopicsByExplorerState, getSelectedTopicFilterIds } from "./wikiTopicFilters.js";
-import { WikiTopicResults } from "./WikiTopicResults.jsx";
+import { WikiTopicResults, WikiTopicSpotlight } from "./WikiTopicResults.jsx";
 import { filterPagesByQuery } from "./wikiSearch.js";
 import { pickRandomPage } from "./wikiSurprise.js";
 
@@ -288,8 +288,11 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     [searchedPages, typeFilter, tagFilter],
   );
   const groupedPages = useMemo(
-    () => groupPagesByType(filteredPages, new Set(pages.map((page) => page.type))),
-    [filteredPages, pages],
+    () =>
+      groupPagesByType(filteredPages, new Set(pages.map((page) => page.type)), {
+        preserveFirstMatchOrder: Boolean(query.trim()),
+      }),
+    [filteredPages, pages, query],
   );
   const filteredTopics = useMemo(
     () =>
@@ -364,11 +367,16 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
     return <WikiLoading onOpenRoute={onOpenRoute} />;
   }
 
-  const selectedPage =
-    (selectedId ? manifest.pagesById[selectedId] : null) ??
-    (focusedWikiId ? null : pages.find((page) => page.sourceLinks?.length > 0) ?? pages[0] ?? null);
-  const selectedPageId = selectedPage?.id ?? selectedId;
   const hasActiveFilters = Boolean(query) || typeFilter !== ALL || tagFilter !== ALL || activeTopicFilterIds.length > 0;
+  const selectedCandidate = selectedId ? manifest.pagesById[selectedId] : null;
+  const selectedCandidateIsVisible =
+    selectedCandidate && (!hasActiveFilters || filteredPages.some((page) => page.id === selectedCandidate.id));
+  const searchDefaultPage = hasActiveFilters ? filteredPages[0] ?? null : null;
+  const selectedPage =
+    (focusedWikiId ? selectedCandidate : null) ??
+    (selectedCandidateIsVisible ? selectedCandidate : null) ??
+    (focusedWikiId ? null : searchDefaultPage ?? pages.find((page) => page.sourceLinks?.length > 0) ?? pages[0] ?? null);
+  const selectedPageId = selectedPage?.id ?? selectedId;
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki">
@@ -434,6 +442,13 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
                 </button>
               ) : null}
             </div>
+            {shouldShowTopicResults ? (
+              <WikiTopicSpotlight
+                topics={filteredTopics}
+                pagesById={manifest.pagesById}
+                onOpenRoute={onOpenRoute}
+              />
+            ) : null}
 
             <div className="wiki-index-browser">
               <div className="wiki-index-header">

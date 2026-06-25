@@ -41,4 +41,20 @@ describe("wikiCatalogGroups", () => {
     expect(groups).toHaveLength(1);
     expect(groups[0].type).toBe("experimental");
   });
+
+  it("can order groups by the first ranked page match during search", () => {
+    const pages = [
+      page("entity", "cursor"),
+      page("query", "cursor-spacex"),
+      page("meetup", "may-27"),
+      page("entity", "spacex"),
+    ];
+
+    const groups = groupPagesByType(pages, ["meetup", "entity", "query"], {
+      preserveFirstMatchOrder: true,
+    });
+
+    expect(groups.map((group) => group.type)).toEqual(["entity", "query", "meetup"]);
+    expect(groups[0].pages.map((p) => p.id)).toEqual(["cursor", "spacex"]);
+  });
 });
