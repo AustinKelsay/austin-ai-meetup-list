@@ -13,7 +13,7 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**, **Should chat route local by default?**, **MXFP4 makes MiniMax M3 runnable**, and **Etched turns inference chips into rack-scale product**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open models are eating the frontier gap**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.
 - [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **PrismML ships 1-bit image gen that runs on iPhone**.
@@ -41,4 +41,3 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 - [[MiniMax M3]]
 - [[DiffusionGemma]]
 - [[Nemotron Puzzle]]
-- [[MXFP4]]

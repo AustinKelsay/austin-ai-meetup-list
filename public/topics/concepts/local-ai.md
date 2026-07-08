@@ -36,6 +36,5 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 - [[DiffusionGemma]]
 - [[Ollama]]
 - [[MiniMax M3]]
-- [[MXFP4]]
 - [[React Native ExecuTorch]]
 - [[Qwenstradamus]]

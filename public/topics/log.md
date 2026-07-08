@@ -32,6 +32,8 @@
 - Expanded the July 8 model-release slides after the research-agent duplicate pass: **Open model releases get specialized fast** now includes NVIDIA CWIP, Microsoft HARC-Qwen, and DeepSeek DSpark/DeepSpec, while **Proprietary releases split across agents and media** now includes OpenAI GPT-Realtime-2.1 and Meta Muse Image.
 - Moved **Proprietary releases split across agents and media** directly after **Open model releases get specialized fast** in the Models & Research run, and added the missing X embeds supplied or implied by the research-agent pass.
 - Tightened **Open model releases get specialized fast** to remove internal duplicate-pass wording and frame the slide as specialized open releases.
+- Added Tencent's **Hy3** release to **Open model releases get specialized fast** with official Tencent, Hugging Face, GitHub, and X sources.
+- Removed **MXFP4 makes MiniMax M3 runnable** from the July 8 board, presentation data, source records, and wiki backlinks.
 
 ## [2026-07-07] update | July 8 model-release slides added
 

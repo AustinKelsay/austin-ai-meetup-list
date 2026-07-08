@@ -4,7 +4,7 @@ created: 2026-06-23
 updated: 2026-07-08
 type: entity
 tags: [entity, agent-infrastructure, open-source, local-ai]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
 ---
 
 # vLLM
@@ -13,7 +13,6 @@ vLLM is an open-source inference and serving stack for large language models, in
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **MXFP4 makes MiniMax M3 runnable**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
 
@@ -27,4 +26,3 @@ vLLM is an open-source inference and serving stack for large language models, in
 - [[MiniMax]]
 - [[MiniMax M3]]
 - [[DiffusionGemma]]
-- [[MXFP4]]

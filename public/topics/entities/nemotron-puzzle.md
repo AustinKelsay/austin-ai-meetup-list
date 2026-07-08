@@ -21,4 +21,3 @@ Nemotron Puzzle is NVIDIA's compressed Nemotron-Labs model variant from the July
 - [[Nemotron]]
 - [[Open Models]]
 - [[Inference Optimization]]
-- [[MXFP4]]

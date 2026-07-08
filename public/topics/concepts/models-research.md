@@ -13,7 +13,7 @@ Models & Research is the Austin AI Club track for model releases, benchmark shif
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases get specialized fast**, **Should chat route local by default?**, **Proprietary releases split across agents and media**, **Claude gets a consciousness-adjacent workspace**, and **MXFP4 makes MiniMax M3 runnable**.
+- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases get specialized fast**, **Should chat route local by default?**, **Proprietary releases split across agents and media**, and **Claude gets a consciousness-adjacent workspace**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **Open models are eating the frontier gap**, and **Research behind the open model wave**.
 - [[Austin AI Club - June 10, 2026]]: **Closed labs start the June model wave**, **Open-weight release week turns into a firehose**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, **DeepSWE exposes the real coding model hierarchy**, **PrismML ships 1-bit image gen that runs on iPhone**, and **Epicure squeezes global cooking into 2MB**.

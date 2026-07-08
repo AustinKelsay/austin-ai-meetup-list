@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Fable 5 as advisor-model cost routing, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle/CWIP, Qwen AgentWorld, Mistral Leanstral, Cohere Transcribe Arabic, Microsoft HARC-Qwen, and DeepSeek DSpark, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6 and Realtime 2.1, Cursor/SpaceXAI Grok 4.5, Cognition SWE-1.7, Claude Sonnet 5, Google's gen-media API loop, and Meta Muse Image, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
+        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Fable 5 as advisor-model cost routing, Meta Brain2Qwerty v2, open-model releases getting specialized across Tencent Hy3, NVIDIA Puzzle/CWIP, Qwen AgentWorld, Mistral Leanstral, Cohere Transcribe Arabic, Microsoft HARC-Qwen, and DeepSeek DSpark, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6 and Realtime 2.1, Cursor/SpaceXAI Grok 4.5, Cognition SWE-1.7, Claude Sonnet 5, Google's gen-media API loop, and Meta Muse Image, Anthropic's Claude access-consciousness claim, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
     },
     showcases: [
       {
@@ -154,10 +154,14 @@ export const meetups = [
           {
             title: "Open model releases get specialized fast",
             description:
-              "The theme is specialization: Qwen for agent-world simulation, Mistral for Lean proofs, Cohere for Arabic speech, Microsoft for Qwen safety tuning, NVIDIA for serving/eval models, and DeepSeek for faster decoding.",
+              "The theme is specialization: Tencent Hy3 for agentic MoE, Qwen for agent-world simulation, Mistral for Lean proofs, Cohere for Arabic speech, Microsoft for Qwen safety tuning, NVIDIA for serving/eval models, and DeepSeek for faster decoding.",
             chip: "open releases",
-            href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+            href: "https://huggingface.co/tencent/Hy3",
             embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+              },
               {
                 type: "tweet",
                 href: "https://twitter.com/Alibaba_Qwen/status/2069720365442719867?ref_src=twsrc%5Etfw",
@@ -184,6 +188,10 @@ export const meetups = [
               },
             ],
             linkPair: [
+              "https://www.tencent.com/en-us/articles/2202386.html",
+              "https://hunyuan.tencent.com/research/hy3",
+              "https://github.com/Tencent-Hunyuan/Hy3",
+              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
               "https://arxiv.org/abs/2607.04371",
@@ -288,29 +296,6 @@ export const meetups = [
               },
             ],
             linkPair: ["https://neuronpedia.org/jlens"],
-          },
-          {
-            title: "MXFP4 makes MiniMax M3 runnable",
-            description:
-              "MiniMax M3's 428B-parameter, 1M-context spec is the backdrop. The sharper story is efficiency: MXFP4 compresses the routed MoE experts, cuts the checkpoint to roughly 237 GB, and the vLLM/MSA/EAGLE3 recipes turn a model-card flex into something people can actually serve.",
-            chip: "open model",
-            href: "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/Tech2Wild/status/2073836024451477718?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/albustime/status/2073986970653515817?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://huggingface.co/olka-fi/MiniMax-M3-MXFP4",
-              "https://vllm.ai/blog/2026-06-12-minimax-m3-vllm",
-              "https://github.com/BokuNoGF/minimax-m3-mxfp4-4x-gb10",
-              "https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/",
-            ],
           },
         ],
       },

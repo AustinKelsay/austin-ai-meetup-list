@@ -13,7 +13,7 @@ Open Models covers open-weight and open-source model releases, their deployment 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast** and **MXFP4 makes MiniMax M3 runnable**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open models are eating the frontier gap**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **PrismML ships 1-bit image gen that runs on iPhone**.
@@ -36,6 +36,8 @@ Open Models covers open-weight and open-source model releases, their deployment 
 - [[Cohere]]
 - [[MiniMax]]
 - [[Qwen]]
+- [[Tencent]]
+- [[Hy3]]
 - [[Moonshot AI]]
 - [[Kimi]]
 - [[GLM]]
@@ -57,4 +59,3 @@ Open Models covers open-weight and open-source model releases, their deployment 
 - [[DeepSpec]]
 - [[DiffusionGemma]]
 - [[Nemotron Puzzle]]
-- [[MXFP4]]

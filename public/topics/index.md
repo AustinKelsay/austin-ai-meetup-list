@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-07-08 | Total pages: 116
+> Last updated: 2026-07-08 | Total pages: 117
 
 ## Meetups
 
@@ -50,6 +50,7 @@
 - [[HARC]]
 - [[Hermes Agent]]
 - [[Human Rights Foundation]]
+- [[Hy3]]
 - [[Jalapeno]]
 - [[Kimi]]
 - [[Leanstral]]
@@ -83,6 +84,7 @@
 - [[SpaceX]]
 - [[SWE-1.7]]
 - [[TMax]]
+- [[Tencent]]
 - [[Unbroker]]
 - [[Venice]]
 - [[Vercel]]
@@ -110,7 +112,6 @@
 - [[Local Builds & Projects]]
 - [[Model Distillation]]
 - [[Models & Research]]
-- [[MXFP4]]
 - [[Open Models]]
 - [[Physical AI]]
 - [[Privacy Tooling]]

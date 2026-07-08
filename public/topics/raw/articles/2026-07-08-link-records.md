@@ -92,6 +92,26 @@ sources: []
   - Notes: AI at Meta announcement post for Brain2Qwerty v2 and the Nature publication context.
 
 ### Open model releases get specialized fast
+- Source: https://www.tencent.com/en-us/articles/2202386.html
+  - Title: "Tencent Hunyuan Officially Releases Hy3"
+  - Type: Official launch blog
+  - Access: 2026-07-08
+  - Notes: Tencent's July 6 release post introduces Hy3 as the official release after Hy3 preview, with stronger performance, stability, cost efficiency, and expanded Tencent product integration.
+- Source: https://hunyuan.tencent.com/research/hy3
+  - Title: "Introducing Hy3"
+  - Type: Official research page
+  - Access: 2026-07-08
+  - Notes: Tencent Hy research page for Hy3, linking OpenRouter, GitHub, Hugging Face, ModelScope, and AtomGit artifacts.
+- Source: https://huggingface.co/tencent/Hy3
+  - Title: "tencent/Hy3"
+  - Type: Official model card
+  - Access: 2026-07-08
+  - Notes: Hugging Face model card describes Hy3 as a 295B-parameter MoE with 21B active parameters, 3.8B MTP layer parameters, Apache 2.0 licensing, and product-feedback post-training after the preview release.
+- Repo: https://github.com/Tencent-Hunyuan/Hy3
+  - Title: "Tencent-Hunyuan/Hy3"
+  - Type: Official repository
+  - Access: 2026-07-08
+  - Notes: Official GitHub repository for Hy3 artifacts and usage information.
 - Source: https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16
   - Title: "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16"
   - Type: Official model card
@@ -167,6 +187,11 @@ sources: []
   - Type: Official repository
   - Access: 2026-07-08
   - Notes: MIT-licensed DeepSeek repository for training and evaluating draft models for speculative decoding, with released DSpark, DFlash, and Eagle3 checkpoints for Qwen3 and Gemma 4 targets.
+- Post: https://x.com/TencentHunyuan/status/2074148098876768478
+  - Title: "Hy3 is here"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Tencent Hunyuan's launch post calls Hy3 a 295B MoE with Apache 2.0 licensing, strong size-class performance, agentic use-case fit, and a free two-week OpenRouter API window.
 - Post: https://x.com/Alibaba_Qwen/status/2069720365442719867
   - Title: "Qwen-AgentWorld"
   - Type: Official X post
@@ -328,43 +353,6 @@ sources: []
   - Type: X post
   - Access: 2026-07-07
   - Notes: Stevibe's visualization of eight models' reasoning traces on a probability problem, used as a practical companion to the interpretability/debugger-surface topic.
-
-### MXFP4 makes MiniMax M3 runnable
-- Source: https://huggingface.co/MiniMaxAI/MiniMax-M3
-  - Title: "MiniMaxAI/MiniMax-M3"
-  - Type: Model card
-  - Access: 2026-07-07
-  - Notes: Hugging Face model card for the base MiniMax M3 model, describing a native multimodal model with 1M context, about 428B parameters, about 23B active parameters, and MiniMax Sparse Attention for long-context efficiency.
-- Source: https://huggingface.co/olka-fi/MiniMax-M3-MXFP4
-  - Title: "olka-fi/MiniMax-M3-MXFP4"
-  - Type: Quantized model card
-  - Access: 2026-07-07
-  - Notes: MXFP4 mixed-precision quantization of MiniMax M3 that quantizes the routed MoE experts, about 95% of the weights, to MXFP4; the card reports a 237 GB size, down from a 444 GB MXFP8 source checkpoint, with quality checks preserved.
-- Source: https://vllm.ai/blog/2026-06-12-minimax-m3-vllm
-  - Title: "MiniMax M3 in vLLM: Day-0 Serving for 1M-Token Multimodal Reasoning"
-  - Type: Runtime integration blog
-  - Access: 2026-07-07
-  - Notes: vLLM post explaining production serving work for MiniMax Sparse Attention, multimodal preprocessing, MXFP8 MoE execution, EAGLE3 speculative decoding, prefix caching, and long-context deployment.
-- Repo: https://github.com/BokuNoGF/minimax-m3-mxfp4-4x-gb10
-  - Title: "MiniMax-M3 (MXFP4) on 4x DGX Spark / GB10"
-  - Type: Repository
-  - Access: 2026-07-07
-  - Notes: Public recipe for serving quantized MiniMax M3 across DGX Spark hardware with vLLM and EAGLE3.
-- Source: https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/
-  - Title: "Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3"
-  - Type: Official technical blog
-  - Access: 2026-07-07
-  - Notes: NVIDIA deployment context for MiniMax M3 on accelerated infrastructure.
-- Post: https://x.com/Tech2Wild/status/2073836024451477718
-  - Title: "MiniMax-M3 on two DGX Sparks"
-  - Type: X post
-  - Access: 2026-07-07
-  - Notes: Tech2Wild post claiming MiniMax M3 running on two DGX Sparks with 4-bit quantization, NVFP4 KV, EAGLE3, vLLM, and 196K context.
-- Post: https://x.com/albustime/status/2073986970653515817
-  - Title: "Open source Cambrian explosion / MiniMax M3 quantization notes"
-  - Type: X post
-  - Access: 2026-07-07
-  - Notes: Akshobya post summarizing the practical significance of 4-bit quantization and the DGX Spark MiniMax M3 run.
 
 ## Security
 
