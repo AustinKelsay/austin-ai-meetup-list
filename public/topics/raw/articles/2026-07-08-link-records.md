@@ -50,6 +50,23 @@ sources: []
   - Access: 2026-07-08
   - Notes: Google Gemma post says Gemma 4 now runs fully offline in React Native apps with Vulkan delegate support on Android and MLX delegate support on Apple Silicon, demoing vision and tool-use capabilities that read a flyer and schedule a calendar event on device.
 
+### Fable 5 becomes the advisor, not the worker
+- Source: https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool
+  - Title: "Advisor tool"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: Anthropic docs describe the advisor tool as a faster, lower-cost executor model consulting a higher-intelligence advisor model mid-generation, with the advisor reading the conversation, giving a plan or correction, and returning control to the executor.
+- Source: https://code.claude.com/docs/en/advisor
+  - Title: "Escalate hard decisions with the advisor tool"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: Claude Code docs explain the advisor flow for hard decisions, including Fable 5 as an advisor option for Claude Code v2 users with Fable access.
+- Post: https://x.com/ClaudeDevs/status/2074606058128224365
+  - Title: "Fable 5 advisor pattern"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: ClaudeDevs says a common Fable 5 pattern is using Sonnet 5 as executor while calling Fable 5 for guidance, so most tokens are billed at the lower executor rate.
+
 ## Models & Research
 
 ### Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy
@@ -164,6 +181,11 @@ sources: []
   - Type: Official documentation
   - Access: 2026-07-08
   - Notes: Cursor docs describe Grok 4.5 as a joint Cursor and SpaceXAI model for long-running software-engineering and knowledge-work tasks, trained with Cursor data and reinforcement learning, available in Cursor's first-party models pool with doubled included usage through July 15 and standard $2/M input, $6/M output pricing.
+- Source: https://cognition.com/blog/swe-1-7
+  - Title: "SWE-1.7: Frontier Intelligence at a Fraction of the Cost"
+  - Type: Official launch blog
+  - Access: 2026-07-08
+  - Notes: Cognition's July 8 launch post says SWE-1.7 is its most capable model so far, trained from a Kimi K2.7 base with further RL, available in Devin via Cerebras at 1000 TPS, and near frontier coding models on FrontierCode, Terminal-Bench, and SWE-Bench Multilingual at lower rollout cost.
 - Source: https://www.anthropic.com/news/claude-sonnet-5
   - Title: "Claude Sonnet 5"
   - Type: Official launch blog
@@ -189,6 +211,11 @@ sources: []
   - Type: Official X post
   - Access: 2026-07-08
   - Notes: Cursor's July 8 post says it partnered with SpaceXAI to train Grok 4.5, calling it Cursor's most powerful model yet and the first it has built for more than software engineering.
+- Post: https://x.com/cognition/status/2074882968770728416
+  - Title: "Introducing SWE-1.7"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Cognition's July 8 post introduces SWE-1.7 as its most capable model yet, claims it scores within a few points of the strongest frontier models at a fraction of the cost, and says it is available at 1000 tokens per second.
 - Post: https://x.com/OfficialLoganK/status/2071988351083921690
   - Title: "Nano Banana 2 Lite and Gemini Omni Flash"
   - Type: Official X post

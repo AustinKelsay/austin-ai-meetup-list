@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 created: 2026-05-05
-updated: 2026-07-07
+updated: 2026-07-08
 type: concept
 tags: [concept, agent-infrastructure, local-builds]
 sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -34,3 +34,8 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 - [[Ben Carman]]
 - [[MiniMax]]
 - [[Moonshot AI]]
+- [[Claude Code]]
+- [[Codex]]
+- [[Cognition]]
+- [[React Native ExecuTorch]]
+- [[TMax]]

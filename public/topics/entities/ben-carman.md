@@ -1,7 +1,7 @@
 ---
 title: Ben Carman
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-08
 type: entity
 tags: [entity, local-builds, local-ai]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
@@ -21,3 +21,4 @@ Ben Carman is a recurring Austin AI Club local-builder source for tweet-archive 
 - [[Local AI]]
 - [[Open Models]]
 - [[Coding Agents]]
+- [[Qwenstradamus]]

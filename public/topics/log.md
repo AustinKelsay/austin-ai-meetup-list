@@ -2,10 +2,19 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-08] update | Deep entity backlink gardening
+
+- Added entity pages for Gemma, Ollama, Mistral, TMax, Claude Code, Codex, Cognition, Palantir, Venice, Etched, React Native ExecuTorch, and Qwenstradamus.
+- Added high-signal wikilinks across the March 18 through July 8 Meetup pages for recurring project, model, product, and company names.
+- Updated reciprocal Mentioned In and Related links on core hub pages including Open Models, Local AI, Coding Agents, Agent Infrastructure, Models & Research, Inference Optimization, Compute Strategy, Privacy Tooling, AI Governance, Big Tech Moves, vLLM, Google, OpenAI, Anthropic, and Ben Carman.
+- Updated index.md page count and entity catalog.
+
 ## [2026-07-08] update | July 8 proprietary release slide updated
 
 - Updated **Proprietary releases split across agents and media** after OpenAI set the GPT-5.6 public July 9 launch and Cursor published Grok 4.5 docs/posts with SpaceXAI.
 - Added **Gemma 4 gives React Native an offline agent loop** to Agent Infrastructure after Google Gemma highlighted React Native ExecuTorch support for offline Gemma 4 with Vulkan, MLX, vision, and tool-use flow.
+- Added Cognition's **SWE-1.7** launch to **Proprietary releases split across agents and media** as the Devin-specific closed-model/coding-agent entry.
+- Added **Fable 5 becomes the advisor, not the worker** to Agent Infrastructure from Anthropic's advisor-tool docs and ClaudeDevs guidance on Sonnet 5 executor / Fable 5 advisor cost routing.
 
 ## [2026-07-07] update | July 8 model-release slides added
 

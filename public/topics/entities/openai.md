@@ -28,3 +28,4 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 - [[Agent Infrastructure]]
 - [[AI Governance]]
 - [[Compute Strategy]]
+- [[Codex]]

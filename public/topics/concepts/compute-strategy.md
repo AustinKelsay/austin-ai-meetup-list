@@ -1,7 +1,7 @@
 ---
 title: Compute Strategy
 created: 2026-05-05
-updated: 2026-07-07
+updated: 2026-07-08
 type: concept
 tags: [concept, big-tech-moves, models-research]
 sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
@@ -37,3 +37,4 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 - [[Qwen]]
 - [[SpaceX]]
 - [[vLLM]]
+- [[Etched]]

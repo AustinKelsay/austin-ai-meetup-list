@@ -31,3 +31,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 - [[Ben Carman]]
 - [[Cohere]]
 - [[vLLM]]
+- [[Gemma]]
+- [[Ollama]]
+- [[React Native ExecuTorch]]
+- [[Qwenstradamus]]

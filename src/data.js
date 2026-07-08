@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Cursor/SpaceXAI Grok 4.5, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
+        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Fable 5 as advisor-model cost routing, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Cursor/SpaceXAI Grok 4.5, Cognition SWE-1.7, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
     },
     showcases: [
       {
@@ -114,6 +114,18 @@ export const meetups = [
               "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
               "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
             ],
+          },
+          {
+            title: "Fable 5 becomes the advisor, not the worker",
+            description:
+              "Anthropic is formalizing the expensive-model escalation pattern: Sonnet 5 stays the executor, Fable 5 gets called as an advisor only when the loop needs strategic guidance. The infra story is cost routing inside the agent loop, not just picking one best model.",
+            chip: "model routing",
+            href: "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ClaudeDevs/status/2074606058128224365?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://code.claude.com/docs/en/advisor"],
           },
         ],
       },
@@ -181,7 +193,7 @@ export const meetups = [
           {
             title: "Proprietary releases split across agents and media",
             description:
-              "OpenAI moved GPT-5.6 Sol/Terra/Luna from gated preview toward a public July 9 launch, while Cursor and SpaceXAI put Grok 4.5 into Cursor's first-party model pool. Add Anthropic Sonnet 5 and Google's cheap gen-media APIs, and the pattern is closed models becoming product-channel bets: Codex/API, Cursor, Claude, and media loops.",
+              "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch, Cursor and SpaceXAI put Grok 4.5 into Cursor's model pool, and Cognition dropped SWE-1.7 into Devin at 1000 tok/s. Add Anthropic Sonnet 5 and Google's cheap gen-media APIs, and closed models are becoming product-channel bets: Codex/API, Cursor, Devin, Claude, and media loops.",
             chip: "proprietary models",
             href: "https://openai.com/index/previewing-gpt-5-6-sol/",
             embeds: [
@@ -195,11 +207,16 @@ export const meetups = [
               },
               {
                 type: "tweet",
+                href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
               },
             ],
             linkPair: [
               "https://cursor.com/docs/models/grok-4-5",
+              "https://cognition.com/blog/swe-1-7",
               "https://www.anthropic.com/news/claude-sonnet-5",
               "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
               "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",

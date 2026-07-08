@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-07-08 | Total pages: 73
+> Last updated: 2026-07-08 | Total pages: 85
 
 ## Meetups
 
@@ -23,26 +23,38 @@
 - [[Ben Carman]]
 - [[Broadcom]]
 - [[Christopher David]]
+- [[Claude Code]]
+- [[Codex]]
+- [[Cognition]]
 - [[Cohere]]
 - [[Cursor]]
+- [[Etched]]
 - [[Figure AI]]
+- [[Gemma]]
 - [[Google]]
 - [[Human Rights Foundation]]
 - [[Meta]]
 - [[Midjourney]]
 - [[MiniMax]]
+- [[Mistral]]
 - [[Microsoft]]
 - [[Moonshot AI]]
 - [[Nous Research]]
 - [[NVIDIA]]
+- [[Ollama]]
 - [[OpenAI]]
 - [[OpenAgents]]
 - [[OpenClaw]]
 - [[OpenRouter]]
+- [[Palantir]]
 - [[PrismML]]
 - [[Qwen]]
+- [[Qwenstradamus]]
+- [[React Native ExecuTorch]]
 - [[Sakana AI]]
 - [[SpaceX]]
+- [[TMax]]
+- [[Venice]]
 - [[Vercel]]
 - [[vLLM]]
 - [[xAI]]
