@@ -39,3 +39,6 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 - [[Codex]]
 - [[Cognition]]
 - [[React Native ExecuTorch]]
+- [[Hermes Agent]]
+- [[Pylon]]
+- [[Apple Container]]

@@ -157,6 +157,32 @@ export const meetups = [
               "The last-two-week open-model pass is a specialization story, not a rerun of June 24's GLM, Kimi, MiniMax, or TMax slide. Qwen models agent environments, Mistral goes after Lean proofs, Cohere opens Arabic ASR, Microsoft safety-aligns Qwen with HARC, NVIDIA splits between Puzzle compression and CWIP world-model evaluation, and DeepSeek turns speculative decoding into an attachable module.",
             chip: "open releases",
             href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Alibaba_Qwen/status/2069720365442719867?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/itayoush/status/2074466451507884198?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/sophiamyang/status/2073126992439046528?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/cohere/status/2074499759616729149?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/HuggingPapers/status/2074614099946897632?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Yuchenj_UW/status/2070928299744972814?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
@@ -175,27 +201,6 @@ export const meetups = [
             ],
           },
           {
-            title: "Should chat route local by default?",
-            description:
-              "Stanford's IPW paper says local LMs can answer 88.7% of single-turn chat/reasoning queries, while local coverage rose to 71.3%; Ollama's Gemma 4 MTP speedup makes the same point from the runtime side. The board question is what should route local by default.",
-            chip: "local ai",
-            href: "https://scalingintelligence.stanford.edu/pubs/ipw/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/ClementDelangue/status/2071951499660292496?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ollama/status/2072121580201848926?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
-              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-            ],
-          },
-          {
             title: "Proprietary releases split across agents and media",
             description:
               "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch and added GPT-Realtime-2.1/mini for voice agents, while Cursor, SpaceXAI, Cognition, Anthropic, Google, and Meta pushed closed models straight into product channels: IDE, Devin, Claude, voice, cloud media, Instagram, and WhatsApp.",
@@ -204,7 +209,23 @@ export const meetups = [
             embeds: [
               {
                 type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2070555272230384038?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/OpenAI/status/2074704958419792299?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/claudeai/status/2072017450611142835?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/testingcatalog/status/2074266798694809821?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/AIatMeta/status/2074587864923250873?ref_src=twsrc%5Etfw",
               },
               {
                 type: "tweet",
@@ -227,6 +248,27 @@ export const meetups = [
               "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
               "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
               "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+            ],
+          },
+          {
+            title: "Should chat route local by default?",
+            description:
+              "Stanford's IPW paper says local LMs can answer 88.7% of single-turn chat/reasoning queries, while local coverage rose to 71.3%; Ollama's Gemma 4 MTP speedup makes the same point from the runtime side. The board question is what should route local by default.",
+            chip: "local ai",
+            href: "https://scalingintelligence.stanford.edu/pubs/ipw/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/ClementDelangue/status/2071951499660292496?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ollama/status/2072121580201848926?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
             ],
           },
           {

@@ -1,7 +1,7 @@
 ---
 title: Apple
 created: 2026-06-08
-updated: 2026-06-24
+updated: 2026-07-08
 type: entity
 tags: [entity, company, big-tech-moves, agent-infrastructure]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -24,3 +24,4 @@ Apple is a recurring Austin AI Club entity for Apple Intelligence, Siri, privacy
 - [[AI Governance]]
 - [[Local AI]]
 - [[Privacy Tooling]]
+- [[Apple Container]]

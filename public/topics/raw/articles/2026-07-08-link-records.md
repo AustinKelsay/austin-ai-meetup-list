@@ -167,6 +167,36 @@ sources: []
   - Type: Official repository
   - Access: 2026-07-08
   - Notes: MIT-licensed DeepSeek repository for training and evaluating draft models for speculative decoding, with released DSpark, DFlash, and Eagle3 checkpoints for Qwen3 and Gemma 4 targets.
+- Post: https://x.com/Alibaba_Qwen/status/2069720365442719867
+  - Title: "Qwen-AgentWorld"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Qwen's post introduces Qwen-AgentWorld as a language world model for simulating MCP, search, terminal, SWE, web, OS, and Android agent environments.
+- Post: https://x.com/itayoush/status/2074466451507884198
+  - Title: "Nemotron-Labs-3-Puzzle-75B-A9B"
+  - Type: Researcher X post
+  - Access: 2026-07-08
+  - Notes: NVIDIA researcher Itay Oush explains the Puzzle release as a compressed Nemotron-3-Super derivative optimized for interactive deployment.
+- Post: https://x.com/sophiamyang/status/2073126992439046528
+  - Title: "Introducing Leanstral 1.5"
+  - Type: Researcher X post
+  - Access: 2026-07-08
+  - Notes: Sophia Yang's Leanstral thread gives the key model stats: 119B total, 6B active, strong miniF2F and PutnamBench results, and real repository bug findings.
+- Post: https://x.com/cohere/status/2074499759616729149
+  - Title: "Cohere Transcribe Arabic"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Cohere's post announces Transcribe Arabic as an Apache 2.0 open-source Arabic ASR model.
+- Post: https://x.com/HuggingPapers/status/2074614099946897632
+  - Title: "NVIDIA CWIP-1.0 on Hugging Face"
+  - Type: X coverage post
+  - Access: 2026-07-08
+  - Notes: Hugging Papers points to NVIDIA's fresh CWIP-1.0 weights on Hugging Face.
+- Post: https://x.com/Yuchenj_UW/status/2070928299744972814
+  - Title: "DeepSeek DSpark and DeepSpec"
+  - Type: X coverage post
+  - Access: 2026-07-08
+  - Notes: Yuchen Jin frames DSpark as a speculative-decoding throughput release and DeepSpec as the open training framework behind it.
 
 ### Should chat route local by default?
 - Source: https://scalingintelligence.stanford.edu/pubs/ipw/
@@ -236,11 +266,31 @@ sources: []
   - Type: Official launch blog
   - Access: 2026-07-08
   - Notes: Meta's July 7 launch post introduces Muse Image as the first image-generation model from Meta Superintelligence Labs, available in Meta AI and powering creative tools for Instagram Stories, WhatsApp image generation, and upcoming advertiser workflows.
+- Post: https://x.com/OpenAI/status/2070555272230384038
+  - Title: "GPT-5.6 limited preview"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: OpenAI's preview post introduces GPT-5.6 Sol, Terra, and Luna before the broader July 9 public launch timing post.
 - Post: https://x.com/OpenAI/status/2074704958419792299
   - Title: "GPT-5.6 Sol, Terra, and Luna public launch timing"
   - Type: Official X post
   - Access: 2026-07-08
   - Notes: OpenAI's July 8 post says GPT-5.6 Sol, Terra, and Luna will launch publicly on Thursday, July 9, and that preview access is expanding globally.
+- Post: https://x.com/claudeai/status/2072017450611142835
+  - Title: "Claude Sonnet 5"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Claude's launch post introduces Sonnet 5 as Anthropic's most agentic Sonnet model.
+- Post: https://x.com/testingcatalog/status/2074266798694809821
+  - Title: "GPT-Realtime-2.1 and mini availability"
+  - Type: X coverage post
+  - Access: 2026-07-08
+  - Notes: TestingCatalog highlights GPT-Realtime-2.1 and GPT-Realtime-2.1-mini availability in OpenAI Playground and APIs, including the mini model's reasoning and tool-use angle.
+- Post: https://x.com/AIatMeta/status/2074587864923250873
+  - Title: "Muse Image as an agentic image model"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: AI at Meta frames Muse Image as agentic: using tools, self-refining, improving with test-time compute, and pairing with Muse Spark for media generation.
 - Post: https://x.com/cursor_ai/status/2074915744999969059
   - Title: "Cursor and SpaceXAI train Grok 4.5"
   - Type: Official X post

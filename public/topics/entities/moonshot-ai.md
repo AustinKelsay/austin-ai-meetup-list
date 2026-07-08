@@ -1,7 +1,7 @@
 ---
 title: Moonshot AI
 created: 2026-06-23
-updated: 2026-06-24
+updated: 2026-07-08
 type: entity
 tags: [entity, company, model, coding-agents]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -23,3 +23,4 @@ Moonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding
 - [[Coding Agents]]
 - [[Open Models]]
 - [[Agent Cost Controls]]
+- [[Kimi]]

@@ -28,3 +28,4 @@ NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory inf
 - [[Open Models]]
 - [[Privacy Tooling]]
 - [[vLLM]]
+- [[Nemotron]]

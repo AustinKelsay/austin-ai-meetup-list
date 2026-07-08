@@ -34,3 +34,5 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 - [[Gemma]]
 - [[Etched]]
 - [[TMax]]
+- [[Nemotron]]
+- [[DeepSeek]]

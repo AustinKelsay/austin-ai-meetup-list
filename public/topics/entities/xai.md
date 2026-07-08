@@ -22,3 +22,4 @@ xAI is a recurring Austin AI Club entity for Grok models, API access, and X plat
 
 - [[Open Models]]
 - [[AI Governance]]
+- [[Grok]]

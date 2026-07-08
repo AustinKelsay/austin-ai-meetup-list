@@ -1,7 +1,7 @@
 ---
 title: Local Builds & Projects
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-08
 type: concept
 tags: [concept, track, local-builds]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -24,5 +24,6 @@ Local Builds & Projects is the Austin AI Club track for Austin/member/community-
 - [[Local AI]]
 - [[Coding Agents]]
 - [[OpenAgents]]
+- [[Pylon]]
 - [[Ben Carman]]
 - [[Human Rights Foundation]]

@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-08] update | Second-pass model and project graph gardening
+
+- Created entity pages for DeepSeek, Hermes Agent, Claude Fable/Mythos, Grok, Gemini, GLM, Kimi, Nemotron, Pylon, Apple Container, and Unbroker.
+- Backfilled high-signal wikilinks across March 18 through July 8 Meetup pages for recurring model families, agent products, local runtimes, privacy-agent projects, and company/product names.
+- Updated reciprocal Mentioned In entries and related-page connections through Open Models, Agent Infrastructure, Privacy Tooling, Agent Payments, Model Distillation, AI Governance, Inference Optimization, Local Builds & Projects, and the relevant company pages.
+- Updated index.md page count and entity catalog for the expanded graph.
+
 ## [2026-07-08] update | Deep entity backlink gardening
 
 - Added entity pages for Gemma, Ollama, Mistral, TMax, Claude Code, Codex, Cognition, Palantir, Venice, Etched, React Native ExecuTorch, and Qwenstradamus.
@@ -16,6 +23,7 @@
 - Added Cognition's **SWE-1.7** launch to **Proprietary releases split across agents and media** as the Devin-specific closed-model/coding-agent entry.
 - Added **Fable 5 becomes the advisor, not the worker** to Agent Infrastructure from Anthropic's advisor-tool docs and ClaudeDevs guidance on Sonnet 5 executor / Fable 5 advisor cost routing.
 - Expanded the July 8 model-release slides after the research-agent duplicate pass: **Open model releases get specialized fast** now includes NVIDIA CWIP, Microsoft HARC-Qwen, and DeepSeek DSpark/DeepSpec, while **Proprietary releases split across agents and media** now includes OpenAI GPT-Realtime-2.1 and Meta Muse Image.
+- Moved **Proprietary releases split across agents and media** directly after **Open model releases get specialized fast** in the Models & Research run, and added the missing X embeds supplied or implied by the research-agent pass.
 
 ## [2026-07-07] update | July 8 model-release slides added
 
