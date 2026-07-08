@@ -36,6 +36,14 @@ export function buildIcsHref(meetup) {
   return `/calendar/${meetup.slug}.ics`;
 }
 
+export function escapeIcsText(value) {
+  return String(value ?? "")
+    .replace(/\\/g, "\\\\")
+    .replace(/\r?\n/g, "\\n")
+    .replace(/,/g, "\\,")
+    .replace(/;/g, "\\;");
+}
+
 export function formatEventDate(event) {
   return new Intl.DateTimeFormat("en-US", {
     weekday: "short",
@@ -85,6 +93,7 @@ export function createInlineIcsHref(entry) {
     ? `${window.location.origin}${entry.detailsHref}`
     : window.location.href;
   const revisionTimestamp = event.updatedAt ?? event.startAt;
+  const description = `${event.summary}\n\nDetails: ${detailsUrl}`;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -95,10 +104,10 @@ export function createInlineIcsHref(entry) {
     `DTSTAMP:${toGoogleCalendarTimestamp(revisionTimestamp)}`,
     `DTSTART:${toGoogleCalendarTimestamp(event.startAt)}`,
     `DTEND:${toGoogleCalendarTimestamp(event.endAt)}`,
-    `SUMMARY:${event.title}`,
-    `DESCRIPTION:${event.summary.replace(/\n/g, "\\n")}\\n\\nDetails: ${detailsUrl}`,
-    `LOCATION:${location}`,
-    `URL:${detailsUrl}`,
+    `SUMMARY:${escapeIcsText(event.title)}`,
+    `DESCRIPTION:${escapeIcsText(description)}`,
+    `LOCATION:${escapeIcsText(location)}`,
+    `URL:${escapeIcsText(detailsUrl)}`,
     "END:VEVENT",
     "END:VCALENDAR",
   ];

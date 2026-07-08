@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "July 8 first pass: Hermes MoA as a virtual model provider, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
+        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Cursor/SpaceXAI Grok 4.5, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
     },
     showcases: [
       {
@@ -98,6 +98,22 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/NousResearch/status/2070610321278988385?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "Gemma 4 gives React Native an offline agent loop",
+            description:
+              "Google Gemma 4 now runs inside React Native ExecuTorch with Vulkan on Android and MLX on Apple Silicon. The useful agent-infra bit is vision plus tool use moving into offline cross-platform apps: read a flyer, call a calendar action, and keep the loop on device.",
+            chip: "mobile agents",
+            href: "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/googlegemma/status/2074915283475878325?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/software-mansion/react-native-executorch",
+              "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+              "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+            ],
           },
         ],
       },
@@ -165,14 +181,25 @@ export const meetups = [
           {
             title: "Proprietary releases split across agents and media",
             description:
-              "OpenAI previewed GPT-5.6 Sol/Terra/Luna through a controlled partner rollout, Anthropic shipped Claude Sonnet 5 as a cheaper agentic default, and Google priced Nano Banana 2 Lite plus Gemini Omni Flash for media loops. Closed labs are pulling two directions: frontier reasoning gets more gated while gen-media gets cheap enough to become tooling.",
+              "OpenAI moved GPT-5.6 Sol/Terra/Luna from gated preview toward a public July 9 launch, while Cursor and SpaceXAI put Grok 4.5 into Cursor's first-party model pool. Add Anthropic Sonnet 5 and Google's cheap gen-media APIs, and the pattern is closed models becoming product-channel bets: Codex/API, Cursor, Claude, and media loops.",
             chip: "proprietary models",
             href: "https://openai.com/index/previewing-gpt-5-6-sol/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2074704958419792299?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/cursor_ai/status/2074915744999969059?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
+              "https://cursor.com/docs/models/grok-4-5",
               "https://www.anthropic.com/news/claude-sonnet-5",
               "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
               "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",

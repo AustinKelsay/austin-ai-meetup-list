@@ -19,6 +19,73 @@ const MONTH_LABEL_FORMATTER = new Intl.DateTimeFormat("en-US", {
   timeZone: "UTC",
 });
 
+function getZonedDateTimeParts(value, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+    timeZone,
+  }).formatToParts(new Date(value));
+  const part = (type) => Number(parts.find((item) => item.type === type)?.value ?? 0);
+
+  return {
+    year: part("year"),
+    month: part("month"),
+    day: part("day"),
+    hour: part("hour"),
+    minute: part("minute"),
+    second: part("second"),
+  };
+}
+
+function getTimeZoneOffsetMs(value, timeZone) {
+  const zonedParts = getZonedDateTimeParts(value, timeZone);
+  const utcTimestamp = Date.UTC(
+    zonedParts.year,
+    zonedParts.month - 1,
+    zonedParts.day,
+    zonedParts.hour,
+    zonedParts.minute,
+    zonedParts.second,
+  );
+
+  return utcTimestamp - new Date(value).getTime();
+}
+
+function createUtcDateFromZonedParts(parts, timeZone) {
+  const utcTimestamp = Date.UTC(
+    parts.year,
+    parts.month - 1,
+    parts.day,
+    parts.hour,
+    parts.minute,
+    parts.second,
+  );
+  const firstPass = new Date(utcTimestamp - getTimeZoneOffsetMs(new Date(utcTimestamp), timeZone));
+  const secondPass = new Date(utcTimestamp - getTimeZoneOffsetMs(firstPass, timeZone));
+
+  return secondPass;
+}
+
+function createGeneratedStartDate(templateEvent, slotStartAt) {
+  const timeZone = templateEvent.timezone ?? "America/Chicago";
+  const slotDateParts = getZonedDateTimeParts(slotStartAt, timeZone);
+  const templateTimeParts = getZonedDateTimeParts(templateEvent.startAt, timeZone);
+
+  return createUtcDateFromZonedParts({
+    year: slotDateParts.year,
+    month: slotDateParts.month,
+    day: slotDateParts.day,
+    hour: templateTimeParts.hour,
+    minute: templateTimeParts.minute,
+    second: templateTimeParts.second,
+  }, timeZone);
+}
+
 function createCalendarEntry(meetup) {
   return {
     id: meetup.id,
@@ -30,7 +97,8 @@ function createCalendarEntry(meetup) {
   };
 }
 
-function createGeneratedEntry(templateEvent, startAt, index) {
+function createGeneratedEntry(templateEvent, slotStartAt, index) {
+  const startAt = createGeneratedStartDate(templateEvent, slotStartAt);
   const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
   const endAt = new Date(startAt.getTime() + durationMs);
   const dateKey = formatDateKey(startAt, templateEvent.timezone);
@@ -50,6 +118,21 @@ function createGeneratedEntry(templateEvent, startAt, index) {
       endAt: endAt.toISOString(),
     },
   };
+}
+
+function getTemplateEventForSlot(authoredMeetups, slotStartAt) {
+  const slotTime = slotStartAt.getTime();
+  let templateEvent = authoredMeetups[0].event;
+
+  for (const meetup of authoredMeetups) {
+    if (new Date(meetup.event.startAt).getTime() > slotTime) {
+      break;
+    }
+
+    templateEvent = meetup.event;
+  }
+
+  return templateEvent;
 }
 
 export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_COUNT) {
@@ -75,7 +158,8 @@ export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_
   const entries = [];
   while (entries.length < count) {
     const dateKey = formatDateKey(cursor, timeZone);
-    entries.push(authoredByDate.get(dateKey) ?? createGeneratedEntry(anchorEvent, cursor, entries.length));
+    const templateEvent = getTemplateEventForSlot(authoredMeetups, cursor);
+    entries.push(authoredByDate.get(dateKey) ?? createGeneratedEntry(templateEvent, cursor, entries.length));
     cursor = addDays(cursor, BIWEEKLY_INTERVAL_DAYS);
   }
 

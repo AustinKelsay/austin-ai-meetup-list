@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-08] update | July 8 proprietary release slide updated
+
+- Updated **Proprietary releases split across agents and media** after OpenAI set the GPT-5.6 public July 9 launch and Cursor published Grok 4.5 docs/posts with SpaceXAI.
+- Added **Gemma 4 gives React Native an offline agent loop** to Agent Infrastructure after Google Gemma highlighted React Native ExecuTorch support for offline Gemma 4 with Vulkan, MLX, vision, and tool-use flow.
+
 ## [2026-07-07] update | July 8 model-release slides added
 
 - Added **Open model releases get specialized fast** for the last-two-week open-release pass, using official sources for Qwen AgentWorld, Mistral Leanstral 1.5, and Cohere Transcribe Arabic while intentionally excluding June 24 duplicates: GLM-5.2, Kimi K2.7 Code, MiniMax M3 weights, and Ai2 TMax.

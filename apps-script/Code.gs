@@ -2,13 +2,14 @@ const CONFIG = {
   subscribersSheet: "subscribers",
   deliveriesSheet: "deliveries",
   defaultFeedUrl: "https://austinai.club/meetups.json",
+  iframeMessageSource: "austin-ai-reminder-signup",
   reminderHour: 10,
 };
 
 function doPost(e) {
   const email = normalizeEmail_(e?.parameter?.email);
   if (!email) {
-    return renderIframeResponse_("Enter a valid email address and try again.");
+    return renderIframeResponse_("Enter a valid email address and try again.", "error");
   }
 
   setupReminderSheets();
@@ -17,7 +18,7 @@ function doPost(e) {
     pageUrl: e?.parameter?.pageUrl || "",
   });
 
-  return renderIframeResponse_("You are subscribed to Austin AI Club reminders.");
+  return renderIframeResponse_("You are subscribed to Austin AI Club reminders.", "success");
 }
 
 function doGet(e) {
@@ -43,6 +44,19 @@ function doGet(e) {
 }
 
 function sendTodayReminders() {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(30000)) {
+    return;
+  }
+
+  try {
+    sendTodayReminders_();
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function sendTodayReminders_() {
   const timezone = getTimezone_();
   const currentHour = Number(Utilities.formatDate(new Date(), timezone, "H"));
   setupReminderSheets();
@@ -308,9 +322,27 @@ function isValidUnsubscribeToken_(email, token) {
   return buildUnsubscribeToken_(email) === token;
 }
 
-function renderIframeResponse_(message) {
+function renderIframeResponse_(message, status) {
+  const payload = JSON.stringify({
+    source: CONFIG.iframeMessageSource,
+    status: status || "success",
+    message: String(message || ""),
+  }).replace(/</g, "\\u003c");
+
   return HtmlService.createHtmlOutput(
-    `<html><body><p>${escapeHtml_(message)}</p></body></html>`,
+    `<html><body><p>${escapeHtml_(message)}</p><script>
+      (function () {
+        var payload = ${payload};
+        try {
+          window.parent.postMessage(payload, "*");
+        } catch (error) {}
+        try {
+          if (window.top && window.top !== window.parent) {
+            window.top.postMessage(payload, "*");
+          }
+        } catch (error) {}
+      }());
+    </script></body></html>`,
   ).setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
 

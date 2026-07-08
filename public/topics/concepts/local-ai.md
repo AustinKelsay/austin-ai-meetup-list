@@ -1,7 +1,7 @@
 ---
 title: Local AI
 created: 2026-05-05
-updated: 2026-07-07
+updated: 2026-07-08
 type: concept
 tags: [concept, local-builds, open-source, privacy]
 sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Should chat route local by default?**.
+- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **PrismML ships 1-bit image gen that runs on iPhone**.

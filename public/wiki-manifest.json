@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:53:48.867Z",
+  "generatedAt": "2026-07-08T19:10:30.089Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -225,7 +225,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -578,6 +578,41 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
@@ -4725,6 +4760,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -4740,6 +4782,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -8167,6 +8223,11 @@
       "sourceLinks": [
         "https://hermes-agent.nousresearch.com/docs/user-guide/features/mixture-of-agents",
         "https://x.com/NousResearch/status/2070610321278988385",
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325",
         "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
         "https://www.nature.com/articles/s41593-026-02303-2",
         "https://facebookresearch.github.io/brain2qwerty/",
@@ -8187,9 +8248,12 @@
         "https://x.com/ClementDelangue/status/2071951499660292496",
         "https://x.com/ollama/status/2072121580201848926",
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690",
         "https://www.anthropic.com/research/global-workspace",
         "https://neuronpedia.org/jlens",
@@ -8236,6 +8300,31 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure"
         },
         {
@@ -8339,6 +8428,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -8350,6 +8444,16 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         },
@@ -8535,8 +8639,8 @@
         }
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Models & Research, Security, Big Tech Moves, Coding Agents, Local AI, Open Models, Inference Optimization, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Google, OpenAI, Meta, MiniMax, Nous Research, NVIDIA, Qwen, Cohere.",
+      "updated": "2026-07-08",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Models & Research, Security, Big Tech Moves, Coding Agents, Local AI, Open Models, Inference Optimization, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Google, OpenAI, Meta, MiniMax, Nous Research, NVIDIA, Qwen, Cohere, Cursor, xAI.",
       "rawHref": "/topics/2026-07-08.md",
       "relativePath": "2026-07-08.md",
       "outgoingIds": [
@@ -8547,6 +8651,7 @@
         "coding-agents",
         "cohere",
         "compute-strategy",
+        "cursor",
         "google",
         "inference-optimization",
         "local-ai",
@@ -8559,7 +8664,8 @@
         "openai",
         "privacy-tooling",
         "qwen",
-        "security"
+        "security",
+        "xai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -8569,6 +8675,7 @@
         "coding-agents",
         "cohere",
         "compute-strategy",
+        "cursor",
         "google",
         "inference-optimization",
         "local-ai",
@@ -8581,7 +8688,8 @@
         "openai",
         "privacy-tooling",
         "qwen",
-        "security"
+        "security",
+        "xai"
       ],
       "referencedTopicSources": []
     },
@@ -8598,6 +8706,11 @@
       "sourceLinks": [
         "https://hermes-agent.nousresearch.com/docs/user-guide/features/mixture-of-agents",
         "https://x.com/NousResearch/status/2070610321278988385",
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325",
         "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
         "https://www.nature.com/articles/s41593-026-02303-2",
         "https://facebookresearch.github.io/brain2qwerty/",
@@ -8618,9 +8731,12 @@
         "https://x.com/ClementDelangue/status/2071951499660292496",
         "https://x.com/ollama/status/2072121580201848926",
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690",
         "https://www.anthropic.com/research/global-workspace",
         "https://neuronpedia.org/jlens",
@@ -8667,6 +8783,31 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure"
         },
         {
@@ -8770,6 +8911,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -8781,6 +8927,16 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         },
@@ -8966,7 +9122,7 @@
         }
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-07-08-link-records.md",
       "relativePath": "raw/articles/2026-07-08-link-records.md",
@@ -18394,21 +18550,23 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-06-24",
+      "updated": "2026-07-08",
       "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
       "rawHref": "/topics/entities/cursor.md",
       "relativePath": "entities/cursor.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -18420,6 +18578,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-cost-controls",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -18429,6 +18588,62 @@
         "spacex"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/claude-sonnet-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
         {
           "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
           "title": "Cursor previews Origin, a GitHub competitor",
@@ -18713,7 +18928,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
       "rawHref": "/topics/entities/google.md",
       "relativePath": "entities/google.md",
@@ -18834,7 +19049,49 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -18856,6 +19113,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -21468,7 +21739,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Local AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.",
       "rawHref": "/topics/concepts/local-ai.md",
       "relativePath": "concepts/local-ai.md",
@@ -21526,6 +21797,41 @@
           "section": "Showcase",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
           "href": "https://scalingintelligence.stanford.edu/pubs/ipw/",
@@ -26417,6 +26723,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -26432,6 +26745,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -31164,7 +31491,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.",
       "rawHref": "/topics/entities/openai.md",
       "relativePath": "entities/openai.md",
@@ -31352,6 +31679,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -31367,6 +31701,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -35931,20 +36279,22 @@
         "models-research"
       ],
       "sources": [
+        "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-06-24",
+      "updated": "2026-07-08",
       "excerpt": "xAI is a recurring Austin AI Club entity for Grok models, API access, and X platform integration.",
       "rawHref": "/topics/entities/xai.md",
       "relativePath": "entities/xai.md",
       "outgoingIds": [
         "ai-governance",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -35953,11 +36303,68 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-payments",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/claude-sonnet-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
         {
           "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
           "title": "Closed labs start the June model wave",
@@ -36597,7 +37004,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -36950,6 +37357,41 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
@@ -41097,6 +41539,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -41112,6 +41561,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -44539,6 +45002,11 @@
       "sourceLinks": [
         "https://hermes-agent.nousresearch.com/docs/user-guide/features/mixture-of-agents",
         "https://x.com/NousResearch/status/2070610321278988385",
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325",
         "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
         "https://www.nature.com/articles/s41593-026-02303-2",
         "https://facebookresearch.github.io/brain2qwerty/",
@@ -44559,9 +45027,12 @@
         "https://x.com/ClementDelangue/status/2071951499660292496",
         "https://x.com/ollama/status/2072121580201848926",
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690",
         "https://www.anthropic.com/research/global-workspace",
         "https://neuronpedia.org/jlens",
@@ -44608,6 +45079,31 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure"
         },
         {
@@ -44711,6 +45207,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -44722,6 +45223,16 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         },
@@ -44907,8 +45418,8 @@
         }
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Models & Research, Security, Big Tech Moves, Coding Agents, Local AI, Open Models, Inference Optimization, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Google, OpenAI, Meta, MiniMax, Nous Research, NVIDIA, Qwen, Cohere.",
+      "updated": "2026-07-08",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Models & Research, Security, Big Tech Moves, Coding Agents, Local AI, Open Models, Inference Optimization, Privacy Tooling, AI Governance, Compute Strategy, Anthropic, Google, OpenAI, Meta, MiniMax, Nous Research, NVIDIA, Qwen, Cohere, Cursor, xAI.",
       "rawHref": "/topics/2026-07-08.md",
       "relativePath": "2026-07-08.md",
       "outgoingIds": [
@@ -44919,6 +45430,7 @@
         "coding-agents",
         "cohere",
         "compute-strategy",
+        "cursor",
         "google",
         "inference-optimization",
         "local-ai",
@@ -44931,7 +45443,8 @@
         "openai",
         "privacy-tooling",
         "qwen",
-        "security"
+        "security",
+        "xai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -44941,6 +45454,7 @@
         "coding-agents",
         "cohere",
         "compute-strategy",
+        "cursor",
         "google",
         "inference-optimization",
         "local-ai",
@@ -44953,7 +45467,8 @@
         "openai",
         "privacy-tooling",
         "qwen",
-        "security"
+        "security",
+        "xai"
       ],
       "referencedTopicSources": []
     },
@@ -44970,6 +45485,11 @@
       "sourceLinks": [
         "https://hermes-agent.nousresearch.com/docs/user-guide/features/mixture-of-agents",
         "https://x.com/NousResearch/status/2070610321278988385",
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325",
         "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
         "https://www.nature.com/articles/s41593-026-02303-2",
         "https://facebookresearch.github.io/brain2qwerty/",
@@ -44990,9 +45510,12 @@
         "https://x.com/ClementDelangue/status/2071951499660292496",
         "https://x.com/ollama/status/2072121580201848926",
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690",
         "https://www.anthropic.com/research/global-workspace",
         "https://neuronpedia.org/jlens",
@@ -45039,6 +45562,31 @@
         {
           "href": "https://x.com/NousResearch/status/2070610321278988385",
           "title": "Hermes Agent gets model panels as a provider",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
           "section": "Agent Infrastructure"
         },
         {
@@ -45142,6 +45690,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -45153,6 +45706,16 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         },
@@ -45338,7 +45901,7 @@
         }
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-07-08-link-records.md",
       "relativePath": "raw/articles/2026-07-08-link-records.md",
@@ -54766,21 +55329,23 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-06-24",
+      "updated": "2026-07-08",
       "excerpt": "Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.",
       "rawHref": "/topics/entities/cursor.md",
       "relativePath": "entities/cursor.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -54792,6 +55357,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-cost-controls",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -54801,6 +55367,62 @@
         "spacex"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/claude-sonnet-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
         {
           "href": "https://x.com/morganlinton/status/2066927927997190564?s=46",
           "title": "Cursor previews Origin, a GitHub competitor",
@@ -55085,7 +55707,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent developer tooling, research releases, and broader platform moves that affect AI builders.",
       "rawHref": "/topics/entities/google.md",
       "relativePath": "entities/google.md",
@@ -55206,7 +55828,49 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -55228,6 +55892,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -57840,7 +58518,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "Local AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.",
       "rawHref": "/topics/concepts/local-ai.md",
       "relativePath": "concepts/local-ai.md",
@@ -57898,6 +58576,41 @@
           "section": "Showcase",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
           "href": "https://scalingintelligence.stanford.edu/pubs/ipw/",
@@ -62789,6 +63502,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -62804,6 +63524,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -67536,7 +68270,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "excerpt": "OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.",
       "rawHref": "/topics/entities/openai.md",
       "relativePath": "entities/openai.md",
@@ -67724,6 +68458,13 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
           "href": "https://www.anthropic.com/news/claude-sonnet-5",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
@@ -67739,6 +68480,20 @@
         },
         {
           "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
@@ -72303,20 +73058,22 @@
         "models-research"
       ],
       "sources": [
+        "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-27",
-      "updated": "2026-06-24",
+      "updated": "2026-07-08",
       "excerpt": "xAI is a recurring Austin AI Club entity for Grok models, API access, and X platform integration.",
       "rawHref": "/topics/entities/xai.md",
       "relativePath": "entities/xai.md",
       "outgoingIds": [
         "ai-governance",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -72325,11 +73082,68 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-payments",
+        "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://www.anthropic.com/news/claude-sonnet-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
         {
           "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
           "title": "Closed labs start the June model wave",
@@ -72745,6 +73559,63 @@
     }
   },
   "topics": [
+    {
+      "id": "austin-ai-club-july-8-2026-agent-infrastructure-gemma-4-gives-react-native-an-offline-agent-loop",
+      "title": "Gemma 4 gives React Native an offline agent loop",
+      "rawTitle": "Gemma 4 gives React Native an offline agent loop",
+      "normalizedTitle": "gemma 4 gives react native an offline agent loop",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-8-2026",
+      "meetupTitle": "Austin AI Club - July 8, 2026",
+      "meetupSlug": "2026-07-08",
+      "meetupHref": "/topics/2026-07-08.md",
+      "sourceLinks": [
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "google",
+        "local-ai"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Google",
+        "Local AI"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Gemma 4 gives React Native an offline agent loop Agent Infrastructure Austin AI Club - July 8, 2026 2026-07-08 https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started https://github.com/software-mansion/react-native-executorch https://huggingface.co/software-mansion/react-native-executorch-gemma-4 https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1 https://x.com/googlegemma/status/2074915283475878325 Agent Infrastructure Google Local AI"
+    },
     {
       "id": "austin-ai-club-july-8-2026-agent-infrastructure-hermes-agent-gets-model-panels-as-a-provider",
       "title": "Hermes Agent gets model panels as a provider",
@@ -73196,9 +74067,12 @@
       "meetupHref": "/topics/2026-07-08.md",
       "sourceLinks": [
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690"
       ],
       "sourceReferences": [
@@ -73213,6 +74087,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -73223,25 +74102,39 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         }
       ],
       "wikiIds": [
         "anthropic",
+        "cursor",
         "google",
         "models-research",
-        "openai"
+        "openai",
+        "xai"
       ],
       "wikiTitles": [
         "Anthropic",
+        "Cursor",
         "Google",
         "Models & Research",
-        "OpenAI"
+        "OpenAI",
+        "xAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Proprietary releases split across agents and media Models & Research Austin AI Club - July 8, 2026 2026-07-08 https://openai.com/index/previewing-gpt-5-6-sol/ https://www.anthropic.com/news/claude-sonnet-5 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/ https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available https://x.com/OfficialLoganK/status/2071988351083921690 Anthropic Google Models & Research OpenAI"
+      "searchText": "Proprietary releases split across agents and media Models & Research Austin AI Club - July 8, 2026 2026-07-08 https://openai.com/index/previewing-gpt-5-6-sol/ https://cursor.com/docs/models/grok-4-5 https://www.anthropic.com/news/claude-sonnet-5 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/ https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available https://x.com/OpenAI/status/2074704958419792299 https://x.com/cursor_ai/status/2074915744999969059 https://x.com/OfficialLoganK/status/2071988351083921690 Anthropic Cursor Google Models & Research OpenAI xAI"
     },
     {
       "id": "austin-ai-club-july-8-2026-models-research-should-chat-route-local-by-default",
@@ -82077,6 +82970,63 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-july-8-2026-agent-infrastructure-gemma-4-gives-react-native-an-offline-agent-loop": {
+      "id": "austin-ai-club-july-8-2026-agent-infrastructure-gemma-4-gives-react-native-an-offline-agent-loop",
+      "title": "Gemma 4 gives React Native an offline agent loop",
+      "rawTitle": "Gemma 4 gives React Native an offline agent loop",
+      "normalizedTitle": "gemma 4 gives react native an offline agent loop",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-8-2026",
+      "meetupTitle": "Austin AI Club - July 8, 2026",
+      "meetupSlug": "2026-07-08",
+      "meetupHref": "/topics/2026-07-08.md",
+      "sourceLinks": [
+        "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+        "https://github.com/software-mansion/react-native-executorch",
+        "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+        "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+        "https://x.com/googlegemma/status/2074915283475878325"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2074915283475878325",
+          "title": "Gemma 4 gives React Native an offline agent loop",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "google",
+        "local-ai"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Google",
+        "Local AI"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Gemma 4 gives React Native an offline agent loop Agent Infrastructure Austin AI Club - July 8, 2026 2026-07-08 https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started https://github.com/software-mansion/react-native-executorch https://huggingface.co/software-mansion/react-native-executorch-gemma-4 https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1 https://x.com/googlegemma/status/2074915283475878325 Agent Infrastructure Google Local AI"
+    },
     "austin-ai-club-july-8-2026-agent-infrastructure-hermes-agent-gets-model-panels-as-a-provider": {
       "id": "austin-ai-club-july-8-2026-agent-infrastructure-hermes-agent-gets-model-panels-as-a-provider",
       "title": "Hermes Agent gets model panels as a provider",
@@ -82528,9 +83478,12 @@
       "meetupHref": "/topics/2026-07-08.md",
       "sourceLinks": [
         "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://cursor.com/docs/models/grok-4-5",
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
         "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "https://x.com/OpenAI/status/2074704958419792299",
+        "https://x.com/cursor_ai/status/2074915744999969059",
         "https://x.com/OfficialLoganK/status/2071988351083921690"
       ],
       "sourceReferences": [
@@ -82545,6 +83498,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://cursor.com/docs/models/grok-4-5",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
@@ -82555,25 +83513,39 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/cursor_ai/status/2074915744999969059",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/OfficialLoganK/status/2071988351083921690",
+          "title": "Proprietary releases split across agents and media",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2074704958419792299",
           "title": "Proprietary releases split across agents and media",
           "section": "Models & Research"
         }
       ],
       "wikiIds": [
         "anthropic",
+        "cursor",
         "google",
         "models-research",
-        "openai"
+        "openai",
+        "xai"
       ],
       "wikiTitles": [
         "Anthropic",
+        "Cursor",
         "Google",
         "Models & Research",
-        "OpenAI"
+        "OpenAI",
+        "xAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Proprietary releases split across agents and media Models & Research Austin AI Club - July 8, 2026 2026-07-08 https://openai.com/index/previewing-gpt-5-6-sol/ https://www.anthropic.com/news/claude-sonnet-5 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/ https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available https://x.com/OfficialLoganK/status/2071988351083921690 Anthropic Google Models & Research OpenAI"
+      "searchText": "Proprietary releases split across agents and media Models & Research Austin AI Club - July 8, 2026 2026-07-08 https://openai.com/index/previewing-gpt-5-6-sol/ https://cursor.com/docs/models/grok-4-5 https://www.anthropic.com/news/claude-sonnet-5 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/ https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available https://x.com/OpenAI/status/2074704958419792299 https://x.com/cursor_ai/status/2074915744999969059 https://x.com/OfficialLoganK/status/2071988351083921690 Anthropic Cursor Google Models & Research OpenAI xAI"
     },
     "austin-ai-club-july-8-2026-models-research-should-chat-route-local-by-default": {
       "id": "austin-ai-club-july-8-2026-models-research-should-chat-route-local-by-default",
@@ -92215,6 +93187,14 @@
       "target": "cohere"
     },
     {
+      "source": "austin-ai-club-july-8-2026",
+      "target": "cursor"
+    },
+    {
+      "source": "austin-ai-club-july-8-2026",
+      "target": "xai"
+    },
+    {
       "source": "austin-ai-club-june-10-2026",
       "target": "local-builds-projects"
     },
@@ -93113,6 +94093,10 @@
     {
       "source": "compute-strategy",
       "target": "vllm"
+    },
+    {
+      "source": "cursor",
+      "target": "austin-ai-club-july-8-2026"
     },
     {
       "source": "cursor",
@@ -94324,6 +95308,10 @@
     },
     {
       "source": "xai",
+      "target": "austin-ai-club-july-8-2026"
+    },
+    {
+      "source": "xai",
       "target": "austin-ai-club-june-10-2026"
     },
     {
@@ -94401,7 +95389,7 @@
           "agent-infrastructure"
         ],
         "degree": 53,
-        "updated": "2026-07-07"
+        "updated": "2026-07-08"
       },
       {
         "id": "agent-payments",
@@ -94588,8 +95576,8 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 39,
-        "updated": "2026-07-07"
+        "degree": 43,
+        "updated": "2026-07-08"
       },
       {
         "id": "austin-ai-club-july-8-2026-source-link-records",
@@ -94600,7 +95588,7 @@
           "meetup"
         ],
         "degree": 0,
-        "updated": "2026-07-07"
+        "updated": "2026-07-08"
       },
       {
         "id": "austin-ai-club-june-10-2026",
@@ -94806,8 +95794,8 @@
           "coding-agents",
           "agent-infrastructure"
         ],
-        "degree": 17,
-        "updated": "2026-06-24"
+        "degree": 19,
+        "updated": "2026-07-08"
       },
       {
         "id": "cursor-and-spacex",
@@ -94846,7 +95834,7 @@
           "big-tech-moves"
         ],
         "degree": 19,
-        "updated": "2026-07-07"
+        "updated": "2026-07-08"
       },
       {
         "id": "human-rights-foundation",
@@ -94896,7 +95884,7 @@
           "privacy"
         ],
         "degree": 35,
-        "updated": "2026-07-07"
+        "updated": "2026-07-08"
       },
       {
         "id": "local-builds-projects",
@@ -95087,7 +96075,7 @@
           "privacy"
         ],
         "degree": 30,
-        "updated": "2026-07-07"
+        "updated": "2026-07-08"
       },
       {
         "id": "openclaw",
@@ -95277,8 +96265,8 @@
           "big-tech-moves",
           "models-research"
         ],
-        "degree": 9,
-        "updated": "2026-06-24"
+        "degree": 11,
+        "updated": "2026-07-08"
       },
       {
         "id": "zai",
@@ -96298,6 +97286,16 @@
       {
         "source": "austin-ai-club-july-8-2026",
         "target": "cohere",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-8-2026",
+        "target": "cursor",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-8-2026",
+        "target": "xai",
         "kind": "topic"
       },
       {
@@ -97424,6 +98422,11 @@
         "source": "compute-strategy",
         "target": "vllm",
         "kind": "wiki"
+      },
+      {
+        "source": "cursor",
+        "target": "austin-ai-club-july-8-2026",
+        "kind": "topic"
       },
       {
         "source": "cursor",
@@ -98937,6 +99940,11 @@
       },
       {
         "source": "xai",
+        "target": "austin-ai-club-july-8-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "xai",
         "target": "austin-ai-club-june-10-2026",
         "kind": "topic"
       },
@@ -99004,12 +100012,12 @@
   },
   "stats": {
     "pageCount": 73,
-    "topicCount": 186,
+    "topicCount": 187,
     "rawPageCount": 0,
-    "linkCount": 741,
+    "linkCount": 745,
     "sourceRecordCount": 8,
-    "sourceLinkCount": 693,
+    "sourceLinkCount": 701,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-07-07"
+    "lastUpdatedAt": "2026-07-08"
   }
 }

@@ -9,11 +9,16 @@ import {
   isValidEmail,
 } from "../../lib/meetup-ui.js";
 
+const REMINDER_SIGNUP_MESSAGE_SOURCE = "austin-ai-reminder-signup";
+const SIGNUP_RESPONSE_TIMEOUT_MS = 8000;
+
 export default function ReminderSignup({ nextMeetup, variant = "default" }) {
   const submitRef = useRef(false);
   const fallbackTimerRef = useRef(null);
+  const iframeRef = useRef(null);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle");
+  const [errorMessage, setErrorMessage] = useState("");
   const pageUrl = window.location.href;
 
   const nextEvent = nextMeetup?.event ?? null;
@@ -21,6 +26,21 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
     ? `${formatEventDate(nextEvent)} · ${formatEventTime(nextEvent)}`
     : "We will email you when the next meetup is posted.";
   const formConfigured = Boolean(REMINDER_SIGNUP_URL);
+
+  const finishSignup = (nextStatus, message = "") => {
+    submitRef.current = false;
+    clearTimeout(fallbackTimerRef.current);
+
+    if (nextStatus === "success") {
+      setEmail("");
+      setErrorMessage("");
+      setStatus("success");
+      return;
+    }
+
+    setErrorMessage(message);
+    setStatus("error");
+  };
 
   const handleSubmit = (event) => {
     if (!formConfigured) {
@@ -36,28 +56,43 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
     }
 
     submitRef.current = true;
+    setErrorMessage("");
     setStatus("submitting");
     clearTimeout(fallbackTimerRef.current);
     fallbackTimerRef.current = window.setTimeout(() => {
-      submitRef.current = false;
-      setEmail("");
-      setStatus("success");
-    }, 1200);
+      finishSignup(
+        "error",
+        "We could not confirm that signup. Try again in a moment.",
+      );
+    }, SIGNUP_RESPONSE_TIMEOUT_MS);
   };
 
-  const handleIframeLoad = () => {
-    if (!submitRef.current) {
-      return;
-    }
+  useEffect(() => {
+    const handleMessage = (event) => {
+      const data = event.data && typeof event.data === "object" ? event.data : null;
+      const isReminderFrame = event.source === iframeRef.current?.contentWindow;
+      const isGoogleScriptOrigin = /^https:\/\/(?:script\.google\.com|.+\.googleusercontent\.com)$/.test(event.origin);
 
-    submitRef.current = false;
-    clearTimeout(fallbackTimerRef.current);
-    setEmail("");
-    setStatus("success");
-  };
+      if (
+        !submitRef.current ||
+        data?.source !== REMINDER_SIGNUP_MESSAGE_SOURCE ||
+        (!isReminderFrame && !isGoogleScriptOrigin)
+      ) {
+        return;
+      }
 
-  useEffect(() => () => {
-    clearTimeout(fallbackTimerRef.current);
+      finishSignup(
+        data.status === "success" ? "success" : "error",
+        data.message || "We could not confirm that signup. Try again in a moment.",
+      );
+    };
+
+    window.addEventListener("message", handleMessage);
+
+    return () => {
+      clearTimeout(fallbackTimerRef.current);
+      window.removeEventListener("message", handleMessage);
+    };
   }, []);
 
   return (
@@ -85,6 +120,7 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
             onClick={() => {
               setStatus("idle");
               setEmail("");
+              setErrorMessage("");
             }}
           >
             add another email
@@ -114,6 +150,7 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
                 setEmail(event.target.value);
                 if (status !== "idle") {
                   setStatus("idle");
+                  setErrorMessage("");
                 }
               }}
               required
@@ -130,6 +167,8 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
               ? "Submitting your reminder signup..."
               : status === "invalid"
                 ? "Enter a valid email address first."
+                : status === "error"
+                  ? errorMessage || "We could not confirm that signup. Try again in a moment."
                 : status === "offline"
                   ? import.meta.env.DEV
                     ? "Set VITE_REMINDER_SIGNUP_URL to connect the form to Apps Script."
@@ -139,10 +178,10 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
         </>
       )}
       <iframe
+        ref={iframeRef}
         title="Reminder signup"
         name={REMINDER_IFRAME_NAME}
         className="reminder-transport"
-        onLoad={handleIframeLoad}
       />
     </section>
   );

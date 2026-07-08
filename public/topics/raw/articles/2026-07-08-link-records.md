@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - July 8, 2026 - Source Link Records
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -22,6 +22,33 @@ sources: []
   - Type: Official X post
   - Access: 2026-07-07
   - Notes: Nous Research launch post for the Hermes Agent MoA preset feature, claiming higher HermesBench scores versus Opus 4.8 and GPT 5.5.
+
+### Gemma 4 gives React Native an offline agent loop
+- Source: https://docs.swmansion.com/react-native-executorch/docs/fundamentals/getting-started
+  - Title: "Getting Started | React Native ExecuTorch"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: React Native ExecuTorch docs describe the library as a declarative way to run AI models, including LLMs, directly on device from JavaScript, keeping data private and avoiding API calls.
+- Repo: https://github.com/software-mansion/react-native-executorch
+  - Title: "software-mansion/react-native-executorch"
+  - Type: Repository
+  - Access: 2026-07-08
+  - Notes: Repository for React Native ExecuTorch, a React Native bridge over Meta ExecuTorch with ready-made on-device model support for LLMs, computer vision, and other mobile AI features.
+- Source: https://huggingface.co/software-mansion/react-native-executorch-gemma-4
+  - Title: "software-mansion/react-native-executorch-gemma-4"
+  - Type: Model artifact
+  - Access: 2026-07-08
+  - Notes: Hugging Face model card for quantized Gemma 4 `.pte` artifacts prepared for React Native ExecuTorch, with Apache 2.0 licensing and a base-model link to `google/gemma-4-E2B`.
+- Release: https://github.com/software-mansion/react-native-executorch/releases/tag/v0.9.1
+  - Title: "React Native ExecuTorch v0.9.1"
+  - Type: Release notes
+  - Access: 2026-07-08
+  - Notes: Release notes list Gemma 4 support with Vulkan, MLX, and XNNPACK support.
+- Post: https://x.com/googlegemma/status/2074915283475878325
+  - Title: "Gemma 4 now works on-device using React Native"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Google Gemma post says Gemma 4 now runs fully offline in React Native apps with Vulkan delegate support on Android and MLX delegate support on Apple Silicon, demoing vision and tool-use capabilities that read a flyer and schedule a calendar event on device.
 
 ## Models & Research
 
@@ -131,7 +158,12 @@ sources: []
   - Title: "Previewing GPT-5.6 Sol: a next-generation model"
   - Type: Official preview blog
   - Access: 2026-07-07
-  - Notes: OpenAI's June 26 post previews the GPT-5.6 series, with Sol as the flagship, Terra as the balanced model, and Luna as the fast model, rolling out first through selected partners and a government review process. This is distinct from the June 24 Daybreak access story.
+  - Notes: OpenAI's June 26 post previews the GPT-5.6 series, with Sol as the flagship, Terra as the balanced model, and Luna as the fast model, rolling out first through selected partners and a government review process. The July 8 X update turns this from preview-only into a public July 9 launch story.
+- Source: https://cursor.com/docs/models/grok-4-5
+  - Title: "Grok 4.5"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: Cursor docs describe Grok 4.5 as a joint Cursor and SpaceXAI model for long-running software-engineering and knowledge-work tasks, trained with Cursor data and reinforcement learning, available in Cursor's first-party models pool with doubled included usage through July 15 and standard $2/M input, $6/M output pricing.
 - Source: https://www.anthropic.com/news/claude-sonnet-5
   - Title: "Claude Sonnet 5"
   - Type: Official launch blog
@@ -147,6 +179,16 @@ sources: []
   - Type: Official cloud blog
   - Access: 2026-07-07
   - Notes: Google Cloud launch context for the same models in developer and cloud surfaces.
+- Post: https://x.com/OpenAI/status/2074704958419792299
+  - Title: "GPT-5.6 Sol, Terra, and Luna public launch timing"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: OpenAI's July 8 post says GPT-5.6 Sol, Terra, and Luna will launch publicly on Thursday, July 9, and that preview access is expanding globally.
+- Post: https://x.com/cursor_ai/status/2074915744999969059
+  - Title: "Cursor and SpaceXAI train Grok 4.5"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Cursor's July 8 post says it partnered with SpaceXAI to train Grok 4.5, calling it Cursor's most powerful model yet and the first it has built for more than software engineering.
 - Post: https://x.com/OfficialLoganK/status/2071988351083921690
   - Title: "Nano Banana 2 Lite and Gemini Omni Flash"
   - Type: Official X post
