@@ -31,6 +31,7 @@
 - Added **Fable 5 becomes the advisor, not the worker** to Agent Infrastructure from Anthropic's advisor-tool docs and ClaudeDevs guidance on Sonnet 5 executor / Fable 5 advisor cost routing.
 - Expanded the July 8 model-release slides after the research-agent duplicate pass: **Open model releases get specialized fast** now includes NVIDIA CWIP, Microsoft HARC-Qwen, and DeepSeek DSpark/DeepSpec, while **Proprietary releases split across agents and media** now includes OpenAI GPT-Realtime-2.1 and Meta Muse Image.
 - Moved **Proprietary releases split across agents and media** directly after **Open model releases get specialized fast** in the Models & Research run, and added the missing X embeds supplied or implied by the research-agent pass.
+- Tightened **Open model releases get specialized fast** to remove internal duplicate-pass wording and frame the slide as specialized open releases.
 
 ## [2026-07-07] update | July 8 model-release slides added
 

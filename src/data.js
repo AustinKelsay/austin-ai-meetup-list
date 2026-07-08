@@ -154,7 +154,7 @@ export const meetups = [
           {
             title: "Open model releases get specialized fast",
             description:
-              "The last-two-week open-model pass is a specialization story, not a rerun of June 24's GLM, Kimi, MiniMax, or TMax slide. Qwen models agent environments, Mistral goes after Lean proofs, Cohere opens Arabic ASR, Microsoft safety-aligns Qwen with HARC, NVIDIA splits between Puzzle compression and CWIP world-model evaluation, and DeepSeek turns speculative decoding into an attachable module.",
+              "The theme is specialization: Qwen for agent-world simulation, Mistral for Lean proofs, Cohere for Arabic speech, Microsoft for Qwen safety tuning, NVIDIA for serving/eval models, and DeepSeek for faster decoding.",
             chip: "open releases",
             href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
             embeds: [

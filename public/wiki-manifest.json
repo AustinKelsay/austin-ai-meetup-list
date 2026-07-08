@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T21:33:20.737Z",
+  "generatedAt": "2026-07-08T21:37:05.471Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -24521,153 +24521,6 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -24834,6 +24687,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
@@ -28912,153 +28912,6 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -29218,6 +29071,153 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
@@ -32932,153 +32932,6 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
@@ -33917,6 +33770,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
           "href": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
@@ -40675,6 +40675,62 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
+          "href": "https://x.com/MistralDevs/status/2033654167395357082",
+          "title": "Mistral Small",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://deepmind.google/models/gemma/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://ai.google.dev/gemma/docs/releases",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/googledevs/status/2051700498328346945",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
           "title": "Open model releases get specialized fast",
           "section": "Models & Research",
@@ -40820,62 +40876,6 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/MistralDevs/status/2033654167395357082",
-          "title": "Mistral Small",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://github.com/AnthonyRonning/attune",
-          "title": "Attune patches the open-model tool-call boundary",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://x.com/anthonyronning/status/2053823121975542061",
-          "title": "Attune patches the open-model tool-call boundary",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://deepmind.google/models/gemma/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://ai.google.dev/gemma/docs/releases",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://x.com/googledevs/status/2051700498328346945",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
@@ -46819,6 +46819,27 @@
       ],
       "referencedTopicSources": [
         {
+          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
           "title": "Open model releases get specialized fast",
           "section": "Models & Research",
@@ -46964,27 +46985,6 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
-        },
-        {
-          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
-        },
-        {
-          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
           "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
@@ -47406,153 +47406,6 @@
         "open-models"
       ],
       "referencedTopicSources": [
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -48392,6 +48245,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
@@ -74534,153 +74534,6 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -74847,6 +74700,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
@@ -78925,153 +78925,6 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://z.ai/blog/glm-5.2",
           "title": "Open models are eating the frontier gap",
           "section": "Models & Research",
@@ -79231,6 +79084,153 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
@@ -82945,153 +82945,6 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
           "section": "Models & Research",
@@ -83930,6 +83783,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         },
         {
           "href": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
@@ -90688,6 +90688,62 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         },
         {
+          "href": "https://x.com/MistralDevs/status/2033654167395357082",
+          "title": "Mistral Small",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-march-18-2026",
+          "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/AnthonyRonning/attune",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/anthonyronning/status/2053823121975542061",
+          "title": "Attune patches the open-model tool-call boundary",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://deepmind.google/models/gemma/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://ai.google.dev/gemma/docs/releases",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://x.com/googledevs/status/2051700498328346945",
+          "title": "Gemma 4 app surface",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-13-2026",
+          "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
           "title": "Open model releases get specialized fast",
           "section": "Models & Research",
@@ -90833,62 +90889,6 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/MistralDevs/status/2033654167395357082",
-          "title": "Mistral Small",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://github.com/AnthonyRonning/attune",
-          "title": "Attune patches the open-model tool-call boundary",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://x.com/anthonyronning/status/2053823121975542061",
-          "title": "Attune patches the open-model tool-call boundary",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://deepmind.google/models/gemma/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://ai.google.dev/gemma/docs/releases",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
-        },
-        {
-          "href": "https://x.com/googledevs/status/2051700498328346945",
-          "title": "Gemma 4 app surface",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-13-2026",
-          "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
           "href": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
@@ -96832,6 +96832,27 @@
       ],
       "referencedTopicSources": [
         {
+          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
+          "title": "DFlash beats autoregressive drafting ceiling",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-may-27-2026",
+          "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
           "title": "Open model releases get specialized fast",
           "section": "Models & Research",
@@ -96977,27 +96998,6 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-july-8-2026",
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://www.baseten.co/blog/dflash-faster-llm-inference/",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
-        },
-        {
-          "href": "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
-        },
-        {
-          "href": "https://x.com/zhijianliu_/status/2051900751673467097",
-          "title": "DFlash beats autoregressive drafting ceiling",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-may-27-2026",
-          "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
           "href": "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
@@ -97419,153 +97419,6 @@
         "open-models"
       ],
       "referencedTopicSources": [
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://arxiv.org/abs/2607.04371",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/nvidia/CWIP-1.0",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://mistral.ai/news/leanstral-1-5/",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://cohere.com/blog/transcribe-arabic",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://github.com/deepseek-ai/DeepSpec",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/itayoush/status/2074466451507884198",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/sophiamyang/status/2073126992439046528",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/cohere/status/2074499759616729149",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
-        {
-          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
-          "title": "Open model releases get specialized fast",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-july-8-2026",
-          "sourcePageTitle": "Austin AI Club - July 8, 2026"
-        },
         {
           "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "title": "Open-weight release week turns into a firehose",
@@ -98405,6 +98258,153 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2607.04371",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/CWIP-1.0",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/QwenLM/Qwen-AgentWorld",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://cohere.com/blog/transcribe-arabic",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://github.com/deepseek-ai/DeepSpec",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/itayoush/status/2074466451507884198",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/sophiamyang/status/2073126992439046528",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/cohere/status/2074499759616729149",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/HuggingPapers/status/2074614099946897632",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
+        },
+        {
+          "href": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+          "title": "Open model releases get specialized fast",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-8-2026",
+          "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ]
     },
