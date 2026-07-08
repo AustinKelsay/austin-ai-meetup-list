@@ -1,7 +1,7 @@
 ---
 title: Broadcom
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-08
 type: entity
 tags: [entity, company, compute-strategy]
 sources: [raw/articles/2026-06-24-link-records.md]
@@ -19,3 +19,4 @@ Broadcom is a semiconductor and networking company showing up in Austin AI Club 
 
 - [[OpenAI]]
 - [[Compute Strategy]]
+- [[Jalapeno]]

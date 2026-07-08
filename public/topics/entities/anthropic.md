@@ -29,3 +29,4 @@ Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety
 - [[Agent Cost Controls]]
 - [[Claude Code]]
 - [[Claude Fable/Mythos]]
+- [[Claude Sonnet 5]]

@@ -25,6 +25,7 @@ Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, u
 - [[Agent Payments]]
 - [[Coding Agents]]
 - [[Anthropic]]
+- [[Claude Sonnet 5]]
 - [[Cursor]]
 - [[Microsoft]]
 - [[OpenClaw]]

@@ -23,3 +23,5 @@ Meta is a recurring Austin AI Club entity for open-weight model releases, agenti
 - [[Open Models]]
 - [[Privacy Tooling]]
 - [[Compute Strategy]]
+- [[Brain2Qwerty]]
+- [[Meta Muse]]

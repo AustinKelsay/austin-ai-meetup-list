@@ -25,3 +25,6 @@ vLLM is an open-source inference and serving stack for large language models, in
 - [[Compute Strategy]]
 - [[Gemma]]
 - [[MiniMax]]
+- [[MiniMax M3]]
+- [[DiffusionGemma]]
+- [[MXFP4]]

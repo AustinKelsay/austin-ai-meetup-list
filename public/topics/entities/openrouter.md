@@ -1,7 +1,7 @@
 ---
 title: OpenRouter
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-08
 type: entity
 tags: [entity, company, agent-infrastructure, models-research]
 sources: [raw/articles/2026-06-24-link-records.md]
@@ -21,3 +21,5 @@ OpenRouter is a model routing and inference platform that gives builders a unifi
 - [[Sakana AI]]
 - [[vLLM]]
 - [[Compute Strategy]]
+- [[OpenRouter Fusion]]
+- [[Sakana Fugu]]

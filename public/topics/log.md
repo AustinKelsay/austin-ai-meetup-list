@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-08] update | Artifact-level model and project links added
+
+- Created focused entity pages for Brain2Qwerty, GPT-5.6, Claude Sonnet 5, SWE-1.7, Gemini Omni Flash, Meta Muse, MiniMax M3, Qwen-AgentWorld, Leanstral, Cohere Transcribe Arabic, HARC, DeepSpec, OpenRouter Fusion, Sakana Fugu, Jalapeno, Cursor Origin, DiffusionGemma, Nemotron Puzzle, and CWIP.
+- Created the MXFP4 concept page for the MiniMax M3 quantization/deployment story.
+- Added reciprocal wikilinks and Related-page spine entries across the July 8, June 24, June 10, and April 15 Meetup pages so named artifacts now resolve from their source Topics.
+- Updated index.md to include the expanded artifact catalog.
+
 ## [2026-07-08] update | Second-pass model and project graph gardening
 
 - Created entity pages for DeepSeek, Hermes Agent, Claude Fable/Mythos, Grok, Gemini, GLM, Kimi, Nemotron, Pylon, Apple Container, and Unbroker.

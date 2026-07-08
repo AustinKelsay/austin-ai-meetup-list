@@ -37,3 +37,6 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 - [[Palantir]]
 - [[Venice]]
 - [[Etched]]
+- [[Jalapeno]]
+- [[Cursor Origin]]
+- [[Meta Muse]]

@@ -1,7 +1,7 @@
 ---
 title: AI Signal Discovery
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-08
 type: concept
 tags: [concept, models-research]
 sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -27,3 +27,4 @@ AI Signal Discovery covers the recurring Austin AI Club problem of finding, filt
 - [[Open Models]]
 - [[Coding Agents]]
 - [[Andrej Karpathy]]
+- [[GPT-5.6]]

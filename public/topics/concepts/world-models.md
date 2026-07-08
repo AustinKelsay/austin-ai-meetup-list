@@ -1,10 +1,10 @@
 ---
 title: World Models
 created: 2026-06-09
-updated: 2026-06-24
+updated: 2026-07-08
 type: concept
 tags: [concept, models-research, robotics, simulation]
-sources: [raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md]
 ---
 
 # World Models
@@ -22,3 +22,5 @@ World Models covers models and systems that represent, simulate, predict, render
 - [[AI Benchmarks & Evals]]
 - [[Humanoid Robotics]]
 - [[Agent Infrastructure]]
+- [[Qwen-AgentWorld]]
+- [[CWIP]]

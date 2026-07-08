@@ -1,10 +1,10 @@
 ---
 title: AI Benchmarks & Evals
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-08
 type: concept
 tags: [concept, models-research, agent-infrastructure]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # AI Benchmarks & Evals
@@ -30,3 +30,10 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 - [[Open Models]]
 - [[Speculative Decoding]]
 - [[AI Governance]]
+- [[Brain2Qwerty]]
+- [[OpenRouter Fusion]]
+- [[Sakana Fugu]]
+- [[Qwen-AgentWorld]]
+- [[Leanstral]]
+- [[CWIP]]
+- [[Meta Muse]]

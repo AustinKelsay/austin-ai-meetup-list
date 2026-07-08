@@ -25,3 +25,4 @@ MiniMax is a recurring Austin AI Club entity for open-weight coding and agent mo
 - [[Coding Agents]]
 - [[Model Distillation]]
 - [[vLLM]]
+- [[MiniMax M3]]

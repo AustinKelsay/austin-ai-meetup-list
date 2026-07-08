@@ -29,3 +29,5 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 - [[Gemma]]
 - [[Gemini]]
 - [[React Native ExecuTorch]]
+- [[Gemini Omni Flash]]
+- [[DiffusionGemma]]

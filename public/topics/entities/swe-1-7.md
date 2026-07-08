@@ -1,15 +1,15 @@
 ---
-title: Cognition
+title: SWE-1.7
 created: 2026-07-08
 updated: 2026-07-08
 type: entity
-tags: [entity, company, coding-agents, models-research]
+tags: [entity, model, coding-agents]
 sources: [raw/articles/2026-07-08-link-records.md]
 ---
 
-# Cognition
+# SWE-1.7
 
-Cognition is a coding-agent company tracked here for Devin and SWE model releases that shape the closed-agent product channel.
+SWE-1.7 is Cognition's coding model release for Devin, tracked as part of the July 8 proprietary-release split where IDEs and coding-agent products started shipping their own model channels.
 
 ## Mentioned In
 
@@ -17,7 +17,7 @@ Cognition is a coding-agent company tracked here for Devin and SWE model release
 
 ## Related
 
+- [[Cognition]]
 - [[Coding Agents]]
-- [[Agent Infrastructure]]
 - [[Models & Research]]
-- [[SWE-1.7]]
+- [[Kimi]]

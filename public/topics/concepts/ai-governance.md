@@ -31,3 +31,4 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 - [[Open Models]]
 - [[Palantir]]
 - [[Claude Fable/Mythos]]
+- [[HARC]]

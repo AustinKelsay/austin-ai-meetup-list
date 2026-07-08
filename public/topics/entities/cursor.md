@@ -26,3 +26,4 @@ Cursor is a recurring Austin AI Club entity for coding agents, Composer models, 
 - [[Compute Strategy]]
 - [[SpaceX]]
 - [[Security]]
+- [[Cursor Origin]]

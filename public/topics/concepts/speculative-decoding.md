@@ -22,3 +22,4 @@ Speculative decoding is a recurring Austin AI Club concept for accelerating LLM 
 - [[Local AI]]
 - [[Inference Optimization]]
 - [[AI Benchmarks & Evals]]
+- [[DeepSpec]]

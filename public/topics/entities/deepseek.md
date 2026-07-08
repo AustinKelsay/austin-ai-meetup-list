@@ -22,6 +22,7 @@ DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition
 - [[Open Models]]
 - [[Model Distillation]]
 - [[Speculative Decoding]]
+- [[DeepSpec]]
 - [[Z.ai]]
 - [[Moonshot AI]]
 - [[MiniMax]]

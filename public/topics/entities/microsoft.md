@@ -24,3 +24,4 @@ Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governan
 - [[Agent Cost Controls]]
 - [[Agent Security]]
 - [[OpenAI]]
+- [[HARC]]

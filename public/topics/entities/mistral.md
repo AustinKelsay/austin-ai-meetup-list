@@ -22,3 +22,4 @@ Mistral is a recurring open-model and developer-ecosystem entity for Austin AI C
 - [[Open Models]]
 - [[Models & Research]]
 - [[Supply Chain Security]]
+- [[Leanstral]]

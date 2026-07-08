@@ -37,5 +37,8 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 - [[Claude Code]]
 - [[Codex]]
 - [[Cognition]]
+- [[SWE-1.7]]
+- [[Claude Sonnet 5]]
+- [[Cursor Origin]]
 - [[React Native ExecuTorch]]
 - [[TMax]]

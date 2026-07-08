@@ -26,6 +26,7 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 - [[Anthropic]]
 - [[Apple]]
 - [[Broadcom]]
+- [[Jalapeno]]
 - [[Cursor]]
 - [[Inference Optimization]]
 - [[Physical AI]]
@@ -38,3 +39,4 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 - [[SpaceX]]
 - [[vLLM]]
 - [[Etched]]
+- [[MiniMax M3]]

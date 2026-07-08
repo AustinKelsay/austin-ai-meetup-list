@@ -1,7 +1,7 @@
 ---
 title: Cohere
 created: 2026-06-09
-updated: 2026-07-07
+updated: 2026-07-08
 type: entity
 tags: [entity, company, open-models, local-ai, agent-infrastructure]
 sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-01-link-records.md]
@@ -22,3 +22,4 @@ Cohere is a recurring Austin AI Club entity for enterprise-focused open models, 
 - [[Open Models]]
 - [[Local AI]]
 - [[Agent Infrastructure]]
+- [[Cohere Transcribe Arabic]]

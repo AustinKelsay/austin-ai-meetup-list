@@ -26,3 +26,4 @@ Nemotron is NVIDIA's open model family, recurring in Austin AI Club through open
 - [[Inference Optimization]]
 - [[Physical AI]]
 - [[AI Benchmarks & Evals]]
+- [[Nemotron Puzzle]]
