@@ -1,10 +1,10 @@
 ---
 title: Security
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-07
 type: concept
 tags: [concept, track, security]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Security
@@ -13,6 +13,7 @@ Security is the Austin AI Club track for attacks, abuse patterns, prompt injecti
 
 ## Mentioned In
 
+- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.
 - [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.
 - [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.

@@ -2,6 +2,48 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-07] update | July 8 model-release slides added
+
+- Added **Open model releases get specialized fast** for the last-two-week open-release pass, using official sources for Qwen AgentWorld, Mistral Leanstral 1.5, and Cohere Transcribe Arabic while intentionally excluding June 24 duplicates: GLM-5.2, Kimi K2.7 Code, MiniMax M3 weights, and Ai2 TMax.
+- Replaced **Google prices gen-media for loops, not demos** with **Proprietary releases split across agents and media**, grouping official OpenAI GPT-5.6 Sol/Terra/Luna, Anthropic Claude Sonnet 5, and Google Nano Banana 2 Lite/Gemini Omni Flash sources into one proprietary-model release slide.
+- Updated **Open model releases get specialized fast** again after the fresh NVIDIA drop, adding Nemotron-Labs-3-Puzzle-75B-A9B BF16/FP8/NVFP4 model cards and the compression report as the serving-efficiency leg of the slide.
+
+## [2026-07-07] update | July 8 sovereignty Topic split
+
+- Split **AI sovereignty becomes the new enterprise pitch** into **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, and **China may hold frontier models at the border** so Palantir, Venice, and the Reuters China model-access report each get their own Big Tech Moves slide.
+
+## [2026-07-07] update | July 8 Claude Code marker angle sharpened
+
+- Reframed **Claude Code proxy markers break the local-agent trust boundary** as **Claude Code quietly fingerprinted its own users** to center the hidden vendor instrumentation / backdoor-ish user trust angle.
+
+## [2026-07-07] update | July 8 MiniMax quantization angle sharpened
+
+- Reframed **MiniMax M3 becomes an open deployment stress test** as **MXFP4 makes MiniMax M3 runnable**, adding the MXFP4 quantized model card and centering the efficiency story over the model-drop story.
+
+## [2026-07-07] update | July 8 Anthropic workspace angle sharpened
+
+- Reframed **Model internals become the next debugger surface** as **Claude gets a consciousness-adjacent workspace** to center Anthropic's access-consciousness/global-workspace claim while avoiding a literal consciousness claim.
+
+## [2026-07-07] update | July 8 local inference title tightened
+
+- Renamed **Local inference moves from vibes to routing math** to **Should chat route local by default?** across the board, source record, frontend data, and Local AI backlink.
+
+## [2026-07-07] update | Codex modifier moved to Showcase
+
+- Moved the Codex app modifier item out of Agent Infrastructure and into the July 8 Showcase as **Local Codex patches with codex-app-modifier**.
+- Updated the source record and backlinks so the item is treated as a Showcase, not a regular Topic.
+
+## [2026-07-07] update | July 8 board trimmed
+
+- Removed the Cognee story from the July 8 Meetup board, source record, frontend data, and Agent Infrastructure backlink.
+
+## [2026-07-07] create | July 8 meetup board initialized
+
+- Created the July 8 Meetup page and dated source records from the submitted X link list.
+- Grouped the submitted links into Agent Infrastructure, Models & Research, Security, Big Tech Moves, and the open Community Slot.
+- Combined repeated Anthropic/Fable posts into one security-governance Topic, split the Claude Code marker story into its own Security Topic, and grouped Palantir/Venice/China model-access links as one AI sovereignty Topic.
+- Left the invalid `TraffAlex` X URL out of the board because X oEmbed returned 404 and the submitted status id appears malformed.
+
 ## [2026-06-24] update | Signal discovery, agent payments, and governance links gardened
 
 - Created durable concept pages for AI Signal Discovery and Agent Payments after auditing remaining sparse historical Topics.

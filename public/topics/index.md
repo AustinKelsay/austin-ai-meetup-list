@@ -1,10 +1,11 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-06-24 | Total pages: 71
+> Last updated: 2026-07-07 | Total pages: 73
 
 ## Meetups
 
+- [[Austin AI Club - July 8, 2026]]
 - [[Austin AI Club - June 24, 2026]]
 - [[Austin AI Club - June 10, 2026]]
 - [[Austin AI Club - May 27, 2026]]
@@ -77,6 +78,7 @@
 
 ## Source Records
 
+- [July 8, 2026 source records](./raw/articles/2026-07-08-link-records.md)
 - [June 24, 2026 source records](./raw/articles/2026-06-24-link-records.md)
 - [June 10, 2026 source records](./raw/articles/2026-06-10-link-records.md)
 - [May 27, 2026 source records](./raw/articles/2026-05-27-link-records.md)

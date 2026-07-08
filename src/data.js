@@ -34,6 +34,317 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    id: "meetup-2026-07-08",
+    slug: "2026-07-08",
+    date: "July 8, 2026",
+    markdownHref: "./topics/2026-07-08.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-07-08T18:00:00-05:00",
+      endAt: "2026-07-08T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "July 8 first pass: Hermes MoA as a virtual model provider, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
+    },
+    showcases: [
+      {
+        title: "Local Codex patches with codex-app-modifier",
+        description:
+          "A live demo of using Sash Zats's codex-app-modifier skill to make small, local patches to the Codex desktop app. The point is user-owned customization: even when Codex is not open source, your local bundle can still be inspected, patched, and tuned for your workflow.",
+        chip: "showcase",
+        href: "https://github.com/zats/skills",
+        embed: {
+          type: "tweet",
+          href: "https://twitter.com/zats/status/2070945450408993111?ref_src=twsrc%5Etfw",
+        },
+        notes:
+          "Show the patch loop as small, reversible local changes for personal workflow customization.",
+      },
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+      },
+    ],
+    tracks: [
+      {
+        id: "jul8-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Hermes Agent gets model panels as a provider",
+            description:
+              "Nous Research made MoA presets selectable as virtual models in Hermes Agent, so multi-model review stops being a side workflow and becomes a normal model-picker option.",
+            chip: "agent models",
+            href: "https://hermes-agent.nousresearch.com/docs/user-guide/features/mixture-of-agents",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/NousResearch/status/2070610321278988385?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "jul8-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
+        items: [
+          {
+            title: "Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy",
+            description:
+              "Meta's MEG-based brain-to-text work turns the BCI story from surgery-only demo into a scaling question: 22,000 typed sentences, nine participants, 10 hours each, and open code/data around a 61% average word-accuracy result.",
+            chip: "brain models",
+            href: "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AIatMeta/status/2071566924803395741?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.nature.com/articles/s41593-026-02303-2",
+              "https://facebookresearch.github.io/brain2qwerty/",
+            ],
+            topStory: true,
+          },
+          {
+            title: "Open model releases get specialized fast",
+            description:
+              "The last-two-week open-model pass is a specialization story, not a rerun of June 24's GLM, Kimi, MiniMax, or TMax slide. Qwen models agent environments, Mistral goes after Lean proofs, Cohere opens Arabic ASR, and NVIDIA turns Nemotron-3 Super into a Puzzle-compressed 75B/9B-active serving model with BF16, FP8, and NVFP4 checkpoints.",
+            chip: "open releases",
+            href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+            linkPair: [
+              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+              "https://arxiv.org/abs/2607.04371",
+              "https://github.com/QwenLM/Qwen-AgentWorld",
+              "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+              "https://mistral.ai/news/leanstral-1-5/",
+              "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+              "https://cohere.com/blog/transcribe-arabic",
+              "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+            ],
+          },
+          {
+            title: "Should chat route local by default?",
+            description:
+              "Stanford's IPW paper says local LMs can answer 88.7% of single-turn chat/reasoning queries, while local coverage rose to 71.3%; Ollama's Gemma 4 MTP speedup makes the same point from the runtime side. The board question is what should route local by default.",
+            chip: "local ai",
+            href: "https://scalingintelligence.stanford.edu/pubs/ipw/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/ClementDelangue/status/2071951499660292496?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ollama/status/2072121580201848926?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+            ],
+          },
+          {
+            title: "Proprietary releases split across agents and media",
+            description:
+              "OpenAI previewed GPT-5.6 Sol/Terra/Luna through a controlled partner rollout, Anthropic shipped Claude Sonnet 5 as a cheaper agentic default, and Google priced Nano Banana 2 Lite plus Gemini Omni Flash for media loops. Closed labs are pulling two directions: frontier reasoning gets more gated while gen-media gets cheap enough to become tooling.",
+            chip: "proprietary models",
+            href: "https://openai.com/index/previewing-gpt-5-6-sol/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.anthropic.com/news/claude-sonnet-5",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+              "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+            ],
+          },
+          {
+            title: "Claude gets a consciousness-adjacent workspace",
+            description:
+              "Anthropic's J-space paper is not just interpretability tooling; it is a consciousness-adjacent claim. They argue Claude has a small global workspace it can report, steer, and reason through, while explicitly stopping short of saying it feels anything.",
+            chip: "interpretability",
+            href: "https://www.anthropic.com/research/global-workspace",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/AnthropicAI/status/2074185390060110138?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/stevibe/status/2073784489856450916?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: ["https://neuronpedia.org/jlens"],
+          },
+          {
+            title: "MXFP4 makes MiniMax M3 runnable",
+            description:
+              "MiniMax M3's 428B-parameter, 1M-context spec is the backdrop. The sharper story is efficiency: MXFP4 compresses the routed MoE experts, cuts the checkpoint to roughly 237 GB, and the vLLM/MSA/EAGLE3 recipes turn a model-card flex into something people can actually serve.",
+            chip: "open model",
+            href: "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Tech2Wild/status/2073836024451477718?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/albustime/status/2073986970653515817?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://huggingface.co/olka-fi/MiniMax-M3-MXFP4",
+              "https://vllm.ai/blog/2026-06-12-minimax-m3-vllm",
+              "https://github.com/BokuNoGF/minimax-m3-mxfp4-4x-gb10",
+              "https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/",
+            ],
+          },
+        ],
+      },
+      {
+        id: "jul8-security",
+        title: "Security",
+        purpose:
+          "This section is where we look at attacks, exploits, abuse patterns, and defensive ideas so we stay sharp about how these systems can be manipulated in the real world.",
+        items: [
+          {
+            title: "Fable 5 comes back with government in the loop",
+            description:
+              "Anthropic says Commerce lifted export controls on Fable 5 and Mythos 5, but the bigger AI governance move is the new bargain: jailbreak severity scoring, early government eval access, rapid safeguard sharing, and Fable shifting to usage credits after July 7.",
+            chip: "governance",
+            href: "https://www.anthropic.com/news/redeploying-fable-5",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/AnthropicAI/status/2072106151890809341?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/synthwavedd/status/2072103052635451559?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/deredleritt3r/status/2072112364690833604?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/theo/status/2072173365318840573?ref_src=twsrc%5Etfw",
+              },
+            ],
+            topStory: true,
+          },
+          {
+            title: "Claude Code quietly fingerprinted its own users",
+            description:
+              "The marker story is not just anti-reseller defense. Anthropic shipped Claude Code with hidden routing/proxy metadata in prompts, so users running a local coding agent were carrying vendor-side fingerprints they did not knowingly opt into. That is closer to backdooring your own users than ordinary abuse detection.",
+            chip: "agent security",
+            href: "https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/IntCyberDigest/status/2071971609183678544?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://aiweekly.co/alerts/anthropic-to-remove-claude-code-marker-that-flagged-china-users",
+              "https://www.techtimes.com/articles/319415/20260701/claude-code-hid-proxy-fingerprints-system-prompts-anthropic-promises-fix.htm",
+            ],
+          },
+          {
+            title: "Unbroker makes data-broker opt-outs agent-shaped",
+            description:
+              "Nous Research added SHL0MS's Unbroker as a Hermes Agent skill for finding exposed personal data and filing removals. This is the good version of privacy agents if consent, logging, and handoff are treated as product requirements.",
+            chip: "privacy",
+            href: "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/security/security-unbroker",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/SHL0MS/status/2073128911429668877?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NousResearch/status/2074089256192967062?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog",
+            ],
+          },
+        ],
+      },
+      {
+        id: "jul8-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware releases, ecosystem bets, and market shifts that change the ground our local AI work sits on.",
+        items: [
+          {
+            title: "Palantir discovers AI sovereignty",
+            description:
+              "Palantir is telling institutions not to hand their data, weights, or future choices to outsiders, which is true enough and also very rich coming from Palantir. The useful signal is that sovereignty is now a sales wedge, not just a policy word.",
+            chip: "sovereignty",
+            href: "https://www.palantir.com/protect-your-sovereignty/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/PalantirTech/status/2072114267776491695?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Venice raises VC on the privacy pitch",
+            description:
+              "Venice raised $65M at a $1B valuation while selling private, unrestricted AI and local conversation storage. The hypocrisy angle is the anti-surveillance story becoming a venture-scale platform and token-economy growth story.",
+            chip: "privacy capital",
+            href: "https://venice.ai/blog/venice-raises-65-million-series-a",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ErikVoorhees/status/2072336114950545755?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "China may hold frontier models at the border",
+            description:
+              "Reuters says Beijing is discussing limits on overseas access to advanced Chinese AI models. That is a different sovereignty move: model distribution becoming export control, not just product positioning.",
+            chip: "model controls",
+            href: "https://www.reuters.com/world/china/beijing-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/jukan05/status/2074443936865960205?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Etched turns inference chips into rack-scale product",
+            description:
+              "Etched says its A0 silicon is back, first racks ship this summer, and production is starting against more than $1B in customer contracts. The compute-strategy angle is cost-per-token control moving from rented GPUs to vertically integrated inference racks.",
+            chip: "inference chips",
+            href: "https://www.etched.com/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Etched/status/2071972062202343590?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-06-24",
     slug: "2026-06-24",
     date: "June 24, 2026",
@@ -59,15 +370,7 @@ export const meetups = [
       hostNote:
         "Local model services, Bitcoin-paid training runs, HRF's activist agent camps, agent payments, Apple Container sandboxes, open serving infra, compound model APIs, model-release super-slides, rumor-watch delays, Fable fallout, and big company platform pulls: Ben turns Bwen into qwenstradamus, OpenAgents asks the room to kick the tires on Tassadar/Pylon, HRF turns Agent Camp and AI Hack for Freedom into a real build pipeline, Hermes gets Stripe checkout, Apple makes Mac agent sandboxes native, vLLM makes weird open models runnable, OpenRouter and Sakana turn model panels into endpoints, the closed-model slide is basically a duplicate check with only OpenAI Daybreak access news, AI Twitter says GPT-5.6/Gemini 3.5 Pro slipped while Sonnet 5 is still unconfirmed, open models are eating more of the frontier gap, reporting names Amazon as the White House source on the jailbreak, OpenAI shows its Broadcom inference chip, Midjourney tries to turn ultrasound scans into spa hardware, and a leaked 'Origin' suggests Cursor wants to compete with GitHub.",
     },
-    showcases: [
-      {
-        title: "Community Slot",
-        description:
-          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
-        chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
-      },
-    ],
+    showcases: [],
     tracks: [
       {
         id: "jun24-local-builds",

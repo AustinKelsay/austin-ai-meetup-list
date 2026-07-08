@@ -1,10 +1,10 @@
 ---
 title: Google
 created: 2026-05-05
-updated: 2026-06-24
+updated: 2026-07-07
 type: entity
 tags: [entity, company, model, big-tech-moves]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Google
@@ -13,6 +13,7 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 
 ## Mentioned In
 
+- [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.
 - [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**, **Vercel's Context.ai breach**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.
