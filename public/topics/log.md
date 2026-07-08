@@ -15,6 +15,7 @@
 - Added **Gemma 4 gives React Native an offline agent loop** to Agent Infrastructure after Google Gemma highlighted React Native ExecuTorch support for offline Gemma 4 with Vulkan, MLX, vision, and tool-use flow.
 - Added Cognition's **SWE-1.7** launch to **Proprietary releases split across agents and media** as the Devin-specific closed-model/coding-agent entry.
 - Added **Fable 5 becomes the advisor, not the worker** to Agent Infrastructure from Anthropic's advisor-tool docs and ClaudeDevs guidance on Sonnet 5 executor / Fable 5 advisor cost routing.
+- Expanded the July 8 model-release slides after the research-agent duplicate pass: **Open model releases get specialized fast** now includes NVIDIA CWIP, Microsoft HARC-Qwen, and DeepSeek DSpark/DeepSpec, while **Proprietary releases split across agents and media** now includes OpenAI GPT-Realtime-2.1 and Meta Muse Image.
 
 ## [2026-07-07] update | July 8 model-release slides added
 

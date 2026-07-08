@@ -57,7 +57,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Fable 5 as advisor-model cost routing, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle, Qwen AgentWorld, Mistral Leanstral, and Cohere Transcribe Arabic, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6, Cursor/SpaceXAI Grok 4.5, Cognition SWE-1.7, Claude Sonnet 5, and Google's gen-media API loop, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
+        "July 8 first pass: Hermes MoA as a virtual model provider, Gemma 4 in React Native ExecuTorch as an offline mobile agent loop, Fable 5 as advisor-model cost routing, Meta Brain2Qwerty v2, open-model releases getting specialized across NVIDIA Puzzle/CWIP, Qwen AgentWorld, Mistral Leanstral, Cohere Transcribe Arabic, Microsoft HARC-Qwen, and DeepSeek DSpark, Stanford/Ollama local inference math, proprietary releases split across OpenAI GPT-5.6 and Realtime 2.1, Cursor/SpaceXAI Grok 4.5, Cognition SWE-1.7, Claude Sonnet 5, Google's gen-media API loop, and Meta Muse Image, Anthropic's Claude access-consciousness claim, MiniMax M3 as a quantization and serving-efficiency story, Fable 5 redeployed with government in the loop, Claude Code hidden user fingerprinting, Unbroker as privacy cleanup agent skill, Palantir and Venice making hypocritical sovereignty/privacy pitches, China reportedly weighing model-access controls, Etched moving inference chips into rack-scale product, and a local Codex patching showcase.",
     },
     showcases: [
       {
@@ -154,19 +154,24 @@ export const meetups = [
           {
             title: "Open model releases get specialized fast",
             description:
-              "The last-two-week open-model pass is a specialization story, not a rerun of June 24's GLM, Kimi, MiniMax, or TMax slide. Qwen models agent environments, Mistral goes after Lean proofs, Cohere opens Arabic ASR, and NVIDIA turns Nemotron-3 Super into a Puzzle-compressed 75B/9B-active serving model with BF16, FP8, and NVFP4 checkpoints.",
+              "The last-two-week open-model pass is a specialization story, not a rerun of June 24's GLM, Kimi, MiniMax, or TMax slide. Qwen models agent environments, Mistral goes after Lean proofs, Cohere opens Arabic ASR, Microsoft safety-aligns Qwen with HARC, NVIDIA splits between Puzzle compression and CWIP world-model evaluation, and DeepSeek turns speculative decoding into an attachable module.",
             chip: "open releases",
             href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
             linkPair: [
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
               "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
               "https://arxiv.org/abs/2607.04371",
+              "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+              "https://huggingface.co/nvidia/CWIP-1.0",
               "https://github.com/QwenLM/Qwen-AgentWorld",
               "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
               "https://mistral.ai/news/leanstral-1-5/",
               "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
               "https://cohere.com/blog/transcribe-arabic",
               "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+              "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+              "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+              "https://github.com/deepseek-ai/DeepSpec",
             ],
           },
           {
@@ -193,7 +198,7 @@ export const meetups = [
           {
             title: "Proprietary releases split across agents and media",
             description:
-              "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch, Cursor and SpaceXAI put Grok 4.5 into Cursor's model pool, and Cognition dropped SWE-1.7 into Devin at 1000 tok/s. Add Anthropic Sonnet 5 and Google's cheap gen-media APIs, and closed models are becoming product-channel bets: Codex/API, Cursor, Devin, Claude, and media loops.",
+              "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch and added GPT-Realtime-2.1/mini for voice agents, while Cursor, SpaceXAI, Cognition, Anthropic, Google, and Meta pushed closed models straight into product channels: IDE, Devin, Claude, voice, cloud media, Instagram, and WhatsApp.",
             chip: "proprietary models",
             href: "https://openai.com/index/previewing-gpt-5-6-sol/",
             embeds: [
@@ -215,11 +220,13 @@ export const meetups = [
               },
             ],
             linkPair: [
+              "https://developers.openai.com/api/docs/changelog",
               "https://cursor.com/docs/models/grok-4-5",
               "https://cognition.com/blog/swe-1-7",
               "https://www.anthropic.com/news/claude-sonnet-5",
               "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
               "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+              "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
             ],
           },
           {

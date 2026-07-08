@@ -112,6 +112,16 @@ sources: []
   - Type: Technical report
   - Access: 2026-07-07
   - Notes: The July 5 technical report claims roughly 2x higher server throughput than Nemotron-3-Super on a single 8xB200 node at matched user-throughput constraints, and 1M-token single-H100 concurrency rising from 1 request to 8 requests.
+- Source: https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-
+  - Title: "CWIP (Contrastive World-Image Pre-training)"
+  - Type: Official model card
+  - Access: 2026-07-08
+  - Notes: NVIDIA's NGC model card gives a July 7, 2026 release date for CWIP, a 0.3B-parameter Cosmos Evaluator model that scores camera-to-world consistency and emits patch-level defect and object classifications for autonomous-driving world-model outputs.
+- Source: https://huggingface.co/nvidia/CWIP-1.0
+  - Title: "nvidia/CWIP-1.0"
+  - Type: Official model card
+  - Access: 2026-07-08
+  - Notes: Hugging Face mirror for NVIDIA CWIP v1.0, released under OpenMDW-1.1 with PyTorch/Transformers integration guidance and BF16 weights.
 - Source: https://github.com/QwenLM/Qwen-AgentWorld
   - Title: "Qwen-AgentWorld"
   - Type: Official repository
@@ -142,6 +152,21 @@ sources: []
   - Type: Official model card
   - Access: 2026-07-07
   - Notes: Hugging Face model card for Cohere Transcribe Arabic, listing the 2B ASR model, Arabic/English language support, Apache 2.0 license, and benchmark table.
+- Source: https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct
+  - Title: "microsoft/HARC-Qwen2.5-7B-Instruct"
+  - Type: Official model card
+  - Access: 2026-07-08
+  - Notes: Microsoft model card for an Apache 2.0, 8B, full standalone Qwen2.5-7B-Instruct checkpoint with HARC safety-alignment LoRA merged in, linked to arXiv:2607.00572.
+- Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark
+  - Title: "deepseek-ai/DeepSeek-V4-Flash-DSpark"
+  - Type: Official model card
+  - Access: 2026-07-08
+  - Notes: DeepSeek's card explicitly says DSpark is not a new model, but the same DeepSeek-V4-Flash checkpoint with an additional speculative-decoding module attached, with vLLM and SGLang serving examples.
+- Repo: https://github.com/deepseek-ai/DeepSpec
+  - Title: "deepseek-ai/DeepSpec"
+  - Type: Official repository
+  - Access: 2026-07-08
+  - Notes: MIT-licensed DeepSeek repository for training and evaluating draft models for speculative decoding, with released DSpark, DFlash, and Eagle3 checkpoints for Qwen3 and Gemma 4 targets.
 
 ### Should chat route local by default?
 - Source: https://scalingintelligence.stanford.edu/pubs/ipw/
@@ -176,6 +201,11 @@ sources: []
   - Type: Official preview blog
   - Access: 2026-07-07
   - Notes: OpenAI's June 26 post previews the GPT-5.6 series, with Sol as the flagship, Terra as the balanced model, and Luna as the fast model, rolling out first through selected partners and a government review process. The July 8 X update turns this from preview-only into a public July 9 launch story.
+- Source: https://developers.openai.com/api/docs/changelog
+  - Title: "OpenAI API changelog"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: OpenAI's July 6 changelog entry releases GPT-Realtime-2.1 and GPT-Realtime-2.1 mini for the Realtime API, emphasizing improved alphanumeric recognition, silence/noise handling, interruption behavior, and a lower-cost distilled voice-agent model.
 - Source: https://cursor.com/docs/models/grok-4-5
   - Title: "Grok 4.5"
   - Type: Official documentation
@@ -201,6 +231,11 @@ sources: []
   - Type: Official cloud blog
   - Access: 2026-07-07
   - Notes: Google Cloud launch context for the same models in developer and cloud surfaces.
+- Source: https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
+  - Title: "Introducing Muse Image: Image Generation Built for Your World"
+  - Type: Official launch blog
+  - Access: 2026-07-08
+  - Notes: Meta's July 7 launch post introduces Muse Image as the first image-generation model from Meta Superintelligence Labs, available in Meta AI and powering creative tools for Instagram Stories, WhatsApp image generation, and upcoming advertiser workflows.
 - Post: https://x.com/OpenAI/status/2074704958419792299
   - Title: "GPT-5.6 Sol, Terra, and Luna public launch timing"
   - Type: Official X post
