@@ -293,6 +293,11 @@ sources: []
 ## Showcase
 
 ### Realtime Voice Model Demo
+- Repo: https://github.com/AustinKelsay/realtime-voice-arena
+  - Title: "AustinKelsay/realtime-voice-arena"
+  - Type: Repository
+  - Access: 2026-07-21
+  - Notes: Standalone public BenchLocal web pack for the Meetup demo, including the client, loopback credential relay, tests, documentation, and versioned release artifact.
 - Repo: https://github.com/NVIDIA/personaplex
   - Title: "NVIDIA/personaplex"
   - Type: Repository

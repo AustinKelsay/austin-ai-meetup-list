@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:29:45.290Z",
+  "generatedAt": "2026-07-21T21:58:38.994Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -8732,6 +8732,7 @@
         "https://x.com/satyanadella/status/2066182223213293753",
         "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
         "https://x.com/harjitrathore/status/2075232505649676489",
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
@@ -8980,6 +8981,11 @@
           "href": "https://x.com/harjitrathore/status/2075232505649676489",
           "title": "Meta wants off the rented-GPU treadmill",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
         },
         {
           "href": "https://github.com/NVIDIA/personaplex",
@@ -9110,6 +9116,7 @@
         "https://x.com/satyanadella/status/2066182223213293753",
         "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
         "https://x.com/harjitrathore/status/2075232505649676489",
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
@@ -9358,6 +9365,11 @@
           "href": "https://x.com/harjitrathore/status/2075232505649676489",
           "title": "Meta wants off the rented-GPU treadmill",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
         },
         {
           "href": "https://github.com/NVIDIA/personaplex",
@@ -61267,6 +61279,7 @@
         "https://x.com/satyanadella/status/2066182223213293753",
         "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
         "https://x.com/harjitrathore/status/2075232505649676489",
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
@@ -61515,6 +61528,11 @@
           "href": "https://x.com/harjitrathore/status/2075232505649676489",
           "title": "Meta wants off the rented-GPU treadmill",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
         },
         {
           "href": "https://github.com/NVIDIA/personaplex",
@@ -61645,6 +61663,7 @@
         "https://x.com/satyanadella/status/2066182223213293753",
         "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
         "https://x.com/harjitrathore/status/2075232505649676489",
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
@@ -61893,6 +61912,11 @@
           "href": "https://x.com/harjitrathore/status/2075232505649676489",
           "title": "Meta wants off the rented-GPU treadmill",
           "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
         },
         {
           "href": "https://github.com/NVIDIA/personaplex",
@@ -105756,10 +105780,16 @@
       "meetupSlug": "2026-07-22",
       "meetupHref": "/topics/2026-07-22.md",
       "sourceLinks": [
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
+        },
         {
           "href": "https://github.com/NVIDIA/personaplex",
           "title": "Realtime Voice Model Demo",
@@ -105774,7 +105804,7 @@
       "wikiIds": [],
       "wikiTitles": [],
       "unresolvedWikiLinks": [],
-      "searchText": "Realtime Voice Model Demo Showcase Austin AI Club - July 22, 2026 2026-07-22 https://github.com/NVIDIA/personaplex https://huggingface.co/nvidia/personaplex-7b-v1"
+      "searchText": "Realtime Voice Model Demo Showcase Austin AI Club - July 22, 2026 2026-07-22 https://github.com/AustinKelsay/realtime-voice-arena https://github.com/NVIDIA/personaplex https://huggingface.co/nvidia/personaplex-7b-v1"
     },
     {
       "id": "austin-ai-club-july-8-2026-agent-infrastructure-fable-5-becomes-the-advisor-not-the-worker",
@@ -116240,10 +116270,16 @@
       "meetupSlug": "2026-07-22",
       "meetupHref": "/topics/2026-07-22.md",
       "sourceLinks": [
+        "https://github.com/AustinKelsay/realtime-voice-arena",
         "https://github.com/NVIDIA/personaplex",
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/AustinKelsay/realtime-voice-arena",
+          "title": "Realtime Voice Model Demo",
+          "section": "Showcase"
+        },
         {
           "href": "https://github.com/NVIDIA/personaplex",
           "title": "Realtime Voice Model Demo",
@@ -116258,7 +116294,7 @@
       "wikiIds": [],
       "wikiTitles": [],
       "unresolvedWikiLinks": [],
-      "searchText": "Realtime Voice Model Demo Showcase Austin AI Club - July 22, 2026 2026-07-22 https://github.com/NVIDIA/personaplex https://huggingface.co/nvidia/personaplex-7b-v1"
+      "searchText": "Realtime Voice Model Demo Showcase Austin AI Club - July 22, 2026 2026-07-22 https://github.com/AustinKelsay/realtime-voice-arena https://github.com/NVIDIA/personaplex https://huggingface.co/nvidia/personaplex-7b-v1"
     },
     "austin-ai-club-july-8-2026-agent-infrastructure-fable-5-becomes-the-advisor-not-the-worker": {
       "id": "austin-ai-club-july-8-2026-agent-infrastructure-fable-5-becomes-the-advisor-not-the-worker",
@@ -139588,7 +139624,7 @@
     "rawPageCount": 0,
     "linkCount": 1336,
     "sourceRecordCount": 9,
-    "sourceLinkCount": 773,
+    "sourceLinkCount": 774,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-07-21"
   }

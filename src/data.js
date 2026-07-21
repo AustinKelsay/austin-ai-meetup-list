@@ -65,11 +65,14 @@ export const meetups = [
         description:
           "Austin is running PersonaPlex 7B live on the Spark cluster. It listens and talks at the same time, handles interruptions, and feels much closer to a real conversation than the usual speech-to-text → LLM → text-to-speech stack.",
         chip: "showcase",
-        href: "https://github.com/NVIDIA/personaplex",
-        linkPair: ["https://huggingface.co/nvidia/personaplex-7b-v1"],
+        href: "https://github.com/AustinKelsay/realtime-voice-arena",
+        linkPair: [
+          "https://github.com/NVIDIA/personaplex",
+          "https://huggingface.co/nvidia/personaplex-7b-v1",
+        ],
         image: {
           src: "/images/realtime-voice-arena.png",
-          href: "https://github.com/NVIDIA/personaplex",
+          href: "https://github.com/AustinKelsay/realtime-voice-arena",
           alt: "PersonaPlex Realtime Arena running inside BenchLocal",
           caption: "Realtime Voice Arena BenchPack running PersonaPlex on the Spark cluster",
         },
