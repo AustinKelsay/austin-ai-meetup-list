@@ -432,3 +432,11 @@
 - Folded Brian Bell's verified lossless GLM-5.2 weight-compression experiment into the existing local-inference Topic, preserving the distinction between the decoded byte-split result, K15 size accounting, and runtime microbenchmark.
 - Added **llama.garden makes model distribution a protocol** as a Models & Research Topic covering signed Nostr discovery, BitTorrent transport, Hugging Face webseeds, and a forkable local catalog.
 - Mirrored both Submissions into Meetup Data, dated source records, and reciprocal Open Models and Local AI wiki references.
+
+## [2026-07-21] update | July 22 board gardened for policy and source caveats
+
+- Tightened the Bun, proprietary-model, open-weight, local-inference, llama.garden, AI 2040, Grok Build, and Showcase copy for a cleaner spoken flow while distinguishing reported or experimental behavior from verified fact.
+- Added the AI 2040 Topic to the existing AI Governance concept and reciprocal July 22 Meetup spine.
+- Repointed the showcase from an unavailable Spark-cluster path to NVIDIA's public PersonaPlex repository and model card, while keeping the local demo screenshot and cues.
+- Removed a redundant TechCrunch recap from Satya Nadella's source chain, kept his original essay and X post, and mirrored all wording and source-link changes into Meetup Data and dated source records.
+- Folded OpenAI's incident follow-up into the existing Hugging Face security Topic, renamed it around the cyber-eval reveal, and synchronized its official source, X post, Meetup Data, and reciprocal wiki references.

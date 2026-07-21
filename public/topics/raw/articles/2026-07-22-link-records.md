@@ -126,7 +126,7 @@ sources: []
   - Title: "kacper-daftcode/vLLM-Moet"
   - Type: Repository
   - Access: 2026-07-21
-  - Notes: vLLM patch and Blackwell kernels use compressed experts, an FP4 recovery cache, and tiered residency to serve GLM-5.2 and DeepSeek V4 Flash on workstation and consumer GPUs.
+  - Notes: An experimental vLLM patch and Blackwell kernels use compressed experts, an FP4 recovery cache, and tiered residency to report GLM-5.2 and DeepSeek V4 Flash serving on workstation and consumer GPUs.
 - Post: https://x.com/0xSero/status/2075326725320278208
   - Title: "GLM-5.2 and DeepSeek V4 Flash local serving results"
   - Type: X commentary
@@ -201,7 +201,7 @@ sources: []
   - Title: "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read"
   - Type: Security reporting
   - Access: 2026-07-21
-  - Notes: Corroborates the wire analysis, full repository and history upload behavior, server-side shutoff, and credential-rotation implications.
+  - Notes: Corroborates the wire analysis, full repository and history upload behavior, server-side shutoff, and credential-rotation implications; its framing also makes clear that a training opt-out is not a local-only guarantee.
 - Post: https://x.com/intcyberdigest/status/2076689215258014069
   - Title: "Grok Build repository upload report"
   - Type: Security X post
@@ -218,12 +218,22 @@ sources: []
   - Access: 2026-07-21
   - Notes: Reports Elon Musk's statement that previously uploaded user data would be deleted as a precaution.
 
-### An autonomous-agent breach met an AI incident response
+### OpenAI's cyber eval breached Hugging Face
+- Source: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+  - Title: "OpenAI and Hugging Face partner to address security incident during model evaluation"
+  - Type: Official incident follow-up
+  - Access: 2026-07-21
+  - Notes: OpenAI attributes the autonomous intrusion to a cyber-capability evaluation using GPT-5.6 Sol and a stronger pre-release model with reduced cyber refusals, and describes the response with Hugging Face.
 - Source: https://huggingface.co/blog/security-incident-july-2026
   - Title: "Security incident disclosure — July 2026"
   - Type: Official incident disclosure
   - Access: 2026-07-21
   - Notes: Hugging Face describes an autonomous-agent intrusion through dataset processing, limited unauthorized access, defensive reconstruction of more than 17,000 events, and use of local GLM-5.2 after hosted models blocked forensic payloads.
+- Post: https://x.com/OpenAI/status/2079658951264920020
+  - Title: "OpenAI and Hugging Face incident follow-up"
+  - Type: Official X post
+  - Access: 2026-07-21
+  - Notes: OpenAI's announcement links the official follow-up and identifies the incident as originating in its cyber model evaluation.
 - Post: https://x.com/BrianRoemmele/status/2078840929088340408
   - Title: "Autonomous-agent Hugging Face breach commentary"
   - Type: X commentary
@@ -262,11 +272,6 @@ sources: []
   - Type: Executive blog
   - Access: 2026-07-21
   - Notes: Satya Nadella argues that buyers pay for model access while also revealing the proprietary context and corrections that make the model useful.
-- Source: https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/
-  - Title: "Satya Nadella warns companies using AI about paying twice"
-  - Type: Reporting
-  - Access: 2026-07-21
-  - Notes: Independent context for Nadella's argument and its implications for enterprise model customers.
 - Post: https://x.com/satyanadella/status/2066182223213293753
   - Title: "The Reverse Information Paradox"
   - Type: Official X post
@@ -288,11 +293,16 @@ sources: []
 ## Showcase
 
 ### Realtime Voice Model Demo
-- Repo: https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena
-  - Title: "PersonaPlex Realtime Voice Arena"
+- Repo: https://github.com/NVIDIA/personaplex
+  - Title: "NVIDIA/personaplex"
   - Type: Repository
   - Access: 2026-07-21
-  - Notes: Austin Kelsay's BenchLocal demo surface for a continuous PersonaPlex 7B v1 conversation running through the local Spark cluster, including interruption handling and operational session measurements without retained audio or transcripts.
+  - Notes: Public NVIDIA implementation of PersonaPlex, the 7B full-duplex speech-to-speech model used by Austin Kelsay's local Spark-cluster demo; the demo surface and its session measurements are shown in the local screenshot.
+- Source: https://huggingface.co/nvidia/personaplex-7b-v1
+  - Title: "nvidia/personaplex-7b-v1"
+  - Type: Hugging Face model card
+  - Access: 2026-07-21
+  - Notes: Documents the PersonaPlex 7B v1 model's streaming speech-to-speech behavior, voice/text conditioning, and local usage path.
 - Image: /images/realtime-voice-arena.png
   - Title: "PersonaPlex Realtime Arena in BenchLocal"
   - Type: Local product screenshot

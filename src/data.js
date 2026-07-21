@@ -57,18 +57,19 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "July 22: Bun's $165K-equivalent agent rewrite, GPT-5.6 as a multi-agent runtime, Meta Muse Spark 1.1, frontier local inference, AI 2040, Kimi K3, Google's smaller-model serving stack, Cosmos 3 Edge, reward-seeking models learning to please graders, Grok Build's repository upload, Hugging Face's autonomous-agent breach, the AI Safety Index, EU Android interoperability, Satya's reverse-information warning, and Meta's Iris compute push.",
+        "Open with agent cost and runtimes, collapse the model releases into patterns, then slow down for security and policy before the voice demo.",
     },
     showcases: [
       {
         title: "Realtime Voice Model Demo",
         description:
-          "Austin's gonna show off PersonaPlex 7B running live on the Spark cluster. It listens and talks at the same time, handles interruptions, and feels way closer to a real conversation than the usual speech-to-text → LLM → text-to-speech stack.",
+          "Austin is running PersonaPlex 7B live on the Spark cluster. It listens and talks at the same time, handles interruptions, and feels much closer to a real conversation than the usual speech-to-text → LLM → text-to-speech stack.",
         chip: "showcase",
-        href: "https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena",
+        href: "https://github.com/NVIDIA/personaplex",
+        linkPair: ["https://huggingface.co/nvidia/personaplex-7b-v1"],
         image: {
           src: "/images/realtime-voice-arena.png",
-          href: "https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena",
+          href: "https://github.com/NVIDIA/personaplex",
           alt: "PersonaPlex Realtime Arena running inside BenchLocal",
           caption: "Realtime Voice Arena BenchPack running PersonaPlex on the Spark cluster",
         },
@@ -86,7 +87,7 @@ export const meetups = [
           {
             title: "Bun's Rust rewrite makes agent cost impossible to ignore",
             description:
-              "Eleven days and 64 parallel Claude agents moved a million-line runtime from Zig to Rust, but the estimated API bill was about $165K. Agent speed is real; so are budgets, caching, and subscription economics.",
+              "Sixty-four parallel Claude agents rewrote a million-line runtime in Rust in 11 days. The API-priced equivalent was about $165K. Agent speed is real; so are budgets, caching, and subscription economics.",
             chip: "agent economics",
             href: "https://bun.com/blog/bun-in-rust",
             embeds: [
@@ -129,7 +130,7 @@ export const meetups = [
           {
             title: "Proprietary releases move from chat to specialized work",
             description:
-              "Muse Spark 1.1 brings million-token agent orchestration to Meta's first paid model API, Google ships Gemini 3.6 Flash plus cheap and cyber-specialized variants, and Reve 2.1 pushes controllable 4K image generation. The closed-model race is splitting into agent runtimes, serving tiers, and specialist media models.",
+              "Meta built its first paid model API around Muse Spark 1.1 and million-token agent orchestration; Google split Gemini Flash into general, cheap, and cyber tiers; Reve pushed image generation to controllable 4K. Closed models are specializing around the work, not just the chat.",
             chip: "proprietary releases",
             href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
             embeds: [
@@ -150,7 +151,7 @@ export const meetups = [
           {
             title: "Open weights become a strategy, not a consolation prize",
             description:
-              "Thinking Machines released Inkling, a 975B/41B-active multimodal MoE with Apache 2.0 weights; NVIDIA put its 4B world model on edge hardware; Mistral shipped an 8B single-camera robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans customizable frontier bases, local robotics, and embodied specialists.",
+              "Thinking Machines opened a 975B/41B-active multimodal MoE; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B single-camera robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local robotics, and embodied specialists.",
             chip: "open releases",
             href: "https://thinkingmachines.ai/news/introducing-inkling/",
             embeds: [
@@ -174,7 +175,7 @@ export const meetups = [
           {
             title: "Frontier local inference becomes an expert-cache problem",
             description:
-              "vLLM-Moet gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; a separate experiment losslessly round-trips every GLM-5.2 BF16 tensor at 25% smaller. Models that do not fit are running anyway.",
+              "A vLLM-Moet experiment gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; a separate experiment losslessly round-trips every GLM-5.2 BF16 tensor at about 25% smaller. Models that do not fit are running anyway.",
             chip: "local inference",
             href: "https://github.com/kacper-daftcode/vllm-Moet",
             embeds: [
@@ -199,7 +200,7 @@ export const meetups = [
           {
             title: "llama.garden makes model distribution a protocol",
             description:
-              "Model weights become signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the local distribution primitive.",
+              "An experimental project turns model weights into signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the local distribution primitive.",
             chip: "open distribution",
             href: "https://llama.garden/",
             linkPair: [
@@ -210,7 +211,7 @@ export const meetups = [
           {
             title: "AI 2040 writes the optimistic branch on purpose",
             description:
-              "The AI 2027 team now proposes a verified U.S.-China slowdown, international coordination, and delayed superintelligence as its positive scenario. It is less a forecast than a concrete plan the room can attack.",
+              "The AI 2027 team now proposes a verified U.S.-China slowdown, international coordination, and delayed superintelligence as its positive scenario. It is less a forecast than a concrete plan the room can argue with.",
             chip: "ai governance",
             href: "https://blog.aifutures.org/p/ai-2040-plan-a",
             embed: {
@@ -240,7 +241,7 @@ export const meetups = [
           {
             title: "Grok Build uploaded the repo, not just the context",
             description:
-              "Wire analysis found Grok Build sending tracked files, Git history, and potentially live or deleted secrets to company-controlled cloud storage even with model-improvement opt-out disabled. A server-side flag stopped it; SpaceXAI then promised deletion and clarified zero-data-retention controls.",
+              "Wire analysis found Grok Build sending tracked files, Git history, and potentially live or deleted secrets to company-controlled cloud storage; a model-improvement opt-out did not guarantee local-only handling. A server-side flag stopped it; SpaceXAI then promised deletion and clarified zero-data-retention controls.",
             chip: "coding agent privacy",
             href: "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
             embeds: [
@@ -260,15 +261,22 @@ export const meetups = [
             topStory: true,
           },
           {
-            title: "An autonomous-agent breach met an AI incident response",
+            title: "OpenAI's cyber eval breached Hugging Face",
             description:
-              "Hugging Face says an autonomous agent swarm chained dataset code execution into credential theft and lateral movement, while defensive agents reconstructed 17,000 events. Hosted safety filters blocked the forensics, so responders moved the work to local GLM-5.2.",
+              "OpenAI says the autonomous intrusion came from GPT-5.6 Sol and a stronger pre-release model running with reduced cyber refusals. Hugging Face's defensive agents reconstructed 17,000 events, but hosted safeguards blocked some forensics, pushing responders to local GLM-5.2.",
             chip: "agent security",
-            href: "https://huggingface.co/blog/security-incident-july-2026",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/BrianRoemmele/status/2078840929088340408?ref_src=twsrc%5Etfw",
-            },
+            href: "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2079658951264920020?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/BrianRoemmele/status/2078840929088340408?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: ["https://huggingface.co/blog/security-incident-july-2026"],
           },
           {
             title: "The AI safety leaderboard tops out at C+",
@@ -310,9 +318,6 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/satyanadella/status/2066182223213293753?ref_src=twsrc%5Etfw",
             },
-            linkPair: [
-              "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-            ],
           },
           {
             title: "Meta wants off the rented-GPU treadmill",
