@@ -166,7 +166,7 @@ export const meetups = [
           {
             title: "Frontier local inference becomes an expert-cache problem",
             description:
-              "vLLM-Moet gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; the same week, llama.cpp doubled on DGX Spark. Models that do not fit are running anyway.",
+              "vLLM-Moet gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; a separate experiment losslessly round-trips every GLM-5.2 BF16 tensor at 25% smaller. Models that do not fit are running anyway.",
             chip: "local inference",
             href: "https://github.com/kacper-daftcode/vllm-Moet",
             embeds: [
@@ -176,8 +176,27 @@ export const meetups = [
               },
               {
                 type: "tweet",
+                href: "https://twitter.com/brianbellx/status/2076432307687215494?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/ivanfioravanti/status/2075085548318781874?ref_src=twsrc%5Etfw",
               },
+            ],
+            linkPair: [
+              "https://brianbell-x.github.io/weight-compression/",
+              "https://github.com/brianbell-x/weight-compression",
+            ],
+          },
+          {
+            title: "llama.garden makes model distribution a protocol",
+            description:
+              "Model weights become signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the local distribution primitive.",
+            chip: "open distribution",
+            href: "https://llama.garden/",
+            linkPair: [
+              "https://github.com/etemiz/llama.garden",
+              "https://www.reddit.com/r/LocalLLM/comments/1up92t0/waifumagnet_torrents_that_work/",
             ],
           },
           {

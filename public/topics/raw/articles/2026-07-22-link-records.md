@@ -132,11 +132,43 @@ sources: []
   - Type: X commentary
   - Access: 2026-07-21
   - Notes: Highlights reported single-stream speeds and links the vLLM-Moet repository.
+- Source: https://brianbell-x.github.io/weight-compression/
+  - Title: "Lossless Model Compression Experiment"
+  - Type: Technical writeup
+  - Access: 2026-07-21
+  - Notes: Reports a bit-for-bit byte-split round trip across all 59,509 GLM-5.2 BF16 tensors at 24.967% less storage, while clearly separating that verified result from the smaller K15 accounting estimate and from a dense-path microbenchmark.
+- Repo: https://github.com/brianbell-x/weight-compression
+  - Title: "brianbell-x/weight-compression"
+  - Type: Repository
+  - Access: 2026-07-21
+  - Notes: Publishes the reproduction script, evidence bundle, validator, and experimental runtime artifacts for the lossless BF16 compression work.
+- Post: https://x.com/brianbellx/status/2076432307687215494
+  - Title: "GLM-5.2 lossless weight-compression result"
+  - Type: X post
+  - Access: 2026-07-21
+  - Notes: Submitted post highlighting the 1,403 GiB to 980 GiB K15 accounting result without quantization or retraining.
 - Post: https://x.com/ivanfioravanti/status/2075085548318781874
   - Title: "llama.cpp doubles DGX Spark performance"
   - Type: X commentary
   - Access: 2026-07-21
   - Notes: Points to a llama.cpp and NVIDIA collaboration reporting roughly 2x performance on DGX Spark.
+
+### llama.garden makes model distribution a protocol
+- Source: https://llama.garden/
+  - Title: "llama.garden"
+  - Type: Project site
+  - Access: 2026-07-21
+  - Notes: Browser catalog for model torrents announced through signed Nostr events and backed by independent seeders plus Hugging Face webseeds.
+- Repo: https://github.com/etemiz/llama.garden
+  - Title: "etemiz/llama.garden"
+  - Type: Repository
+  - Access: 2026-07-21
+  - Notes: Open-source scripts build BitTorrent v1 torrents from Hugging Face repositories, announce listings over Nostr, seed them across Transmission pumps, and verify catalog artifacts client-side; the project explicitly warns that the scripts are experimental and untested.
+- Source: https://www.reddit.com/r/LocalLLM/comments/1up92t0/waifumagnet_torrents_that_work/
+  - Title: "waifu-magnet: torrents that work"
+  - Type: Project announcement
+  - Access: 2026-07-21
+  - Notes: The author explains the distribution design, Hugging Face fallback behavior, current Transmission compatibility constraint, forkable catalog, and planned web-of-trust moderation.
 
 ### AI 2040 writes the optimistic branch on purpose
 - Source: https://blog.aifutures.org/p/ai-2040-plan-a
