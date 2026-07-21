@@ -1,10 +1,10 @@
 ---
 title: NVIDIA
 created: 2026-05-05
-updated: 2026-07-08
+updated: 2026-07-21
 type: entity
 tags: [entity, company, compute, model, agent-infrastructure]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # NVIDIA
@@ -13,6 +13,7 @@ NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory inf
 
 ## Mentioned In
 
+- [[Austin AI Club - July 22, 2026]]: **Open weights become a strategy, not a consolation prize**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.

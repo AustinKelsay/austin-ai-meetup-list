@@ -1,10 +1,10 @@
 ---
 title: Big Tech Moves
 created: 2026-06-24
-updated: 2026-07-08
+updated: 2026-07-21
 type: concept
 tags: [concept, track, big-tech-moves]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Big Tech Moves
@@ -13,6 +13,7 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 
 ## Mentioned In
 
+- [[Austin AI Club - July 22, 2026]]: **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, and **Meta wants off the rented-GPU treadmill**.
 - [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.
 - [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.

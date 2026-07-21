@@ -1,10 +1,10 @@
 ---
 title: Agent Cost Controls
 created: 2026-06-09
-updated: 2026-07-08
+updated: 2026-07-21
 type: concept
 tags: [concept, agent-infrastructure, coding-agents, cost-control]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Agent Cost Controls
@@ -13,6 +13,7 @@ Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, u
 
 ## Mentioned In
 
+- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.
 - [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.
 - [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.

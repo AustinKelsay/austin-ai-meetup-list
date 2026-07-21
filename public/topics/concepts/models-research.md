@@ -1,10 +1,10 @@
 ---
 title: Models & Research
 created: 2026-06-24
-updated: 2026-07-08
+updated: 2026-07-21
 type: concept
 tags: [concept, track, models-research, model]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Models & Research
@@ -13,6 +13,7 @@ Models & Research is the Austin AI Club track for model releases, benchmark shif
 
 ## Mentioned In
 
+- [[Austin AI Club - July 22, 2026]]: **Proprietary releases move from chat to specialized work**, **Open weights become a strategy, not a consolation prize**, **Frontier local inference becomes an expert-cache problem**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.
 - [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases get specialized fast**, **Should chat route local by default?**, **Proprietary releases split across agents and media**, and **Claude gets a consciousness-adjacent workspace**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **Open models are eating the frontier gap**, and **Research behind the open model wave**.
 - [[Austin AI Club - June 10, 2026]]: **Closed labs start the June model wave**, **Open-weight release week turns into a firehose**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.

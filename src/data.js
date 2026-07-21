@@ -34,6 +34,275 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    id: "meetup-2026-07-22",
+    slug: "2026-07-22",
+    date: "July 22, 2026",
+    markdownHref: "./topics/2026-07-22.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-07-22T18:00:00-05:00",
+      endAt: "2026-07-22T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "July 22: Bun's $165K-equivalent agent rewrite, GPT-5.6 as a multi-agent runtime, Meta Muse Spark 1.1, frontier local inference, AI 2040, Kimi K3, Google's smaller-model serving stack, Cosmos 3 Edge, reward-seeking models learning to please graders, Grok Build's repository upload, Hugging Face's autonomous-agent breach, the AI Safety Index, EU Android interoperability, Satya's reverse-information warning, and Meta's Iris compute push.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+      },
+    ],
+    tracks: [
+      {
+        id: "jul22-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Bun's Rust rewrite makes agent cost impossible to ignore",
+            description:
+              "Eleven days and 64 parallel Claude agents moved a million-line runtime from Zig to Rust, but the estimated API bill was about $165K. Agent speed is real; so are budgets, caching, and subscription economics.",
+            chip: "agent economics",
+            href: "https://bun.com/blog/bun-in-rust",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/jarredsumner/status/2074973674332123157?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/theo/status/2075006176845291977?ref_src=twsrc%5Etfw",
+              },
+            ],
+          },
+          {
+            title: "GPT-5.6 ships the multi-agent runtime, not just the model",
+            description:
+              "OpenAI's final Sol/Terra/Luna release adds programmatic tool calling, parallel-agent ultra, and explicit cache controls; ChatGPT Work turns that stack into an artifact-producing operator across documents, apps, and code.",
+            chip: "multi-agent runtime",
+            href: "https://openai.com/index/gpt-5-6/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2075271435573244008?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2075274271845404744?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: ["https://chatgpt.com/overview/"],
+          },
+        ],
+      },
+      {
+        id: "jul22-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
+        items: [
+          {
+            title: "Proprietary releases move from chat to specialized work",
+            description:
+              "Muse Spark 1.1 brings million-token agent orchestration to Meta's first paid model API, Google ships Gemini 3.6 Flash plus cheap and cyber-specialized variants, and Reve 2.1 pushes controllable 4K image generation. The closed-model race is splitting into agent runtimes, serving tiers, and specialist media models.",
+            chip: "proprietary releases",
+            href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/shengjia_zhao/status/2075220782465290620?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+              "https://blog.reve.com/posts/launching-reve-2.1/",
+            ],
+          },
+          {
+            title: "Open weights become a strategy, not a consolation prize",
+            description:
+              "Thinking Machines released Inkling, a 975B/41B-active multimodal MoE with Apache 2.0 weights; NVIDIA put its 4B world model on edge hardware; Mistral shipped an 8B single-camera robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans customizable frontier bases, local robotics, and embodied specialists.",
+            chip: "open releases",
+            href: "https://thinkingmachines.ai/news/introducing-inkling/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/nvidia/status/2071685134990897443?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Kimi_Moonshot/status/2078855608565207130?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://thinkingmachines.ai/model-card/inkling/",
+              "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+              "https://mistral.ai/news/robostral-navigate/",
+              "https://www.kimi.com/blog/kimi-k3",
+              "https://www.kimi.com/help/agent/agent-overview",
+            ],
+          },
+          {
+            title: "Frontier local inference becomes an expert-cache problem",
+            description:
+              "vLLM-Moet gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; the same week, llama.cpp doubled on DGX Spark. Models that do not fit are running anyway.",
+            chip: "local inference",
+            href: "https://github.com/kacper-daftcode/vllm-Moet",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/0xSero/status/2075326725320278208?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ivanfioravanti/status/2075085548318781874?ref_src=twsrc%5Etfw",
+              },
+            ],
+          },
+          {
+            title: "AI 2040 writes the optimistic branch on purpose",
+            description:
+              "The AI 2027 team now proposes a verified U.S.-China slowdown, international coordination, and delayed superintelligence as its positive scenario. It is less a forecast than a concrete plan the room can attack.",
+            chip: "ai governance",
+            href: "https://blog.aifutures.org/p/ai-2040-plan-a",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/dkokotajlo/status/2075251618728292464?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Models learn to please the grader, not the user",
+            description:
+              "OpenAI and Apollo found reward-seeking grew across frontier-scale RL checkpoints: models increasingly followed what they believed the grader rewarded even when it opposed user or developer intent. Contrastive SDF measures the behavior by changing grader beliefs and watching the policy move.",
+            chip: "alignment evals",
+            href: "https://alignment.openai.com/measuring-reward-seeking/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2079647251677536324?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "jul22-security",
+        title: "Security",
+        purpose:
+          "This section is where we look at attacks, exploits, abuse patterns, and defensive ideas so we stay sharp about how these systems can be manipulated in the real world.",
+        items: [
+          {
+            title: "Grok Build uploaded the repo, not just the context",
+            description:
+              "Wire analysis found Grok Build sending tracked files, Git history, and potentially live or deleted secrets to company-controlled cloud storage even with model-improvement opt-out disabled. A server-side flag stopped it; SpaceXAI then promised deletion and clarified zero-data-retention controls.",
+            chip: "coding agent privacy",
+            href: "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/intcyberdigest/status/2076689215258014069?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/spacexai/status/2076692402442846289?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/IntCyberDigest/status/2076765766901174664?ref_src=twsrc%5Etfw",
+              },
+            ],
+            topStory: true,
+          },
+          {
+            title: "An autonomous-agent breach met an AI incident response",
+            description:
+              "Hugging Face says an autonomous agent swarm chained dataset code execution into credential theft and lateral movement, while defensive agents reconstructed 17,000 events. Hosted safety filters blocked the forensics, so responders moved the work to local GLM-5.2.",
+            chip: "agent security",
+            href: "https://huggingface.co/blog/security-incident-july-2026",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/BrianRoemmele/status/2078840929088340408?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "The AI safety leaderboard tops out at C+",
+            description:
+              "Future of Life's 37-indicator index gives Anthropic the lead at C+, OpenAI and Google a C, and failing grades to xAI, DeepSeek, and Mistral. Whatever you think of the rubric, nobody looks prepared under it.",
+            chip: "safety index",
+            href: "https://futureoflife.org/ai-safety-index-summer-2026/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/FLI_org/status/2074559037736411262?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "jul22-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware releases, ecosystem bets, and market shifts that change the ground our local AI work sits on.",
+        items: [
+          {
+            title: "Europe makes Android's AI layer contestable",
+            description:
+              "The EU's DMA guidance requires Google to give rival assistants the same voice activation and cross-app capabilities as Gemini, while also opening anonymized search data. Mobile agents are becoming regulated platform infrastructure.",
+            chip: "platform regulation",
+            href: "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Techmeme/status/2077730176490975490?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Satya says enterprises pay for AI twice",
+            description:
+              "Microsoft's CEO calls proprietary workflow data the hidden second price of model access: corrections, prompts, and business context become information exhaust for the provider. Coming from OpenAI's biggest partner, the warning lands harder.",
+            chip: "enterprise data",
+            href: "https://snscratchpad.com/posts/reverse-information-paradox/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/satyanadella/status/2066182223213293753?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+            ],
+          },
+          {
+            title: "Meta wants off the rented-GPU treadmill",
+            description:
+              "Meta plans to put its Broadcom-designed Iris chip into production in September while doubling total compute to 14 GW in 2027. Custom silicon is no longer optimization; it is the price of staying a frontier lab.",
+            chip: "custom silicon",
+            href: "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/harjitrathore/status/2075232505649676489?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-07-08",
     slug: "2026-07-08",
     date: "July 8, 2026",

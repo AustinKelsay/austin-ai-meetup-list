@@ -415,3 +415,9 @@
 - Renamed entity/concept reverse-link sections to `Mentioned In` and filled missing Meetup backlinks for recurring pages.
 - Tightened dated Meetup related-page spines where reverse pages were already treating a concept or entity as recurring.
 - Updated `TEMPLATE.md` so future Meetup pages start with wiki frontmatter and related-page scaffolding.
+## [2026-07-21] create | July 22 meetup curated
+
+- Authored the July 22 Topic Board from submitted links, scanning-agent research, and primary-source verification.
+- Deduplicated against July 8 and consolidated model coverage into paired proprietary and open/open-weight release Topics.
+- Added source-verified coverage of agent economics and runtimes, local inference, safety research, security incidents, Android interoperability, enterprise adoption, and Meta's compute strategy.
+- Preserved important caveats, omitted stale or insufficiently supported claims, and added source records, reciprocal wiki references, Meetup Data, calendar metadata, and generated artifacts.
