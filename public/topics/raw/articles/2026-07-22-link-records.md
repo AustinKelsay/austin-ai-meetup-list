@@ -298,6 +298,11 @@ sources: []
   - Type: Repository
   - Access: 2026-07-21
   - Notes: Standalone public BenchLocal web pack for the Meetup demo, including the client, loopback credential relay, tests, documentation, and versioned release artifact.
+- Platform: https://github.com/stevibe/BenchLocal
+  - Title: "stevibe/BenchLocal"
+  - Type: Repository
+  - Access: 2026-07-21
+  - Notes: Public BenchLocal desktop application and BenchPack host used to install and run Realtime Voice Arena.
 - Repo: https://github.com/NVIDIA/personaplex
   - Title: "NVIDIA/personaplex"
   - Type: Repository

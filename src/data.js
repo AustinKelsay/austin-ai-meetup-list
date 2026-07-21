@@ -13,7 +13,7 @@
 // - video / videos: standalone video embed override(s)
 // - mediaPair: combined topic media, including tweet/image/video/link/article cards
 // - xArticle(...): curated article card for X longform articles that do not embed cleanly
-// - linkPair: side-by-side links, useful for repo + dashboard style items
+// - linkPair: supporting link-card row (legacy name; accepts any number of links)
 // - notes: optional presenter note (string) shown as a callout
 // - topStory: optional host-facing highlight in the meetup topic list
 // - suppressXEmbeds / suppressVideos / suppressImages: opt out of default media rendering
@@ -67,6 +67,7 @@ export const meetups = [
         chip: "showcase",
         href: "https://github.com/AustinKelsay/realtime-voice-arena",
         linkPair: [
+          "https://github.com/stevibe/BenchLocal",
           "https://github.com/NVIDIA/personaplex",
           "https://huggingface.co/nvidia/personaplex-7b-v1",
         ],
