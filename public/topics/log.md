@@ -440,3 +440,9 @@
 - Repointed the showcase from an unavailable Spark-cluster path to NVIDIA's public PersonaPlex repository and model card, while keeping the local demo screenshot and cues.
 - Removed a redundant TechCrunch recap from Satya Nadella's source chain, kept his original essay and X post, and mirrored all wording and source-link changes into Meetup Data and dated source records.
 - Folded OpenAI's incident follow-up into the existing Hugging Face security Topic, renamed it around the cyber-eval reveal, and synchronized its official source, X post, Meetup Data, and reciprocal wiki references.
+
+## [2026-07-21] update | PersonaPlex showcase links published
+
+- Linked the July 22 Showcase directly to the standalone Realtime Voice Arena BenchPack repository.
+- Added the public BenchLocal repository as the platform link while retaining NVIDIA PersonaPlex and its Hugging Face model card as upstream sources.
+- Synchronized the links across Meetup Data, the Markdown Archive, dated source records, and the generated wiki manifest without changing the slide copy or screenshot.
