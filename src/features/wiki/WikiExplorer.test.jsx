@@ -120,6 +120,74 @@ describe("WikiDetail", () => {
     expect(html).toContain("github.com/ryanthegentry/402index-mcp-server");
   });
 
+  it("renders source controls for provenance, Meetup, Track, and Topic Title", () => {
+    const selectedPage = buildPage({
+      id: "openclaw",
+      title: "OpenClaw",
+      sourceLinks: [],
+      referencedTopicSources: [
+        {
+          href: "https://example.com/agent-runtime",
+          title: "OpenClaw becomes an agent runtime",
+          section: "Agent Infrastructure",
+          sourcePageTitle: "Austin AI Club - May 13, 2026",
+        },
+      ],
+    });
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={{ pagesById: {} }}
+        selectedPage={selectedPage}
+        focusedWikiId="openclaw"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain('aria-label="Filter Sources by provenance"');
+    expect(html).toContain('aria-label="Filter Sources by Meetup"');
+    expect(html).toContain('aria-label="Filter Sources by Track"');
+    expect(html).toContain('aria-label="Filter Sources by Topic Title"');
+    expect(html).toContain("Austin AI Club - May 13, 2026");
+    expect(html).toContain("Agent Infrastructure");
+    expect(html).toContain("OpenClaw becomes an agent runtime");
+  });
+
+  it("renders authored entity Markdown with headings, lists, links, and navigable wikilinks", () => {
+    const selectedPage = buildPage({
+      bodyMarkdown: `# OpenAI
+
+OpenAI publishes **model research** and [release notes](https://openai.com/research).
+
+## Related
+
+- [[Coding Agents|Coding-agent tools]]
+- [[Missing Page]]
+- Public model documentation
+`,
+    });
+
+    const html = renderToStaticMarkup(
+      <WikiDetail
+        manifest={{ pagesById: { "coding-agents": { id: "coding-agents" } } }}
+        selectedPage={selectedPage}
+        focusedWikiId="openai"
+        onOpenRoute={() => {}}
+      />,
+    );
+
+    expect(html).toContain("Read Wiki Page");
+    expect(html).not.toContain("<h1>OpenAI</h1>");
+    expect(html).toContain("<h2>Related</h2>");
+    expect(html).toContain("<strong>model research</strong>");
+    expect(html).toContain('href="https://openai.com/research"');
+    expect(html).toContain('href="/wiki/coding-agents"');
+    expect(html).not.toContain('href="/wiki/missing-page"');
+    expect(html).toContain("wiki-markdown-wikilink--unresolved");
+    expect(html).toContain("Coding-agent tools");
+    expect(html).toContain("Public model documentation");
+  });
+
   it("renders tags as clickable buttons when onTagClick is provided", () => {
     const selectedPage = buildPage();
     const manifest = { pagesById: {} };

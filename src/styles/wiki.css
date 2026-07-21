@@ -827,6 +827,81 @@
   max-width: 64rem;
 }
 
+.wiki-markdown-reading {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 0.65rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-inner);
+  background: rgba(2, 8, 14, 0.46);
+}
+
+.wiki-markdown-reading > .eyebrow {
+  margin: 0;
+}
+
+.wiki-markdown-body {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 72ch;
+}
+
+.wiki-markdown-body h2,
+.wiki-markdown-body h3,
+.wiki-markdown-body h4,
+.wiki-markdown-body h5,
+.wiki-markdown-body h6 {
+  margin: 0.65rem 0 0;
+  color: var(--text);
+  font-family: var(--font-display);
+  line-height: 1.2;
+}
+
+.wiki-markdown-body h2 {
+  font-size: 1.15rem;
+}
+
+.wiki-markdown-body h3 {
+  font-size: 1rem;
+}
+
+.wiki-markdown-body p,
+.wiki-markdown-body ul,
+.wiki-markdown-body ol {
+  margin: 0;
+  color: var(--text-sub);
+  line-height: 1.65;
+}
+
+.wiki-markdown-body ul,
+.wiki-markdown-body ol {
+  display: grid;
+  gap: 0.35rem;
+  padding-left: 1.35rem;
+}
+
+.wiki-markdown-body a {
+  color: var(--accent-dim);
+  text-underline-offset: 0.18em;
+}
+
+.wiki-markdown-wikilink--unresolved {
+  color: var(--muted);
+  text-decoration: underline dotted;
+  text-underline-offset: 0.18em;
+}
+
+.wiki-markdown-body code {
+  padding: 0.08rem 0.28rem;
+  border: 1px solid var(--line);
+  border-radius: 0.25rem;
+  background: rgba(71, 243, 170, 0.05);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+}
+
 .wiki-detail-meta,
 .wiki-detail-topic-filter,
 .wiki-detail-section--sources {
@@ -1066,6 +1141,58 @@
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.wiki-source-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.wiki-source-heading small {
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.wiki-source-filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  padding: 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-inner);
+  background: rgba(2, 8, 14, 0.42);
+}
+
+.wiki-source-filter {
+  display: grid;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.wiki-source-filter span {
+  color: var(--muted);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wiki-source-filter select {
+  width: 100%;
+  min-width: 0;
+  padding: 0.45rem 1.8rem 0.45rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-inner);
+  background: var(--surface-panel-elevated);
+  color: var(--text-sub);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
+.wiki-source-filter select:focus-visible {
+  border-color: var(--accent-dim);
+  outline: 1px solid var(--accent-dim);
 }
 
 .wiki-source-groups {

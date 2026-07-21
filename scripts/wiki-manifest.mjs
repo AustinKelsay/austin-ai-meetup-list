@@ -1,26 +1,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { normalizeWikiId } from "../src/features/wiki/wikiIds.js";
+
+export { normalizeWikiId };
 
 const PRIMARY_TYPES = new Set(["entity", "concept", "comparison", "query", "meetup"]);
 const EXCLUDED_MANIFEST_PATHS = new Set(["TEMPLATE.md"]);
 
 function toPosix(value) {
   return value.split(path.sep).join("/");
-}
-
-export function normalizeWikiId(value) {
-  return String(value ?? "")
-    .trim()
-    .replace(/\.(md|markdown)$/i, "")
-    .replace(/^\.?\//, "")
-    .replace(/\\/g, "/")
-    .split("/")
-    .pop()
-    .toLowerCase()
-    .replace(/[_\s]+/g, "-")
-    .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
 }
 
 export function parseFrontmatter(content) {
@@ -411,7 +399,7 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     sourceRecord: tags.includes("source-record"),
   });
 
-  return {
+  const page = {
     id,
     title: frontmatter.title || id,
     type: frontmatter.type || "summary",
@@ -432,6 +420,12 @@ function createPage({ content, file, frontmatter, topicsDir }) {
     wikilinks: collectWikilinks(content),
     mentionedInTopicReferences: collectMentionedInTopicReferences(content),
   };
+
+  if (["entity", "concept"].includes(page.type)) {
+    page.bodyMarkdown = stripFrontmatter(content).trim();
+  }
+
+  return page;
 }
 
 function shouldIncludeInManifest(relativePath) {

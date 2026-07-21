@@ -52,8 +52,7 @@ Duplicate reference: https://openai.com/release
 ## Related
 
 - [[Coding Agents]]
-- [[Missing Page]]
-`,
+- [[Missing Page]]`,
       "concepts/coding-agents.md": `---
 title: Coding Agents
 created: 2026-05-05
@@ -111,6 +110,18 @@ Public link records for [[OpenAI]].
       outgoingIds: ["coding-agents"],
       unresolvedLinks: ["Missing Page"],
       backlinkIds: ["coding-agents", "openai-source-records"],
+      bodyMarkdown: `# OpenAI
+
+OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.
+
+Release notes: https://openai.com/release
+
+Duplicate reference: https://openai.com/release
+
+## Related
+
+- [[Coding Agents]]
+- [[Missing Page]]`,
     });
 
     expect(manifest.links).toContainEqual({ source: "openai", target: "coding-agents" });
@@ -121,6 +132,7 @@ Public link records for [[OpenAI]].
       sourceLinks: ["https://example.com/source"],
       backlinkIds: [],
     });
+    expect(manifest.pagesById["openai-source-records"]).not.toHaveProperty("bodyMarkdown");
     expect(manifest.graph.nodes).toContainEqual({
       id: "openai",
       label: "OpenAI",

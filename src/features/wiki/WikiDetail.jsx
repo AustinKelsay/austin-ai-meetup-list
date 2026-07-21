@@ -1,7 +1,14 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import { formatRelativeDate } from "./wikiDates.js";
+import { WikiMarkdownBody } from "./WikiMarkdownBody.jsx";
+import {
+  buildWikiSourceFilterOptions,
+  buildWikiSourceItems,
+  filterWikiSourceItems,
+  getWikiSourceLinkLabel,
+} from "./wikiSourceFilters.js";
 
 function pluralize(count, singular) {
   return `${count} ${singular}${count === 1 ? "" : "s"}`;
@@ -13,15 +20,6 @@ function getPageTypeLabel(type) {
 
 function getConnectedPages(manifest, ids) {
   return ids.map((id) => manifest.pagesById[id]).filter(Boolean);
-}
-
-function getSourceLinkLabel(href) {
-  try {
-    const url = new URL(href);
-    return `${url.hostname}${url.pathname === "/" ? "" : url.pathname}`;
-  } catch {
-    return href;
-  }
 }
 
 function PageLinkList({ title, pages, emptyLabel, onOpenRoute, className = "" }) {
@@ -47,30 +45,6 @@ function PageLinkList({ title, pages, emptyLabel, onOpenRoute, className = "" })
       )}
     </section>
   );
-}
-
-function buildSourceItems({ links, references, referencedTopicSources }) {
-  const directItems =
-    references?.length > 0
-      ? references.map((reference) => ({
-          ...reference,
-          provenance: "Direct",
-        }))
-      : links.map((href) => ({
-          href,
-          title: getSourceLinkLabel(href),
-          section: "source",
-          provenance: "Direct",
-        }));
-
-  const referencedItems = referencedTopicSources.map((reference) => ({
-    ...reference,
-    provenance: reference.sourcePageTitle
-      ? `From ${reference.sourcePageTitle}`
-      : "From referenced topic",
-  }));
-
-  return [...directItems, ...referencedItems];
 }
 
 function groupSourcesBySection(items) {
@@ -131,7 +105,7 @@ function SourceReferenceLink({ item }) {
     >
       <span className="wiki-source-reference-copy">
         <span className="wiki-link-label">{item.title}</span>
-        <small>{getSourceLinkLabel(item.href)}</small>
+        <small>{getWikiSourceLinkLabel(item.href)}</small>
         <small>{item.provenance}</small>
       </span>
       <small>{item.section || "source"}</small>
@@ -139,12 +113,39 @@ function SourceReferenceLink({ item }) {
   );
 }
 
-function SourceReferenceList({ items, emptyLabel }) {
+function SourceFilterSelect({ label, value, options, onChange }) {
+  return (
+    <label className="wiki-source-filter">
+      <span>{label}</span>
+      <select
+        aria-label={`Filter Sources by ${label}`}
+        value={value}
+        onChange={(event) => onChange(event.target.value)}
+      >
+        <option value="">All {label === "provenance" ? "sources" : `${label}s`}</option>
+        {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+function SourceReferenceList({ items, allItemsCount, emptyLabel, filters, options, onFilterChange }) {
   if (items.length === 0) {
     return (
       <section className="wiki-detail-section wiki-detail-section--sources">
         <h3>Sources</h3>
-        <p className="wiki-empty-copy">{emptyLabel}</p>
+        {allItemsCount > 0 ? (
+          <>
+            <SourceFilters filters={filters} options={options} onFilterChange={onFilterChange} />
+            <p className="wiki-empty-copy">No sources match these filters.</p>
+          </>
+        ) : (
+          <p className="wiki-empty-copy">{emptyLabel}</p>
+        )}
       </section>
     );
   }
@@ -153,7 +154,11 @@ function SourceReferenceList({ items, emptyLabel }) {
 
   return (
     <section className="wiki-detail-section wiki-detail-section--sources">
-      <h3>Sources</h3>
+      <div className="wiki-source-heading">
+        <h3>Sources</h3>
+        <small>{items.length === allItemsCount ? pluralize(items.length, "source") : `${items.length} of ${allItemsCount} sources`}</small>
+      </div>
+      <SourceFilters filters={filters} options={options} onFilterChange={onFilterChange} />
       <div className="wiki-source-groups">
         {grouped.map(([section, sectionItems]) => (
           <div key={section} className="wiki-source-group">
@@ -167,6 +172,40 @@ function SourceReferenceList({ items, emptyLabel }) {
         ))}
       </div>
     </section>
+  );
+}
+
+function SourceFilters({ filters, options, onFilterChange }) {
+  return (
+    <div className="wiki-source-filters" aria-label="Source filters">
+      <SourceFilterSelect
+        label="provenance"
+        value={filters.provenance}
+        options={[
+          { value: "direct", label: "Direct" },
+          { value: "referenced", label: "Referenced Topic" },
+        ]}
+        onChange={(value) => onFilterChange("provenance", value)}
+      />
+      <SourceFilterSelect
+        label="Meetup"
+        value={filters.meetup}
+        options={options.meetups.map((value) => ({ value, label: value }))}
+        onChange={(value) => onFilterChange("meetup", value)}
+      />
+      <SourceFilterSelect
+        label="Track"
+        value={filters.track}
+        options={options.tracks.map((value) => ({ value, label: value }))}
+        onChange={(value) => onFilterChange("track", value)}
+      />
+      <SourceFilterSelect
+        label="Topic Title"
+        value={filters.topicTitle}
+        options={options.topicTitles.map((value) => ({ value, label: value }))}
+        onChange={(value) => onFilterChange("topicTitle", value)}
+      />
+    </div>
   );
 }
 
@@ -249,6 +288,30 @@ export function WikiDetail({
   onTopicFilterClick,
   activeTag = null,
 }) {
+  const [sourceFilters, setSourceFilters] = useState({
+    provenance: "",
+    meetup: "",
+    track: "",
+    topicTitle: "",
+  });
+
+  useEffect(() => {
+    setSourceFilters({ provenance: "", meetup: "", track: "", topicTitle: "" });
+  }, [selectedPage?.id]);
+
+  const sourceItems = useMemo(
+    () => (selectedPage ? buildWikiSourceItems(selectedPage) : []),
+    [selectedPage],
+  );
+  const sourceFilterOptions = useMemo(
+    () => buildWikiSourceFilterOptions(sourceItems),
+    [sourceItems],
+  );
+  const filteredSourceItems = useMemo(
+    () => filterWikiSourceItems(sourceItems, sourceFilters),
+    [sourceItems, sourceFilters],
+  );
+
   if (!selectedPage) {
     return (
       <aside className="wiki-detail wiki-detail--missing">
@@ -265,15 +328,6 @@ export function WikiDetail({
   const outgoingPages = getConnectedPages(manifest, selectedPage.outgoingIds);
   const backlinkPages = getConnectedPages(manifest, selectedPage.backlinkIds);
   const meetupBacklinks = backlinkPages.filter((page) => page.type === "meetup");
-  const sourceLinks = selectedPage.sourceLinks ?? [];
-  const sourceReferences = selectedPage.sourceReferences ?? [];
-  const referencedTopicSources = selectedPage.referencedTopicSources ?? [];
-  const sourceItems = buildSourceItems({
-    links: sourceLinks,
-    references: sourceReferences,
-    referencedTopicSources,
-  });
-
   const updatedLabel = formatRelativeDate(selectedPage.updated || selectedPage.created);
 
   return (
@@ -324,7 +378,23 @@ export function WikiDetail({
         </button>
       ) : null}
 
-      <SourceReferenceList items={sourceItems} emptyLabel="No sources captured yet." />
+      <WikiMarkdownBody
+        markdown={selectedPage.bodyMarkdown}
+        pageTitle={selectedPage.title}
+        pagesById={manifest.pagesById}
+        onOpenRoute={onOpenRoute}
+      />
+
+      <SourceReferenceList
+        items={filteredSourceItems}
+        allItemsCount={sourceItems.length}
+        emptyLabel="No sources captured yet."
+        filters={sourceFilters}
+        options={sourceFilterOptions}
+        onFilterChange={(key, value) =>
+          setSourceFilters((current) => ({ ...current, [key]: value }))
+        }
+      />
 
       <div className="wiki-detail-side">
         <MentionedInSection

@@ -86,8 +86,8 @@ The public, interlinked Markdown knowledge layer that organizes the Markdown Arc
 _Avoid_: Frontend data source
 
 **Wiki Explorer**:
-The public website surface for browsing the LLM Wiki through metadata, excerpts, wikilinks, backlinks, tags, and graph navigation.
-_Avoid_: Markdown renderer
+The public website surface for browsing the LLM Wiki through metadata, authored entity and concept page bodies, wikilinks, backlinks, tags, and graph navigation.
+_Avoid_: Meetup renderer
 
 **Meetup Data**:
 The structured rendering model for a whole Meetup, curated from the Markdown Archive for the website and Presentation Mode.
@@ -158,7 +158,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - The **Wiki Explorer** presents direct **Links** and aggregated **Referenced Topic Sources** in one **Sources** list with provenance labels.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.
-- The **Wiki Explorer** does not render full Markdown pages in v1.
+- The **Wiki Explorer** can render authored entity and concept Markdown pages, but does not render source-record or Meetup bodies.
 - **Meetup Data** is curated from the **Markdown Archive**.
 - **Meetup Data** is not generated from the **LLM Wiki** in v1.
 - **Presentation Mode** renders **Meetup Data**.
