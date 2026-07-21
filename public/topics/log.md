@@ -421,3 +421,14 @@
 - Deduplicated against July 8 and consolidated model coverage into paired proprietary and open/open-weight release Topics.
 - Added source-verified coverage of agent economics and runtimes, local inference, safety research, security incidents, Android interoperability, enterprise adoption, and Meta's compute strategy.
 - Preserved important caveats, omitted stale or insufficiently supported claims, and added source records, reciprocal wiki references, Meetup Data, calendar metadata, and generated artifacts.
+
+## [2026-07-21] update | PersonaPlex community showcase added
+
+- Filled the July 22 Community Slot with Austin Kelsay's short PersonaPlex 7B explainer and live Realtime Voice Arena demo from the local Spark cluster.
+- Mirrored the Showcase into Meetup Data with casual slide copy, public presenter notes, a direct link to the arena folder, and a screenshot of the BenchPack UI.
+
+## [2026-07-21] update | July 22 submitted model distribution links curated
+
+- Folded Brian Bell's verified lossless GLM-5.2 weight-compression experiment into the existing local-inference Topic, preserving the distinction between the decoded byte-split result, K15 size accounting, and runtime microbenchmark.
+- Added **llama.garden makes model distribution a protocol** as a Models & Research Topic covering signed Nostr discovery, BitTorrent transport, Hugging Face webseeds, and a forkable local catalog.
+- Mirrored both Submissions into Meetup Data, dated source records, and reciprocal Open Models and Local AI wiki references.

@@ -61,11 +61,19 @@ export const meetups = [
     },
     showcases: [
       {
-        title: "Community Slot",
+        title: "Realtime Voice Model Demo",
         description:
-          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+          "Austin's gonna show off PersonaPlex 7B running live on the Spark cluster. It listens and talks at the same time, handles interruptions, and feels way closer to a real conversation than the usual speech-to-text → LLM → text-to-speech stack.",
         chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+        href: "https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena",
+        image: {
+          src: "/images/realtime-voice-arena.png",
+          href: "https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena",
+          alt: "PersonaPlex Realtime Arena running inside BenchLocal",
+          caption: "Realtime Voice Arena BenchPack running PersonaPlex on the Spark cluster",
+        },
+        notes:
+          "Quick setup, then let the demo do the work: start a conversation, talk naturally, and interrupt it once so the room can feel the difference.",
       },
     ],
     tracks: [

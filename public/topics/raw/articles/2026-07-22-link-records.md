@@ -287,9 +287,14 @@ sources: []
 
 ## Showcase
 
-### Community Slot
-- Link: https://github.com/AustinKelsay/austin-ai-meetup-list
-  - Title: "Austin AI Club meetup list"
+### Realtime Voice Model Demo
+- Repo: https://github.com/finitecomputer/spark-cluster/tree/main/benchmarks/realtime-voice-arena
+  - Title: "PersonaPlex Realtime Voice Arena"
   - Type: Repository
   - Access: 2026-07-21
-  - Notes: Open Community Slot link for member projects, prototypes, repos, demos, and finds.
+  - Notes: Austin Kelsay's BenchLocal demo surface for a continuous PersonaPlex 7B v1 conversation running through the local Spark cluster, including interruption handling and operational session measurements without retained audio or transcripts.
+- Image: /images/realtime-voice-arena.png
+  - Title: "PersonaPlex Realtime Arena in BenchLocal"
+  - Type: Local product screenshot
+  - Access: 2026-07-21
+  - Notes: Captured from the installed Realtime Voice Arena BenchPack in BenchLocal for the Meetup showcase slide.
