@@ -64,6 +64,8 @@ export const meetups = [
         title: "Realtime Voice Model Demo",
         description:
           "Austin is running PersonaPlex 7B live on the Spark cluster. It listens and talks at the same time, handles interruptions, and feels much closer to a real conversation than the usual speech-to-text → LLM → text-to-speech stack.",
+        presentationDescription:
+          "PersonaPlex 7B listens and talks at the same time on the Spark cluster. The test is simple: interrupt it and see whether the conversation still feels natural.",
         chip: "showcase",
         href: "https://github.com/AustinKelsay/realtime-voice-arena",
         linkPair: [
@@ -71,6 +73,7 @@ export const meetups = [
           "https://github.com/NVIDIA/personaplex",
           "https://huggingface.co/nvidia/personaplex-7b-v1",
         ],
+        presentationLinkPair: [],
         image: {
           src: "/images/realtime-voice-arena.png",
           href: "https://github.com/AustinKelsay/realtime-voice-arena",
@@ -79,6 +82,7 @@ export const meetups = [
         },
         notes:
           "Quick setup, then let the demo do the work: start a conversation, talk naturally, and interrupt it once so the room can feel the difference.",
+        presentationNotes: "Start a conversation, then interrupt it once.",
       },
     ],
     tracks: [
@@ -108,7 +112,7 @@ export const meetups = [
           {
             title: "GPT-5.6 ships the multi-agent runtime, not just the model",
             description:
-              "OpenAI's final Sol/Terra/Luna release adds programmatic tool calling, parallel-agent ultra, and explicit cache controls; ChatGPT Work turns that stack into an artifact-producing operator across documents, apps, and code.",
+              "OpenAI's final GPT-5.6 Sol/Terra/Luna release adds programmatic tool calling, parallel-agent ultra, and explicit cache controls; ChatGPT Work turns that stack into an artifact-producing operator across documents, apps, and code.",
             chip: "multi-agent runtime",
             href: "https://openai.com/index/gpt-5-6/",
             embeds: [
@@ -122,6 +126,20 @@ export const meetups = [
               },
             ],
             linkPair: ["https://chatgpt.com/overview/"],
+          },
+          {
+            title: "AlphaEvolve turns algorithm discovery into a cloud product",
+            description:
+              "Google moved AlphaEvolve from a research system used on chips, kernels, model training, scheduling, and math into general Cloud availability. The agent loop is generate, evaluate, evolve—the interesting question is which organizations have problems with objective functions clean enough to use it.",
+            chip: "autonomous R&D",
+            href: "https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone",
+          },
+          {
+            title: "OpenAI Presence productizes the agent contact center",
+            description:
+              "OpenAI bundled permissions, guardrails, evaluations, escalation, and continuous improvement into the managed OpenAI Presence voice-and-chat agent platform. OpenAI says its own deployment autonomously resolves 75% of inbound phone-support issues; now the room can argue about the remaining 25% and the handoff boundary.",
+            chip: "managed agents",
+            href: "https://openai.com/index/introducing-openai-presence/",
           },
           {
             title: "Gigatoken pushes tokenization into GB/s",
@@ -157,7 +175,7 @@ export const meetups = [
           {
             title: "Closed model release highlights",
             description:
-              "Meta built its first paid model API around Muse Spark 1.1 and million-token agent orchestration; Google split Gemini Flash into general, cheap, and cyber tiers; Reve pushed image generation to controllable 4K. Closed models are specializing around the work, not just the chat.",
+              "OpenAI split GPT-5.6, GPT-Live, and GPT-Realtime across reasoning and full-duplex voice; Google split Gemini Flash across general, cheap, and cyber tiers; xAI shipped Grok 4.5; Meta paired Muse Spark 1.1 with Muse Image and Video; and SWE-1.7, Reve 2.1, Seedream 5 Pro, and Base 1 pushed coding, image generation, and app building into their own models. Closed releases are becoming product-specific fleets.",
             chip: "proprietary releases",
             href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
             embeds: [
@@ -169,19 +187,62 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/elonmusk/status/2074740539874775163?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/deedydas/status/2075108785643987447?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
+              "https://openai.com/index/gpt-5-6/",
+              "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+              "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896",
+              "https://x.ai/news/grok-4-5",
+              "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
               "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+              "https://cognition.ai/blog/swe-1-7",
               "https://blog.reve.com/posts/launching-reve-2.1/",
+              "https://thursdai.news/releases/2026-07",
+            ],
+            presentationEmbeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/elonmusk/status/2074740539874775163?ref_src=twsrc%5Etfw",
+              },
+            ],
+            presentationLinkPair: [
+              "https://openai.com/index/gpt-5-6/",
+              "https://x.ai/news/grok-4-5",
+              "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
             ],
           },
           {
             title: "Open model release highlights",
             description:
-              "Thinking Machines opened a 975B/41B-active multimodal MoE; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B single-camera robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local robotics, and embodied specialists.",
+              "Thinking Machines opened the 975B/41B-active multimodal Inkling MoE; Qwen previewed the 2.4T Qwen3.8-Max and promised open weights soon; Bad Theory Labs turned Qwen3.6-27B into the tool-using BTL-3 and an 8.39 GB Compact build; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local agents, robotics, and embodied specialists.",
             chip: "open releases",
             href: "https://thinkingmachines.ai/news/introducing-inkling/",
             embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Alibaba_Qwen/status/2078754377473601787?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Badtheorylabs/status/2079306502897074249?ref_src=twsrc%5Etfw",
+              },
               {
                 type: "tweet",
                 href: "https://twitter.com/nvidia/status/2071685134990897443?ref_src=twsrc%5Etfw",
@@ -193,10 +254,123 @@ export const meetups = [
             ],
             linkPair: [
               "https://thinkingmachines.ai/model-card/inkling/",
+              "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+              "https://huggingface.co/badtheorylabs/BTL-3",
+              "https://huggingface.co/badtheorylabs/BTL-3-Compact",
+              "https://github.com/Badtheorylabs/BTL-3",
               "https://blogs.nvidia.com/blog/siggraph-news-2026/",
               "https://mistral.ai/news/robostral-navigate/",
               "https://www.kimi.com/blog/kimi-k3",
               "https://www.kimi.com/help/agent/agent-overview",
+            ],
+            presentationEmbeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Alibaba_Qwen/status/2078754377473601787?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Badtheorylabs/status/2079306502897074249?ref_src=twsrc%5Etfw",
+              },
+            ],
+            presentationLinkPair: [
+              "https://thinkingmachines.ai/model-card/inkling/",
+              "https://huggingface.co/badtheorylabs/BTL-3",
+              "https://mistral.ai/news/robostral-navigate/",
+              "https://www.kimi.com/blog/kimi-k3",
+            ],
+          },
+          {
+            title: "Open agent and reasoning models fan out",
+            description:
+              "Tencent's 295B/21B-active Hy3, Mistral's Leanstral 1.5, Xiaomi's MiMo V2 pair, Ornith 1.0 35B, and Liquid AI's 8B/1.5B-active LFM2.5 join the frontier and agent releases above. The useful comparison is no longer just size: it is active parameters, tool use, proof work, local throughput, and license.",
+            chip: "open agents",
+            href: "https://huggingface.co/tencent/Hy3",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/Tencent-Hunyuan/Hy3-preview",
+              "https://mistral.ai/news/leanstral-1-5/",
+              "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+              "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+              "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+              "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+            ],
+            presentationLinkPair: [
+              "https://mistral.ai/news/leanstral-1-5/",
+              "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+            ],
+          },
+          {
+            title: "Open multimodal models specialize by modality",
+            description:
+              "DiffusionGemma and LTX-2.3 cover text and video generation; Unlimited-OCR, HunyuanOCR, and LightOnOCR attack documents; GLM-4.1V, Krea-2-Turbo, Maya1, Anima, UniVR, nvDock, and H2O's Mississippi models spread across vision, image, speech, planning, molecular docking, and compact VLMs. Open releases now look more like a tool shelf than one leaderboard.",
+            chip: "open multimodal",
+            href: "https://huggingface.co/google/diffusiongemma-26b-a4b-it",
+            linkPair: [
+              "https://huggingface.co/Lightricks/LTX-2.3",
+              "https://huggingface.co/baidu/Unlimited-OCR",
+              "https://huggingface.co/tencent/HunyuanOCR",
+              "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+              "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+              "https://huggingface.co/krea/Krea-2-Turbo",
+              "https://huggingface.co/maya-research/maya1",
+              "https://huggingface.co/circlestone-labs/Anima",
+              "https://huggingface.co/ByteDance/UniVR-34B-Planning",
+              "https://huggingface.co/nvidia/nvDock",
+              "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+              "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
+            ],
+            presentationLinkPair: [
+              "https://huggingface.co/Lightricks/LTX-2.3",
+              "https://huggingface.co/baidu/Unlimited-OCR",
+              "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+              "https://huggingface.co/krea/Krea-2-Turbo",
+            ],
+          },
+          {
+            title: "Embedding models get their own open release lane",
+            description:
+              "NVIDIA's Nemotron-3-Embed family and Microsoft's 0.6B/270M BitNet embeddings target retrieval instead of chat. Smaller representation models are becoming first-class releases because agent systems still need search, ranking, and memory.",
+            chip: "embeddings",
+            href: "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+            linkPair: [
+              "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+              "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
+              "https://aiflashreport.com/model-releases.html",
+            ],
+          },
+          {
+            title: "Local model packaging becomes part of the release",
+            description:
+              "Fresh GGUF, NVFP4, FP8, AWQ, and ternary builds cover Gemma 4, Qwen3.6, DeepSeek V4, Bonsai-27B, and Hy3. The weights are only half the launch now; the other half is whether one file fits the hardware people own.",
+            chip: "local packaging",
+            href: "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/TencentHunyuan/status/2076953120765280284?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+              "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+              "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+              "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
+              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+              "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
+              "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+              "https://huggingface.co/antirez/deepseek-v4-gguf",
+              "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+              "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+            ],
+            presentationLinkPair: [
+              "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+              "https://huggingface.co/antirez/deepseek-v4-gguf",
+              "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
             ],
           },
           {
@@ -227,12 +401,39 @@ export const meetups = [
           {
             title: "llama.garden makes model distribution a protocol",
             description:
-              "An experimental project turns model weights into signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the local distribution primitive.",
+              "An experimental project turns model weights into signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the Local AI distribution primitive.",
             chip: "open distribution",
             href: "https://llama.garden/",
             linkPair: [
               "https://github.com/etemiz/llama.garden",
               "https://www.reddit.com/r/LocalLLM/comments/1up92t0/waifumagnet_torrents_that_work/",
+            ],
+          },
+          {
+            title: "AI math crosses from medals into new proofs",
+            description:
+              "IMO gold established the competition milestone; FrontierMath and FirstProof moved into unpublished research questions; AxiomProver produced Lean-checkable work on Fel's conjecture; AlphaEvolve improved verified bounds and algorithms; and an OpenAI model's Erdős unit-distance counterexample survived external mathematician review. The real threshold is not a viral answer—it is a result experts or proof systems can check.",
+            chip: "ai mathematics",
+            href: "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/axiommathai/status/2019449659807219884?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://x.com/i/grok/share/98f3b68e4d95448680b45e9bf454caf1",
+              "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+              "https://openai.com/index/introducing-gpt-5-4/",
+              "https://1stproof.org/",
+              "https://arxiv.org/abs/2602.21201",
+              "https://arxiv.org/abs/2602.03716",
+              "https://deepmind.google/blog/alphaevolve-impact/",
+              "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
+            ],
+            presentationLinkPair: [
+              "https://1stproof.org/",
+              "https://arxiv.org/abs/2602.21201",
+              "https://deepmind.google/blog/alphaevolve-impact/",
+              "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
             ],
           },
           {
@@ -268,7 +469,7 @@ export const meetups = [
           {
             title: "Grok Build uploaded the repo, not just the context",
             description:
-              "Wire analysis found Grok Build sending tracked files, Git history, and potentially live or deleted secrets to company-controlled cloud storage; a model-improvement opt-out did not guarantee local-only handling. A server-side flag stopped it; SpaceXAI then promised deletion and clarified zero-data-retention controls.",
+              "Wire analysis found xAI's Grok Build sending tracked files, Git history, and potentially live or deleted secrets to company-controlled cloud storage; a model-improvement opt-out did not guarantee local-only handling. A server-side flag stopped it; SpaceXAI then promised deletion and clarified zero-data-retention controls.",
             chip: "coding agent privacy",
             href: "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
             embeds: [
@@ -340,6 +541,64 @@ export const meetups = [
           "This section covers major company moves, hardware releases, ecosystem bets, and market shifts that change the ground our local AI work sits on.",
         items: [
           {
+            title: "AMD buys a place in Anthropic's frontier stack",
+            description:
+              "Anthropic plans to deploy up to 2 GW of AMD Instinct MI450 GPUs, while AMD may invest up to $5B in Anthropic. The deal is both a hyperscale customer win and a test of whether frontier labs can build a real alternative to NVIDIA's stack.",
+            chip: "compute deal",
+            href: "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+          },
+          {
+            title: "Genesis Mission turns AI-for-science into a federal portfolio",
+            description:
+              "The White House says more than $5B is backing 278 Genesis Mission projects across medicine, energy, chips, autonomous labs, space, and national security, with industry and agency commitments layered on top. This is AI policy arriving as funded research infrastructure, not another principles document.",
+            chip: "ai for science",
+            href: "https://www.whitehouse.gov/releases/2026/07/45502/?query-11-page=3",
+            linkPair: [
+              "https://openai.com/index/advancing-the-next-era-of-national-science/",
+            ],
+          },
+          {
+            title: "WAICO opens a China-centered lane for global AI governance",
+            description:
+              "China and 28 other countries established the World Artificial Intelligence Cooperation Organization in Shanghai around standards, open-source cooperation, and Global South capacity-building. The important move is institutional: AI governance now has another intergovernmental venue outside the U.S.- and EU-led tracks.",
+            chip: "global governance",
+            href: "https://www.mfa.gov.cn/eng/xw/zyxw/202607/t20260717_11984715.html",
+            linkPair: [
+              "https://apnews.com/article/df4cfc7e1b260e765b5449b6d71a48e5",
+            ],
+          },
+          {
+            title: "Vera Rubin racks move into production",
+            description:
+              "NVIDIA says Vera Rubin NVL72 production is ramping across 350-plus factory sites, with racks already running at CoreWeave, Google Cloud, Microsoft Azure, and Oracle. CoreWeave's first measured result claims 10× more DeepSeek-R1 tokens per second per megawatt than Blackwell.",
+            chip: "ai hardware",
+            href: "https://blogs.nvidia.com/blog/vera-rubin/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/nvidia/status/2079601314234032474?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Apple says OpenAI's hardware team took trade secrets",
+            description:
+              "Apple alleges OpenAI, its io hardware group, and former Apple employees misappropriated confidential product designs, manufacturing methods, and supplier information. It is a complaint, not a judgment, but the case puts OpenAI's consumer-hardware strategy under discovery pressure.",
+            chip: "trade secrets",
+            href: "https://www.courtlistener.com/docket/73602437/1/apple-inc-v-liu/",
+            linkPair: [
+              "https://apnews.com/article/apple-openai-lawsuit-trade-secrets-theft-6fff8833f5889d86406b89a02dd8fb16",
+            ],
+          },
+          {
+            title: "Anthropic's $1.5B copyright settlement gets final approval",
+            description:
+              "A federal judge approved the authors' settlement over pirated books used in Claude's development, while the underlying ruling still treats training on lawfully obtained books as fair use. The split matters: model training survived, but acquiring the training corpus did not get a free pass.",
+            chip: "copyright",
+            href: "https://law.justia.com/cases/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/",
+            linkPair: [
+              "https://apnews.com/article/74b140444023898aeba8579b6e9f0d63",
+            ],
+          },
+          {
             title: "Europe makes Android's AI layer contestable",
             description:
               "The EU's DMA guidance requires Google to give rival assistants the same voice activation and cross-app capabilities as Gemini, while also opening anonymized search data. Mobile agents are becoming regulated platform infrastructure.",
@@ -360,6 +619,21 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/satyanadella/status/2066182223213293753?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "White House says Kimi K3 distilled Fable",
+            description:
+              "The White House technology director alleges Moonshot AI covertly distilled Anthropic's Fable while developing Kimi K3 and accessed GB300 servers in Thailand. He offered no public evidence, and Moonshot had not responded when reporting was published; the accusation turns a major open-weight launch into an IP and export-control fight.",
+            chip: "distillation allegation",
+            href: "https://x.com/mkratsios47/status/2079933645888880708",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/mkratsios47/status/2079933645888880708?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
+              "https://www.scmp.com/news/us/diplomacy/article/3361510/trump-tech-official-accuses-chinas-moonshot-ai-stealing-anthropic",
+            ],
           },
           {
             title: "Meta wants off the rented-GPU treadmill",

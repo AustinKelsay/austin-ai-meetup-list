@@ -2,12 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
-## [2026-07-22] update | Three launch-day Topics added
+## [2026-07-22] garden | July 22 board completed end to end
 
-- Added Cisco Antares and VLoc Bench to Security, Gigatoken and its tokenizer benchmarks to Agent Infrastructure, and Block's Buzz agent workspace to Agent Infrastructure.
-- Resolved each submitted X post to official model, benchmark, product, and repository sources; embedded all three posts in Meetup Data.
-- Added durable Cisco, Antares, Gigatoken, Block, and Buzz entity pages with reciprocal Meetup and Track links.
-- Renamed the two grouped model slides to **Closed model release highlights** and **Open model release highlights** so their purpose is obvious at a glance.
+- Rebuilt the July 22 discussion flow across Agent Infrastructure, Models & Research, Security, Big Tech Moves, and the Realtime Voice Model Demo, including late model, math, governance, compute, legal, and production-agent additions.
+- Organized the two-week model sweep into readable proprietary, open-frontier, open-agent, multimodal, embedding, and local-packaging Topics; verified exact model artifacts and kept preview, benchmark, and author-reported claims qualified.
+- Preserved source chains for every Topic, embedded submitted and official X posts where useful, and recorded legal allegations, government claims, and corporate projections with their evidentiary status intact.
+- Added or updated durable pages and reciprocal links for the central July 22 entities and concepts, including AlphaEvolve, OpenAI Presence, AMD, Genesis Mission, WAICO, Vera Rubin, BTL-3, Inkling, AI Mathematics, Antares, Gigatoken, Block, Buzz, Qwen, Kimi, and the recurring Track hubs.
+- Reconciled the Markdown Archive with Meetup Data and regenerated the public wiki manifest after lint, build, route, and presentation checks.
 
 ## [2026-07-08] update | Artifact-level model and project links added
 

@@ -13,7 +13,7 @@ Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governan
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Satya says enterprises pay for AI twice**.
+- [[Austin AI Club - July 22, 2026]]: **Vera Rubin racks move into production** and **Satya says enterprises pay for AI twice**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, and **Closed labs start the June model wave**.
 - [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane** and **Pentagon picks a classified AI stack**.

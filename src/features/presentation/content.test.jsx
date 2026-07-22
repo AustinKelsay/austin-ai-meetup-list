@@ -28,3 +28,31 @@ describe("presentation X article links", () => {
     expect(media.showPrimaryLink).toBe(false);
   });
 });
+
+describe("presentation-specific media curation", () => {
+  it("uses the presentation link subset without changing the archive links", () => {
+    const archiveLinks = ["https://example.com/one", "https://example.com/two"];
+    const presentationLinks = ["https://example.com/two"];
+    const media = getPresentationItemMedia({
+      linkPair: archiveLinks,
+      presentationLinkPair: presentationLinks,
+    });
+
+    expect(media.links).toEqual(presentationLinks);
+    expect(archiveLinks).toEqual(["https://example.com/one", "https://example.com/two"]);
+  });
+
+  it("allows presentation embeds to be reduced independently", () => {
+    const media = getPresentationItemMedia({
+      embeds: [
+        { type: "tweet", href: "https://x.com/example/status/1" },
+        { type: "tweet", href: "https://x.com/example/status/2" },
+      ],
+      presentationEmbeds: [{ type: "tweet", href: "https://x.com/example/status/2" }],
+    });
+
+    expect(media.embeds.map((embed) => embed.href)).toEqual([
+      "https://x.com/example/status/2",
+    ]);
+  });
+});

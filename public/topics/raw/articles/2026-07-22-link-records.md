@@ -79,6 +79,20 @@ sources: []
   - Access: 2026-07-21
   - Notes: OpenAI announcement for the end-to-end work surface powered by GPT-5.6 and Codex.
 
+### AlphaEvolve turns algorithm discovery into a cloud product
+- Source: https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone
+  - Title: "AlphaEvolve is available for everyone"
+  - Type: Official product announcement
+  - Access: 2026-07-22
+  - Notes: Google Cloud moves the generate-evaluate-evolve algorithm-discovery agent into general customer availability and lists internal uses across chips, kernels, scheduling, genomics, and model training.
+
+### OpenAI Presence productizes the agent contact center
+- Source: https://openai.com/index/introducing-openai-presence/
+  - Title: "Introducing OpenAI Presence"
+  - Type: Official product announcement
+  - Access: 2026-07-22
+  - Notes: Managed voice-and-chat agent platform with permissions, guardrails, evaluations, escalation, and continuous improvement; the 75% phone-resolution result is OpenAI's self-reported internal deployment figure.
+
 ## Models & Research
 
 ### Closed model release highlights
@@ -107,8 +121,88 @@ sources: []
   - Type: Official launch blog
   - Access: 2026-07-21
   - Notes: Reve releases its proprietary image model with stronger layout planning, 4K output, and a claimed second-place overall Arena position.
+- Source: https://openai.com/index/gpt-5-6/
+  - Title: "GPT-5.6"
+  - Type: Official release
+  - Access: 2026-07-22
+  - Notes: Official Sol, Terra, and Luna model-family release.
+- Source: https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/
+  - Title: "OpenAI releases new voice models"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Covers GPT-Live-1 and GPT-Live-1 mini full-duplex voice releases.
+- Source: https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896
+  - Title: "GPT-Realtime-2.1 and GPT-Realtime-2.1-mini"
+  - Type: OpenAI community announcement
+  - Access: 2026-07-22
+  - Notes: Release record for the two Realtime API voice models.
+- Source: https://x.ai/news/grok-4-5
+  - Title: "Grok 4.5"
+  - Type: Official release
+  - Access: 2026-07-22
+  - Notes: xAI release page for its coding and agentic flagship.
+- Post: https://x.com/elonmusk/status/2074740539874775163
+  - Title: "Grok 4.5 launch commentary"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Launch-day ecosystem context for Grok 4.5.
+- Source: https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/
+  - Title: "Muse Image and Muse Video"
+  - Type: Official release
+  - Access: 2026-07-22
+  - Notes: Meta's image- and video-generation model release.
+- Source: https://cognition.ai/blog/swe-1-7
+  - Title: "SWE-1.7"
+  - Type: Official release
+  - Access: 2026-07-22
+  - Notes: Cognition's coding-model release for Devin and Windsurf.
+- Post: https://x.com/cognition/status/2074882968770728416
+  - Title: "SWE-1.7 launch"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Cognition's release announcement.
+- Post: https://x.com/deedydas/status/2075108785643987447
+  - Title: "Seedream 5 Pro release commentary"
+  - Type: X commentary
+  - Access: 2026-07-22
+  - Notes: Supports the Seedream 5 Pro image-model entry.
+- Source: https://thursdai.news/releases/2026-07
+  - Title: "July 2026 model releases"
+  - Type: Release aggregator
+  - Access: 2026-07-22
+  - Notes: Supporting release index for Seedream 5 Pro and Base 1 where exact first-party launch pages were not recovered.
 
 ### Open model release highlights
+- Post: https://x.com/Alibaba_Qwen/status/2078754377473601787
+  - Title: "Qwen3.8-Max-Preview"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Qwen previews a 2.4T-parameter flagship on Alibaba Token Plan, Qoder, and QoderWork and says the final Qwen3.8 release will open weights soon; no 27B Qwen3.8 checkpoint was announced.
+- Source: https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5
+  - Title: "Alibaba says newest Qwen AI model is second only to Anthropic's Claude Fable 5"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Corroborates the preview status, 2.4T parameter count, current Alibaba-platform availability, and planned open-weight release.
+- Post: https://x.com/Badtheorylabs/status/2079306502897074249
+  - Title: "Introducing BTL-3"
+  - Type: Creator X post
+  - Access: 2026-07-22
+  - Notes: Bad Theory Labs launches its Qwen3.6-27B agentic coding and tool-use checkpoint plus an 8.39 GB Compact GGUF, with author-reported coding, tool-calling, retention, and local-inference results.
+- Source: https://huggingface.co/badtheorylabs/BTL-3
+  - Title: "badtheorylabs/BTL-3"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Apache-2.0 rank-32 PEFT adapter pinned to Qwen3.6-27B, with evaluation protocols, model specification, artifact hash, and Transformers and vLLM instructions.
+- Source: https://huggingface.co/badtheorylabs/BTL-3-Compact
+  - Title: "badtheorylabs/BTL-3-Compact"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Standalone 8.39 GB GGUF edition of BTL-3 for local inference.
+- Repo: https://github.com/Badtheorylabs/BTL-3
+  - Title: "Badtheorylabs/BTL-3"
+  - Type: GitHub repository
+  - Access: 2026-07-22
+  - Notes: MIT-licensed native runtime, integrations, and reproducible packaging for BTL-3 and BTL-3 Compact.
 - Source: https://thinkingmachines.ai/news/introducing-inkling/
   - Title: "Inkling: Our Open-Weights Model"
   - Type: Official launch blog
@@ -149,6 +243,204 @@ sources: []
   - Type: Official X post
   - Access: 2026-07-21
   - Notes: NVIDIA's SIGGRAPH announcement post for the physical-AI and graphics release set.
+
+### Open agent and reasoning models fan out
+- Source: https://huggingface.co/tencent/Hy3
+  - Title: "tencent/Hy3"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Official 295B-total/21B-active Hy3 model artifact.
+- Repo: https://github.com/Tencent-Hunyuan/Hy3-preview
+  - Title: "Tencent-Hunyuan/Hy3-preview"
+  - Type: GitHub repository
+  - Access: 2026-07-22
+  - Notes: Official code and release context for Hy3.
+- Post: https://x.com/TencentHunyuan/status/2074148098876768478
+  - Title: "Hy3 announcement"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Tencent Hunyuan's launch post.
+- Source: https://mistral.ai/news/leanstral-1-5/
+  - Title: "Leanstral 1.5"
+  - Type: Official release
+  - Access: 2026-07-22
+  - Notes: Mistral's formal-reasoning and Lean 4 model release.
+- Source: https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B
+  - Title: "mistralai/Leanstral-1.5-119B-A6B"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Exact open model artifact.
+- Source: https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash
+  - Title: "XiaomiMiMo/MiMo-V2-Flash"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Xiaomi's fast reasoning and agent model artifact.
+- Source: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro
+  - Title: "XiaomiMiMo/MiMo-V2.5-Pro"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Xiaomi's larger MiMo Pro artifact.
+- Source: https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B
+  - Title: "deepreinforce-ai/Ornith-1.0-35B"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Open 35B text-generation release.
+- Source: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+  - Title: "LiquidAI/LFM2.5-8B-A1B"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Liquid AI's 8.3B-total/1.5B-active on-device agent model.
+
+### Open multimodal models specialize by modality
+- Source: https://huggingface.co/google/diffusiongemma-26b-a4b-it
+  - Title: "google/diffusiongemma-26b-a4b-it"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Google's instruction-tuned diffusion text model artifact.
+- Source: https://huggingface.co/Lightricks/LTX-2.3
+  - Title: "Lightricks/LTX-2.3"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Lightricks open video-generation model.
+- Source: https://huggingface.co/baidu/Unlimited-OCR
+  - Title: "baidu/Unlimited-OCR"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Baidu document parsing and OCR model.
+- Source: https://huggingface.co/tencent/HunyuanOCR
+  - Title: "tencent/HunyuanOCR"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Tencent Hunyuan OCR model artifact.
+- Source: https://huggingface.co/lightonai/LightOnOCR-2-1B
+  - Title: "lightonai/LightOnOCR-2-1B"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: LightOn's compact OCR model.
+- Source: https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking
+  - Title: "zai-org/GLM-4.1V-9B-Thinking"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Z.ai's 9B multimodal thinking model.
+- Source: https://huggingface.co/krea/Krea-2-Turbo
+  - Title: "krea/Krea-2-Turbo"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Krea's in-house text-to-image model.
+- Source: https://huggingface.co/maya-research/maya1
+  - Title: "maya-research/maya1"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Maya Research text-to-speech model.
+- Source: https://huggingface.co/circlestone-labs/Anima
+  - Title: "circlestone-labs/Anima"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: High-engagement open model artifact retained as a discovery item; the release card supplies limited context.
+- Source: https://huggingface.co/ByteDance/UniVR-34B-Planning
+  - Title: "ByteDance/UniVR-34B-Planning"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: ByteDance visual-space planning model.
+- Source: https://huggingface.co/nvidia/nvDock
+  - Title: "nvidia/nvDock"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: NVIDIA diffusion-based molecular pocket-docking model.
+- Source: https://huggingface.co/h2oai/h2ovl-mississippi-2b
+  - Title: "h2oai/h2ovl-mississippi-2b"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: H2O.ai compact vision-language model.
+- Source: https://huggingface.co/h2oai/h2ovl-mississippi-800m
+  - Title: "h2oai/h2ovl-mississippi-800m"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Smaller Mississippi VLM artifact.
+
+### Embedding models get their own open release lane
+- Blog: https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb
+  - Title: "Nemotron-3-Embed wins RTEB"
+  - Type: Official Hugging Face blog
+  - Access: 2026-07-22
+  - Notes: NVIDIA's benchmark and release context for the embedding family.
+- Source: https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16
+  - Title: "nvidia/Nemotron-3-Embed-8B-BF16"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Exact 8B embedding artifact.
+- Source: https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4
+  - Title: "nvidia/Nemotron-3-Embed-1B-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Compact NVFP4 embedding artifact.
+- Source: https://aiflashreport.com/model-releases.html
+  - Title: "AI model releases"
+  - Type: Release aggregator
+  - Access: 2026-07-22
+  - Notes: Discovery record for Microsoft's BitNet 0.6B and 270M embedding releases; an exact first-party artifact was not recovered during curation.
+
+### Local model packaging becomes part of the release
+- Source: https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF
+  - Title: "unsloth/gemma-4-26B-A4B-it-GGUF"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Gemma 4 MoE GGUF packaging.
+- Source: https://huggingface.co/unsloth/gemma-4-12b-it-GGUF
+  - Title: "unsloth/gemma-4-12b-it-GGUF"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Gemma 4 dense GGUF packaging.
+- Source: https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4
+  - Title: "unsloth/Qwen3.6-27B-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Qwen3.6-27B NVFP4 artifact.
+- Source: https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4
+  - Title: "RedHatAI/Qwen3.6-35B-A3B-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Qwen3.6 MoE NVFP4 artifact.
+- Source: https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4
+  - Title: "RedHatAI/gemma-4-31B-it-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Gemma 4 NVFP4 artifact.
+- Source: https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block
+  - Title: "RedHatAI/gemma-4-31B-it-FP8-block"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Gemma 4 FP8 block-quantized artifact.
+- Source: https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4
+  - Title: "RedHatAI/gemma-4-26B-A4B-it-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Gemma 4 MoE NVFP4 artifact.
+- Source: https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4
+  - Title: "nvidia/Gemma-4-31B-IT-NVFP4"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: NVIDIA's official Gemma 4 NVFP4 package.
+- Source: https://huggingface.co/antirez/deepseek-v4-gguf
+  - Title: "antirez/deepseek-v4-gguf"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Community DeepSeek V4 GGUF package.
+- Source: https://huggingface.co/prism-ml/Bonsai-27B-gguf
+  - Title: "prism-ml/Bonsai-27B-gguf"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Bonsai-27B GGUF package.
+- Source: https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf
+  - Title: "prism-ml/Ternary-Bonsai-27B-gguf"
+  - Type: Hugging Face model
+  - Access: 2026-07-22
+  - Notes: Ternary Bonsai-27B package for unusually small local footprints.
+- Post: https://x.com/TencentHunyuan/status/2076953120765280284
+  - Title: "Hy3 GGUF release"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Tencent's official Hy3 GGUF packaging announcement.
 
 ### Frontier local inference becomes an expert-cache problem
 - Repo: https://github.com/kacper-daftcode/vllm-Moet
@@ -198,6 +490,58 @@ sources: []
   - Type: Project announcement
   - Access: 2026-07-21
   - Notes: The author explains the distribution design, Hugging Face fallback behavior, current Transmission compatibility constraint, forkable catalog, and planned web-of-trust moderation.
+
+### AI math crosses from medals into new proofs
+- Source: https://x.com/i/grok/share/98f3b68e4d95448680b45e9bf454caf1
+  - Title: "Recent AI mathematics breakthroughs"
+  - Type: User-supplied Grok research share
+  - Access: 2026-07-22
+  - Notes: Discovery collection spanning IMO performance and claimed research-mathematics results; retained as the submitted bundle, with stronger claims checked against the primary sources below.
+- Source: https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/
+  - Title: "Gemini Deep Think achieves IMO gold-medal standard"
+  - Type: Official research blog
+  - Access: 2026-07-22
+  - Notes: Google reports 35/42 from five perfect solutions, officially graded and certified by IMO coordinators.
+- Source: https://openai.com/index/introducing-gpt-5-4/
+  - Title: "Introducing GPT-5.4"
+  - Type: Official model release
+  - Access: 2026-07-22
+  - Notes: Supplies OpenAI's published FrontierMath performance context without treating a benchmark score alone as a new mathematical proof.
+- Source: https://1stproof.org/
+  - Title: "First Proof Project"
+  - Type: Official challenge site
+  - Access: 2026-07-22
+  - Notes: Independent project for unpublished research-level mathematics problems and expert evaluation.
+- Source: https://arxiv.org/abs/2602.21201
+  - Title: "Aletheia tackles FirstProof autonomously"
+  - Type: Research paper
+  - Access: 2026-07-22
+  - Notes: Reports majority expert acceptance on six of ten problems, with non-unanimous assessment on Problem 8.
+- Source: https://arxiv.org/abs/2602.03716
+  - Title: "Fel's Conjecture on Syzygies of Numerical Semigroups"
+  - Type: Research paper
+  - Access: 2026-07-22
+  - Notes: Presents the Lean/Mathlib-formalized proof produced automatically by AxiomProver from a natural-language statement.
+- Post: https://x.com/axiommathai/status/2019449659807219884
+  - Title: "AxiomProver solves Fel's conjecture"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Axiom's launch thread for the formally verified result.
+- Source: https://deepmind.google/blog/alphaevolve-impact/
+  - Title: "AlphaEvolve: scaling impact across fields"
+  - Type: Official research blog
+  - Access: 2026-07-22
+  - Notes: Google DeepMind's follow-up on verifiable algorithm and open-problem improvements, including collaboration with mathematicians.
+- Source: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+  - Title: "An OpenAI model has disproved a central conjecture in discrete geometry"
+  - Type: Official research announcement
+  - Access: 2026-07-22
+  - Notes: Announces an internally generated counterexample to the Erdős unit-distance conjecture checked by external mathematicians.
+- Source: https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf
+  - Title: "Remarks on the Disproof of the Unit Distance Conjecture"
+  - Type: Expert-authored verification paper
+  - Access: 2026-07-22
+  - Notes: Human-digested and human-verified treatment by external mathematicians, providing the strongest verification layer in the bundle.
 
 ### AI 2040 writes the optimistic branch on purpose
 - Source: https://blog.aifutures.org/p/ai-2040-plan-a
@@ -305,6 +649,73 @@ sources: []
 
 ## Big Tech Moves
 
+### AMD buys a place in Anthropic's frontier stack
+- Source: https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus
+  - Title: "AMD and Anthropic announce strategic partnership"
+  - Type: Official corporate announcement
+  - Access: 2026-07-22
+  - Notes: Announces up to 2 GW of MI450 deployments and a potential AMD investment of up to $5B; both figures are forward-looking commitments from the parties.
+
+### Genesis Mission turns AI-for-science into a federal portfolio
+- Source: https://www.whitehouse.gov/releases/2026/07/45502/?query-11-page=3
+  - Title: "Genesis Mission project selections"
+  - Type: Official U.S. government announcement
+  - Access: 2026-07-22
+  - Notes: Announces the federal AI-for-science portfolio, including the stated project count, funding, domains, and partner commitments.
+- Source: https://openai.com/index/advancing-the-next-era-of-national-science/
+  - Title: "Advancing the next era of national science"
+  - Type: Official company commitment
+  - Access: 2026-07-22
+  - Notes: OpenAI details Codex access, API support, scientific campaigns, bioscience access, early model access, and defensive cyber support for Genesis researchers.
+
+### WAICO opens a China-centered lane for global AI governance
+- Source: https://www.mfa.gov.cn/eng/xw/zyxw/202607/t20260717_11984715.html
+  - Title: "Chair's Statement of the 2026 World Artificial Intelligence Conference"
+  - Type: Official government statement
+  - Access: 2026-07-22
+  - Notes: Records the WAICO establishment agreement, Shanghai headquarters, open-source and standards agenda, and Global South capacity-building mission.
+- Source: https://apnews.com/article/df4cfc7e1b260e765b5449b6d71a48e5
+  - Title: "China and 28 countries establish WAICO"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Independent framing of the participating-country count and geopolitical significance.
+
+### Vera Rubin racks move into production
+- Source: https://blogs.nvidia.com/blog/vera-rubin/
+  - Title: "NVIDIA Vera Rubin driving performance per watt"
+  - Type: Official company announcement
+  - Access: 2026-07-22
+  - Notes: NVIDIA says NVL72 production is ramping across 350-plus factory sites and names operating racks at CoreWeave, Google Cloud, Azure, and Oracle.
+- Source: https://x.com/nvidia/status/2079601314234032474
+  - Title: "10x more tokens per megawatt"
+  - Type: Official company post
+  - Access: 2026-07-22
+  - Notes: NVIDIA relays CoreWeave's first measured Vera Rubin NVL72 result, claiming 10× more DeepSeek-R1 tokens per second per megawatt than Blackwell.
+
+### Apple says OpenAI's hardware team took trade secrets
+- Source: https://www.courtlistener.com/docket/73602437/1/apple-inc-v-liu/
+  - Title: "Apple Inc. v. Liu — Complaint"
+  - Type: Federal court filing
+  - Access: 2026-07-22
+  - Notes: Primary complaint containing Apple's allegations; allegations are not findings of fact.
+- Source: https://apnews.com/article/apple-openai-lawsuit-trade-secrets-theft-6fff8833f5889d86406b89a02dd8fb16
+  - Title: "Apple sues OpenAI over alleged hardware trade-secret theft"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Independent summary of the parties, alleged conduct, and potential effect on OpenAI's hardware strategy.
+
+### Anthropic's $1.5B copyright settlement gets final approval
+- Source: https://law.justia.com/cases/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/
+  - Title: "Bartz et al. v. Anthropic — final settlement approval order"
+  - Type: Federal court order
+  - Access: 2026-07-22
+  - Notes: Primary order approving the settlement; preserves the distinction between pirated corpus acquisition and fair-use analysis of training on lawfully obtained works.
+- Source: https://apnews.com/article/74b140444023898aeba8579b6e9f0d63
+  - Title: "Anthropic copyright settlement receives final approval"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Independent summary of the $1.5B settlement and its copyright context.
+
 ### Europe makes Android's AI layer contestable
 - Source: https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en
   - Title: "Commission provides guidance to Google for AI interoperability on Android and sharing of Google Search data under the Digital Markets Act"
@@ -328,6 +739,23 @@ sources: []
   - Type: Official X post
   - Access: 2026-07-21
   - Notes: Nadella's post linking the original essay.
+
+### White House says Kimi K3 distilled Fable
+- Post: https://x.com/mkratsios47/status/2079933645888880708
+  - Title: "Moonshot AI distillation allegation"
+  - Type: U.S. government official X post
+  - Access: 2026-07-22
+  - Notes: White House OSTP Director Michael Kratsios alleges Moonshot covertly distilled Anthropic's Fable for Kimi K3 and accessed GB300 servers in Thailand; the post does not publish supporting evidence.
+- Source: https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/
+  - Title: "White House accuses Chinese company of distilling Anthropic's Fable"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Reports that Kratsios supplied no details supporting the allegation and that Moonshot did not respond before publication.
+- Source: https://www.scmp.com/news/us/diplomacy/article/3361510/trump-tech-official-accuses-chinas-moonshot-ai-stealing-anthropic
+  - Title: "Trump tech official accuses China's Moonshot AI of stealing from Anthropic"
+  - Type: Reporting
+  - Access: 2026-07-22
+  - Notes: Corroborates the allegation and explicitly notes that no evidence was presented publicly.
 
 ### Meta wants off the rented-GPU treadmill
 - Source: https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/

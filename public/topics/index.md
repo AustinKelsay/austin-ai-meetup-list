@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-07-22 | Total pages: 124
+> Last updated: 2026-07-22 | Total pages: 133
 
 ## Meetups
 
@@ -17,7 +17,9 @@
 
 ## Entities
 
+- [[AlphaEvolve]]
 - [[Amazon]]
+- [[AMD]]
 - [[Antares]]
 - [[Andrej Karpathy]]
 - [[Apple]]
@@ -26,6 +28,7 @@
 - [[Ben Carman]]
 - [[Block]]
 - [[Brain2Qwerty]]
+- [[BTL-3]]
 - [[Broadcom]]
 - [[Buzz]]
 - [[Cisco]]
@@ -48,6 +51,7 @@
 - [[Gemma]]
 - [[Gemini]]
 - [[Gemini Omni Flash]]
+- [[Genesis Mission]]
 - [[GLM]]
 - [[Google]]
 - [[GPT-5.6]]
@@ -57,6 +61,7 @@
 - [[Hermes Agent]]
 - [[Human Rights Foundation]]
 - [[Hy3]]
+- [[Inkling]]
 - [[Jalapeno]]
 - [[Kimi]]
 - [[Leanstral]]
@@ -74,6 +79,7 @@
 - [[Nemotron Puzzle]]
 - [[Ollama]]
 - [[OpenAI]]
+- [[OpenAI Presence]]
 - [[OpenAgents]]
 - [[OpenClaw]]
 - [[OpenRouter]]
@@ -92,10 +98,12 @@
 - [[TMax]]
 - [[Tencent]]
 - [[Unbroker]]
+- [[Vera Rubin]]
 - [[Venice]]
 - [[Vercel]]
 - [[vLLM]]
 - [[xAI]]
+- [[WAICO]]
 - [[Z.ai]]
 
 ## Concepts
@@ -106,6 +114,7 @@
 - [[Agent Security]]
 - [[AI Benchmarks & Evals]]
 - [[AI Governance]]
+- [[AI Mathematics]]
 - [[AI SaaS Supply Chain]]
 - [[AI Signal Discovery]]
 - [[Big Tech Moves]]

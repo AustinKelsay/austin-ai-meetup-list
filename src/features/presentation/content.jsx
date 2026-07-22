@@ -240,8 +240,13 @@ export function getPresentationItemMedia(item) {
     }
   };
 
+  const presentationImages = item.presentationImages ?? item.images;
+  const presentationImage = item.presentationImage ?? item.image;
+  const presentationEmbeds = item.presentationEmbeds ?? item.embeds;
+  const presentationEmbed = item.presentationEmbed ?? item.embed;
+
   if (!item.suppressImages) {
-    [...toArray(item.images), ...toArray(item.image)].forEach(addImage);
+    [...toArray(presentationImages), ...toArray(presentationImage)].forEach(addImage);
   }
 
   if (!item.suppressVideos) {
@@ -249,10 +254,11 @@ export function getPresentationItemMedia(item) {
   }
 
   if (!item.suppressXEmbeds) {
-    [...toArray(item.embeds), ...toArray(item.embed)].forEach(addEmbed);
+    [...toArray(presentationEmbeds), ...toArray(presentationEmbed)].forEach(addEmbed);
   }
 
-  const autoMediaLinks = [item.href, ...toArray(item.linkPair)];
+  const presentationLinks = item.presentationLinkPair ?? item.linkPair;
+  const autoMediaLinks = [item.href, ...toArray(presentationLinks)];
 
   if (!item.suppressImages) {
     autoMediaLinks.forEach((href) => {
@@ -284,7 +290,7 @@ export function getPresentationItemMedia(item) {
   const links = [];
   const seenLinks = new Set();
 
-  for (const href of toArray(item.linkPair)) {
+  for (const href of toArray(presentationLinks)) {
     const key = getLinkKey(href);
     if (consumedLinks.has(key) || seenLinks.has(key)) {
       continue;
@@ -297,7 +303,7 @@ export function getPresentationItemMedia(item) {
   const hrefKey = item.href ? getLinkKey(item.href) : null;
   const showPrimaryLink =
     item.href &&
-    !item.linkPair &&
+    !presentationLinks &&
     !consumedLinks.has(hrefKey) &&
     !item.mediaPair;
 
@@ -390,14 +396,7 @@ export function TopicImage({ image }) {
       {image.caption ? (
         <span className="topic-image-caption">
           {image.caption}
-          {image.href ? (
-            <>
-              {" "}
-              <a href={image.href} target="_blank" rel="noreferrer">
-                open direct
-              </a>
-            </>
-          ) : null}
+          {image.href ? " — open direct" : null}
         </span>
       ) : null}
     </>

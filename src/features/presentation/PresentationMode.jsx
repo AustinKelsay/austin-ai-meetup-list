@@ -87,8 +87,12 @@ function PresentationSlide({ slide, isFinale }) {
             slide.item.title
           )}
         </h3>
-        <p className="pres-topic-desc">{slide.item.description}</p>
-        {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
+        <p className="pres-topic-desc">
+          {slide.item.presentationDescription ?? slide.item.description}
+        </p>
+        {(slide.item.presentationNotes ?? slide.item.notes) ? (
+          <p className="pres-notes">{slide.item.presentationNotes ?? slide.item.notes}</p>
+        ) : null}
         <TopicMedia item={slide.item} />
       </div>
     );
@@ -105,8 +109,12 @@ function PresentationSlide({ slide, isFinale }) {
           slide.item.title
         )}
       </h3>
-      <p className="pres-topic-desc">{slide.item.description}</p>
-      {slide.item.notes ? <p className="pres-notes">{slide.item.notes}</p> : null}
+      <p className="pres-topic-desc">
+        {slide.item.presentationDescription ?? slide.item.description}
+      </p>
+      {(slide.item.presentationNotes ?? slide.item.notes) ? (
+        <p className="pres-notes">{slide.item.presentationNotes ?? slide.item.notes}</p>
+      ) : null}
       <TopicMedia item={slide.item} />
     </div>
   );

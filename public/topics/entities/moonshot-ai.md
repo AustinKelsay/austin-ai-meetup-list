@@ -13,7 +13,7 @@ Moonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**.
+- [[Austin AI Club - July 22, 2026]]: **Open model release highlights** and **White House says Kimi K3 distilled Fable**.
 - [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
 - [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.

@@ -13,7 +13,7 @@ Kimi is Moonshot AI's model family, recurring in Austin AI Club through open cod
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**.
+- [[Austin AI Club - July 22, 2026]]: **Open model release highlights** and **White House says Kimi K3 distilled Fable**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.

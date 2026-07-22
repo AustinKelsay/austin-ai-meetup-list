@@ -13,7 +13,7 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, and **Meta wants off the rented-GPU treadmill**.
+- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.
 - [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.
 - [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.
@@ -24,6 +24,11 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 - [[Austin AI Club - March 18, 2026]]: **Meta's "Moltbook"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.
 
 ## Related
+
+- [[AMD]]
+- [[Genesis Mission]]
+- [[WAICO]]
+- [[Vera Rubin]]
 
 - [[Compute Strategy]]
 - [[AI Governance]]
