@@ -123,6 +123,29 @@ export const meetups = [
             ],
             linkPair: ["https://chatgpt.com/overview/"],
           },
+          {
+            title: "Gigatoken pushes tokenization into GB/s",
+            description:
+              "Gigatoken replaces regex-heavy pretokenization with SIMD and aggressive caching, claiming 500–1,000× Hugging Face speedups across many tokenizers and machines. The MIT-licensed Rust implementation is a drop-in option, but the launch benchmarks are still author-run.",
+            chip: "tokenization",
+            href: "https://github.com/marcelroed/gigatoken",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/marcelroed/status/2079642154960564352?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Buzz puts humans and agents on one signed event log",
+            description:
+              "Block's open-source Buzz workspace gives people, agents, Git events, and workflows the same Nostr identity and audit trail. The bet is a self-hostable replacement for the Slack-plus-GitHub-plus-agent glue stack.",
+            chip: "agent workspace",
+            href: "https://buzz.xyz/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/jack/status/2079605800998146171?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://github.com/block/buzz"],
+          },
         ],
       },
       {
@@ -281,6 +304,21 @@ export const meetups = [
               },
             ],
             linkPair: ["https://huggingface.co/blog/security-incident-july-2026"],
+          },
+          {
+            title: "Antares makes vulnerability localization small and local",
+            description:
+              "Cisco's open-weight Antares 350M and 1B terminal agents hunt for vulnerable files without shipping a codebase to the cloud. Its new 500-task benchmark also keeps the result honest: the best model reaches only 0.229 File F1, and 38% of tasks beat every model tested.",
+            chip: "local security models",
+            href: "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/ciscoai/status/2079552055778402548?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+              "https://huggingface.co/fdtn-ai/antares-350m",
+            ],
           },
           {
             title: "The AI safety leaderboard tops out at C+",

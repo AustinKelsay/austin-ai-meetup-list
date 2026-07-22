@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-07-22] update | Three launch-day Topics added
+
+- Added Cisco Antares and VLoc Bench to Security, Gigatoken and its tokenizer benchmarks to Agent Infrastructure, and Block's Buzz agent workspace to Agent Infrastructure.
+- Resolved each submitted X post to official model, benchmark, product, and repository sources; embedded all three posts in Meetup Data.
+- Added durable Cisco, Antares, Gigatoken, Block, and Buzz entity pages with reciprocal Meetup and Track links.
+
 ## [2026-07-08] update | Artifact-level model and project links added
 
 - Created focused entity pages for Brain2Qwerty, GPT-5.6, Claude Sonnet 5, SWE-1.7, Gemini Omni Flash, Meta Muse, MiniMax M3, Qwen-AgentWorld, Leanstral, Cohere Transcribe Arabic, HARC, DeepSpec, OpenRouter Fusion, Sakana Fugu, Jalapeno, Cursor Origin, DiffusionGemma, Nemotron Puzzle, and CWIP.

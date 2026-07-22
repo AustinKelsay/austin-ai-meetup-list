@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:08:55.756Z",
+  "generatedAt": "2026-07-22T14:49:48.514Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -309,7 +309,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -364,6 +364,8 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "block",
+        "buzz",
         "christopher-david",
         "claude-code",
         "codex",
@@ -374,6 +376,7 @@
         "cursor",
         "cursor-origin",
         "figure-ai",
+        "gigatoken",
         "hermes-agent",
         "human-rights-foundation",
         "humanoid-robotics",
@@ -721,6 +724,41 @@
         {
           "href": "https://x.com/OpenAI/status/2075274271845404744",
           "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-july-22-2026",
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
@@ -1629,7 +1667,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -4855,6 +4893,71 @@
         }
       ],
       "bodyMarkdown": "# Andrej Karpathy\n\nAndrej Karpathy is a recurring Austin AI Club entity for AI research leadership, durable practitioner advice, and recursive AI development.\n\n## Mentioned In\n\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life** via the Karpathy-filter thread.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - April 15, 2026]]: **Karpathy's LLM wiki idea**.\n- [[Austin AI Club - April 1, 2026]]: **LiteLLM supply-chain attack** and **Axios supply-chain attack**.\n\n## Related\n\n- [[Open Models]]\n- [[Models & Research]]\n- [[Security]]"
+    },
+    {
+      "id": "antares",
+      "title": "Antares",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Antares is Cisco Foundation AI's family of small, open-weight terminal agents trained to locate vulnerable files in unfamiliar code repositories.",
+      "rawHref": "/topics/entities/antares.md",
+      "relativePath": "entities/antares.md",
+      "outgoingIds": [
+        "austin-ai-club-july-22-2026",
+        "cisco",
+        "local-ai",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "cisco"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Antares\n\nAntares is Cisco Foundation AI's family of small, open-weight terminal agents trained to locate vulnerable files in unfamiliar code repositories.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.\n\n## Related\n\n- [[Cisco]]\n- [[Security]]\n- [[Open Models]]\n- [[Local AI]]"
     },
     {
       "id": "anthropic",
@@ -8690,6 +8793,11 @@
         "https://chatgpt.com/overview/",
         "https://x.com/OpenAI/status/2075271435573244008",
         "https://x.com/OpenAI/status/2075274271845404744",
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352",
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171",
         "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
         "https://x.com/shengjia_zhao/status/2075220782465290620",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
@@ -8724,6 +8832,10 @@
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://x.com/OpenAI/status/2079658951264920020",
         "https://x.com/BrianRoemmele/status/2078840929088340408",
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548",
         "https://futureoflife.org/ai-safety-index-summer-2026/",
         "https://x.com/FLI_org/status/2074559037736411262",
         "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
@@ -8771,6 +8883,31 @@
         {
           "href": "https://x.com/OpenAI/status/2075274271845404744",
           "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
           "section": "Agent Infrastructure"
         },
         {
@@ -8944,6 +9081,26 @@
           "section": "Security"
         },
         {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
           "href": "https://futureoflife.org/ai-safety-index-summer-2026/",
           "title": "The AI safety leaderboard tops out at C+",
           "section": "Security"
@@ -9005,17 +9162,22 @@
         }
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Models & Research, Open Models, Local AI, Physical AI, Security, AI Governance, Big Tech Moves, OpenAI, GPT-5.6, Anthropic, Google, Meta, Meta Muse, Microsoft, NVIDIA, Moonshot AI, Kimi, Gemini, xAI, Grok, GLM.",
+      "updated": "2026-07-22",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Models & Research, Open Models, Local AI, Physical AI, Security, AI Governance, Big Tech Moves, OpenAI, GPT-5.6, Anthropic, Google, Meta, Meta Muse, Microsoft, NVIDIA, Moonshot AI, Kimi, Gemini, xAI, Grok, GLM, Cisco, Antares, Gigatoken, Block, Buzz.",
       "rawHref": "/topics/2026-07-22.md",
       "relativePath": "2026-07-22.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "antares",
         "anthropic",
         "big-tech-moves",
+        "block",
+        "buzz",
+        "cisco",
         "gemini",
+        "gigatoken",
         "glm",
         "google",
         "gpt-56",
@@ -9039,9 +9201,14 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "antares",
         "anthropic",
         "big-tech-moves",
+        "block",
+        "buzz",
+        "cisco",
         "gemini",
+        "gigatoken",
         "glm",
         "google",
         "gpt-56",
@@ -9073,6 +9240,11 @@
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352",
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171",
         "https://bun.com/blog/bun-in-rust",
         "https://x.com/jarredsumner/status/2074973674332123157",
         "https://x.com/theo/status/2075006176845291977",
@@ -9106,6 +9278,10 @@
         "https://x.com/dkokotajlo/status/2075251618728292464",
         "https://alignment.openai.com/measuring-reward-seeking/",
         "https://x.com/OpenAI/status/2079647251677536324",
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548",
         "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
         "https://x.com/intcyberdigest/status/2076689215258014069",
         "https://x.com/spacexai/status/2076692402442846289",
@@ -9128,6 +9304,31 @@
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
         {
           "href": "https://bun.com/blog/bun-in-rust",
           "title": "Bun's Rust rewrite makes agent cost impossible to ignore",
@@ -9294,6 +9495,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
           "href": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
           "title": "Grok Build uploaded the repo, not just the context",
           "section": "Security"
@@ -9395,7 +9616,7 @@
         }
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-07-22-link-records.md",
       "relativePath": "raw/articles/2026-07-22-link-records.md",
@@ -16780,6 +17001,62 @@
       "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]"
     },
     {
+      "id": "block",
+      "title": "Block",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Block is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.",
+      "rawHref": "/topics/entities/block.md",
+      "relativePath": "entities/block.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "buzz"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "buzz"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Buzz]]\n- [[Agent Infrastructure]]"
+    },
+    {
       "id": "brain2qwerty",
       "title": "Brain2Qwerty",
       "type": "entity",
@@ -16895,6 +17172,62 @@
       "bodyMarkdown": "# Broadcom\n\nBroadcom is a semiconductor and networking company showing up in Austin AI Club as the custom-silicon partner behind OpenAI's inference-chip push.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n\n## Related\n\n- [[OpenAI]]\n- [[Compute Strategy]]\n- [[Jalapeno]]"
     },
     {
+      "id": "buzz",
+      "title": "Buzz",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.",
+      "rawHref": "/topics/entities/buzz.md",
+      "relativePath": "entities/buzz.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "block"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "block"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Agent Infrastructure]]"
+    },
+    {
       "id": "christopher-david",
       "title": "Christopher David",
       "type": "entity",
@@ -16962,6 +17295,70 @@
         }
       ],
       "bodyMarkdown": "# Christopher David\n\nChristopher David is the founder and CEO of OpenAgents and a local Austin AI Club source for Bitcoin-native agent and compute-market infrastructure.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.\n\n## Related\n\n- [[OpenAgents]]\n- [[Agent Infrastructure]]"
+    },
+    {
+      "id": "cisco",
+      "title": "Cisco",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Cisco is a networking and security company whose AI work includes open security models, benchmarks, and infrastructure for agentic operations.",
+      "rawHref": "/topics/entities/cisco.md",
+      "relativePath": "entities/cisco.md",
+      "outgoingIds": [
+        "antares",
+        "austin-ai-club-july-22-2026",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "antares",
+        "austin-ai-club-july-22-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Cisco\n\nCisco is a networking and security company whose AI work includes open security models, benchmarks, and infrastructure for agentic operations.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.\n\n## Related\n\n- [[Antares]]\n- [[Security]]\n- [[Open Models]]"
     },
     {
       "id": "claude-code",
@@ -25493,6 +25890,54 @@
       "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**.\n- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
     },
     {
+      "id": "gigatoken",
+      "title": "Gigatoken",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Gigatoken is an MIT-licensed Rust tokenizer focused on high-throughput language-model data pipelines and compatibility with Hugging Face tokenizers and tiktoken.",
+      "rawHref": "/topics/entities/gigatoken.md",
+      "relativePath": "entities/gigatoken.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "inference-optimization"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Gigatoken\n\nGigatoken is an MIT-licensed Rust tokenizer focused on high-throughput language-model data pipelines and compatibility with Hugging Face tokenizers and tiktoken.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Gigatoken pushes tokenization into GB/s**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]"
+    },
+    {
       "id": "glm",
       "title": "GLM",
       "type": "entity",
@@ -28731,6 +29176,7 @@
         "diffusiongemma",
         "etched",
         "gemma",
+        "gigatoken",
         "jalapeno",
         "local-ai",
         "minimax-m3",
@@ -31220,6 +31666,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "antares",
         "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-july-22-2026",
@@ -42401,6 +42848,7 @@
         "ai-governance",
         "ai-signal-discovery",
         "andrej-karpathy",
+        "antares",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-july-22-2026",
@@ -42411,6 +42859,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "cisco",
         "cohere",
         "cohere-transcribe-arabic",
         "deepseek",
@@ -48250,7 +48699,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "Security is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.",
       "rawHref": "/topics/concepts/security.md",
       "relativePath": "concepts/security.md",
@@ -48278,6 +48727,7 @@
       "backlinkIds": [
         "ai-governance",
         "andrej-karpathy",
+        "antares",
         "apple-container",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
@@ -48288,6 +48738,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "cisco",
         "cursor",
         "harc",
         "mythos",
@@ -48514,6 +48965,34 @@
         {
           "href": "https://x.com/BrianRoemmele/status/2078840929088340408",
           "title": "OpenAI's cyber eval breached Hugging Face",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
           "section": "Security",
           "sourcePageId": "austin-ai-club-july-22-2026",
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
@@ -48925,7 +49404,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]"
     },
     {
       "id": "spacex",
@@ -52868,7 +53347,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -52923,6 +53402,8 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "block",
+        "buzz",
         "christopher-david",
         "claude-code",
         "codex",
@@ -52933,6 +53414,7 @@
         "cursor",
         "cursor-origin",
         "figure-ai",
+        "gigatoken",
         "hermes-agent",
         "human-rights-foundation",
         "humanoid-robotics",
@@ -53280,6 +53762,41 @@
         {
           "href": "https://x.com/OpenAI/status/2075274271845404744",
           "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-july-22-2026",
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
@@ -54188,7 +54705,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -57414,6 +57931,71 @@
         }
       ],
       "bodyMarkdown": "# Andrej Karpathy\n\nAndrej Karpathy is a recurring Austin AI Club entity for AI research leadership, durable practitioner advice, and recursive AI development.\n\n## Mentioned In\n\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life** via the Karpathy-filter thread.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - April 15, 2026]]: **Karpathy's LLM wiki idea**.\n- [[Austin AI Club - April 1, 2026]]: **LiteLLM supply-chain attack** and **Axios supply-chain attack**.\n\n## Related\n\n- [[Open Models]]\n- [[Models & Research]]\n- [[Security]]"
+    },
+    "antares": {
+      "id": "antares",
+      "title": "Antares",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Antares is Cisco Foundation AI's family of small, open-weight terminal agents trained to locate vulnerable files in unfamiliar code repositories.",
+      "rawHref": "/topics/entities/antares.md",
+      "relativePath": "entities/antares.md",
+      "outgoingIds": [
+        "austin-ai-club-july-22-2026",
+        "cisco",
+        "local-ai",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "cisco"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Antares\n\nAntares is Cisco Foundation AI's family of small, open-weight terminal agents trained to locate vulnerable files in unfamiliar code repositories.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.\n\n## Related\n\n- [[Cisco]]\n- [[Security]]\n- [[Open Models]]\n- [[Local AI]]"
     },
     "anthropic": {
       "id": "anthropic",
@@ -61249,6 +61831,11 @@
         "https://chatgpt.com/overview/",
         "https://x.com/OpenAI/status/2075271435573244008",
         "https://x.com/OpenAI/status/2075274271845404744",
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352",
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171",
         "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
         "https://x.com/shengjia_zhao/status/2075220782465290620",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
@@ -61283,6 +61870,10 @@
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://x.com/OpenAI/status/2079658951264920020",
         "https://x.com/BrianRoemmele/status/2078840929088340408",
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548",
         "https://futureoflife.org/ai-safety-index-summer-2026/",
         "https://x.com/FLI_org/status/2074559037736411262",
         "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
@@ -61330,6 +61921,31 @@
         {
           "href": "https://x.com/OpenAI/status/2075274271845404744",
           "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
           "section": "Agent Infrastructure"
         },
         {
@@ -61503,6 +62119,26 @@
           "section": "Security"
         },
         {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
           "href": "https://futureoflife.org/ai-safety-index-summer-2026/",
           "title": "The AI safety leaderboard tops out at C+",
           "section": "Security"
@@ -61564,17 +62200,22 @@
         }
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Models & Research, Open Models, Local AI, Physical AI, Security, AI Governance, Big Tech Moves, OpenAI, GPT-5.6, Anthropic, Google, Meta, Meta Muse, Microsoft, NVIDIA, Moonshot AI, Kimi, Gemini, xAI, Grok, GLM.",
+      "updated": "2026-07-22",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Agent Cost Controls, Models & Research, Open Models, Local AI, Physical AI, Security, AI Governance, Big Tech Moves, OpenAI, GPT-5.6, Anthropic, Google, Meta, Meta Muse, Microsoft, NVIDIA, Moonshot AI, Kimi, Gemini, xAI, Grok, GLM, Cisco, Antares, Gigatoken, Block, Buzz.",
       "rawHref": "/topics/2026-07-22.md",
       "relativePath": "2026-07-22.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "antares",
         "anthropic",
         "big-tech-moves",
+        "block",
+        "buzz",
+        "cisco",
         "gemini",
+        "gigatoken",
         "glm",
         "google",
         "gpt-56",
@@ -61598,9 +62239,14 @@
         "agent-cost-controls",
         "agent-infrastructure",
         "ai-governance",
+        "antares",
         "anthropic",
         "big-tech-moves",
+        "block",
+        "buzz",
+        "cisco",
         "gemini",
+        "gigatoken",
         "glm",
         "google",
         "gpt-56",
@@ -61632,6 +62278,11 @@
       "sources": [],
       "sourceCount": 0,
       "sourceLinks": [
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352",
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171",
         "https://bun.com/blog/bun-in-rust",
         "https://x.com/jarredsumner/status/2074973674332123157",
         "https://x.com/theo/status/2075006176845291977",
@@ -61665,6 +62316,10 @@
         "https://x.com/dkokotajlo/status/2075251618728292464",
         "https://alignment.openai.com/measuring-reward-seeking/",
         "https://x.com/OpenAI/status/2079647251677536324",
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548",
         "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
         "https://x.com/intcyberdigest/status/2076689215258014069",
         "https://x.com/spacexai/status/2076692402442846289",
@@ -61687,6 +62342,31 @@
         "https://huggingface.co/nvidia/personaplex-7b-v1"
       ],
       "sourceReferences": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
         {
           "href": "https://bun.com/blog/bun-in-rust",
           "title": "Bun's Rust rewrite makes agent cost impossible to ignore",
@@ -61853,6 +62533,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
           "href": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
           "title": "Grok Build uploaded the repo, not just the context",
           "section": "Security"
@@ -61954,7 +62654,7 @@
         }
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-07-22-link-records.md",
       "relativePath": "raw/articles/2026-07-22-link-records.md",
@@ -69338,6 +70038,62 @@
       ],
       "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]"
     },
+    "block": {
+      "id": "block",
+      "title": "Block",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Block is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.",
+      "rawHref": "/topics/entities/block.md",
+      "relativePath": "entities/block.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "buzz"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "buzz"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Buzz]]\n- [[Agent Infrastructure]]"
+    },
     "brain2qwerty": {
       "id": "brain2qwerty",
       "title": "Brain2Qwerty",
@@ -69453,6 +70209,62 @@
       ],
       "bodyMarkdown": "# Broadcom\n\nBroadcom is a semiconductor and networking company showing up in Austin AI Club as the custom-silicon partner behind OpenAI's inference-chip push.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n\n## Related\n\n- [[OpenAI]]\n- [[Compute Strategy]]\n- [[Jalapeno]]"
     },
+    "buzz": {
+      "id": "buzz",
+      "title": "Buzz",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.",
+      "rawHref": "/topics/entities/buzz.md",
+      "relativePath": "entities/buzz.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "block"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026",
+        "block"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Agent Infrastructure]]"
+    },
     "christopher-david": {
       "id": "christopher-david",
       "title": "Christopher David",
@@ -69521,6 +70333,70 @@
         }
       ],
       "bodyMarkdown": "# Christopher David\n\nChristopher David is the founder and CEO of OpenAgents and a local Austin AI Club source for Bitcoin-native agent and compute-market infrastructure.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.\n\n## Related\n\n- [[OpenAgents]]\n- [[Agent Infrastructure]]"
+    },
+    "cisco": {
+      "id": "cisco",
+      "title": "Cisco",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Cisco is a networking and security company whose AI work includes open security models, benchmarks, and infrastructure for agentic operations.",
+      "rawHref": "/topics/entities/cisco.md",
+      "relativePath": "entities/cisco.md",
+      "outgoingIds": [
+        "antares",
+        "austin-ai-club-july-22-2026",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "antares",
+        "austin-ai-club-july-22-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Cisco\n\nCisco is a networking and security company whose AI work includes open security models, benchmarks, and infrastructure for agentic operations.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.\n\n## Related\n\n- [[Antares]]\n- [[Security]]\n- [[Open Models]]"
     },
     "claude-code": {
       "id": "claude-code",
@@ -78051,6 +78927,54 @@
       ],
       "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**.\n- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
     },
+    "gigatoken": {
+      "id": "gigatoken",
+      "title": "Gigatoken",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-07-22-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "excerpt": "Gigatoken is an MIT-licensed Rust tokenizer focused on high-throughput language-model data pipelines and compatibility with Hugging Face tokenizers and tiktoken.",
+      "rawHref": "/topics/entities/gigatoken.md",
+      "relativePath": "entities/gigatoken.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-july-22-2026",
+        "inference-optimization"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-july-22-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Gigatoken\n\nGigatoken is an MIT-licensed Rust tokenizer focused on high-throughput language-model data pipelines and compatibility with Hugging Face tokenizers and tiktoken.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Gigatoken pushes tokenization into GB/s**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]"
+    },
     "glm": {
       "id": "glm",
       "title": "GLM",
@@ -81290,6 +82214,7 @@
         "diffusiongemma",
         "etched",
         "gemma",
+        "gigatoken",
         "jalapeno",
         "local-ai",
         "minimax-m3",
@@ -83779,6 +84704,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "antares",
         "apple",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-july-22-2026",
@@ -94960,6 +95886,7 @@
         "ai-governance",
         "ai-signal-discovery",
         "andrej-karpathy",
+        "antares",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-july-22-2026",
@@ -94970,6 +95897,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "cisco",
         "cohere",
         "cohere-transcribe-arabic",
         "deepseek",
@@ -100809,7 +101737,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-07-21",
+      "updated": "2026-07-22",
       "excerpt": "Security is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.",
       "rawHref": "/topics/concepts/security.md",
       "relativePath": "concepts/security.md",
@@ -100837,6 +101765,7 @@
       "backlinkIds": [
         "ai-governance",
         "andrej-karpathy",
+        "antares",
         "apple-container",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
@@ -100847,6 +101776,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "cisco",
         "cursor",
         "harc",
         "mythos",
@@ -101073,6 +102003,34 @@
         {
           "href": "https://x.com/BrianRoemmele/status/2078840929088340408",
           "title": "OpenAI's cyber eval breached Hugging Face",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
           "section": "Security",
           "sourcePageId": "austin-ai-club-july-22-2026",
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
@@ -101484,7 +102442,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]"
     },
     "spacex": {
       "id": "spacex",
@@ -105163,6 +106121,88 @@
       "searchText": "Bun's Rust rewrite makes agent cost impossible to ignore Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://bun.com/blog/bun-in-rust https://x.com/jarredsumner/status/2074973674332123157 https://x.com/theo/status/2075006176845291977 Agent Cost Controls Agent Infrastructure"
     },
     {
+      "id": "austin-ai-club-july-22-2026-agent-infrastructure-buzz-puts-humans-and-agents-on-one-signed-event-log",
+      "title": "Buzz puts humans and agents on one signed event log",
+      "rawTitle": "Buzz puts humans and agents on one signed event log",
+      "normalizedTitle": "buzz puts humans and agents on one signed event log",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "block",
+        "buzz"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Block",
+        "Buzz"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Buzz puts humans and agents on one signed event log Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://buzz.xyz/ https://github.com/block/buzz https://x.com/jack/status/2079605800998146171 Agent Infrastructure Block Buzz"
+    },
+    {
+      "id": "austin-ai-club-july-22-2026-agent-infrastructure-s",
+      "title": "Gigatoken pushes tokenization into GB/s",
+      "rawTitle": "Gigatoken pushes tokenization into GB/s",
+      "normalizedTitle": "gigatoken pushes tokenization into gb/s",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "gigatoken"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Gigatoken"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Gigatoken pushes tokenization into GB/s Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://github.com/marcelroed/gigatoken https://x.com/marcelroed/status/2079642154960564352 Agent Infrastructure Gigatoken"
+    },
+    {
       "id": "austin-ai-club-july-22-2026-agent-infrastructure-gpt-56-ships-the-multi-agent-runtime-not-just-the-model",
       "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
       "rawTitle": "GPT-5.6 ships the multi-agent runtime, not just the model",
@@ -105647,6 +106687,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Proprietary releases move from chat to specialized work Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/ https://x.com/shengjia_zhao/status/2075220782465290620 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/ https://x.com/JeffDean/status/2079591562145870043 https://blog.reve.com/posts/launching-reve-2.1/ Gemini Google Meta Meta Muse Models & Research"
+    },
+    {
+      "id": "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local",
+      "title": "Antares makes vulnerability localization small and local",
+      "rawTitle": "Antares makes vulnerability localization small and local",
+      "normalizedTitle": "antares makes vulnerability localization small and local",
+      "section": "Security",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "antares",
+        "cisco",
+        "security"
+      ],
+      "wikiTitles": [
+        "Antares",
+        "Cisco",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Antares makes vulnerability localization small and local Security Austin AI Club - July 22, 2026 2026-07-22 https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/ https://huggingface.co/fdtn-ai/antares-350m https://x.com/ciscoai/status/2079552055778402548 Antares Cisco Security"
     },
     {
       "id": "austin-ai-club-july-22-2026-security-grok-build-uploaded-the-repo-not-just-the-context",
@@ -115658,6 +116749,88 @@
       "unresolvedWikiLinks": [],
       "searchText": "Bun's Rust rewrite makes agent cost impossible to ignore Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://bun.com/blog/bun-in-rust https://x.com/jarredsumner/status/2074973674332123157 https://x.com/theo/status/2075006176845291977 Agent Cost Controls Agent Infrastructure"
     },
+    "austin-ai-club-july-22-2026-agent-infrastructure-buzz-puts-humans-and-agents-on-one-signed-event-log": {
+      "id": "austin-ai-club-july-22-2026-agent-infrastructure-buzz-puts-humans-and-agents-on-one-signed-event-log",
+      "title": "Buzz puts humans and agents on one signed event log",
+      "rawTitle": "Buzz puts humans and agents on one signed event log",
+      "normalizedTitle": "buzz puts humans and agents on one signed event log",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://buzz.xyz/",
+        "https://github.com/block/buzz",
+        "https://x.com/jack/status/2079605800998146171"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://buzz.xyz/",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/buzz",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jack/status/2079605800998146171",
+          "title": "Buzz puts humans and agents on one signed event log",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "block",
+        "buzz"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Block",
+        "Buzz"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Buzz puts humans and agents on one signed event log Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://buzz.xyz/ https://github.com/block/buzz https://x.com/jack/status/2079605800998146171 Agent Infrastructure Block Buzz"
+    },
+    "austin-ai-club-july-22-2026-agent-infrastructure-s": {
+      "id": "austin-ai-club-july-22-2026-agent-infrastructure-s",
+      "title": "Gigatoken pushes tokenization into GB/s",
+      "rawTitle": "Gigatoken pushes tokenization into GB/s",
+      "normalizedTitle": "gigatoken pushes tokenization into gb/s",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://github.com/marcelroed/gigatoken",
+        "https://x.com/marcelroed/status/2079642154960564352"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/marcelroed/gigatoken",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/marcelroed/status/2079642154960564352",
+          "title": "Gigatoken pushes tokenization into GB/s",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "gigatoken"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Gigatoken"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Gigatoken pushes tokenization into GB/s Agent Infrastructure Austin AI Club - July 22, 2026 2026-07-22 https://github.com/marcelroed/gigatoken https://x.com/marcelroed/status/2079642154960564352 Agent Infrastructure Gigatoken"
+    },
     "austin-ai-club-july-22-2026-agent-infrastructure-gpt-56-ships-the-multi-agent-runtime-not-just-the-model": {
       "id": "austin-ai-club-july-22-2026-agent-infrastructure-gpt-56-ships-the-multi-agent-runtime-not-just-the-model",
       "title": "GPT-5.6 ships the multi-agent runtime, not just the model",
@@ -116143,6 +117316,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Proprietary releases move from chat to specialized work Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/ https://x.com/shengjia_zhao/status/2075220782465290620 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/ https://x.com/JeffDean/status/2079591562145870043 https://blog.reve.com/posts/launching-reve-2.1/ Gemini Google Meta Meta Muse Models & Research"
+    },
+    "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local": {
+      "id": "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local",
+      "title": "Antares makes vulnerability localization small and local",
+      "rawTitle": "Antares makes vulnerability localization small and local",
+      "normalizedTitle": "antares makes vulnerability localization small and local",
+      "section": "Security",
+      "meetupId": "austin-ai-club-july-22-2026",
+      "meetupTitle": "Austin AI Club - July 22, 2026",
+      "meetupSlug": "2026-07-22",
+      "meetupHref": "/topics/2026-07-22.md",
+      "sourceLinks": [
+        "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+        "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+        "https://huggingface.co/fdtn-ai/antares-350m",
+        "https://x.com/ciscoai/status/2079552055778402548"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/fdtn-ai/antares-350m",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/ciscoai/status/2079552055778402548",
+          "title": "Antares makes vulnerability localization small and local",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "antares",
+        "cisco",
+        "security"
+      ],
+      "wikiTitles": [
+        "Antares",
+        "Cisco",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Antares makes vulnerability localization small and local Security Austin AI Club - July 22, 2026 2026-07-22 https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/ https://huggingface.co/fdtn-ai/antares-350m https://x.com/ciscoai/status/2079552055778402548 Antares Cisco Security"
     },
     "austin-ai-club-july-22-2026-security-grok-build-uploaded-the-repo-not-just-the-context": {
       "id": "austin-ai-club-july-22-2026-security-grok-build-uploaded-the-repo-not-just-the-context",
@@ -126641,6 +127865,26 @@
       "target": "security"
     },
     {
+      "source": "antares",
+      "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "antares",
+      "target": "cisco"
+    },
+    {
+      "source": "antares",
+      "target": "security"
+    },
+    {
+      "source": "antares",
+      "target": "open-models"
+    },
+    {
+      "source": "antares",
+      "target": "local-ai"
+    },
+    {
       "source": "anthropic",
       "target": "austin-ai-club-july-22-2026"
     },
@@ -127147,6 +128391,26 @@
     {
       "source": "austin-ai-club-july-22-2026",
       "target": "glm"
+    },
+    {
+      "source": "austin-ai-club-july-22-2026",
+      "target": "cisco"
+    },
+    {
+      "source": "austin-ai-club-july-22-2026",
+      "target": "antares"
+    },
+    {
+      "source": "austin-ai-club-july-22-2026",
+      "target": "gigatoken"
+    },
+    {
+      "source": "austin-ai-club-july-22-2026",
+      "target": "block"
+    },
+    {
+      "source": "austin-ai-club-july-22-2026",
+      "target": "buzz"
     },
     {
       "source": "austin-ai-club-july-8-2026",
@@ -128277,6 +129541,18 @@
       "target": "meta-muse"
     },
     {
+      "source": "block",
+      "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "block",
+      "target": "buzz"
+    },
+    {
+      "source": "block",
+      "target": "agent-infrastructure"
+    },
+    {
       "source": "brain2qwerty",
       "target": "austin-ai-club-july-8-2026"
     },
@@ -128309,6 +129585,18 @@
       "target": "jalapeno"
     },
     {
+      "source": "buzz",
+      "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "buzz",
+      "target": "block"
+    },
+    {
+      "source": "buzz",
+      "target": "agent-infrastructure"
+    },
+    {
       "source": "christopher-david",
       "target": "austin-ai-club-june-24-2026"
     },
@@ -128319,6 +129607,22 @@
     {
       "source": "christopher-david",
       "target": "agent-infrastructure"
+    },
+    {
+      "source": "cisco",
+      "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "cisco",
+      "target": "antares"
+    },
+    {
+      "source": "cisco",
+      "target": "security"
+    },
+    {
+      "source": "cisco",
+      "target": "open-models"
     },
     {
       "source": "claude-code",
@@ -129107,6 +130411,18 @@
     {
       "source": "gemma",
       "target": "diffusiongemma"
+    },
+    {
+      "source": "gigatoken",
+      "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "gigatoken",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "gigatoken",
+      "target": "inference-optimization"
     },
     {
       "source": "glm",
@@ -131482,8 +132798,8 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 77,
-        "updated": "2026-07-21"
+        "degree": 80,
+        "updated": "2026-07-22"
       },
       {
         "id": "agent-payments",
@@ -131581,6 +132897,19 @@
         ],
         "degree": 12,
         "updated": "2026-06-24"
+      },
+      {
+        "id": "antares",
+        "label": "Antares",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "model",
+          "security",
+          "open-source"
+        ],
+        "degree": 7,
+        "updated": "2026-07-22"
       },
       {
         "id": "anthropic",
@@ -131683,8 +133012,8 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 46,
-        "updated": "2026-07-21"
+        "degree": 56,
+        "updated": "2026-07-22"
       },
       {
         "id": "austin-ai-club-july-22-2026-source-link-records",
@@ -131695,7 +133024,7 @@
           "meetup"
         ],
         "degree": 0,
-        "updated": "2026-07-21"
+        "updated": "2026-07-22"
       },
       {
         "id": "austin-ai-club-july-8-2026",
@@ -131841,6 +133170,19 @@
         "updated": "2026-07-21"
       },
       {
+        "id": "block",
+        "label": "Block",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "agent-infrastructure",
+          "open-source"
+        ],
+        "degree": 5,
+        "updated": "2026-07-22"
+      },
+      {
         "id": "brain2qwerty",
         "label": "Brain2Qwerty",
         "type": "entity",
@@ -131865,6 +133207,19 @@
         "updated": "2026-07-08"
       },
       {
+        "id": "buzz",
+        "label": "Buzz",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "product",
+          "agent-infrastructure",
+          "open-source"
+        ],
+        "degree": 5,
+        "updated": "2026-07-22"
+      },
+      {
         "id": "christopher-david",
         "label": "Christopher David",
         "type": "entity",
@@ -131875,6 +133230,19 @@
         ],
         "degree": 5,
         "updated": "2026-06-24"
+      },
+      {
+        "id": "cisco",
+        "label": "Cisco",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "security",
+          "open-source"
+        ],
+        "degree": 6,
+        "updated": "2026-07-22"
       },
       {
         "id": "claude-code",
@@ -132161,6 +133529,19 @@
         "updated": "2026-07-08"
       },
       {
+        "id": "gigatoken",
+        "label": "Gigatoken",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "product",
+          "agent-infrastructure",
+          "open-source"
+        ],
+        "degree": 4,
+        "updated": "2026-07-22"
+      },
+      {
         "id": "glm",
         "label": "GLM",
         "type": "entity",
@@ -132282,7 +133663,7 @@
           "agent-infrastructure",
           "local-ai"
         ],
-        "degree": 46,
+        "degree": 47,
         "updated": "2026-07-08"
       },
       {
@@ -132334,7 +133715,7 @@
           "open-source",
           "privacy"
         ],
-        "degree": 50,
+        "degree": 51,
         "updated": "2026-07-21"
       },
       {
@@ -132578,7 +133959,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 95,
+        "degree": 97,
         "updated": "2026-07-21"
       },
       {
@@ -132799,8 +134180,8 @@
           "track",
           "security"
         ],
-        "degree": 34,
-        "updated": "2026-07-21"
+        "degree": 36,
+        "updated": "2026-07-22"
       },
       {
         "id": "spacex",
@@ -133633,6 +135014,31 @@
         "kind": "wiki"
       },
       {
+        "source": "antares",
+        "target": "austin-ai-club-july-22-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "antares",
+        "target": "cisco",
+        "kind": "wiki"
+      },
+      {
+        "source": "antares",
+        "target": "security",
+        "kind": "wiki"
+      },
+      {
+        "source": "antares",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "antares",
+        "target": "local-ai",
+        "kind": "wiki"
+      },
+      {
         "source": "anthropic",
         "target": "austin-ai-club-july-22-2026",
         "kind": "topic"
@@ -134265,6 +135671,31 @@
       {
         "source": "austin-ai-club-july-22-2026",
         "target": "glm",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-22-2026",
+        "target": "cisco",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-22-2026",
+        "target": "antares",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-22-2026",
+        "target": "gigatoken",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-22-2026",
+        "target": "block",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-july-22-2026",
+        "target": "buzz",
         "kind": "topic"
       },
       {
@@ -135678,6 +137109,21 @@
         "kind": "wiki"
       },
       {
+        "source": "block",
+        "target": "austin-ai-club-july-22-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "block",
+        "target": "buzz",
+        "kind": "wiki"
+      },
+      {
+        "source": "block",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
         "source": "brain2qwerty",
         "target": "austin-ai-club-july-8-2026",
         "kind": "topic"
@@ -135718,6 +137164,21 @@
         "kind": "wiki"
       },
       {
+        "source": "buzz",
+        "target": "austin-ai-club-july-22-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "buzz",
+        "target": "block",
+        "kind": "wiki"
+      },
+      {
+        "source": "buzz",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
         "source": "christopher-david",
         "target": "austin-ai-club-june-24-2026",
         "kind": "topic"
@@ -135730,6 +137191,26 @@
       {
         "source": "christopher-david",
         "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "cisco",
+        "target": "austin-ai-club-july-22-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "cisco",
+        "target": "antares",
+        "kind": "wiki"
+      },
+      {
+        "source": "cisco",
+        "target": "security",
+        "kind": "wiki"
+      },
+      {
+        "source": "cisco",
+        "target": "open-models",
         "kind": "wiki"
       },
       {
@@ -136715,6 +138196,21 @@
       {
         "source": "gemma",
         "target": "diffusiongemma",
+        "kind": "wiki"
+      },
+      {
+        "source": "gigatoken",
+        "target": "austin-ai-club-july-22-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "gigatoken",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "gigatoken",
+        "target": "inference-optimization",
         "kind": "wiki"
       },
       {
@@ -139655,13 +141151,13 @@
     ]
   },
   "stats": {
-    "pageCount": 119,
-    "topicCount": 202,
+    "pageCount": 124,
+    "topicCount": 205,
     "rawPageCount": 0,
-    "linkCount": 1336,
+    "linkCount": 1359,
     "sourceRecordCount": 9,
-    "sourceLinkCount": 775,
+    "sourceLinkCount": 784,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-07-21"
+    "lastUpdatedAt": "2026-07-22"
   }
 }

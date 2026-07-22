@@ -1,7 +1,7 @@
 ---
 title: Security
 created: 2026-06-24
-updated: 2026-07-21
+updated: 2026-07-22
 type: concept
 tags: [concept, track, security]
 sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Security is the Austin AI Club track for attacks, abuse patterns, prompt injecti
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, and **The AI safety leaderboard tops out at C+**.
+- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.
 - [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.

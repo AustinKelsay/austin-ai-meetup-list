@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - July 22, 2026 - Source Link Records
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -10,6 +10,35 @@ sources: []
 # Austin AI Club - July 22, 2026 - Source Link Records
 
 ## Agent Infrastructure
+
+### Gigatoken pushes tokenization into GB/s
+- Repo: https://github.com/marcelroed/gigatoken
+  - Title: "Gigatoken"
+  - Type: GitHub repository
+  - Access: 2026-07-22
+  - Notes: MIT-licensed Rust tokenizer with Hugging Face and tiktoken compatibility modes, SIMD pretokenization, caching, and author-published cross-tokenizer benchmarks.
+- Post: https://x.com/marcelroed/status/2079642154960564352
+  - Title: "Introducing Gigatoken"
+  - Type: Creator X post
+  - Access: 2026-07-22
+  - Notes: Marcel Rød's launch post claims roughly 500–1,000× speedups over Hugging Face tokenizers and roughly 100× over tiktoken for many definitions and machines.
+
+### Buzz puts humans and agents on one signed event log
+- Source: https://buzz.xyz/
+  - Title: "Buzz"
+  - Type: Official product page
+  - Access: 2026-07-22
+  - Notes: Public launch surface for the early-stage Buzz workspace.
+- Repo: https://github.com/block/buzz
+  - Title: "block/buzz"
+  - Type: GitHub repository
+  - Access: 2026-07-22
+  - Notes: Apache-2.0 self-hostable workspace where people, agents, Git events, and workflows share a Nostr-based signed event log and identity model.
+- Post: https://x.com/jack/status/2079605800998146171
+  - Title: "Launching Buzz"
+  - Type: Creator X post
+  - Access: 2026-07-22
+  - Notes: Jack Dorsey's launch post frames Buzz as a model-agnostic, decentralized, self-sovereign, open-source alternative to Slack and GitHub for teams of people and agents.
 
 ### Bun's Rust rewrite makes agent cost impossible to ignore
 - Source: https://bun.com/blog/bun-in-rust
@@ -195,6 +224,28 @@ sources: []
   - Notes: OpenAI's announcement summarizes reward-seeking as following believed grader incentives rather than user or developer intent and links the joint research.
 
 ## Security
+
+### Antares makes vulnerability localization small and local
+- Source: https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization
+  - Title: "Introducing Antares: Highly Efficient Open Weight AI Models for Vulnerability Localization"
+  - Type: Official engineering blog
+  - Access: 2026-07-22
+  - Notes: Cisco's launch details the open-weight Antares-350M and Antares-1B terminal agents and their repository-level vulnerability-localization task.
+- Source: https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/
+  - Title: "VLoc Bench — Vulnerability Localization Benchmark"
+  - Type: Official benchmark
+  - Access: 2026-07-22
+  - Notes: The 500-task benchmark spans 290 repositories and 147 CWE types; its published results report a best File F1 of 0.229 and 190 tasks unsolved by every evaluated model.
+- Source: https://huggingface.co/fdtn-ai/antares-350m
+  - Title: "Antares-350M"
+  - Type: Hugging Face model card
+  - Access: 2026-07-22
+  - Notes: Apache-2.0 model card for Cisco's 350M-parameter Granite-based vulnerability-localization terminal agent.
+- Post: https://x.com/ciscoai/status/2079552055778402548
+  - Title: "Introducing Antares"
+  - Type: Official X post
+  - Access: 2026-07-22
+  - Notes: Cisco AI's launch post emphasizes local operation and avoiding cloud transfer of sensitive codebases.
 
 ### Grok Build uploaded the repo, not just the context
 - Source: https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html
