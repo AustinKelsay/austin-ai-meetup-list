@@ -81,7 +81,7 @@ sources: []
 
 ## Models & Research
 
-### Proprietary releases move from chat to specialized work
+### Closed model release highlights
 - Source: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
   - Title: "Introducing Muse Spark 1.1"
   - Type: Official launch blog
@@ -108,7 +108,7 @@ sources: []
   - Access: 2026-07-21
   - Notes: Reve releases its proprietary image model with stronger layout planning, 4K output, and a claimed second-place overall Arena position.
 
-### Open weights become a strategy, not a consolation prize
+### Open model release highlights
 - Source: https://thinkingmachines.ai/news/introducing-inkling/
   - Title: "Inkling: Our Open-Weights Model"
   - Type: Official launch blog

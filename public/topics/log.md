@@ -7,6 +7,7 @@
 - Added Cisco Antares and VLoc Bench to Security, Gigatoken and its tokenizer benchmarks to Agent Infrastructure, and Block's Buzz agent workspace to Agent Infrastructure.
 - Resolved each submitted X post to official model, benchmark, product, and repository sources; embedded all three posts in Meetup Data.
 - Added durable Cisco, Antares, Gigatoken, Block, and Buzz entity pages with reciprocal Meetup and Track links.
+- Renamed the two grouped model slides to **Closed model release highlights** and **Open model release highlights** so their purpose is obvious at a glance.
 
 ## [2026-07-08] update | Artifact-level model and project links added
 

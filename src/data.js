@@ -155,7 +155,7 @@ export const meetups = [
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
           {
-            title: "Proprietary releases move from chat to specialized work",
+            title: "Closed model release highlights",
             description:
               "Meta built its first paid model API around Muse Spark 1.1 and million-token agent orchestration; Google split Gemini Flash into general, cheap, and cyber tiers; Reve pushed image generation to controllable 4K. Closed models are specializing around the work, not just the chat.",
             chip: "proprietary releases",
@@ -176,7 +176,7 @@ export const meetups = [
             ],
           },
           {
-            title: "Open weights become a strategy, not a consolation prize",
+            title: "Open model release highlights",
             description:
               "Thinking Machines opened a 975B/41B-active multimodal MoE; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B single-camera robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local robotics, and embodied specialists.",
             chip: "open releases",

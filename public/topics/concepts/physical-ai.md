@@ -1,7 +1,7 @@
 ---
 title: Physical AI
 created: 2026-06-24
-updated: 2026-07-21
+updated: 2026-07-22
 type: concept
 tags: [concept, models-research, big-tech-moves]
 sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Physical AI covers AI systems that model, simulate, navigate, scan, or act in th
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open weights become a strategy, not a consolation prize**.
+- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**.
 - [[Austin AI Club - June 24, 2026]]: **Midjourney turns image-gen into body hardware**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose** and **World models need a taxonomy, not another demo**.
 - [[Austin AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.
