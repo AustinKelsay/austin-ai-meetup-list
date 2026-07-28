@@ -4,7 +4,7 @@
 
 - Run ID: wiki-topic-explorer-2026-06-24
 - Loop: Feature Dev
-- Target repo: AustinKelsay/austin-ai-meetup-list
+- Target repo: AustinKelsay/austin-ai-club
 - Base branch: origin/main
 - Feature branch: codex/wiki-topic-explorer
 - Human owner: AustinKelsay
@@ -20,16 +20,16 @@ Build the Wiki Explorer into a practical front-end exploration surface where a m
 
 - CONTEXT updates: Not needed; existing terms already cover Topic, Link, Referenced Topic Source, Wiki Explorer, LLM Wiki, Markdown Archive, and Meetup Data.
 - ADRs: Not needed; ADR 0002 already establishes a generated Wiki Explorer manifest as the read model while preserving `src/data.js` as Meetup Data.
-- PRD issue: https://github.com/AustinKelsay/austin-ai-meetup-list/issues/29
+- PRD issue: https://github.com/AustinKelsay/austin-ai-club/issues/29
 - Slice issues:
-  - https://github.com/AustinKelsay/austin-ai-meetup-list/issues/30
-  - https://github.com/AustinKelsay/austin-ai-meetup-list/issues/31
-  - https://github.com/AustinKelsay/austin-ai-meetup-list/issues/32
+  - https://github.com/AustinKelsay/austin-ai-club/issues/30
+  - https://github.com/AustinKelsay/austin-ai-club/issues/31
+  - https://github.com/AustinKelsay/austin-ai-club/issues/32
 - Issue sessions: This ledger, plus per-slice notes below.
 - Agent briefs: Pending issue links.
 - Review packets: This ledger records final review status and verification evidence.
 - Local CodeRabbit report: Final `coderabbit review --agent --base main -c AGENTS.md` pass raised 0 issues after fixing 2 major findings and 1 minor finding from earlier rounds.
-- PR URL: https://github.com/AustinKelsay/austin-ai-meetup-list/pull/33
+- PR URL: https://github.com/AustinKelsay/austin-ai-club/pull/33
 
 ## Commands
 

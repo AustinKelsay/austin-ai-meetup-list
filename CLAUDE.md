@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues and PRDs for this repo live in GitHub Issues for `AustinKelsay/austin-ai-meetup-list`. See `docs/agents/issue-tracker.md`.
+Issues and PRDs for this repo live in GitHub Issues for `AustinKelsay/austin-ai-club`. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

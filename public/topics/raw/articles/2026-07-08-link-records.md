@@ -492,7 +492,7 @@ sources: []
   - Notes: Post announcing `codex-app-modifier` and the incognito-thread test project for local Codex desktop customization.
 
 ### Community Slot
-- Link: https://github.com/AustinKelsay/austin-ai-meetup-list
+- Link: https://github.com/AustinKelsay/austin-ai-club
   - Title: "Austin AI Meetup List"
   - Type: Repository
   - Access: 2026-07-07

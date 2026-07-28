@@ -1,4 +1,4 @@
-# austin-ai-meetup-list
+# austin-ai-club
 
 A small Vite + React frontend for Austin AI Club meetups, topic boards, submissions, reminders, and presentation mode.
 

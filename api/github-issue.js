@@ -3,7 +3,7 @@ import { getNextSubmissionTarget } from "../src/features/calendar/calendar.js";
 import { parseSubmissionLinks } from "../src/features/submissions/links.js";
 
 const DEFAULT_REPO_OWNER = "AustinKelsay";
-const DEFAULT_REPO_NAME = "austin-ai-meetup-list";
+const DEFAULT_REPO_NAME = "austin-ai-club";
 
 function trimString(value) {
   return typeof value === "string" ? value.trim() : "";
@@ -152,7 +152,7 @@ export default async function handler(request, response) {
         Accept: "application/vnd.github+json",
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
-        "User-Agent": "austin-ai-meetup-list",
+        "User-Agent": "austin-ai-club",
         "X-GitHub-Api-Version": "2022-11-28",
       },
       body: JSON.stringify(issuePayload),

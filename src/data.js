@@ -695,7 +695,7 @@ export const meetups = [
         description:
           "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
         chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+        href: "https://github.com/AustinKelsay/austin-ai-club",
       },
     ],
     tracks: [
@@ -2039,7 +2039,7 @@ export const meetups = [
         description:
           "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
         chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+        href: "https://github.com/AustinKelsay/austin-ai-club",
       },
     ],
     tracks: [
@@ -2313,7 +2313,7 @@ export const meetups = [
         description:
           "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
         chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-meetup-list",
+        href: "https://github.com/AustinKelsay/austin-ai-club",
       },
     ],
     tracks: [
