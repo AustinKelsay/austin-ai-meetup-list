@@ -6,6 +6,7 @@ import {
   isLinkVisible,
   isNodeTypeVisible,
   resetVisibleTypes,
+  resolveGraphFocusId,
   showOnlyType,
   toggleVisibleType,
   WIKI_GRAPH_TYPE_LIST,
@@ -100,5 +101,24 @@ describe("wikiGraphFilters", () => {
     expect(isLinkVisible(hiddenLink, visibleNodeIds)).toBe(false);
     expect(isLinkVisible(reverseHiddenLink, visibleNodeIds)).toBe(false);
     expect(isLinkVisible(objectLink, visibleNodeIds)).toBe(true);
+  });
+
+  it("resolves graph focus to a visible neighbor for off-legend pages", () => {
+    const pagesById = {
+      summary: {
+        id: "summary",
+        type: "summary",
+        outgoingIds: ["meetup"],
+        backlinkIds: [],
+      },
+      meetup: { id: "meetup", type: "meetup", outgoingIds: [], backlinkIds: ["summary"] },
+      hidden: { id: "hidden", type: "summary", outgoingIds: [], backlinkIds: [] },
+    };
+    const visible = new Set(["meetup", "entity"]);
+
+    expect(resolveGraphFocusId(pagesById.summary, pagesById, visible)).toBe("meetup");
+    expect(resolveGraphFocusId(pagesById.meetup, pagesById, visible)).toBe("meetup");
+    expect(resolveGraphFocusId(pagesById.hidden, pagesById, visible)).toBeNull();
+    expect(resolveGraphFocusId(null, pagesById, visible)).toBeNull();
   });
 });

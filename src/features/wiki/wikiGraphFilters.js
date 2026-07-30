@@ -43,3 +43,34 @@ export function getVisibleNodeIds(nodes, visibleTypes) {
 export function isLinkVisible(link, visibleNodeIds) {
   return visibleNodeIds.has(link.source?.id ?? link.source) && visibleNodeIds.has(link.target?.id ?? link.target);
 }
+
+/**
+ * Picks which graph node should receive focus for a selected wiki page.
+ * Pages whose type is off the legend (e.g. summary) fall back to their first
+ * visible neighbor so the camera does not center on a hidden node.
+ *
+ * @param {{ id: string, type: string, outgoingIds?: string[], backlinkIds?: string[] } | null} selectedPage
+ * @param {Record<string, { id: string, type: string }>} pagesById
+ * @param {Set<string>} visibleTypes
+ * @returns {string | null}
+ */
+export function resolveGraphFocusId(selectedPage, pagesById, visibleTypes) {
+  if (!selectedPage) {
+    return null;
+  }
+
+  if (visibleTypes.has(selectedPage.type)) {
+    return selectedPage.id;
+  }
+
+  const neighborIds = [...(selectedPage.outgoingIds ?? []), ...(selectedPage.backlinkIds ?? [])];
+
+  for (const id of neighborIds) {
+    const neighbor = pagesById[id];
+    if (neighbor && visibleTypes.has(neighbor.type)) {
+      return neighbor.id;
+    }
+  }
+
+  return null;
+}

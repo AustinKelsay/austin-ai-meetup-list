@@ -9,7 +9,7 @@ import {
 import RouteLink from "../../components/RouteLink.jsx";
 import ArchiveShell from "../archive/ArchiveShell.jsx";
 import { groupPagesByType } from "./wikiCatalogGroups.js";
-import { getDefaultVisibleTypes, toggleVisibleType } from "./wikiGraphFilters.js";
+import { getDefaultVisibleTypes, resolveGraphFocusId, toggleVisibleType, WIKI_GRAPH_TYPE_LIST } from "./wikiGraphFilters.js";
 import { WikiDetail } from "./WikiDetail.jsx";
 import WikiGraph from "./WikiGraph.jsx";
 import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
@@ -61,6 +61,24 @@ function getCatalogMetric(page) {
 
 function getPageDegree(page) {
   return page.outgoingIds.length + page.backlinkIds.length;
+}
+
+/**
+ * Picks a sensible default wiki page for first load.
+ * Prefers on-graph types (especially meetups) over source records, which are
+ * hidden from the force-graph legend.
+ * @param {Array<{ type: string }>} pages
+ * @returns {object | null}
+ */
+function getDefaultWikiPage(pages) {
+  const graphTypes = new Set(WIKI_GRAPH_TYPE_LIST);
+
+  return (
+    pages.find((page) => page.type === "meetup") ??
+    pages.find((page) => graphTypes.has(page.type)) ??
+    pages[0] ??
+    null
+  );
 }
 
 function sortPages(pages, sort) {
@@ -375,27 +393,20 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
   const selectedPage =
     (focusedWikiId ? selectedCandidate : null) ??
     (selectedCandidateIsVisible ? selectedCandidate : null) ??
-    (focusedWikiId ? null : searchDefaultPage ?? pages.find((page) => page.sourceLinks?.length > 0) ?? pages[0] ?? null);
+    (focusedWikiId ? null : searchDefaultPage ?? getDefaultWikiPage(pages));
   const selectedPageId = selectedPage?.id ?? selectedId;
+  const graphSelectedId = resolveGraphFocusId(selectedPage, manifest.pagesById, visibleTypes);
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki">
       <main className="wiki-shell">
         <section className="wiki-hero">
-          <div>
-            <p className="eyebrow">LLM Wiki</p>
-            <h2>Connected notes from Austin AI Club</h2>
-            <p>
-              Browse Meetup topics through their source links, recurring entities, concepts, and
-              durable source records.
-            </p>
-          </div>
-          <div className="wiki-stats" aria-label="Wiki stats">
-            <span>{pluralize(manifest.stats.pageCount, "page")}</span>
-            <span>{pluralize(manifest.stats.linkCount ?? 0, "wiki link")}</span>
-            <span>{pluralize(manifest.stats.sourceLinkCount ?? 0, "source link")}</span>
-            <span>{pluralize(manifest.stats.sourceRecordCount ?? 0, "source record")}</span>
-          </div>
+          <p className="eyebrow">LLM Wiki</p>
+          <h2>Connected notes from Austin AI Club</h2>
+          <p>
+            Browse Meetup topics through their source links, recurring entities, concepts, and
+            durable source records.
+          </p>
         </section>
 
         <section className="wiki-workspace">
@@ -483,20 +494,19 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
 
           <section className="wiki-graph-panel" aria-label="Wiki graph">
             <div className="wiki-panel-heading">
-              <div>
-                <p className="eyebrow">Graph</p>
-                <span>{selectedPage?.title ?? "No page selected"}</span>
-              </div>
+              <strong className="wiki-panel-title">
+                {selectedPage?.title ?? "No page selected"}
+              </strong>
               <div className="wiki-panel-actions">
                 <button type="button" className="wiki-surprise" onClick={handleSurprise}>
-                  Surprise me
+                  Surprise
                 </button>
                 <WikiGraphLegend visibleTypes={visibleTypes} onToggle={handleToggleType} />
               </div>
             </div>
             <WikiGraph
               graph={manifest.graph}
-              selectedId={selectedPageId}
+              selectedId={graphSelectedId}
               onSelectPage={selectPage}
               visibleTypes={visibleTypes}
             />

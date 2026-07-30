@@ -1,6 +1,14 @@
+/**
+ * Interactive force-directed wiki link graph.
+ * Defers the initial camera fit until the simulation settles with real node coordinates,
+ * and never auto-refocuses on resize (Focus / All remain manual).
+ */
 import ForceGraph from "force-graph";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { getDefaultVisibleTypes } from "./wikiGraphFilters.js";
+import {
+  getDefaultVisibleTypes,
+  isLinkVisible,
+} from "./wikiGraphFilters.js";
 import { updateLatestValueRef } from "./WikiGraphController.js";
 import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
 import {
@@ -12,19 +20,31 @@ import {
   getLinkWidth,
   getNodeColor,
   getNodeVal,
-  isNeighborLink,
   shouldShowNodeLabel,
 } from "./wikiGraphVisuals.js";
 
-const FIT_PADDING = 72;
+const FIT_PADDING = 120;
 const SMALL_FOCUS_NODE_LIMIT = 6;
 const TINY_FOCUS_ZOOM = 1.2;
 const SMALL_FOCUS_ZOOM = 1.45;
 
+/**
+ * Fits the camera to nodes matching `nodeFilter`.
+ * @param {object} instance ForceGraph instance
+ * @param {number} [duration=450] Animation duration in ms
+ * @param {(node: object) => boolean} [nodeFilter] Optional node predicate
+ */
 function focusGraph(instance, duration = 450, nodeFilter) {
   instance.zoomToFit(duration, FIT_PADDING, nodeFilter);
 }
 
+/**
+ * Builds a predicate for the selected neighborhood (or all visible types).
+ * @param {string | null} selectedId Currently selected page id
+ * @param {Set<string>} neighborIds Neighbor page ids
+ * @param {Set<string>} visibleTypes Visible graph type set
+ * @returns {(node: object) => boolean}
+ */
 function buildFocusNodeFilter(selectedId, neighborIds, visibleTypes) {
   if (!selectedId) {
     return (node) => visibleTypes.has(node.type);
@@ -34,17 +54,50 @@ function buildFocusNodeFilter(selectedId, neighborIds, visibleTypes) {
     visibleTypes.has(node.type) && (node.id === selectedId || neighborIds.has(node.id));
 }
 
+/**
+ * Returns true when the graph has visible nodes with settled x/y coordinates.
+ * @param {object} instance ForceGraph instance
+ * @param {Set<string>} visibleTypes Visible graph type set
+ * @returns {boolean}
+ */
+function hasSettledVisibleNodes(instance, visibleTypes) {
+  const nodes = instance.graphData()?.nodes ?? [];
+  if (nodes.length === 0) {
+    return false;
+  }
+
+  return nodes.some(
+    (node) => visibleTypes.has(node.type) && node.x != null && node.y != null,
+  );
+}
+
+/**
+ * Centers on a small neighborhood or zoom-to-fits the focus set.
+ * Never centers on a selected node that is hidden by the type legend.
+ * @param {object} instance ForceGraph instance
+ * @param {string | null} selectedId Currently selected page id
+ * @param {Set<string>} neighborIds Neighbor page ids
+ * @param {Set<string>} visibleTypes Visible graph type set
+ * @param {number} [duration=450] Animation duration in ms
+ */
 function focusNeighborhood(instance, selectedId, neighborIds, visibleTypes, duration = 450) {
   const nodeFilter = buildFocusNodeFilter(selectedId, neighborIds, visibleTypes);
   const graphData = instance.graphData();
-  const focusNodeCount = graphData.nodes.filter(nodeFilter).length;
+  const focusNodes = graphData.nodes.filter(nodeFilter);
+  const selectedNode = selectedId
+    ? graphData.nodes.find((node) => node.id === selectedId)
+    : null;
+  const selectedIsVisible = Boolean(selectedNode && visibleTypes.has(selectedNode.type));
 
-  if (selectedId && focusNodeCount <= SMALL_FOCUS_NODE_LIMIT) {
-    const selectedNode = graphData.nodes.find((node) => node.id === selectedId);
+  if (focusNodes.length === 0) {
+    focusGraph(instance, duration, (node) => visibleTypes.has(node.type));
+    return;
+  }
 
-    if (selectedNode?.x != null && selectedNode.y != null) {
+  if (selectedIsVisible && focusNodes.length <= SMALL_FOCUS_NODE_LIMIT) {
+    if (selectedNode.x != null && selectedNode.y != null) {
       instance.centerAt(selectedNode.x, selectedNode.y, duration);
-      instance.zoom(focusNodeCount <= 2 ? TINY_FOCUS_ZOOM : SMALL_FOCUS_ZOOM, duration);
+      instance.zoom(focusNodes.length <= 2 ? TINY_FOCUS_ZOOM : SMALL_FOCUS_ZOOM, duration);
       return;
     }
   }
@@ -52,22 +105,10 @@ function focusNeighborhood(instance, selectedId, neighborIds, visibleTypes, dura
   focusGraph(instance, duration, nodeFilter);
 }
 
-function getVisibleNodeCount(nodes, visibleTypes) {
-  return nodes.filter((node) => visibleTypes.has(node.type)).length;
-}
-
-function getFocusLinkCount(links, selectedId, neighborIds) {
-  if (!selectedId) {
-    return links.length;
-  }
-
-  return links.filter((link) => isNeighborLink(link, selectedId, neighborIds)).length;
-}
-
-function formatGraphCount(count, singular) {
-  return `${count} ${singular}${count === 1 ? "" : "s"}`;
-}
-
+/**
+ * Renders the wiki force graph with Focus / All / Full screen controls.
+ * @param {{ graph: { nodes: object[], links: object[] }, selectedId: string | null, onSelectPage: (id: string) => void, visibleTypes?: Set<string> }} props
+ */
 export default function WikiGraph({ graph, selectedId, onSelectPage, visibleTypes = getDefaultVisibleTypes() }) {
   const containerRef = useRef(null);
   const graphRef = useRef(null);
@@ -76,20 +117,30 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
   const visibleTypesRef = useRef(visibleTypes);
   const selectedIdRef = useRef(selectedId);
   const neighborIdsRef = useRef(new Set());
-  const hasFocusedRef = useRef(false);
+  const visibleNodeIdsRef = useRef(new Set());
+  const hasSettledFitRef = useRef(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const graphData = useMemo(
-    () => ({
-      nodes: graph.nodes.map((node) => ({ ...node })),
-      links: graph.links.map((link) => ({ ...link })),
-    }),
-    [graph],
-  );
+  const graphData = useMemo(() => {
+    const nodes = graph.nodes
+      .filter((node) => visibleTypes.has(node.type))
+      .map((node) => ({ ...node }));
+    const visibleIds = new Set(nodes.map((node) => node.id));
+    const links = graph.links
+      .filter((link) => isLinkVisible(link, visibleIds))
+      .map((link) => ({ ...link }));
+
+    return { nodes, links };
+  }, [graph, visibleTypes]);
 
   const neighborIds = useMemo(
     () => buildNeighborIds(graphData.links, selectedId),
     [graphData.links, selectedId],
+  );
+
+  const visibleNodeIds = useMemo(
+    () => new Set(graphData.nodes.map((node) => node.id)),
+    [graphData.nodes],
   );
 
   useEffect(() => {
@@ -106,6 +157,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
   }, [selectedId, neighborIds]);
 
   useEffect(() => {
+    visibleNodeIdsRef.current = visibleNodeIds;
+  }, [visibleNodeIds]);
+
+  useEffect(() => {
     if (!containerRef.current) {
       return undefined;
     }
@@ -117,6 +172,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .nodeRelSize(3.4)
       .nodeVal((node) => getNodeVal(node, selectedIdRef.current, neighborIdsRef.current))
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
+      .linkVisibility((link) => isLinkVisible(link, visibleNodeIdsRef.current))
       .nodeColor((node) =>
         getNodeColor(node, selectedIdRef.current, WIKI_GRAPH_TYPE_COLORS, neighborIdsRef.current),
       )
@@ -141,15 +197,22 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .enableZoomInteraction(true)
       .enablePanInteraction(true)
       .onEngineStop(() => {
-        if (!hasFocusedRef.current) {
-          focusNeighborhood(
-            instance,
-            selectedIdRef.current,
-            neighborIdsRef.current,
-            visibleTypesRef.current,
-          );
-          hasFocusedRef.current = true;
+        if (hasSettledFitRef.current) {
+          return;
         }
+
+        if (!hasSettledVisibleNodes(instance, visibleTypesRef.current)) {
+          return;
+        }
+
+        focusNeighborhood(
+          instance,
+          selectedIdRef.current,
+          neighborIdsRef.current,
+          visibleTypesRef.current,
+          0,
+        );
+        hasSettledFitRef.current = true;
       })
       .onNodeClick((node) => onSelectPageRef.current(node.id));
 
@@ -158,20 +221,15 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
 
     graphRef.current = instance;
 
+    /** Resize the canvas only — never auto-refocus the camera. */
     const resize = () => {
+      if (!containerRef.current) {
+        return;
+      }
+
       const bounds = containerRef.current.getBoundingClientRect();
       instance.width(Math.max(280, bounds.width));
       instance.height(Math.max(280, bounds.height));
-
-      if (hasFocusedRef.current) {
-        focusNeighborhood(
-          instance,
-          selectedIdRef.current,
-          neighborIdsRef.current,
-          visibleTypesRef.current,
-          250,
-        );
-      }
     };
     resizeGraphRef.current = resize;
 
@@ -191,6 +249,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       instance.graphData({ nodes: [], links: [] });
       resizeGraphRef.current = null;
       graphRef.current = null;
+      hasSettledFitRef.current = false;
     };
   }, []);
 
@@ -225,6 +284,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       return;
     }
 
+    hasSettledFitRef.current = false;
     graphRef.current.graphData(graphData);
   }, [graphData]);
 
@@ -236,6 +296,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
     graphRef.current
       .nodeVal((node) => getNodeVal(node, selectedId, neighborIds))
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
+      .linkVisibility((link) => isLinkVisible(link, visibleNodeIdsRef.current))
       .nodeColor((node) =>
         getNodeColor(node, selectedId, WIKI_GRAPH_TYPE_COLORS, neighborIds),
       )
@@ -243,12 +304,17 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .linkWidth((link) => getLinkWidth(link, selectedId, neighborIds))
       .linkDirectionalParticles((link) => getLinkParticleCount(link, selectedId, neighborIds));
 
+    if (!hasSettledFitRef.current) {
+      return;
+    }
+
+    if (!hasSettledVisibleNodes(graphRef.current, visibleTypesRef.current)) {
+      return;
+    }
+
     focusNeighborhood(graphRef.current, selectedId, neighborIds, visibleTypesRef.current, 450);
   }, [selectedId, neighborIds, visibleTypes, graphData.nodes]);
 
-  const visibleNodeCount = getVisibleNodeCount(graphData.nodes, visibleTypes);
-  const focusNodeCount = selectedId ? neighborIds.size + 1 : visibleNodeCount;
-  const focusLinkCount = getFocusLinkCount(graphData.links, selectedId, neighborIds);
   const frameClassName = [
     "wiki-graph-frame",
     isFullscreen ? "wiki-graph-frame--fullscreen" : "",
@@ -262,12 +328,6 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       aria-label={isFullscreen ? "Fullscreen wiki graph" : undefined}
     >
       <div className="wiki-graph-status-row">
-        <div className="wiki-graph-lens" aria-label="Graph focus">
-          <span>{selectedId ? "Neighborhood" : "Full map"}</span>
-          <strong>
-            {formatGraphCount(focusNodeCount, "node")} / {formatGraphCount(focusLinkCount, "link")}
-          </strong>
-        </div>
         <div className="wiki-graph-fit-controls">
           <button
             type="button"
