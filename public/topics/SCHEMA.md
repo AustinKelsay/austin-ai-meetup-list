@@ -54,6 +54,8 @@ Use public link records instead:
 
 For dated source link record pages, organize sources by Track heading, then by curated Topic title subheading, with one or more supporting source records underneath. The Topic title should match the Meetup board wording, not the source's original headline.
 
+Models & Research boards use official Release Roundup Topic titles `Closed model releases` and `Open model releases` for biweekly launch catalogs. Source-record groups for those Topics should use the same exact titles, with research/eval Topics kept as separate `###` headings after them.
+
 All dated source link record pages should follow this shape, including historical pages. When older records are encountered, backfill them into Topic title groups rather than preserving flat or source-cluster-only lists.
 
 During backfills, use the Topic titles already present on the dated Meetup page. Do not invent replacement titles in the source link record. If an older source cluster spans multiple Topics, split the sources under the matching Topic titles; if a source is ambiguous, keep it under the closest real Topic title and explain the broader support in its note.

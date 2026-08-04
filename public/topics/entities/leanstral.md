@@ -9,7 +9,7 @@ sources: [raw/articles/2026-07-08-link-records.md]
 
 # Leanstral
 
-Leanstral is Mistral's Lean proof-engineering model line, preserved here because the July 8 board used it as an example of open models getting narrowly specialized instead of just larger.
+Leanstral is Mistral's Lean proof-engineering model line. On the July 8 board it sits inside **Open model releases** as an example of open models getting narrowly specialized instead of just larger.
 
 ## Mentioned In
 

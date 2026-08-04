@@ -14,7 +14,7 @@ Cohere is a recurring Austin AI Club entity for enterprise-focused open models, 
 ## Mentioned In
 
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**, including North Mini Code and Cohere Transcribe.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
 - [[Austin AI Club - April 1, 2026]]: **Open model releases**.
 
 ## Related

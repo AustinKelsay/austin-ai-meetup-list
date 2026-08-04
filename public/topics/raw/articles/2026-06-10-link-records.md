@@ -198,7 +198,7 @@ sources: []
   - Title: "Claude announcement post for Claude Fable 5 and Claude Mythos 5"
   - Type: Official X post
   - Access: 2026-06-09
-  - Notes: User-submitted Claude post used as the first embed on the proprietary model release super-slide.
+  - Notes: User-submitted Claude post used as the first embed on the Closed model releases roundup.
 - Source: https://www.anthropic.com/news/claude-opus-4-8
   - Title: "Introducing Claude Opus 4.8"
   - Type: Official release

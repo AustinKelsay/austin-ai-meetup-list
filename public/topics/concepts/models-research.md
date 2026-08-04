@@ -11,6 +11,8 @@ sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-
 
 Models & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.
 
+Biweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.
+
 ## Mentioned In
 
 - [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
@@ -26,22 +28,26 @@ Models & Research is the Austin AI Club track for model releases, benchmark shif
 
 ## Related
 
-- [[AI Mathematics]]
-- [[AlphaEvolve]]
-- [[BTL-3]]
-- [[Inkling]]
-
 - [[Open Models]]
-- [[AI Signal Discovery]]
 - [[Local AI]]
+- [[AI Signal Discovery]]
 - [[AI Benchmarks & Evals]]
 - [[Inference Optimization]]
+- [[Speculative Decoding]]
 - [[Physical AI]]
 - [[Model Distillation]]
-- [[Speculative Decoding]]
 - [[World Models]]
 - [[Compute Strategy]]
 - [[Coding Agents]]
+- [[AI Mathematics]]
+- [[AlphaEvolve]]
+- [[FLUX 3]]
+- [[Ling-3.0-flash]]
+- [[Laguna S 2.1]]
+- [[Pokee-Isaac]]
+- [[Astra]]
+- [[BTL-3]]
+- [[Inkling]]
 - [[Brain2Qwerty]]
 - [[GPT-5.6]]
 - [[Claude Sonnet 5]]

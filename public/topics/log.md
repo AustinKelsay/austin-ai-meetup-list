@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-04] garden | Closed/Open release-roundup consistency pass
+
+- Documented the official Release Roundup convention on the Models & Research and Open Models hub pages, SCHEMA, and Related lists for Aug 5 model entities.
+- Cleaned Mentions prose that still treated Closed launches as Open Models citations; linked July 22 Open packaging back to Local AI; and replaced leftover super-slide wording in host notes and source-record notes.
+
 ## [2026-08-04] update | Retrofit historical Closed/Open model-release roundups
 
 - Restructured every past Models & Research board so model launches live under the official `Closed model releases` and `Open model releases` Release Roundup Topics.

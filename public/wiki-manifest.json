@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:34:07.752Z",
+  "generatedAt": "2026-08-04T20:40:18.252Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -3636,7 +3636,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]"
     },
     {
       "id": "ai-governance",
@@ -8409,6 +8409,7 @@
         "ai-mathematics",
         "austin-ai-club-august-5-2026",
         "gpt-56",
+        "models-research",
         "openai"
       ],
       "referencedTopicSources": [
@@ -24111,7 +24112,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Cohere\n\nCohere is a recurring Austin AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, including North Mini Code and Cohere Transcribe.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Cohere Transcribe Arabic]]"
+      "bodyMarkdown": "# Cohere\n\nCohere is a recurring Austin AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Cohere Transcribe Arabic]]"
     },
     {
       "id": "cohere-transcribe-arabic",
@@ -24130,8 +24131,8 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "excerpt": "Cohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the July 8 board as a specialization example within the open-model wave.",
+      "updated": "2026-08-04",
+      "excerpt": "Cohere Transcribe Arabic is Cohere's open Arabic ASR model release. On the July 8 board it appears inside the official **Open model releases** roundup as a specialization example within that open-weight wave.",
       "rawHref": "/topics/entities/cohere-transcribe-arabic.md",
       "relativePath": "entities/cohere-transcribe-arabic.md",
       "outgoingIds": [
@@ -24333,7 +24334,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Cohere Transcribe Arabic\n\nCohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the July 8 board as a specialization example within the open-model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Cohere]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[Local AI]]"
+      "bodyMarkdown": "# Cohere Transcribe Arabic\n\nCohere Transcribe Arabic is Cohere's open Arabic ASR model release. On the July 8 board it appears inside the official **Open model releases** roundup as a specialization example within that open-weight wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Cohere]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[Local AI]]"
     },
     {
       "id": "company-brain",
@@ -28073,7 +28074,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -30784,7 +30787,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Closed model releases**, **Closed model releases**, and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
     },
     {
       "id": "google",
@@ -35312,7 +35315,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**, **Open model releases**, and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "inkling",
@@ -36690,7 +36693,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -36777,7 +36782,7 @@
       "sourceReferences": [],
       "created": "2026-07-08",
       "updated": "2026-07-08",
-      "excerpt": "Leanstral is Mistral's Lean proof-engineering model line, preserved here because the July 8 board used it as an example of open models getting narrowly specialized instead of just larger.",
+      "excerpt": "Leanstral is Mistral's Lean proof-engineering model line. On the July 8 board it sits inside **Open model releases** as an example of open models getting narrowly specialized instead of just larger.",
       "rawHref": "/topics/entities/leanstral.md",
       "relativePath": "entities/leanstral.md",
       "outgoingIds": [
@@ -36979,7 +36984,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Leanstral\n\nLeanstral is Mistral's Lean proof-engineering model line, preserved here because the July 8 board used it as an example of open models getting narrowly specialized instead of just larger.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Mistral]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
+      "bodyMarkdown": "# Leanstral\n\nLeanstral is Mistral's Lean proof-engineering model line. On the July 8 board it sits inside **Open model releases** as an example of open models getting narrowly specialized instead of just larger.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Mistral]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
     },
     {
       "id": "ling-30-flash",
@@ -37012,7 +37017,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -37248,6 +37255,370 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://thinkingmachines.ai/news/introducing-inkling/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://thinkingmachines.ai/model-card/inkling/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Badtheorylabs/status/2079306502897074249",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/badtheorylabs/BTL-3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/badtheorylabs/BTL-3-Compact",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/Badtheorylabs/BTL-3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/nvidia/status/2071685134990897443",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/robostral-navigate/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.kimi.com/blog/kimi-k3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.kimi.com/help/agent/agent-overview",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Kimi_Moonshot/status/2078855608565207130",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/Tencent-Hunyuan/Hy3-preview",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2074148098876768478",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26b-a4b-it",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Lightricks/LTX-2.3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/baidu/Unlimited-OCR",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/HunyuanOCR",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/krea/Krea-2-Turbo",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/maya-research/maya1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/circlestone-labs/Anima",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/ByteDance/UniVR-34B-Planning",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/nvDock",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://aiflashreport.com/model-releases.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/antirez/deepseek-v4-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2076953120765280284",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
         },
         {
           "href": "https://llama.garden/",
@@ -38419,7 +38790,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
+      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
     },
     {
       "id": "local-builds-projects",
@@ -43339,6 +43710,7 @@
         "ai-mathematics",
         "ai-signal-discovery",
         "alphaevolve",
+        "astra",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-5-2026",
@@ -43358,13 +43730,16 @@
         "compute-strategy",
         "cwip",
         "diffusiongemma",
+        "flux-3",
         "gemini-omni-flash",
         "gemma",
         "gpt-56",
         "harc",
         "inference-optimization",
         "inkling",
+        "laguna-s-21",
         "leanstral",
+        "ling-30-flash",
         "local-ai",
         "meta-muse",
         "minimax-m3",
@@ -43373,6 +43748,7 @@
         "nemotron-puzzle",
         "open-models",
         "physical-ai",
+        "pokee-isaac",
         "qwen-agentworld",
         "speculative-decoding",
         "swe-17",
@@ -43413,6 +43789,7 @@
         "ling-30-flash",
         "meta-muse",
         "mistral",
+        "open-models",
         "physical-ai",
         "pokee-isaac",
         "swe-17",
@@ -46641,7 +47018,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases**, **Should chat route local by default?**, **Closed model releases**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, **DeepSWE exposes the real coding model hierarchy**, **Open model releases**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **Closed model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **Open model releases**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Open model releases**, **Open model releases**, and **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Composer 2 / Kimi K2.5 drama**, **Open model releases**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[BTL-3]]\n- [[Inkling]]\n\n- [[Open Models]]\n- [[AI Signal Discovery]]\n- [[Local AI]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -50729,7 +51106,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]"
+      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]"
     },
     {
       "id": "ollama",
@@ -50944,6 +51321,7 @@
         "deepseek",
         "deepspec",
         "diffusiongemma",
+        "flux-3",
         "gemma",
         "glm",
         "harc",
@@ -50951,7 +51329,9 @@
         "inference-optimization",
         "inkling",
         "kimi",
+        "laguna-s-21",
         "leanstral",
+        "ling-30-flash",
         "local-ai",
         "meta",
         "microsoft",
@@ -50959,6 +51339,7 @@
         "minimax-m3",
         "mistral",
         "model-distillation",
+        "models-research",
         "moonshot-ai",
         "nemotron",
         "nemotron-puzzle",
@@ -50971,7 +51352,6 @@
         "tencent",
         "tmax",
         "vllm",
-        "waico",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -52894,41 +53274,6 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
-          "href": "https://qwen.ai/blog?id=qwen3.6",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://chat.qwen.ai/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2039705104723611829",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2041913043379220801",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
           "href": "https://over.world/blog/waypoint-1-5",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -53034,41 +53379,6 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
-          "href": "https://x.com/OpenAI/status/2033953592424731072",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2034239267052896516",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://www.minimax.io/news/minimax-m27-en",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
           "href": "https://huggingface.co/collections/Qwen/qwen35",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -53111,7 +53421,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**, **Attune patches the open-model tool-call boundary**, and **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, and **LMfit**.\n\n## Related\n\n- [[BTL-3]]\n- [[Inkling]]\n- [[WAICO]]\n\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[Qwen]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[Qwen]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "openagents",
@@ -56663,7 +56973,8 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research"
       ],
       "referencedTopicSources": [
         {
@@ -58340,7 +58651,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
+      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
     },
     {
       "id": "qwen-agentworld",
@@ -62745,8 +63056,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-july-22-2026",
-        "big-tech-moves",
-        "open-models"
+        "big-tech-moves"
       ],
       "referencedTopicSources": [
         {
@@ -63659,7 +63969,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Closed model releases**, **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
     }
   ],
   "pagesById": {
@@ -67298,7 +67608,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]"
     },
     "ai-governance": {
       "id": "ai-governance",
@@ -72071,6 +72381,7 @@
         "ai-mathematics",
         "austin-ai-club-august-5-2026",
         "gpt-56",
+        "models-research",
         "openai"
       ],
       "referencedTopicSources": [
@@ -87773,7 +88084,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Cohere\n\nCohere is a recurring Austin AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, including North Mini Code and Cohere Transcribe.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Cohere Transcribe Arabic]]"
+      "bodyMarkdown": "# Cohere\n\nCohere is a recurring Austin AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Cohere Transcribe Arabic]]"
     },
     "cohere-transcribe-arabic": {
       "id": "cohere-transcribe-arabic",
@@ -87792,8 +88103,8 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "excerpt": "Cohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the July 8 board as a specialization example within the open-model wave.",
+      "updated": "2026-08-04",
+      "excerpt": "Cohere Transcribe Arabic is Cohere's open Arabic ASR model release. On the July 8 board it appears inside the official **Open model releases** roundup as a specialization example within that open-weight wave.",
       "rawHref": "/topics/entities/cohere-transcribe-arabic.md",
       "relativePath": "entities/cohere-transcribe-arabic.md",
       "outgoingIds": [
@@ -87995,7 +88306,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Cohere Transcribe Arabic\n\nCohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the July 8 board as a specialization example within the open-model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Cohere]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[Local AI]]"
+      "bodyMarkdown": "# Cohere Transcribe Arabic\n\nCohere Transcribe Arabic is Cohere's open Arabic ASR model release. On the July 8 board it appears inside the official **Open model releases** roundup as a specialization example within that open-weight wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Cohere]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[Local AI]]"
     },
     "company-brain": {
       "id": "company-brain",
@@ -91735,7 +92046,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -94446,7 +94759,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Closed model releases**, **Closed model releases**, and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
     },
     "google": {
       "id": "google",
@@ -98974,7 +99287,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**, **Open model releases**, and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "inkling": {
       "id": "inkling",
@@ -100352,7 +100665,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -100439,7 +100754,7 @@
       "sourceReferences": [],
       "created": "2026-07-08",
       "updated": "2026-07-08",
-      "excerpt": "Leanstral is Mistral's Lean proof-engineering model line, preserved here because the July 8 board used it as an example of open models getting narrowly specialized instead of just larger.",
+      "excerpt": "Leanstral is Mistral's Lean proof-engineering model line. On the July 8 board it sits inside **Open model releases** as an example of open models getting narrowly specialized instead of just larger.",
       "rawHref": "/topics/entities/leanstral.md",
       "relativePath": "entities/leanstral.md",
       "outgoingIds": [
@@ -100641,7 +100956,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Leanstral\n\nLeanstral is Mistral's Lean proof-engineering model line, preserved here because the July 8 board used it as an example of open models getting narrowly specialized instead of just larger.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Mistral]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
+      "bodyMarkdown": "# Leanstral\n\nLeanstral is Mistral's Lean proof-engineering model line. On the July 8 board it sits inside **Open model releases** as an example of open models getting narrowly specialized instead of just larger.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Mistral]]\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
     },
     "ling-30-flash": {
       "id": "ling-30-flash",
@@ -100674,7 +100989,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research",
+        "open-models"
       ],
       "referencedTopicSources": [
         {
@@ -100910,6 +101227,370 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://thinkingmachines.ai/news/introducing-inkling/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://thinkingmachines.ai/model-card/inkling/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Badtheorylabs/status/2079306502897074249",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/badtheorylabs/BTL-3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/badtheorylabs/BTL-3-Compact",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/Badtheorylabs/BTL-3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/nvidia/status/2071685134990897443",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/robostral-navigate/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.kimi.com/blog/kimi-k3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://www.kimi.com/help/agent/agent-overview",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/Kimi_Moonshot/status/2078855608565207130",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/Hy3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://github.com/Tencent-Hunyuan/Hy3-preview",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2074148098876768478",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://mistral.ai/news/leanstral-1-5/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/google/diffusiongemma-26b-a4b-it",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Lightricks/LTX-2.3",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/baidu/Unlimited-OCR",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/tencent/HunyuanOCR",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/krea/Krea-2-Turbo",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/maya-research/maya1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/circlestone-labs/Anima",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/ByteDance/UniVR-34B-Planning",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/nvDock",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://aiflashreport.com/model-releases.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/antirez/deepseek-v4-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
+        },
+        {
+          "href": "https://x.com/TencentHunyuan/status/2076953120765280284",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-july-22-2026",
+          "sourcePageTitle": "Austin AI Club - July 22, 2026"
         },
         {
           "href": "https://llama.garden/",
@@ -102081,7 +102762,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
+      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
     },
     "local-builds-projects": {
       "id": "local-builds-projects",
@@ -107001,6 +107682,7 @@
         "ai-mathematics",
         "ai-signal-discovery",
         "alphaevolve",
+        "astra",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-5-2026",
@@ -107020,13 +107702,16 @@
         "compute-strategy",
         "cwip",
         "diffusiongemma",
+        "flux-3",
         "gemini-omni-flash",
         "gemma",
         "gpt-56",
         "harc",
         "inference-optimization",
         "inkling",
+        "laguna-s-21",
         "leanstral",
+        "ling-30-flash",
         "local-ai",
         "meta-muse",
         "minimax-m3",
@@ -107035,6 +107720,7 @@
         "nemotron-puzzle",
         "open-models",
         "physical-ai",
+        "pokee-isaac",
         "qwen-agentworld",
         "speculative-decoding",
         "swe-17",
@@ -107075,6 +107761,7 @@
         "ling-30-flash",
         "meta-muse",
         "mistral",
+        "open-models",
         "physical-ai",
         "pokee-isaac",
         "swe-17",
@@ -110303,7 +110990,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases**, **Should chat route local by default?**, **Closed model releases**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, **DeepSWE exposes the real coding model hierarchy**, **Open model releases**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **Closed model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **Open model releases**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Open model releases**, **Open model releases**, and **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Composer 2 / Kimi K2.5 drama**, **Open model releases**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, **Closed model releases**, **Closed model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[BTL-3]]\n- [[Inkling]]\n\n- [[Open Models]]\n- [[AI Signal Discovery]]\n- [[Local AI]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -114391,7 +115078,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]"
+      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]"
     },
     "ollama": {
       "id": "ollama",
@@ -114606,6 +115293,7 @@
         "deepseek",
         "deepspec",
         "diffusiongemma",
+        "flux-3",
         "gemma",
         "glm",
         "harc",
@@ -114613,7 +115301,9 @@
         "inference-optimization",
         "inkling",
         "kimi",
+        "laguna-s-21",
         "leanstral",
+        "ling-30-flash",
         "local-ai",
         "meta",
         "microsoft",
@@ -114621,6 +115311,7 @@
         "minimax-m3",
         "mistral",
         "model-distillation",
+        "models-research",
         "moonshot-ai",
         "nemotron",
         "nemotron-puzzle",
@@ -114633,7 +115324,6 @@
         "tencent",
         "tmax",
         "vllm",
-        "waico",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -116556,41 +117246,6 @@
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
         },
         {
-          "href": "https://qwen.ai/blog?id=qwen3.6",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://chat.qwen.ai/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://x.com/Alibaba_Qwen/status/2039705104723611829",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2041913043379220801",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-april-15-2026",
-          "sourcePageTitle": "Austin AI Club - April 15, 2026"
-        },
-        {
           "href": "https://over.world/blog/waypoint-1-5",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -116696,41 +117351,6 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
-          "href": "https://x.com/OpenAI/status/2033953592424731072",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://x.com/ArtificialAnlys/status/2034239267052896516",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://x.com/MiniMax_AI/status/2034315320337522881",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
-          "href": "https://www.minimax.io/news/minimax-m27-en",
-          "title": "Closed model releases",
-          "section": "Models & Research",
-          "sourcePageId": "austin-ai-club-march-18-2026",
-          "sourcePageTitle": "Austin AI Club - March 18, 2026"
-        },
-        {
           "href": "https://huggingface.co/collections/Qwen/qwen35",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -116773,7 +117393,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**, **Attune patches the open-model tool-call boundary**, and **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, **Open model releases**, and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Open model releases**, **Open model releases**, **Closed model releases**, and **LMfit**.\n\n## Related\n\n- [[BTL-3]]\n- [[Inkling]]\n- [[WAICO]]\n\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[Qwen]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[Qwen]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "openagents": {
       "id": "openagents",
@@ -120325,7 +120945,8 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-august-5-2026"
+        "austin-ai-club-august-5-2026",
+        "models-research"
       ],
       "referencedTopicSources": [
         {
@@ -122002,7 +122623,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
+      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
     },
     "qwen-agentworld": {
       "id": "qwen-agentworld",
@@ -126407,8 +127028,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-july-22-2026",
-        "big-tech-moves",
-        "open-models"
+        "big-tech-moves"
       ],
       "referencedTopicSources": [
         {
@@ -127321,7 +127941,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Closed model releases**, **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
     }
   },
   "topics": [
@@ -129102,6 +129722,7 @@
         "btl-3",
         "inkling",
         "kimi",
+        "local-ai",
         "mistral",
         "models-research",
         "moonshot-ai",
@@ -129114,6 +129735,7 @@
         "BTL-3",
         "Inkling",
         "Kimi",
+        "Local AI",
         "Mistral",
         "Models & Research",
         "Moonshot AI",
@@ -129123,7 +129745,7 @@
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://thinkingmachines.ai/news/introducing-inkling/ https://thinkingmachines.ai/model-card/inkling/ https://x.com/Alibaba_Qwen/status/2078754377473601787 https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5 https://x.com/Badtheorylabs/status/2079306502897074249 https://huggingface.co/badtheorylabs/BTL-3 https://huggingface.co/badtheorylabs/BTL-3-Compact https://github.com/Badtheorylabs/BTL-3 https://blogs.nvidia.com/blog/siggraph-news-2026/ https://x.com/nvidia/status/2071685134990897443 https://mistral.ai/news/robostral-navigate/ https://www.kimi.com/blog/kimi-k3 https://www.kimi.com/help/agent/agent-overview https://x.com/Kimi_Moonshot/status/2078855608565207130 https://huggingface.co/tencent/Hy3 https://github.com/Tencent-Hunyuan/Hy3-preview https://x.com/TencentHunyuan/status/2074148098876768478 https://mistral.ai/news/leanstral-1-5/ https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B https://huggingface.co/LiquidAI/LFM2.5-8B-A1B https://huggingface.co/google/diffusiongemma-26b-a4b-it https://huggingface.co/Lightricks/LTX-2.3 https://huggingface.co/baidu/Unlimited-OCR https://huggingface.co/tencent/HunyuanOCR https://huggingface.co/lightonai/LightOnOCR-2-1B https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking https://huggingface.co/krea/Krea-2-Turbo https://huggingface.co/maya-research/maya1 https://huggingface.co/circlestone-labs/Anima https://huggingface.co/ByteDance/UniVR-34B-Planning https://huggingface.co/nvidia/nvDock https://huggingface.co/h2oai/h2ovl-mississippi-2b https://huggingface.co/h2oai/h2ovl-mississippi-800m https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16 https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4 https://aiflashreport.com/model-releases.html https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF https://huggingface.co/unsloth/gemma-4-12b-it-GGUF https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4 https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4 https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4 https://huggingface.co/antirez/deepseek-v4-gguf https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf https://x.com/TencentHunyuan/status/2076953120765280284 BTL-3 Inkling Kimi Mistral Models & Research Moonshot AI NVIDIA Open Models Physical AI Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://thinkingmachines.ai/news/introducing-inkling/ https://thinkingmachines.ai/model-card/inkling/ https://x.com/Alibaba_Qwen/status/2078754377473601787 https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5 https://x.com/Badtheorylabs/status/2079306502897074249 https://huggingface.co/badtheorylabs/BTL-3 https://huggingface.co/badtheorylabs/BTL-3-Compact https://github.com/Badtheorylabs/BTL-3 https://blogs.nvidia.com/blog/siggraph-news-2026/ https://x.com/nvidia/status/2071685134990897443 https://mistral.ai/news/robostral-navigate/ https://www.kimi.com/blog/kimi-k3 https://www.kimi.com/help/agent/agent-overview https://x.com/Kimi_Moonshot/status/2078855608565207130 https://huggingface.co/tencent/Hy3 https://github.com/Tencent-Hunyuan/Hy3-preview https://x.com/TencentHunyuan/status/2074148098876768478 https://mistral.ai/news/leanstral-1-5/ https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B https://huggingface.co/LiquidAI/LFM2.5-8B-A1B https://huggingface.co/google/diffusiongemma-26b-a4b-it https://huggingface.co/Lightricks/LTX-2.3 https://huggingface.co/baidu/Unlimited-OCR https://huggingface.co/tencent/HunyuanOCR https://huggingface.co/lightonai/LightOnOCR-2-1B https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking https://huggingface.co/krea/Krea-2-Turbo https://huggingface.co/maya-research/maya1 https://huggingface.co/circlestone-labs/Anima https://huggingface.co/ByteDance/UniVR-34B-Planning https://huggingface.co/nvidia/nvDock https://huggingface.co/h2oai/h2ovl-mississippi-2b https://huggingface.co/h2oai/h2ovl-mississippi-800m https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16 https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4 https://aiflashreport.com/model-releases.html https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF https://huggingface.co/unsloth/gemma-4-12b-it-GGUF https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4 https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4 https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4 https://huggingface.co/antirez/deepseek-v4-gguf https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf https://x.com/TencentHunyuan/status/2076953120765280284 BTL-3 Inkling Kimi Local AI Mistral Models & Research Moonshot AI NVIDIA Open Models Physical AI Qwen"
     },
     {
       "id": "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local",
@@ -135502,7 +136124,6 @@
         "meta",
         "meta-muse",
         "models-research",
-        "open-models",
         "qwen"
       ],
       "wikiTitles": [
@@ -135510,11 +136131,10 @@
         "Meta",
         "Meta Muse",
         "Models & Research",
-        "Open Models",
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - April 15, 2026 2026-04-15 https://qwen.ai/blog?id=qwen3.6 https://chat.qwen.ai/ https://x.com/Alibaba_Qwen/status/2039705104723611829 https://ai.meta.com/blog/introducing-muse-spark-msl/ https://x.com/ArtificialAnlys/status/2041913043379220801 AI Benchmarks & Evals Meta Meta Muse Models & Research Open Models Qwen"
+      "searchText": "Closed model releases Models & Research Austin AI Club - April 15, 2026 2026-04-15 https://qwen.ai/blog?id=qwen3.6 https://chat.qwen.ai/ https://x.com/Alibaba_Qwen/status/2039705104723611829 https://ai.meta.com/blog/introducing-muse-spark-msl/ https://x.com/ArtificialAnlys/status/2041913043379220801 AI Benchmarks & Evals Meta Meta Muse Models & Research Qwen"
     },
     {
       "id": "austin-ai-club-april-15-2026-models-research-open-model-releases",
@@ -138327,7 +138947,6 @@
         "kimi",
         "minimax",
         "models-research",
-        "open-models",
         "openai"
       ],
       "wikiTitles": [
@@ -138336,11 +138955,10 @@
         "Kimi",
         "MiniMax",
         "Models & Research",
-        "Open Models",
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - March 18, 2026 2026-03-18 https://x.com/OpenAI/status/2033953592424731072 https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ https://x.com/ArtificialAnlys/status/2034239267052896516 https://x.com/MiniMax_AI/status/2034315320337522881 https://www.minimax.io/news/minimax-m27-en AI Benchmarks & Evals GLM Kimi MiniMax Models & Research Open Models OpenAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - March 18, 2026 2026-03-18 https://x.com/OpenAI/status/2033953592424731072 https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ https://x.com/ArtificialAnlys/status/2034239267052896516 https://x.com/MiniMax_AI/status/2034315320337522881 https://www.minimax.io/news/minimax-m27-en AI Benchmarks & Evals GLM Kimi MiniMax Models & Research OpenAI"
     },
     {
       "id": "austin-ai-club-march-18-2026-models-research-frontier-check",
@@ -140349,6 +140967,7 @@
         "btl-3",
         "inkling",
         "kimi",
+        "local-ai",
         "mistral",
         "models-research",
         "moonshot-ai",
@@ -140361,6 +140980,7 @@
         "BTL-3",
         "Inkling",
         "Kimi",
+        "Local AI",
         "Mistral",
         "Models & Research",
         "Moonshot AI",
@@ -140370,7 +140990,7 @@
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://thinkingmachines.ai/news/introducing-inkling/ https://thinkingmachines.ai/model-card/inkling/ https://x.com/Alibaba_Qwen/status/2078754377473601787 https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5 https://x.com/Badtheorylabs/status/2079306502897074249 https://huggingface.co/badtheorylabs/BTL-3 https://huggingface.co/badtheorylabs/BTL-3-Compact https://github.com/Badtheorylabs/BTL-3 https://blogs.nvidia.com/blog/siggraph-news-2026/ https://x.com/nvidia/status/2071685134990897443 https://mistral.ai/news/robostral-navigate/ https://www.kimi.com/blog/kimi-k3 https://www.kimi.com/help/agent/agent-overview https://x.com/Kimi_Moonshot/status/2078855608565207130 https://huggingface.co/tencent/Hy3 https://github.com/Tencent-Hunyuan/Hy3-preview https://x.com/TencentHunyuan/status/2074148098876768478 https://mistral.ai/news/leanstral-1-5/ https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B https://huggingface.co/LiquidAI/LFM2.5-8B-A1B https://huggingface.co/google/diffusiongemma-26b-a4b-it https://huggingface.co/Lightricks/LTX-2.3 https://huggingface.co/baidu/Unlimited-OCR https://huggingface.co/tencent/HunyuanOCR https://huggingface.co/lightonai/LightOnOCR-2-1B https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking https://huggingface.co/krea/Krea-2-Turbo https://huggingface.co/maya-research/maya1 https://huggingface.co/circlestone-labs/Anima https://huggingface.co/ByteDance/UniVR-34B-Planning https://huggingface.co/nvidia/nvDock https://huggingface.co/h2oai/h2ovl-mississippi-2b https://huggingface.co/h2oai/h2ovl-mississippi-800m https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16 https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4 https://aiflashreport.com/model-releases.html https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF https://huggingface.co/unsloth/gemma-4-12b-it-GGUF https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4 https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4 https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4 https://huggingface.co/antirez/deepseek-v4-gguf https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf https://x.com/TencentHunyuan/status/2076953120765280284 BTL-3 Inkling Kimi Mistral Models & Research Moonshot AI NVIDIA Open Models Physical AI Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - July 22, 2026 2026-07-22 https://thinkingmachines.ai/news/introducing-inkling/ https://thinkingmachines.ai/model-card/inkling/ https://x.com/Alibaba_Qwen/status/2078754377473601787 https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5 https://x.com/Badtheorylabs/status/2079306502897074249 https://huggingface.co/badtheorylabs/BTL-3 https://huggingface.co/badtheorylabs/BTL-3-Compact https://github.com/Badtheorylabs/BTL-3 https://blogs.nvidia.com/blog/siggraph-news-2026/ https://x.com/nvidia/status/2071685134990897443 https://mistral.ai/news/robostral-navigate/ https://www.kimi.com/blog/kimi-k3 https://www.kimi.com/help/agent/agent-overview https://x.com/Kimi_Moonshot/status/2078855608565207130 https://huggingface.co/tencent/Hy3 https://github.com/Tencent-Hunyuan/Hy3-preview https://x.com/TencentHunyuan/status/2074148098876768478 https://mistral.ai/news/leanstral-1-5/ https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B https://huggingface.co/LiquidAI/LFM2.5-8B-A1B https://huggingface.co/google/diffusiongemma-26b-a4b-it https://huggingface.co/Lightricks/LTX-2.3 https://huggingface.co/baidu/Unlimited-OCR https://huggingface.co/tencent/HunyuanOCR https://huggingface.co/lightonai/LightOnOCR-2-1B https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking https://huggingface.co/krea/Krea-2-Turbo https://huggingface.co/maya-research/maya1 https://huggingface.co/circlestone-labs/Anima https://huggingface.co/ByteDance/UniVR-34B-Planning https://huggingface.co/nvidia/nvDock https://huggingface.co/h2oai/h2ovl-mississippi-2b https://huggingface.co/h2oai/h2ovl-mississippi-800m https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16 https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4 https://aiflashreport.com/model-releases.html https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF https://huggingface.co/unsloth/gemma-4-12b-it-GGUF https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4 https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4 https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4 https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4 https://huggingface.co/antirez/deepseek-v4-gguf https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf https://x.com/TencentHunyuan/status/2076953120765280284 BTL-3 Inkling Kimi Local AI Mistral Models & Research Moonshot AI NVIDIA Open Models Physical AI Qwen"
     },
     "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local": {
       "id": "austin-ai-club-july-22-2026-security-antares-makes-vulnerability-localization-small-and-local",
@@ -146749,7 +147369,6 @@
         "meta",
         "meta-muse",
         "models-research",
-        "open-models",
         "qwen"
       ],
       "wikiTitles": [
@@ -146757,11 +147376,10 @@
         "Meta",
         "Meta Muse",
         "Models & Research",
-        "Open Models",
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - April 15, 2026 2026-04-15 https://qwen.ai/blog?id=qwen3.6 https://chat.qwen.ai/ https://x.com/Alibaba_Qwen/status/2039705104723611829 https://ai.meta.com/blog/introducing-muse-spark-msl/ https://x.com/ArtificialAnlys/status/2041913043379220801 AI Benchmarks & Evals Meta Meta Muse Models & Research Open Models Qwen"
+      "searchText": "Closed model releases Models & Research Austin AI Club - April 15, 2026 2026-04-15 https://qwen.ai/blog?id=qwen3.6 https://chat.qwen.ai/ https://x.com/Alibaba_Qwen/status/2039705104723611829 https://ai.meta.com/blog/introducing-muse-spark-msl/ https://x.com/ArtificialAnlys/status/2041913043379220801 AI Benchmarks & Evals Meta Meta Muse Models & Research Qwen"
     },
     "austin-ai-club-april-15-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-april-15-2026-models-research-open-model-releases",
@@ -149574,7 +150192,6 @@
         "kimi",
         "minimax",
         "models-research",
-        "open-models",
         "openai"
       ],
       "wikiTitles": [
@@ -149583,11 +150200,10 @@
         "Kimi",
         "MiniMax",
         "Models & Research",
-        "Open Models",
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - March 18, 2026 2026-03-18 https://x.com/OpenAI/status/2033953592424731072 https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ https://x.com/ArtificialAnlys/status/2034239267052896516 https://x.com/MiniMax_AI/status/2034315320337522881 https://www.minimax.io/news/minimax-m27-en AI Benchmarks & Evals GLM Kimi MiniMax Models & Research Open Models OpenAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - March 18, 2026 2026-03-18 https://x.com/OpenAI/status/2033953592424731072 https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ https://x.com/ArtificialAnlys/status/2034239267052896516 https://x.com/MiniMax_AI/status/2034315320337522881 https://www.minimax.io/news/minimax-m27-en AI Benchmarks & Evals GLM Kimi MiniMax Models & Research OpenAI"
     },
     "austin-ai-club-march-18-2026-models-research-frontier-check": {
       "id": "austin-ai-club-march-18-2026-models-research-frontier-check",
@@ -154250,31 +154866,15 @@
     },
     {
       "source": "models-research",
-      "target": "ai-mathematics"
-    },
-    {
-      "source": "models-research",
-      "target": "alphaevolve"
-    },
-    {
-      "source": "models-research",
-      "target": "btl-3"
-    },
-    {
-      "source": "models-research",
-      "target": "inkling"
-    },
-    {
-      "source": "models-research",
       "target": "open-models"
     },
     {
       "source": "models-research",
-      "target": "ai-signal-discovery"
+      "target": "local-ai"
     },
     {
       "source": "models-research",
-      "target": "local-ai"
+      "target": "ai-signal-discovery"
     },
     {
       "source": "models-research",
@@ -154286,15 +154886,15 @@
     },
     {
       "source": "models-research",
+      "target": "speculative-decoding"
+    },
+    {
+      "source": "models-research",
       "target": "physical-ai"
     },
     {
       "source": "models-research",
       "target": "model-distillation"
-    },
-    {
-      "source": "models-research",
-      "target": "speculative-decoding"
     },
     {
       "source": "models-research",
@@ -154307,6 +154907,42 @@
     {
       "source": "models-research",
       "target": "coding-agents"
+    },
+    {
+      "source": "models-research",
+      "target": "ai-mathematics"
+    },
+    {
+      "source": "models-research",
+      "target": "alphaevolve"
+    },
+    {
+      "source": "models-research",
+      "target": "flux-3"
+    },
+    {
+      "source": "models-research",
+      "target": "ling-30-flash"
+    },
+    {
+      "source": "models-research",
+      "target": "laguna-s-21"
+    },
+    {
+      "source": "models-research",
+      "target": "pokee-isaac"
+    },
+    {
+      "source": "models-research",
+      "target": "astra"
+    },
+    {
+      "source": "models-research",
+      "target": "btl-3"
+    },
+    {
+      "source": "models-research",
+      "target": "inkling"
     },
     {
       "source": "models-research",
@@ -154646,15 +155282,7 @@
     },
     {
       "source": "open-models",
-      "target": "btl-3"
-    },
-    {
-      "source": "open-models",
-      "target": "inkling"
-    },
-    {
-      "source": "open-models",
-      "target": "waico"
+      "target": "models-research"
     },
     {
       "source": "open-models",
@@ -154687,6 +155315,26 @@
     {
       "source": "open-models",
       "target": "model-distillation"
+    },
+    {
+      "source": "open-models",
+      "target": "ling-30-flash"
+    },
+    {
+      "source": "open-models",
+      "target": "laguna-s-21"
+    },
+    {
+      "source": "open-models",
+      "target": "btl-3"
+    },
+    {
+      "source": "open-models",
+      "target": "inkling"
+    },
+    {
+      "source": "open-models",
+      "target": "flux-3"
     },
     {
       "source": "open-models",
@@ -156099,7 +156747,7 @@
           "model",
           "models-research"
         ],
-        "degree": 10,
+        "degree": 11,
         "updated": "2026-08-04"
       },
       {
@@ -156512,7 +157160,7 @@
           "models-research"
         ],
         "degree": 10,
-        "updated": "2026-07-08"
+        "updated": "2026-08-04"
       },
       {
         "id": "company-brain",
@@ -156665,7 +157313,7 @@
           "models-research",
           "physical-ai"
         ],
-        "degree": 5,
+        "degree": 7,
         "updated": "2026-08-04"
       },
       {
@@ -156906,7 +157554,7 @@
           "coding-agents",
           "models-research"
         ],
-        "degree": 6,
+        "degree": 8,
         "updated": "2026-08-04"
       },
       {
@@ -156933,7 +157581,7 @@
           "models-research",
           "agent-infrastructure"
         ],
-        "degree": 6,
+        "degree": 8,
         "updated": "2026-08-04"
       },
       {
@@ -157098,7 +157746,7 @@
           "models-research",
           "model"
         ],
-        "degree": 80,
+        "degree": 86,
         "updated": "2026-08-04"
       },
       {
@@ -157190,7 +157838,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 108,
+        "degree": 111,
         "updated": "2026-08-04"
       },
       {
@@ -157306,7 +157954,7 @@
           "agent-infrastructure",
           "models-research"
         ],
-        "degree": 6,
+        "degree": 7,
         "updated": "2026-08-04"
       },
       {
@@ -157607,7 +158255,7 @@
           "ai-governance",
           "open-source"
         ],
-        "degree": 7,
+        "degree": 6,
         "updated": "2026-07-22"
       },
       {
@@ -163188,37 +163836,17 @@
       },
       {
         "source": "models-research",
-        "target": "ai-mathematics",
-        "kind": "wiki"
-      },
-      {
-        "source": "models-research",
-        "target": "alphaevolve",
-        "kind": "wiki"
-      },
-      {
-        "source": "models-research",
-        "target": "btl-3",
-        "kind": "wiki"
-      },
-      {
-        "source": "models-research",
-        "target": "inkling",
-        "kind": "wiki"
-      },
-      {
-        "source": "models-research",
         "target": "open-models",
         "kind": "wiki"
       },
       {
         "source": "models-research",
-        "target": "ai-signal-discovery",
+        "target": "local-ai",
         "kind": "wiki"
       },
       {
         "source": "models-research",
-        "target": "local-ai",
+        "target": "ai-signal-discovery",
         "kind": "wiki"
       },
       {
@@ -163233,17 +163861,17 @@
       },
       {
         "source": "models-research",
+        "target": "speculative-decoding",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
         "target": "physical-ai",
         "kind": "wiki"
       },
       {
         "source": "models-research",
         "target": "model-distillation",
-        "kind": "wiki"
-      },
-      {
-        "source": "models-research",
-        "target": "speculative-decoding",
         "kind": "wiki"
       },
       {
@@ -163259,6 +163887,51 @@
       {
         "source": "models-research",
         "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "ai-mathematics",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "alphaevolve",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "flux-3",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "ling-30-flash",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "laguna-s-21",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "pokee-isaac",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "astra",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "btl-3",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "inkling",
         "kind": "wiki"
       },
       {
@@ -163683,17 +164356,7 @@
       },
       {
         "source": "open-models",
-        "target": "btl-3",
-        "kind": "wiki"
-      },
-      {
-        "source": "open-models",
-        "target": "inkling",
-        "kind": "wiki"
-      },
-      {
-        "source": "open-models",
-        "target": "waico",
+        "target": "models-research",
         "kind": "wiki"
       },
       {
@@ -163734,6 +164397,31 @@
       {
         "source": "open-models",
         "target": "model-distillation",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "ling-30-flash",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "laguna-s-21",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "btl-3",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "inkling",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "flux-3",
         "kind": "wiki"
       },
       {
@@ -165197,7 +165885,7 @@
     "pageCount": 141,
     "topicCount": 201,
     "rawPageCount": 0,
-    "linkCount": 1508,
+    "linkCount": 1516,
     "sourceRecordCount": 10,
     "sourceLinkCount": 883,
     "unresolvedLinkCount": 0,

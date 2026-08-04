@@ -14,7 +14,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 ## Mentioned In
 
 - [[Austin AI Club - August 5, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 22, 2026]]: **llama.garden makes model distribution a protocol**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.

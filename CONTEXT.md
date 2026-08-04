@@ -167,6 +167,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - **Mentioned In** lists name exact **Topic Titles** in bold so humans can scan them and the **Wiki Explorer** can match them to source links.
 - Existing **Mentioned In** lists should be backfilled to use bold exact **Topic Titles**.
 - **LLM Wiki** linting lightly enforces that entity and concept **Mentioned In** bullets include a Meetup wikilink and at least one bold **Topic Title**.
+- Biweekly model launches on **Models & Research** boards use official **Release Roundup** **Topic Titles** `Closed model releases` and `Open model releases`.
 - The **Wiki Explorer** presents direct **Links** and aggregated **Referenced Topic Sources** in one **Sources** list with provenance labels.
 - The **Wiki Explorer** browses the **LLM Wiki** without replacing the Markdown files.
 - The **Wiki Explorer** uses a generated manifest as its frontend read model.

@@ -1,7 +1,7 @@
 ---
 title: Cohere Transcribe Arabic
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-04
 type: entity
 tags: [entity, model, open-source, models-research]
 sources: [raw/articles/2026-07-08-link-records.md]
@@ -9,7 +9,7 @@ sources: [raw/articles/2026-07-08-link-records.md]
 
 # Cohere Transcribe Arabic
 
-Cohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the July 8 board as a specialization example within the open-model wave.
+Cohere Transcribe Arabic is Cohere's open Arabic ASR model release. On the July 8 board it appears inside the official **Open model releases** roundup as a specialization example within that open-weight wave.
 
 ## Mentioned In
 
