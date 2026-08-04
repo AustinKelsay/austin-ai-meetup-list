@@ -68,30 +68,89 @@ sources: []
   - Notes: ClaudeDevs says a common Fable 5 pattern is using Sonnet 5 as executor while calling Fable 5 for guidance, so most tokens are billed at the lower executor rate.
 
 ## Models & Research
-
-### Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy
-- Source: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/
-  - Title: "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery"
-  - Type: Official research blog
+### Closed model releases
+- Source: https://openai.com/index/previewing-gpt-5-6-sol/
+  - Title: "Previewing GPT-5.6 Sol: a next-generation model"
+  - Type: Official preview blog
   - Access: 2026-07-07
-  - Notes: Meta's June 29 post reports Brain2Qwerty v2, trained on about 22,000 typed sentences from nine participants, with 61% average word accuracy and 78% for the best participant.
-- Source: https://www.nature.com/articles/s41593-026-02303-2
-  - Title: "Noninvasive decoding of typed sentences from human brain activity"
-  - Type: Research paper
+  - Notes: OpenAI's June 26 post previews the GPT-5.6 series, with Sol as the flagship, Terra as the balanced model, and Luna as the fast model, rolling out first through selected partners and a government review process. The July 8 X update turns this from preview-only into a public July 9 launch story.
+- Source: https://developers.openai.com/api/docs/changelog
+  - Title: "OpenAI API changelog"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: OpenAI's July 6 changelog entry releases GPT-Realtime-2.1 and GPT-Realtime-2.1 mini for the Realtime API, emphasizing improved alphanumeric recognition, silence/noise handling, interruption behavior, and a lower-cost distilled voice-agent model.
+- Source: https://cursor.com/docs/models/grok-4-5
+  - Title: "Grok 4.5"
+  - Type: Official documentation
+  - Access: 2026-07-08
+  - Notes: Cursor docs describe Grok 4.5 as a joint Cursor and SpaceXAI model for long-running software-engineering and knowledge-work tasks, trained with Cursor data and reinforcement learning, available in Cursor's first-party models pool with doubled included usage through July 15 and standard $2/M input, $6/M output pricing.
+- Source: https://cognition.com/blog/swe-1-7
+  - Title: "SWE-1.7: Frontier Intelligence at a Fraction of the Cost"
+  - Type: Official launch blog
+  - Access: 2026-07-08
+  - Notes: Cognition's July 8 launch post says SWE-1.7 is its most capable model so far, trained from a Kimi K2.7 base with further RL, available in Devin via Cerebras at 1000 TPS, and near frontier coding models on FrontierCode, Terminal-Bench, and SWE-Bench Multilingual at lower rollout cost.
+- Source: https://www.anthropic.com/news/claude-sonnet-5
+  - Title: "Claude Sonnet 5"
+  - Type: Official launch blog
   - Access: 2026-07-07
-  - Notes: Nature Neuroscience paper for the Brain2Qwerty v1 work that the v2 release builds on.
-- Source: https://facebookresearch.github.io/brain2qwerty/
-  - Title: "Brain2Qwerty"
-  - Type: Project page
+  - Notes: Anthropic's June 30 launch post positions Sonnet 5 as its most agentic Sonnet model, available in Claude plans, Claude Code, and the API, with lower pricing than Opus 4.8. This turns the June 24 Sonnet 5 rumor/slug chatter into an official release story.
+- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/
+  - Title: "Start building with Nano Banana 2 Lite and Gemini Omni Flash"
+  - Type: Official launch blog
   - Access: 2026-07-07
-  - Notes: Project page for Brain2Qwerty code and research artifacts.
-- Post: https://x.com/AIatMeta/status/2071566924803395741
-  - Title: "Brain2Qwerty v2"
+  - Notes: Google says Nano Banana 2 Lite delivers 4-second text-to-image outputs at $0.034 per 1K image, and introduces Gemini Omni Flash for generative media workflows.
+- Source: https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available
+  - Title: "Nano Banana 2 Lite and Gemini Omni Flash available"
+  - Type: Official cloud blog
+  - Access: 2026-07-07
+  - Notes: Google Cloud launch context for the same models in developer and cloud surfaces.
+- Source: https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
+  - Title: "Introducing Muse Image: Image Generation Built for Your World"
+  - Type: Official launch blog
+  - Access: 2026-07-08
+  - Notes: Meta's July 7 launch post introduces Muse Image as the first image-generation model from Meta Superintelligence Labs, available in Meta AI and powering creative tools for Instagram Stories, WhatsApp image generation, and upcoming advertiser workflows.
+- Post: https://x.com/OpenAI/status/2070555272230384038
+  - Title: "GPT-5.6 limited preview"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: OpenAI's preview post introduces GPT-5.6 Sol, Terra, and Luna before the broader July 9 public launch timing post.
+- Post: https://x.com/OpenAI/status/2074704958419792299
+  - Title: "GPT-5.6 Sol, Terra, and Luna public launch timing"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: OpenAI's July 8 post says GPT-5.6 Sol, Terra, and Luna will launch publicly on Thursday, July 9, and that preview access is expanding globally.
+- Post: https://x.com/claudeai/status/2072017450611142835
+  - Title: "Claude Sonnet 5"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Claude's launch post introduces Sonnet 5 as Anthropic's most agentic Sonnet model.
+- Post: https://x.com/testingcatalog/status/2074266798694809821
+  - Title: "GPT-Realtime-2.1 and mini availability"
+  - Type: X coverage post
+  - Access: 2026-07-08
+  - Notes: TestingCatalog highlights GPT-Realtime-2.1 and GPT-Realtime-2.1-mini availability in OpenAI Playground and APIs, including the mini model's reasoning and tool-use angle.
+- Post: https://x.com/AIatMeta/status/2074587864923250873
+  - Title: "Muse Image as an agentic image model"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: AI at Meta frames Muse Image as agentic: using tools, self-refining, improving with test-time compute, and pairing with Muse Spark for media generation.
+- Post: https://x.com/cursor_ai/status/2074915744999969059
+  - Title: "Cursor and SpaceXAI train Grok 4.5"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Cursor's July 8 post says it partnered with SpaceXAI to train Grok 4.5, calling it Cursor's most powerful model yet and the first it has built for more than software engineering.
+- Post: https://x.com/cognition/status/2074882968770728416
+  - Title: "Introducing SWE-1.7"
+  - Type: Official X post
+  - Access: 2026-07-08
+  - Notes: Cognition's July 8 post introduces SWE-1.7 as its most capable model yet, claims it scores within a few points of the strongest frontier models at a fraction of the cost, and says it is available at 1000 tokens per second.
+- Post: https://x.com/OfficialLoganK/status/2071988351083921690
+  - Title: "Nano Banana 2 Lite and Gemini Omni Flash"
   - Type: Official X post
   - Access: 2026-07-07
-  - Notes: AI at Meta announcement post for Brain2Qwerty v2 and the Nature publication context.
+  - Notes: Logan Kilpatrick's launch post with the headline latency and pricing claims.
 
-### Open model releases get specialized fast
+### Open model releases
 - Source: https://www.tencent.com/en-us/articles/2202386.html
   - Title: "Tencent Hunyuan Officially Releases Hy3"
   - Type: Official launch blog
@@ -223,6 +282,28 @@ sources: []
   - Access: 2026-07-08
   - Notes: Yuchen Jin frames DSpark as a speculative-decoding throughput release and DeepSpec as the open training framework behind it.
 
+### Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy
+- Source: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/
+  - Title: "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery"
+  - Type: Official research blog
+  - Access: 2026-07-07
+  - Notes: Meta's June 29 post reports Brain2Qwerty v2, trained on about 22,000 typed sentences from nine participants, with 61% average word accuracy and 78% for the best participant.
+- Source: https://www.nature.com/articles/s41593-026-02303-2
+  - Title: "Noninvasive decoding of typed sentences from human brain activity"
+  - Type: Research paper
+  - Access: 2026-07-07
+  - Notes: Nature Neuroscience paper for the Brain2Qwerty v1 work that the v2 release builds on.
+- Source: https://facebookresearch.github.io/brain2qwerty/
+  - Title: "Brain2Qwerty"
+  - Type: Project page
+  - Access: 2026-07-07
+  - Notes: Project page for Brain2Qwerty code and research artifacts.
+- Post: https://x.com/AIatMeta/status/2071566924803395741
+  - Title: "Brain2Qwerty v2"
+  - Type: Official X post
+  - Access: 2026-07-07
+  - Notes: AI at Meta announcement post for Brain2Qwerty v2 and the Nature publication context.
+
 ### Should chat route local by default?
 - Source: https://scalingintelligence.stanford.edu/pubs/ipw/
   - Title: "Intelligence Per Watt: A Study of Local Intelligence Efficiency"
@@ -250,88 +331,6 @@ sources: []
   - Access: 2026-07-07
   - Notes: Ollama's X post announcing the Gemma 4 MLX/MTP speedup.
 
-### Proprietary releases split across agents and media
-- Source: https://openai.com/index/previewing-gpt-5-6-sol/
-  - Title: "Previewing GPT-5.6 Sol: a next-generation model"
-  - Type: Official preview blog
-  - Access: 2026-07-07
-  - Notes: OpenAI's June 26 post previews the GPT-5.6 series, with Sol as the flagship, Terra as the balanced model, and Luna as the fast model, rolling out first through selected partners and a government review process. The July 8 X update turns this from preview-only into a public July 9 launch story.
-- Source: https://developers.openai.com/api/docs/changelog
-  - Title: "OpenAI API changelog"
-  - Type: Official documentation
-  - Access: 2026-07-08
-  - Notes: OpenAI's July 6 changelog entry releases GPT-Realtime-2.1 and GPT-Realtime-2.1 mini for the Realtime API, emphasizing improved alphanumeric recognition, silence/noise handling, interruption behavior, and a lower-cost distilled voice-agent model.
-- Source: https://cursor.com/docs/models/grok-4-5
-  - Title: "Grok 4.5"
-  - Type: Official documentation
-  - Access: 2026-07-08
-  - Notes: Cursor docs describe Grok 4.5 as a joint Cursor and SpaceXAI model for long-running software-engineering and knowledge-work tasks, trained with Cursor data and reinforcement learning, available in Cursor's first-party models pool with doubled included usage through July 15 and standard $2/M input, $6/M output pricing.
-- Source: https://cognition.com/blog/swe-1-7
-  - Title: "SWE-1.7: Frontier Intelligence at a Fraction of the Cost"
-  - Type: Official launch blog
-  - Access: 2026-07-08
-  - Notes: Cognition's July 8 launch post says SWE-1.7 is its most capable model so far, trained from a Kimi K2.7 base with further RL, available in Devin via Cerebras at 1000 TPS, and near frontier coding models on FrontierCode, Terminal-Bench, and SWE-Bench Multilingual at lower rollout cost.
-- Source: https://www.anthropic.com/news/claude-sonnet-5
-  - Title: "Claude Sonnet 5"
-  - Type: Official launch blog
-  - Access: 2026-07-07
-  - Notes: Anthropic's June 30 launch post positions Sonnet 5 as its most agentic Sonnet model, available in Claude plans, Claude Code, and the API, with lower pricing than Opus 4.8. This turns the June 24 Sonnet 5 rumor/slug chatter into an official release story.
-- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/
-  - Title: "Start building with Nano Banana 2 Lite and Gemini Omni Flash"
-  - Type: Official launch blog
-  - Access: 2026-07-07
-  - Notes: Google says Nano Banana 2 Lite delivers 4-second text-to-image outputs at $0.034 per 1K image, and introduces Gemini Omni Flash for generative media workflows.
-- Source: https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available
-  - Title: "Nano Banana 2 Lite and Gemini Omni Flash available"
-  - Type: Official cloud blog
-  - Access: 2026-07-07
-  - Notes: Google Cloud launch context for the same models in developer and cloud surfaces.
-- Source: https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
-  - Title: "Introducing Muse Image: Image Generation Built for Your World"
-  - Type: Official launch blog
-  - Access: 2026-07-08
-  - Notes: Meta's July 7 launch post introduces Muse Image as the first image-generation model from Meta Superintelligence Labs, available in Meta AI and powering creative tools for Instagram Stories, WhatsApp image generation, and upcoming advertiser workflows.
-- Post: https://x.com/OpenAI/status/2070555272230384038
-  - Title: "GPT-5.6 limited preview"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: OpenAI's preview post introduces GPT-5.6 Sol, Terra, and Luna before the broader July 9 public launch timing post.
-- Post: https://x.com/OpenAI/status/2074704958419792299
-  - Title: "GPT-5.6 Sol, Terra, and Luna public launch timing"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: OpenAI's July 8 post says GPT-5.6 Sol, Terra, and Luna will launch publicly on Thursday, July 9, and that preview access is expanding globally.
-- Post: https://x.com/claudeai/status/2072017450611142835
-  - Title: "Claude Sonnet 5"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: Claude's launch post introduces Sonnet 5 as Anthropic's most agentic Sonnet model.
-- Post: https://x.com/testingcatalog/status/2074266798694809821
-  - Title: "GPT-Realtime-2.1 and mini availability"
-  - Type: X coverage post
-  - Access: 2026-07-08
-  - Notes: TestingCatalog highlights GPT-Realtime-2.1 and GPT-Realtime-2.1-mini availability in OpenAI Playground and APIs, including the mini model's reasoning and tool-use angle.
-- Post: https://x.com/AIatMeta/status/2074587864923250873
-  - Title: "Muse Image as an agentic image model"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: AI at Meta frames Muse Image as agentic: using tools, self-refining, improving with test-time compute, and pairing with Muse Spark for media generation.
-- Post: https://x.com/cursor_ai/status/2074915744999969059
-  - Title: "Cursor and SpaceXAI train Grok 4.5"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: Cursor's July 8 post says it partnered with SpaceXAI to train Grok 4.5, calling it Cursor's most powerful model yet and the first it has built for more than software engineering.
-- Post: https://x.com/cognition/status/2074882968770728416
-  - Title: "Introducing SWE-1.7"
-  - Type: Official X post
-  - Access: 2026-07-08
-  - Notes: Cognition's July 8 post introduces SWE-1.7 as its most capable model yet, claims it scores within a few points of the strongest frontier models at a fraction of the cost, and says it is available at 1000 tokens per second.
-- Post: https://x.com/OfficialLoganK/status/2071988351083921690
-  - Title: "Nano Banana 2 Lite and Gemini Omni Flash"
-  - Type: Official X post
-  - Access: 2026-07-07
-  - Notes: Logan Kilpatrick's launch post with the headline latency and pricing claims.
-
 ### Claude gets a consciousness-adjacent workspace
 - Source: https://www.anthropic.com/research/global-workspace
   - Title: "A global workspace in language models"
@@ -353,6 +352,7 @@ sources: []
   - Type: X post
   - Access: 2026-07-07
   - Notes: Stevibe's visualization of eight models' reasoning traces on a probability problem, used as a practical companion to the interpretability/debugger-surface topic.
+
 
 ## Security
 

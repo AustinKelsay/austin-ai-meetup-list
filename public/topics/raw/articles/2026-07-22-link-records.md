@@ -94,7 +94,6 @@ sources: []
   - Notes: Managed voice-and-chat agent platform with permissions, guardrails, evaluations, escalation, and continuous improvement; the 75% phone-resolution result is OpenAI's self-reported internal deployment figure.
 
 ## Models & Research
-
 ### Closed model releases
 - Source: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
   - Title: "Introducing Muse Spark 1.1"
@@ -244,7 +243,6 @@ sources: []
   - Access: 2026-07-21
   - Notes: NVIDIA's SIGGRAPH announcement post for the physical-AI and graphics release set.
 
-### Open agent and reasoning models fan out
 - Source: https://huggingface.co/tencent/Hy3
   - Title: "tencent/Hy3"
   - Type: Hugging Face model
@@ -291,7 +289,6 @@ sources: []
   - Access: 2026-07-22
   - Notes: Liquid AI's 8.3B-total/1.5B-active on-device agent model.
 
-### Open multimodal models specialize by modality
 - Source: https://huggingface.co/google/diffusiongemma-26b-a4b-it
   - Title: "google/diffusiongemma-26b-a4b-it"
   - Type: Hugging Face model
@@ -358,7 +355,6 @@ sources: []
   - Access: 2026-07-22
   - Notes: Smaller Mississippi VLM artifact.
 
-### Embedding models get their own open release lane
 - Blog: https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb
   - Title: "Nemotron-3-Embed wins RTEB"
   - Type: Official Hugging Face blog
@@ -380,7 +376,6 @@ sources: []
   - Access: 2026-07-22
   - Notes: Discovery record for Microsoft's BitNet 0.6B and 270M embedding releases; an exact first-party artifact was not recovered during curation.
 
-### Local model packaging becomes part of the release
 - Source: https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF
   - Title: "unsloth/gemma-4-26B-A4B-it-GGUF"
   - Type: Hugging Face model
@@ -566,6 +561,7 @@ sources: []
   - Type: Official X post
   - Access: 2026-07-21
   - Notes: OpenAI's announcement summarizes reward-seeking as following believed grader incentives rather than user or developer intent and links the joint research.
+
 
 ## Security
 

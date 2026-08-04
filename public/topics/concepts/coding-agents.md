@@ -15,12 +15,12 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 
 - [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Open model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.
-- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open models are eating the frontier gap**.
+- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.
 - [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.
-- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **SubQ goes after 12M-token context**, and **Cursor + Claude deletes PocketOS production data**.
-- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.
-- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Holo3 computer-use models**.
+- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.
+- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.
 - [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.
 
 ## Related

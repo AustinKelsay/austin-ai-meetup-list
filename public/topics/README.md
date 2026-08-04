@@ -58,6 +58,6 @@ In `Models & Research`, lead with two official Release Roundup Topics titled exa
 1. `Closed model releases`
 2. `Open model releases`
 
-Put the biweekly proprietary/gated launches on Closed and the open-weight launches on Open. Keep launch posts, model cards, blogs, and repos on those Topics so Presentation Mode can scroll the full feed. In `src/data.js`, set `releaseRoundup: true` on both items and do not reduce them with `presentationEmbeds` / `presentationLinkPair`.
+Put the biweekly proprietary/gated launches on Closed and the open-weight launches on Open. Keep launch posts, model cards, blogs, and repos on those Topics so Presentation Mode can scroll the full feed. In `src/data.js`, set `releaseRoundup: true` on both items and do not reduce them with `presentationEmbeds` / `presentationLinkPair`. If a cycle has no closed launches, omit the Closed roundup rather than shipping an empty slide.
 
 Non-release research, evals, and papers stay as separate Topics after the two roundups. If a cycle is a firehose, prefer a longer scrollable Open/Closed catalog over splitting launches across thematic release Topics. Thematic follow-ups are for a distinct room question, not a second release dump.

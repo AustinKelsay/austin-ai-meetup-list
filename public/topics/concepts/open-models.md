@@ -14,15 +14,15 @@ Open Models covers open-weight and open-source model releases, their deployment 
 ## Mentioned In
 
 - [[Austin AI Club - August 5, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 22, 2026]]: **Open model releases**, **Open agent and reasoning models fan out**, **Open multimodal models specialize by modality**, **Embedding models get their own open release lane**, **Local model packaging becomes part of the release**, and **llama.garden makes model distribution a protocol**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
-- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open models are eating the frontier gap**.
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.
-- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **PrismML ships 1-bit image gen that runs on iPhone**.
-- [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**, **Attune patches the open-model tool-call boundary**, and **Gemma 4 app surface**.
-- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**, **Llama 4 Scout & Maverick**, **Trinity-Large-Thinking**, **GLM-5.1**, and **Qwen3.6-Plus**.
-- [[Austin AI Club - April 1, 2026]]: **Nemotron-Cascade 2**, **Qwen3.5-Omni**, **Chroma Context-1**, **Cohere Transcribe**, **Liquid AI LFM2.5-350M**, **Claude-distilled Qwen models trending on HF**, and **Distillation hesitation**.
-- [[Austin AI Club - March 18, 2026]]: **Qwen 3.5 series**, **Nemotron v3 series**, **Mistral Small**, **MiniMax M2.7**, and **LMfit**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.
+- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.
+- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases** and **Closed model releases**.
+- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.
+- [[Austin AI Club - March 18, 2026]]: **Open model releases**, **Closed model releases**, and **LMfit**.
 
 ## Related
 

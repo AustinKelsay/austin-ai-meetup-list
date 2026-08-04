@@ -13,7 +13,7 @@ Tencent is a recurring AI company/entity for Austin AI Club when its Hunyuan and
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

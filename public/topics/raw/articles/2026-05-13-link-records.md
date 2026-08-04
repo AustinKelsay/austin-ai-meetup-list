@@ -132,9 +132,7 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Note: Supporting visual source for the Chris Parsons dumb-loop talk referenced by the submitted post.
 
 ## Models & Research
-
-### GPT Image 2 gets UI-ish
-
+### Closed model releases
 - GPT Image 2 docs: https://developers.openai.com/api/docs/models/gpt-image-2
   - Type: product docs
   - Accessed: 2026-05-05
@@ -145,18 +143,6 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - https://x.com/yacineMTB/status/2046751282904338672
   - https://x.com/cto_junior/status/2046543490151240168
 
-### Qwen3.6-27B gets laptop-shaped
-
-- Qwen3.6 blog: https://qwen.ai/blog?id=qwen3.6
-  - Type: model release
-  - Accessed: 2026-05-05
-  - Note: Supports Qwen3.6-27B quantization discussion.
-- Qwen quant posts:
-  - https://x.com/bnjmn_marie/status/2047786725846724918
-  - https://x.com/teksedge/status/2047876512863633710
-
-### SubQ goes after 12M-token context
-
 - SubQ launch page: https://subq.ai/introducing-subq
   - Type: model launch
   - Accessed: 2026-05-05
@@ -166,24 +152,14 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Accessed: 2026-05-05
   - Note: Launch post claiming a 12M-token context window and 52x faster processing than FlashAttention at 1M tokens.
 
-### 12 models in 37 days
-
-- Model velocity posts:
-  - https://x.com/stevibe/status/2047539989492498711
-  - https://x.com/theo/status/2046767107178676636
-
-### Attune patches the open-model tool-call boundary
-
-- Attune repo: https://github.com/AnthonyRonning/attune
-  - Type: repo
-  - Accessed: 2026-05-13
-  - Note: Primary source for Attune's OpenAI-compatible proxy, model-specific tool-call contract adapters, repair pipeline, traces, and eval loop.
-- Attune launch post: https://x.com/anthonyronning/status/2053823121975542061
-  - Type: social post
-  - Accessed: 2026-05-13
-  - Note: Submitted launch post framing Attune around open-model silent failures like empty outputs and malformed tool calls.
-
-### Gemma 4 app surface
+### Open model releases
+- Qwen3.6 blog: https://qwen.ai/blog?id=qwen3.6
+  - Type: model release
+  - Accessed: 2026-05-05
+  - Note: Supports Qwen3.6-27B quantization discussion.
+- Qwen quant posts:
+  - https://x.com/bnjmn_marie/status/2047786725846724918
+  - https://x.com/teksedge/status/2047876512863633710
 
 - Gemma model page: https://deepmind.google/models/gemma/
   - Type: product page
@@ -203,6 +179,23 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-05
   - Note: Announcement post for Gemma 4 MTP drafters.
+
+### 12 models in 37 days
+
+- Model velocity posts:
+  - https://x.com/stevibe/status/2047539989492498711
+  - https://x.com/theo/status/2046767107178676636
+
+### Attune patches the open-model tool-call boundary
+
+- Attune repo: https://github.com/AnthonyRonning/attune
+  - Type: repo
+  - Accessed: 2026-05-13
+  - Note: Primary source for Attune's OpenAI-compatible proxy, model-specific tool-call contract adapters, repair pipeline, traces, and eval loop.
+- Attune launch post: https://x.com/anthonyronning/status/2053823121975542061
+  - Type: social post
+  - Accessed: 2026-05-13
+  - Note: Submitted launch post framing Attune around open-model silent failures like empty outputs and malformed tool calls.
 
 ### ProgramBench says agents still cannot rebuild software
 
@@ -240,6 +233,7 @@ Public link records for [[Austin AI Club - May 13, 2026]]. These records preserv
   - Type: social post
   - Accessed: 2026-05-12
   - Note: Supports the Topic about model behavior on the red/blue button dilemma under different reasoning settings.
+
 
 ## Security
 

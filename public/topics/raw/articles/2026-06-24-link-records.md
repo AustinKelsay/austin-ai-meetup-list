@@ -218,8 +218,7 @@ sources: []
   - Notes: OpenRouter routing entry for Sakana Fugu-Ultra, the model Sakana put live on OpenRouter the same day as the meetup. Useful as the durable product page behind the launch X post.
 
 ## Models & Research
-
-### Closed model releases are a quiet week
+### Closed model releases
 - Source: https://openai.com/index/daybreak-securing-the-world/
   - Title: "Daybreak: Tools for securing every organization in the world"
   - Type: Official announcement
@@ -241,49 +240,7 @@ sources: []
   - Access: 2026-06-23
   - Notes: Official OpenAI thread post describing GPT-5.5-Cyber as its most capable cyber model for authorized defensive work; retained to support the June 22 access/productization update.
 
-### AI Twitter's model-release calendar slips
-- Post: https://x.com/synthwavedd/status/2069432791184650426
-  - Title: "leo scoop on GPT-5.6, Gemini 3.5 Pro, Bidi, and Sonnet 5 timing"
-  - Type: X post
-  - Access: 2026-06-24
-  - Notes: Main leak source claiming GPT-5.6 slipped from the current week to roughly mid-July, Gemini 3.5 Pro will not launch in June, Bidi preparations are underway, and Claude Sonnet 5 may exist in enterprise early access. Treated as an unconfirmed rumor source, not official release information.
-- Source: https://digg.com/ai/6hp5va4b
-  - Title: "OpenAI postpones GPT-5.6 release to mid-July as Google DeepMind pauses Gemini 3.5 Pro"
-  - Type: Digg cluster
-  - Access: 2026-06-24
-  - Notes: Digg aggregation of the delay rumor. Useful as amplification/context, while Digg itself notes no official word confirms mid-July timing or the specific pause reasons.
-- Source: https://digg.com/ai/djnhbslr
-  - Title: "Rumors claim OpenAI is preparing to release GPT-5.6, GPT-5.6 Pro, and bidirectional voice model GPT-Bidi-1"
-  - Type: Digg cluster
-  - Access: 2026-06-24
-  - Notes: Earlier pre-delay rumor cluster establishing the June GPT-5.6 hype cycle and Bidi chatter. Included to show the expectation the newer delay rumor is reacting against.
-- Source: https://digg.com/ai/kia1m38d
-  - Title: "A 'claude-sonnet-5' model slug appears on an Anthropic partner platform"
-  - Type: Digg cluster
-  - Access: 2026-06-24
-  - Notes: Digg aggregation of Sonnet 5 slug/partner-platform chatter. Supports the careful framing that Sonnet 5 is an unannounced slug or enterprise-access rumor, not a public launch delay.
-- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
-  - Title: "Gemini 3.5: frontier intelligence with action"
-  - Type: Official announcement
-  - Access: 2026-06-24
-  - Notes: Official Google Gemini 3.5 post: Gemini 3.5 Flash was available immediately, while Google said 3.5 Pro was already in internal use and expected to roll out "next month." This supports the June expectation, not the unconfirmed delay claim.
-- Source: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-  - Title: "ChatGPT - Release Notes"
-  - Type: Official release notes
-  - Access: 2026-06-24
-  - Notes: OpenAI's public ChatGPT release notes showed no GPT-5.6 launch or delay notice when checked; recent official model context still centered on GPT-5.5 and GPT-5.2 retirement.
-- Source: https://support.claude.com/en/articles/12138966-release-notes
-  - Title: "Claude Release Notes"
-  - Type: Official release notes
-  - Access: 2026-06-24
-  - Notes: Anthropic's public release notes list June 9 Fable 5 launch and June 12 Fable/Mythos suspension, with no public Sonnet 5 launch note.
-- Source: https://docs.anthropic.com/en/docs/about-claude/models/overview
-  - Title: "Claude models overview"
-  - Type: Official model documentation
-  - Access: 2026-06-24
-  - Notes: Anthropic's public model overview lists Fable 5/Mythos 5 plus Opus 4.8, Sonnet 4.6, and Haiku 4.5; no public Sonnet 5 model is listed.
-
-### Open models are eating the frontier gap
+### Open model releases
 - Source: https://z.ai/blog/glm-5.2
   - Title: "GLM-5.2: Frontier Intelligence, Open Weights"
   - Type: Official announcement
@@ -375,6 +332,48 @@ sources: []
   - Access: 2026-06-23
   - Notes: GitHub repo for TMax data generation, training, evaluation, and paper assets.
 
+### AI Twitter's model-release calendar slips
+- Post: https://x.com/synthwavedd/status/2069432791184650426
+  - Title: "leo scoop on GPT-5.6, Gemini 3.5 Pro, Bidi, and Sonnet 5 timing"
+  - Type: X post
+  - Access: 2026-06-24
+  - Notes: Main leak source claiming GPT-5.6 slipped from the current week to roughly mid-July, Gemini 3.5 Pro will not launch in June, Bidi preparations are underway, and Claude Sonnet 5 may exist in enterprise early access. Treated as an unconfirmed rumor source, not official release information.
+- Source: https://digg.com/ai/6hp5va4b
+  - Title: "OpenAI postpones GPT-5.6 release to mid-July as Google DeepMind pauses Gemini 3.5 Pro"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Digg aggregation of the delay rumor. Useful as amplification/context, while Digg itself notes no official word confirms mid-July timing or the specific pause reasons.
+- Source: https://digg.com/ai/djnhbslr
+  - Title: "Rumors claim OpenAI is preparing to release GPT-5.6, GPT-5.6 Pro, and bidirectional voice model GPT-Bidi-1"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Earlier pre-delay rumor cluster establishing the June GPT-5.6 hype cycle and Bidi chatter. Included to show the expectation the newer delay rumor is reacting against.
+- Source: https://digg.com/ai/kia1m38d
+  - Title: "A 'claude-sonnet-5' model slug appears on an Anthropic partner platform"
+  - Type: Digg cluster
+  - Access: 2026-06-24
+  - Notes: Digg aggregation of Sonnet 5 slug/partner-platform chatter. Supports the careful framing that Sonnet 5 is an unannounced slug or enterprise-access rumor, not a public launch delay.
+- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+  - Title: "Gemini 3.5: frontier intelligence with action"
+  - Type: Official announcement
+  - Access: 2026-06-24
+  - Notes: Official Google Gemini 3.5 post: Gemini 3.5 Flash was available immediately, while Google said 3.5 Pro was already in internal use and expected to roll out "next month." This supports the June expectation, not the unconfirmed delay claim.
+- Source: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - Title: "ChatGPT - Release Notes"
+  - Type: Official release notes
+  - Access: 2026-06-24
+  - Notes: OpenAI's public ChatGPT release notes showed no GPT-5.6 launch or delay notice when checked; recent official model context still centered on GPT-5.5 and GPT-5.2 retirement.
+- Source: https://support.claude.com/en/articles/12138966-release-notes
+  - Title: "Claude Release Notes"
+  - Type: Official release notes
+  - Access: 2026-06-24
+  - Notes: Anthropic's public release notes list June 9 Fable 5 launch and June 12 Fable/Mythos suspension, with no public Sonnet 5 launch note.
+- Source: https://docs.anthropic.com/en/docs/about-claude/models/overview
+  - Title: "Claude models overview"
+  - Type: Official model documentation
+  - Access: 2026-06-24
+  - Notes: Anthropic's public model overview lists Fable 5/Mythos 5 plus Opus 4.8, Sonnet 4.6, and Haiku 4.5; no public Sonnet 5 model is listed.
+
 ### Research behind the open model wave
 - Source: https://arxiv.org/abs/2602.15763
   - Title: "GLM-5: from Vibe Coding to Agentic Engineering"
@@ -401,6 +400,7 @@ sources: []
   - Type: X post
   - Access: 2026-06-23
   - Notes: High-signal X source linking the TMax paper, blog, GitHub repo, Hugging Face artifacts, and video.
+
 
 ## Security
 

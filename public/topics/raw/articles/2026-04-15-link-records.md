@@ -58,35 +58,30 @@ Public link records for [[Austin AI Club - April 15, 2026]]. These records prese
   - Note: Supports the pattern Topic that many companies suddenly need an agent story.
 
 ## Models & Research
+### Closed model releases
+- Qwen3.6-Plus records:
+  - https://qwen.ai/blog?id=qwen3.6
+  - https://chat.qwen.ai/
+  - https://x.com/Alibaba_Qwen/status/2039705104723611829
 
-### Waypoint-1.5 brings real-time AI worlds to everyday GPUs
+- Muse Spark records:
+  - https://ai.meta.com/blog/introducing-muse-spark-msl/
+  - https://x.com/ArtificialAnlys/status/2041913043379220801
 
+### Open model releases
 - Waypoint-1.5:
   - https://over.world/blog/waypoint-1-5
   - https://github.com/Overworldai/Biome/blob/main/README.md
   - https://x.com/overworld_ai/status/2042287199513952563
-
-### GLM-5.1
 
 - GLM-5.1:
   - https://docs.z.ai/guides/llm/glm-5.1
   - https://z.ai/blog/glm-5.1
   - https://x.com/Zai_org/status/2041550153354519022
 
-### Trinity-Large-Thinking
-
 - Open model releases:
   - https://huggingface.co/arcee-ai/Trinity-Large-Thinking
   - https://x.com/TheAhmadOsman/status/2039481776628777245
-
-### Qwen3.6-Plus
-
-- Qwen3.6-Plus records:
-  - https://qwen.ai/blog?id=qwen3.6
-  - https://chat.qwen.ai/
-  - https://x.com/Alibaba_Qwen/status/2039705104723611829
-
-### Google Gemma 4
 
 - Gemma 4:
   - https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/
@@ -94,18 +89,11 @@ Public link records for [[Austin AI Club - April 15, 2026]]. These records prese
   - https://ai.google.dev/gemma/docs/releases
   - https://x.com/Google/status/2039736220834480233
 
-### Llama 4 Scout & Maverick
-
 - Meta model releases:
   - https://ai.meta.com/blog/llama-4-multimodal-intelligence/
   - https://llama.meta.com/models/llama-4/
   - https://huggingface.co/blog/llama4-release
 
-### Meta introduces Muse Spark
-
-- Muse Spark records:
-  - https://ai.meta.com/blog/introducing-muse-spark-msl/
-  - https://x.com/ArtificialAnlys/status/2041913043379220801
 
 ## Security
 

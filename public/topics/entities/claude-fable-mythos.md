@@ -14,8 +14,8 @@ Claude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capab
 ## Mentioned In
 
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker** and **Fable 5 comes back with government in the loop**.
-- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.
-- [[Austin AI Club - June 10, 2026]]: **Closed labs start the June model wave** and **Fable's refusals go too far**.
+- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.
+- [[Austin AI Club - June 10, 2026]]: **Closed model releases** and **Fable's refusals go too far**.
 - [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**.
 
 ## Related

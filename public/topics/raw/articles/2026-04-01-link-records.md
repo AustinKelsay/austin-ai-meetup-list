@@ -83,9 +83,28 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://x.com/claudeai/status/2038663014098899416
 
 ## Models & Research
+### Closed model releases
+- GLM-5.1 records:
+  - https://x.com/Zai_org/status/2037490078126084514
+  - https://docs.z.ai/devpack/using5.1
+  - https://docs.z.ai/guides/llm/glm-5
 
-### Chroma Context-1
+- GLM-5V-Turbo record:
+  - https://x.com/Zai_org/status/2039371126984360085
 
+- MiniMax records:
+  - https://x.com/MiniMax_AI/status/2034315320337522881
+  - https://www.minimax.io/news/minimax-m27-en
+  - https://platform.minimax.io/subscribe/coding-plan
+
+- GPT-5.4 mini and nano record:
+  - https://x.com/ArtificialAnlys/status/2037043552405119395
+
+- GLM5 Turbo records:
+  - https://x.com/ArtificialAnlys/status/2038667075489808804
+  - https://artificialanalysis.ai/leaderboards/models
+
+### Open model releases
 - Search, coding, multimodal, and local model records:
   - https://x.com/trychroma/status/2037243681988894950
   - https://www.trychroma.com/research/context-1
@@ -94,8 +113,6 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://x.com/trychroma/status/2037243689853161868
   - https://x.com/trychroma/status/2037243694894768143
 
-### Nemotron-Cascade 2
-
 - Nemotron-Cascade 2 records:
   - https://x.com/_weiping/status/2034877099908243746
   - https://x.com/Wenliang_Dai/status/2035020886269690339
@@ -103,36 +120,8 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://huggingface.co/collections/nvidia/nemotron-cascade-2
   - https://arxiv.org/abs/2603.19220
 
-### GLM-5.1
-
-- GLM-5.1 records:
-  - https://x.com/Zai_org/status/2037490078126084514
-  - https://docs.z.ai/devpack/using5.1
-  - https://docs.z.ai/guides/llm/glm-5
-
-### GLM-5V-Turbo
-
-- GLM-5V-Turbo record:
-  - https://x.com/Zai_org/status/2039371126984360085
-
-### MiniMax M2.7
-
-- MiniMax records:
-  - https://x.com/MiniMax_AI/status/2034315320337522881
-  - https://www.minimax.io/news/minimax-m27-en
-  - https://platform.minimax.io/subscribe/coding-plan
-
-### GPT-5.4 mini and nano
-
-- GPT-5.4 mini and nano record:
-  - https://x.com/ArtificialAnlys/status/2037043552405119395
-
-### Holo3 computer-use models
-
 - Holo3 record:
   - https://x.com/hcompany_ai/status/2039021096649805937
-
-### Qwen3.5-Omni
 
 - Qwen3.5-Omni records:
   - https://x.com/Alibaba_Qwen/status/2038636335272194241
@@ -141,30 +130,11 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://qwen.ai/research
   - https://huggingface.co/collections/Qwen/qwen35
 
-### Cohere Transcribe
-
 - Cohere Transcribe record:
   - https://x.com/ArtificialAnlys/status/2038678855213568031
 
-### Liquid AI LFM2.5-350M
-
 - Liquid AI LFM2.5-350M record:
   - https://x.com/i/status/2039029358224871605
-
-### GLM5 Turbo
-
-- GLM5 Turbo records:
-  - https://x.com/ArtificialAnlys/status/2038667075489808804
-  - https://artificialanalysis.ai/leaderboards/models
-
-### Composer 2 / Kimi K2.5 drama
-
-- Composer 2 / Kimi K2.5 records:
-  - https://x.com/ns123abc/status/2035058399067435474
-  - https://x.com/Kimi_Moonshot/status/2035074972943831491
-  - https://x.com/fleetwood___/status/2037117778503626937
-
-### Claude-distilled Qwen models trending on HF
 
 - Distillation and benchmark records:
   - https://x.com/HuggingModels/status/2038398319417082125
@@ -175,6 +145,13 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://x.com/aiwithmayank/status/2038918640519807340
   - https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled
   - https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
+
+### Composer 2 / Kimi K2.5 drama
+
+- Composer 2 / Kimi K2.5 records:
+  - https://x.com/ns123abc/status/2035058399067435474
+  - https://x.com/Kimi_Moonshot/status/2035074972943831491
+  - https://x.com/fleetwood___/status/2037117778503626937
 
 ### Distillation hesitation
 
@@ -224,6 +201,7 @@ Public link records for [[Austin AI Club - April 1, 2026]]. These records preser
   - https://x.com/thdxr/status/2038054914358645168
   - https://x.com/teortaxesTex/status/2038329816412283343
   - https://x.com/thdxr/status/2038619304447385906
+
 
 ## Security
 

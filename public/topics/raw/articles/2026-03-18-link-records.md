@@ -69,44 +69,31 @@ Public link records for [[Austin AI Club - March 18, 2026]]. These records prese
   - https://x.com/moritzkremb/status/2030221468244775131
 
 ## Models & Research
-
-### Qwen 3.5 series
-
-- Qwen records:
-  - https://huggingface.co/collections/Qwen/qwen35
-  - https://artificialanalysis.ai/leaderboards/models?is_open_weights=open_source
-
-### Nemotron v3 series
-
-- Nemotron records:
-  - https://huggingface.co/collections/nvidia/nvidia-nemotron-v3
-
-### Nemotron 3 VoiceChat frontier
-
-- VoiceChat record:
-  - https://x.com/ArtificialAnlys/status/2033642073052868861
-
-### Mistral Small
-
-- Mistral record:
-  - https://x.com/MistralDevs/status/2033654167395357082
-
-### GPT-5.4 mini
-
+### Closed model releases
 - GPT-5.4 mini records:
   - https://x.com/OpenAI/status/2033953592424731072
   - https://openai.com/index/introducing-gpt-5-4-mini-and-nano/
 
-### Xiaomi MiMo-V2-Pro
-
 - Xiaomi MiMo record:
   - https://x.com/ArtificialAnlys/status/2034239267052896516
-
-### MiniMax M2.7
 
 - MiniMax records:
   - https://x.com/MiniMax_AI/status/2034315320337522881
   - https://www.minimax.io/news/minimax-m27-en
+
+### Open model releases
+- Qwen records:
+  - https://huggingface.co/collections/Qwen/qwen35
+  - https://artificialanalysis.ai/leaderboards/models?is_open_weights=open_source
+
+- Nemotron records:
+  - https://huggingface.co/collections/nvidia/nvidia-nemotron-v3
+
+- VoiceChat record:
+  - https://x.com/ArtificialAnlys/status/2033642073052868861
+
+- Mistral record:
+  - https://x.com/MistralDevs/status/2033654167395357082
 
 ### LMfit
 
@@ -117,6 +104,7 @@ Public link records for [[Austin AI Club - March 18, 2026]]. These records prese
 
 - Frontier check record:
   - https://artificialanalysis.ai
+
 
 ## Security
 

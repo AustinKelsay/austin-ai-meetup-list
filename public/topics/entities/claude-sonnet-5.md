@@ -13,7 +13,7 @@ Claude Sonnet 5 is Anthropic's executor-side agent model in the July 8 board, us
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
+- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 
 ## Related

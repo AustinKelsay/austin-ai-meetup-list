@@ -13,7 +13,7 @@ PrismML is a recurring Austin AI Club entity for extreme model compression, on-d
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **PrismML ships 1-bit image gen that runs on iPhone**.
+- [[Austin AI Club - May 27, 2026]]: **Open model releases**.
 
 ## Related
 

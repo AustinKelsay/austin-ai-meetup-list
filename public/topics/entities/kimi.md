@@ -15,11 +15,11 @@ Kimi is Moonshot AI's model family, recurring in Austin AI Club through open cod
 
 - [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
-- [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 24, 2026]]: **Open model releases**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
 - [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.
-- [[Austin AI Club - March 18, 2026]]: **Xiaomi MiMo-V2-Pro**.
+- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.
 
 ## Related
 

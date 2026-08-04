@@ -14,8 +14,8 @@ Meta Muse collects the Muse Spark and Muse Image model/product thread, which app
 ## Mentioned In
 
 - [[Austin AI Club - July 22, 2026]]: **Closed model releases**.
-- [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
-- [[Austin AI Club - April 15, 2026]]: **Meta introduces Muse Spark**.
+- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.
 
 ## Related
 

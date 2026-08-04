@@ -70,6 +70,33 @@ sources: []
   - Notes: Initial disclosure of the TrapDoor malware campaign affecting AI coding assistants
 
 ## Models & Research
+### Open model releases
+- Source: https://prismml.com/news/bonsai-image-4b
+  - Title: "Introducing 1-bit and Ternary Bonsai Image 4B: Image Generation for Local Devices"
+  - Type: Official announcement
+  - Access: 2026-05-26
+  - Notes: Bonsai Image 4B compresses FLUX.2 Klein 4B diffusion transformer from 7.75GB to 0.93GB (1-bit) / 1.21GB (ternary), an 8.3x/6.4x reduction while retaining 88%/95% quality. First 4B-class diffusion model to run on iPhone (512x512 in 9.4s on iPhone 17 Pro Max). Apache 2.0. Built by Caltech researchers backed by Khosla Ventures, Cerberus, and Google.
+- Source: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu
+  - Title: "Bonsai Image WebGPU Demo – a Hugging Face Space by webml-community"
+  - Type: Demo
+  - Access: 2026-05-26
+  - Notes: Live in-browser WebGPU demo for trying Bonsai Image 4B image generation directly in the browser
+- Post: https://x.com/PrismML/status/2059339159899390326
+  - Title: "PrismML announcement post for Bonsai Image 4B"
+  - Type: X post
+  - Access: 2026-05-26
+  - Notes: Official launch post for 1-bit/ternary image generation on iPhone
+
+- Source: https://arxiv.org/abs/2605.22391
+  - Title: "Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings"
+  - Type: arXiv preprint
+  - Access: 2026-05-27
+  - Notes: KAIKAKU.AI trains three Metapath2Vec food embedding variants on 4.14M multilingual recipes normalized to 1,790 ingredients, blending recipe co-occurrence and FlavorDB chemistry walks
+- Post: https://x.com/josefchen/status/2059350978109874677
+  - Title: "Josef Chen launch post for Epicure"
+  - Type: X post
+  - Access: 2026-05-27
+  - Notes: Hook framing: 4.1M recipes, 7 languages, 1,790 ingredients, 300 dimensions, 2 megabytes total
 
 ### Multi-token prediction goes mainstream
 - Source: https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/
@@ -132,34 +159,6 @@ sources: []
   - Access: 2026-05-26
   - Notes: Industry commentary on 70-point performance gap exposed by DeepSWE
 
-### PrismML ships 1-bit image gen that runs on iPhone
-- Source: https://prismml.com/news/bonsai-image-4b
-  - Title: "Introducing 1-bit and Ternary Bonsai Image 4B: Image Generation for Local Devices"
-  - Type: Official announcement
-  - Access: 2026-05-26
-  - Notes: Bonsai Image 4B compresses FLUX.2 Klein 4B diffusion transformer from 7.75GB to 0.93GB (1-bit) / 1.21GB (ternary), an 8.3x/6.4x reduction while retaining 88%/95% quality. First 4B-class diffusion model to run on iPhone (512x512 in 9.4s on iPhone 17 Pro Max). Apache 2.0. Built by Caltech researchers backed by Khosla Ventures, Cerberus, and Google.
-- Source: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu
-  - Title: "Bonsai Image WebGPU Demo – a Hugging Face Space by webml-community"
-  - Type: Demo
-  - Access: 2026-05-26
-  - Notes: Live in-browser WebGPU demo for trying Bonsai Image 4B image generation directly in the browser
-- Post: https://x.com/PrismML/status/2059339159899390326
-  - Title: "PrismML announcement post for Bonsai Image 4B"
-  - Type: X post
-  - Access: 2026-05-26
-  - Notes: Official launch post for 1-bit/ternary image generation on iPhone
-
-### Epicure squeezes global cooking into 2MB
-- Source: https://arxiv.org/abs/2605.22391
-  - Title: "Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings"
-  - Type: arXiv preprint
-  - Access: 2026-05-27
-  - Notes: KAIKAKU.AI trains three Metapath2Vec food embedding variants on 4.14M multilingual recipes normalized to 1,790 ingredients, blending recipe co-occurrence and FlavorDB chemistry walks
-- Post: https://x.com/josefchen/status/2059350978109874677
-  - Title: "Josef Chen launch post for Epicure"
-  - Type: X post
-  - Access: 2026-05-27
-  - Notes: Hook framing: 4.1M recipes, 7 languages, 1,790 ingredients, 300 dimensions, 2 megabytes total
 
 ## Big Tech Moves
 

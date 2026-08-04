@@ -14,13 +14,13 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 ## Mentioned In
 
 - [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
-- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open models are eating the frontier gap**, and **Research behind the open model wave**.
-- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed labs start the June model wave**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.
+- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.
+- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.
 - [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.
-- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Qwen3.6-27B gets laptop-shaped**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.
-- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**, **Trinity-Large-Thinking**, **Meta introduces Muse Spark**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.
-- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **GLM5 Turbo**, **Claude-distilled Qwen models trending on HF**, and **Google TurboQuant**.
-- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Qwen 3.5 series**, **Nemotron 3 VoiceChat frontier**, **Xiaomi MiMo-V2-Pro**, **Frontier check**, and **plebdev-bench**.
+- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.
+- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.
+- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.
 
 ## Related
 

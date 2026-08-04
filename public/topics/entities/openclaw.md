@@ -15,7 +15,7 @@ OpenClaw is a recurring Austin AI Club entity because it anchors several coding-
 
 - [[Austin AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.
 - [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.
-- [[Austin AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **MiniMax M2.7**, **Claude-distilled Qwen models trending on HF**, and **Claude Code source leaked via npm sourcemap**.
+- [[Austin AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Closed model releases**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.
 - [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **OpenClaw pairing bench**, **NemoClaw launch + OpenClaw reaction**, and **Pimping your OpenClaw**.
 
 ## Related

@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-04] update | Retrofit historical Closed/Open model-release roundups
+
+- Restructured every past Models & Research board so model launches live under the official `Closed model releases` and `Open model releases` Release Roundup Topics.
+- Merged July 22's thematic open-release Topics into the Open roundup; renamed older mega-slide titles; and consolidated individual March–May release Topics into Closed/Open catalogs while keeping research/eval Topics separate.
+- Synced Meetup Data, Markdown Archive, source-record headings, and Mentions In lines; Presentation Mode keeps `releaseRoundup: true` full catalogs.
+
 ## [2026-08-04] update | Official Closed/Open model-release roundups
 
 - Made `Closed model releases` and `Open model releases` the official Models & Research Release Roundup Topics, with `releaseRoundup: true` Presentation Mode support for full scrollable launch-post and source catalogs.

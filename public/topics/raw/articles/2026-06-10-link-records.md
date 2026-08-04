@@ -188,8 +188,7 @@ sources: []
   - Notes: Vaibhav Sisinty's explanation (4.9K views) of TurboVec: someone fit 31GB of AI memory into 4GB running on a MacBook. Ryan Codrai built it in Rust, open source, MIT licensed, faster than FAISS. Practical local deployment of TurboQuant.
 
 ## Models & Research
-
-### Closed labs start the June model wave
+### Closed model releases
 - Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
   - Title: "Claude Fable 5 and Claude Mythos 5"
   - Type: Official release
@@ -241,7 +240,7 @@ sources: []
   - Access: 2026-06-08
   - Notes: Official model-specific announcement post used as supporting embed.
 
-### Open-weight release week turns into a firehose
+### Open model releases
 - Source: https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16
   - Title: "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
   - Type: Model card
@@ -788,6 +787,7 @@ sources: []
   - Type: X post
   - Access: 2026-06-09
   - Notes: Cohost-submitted X post used as the room embed.
+
 
 ## Security
 

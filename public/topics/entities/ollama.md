@@ -14,7 +14,7 @@ Ollama is a local-model runtime and distribution surface that keeps showing up w
 ## Mentioned In
 
 - [[Austin AI Club - July 8, 2026]]: **Should chat route local by default?**.
-- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**.
+- [[Austin AI Club - May 13, 2026]]: **Open model releases**.
 - [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi** and **Osaurus local AI suite**.
 
 ## Related

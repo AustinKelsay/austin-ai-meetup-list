@@ -13,11 +13,11 @@ Nemotron is NVIDIA's open model family, recurring in Austin AI Club through open
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
-- [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
-- [[Austin AI Club - April 1, 2026]]: **Nemotron-Cascade 2**.
-- [[Austin AI Club - March 18, 2026]]: **Nemotron v3 series** and **Nemotron 3 VoiceChat frontier**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 24, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
+- [[Austin AI Club - April 1, 2026]]: **Open model releases**.
+- [[Austin AI Club - March 18, 2026]]: **Open model releases**.
 
 ## Related
 

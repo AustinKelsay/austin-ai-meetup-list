@@ -383,267 +383,203 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
-          {
-            title: "Closed model releases",
-            description:
-              "OpenAI split GPT-5.6, GPT-Live, and GPT-Realtime across reasoning and full-duplex voice; Google split Gemini Flash across general, cheap, and cyber tiers; xAI shipped Grok 4.5; Meta paired Muse Spark 1.1 with Muse Image and Video; and SWE-1.7, Reve 2.1, Seedream 5 Pro, and Base 1 pushed coding, image generation, and app building into their own models. Closed releases are becoming product-specific fleets.",
-            chip: "closed releases",
-            releaseRoundup: true,
-            href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/shengjia_zhao/status/2075220782465290620?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/elonmusk/status/2074740539874775163?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/deedydas/status/2075108785643987447?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://openai.com/index/gpt-5-6/",
-              "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-              "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896",
-              "https://x.ai/news/grok-4-5",
-              "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-              "https://cognition.ai/blog/swe-1-7",
-              "https://blog.reve.com/posts/launching-reve-2.1/",
-              "https://thursdai.news/releases/2026-07",
-            ],
-            notes:
-              "Official closed-release roundup: launch posts first, then the source catalog.",
-          },
-          {
-            title: "Open model releases",
-            description:
-              "Thinking Machines opened the 975B/41B-active multimodal Inkling MoE; Qwen previewed the 2.4T Qwen3.8-Max and promised open weights soon; Bad Theory Labs turned Qwen3.6-27B into the tool-using BTL-3 and an 8.39 GB Compact build; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local agents, robotics, and embodied specialists.",
-            chip: "open releases",
-            releaseRoundup: true,
-            href: "https://thinkingmachines.ai/news/introducing-inkling/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/Alibaba_Qwen/status/2078754377473601787?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Badtheorylabs/status/2079306502897074249?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/nvidia/status/2071685134990897443?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Kimi_Moonshot/status/2078855608565207130?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://thinkingmachines.ai/model-card/inkling/",
-              "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
-              "https://huggingface.co/badtheorylabs/BTL-3",
-              "https://huggingface.co/badtheorylabs/BTL-3-Compact",
-              "https://github.com/Badtheorylabs/BTL-3",
-              "https://blogs.nvidia.com/blog/siggraph-news-2026/",
-              "https://mistral.ai/news/robostral-navigate/",
-              "https://www.kimi.com/blog/kimi-k3",
-              "https://www.kimi.com/help/agent/agent-overview",
-            ],
-            notes:
-              "Official open-release roundup: launch posts first, then the source catalog.",
-          },
-          {
-            title: "Open agent and reasoning models fan out",
-            description:
-              "Tencent's 295B/21B-active Hy3, Mistral's Leanstral 1.5, Xiaomi's MiMo V2 pair, Ornith 1.0 35B, and Liquid AI's 8B/1.5B-active LFM2.5 join the frontier and agent releases above. The useful comparison is no longer just size: it is active parameters, tool use, proof work, local throughput, and license.",
-            chip: "open agents",
-            href: "https://huggingface.co/tencent/Hy3",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "OpenAI split GPT-5.6, GPT-Live, and GPT-Realtime across reasoning and full-duplex voice; Google split Gemini Flash across general, cheap, and cyber tiers; xAI shipped Grok 4.5; Meta paired Muse Spark 1.1 with Muse Image and Video; and SWE-1.7, Reve 2.1, Seedream 5 Pro, and Base 1 pushed coding, image generation, and app building into their own models. Closed releases are becoming product-specific fleets.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/shengjia_zhao/status/2075220782465290620?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/elonmusk/status/2074740539874775163?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/deedydas/status/2075108785643987447?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://openai.com/index/gpt-5-6/",
+                "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+                "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896",
+                "https://x.ai/news/grok-4-5",
+                "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+                "https://cognition.ai/blog/swe-1-7",
+                "https://blog.reve.com/posts/launching-reve-2.1/",
+                "https://thursdai.news/releases/2026-07",
+              ],
+              notes: "Official closed-release roundup: launch posts first, then the source catalog.",
             },
-            linkPair: [
-              "https://github.com/Tencent-Hunyuan/Hy3-preview",
-              "https://mistral.ai/news/leanstral-1-5/",
-              "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-              "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
-              "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
-              "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
-              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-            ],
-            presentationLinkPair: [
-              "https://mistral.ai/news/leanstral-1-5/",
-              "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
-              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-            ],
-          },
-          {
-            title: "Open multimodal models specialize by modality",
-            description:
-              "DiffusionGemma and LTX-2.3 cover text and video generation; Unlimited-OCR, HunyuanOCR, and LightOnOCR attack documents; GLM-4.1V, Krea-2-Turbo, Maya1, Anima, UniVR, nvDock, and H2O's Mississippi models spread across vision, image, speech, planning, molecular docking, and compact VLMs. Open releases now look more like a tool shelf than one leaderboard.",
-            chip: "open multimodal",
-            href: "https://huggingface.co/google/diffusiongemma-26b-a4b-it",
-            linkPair: [
-              "https://huggingface.co/Lightricks/LTX-2.3",
-              "https://huggingface.co/baidu/Unlimited-OCR",
-              "https://huggingface.co/tencent/HunyuanOCR",
-              "https://huggingface.co/lightonai/LightOnOCR-2-1B",
-              "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
-              "https://huggingface.co/krea/Krea-2-Turbo",
-              "https://huggingface.co/maya-research/maya1",
-              "https://huggingface.co/circlestone-labs/Anima",
-              "https://huggingface.co/ByteDance/UniVR-34B-Planning",
-              "https://huggingface.co/nvidia/nvDock",
-              "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
-              "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
-            ],
-            presentationLinkPair: [
-              "https://huggingface.co/Lightricks/LTX-2.3",
-              "https://huggingface.co/baidu/Unlimited-OCR",
-              "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
-              "https://huggingface.co/krea/Krea-2-Turbo",
-            ],
-          },
-          {
-            title: "Embedding models get their own open release lane",
-            description:
-              "NVIDIA's Nemotron-3-Embed family and Microsoft's 0.6B/270M BitNet embeddings target retrieval instead of chat. Smaller representation models are becoming first-class releases because agent systems still need search, ranking, and memory.",
-            chip: "embeddings",
-            href: "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-            linkPair: [
-              "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
-              "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
-              "https://aiflashreport.com/model-releases.html",
-            ],
-          },
-          {
-            title: "Local model packaging becomes part of the release",
-            description:
-              "Fresh GGUF, NVFP4, FP8, AWQ, and ternary builds cover Gemma 4, Qwen3.6, DeepSeek V4, Bonsai-27B, and Hy3. The weights are only half the launch now; the other half is whether one file fits the hardware people own.",
-            chip: "local packaging",
-            href: "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/TencentHunyuan/status/2076953120765280284?ref_src=twsrc%5Etfw",
+            {
+              title: "Open model releases",
+              description: "Thinking Machines opened the 975B/41B-active multimodal Inkling MoE; Qwen previewed Qwen3.8-Max; Bad Theory Labs shipped tool-using BTL-3; NVIDIA and Mistral pushed edge world/robot models; and Kimi K3 weights were due July 27—then the shelf filled with agent/reasoning MoEs, modality specialists, embedding models, and local GGUF/NVFP4 packaging. Open now spans frontier bases through laptop-shaped artifacts.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://thinkingmachines.ai/news/introducing-inkling/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Alibaba_Qwen/status/2078754377473601787?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Badtheorylabs/status/2079306502897074249?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/nvidia/status/2071685134990897443?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Kimi_Moonshot/status/2078855608565207130?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TencentHunyuan/status/2076953120765280284?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://thinkingmachines.ai/model-card/inkling/",
+                "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+                "https://huggingface.co/badtheorylabs/BTL-3",
+                "https://huggingface.co/badtheorylabs/BTL-3-Compact",
+                "https://github.com/Badtheorylabs/BTL-3",
+                "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+                "https://mistral.ai/news/robostral-navigate/",
+                "https://www.kimi.com/blog/kimi-k3",
+                "https://www.kimi.com/help/agent/agent-overview",
+                "https://huggingface.co/tencent/Hy3",
+                "https://github.com/Tencent-Hunyuan/Hy3-preview",
+                "https://mistral.ai/news/leanstral-1-5/",
+                "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+                "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+                "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+                "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+                "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+                "https://huggingface.co/google/diffusiongemma-26b-a4b-it",
+                "https://huggingface.co/Lightricks/LTX-2.3",
+                "https://huggingface.co/baidu/Unlimited-OCR",
+                "https://huggingface.co/tencent/HunyuanOCR",
+                "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+                "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+                "https://huggingface.co/krea/Krea-2-Turbo",
+                "https://huggingface.co/maya-research/maya1",
+                "https://huggingface.co/circlestone-labs/Anima",
+                "https://huggingface.co/ByteDance/UniVR-34B-Planning",
+                "https://huggingface.co/nvidia/nvDock",
+                "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+                "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
+                "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+                "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+                "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
+                "https://aiflashreport.com/model-releases.html",
+                "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+                "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+                "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+                "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+                "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
+                "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+                "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
+                "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+                "https://huggingface.co/antirez/deepseek-v4-gguf",
+                "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+                "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the full source catalog.",
             },
-            linkPair: [
-              "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
-              "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
-              "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
-              "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
-              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
-              "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
-              "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
-              "https://huggingface.co/antirez/deepseek-v4-gguf",
-              "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
-              "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-            ],
-            presentationLinkPair: [
-              "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
-              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
-              "https://huggingface.co/antirez/deepseek-v4-gguf",
-              "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-            ],
-          },
-          {
-            title: "Frontier local inference becomes an expert-cache problem",
-            description:
-              "A vLLM-Moet experiment gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; a separate experiment losslessly round-trips every GLM-5.2 BF16 tensor at about 25% smaller. Models that do not fit are running anyway.",
-            chip: "local inference",
-            href: "https://github.com/kacper-daftcode/vllm-Moet",
-            embeds: [
-              {
+            {
+              title: "Frontier local inference becomes an expert-cache problem",
+              description: "A vLLM-Moet experiment gets 753B-parameter GLM-5.2 onto two workstation GPUs and DeepSeek V4 Flash onto one RTX 5090 by treating GPU memory as a cache for compressed experts; a separate experiment losslessly round-trips every GLM-5.2 BF16 tensor at about 25% smaller. Models that do not fit are running anyway.",
+              chip: "local inference",
+              href: "https://github.com/kacper-daftcode/vllm-Moet",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/0xSero/status/2075326725320278208?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/brianbellx/status/2076432307687215494?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ivanfioravanti/status/2075085548318781874?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://brianbell-x.github.io/weight-compression/",
+                "https://github.com/brianbell-x/weight-compression",
+              ],
+            },
+            {
+              title: "llama.garden makes model distribution a protocol",
+              description: "An experimental project turns model weights into signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the Local AI distribution primitive.",
+              chip: "open distribution",
+              href: "https://llama.garden/",
+              linkPair: [
+                "https://github.com/etemiz/llama.garden",
+                "https://www.reddit.com/r/LocalLLM/comments/1up92t0/waifumagnet_torrents_that_work/",
+              ],
+            },
+            {
+              title: "AI math crosses from medals into new proofs",
+              description: "IMO gold established the competition milestone; FrontierMath and FirstProof moved into unpublished research questions; AxiomProver produced Lean-checkable work on Fel's conjecture; AlphaEvolve improved verified bounds and algorithms; and an OpenAI model's Erdős unit-distance counterexample survived external mathematician review. The real threshold is not a viral answer—it is a result experts or proof systems can check.",
+              chip: "ai mathematics",
+              href: "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/0xSero/status/2075326725320278208?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/axiommathai/status/2019449659807219884?ref_src=twsrc%5Etfw",
               },
-              {
+              linkPair: [
+                "https://x.com/i/grok/share/98f3b68e4d95448680b45e9bf454caf1",
+                "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+                "https://openai.com/index/introducing-gpt-5-4/",
+                "https://1stproof.org/",
+                "https://arxiv.org/abs/2602.21201",
+                "https://arxiv.org/abs/2602.03716",
+                "https://deepmind.google/blog/alphaevolve-impact/",
+                "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
+              ],
+            },
+            {
+              title: "AI 2040 writes the optimistic branch on purpose",
+              description: "The AI 2027 team now proposes a verified U.S.-China slowdown, international coordination, and delayed superintelligence as its positive scenario. It is less a forecast than a concrete plan the room can argue with.",
+              chip: "ai governance",
+              href: "https://blog.aifutures.org/p/ai-2040-plan-a",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/brianbellx/status/2076432307687215494?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/dkokotajlo/status/2075251618728292464?ref_src=twsrc%5Etfw",
               },
-              {
+            },
+            {
+              title: "Models learn to please the grader, not the user",
+              description: "OpenAI and Apollo found reward-seeking grew across frontier-scale RL checkpoints: models increasingly followed what they believed the grader rewarded even when it opposed user or developer intent. Contrastive SDF measures the behavior by changing grader beliefs and watching the policy move.",
+              chip: "alignment evals",
+              href: "https://alignment.openai.com/measuring-reward-seeking/",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/ivanfioravanti/status/2075085548318781874?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/OpenAI/status/2079647251677536324?ref_src=twsrc%5Etfw",
               },
-            ],
-            linkPair: [
-              "https://brianbell-x.github.io/weight-compression/",
-              "https://github.com/brianbell-x/weight-compression",
-            ],
-          },
-          {
-            title: "llama.garden makes model distribution a protocol",
-            description:
-              "An experimental project turns model weights into signed Nostr listings backed by BitTorrent, Hugging Face webseeds, and independent seeders, while a forkable single-file catalog keeps discovery outside one hosted index. The rough edges are real, but so is the Local AI distribution primitive.",
-            chip: "open distribution",
-            href: "https://llama.garden/",
-            linkPair: [
-              "https://github.com/etemiz/llama.garden",
-              "https://www.reddit.com/r/LocalLLM/comments/1up92t0/waifumagnet_torrents_that_work/",
-            ],
-          },
-          {
-            title: "AI math crosses from medals into new proofs",
-            description:
-              "IMO gold established the competition milestone; FrontierMath and FirstProof moved into unpublished research questions; AxiomProver produced Lean-checkable work on Fel's conjecture; AlphaEvolve improved verified bounds and algorithms; and an OpenAI model's Erdős unit-distance counterexample survived external mathematician review. The real threshold is not a viral answer—it is a result experts or proof systems can check.",
-            chip: "ai mathematics",
-            href: "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/axiommathai/status/2019449659807219884?ref_src=twsrc%5Etfw",
             },
-            linkPair: [
-              "https://x.com/i/grok/share/98f3b68e4d95448680b45e9bf454caf1",
-              "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
-              "https://openai.com/index/introducing-gpt-5-4/",
-              "https://1stproof.org/",
-              "https://arxiv.org/abs/2602.21201",
-              "https://arxiv.org/abs/2602.03716",
-              "https://deepmind.google/blog/alphaevolve-impact/",
-              "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
-            ],
-            presentationLinkPair: [
-              "https://1stproof.org/",
-              "https://arxiv.org/abs/2602.21201",
-              "https://deepmind.google/blog/alphaevolve-impact/",
-              "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
-            ],
-          },
-          {
-            title: "AI 2040 writes the optimistic branch on purpose",
-            description:
-              "The AI 2027 team now proposes a verified U.S.-China slowdown, international coordination, and delayed superintelligence as its positive scenario. It is less a forecast than a concrete plan the room can argue with.",
-            chip: "ai governance",
-            href: "https://blog.aifutures.org/p/ai-2040-plan-a",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/dkokotajlo/status/2075251618728292464?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Models learn to please the grader, not the user",
-            description:
-              "OpenAI and Apollo found reward-seeking grew across frontier-scale RL checkpoints: models increasingly followed what they believed the grader rewarded even when it opposed user or developer intent. Contrastive SDF measures the behavior by changing grader beliefs and watching the policy move.",
-            chip: "alignment evals",
-            href: "https://alignment.openai.com/measuring-reward-seeking/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/OpenAI/status/2079647251677536324?ref_src=twsrc%5Etfw",
-            },
-          },
-        ],
+          ],
       },
       {
         id: "jul22-security",
@@ -937,169 +873,168 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
-          {
-            title: "Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy",
-            description:
-              "Meta's MEG-based brain-to-text work turns the BCI story from surgery-only demo into a scaling question: 22,000 typed sentences, nine participants, 10 hours each, and open code/data around a 61% average word-accuracy result.",
-            chip: "brain models",
-            href: "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/AIatMeta/status/2071566924803395741?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch and added GPT-Realtime-2.1/mini for voice agents, while Cursor, SpaceXAI, Cognition, Anthropic, Google, and Meta pushed closed models straight into product channels: IDE, Devin, Claude, voice, cloud media, Instagram, and WhatsApp.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://openai.com/index/previewing-gpt-5-6-sol/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OpenAI/status/2070555272230384038?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OpenAI/status/2074704958419792299?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/claudeai/status/2072017450611142835?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/testingcatalog/status/2074266798694809821?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/AIatMeta/status/2074587864923250873?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cursor_ai/status/2074915744999969059?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://developers.openai.com/api/docs/changelog",
+                "https://cursor.com/docs/models/grok-4-5",
+                "https://cognition.com/blog/swe-1-7",
+                "https://www.anthropic.com/news/claude-sonnet-5",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+                "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+                "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+              ],
             },
-            linkPair: [
-              "https://www.nature.com/articles/s41593-026-02303-2",
-              "https://facebookresearch.github.io/brain2qwerty/",
-            ],
-            topStory: true,
-          },
-          {
-            title: "Open model releases get specialized fast",
-            description:
-              "The theme is specialization: Tencent Hy3 for agentic MoE, Qwen for agent-world simulation, Mistral for Lean proofs, Cohere for Arabic speech, Microsoft for Qwen safety tuning, NVIDIA for serving/eval models, and DeepSeek for faster decoding.",
-            chip: "open releases",
-            href: "https://huggingface.co/tencent/Hy3",
-            embeds: [
-              {
+            {
+              title: "Open model releases",
+              description: "The theme is specialization: Tencent Hy3 for agentic MoE, Qwen for agent-world simulation, Mistral for Lean proofs, Cohere for Arabic speech, Microsoft for Qwen safety tuning, NVIDIA for serving/eval models, and DeepSeek for faster decoding.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://huggingface.co/tencent/Hy3",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Alibaba_Qwen/status/2069720365442719867?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/itayoush/status/2074466451507884198?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/sophiamyang/status/2073126992439046528?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cohere/status/2074499759616729149?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/HuggingPapers/status/2074614099946897632?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Yuchenj_UW/status/2070928299744972814?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://www.tencent.com/en-us/articles/2202386.html",
+                "https://hunyuan.tencent.com/research/hy3",
+                "https://github.com/Tencent-Hunyuan/Hy3",
+                "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+                "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+                "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+                "https://arxiv.org/abs/2607.04371",
+                "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
+                "https://huggingface.co/nvidia/CWIP-1.0",
+                "https://github.com/QwenLM/Qwen-AgentWorld",
+                "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+                "https://mistral.ai/news/leanstral-1-5/",
+                "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+                "https://cohere.com/blog/transcribe-arabic",
+                "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
+                "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+                "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+                "https://github.com/deepseek-ai/DeepSpec",
+              ],
+            },
+            {
+              title: "Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy",
+              description: "Meta's MEG-based brain-to-text work turns the BCI story from surgery-only demo into a scaling question: 22,000 typed sentences, nine participants, 10 hours each, and open code/data around a 61% average word-accuracy result.",
+              chip: "brain models",
+              href: "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/TencentHunyuan/status/2074148098876768478?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/AIatMeta/status/2071566924803395741?ref_src=twsrc%5Etfw",
               },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Alibaba_Qwen/status/2069720365442719867?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/itayoush/status/2074466451507884198?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/sophiamyang/status/2073126992439046528?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cohere/status/2074499759616729149?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/HuggingPapers/status/2074614099946897632?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Yuchenj_UW/status/2070928299744972814?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://www.tencent.com/en-us/articles/2202386.html",
-              "https://hunyuan.tencent.com/research/hy3",
-              "https://github.com/Tencent-Hunyuan/Hy3",
-              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-              "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-              "https://arxiv.org/abs/2607.04371",
-              "https://catalog.ngc.nvidia.com/orgs/nvidia/cosmos/models/cwip/-",
-              "https://huggingface.co/nvidia/CWIP-1.0",
-              "https://github.com/QwenLM/Qwen-AgentWorld",
-              "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-              "https://mistral.ai/news/leanstral-1-5/",
-              "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-              "https://cohere.com/blog/transcribe-arabic",
-              "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-              "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-              "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-              "https://github.com/deepseek-ai/DeepSpec",
-            ],
-          },
-          {
-            title: "Proprietary releases split across agents and media",
-            description:
-              "OpenAI moved GPT-5.6 Sol/Terra/Luna toward a public July 9 launch and added GPT-Realtime-2.1/mini for voice agents, while Cursor, SpaceXAI, Cognition, Anthropic, Google, and Meta pushed closed models straight into product channels: IDE, Devin, Claude, voice, cloud media, Instagram, and WhatsApp.",
-            chip: "proprietary models",
-            href: "https://openai.com/index/previewing-gpt-5-6-sol/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/OpenAI/status/2070555272230384038?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/OpenAI/status/2074704958419792299?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/claudeai/status/2072017450611142835?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/testingcatalog/status/2074266798694809821?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/AIatMeta/status/2074587864923250873?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cursor_ai/status/2074915744999969059?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cognition/status/2074882968770728416?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/OfficialLoganK/status/2071988351083921690?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://developers.openai.com/api/docs/changelog",
-              "https://cursor.com/docs/models/grok-4-5",
-              "https://cognition.com/blog/swe-1-7",
-              "https://www.anthropic.com/news/claude-sonnet-5",
-              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
-              "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
-              "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
-            ],
-          },
-          {
-            title: "Should chat route local by default?",
-            description:
-              "Stanford's IPW paper says local LMs can answer 88.7% of single-turn chat/reasoning queries, while local coverage rose to 71.3%; Ollama's Gemma 4 MTP speedup makes the same point from the runtime side. The board question is what should route local by default.",
-            chip: "local ai",
-            href: "https://scalingintelligence.stanford.edu/pubs/ipw/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/ClementDelangue/status/2071951499660292496?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ollama/status/2072121580201848926?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
-              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-            ],
-          },
-          {
-            title: "Claude gets a consciousness-adjacent workspace",
-            description:
-              "Anthropic's J-space paper is not just interpretability tooling; it is a consciousness-adjacent claim. They argue Claude has a small global workspace it can report, steer, and reason through, while explicitly stopping short of saying it feels anything.",
-            chip: "interpretability",
-            href: "https://www.anthropic.com/research/global-workspace",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/AnthropicAI/status/2074185390060110138?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/stevibe/status/2073784489856450916?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: ["https://neuronpedia.org/jlens"],
-          },
-        ],
+              linkPair: [
+                "https://www.nature.com/articles/s41593-026-02303-2",
+                "https://facebookresearch.github.io/brain2qwerty/",
+              ],
+              topStory: true,
+            },
+            {
+              title: "Should chat route local by default?",
+              description: "Stanford's IPW paper says local LMs can answer 88.7% of single-turn chat/reasoning queries, while local coverage rose to 71.3%; Ollama's Gemma 4 MTP speedup makes the same point from the runtime side. The board question is what should route local by default.",
+              chip: "local ai",
+              href: "https://scalingintelligence.stanford.edu/pubs/ipw/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ClementDelangue/status/2071951499660292496?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ollama/status/2072121580201848926?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+                "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+              ],
+            },
+            {
+              title: "Claude gets a consciousness-adjacent workspace",
+              description: "Anthropic's J-space paper is not just interpretability tooling; it is a consciousness-adjacent claim. They argue Claude has a small global workspace it can report, steer, and reason through, while explicitly stopping short of saying it feels anything.",
+              chip: "interpretability",
+              href: "https://www.anthropic.com/research/global-workspace",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/AnthropicAI/status/2074185390060110138?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/stevibe/status/2073784489856450916?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://neuronpedia.org/jlens",
+              ],
+            },
+          ],
       },
       {
         id: "jul8-security",
@@ -1438,94 +1373,92 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
-          {
-            title: "Closed model releases are a quiet week",
-            description:
-              "No net-new proprietary model release survived the duplicate pass. OpenAI's June 22 Daybreak expansion is new access/product packaging for GPT-5.5-Cyber, but the model itself was a May 13 topic; Fable/Mythos, Opus 4.8, Grok Imagine, and MAI were June 10.",
-            chip: "closed models",
-            href: "https://openai.com/index/daybreak-securing-the-world/",
-            embeds: [
-              {
+            {
+              title: "Closed model releases",
+              description: "No net-new proprietary model release survived the duplicate pass. OpenAI's June 22 Daybreak expansion is new access/product packaging for GPT-5.5-Cyber, but the model itself was a May 13 topic; Fable/Mythos, Opus 4.8, Grok Imagine, and MAI were June 10.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://openai.com/index/daybreak-securing-the-world/",
+              embed: {
                 type: "tweet",
                 href: "https://twitter.com/OpenAI/status/2069104283824640023?ref_src=twsrc%5Etfw",
               },
-            ],
-            linkPair: ["https://digg.com/ai/a95mmx07"],
-            topStory: true,
-          },
-          {
-            title: "AI Twitter's model-release calendar slips",
-            description:
-              "The current leak says GPT-5.6 moved to mid-July, Gemini 3.5 Pro missed June, and \"Claude Sonnet 5\" is enterprise-EA chatter, not a public launch. Treat it as release-cadence signal, not confirmed fact: Digg amplified the scoop, Google did publicly say 3.5 Pro was coming \"next month,\" OpenAI has no GPT-5.6 release note, and Anthropic public docs still stop at Sonnet 4.6 plus Fable/Mythos 5.",
-            chip: "rumor watch",
-            href: "https://digg.com/ai/6hp5va4b",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/synthwavedd/status/2069432791184650426?ref_src=twsrc%5Etfw",
+              linkPair: [
+                "https://digg.com/ai/a95mmx07",
+              ],
+              topStory: true,
             },
-            linkPair: [
-              "https://digg.com/ai/djnhbslr",
-              "https://digg.com/ai/kia1m38d",
-              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-              "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-              "https://support.claude.com/en/articles/12138966-release-notes",
-              "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-            ],
-          },
-          {
-            title: "Open models are eating the frontier gap",
-            description:
-              "The fresh post-June-10 open wave is GLM-5.2, Moonshot AI's Kimi K2.7 Code, MiniMax M3 weights, and Ai2's TMax: long-horizon coding, agent benchmarks, and terminal-agent RL all moved open. Nemotron/Cosmos, DiffusionGemma, and MiniMax's launch post were already June 10; June 24 adds the actual M3 HF weights.",
-            chip: "open models",
-            href: "https://z.ai/blog/glm-5.2",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/Zai_org/status/2066938937344495629?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Kimi_Moonshot/status/2065377579130142937?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/MiniMax_AI/status/2065436935188058208?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://huggingface.co/zai-org/GLM-5.2",
-              "https://github.com/zai-org/GLM-5",
-              "https://docs.z.ai/guides/llm/glm-5.2",
-              "https://digg.com/ai/wmry8acg",
-              "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-              "https://digg.com/tech/lvlg9m33",
-              "https://digg.com/tech/27r7m6uc",
-              "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-              "https://x.com/huggingface/status/2065464345413239151",
-              "https://huggingface.co/collections/allenai/tmax",
-              "https://huggingface.co/allenai/tmax-27b",
-              "https://wai-org.com/blog/tmax/",
-              "https://digg.com/ai/opo8qjez",
-              "https://github.com/hamishivi/tmax",
-            ],
-          },
-          {
-            title: "Research behind the open model wave",
-            description:
-              "Three research artifacts back the June 24 open-model wave: IndexCache (sparse attention for GLM-5.2's long context), the GLM-5 technical report, and the TMax HF paper with the RL recipe and TMax-15k dataset. The benchmark and reference posts are the supporting reads; the model releases themselves are the previous slide.",
-            chip: "open model research",
-            href: "https://arxiv.org/abs/2603.12201",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2069121548670406947?ref_src=twsrc%5Etfw",
+            {
+              title: "Open model releases",
+              description: "The fresh post-June-10 open wave is GLM-5.2, Moonshot AI's Kimi K2.7 Code, MiniMax M3 weights, and Ai2's TMax: long-horizon coding, agent benchmarks, and terminal-agent RL all moved open. Nemotron/Cosmos, DiffusionGemma, and MiniMax's launch post were already June 10; June 24 adds the actual M3 HF weights.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://z.ai/blog/glm-5.2",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Zai_org/status/2066938937344495629?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Kimi_Moonshot/status/2065377579130142937?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MiniMax_AI/status/2065436935188058208?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://huggingface.co/zai-org/GLM-5.2",
+                "https://github.com/zai-org/GLM-5",
+                "https://docs.z.ai/guides/llm/glm-5.2",
+                "https://digg.com/ai/wmry8acg",
+                "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+                "https://digg.com/tech/lvlg9m33",
+                "https://digg.com/tech/27r7m6uc",
+                "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+                "https://x.com/huggingface/status/2065464345413239151",
+                "https://huggingface.co/collections/allenai/tmax",
+                "https://huggingface.co/allenai/tmax-27b",
+                "https://wai-org.com/blog/tmax/",
+                "https://digg.com/ai/opo8qjez",
+                "https://github.com/hamishivi/tmax",
+              ],
             },
-            linkPair: [
-              "https://arxiv.org/abs/2602.15763",
-              "https://huggingface.co/papers/2606.23321",
-              "https://twitter.com/natolambert/status/2069055568124281315?s=46",
-            ],
-          },
-        ],
+            {
+              title: "AI Twitter's model-release calendar slips",
+              description: "The current leak says GPT-5.6 moved to mid-July, Gemini 3.5 Pro missed June, and \"Claude Sonnet 5\" is enterprise-EA chatter, not a public launch. Treat it as release-cadence signal, not confirmed fact: Digg amplified the scoop, Google did publicly say 3.5 Pro was coming \"next month,\" OpenAI has no GPT-5.6 release note, and Anthropic public docs still stop at Sonnet 4.6 plus Fable/Mythos 5.",
+              chip: "rumor watch",
+              href: "https://digg.com/ai/6hp5va4b",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/synthwavedd/status/2069432791184650426?ref_src=twsrc%5Etfw",
+              },
+              linkPair: [
+                "https://digg.com/ai/djnhbslr",
+                "https://digg.com/ai/kia1m38d",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+                "https://support.claude.com/en/articles/12138966-release-notes",
+                "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+              ],
+            },
+            {
+              title: "Research behind the open model wave",
+              description: "Three research artifacts back the June 24 open-model wave: IndexCache (sparse attention for GLM-5.2's long context), the GLM-5 technical report, and the TMax HF paper with the RL recipe and TMax-15k dataset. The benchmark and reference posts are the supporting reads; the model releases themselves are the previous slide.",
+              chip: "open model research",
+              href: "https://arxiv.org/abs/2603.12201",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/ArtificialAnlys/status/2069121548670406947?ref_src=twsrc%5Etfw",
+              },
+              linkPair: [
+                "https://arxiv.org/abs/2602.15763",
+                "https://huggingface.co/papers/2606.23321",
+                "https://twitter.com/natolambert/status/2069055568124281315?s=46",
+              ],
+            },
+          ],
       },
       {
         id: "jun24-security",
@@ -1790,295 +1723,293 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
-          {
-            title: "Closed labs start the June model wave",
-            description:
-              "Anthropic moved the top of the proprietary stack again: Claude Fable 5 is the public Mythos-class release, Mythos 5 is trusted-access, and risky cyber/bio/distillation requests can fall back to Opus 4.8. Put that next to Grok Imagine 1.5 Preview and Microsoft's seven-model MAI push: frontier labs are shipping capability and safety gating as one product surface.",
-            chip: "proprietary models",
-            href: "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/claudeai/status/2064394146916229443?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/claudeai/status/2060042702150930686?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/grok/status/2062225080843747351?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/mustafasuleyman/status/2061880164498428188?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/MicrosoftAI/status/2061887504916087224?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://www.anthropic.com/news/claude-opus-4-8",
-              "https://x.ai/news",
-              "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
-              "https://microsoft.ai/news/introducing-mai-thinking-1/",
-            ],
-          },
-          {
-            title: "Open-weight release week turns into a firehose",
-            description:
-              "The open slide is now a stack, not a list: Nemotron/Cosmos/OmniDreams for physical AI, Gemma/Liquid/Step/OpenBMB/Tencent/Cohere for local LLMs and coding agents, DiffusionGemma for text diffusion, PaddleOCR/LocateAnything for vision, MOSS/Higgs/dots for audio, Ideogram/Magenta/NAVA/Lance/Bernini/JoyAI for media, WALL-OSS for robotics, and Unsloth/Comfy/NVFP4 quants for deployment.",
-            chip: "open models",
-            href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/NVIDIAAI/status/2062521325076299981?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/MiniMax_AI/status/2061266317815296322?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/googlegemma/status/2062202706882883696?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/NVIDIAAI/status/2061308434629132553?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ideogram_ai/status/2062202228770045991?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/GoogleMagenta/status/2062589313372594538?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/jetbrains/status/2061444430884675791?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/NVIDIAAI/status/2062896815784219076?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/hcompany_ai/status/2061815365168923083?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ModelScope2022/status/2061008636634394819?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ModelScope2022/status/2063881896153543022?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/JinWeiyang18434/status/2062034336929677578?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/HuggingModels/status/2062025488147849246?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/boson_ai/status/2062629221411995896?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/AdinaYakup/status/2062923324896727048?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/liquidai/status/2060023455290974474?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/PaddlePaddle/status/2059990434827661769?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/OpenBMB/status/2061810723169415205?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/OpenBMB/status/2058903449379717319?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ArtificialAnlys/status/2062381047212638697?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/TencentHunyuan/status/2057384034544804136?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/TencentHunyuan/status/2059104921778352626?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ModelScope2022/status/2059243470469185617?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ClementDelangue/status/2061968482640523365?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/ModelScope2022/status/2059244401189163391?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/pmarca/status/2063179832008356119?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/XiaomiMiMo/status/2063993799085633911?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/UnslothAI/status/2062207258810053084?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/UnslothAI/status/2062470072179044447?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/HuggingPapers/status/2060470519775043879?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/NVIDIAAI/status/2056887241432014959?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/AdinaYakup/status/2063901313578963072?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cohere/status/2064378058329526556?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/googleaidevs/status/2064743223491449013?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
-              "https://huggingface.co/google/gemma-4-12B",
-              "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
-              "https://ideogram.ai/news/ideogram-4.0/",
-              "https://huggingface.co/google/magenta-realtime-2",
-              "https://huggingface.co/blog/JetBrains/mellum2-launch",
-              "https://huggingface.co/nvidia/omni-dreams-models",
-              "https://hcompany.ai/holo3",
-              "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
-              "https://huggingface.co/nex-agi/Nex-N2-Pro",
-              "https://huggingface.co/jdopensource/JoyAI-Echo",
-              "https://huggingface.co/ByteDance/Bernini-R",
-              "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
-              "https://github.com/rednote-hilab/dots.tts",
-              "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-              "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
-              "https://huggingface.co/openbmb/MiniCPM-V-4.6",
-              "https://huggingface.co/openbmb/MiniCPM5-1B",
-              "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
-              "https://huggingface.co/tencent/Hy-MT2-1.8B",
-              "https://huggingface.co/tencent/Hy-MT2-7B",
-              "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
-              "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
-              "https://github.com/OpenMOSS/MOSS-TTS",
-              "https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0",
-              "https://huggingface.co/baidu/NAVA",
-              "https://huggingface.co/bytedance-research/Lance",
-              "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
-              "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
-              "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
-              "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
-              "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
-              "https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4",
-              "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
-              "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
-              "https://huggingface.co/Kijai/WanVideo_comfy",
-              "https://huggingface.co/Kijai/LTX2.3_comfy",
-              "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
-              "https://huggingface.co/Comfy-Org/PixelDiT",
-              "https://huggingface.co/Comfy-Org/Ideogram-4",
-              "https://huggingface.co/amazon/chronos-2",
-              "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-              "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-              "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-              "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8",
-              "https://huggingface.co/nvidia/LocateAnything-3B",
-              "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-              "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
-              "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
-              "https://huggingface.co/x-square-robot/wall-oss-flow",
-              "https://huggingface.co/x-square-robot/wall-oss-0.5",
-              "https://github.com/X-Square-Robot/wall-x",
-              "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
-            ],
-          },
-          {
-            title: "Fable's refusals go too far",
-            description:
-              "Anthropic shipped Claude Fable 5 with new cyber/bio safety classifiers that fallback to Opus 4.8 on refused requests. The result: 38/40 biology questions refused in one private eval, a third of BullshitBench questions blocked, and viral X posts about 'basic questions' getting rejected. The official line is these measures let Mythos-level capability ship sooner; the user reality is a model that refuses harmless queries loses more trust than one that occasionally gets a risky answer wrong.",
-            chip: "model behavior",
-            href: "https://x.com/ClaudeDevs/status/2064428347678220691",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/ClaudeDevs/status/2064428347678220691?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/djcows/status/2064513368002842732?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/DerekCroote/status/2064472087167930372?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/petergostev/status/2064435631594291304?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/petergostev/status/2064634015382978941?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/antirez/status/2064766429887352971?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://x.com/TimothyKassis/status/2064438011417481570",
-              "https://x.com/LechMazur/status/2064511888793161887",
-              "https://x.com/mykola/status/2064400637857591666",
-            ],
-          },
-          {
-            title: "World models need a taxonomy, not another demo",
-            description:
-              "Fei-Fei Li splits the overloaded world models label into renderers, simulators, and planners. That is the cleanest way to compare video generators, physics simulators, robotics policies, and agent planning without pretending they are the same capability.",
-            chip: "world models",
-            href: "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/a16z/status/2062266181890031815?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "Anthropic moved the top of the proprietary stack again: Claude Fable 5 is the public Mythos-class release, Mythos 5 is trusted-access, and risky cyber/bio/distillation requests can fall back to Opus 4.8. Put that next to Grok Imagine 1.5 Preview and Microsoft's seven-model MAI push: frontier labs are shipping capability and safety gating as one product surface.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/claudeai/status/2064394146916229443?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/claudeai/status/2060042702150930686?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/grok/status/2062225080843747351?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/mustafasuleyman/status/2061880164498428188?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MicrosoftAI/status/2061887504916087224?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://www.anthropic.com/news/claude-opus-4-8",
+                "https://x.ai/news",
+                "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+                "https://microsoft.ai/news/introducing-mai-thinking-1/",
+              ],
             },
-          },
-        ],
+            {
+              title: "Open model releases",
+              description: "The open slide is now a stack, not a list: Nemotron/Cosmos/OmniDreams for physical AI, Gemma/Liquid/Step/OpenBMB/Tencent/Cohere for local LLMs and coding agents, DiffusionGemma for text diffusion, PaddleOCR/LocateAnything for vision, MOSS/Higgs/dots for audio, Ideogram/Magenta/NAVA/Lance/Bernini/JoyAI for media, WALL-OSS for robotics, and Unsloth/Comfy/NVFP4 quants for deployment.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/NVIDIAAI/status/2062521325076299981?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MiniMax_AI/status/2061266317815296322?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/googlegemma/status/2062202706882883696?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/NVIDIAAI/status/2061308434629132553?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ideogram_ai/status/2062202228770045991?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/GoogleMagenta/status/2062589313372594538?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/jetbrains/status/2061444430884675791?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/NVIDIAAI/status/2062896815784219076?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/hcompany_ai/status/2061815365168923083?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ModelScope2022/status/2061008636634394819?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ModelScope2022/status/2063881896153543022?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/JinWeiyang18434/status/2062034336929677578?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/HuggingModels/status/2062025488147849246?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/boson_ai/status/2062629221411995896?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/AdinaYakup/status/2062923324896727048?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/liquidai/status/2060023455290974474?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/PaddlePaddle/status/2059990434827661769?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OpenBMB/status/2061810723169415205?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OpenBMB/status/2058903449379717319?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2062381047212638697?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TencentHunyuan/status/2057384034544804136?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TencentHunyuan/status/2059104921778352626?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ModelScope2022/status/2059243470469185617?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ClementDelangue/status/2061968482640523365?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ModelScope2022/status/2059244401189163391?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/pmarca/status/2063179832008356119?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/XiaomiMiMo/status/2063993799085633911?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/UnslothAI/status/2062207258810053084?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/UnslothAI/status/2062470072179044447?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/HuggingPapers/status/2060470519775043879?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/NVIDIAAI/status/2056887241432014959?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/AdinaYakup/status/2063901313578963072?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cohere/status/2064378058329526556?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/googleaidevs/status/2064743223491449013?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm",
+                "https://huggingface.co/google/gemma-4-12B",
+                "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+                "https://ideogram.ai/news/ideogram-4.0/",
+                "https://huggingface.co/google/magenta-realtime-2",
+                "https://huggingface.co/blog/JetBrains/mellum2-launch",
+                "https://huggingface.co/nvidia/omni-dreams-models",
+                "https://hcompany.ai/holo3",
+                "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
+                "https://huggingface.co/nex-agi/Nex-N2-Pro",
+                "https://huggingface.co/jdopensource/JoyAI-Echo",
+                "https://huggingface.co/ByteDance/Bernini-R",
+                "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+                "https://github.com/rednote-hilab/dots.tts",
+                "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+                "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+                "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+                "https://huggingface.co/openbmb/MiniCPM5-1B",
+                "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+                "https://huggingface.co/tencent/Hy-MT2-1.8B",
+                "https://huggingface.co/tencent/Hy-MT2-7B",
+                "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+                "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
+                "https://github.com/OpenMOSS/MOSS-TTS",
+                "https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0",
+                "https://huggingface.co/baidu/NAVA",
+                "https://huggingface.co/bytedance-research/Lance",
+                "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
+                "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+                "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+                "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+                "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
+                "https://huggingface.co/RedHatAI/gemma-4-12B-it-NVFP4",
+                "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+                "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+                "https://huggingface.co/Kijai/WanVideo_comfy",
+                "https://huggingface.co/Kijai/LTX2.3_comfy",
+                "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+                "https://huggingface.co/Comfy-Org/PixelDiT",
+                "https://huggingface.co/Comfy-Org/Ideogram-4",
+                "https://huggingface.co/amazon/chronos-2",
+                "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+                "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+                "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+                "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-fp8",
+                "https://huggingface.co/nvidia/LocateAnything-3B",
+                "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+                "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
+                "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
+                "https://huggingface.co/x-square-robot/wall-oss-flow",
+                "https://huggingface.co/x-square-robot/wall-oss-0.5",
+                "https://github.com/X-Square-Robot/wall-x",
+                "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+              ],
+            },
+            {
+              title: "Fable's refusals go too far",
+              description: "Anthropic shipped Claude Fable 5 with new cyber/bio safety classifiers that fallback to Opus 4.8 on refused requests. The result: 38/40 biology questions refused in one private eval, a third of BullshitBench questions blocked, and viral X posts about 'basic questions' getting rejected. The official line is these measures let Mythos-level capability ship sooner; the user reality is a model that refuses harmless queries loses more trust than one that occasionally gets a risky answer wrong.",
+              chip: "model behavior",
+              href: "https://x.com/ClaudeDevs/status/2064428347678220691",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ClaudeDevs/status/2064428347678220691?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/djcows/status/2064513368002842732?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/DerekCroote/status/2064472087167930372?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/petergostev/status/2064435631594291304?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/petergostev/status/2064634015382978941?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/antirez/status/2064766429887352971?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://x.com/TimothyKassis/status/2064438011417481570",
+                "https://x.com/LechMazur/status/2064511888793161887",
+                "https://x.com/mykola/status/2064400637857591666",
+              ],
+            },
+            {
+              title: "World models need a taxonomy, not another demo",
+              description: "Fei-Fei Li splits the overloaded world models label into renderers, simulators, and planners. That is the cleanest way to compare video generators, physics simulators, robotics policies, and agent planning without pretending they are the same capability.",
+              chip: "world models",
+              href: "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/a16z/status/2062266181890031815?ref_src=twsrc%5Etfw",
+              },
+            },
+          ],
       },
       {
         id: "jun10-security",
@@ -2272,81 +2203,75 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
-          {
-            title: "Multi-token prediction goes mainstream",
-            description:
-              "Gemma 4 ships with native MTP drafters for 3x inference speedup, llama.cpp mainline adds `--spec-type draft-mtp`, and Qwen 3.6 runs locally on 12GB with 98% acceptance rates. Unsloth ships automatic MTP support with 2x faster GGUF inference. The memory bandwidth bottleneck finally has production-ready solutions.",
-            chip: "optimization",
-            href: "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
-            embeds: [
-              {
+            {
+              title: "Open model releases",
+              description: "Bonsai Image 4B compresses the FLUX.2 Klein 4B diffusion transformer from 7.75 GB to 0.93 GB (1-bit) and 1.21 GB (ternary), an 8.3x and 6.4x reduction while retaining 88-95% quality. First 4B-class diffusion model to run directly on iPhone hardware — 512x512 in 9.4s on iPhone 17 Pro Max. Apache 2.0. Also in this open wave: Epicure squeezes global cooking into 2MB.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://prismml.com/news/bonsai-image-4b",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/PrismML/status/2059339159899390326?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/josefchen/status/2059350978109874677?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
+                "https://arxiv.org/abs/2605.22391",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the source catalog.",
+            },
+            {
+              title: "Multi-token prediction goes mainstream",
+              description: "Gemma 4 ships with native MTP drafters for 3x inference speedup, llama.cpp mainline adds `--spec-type draft-mtp`, and Qwen 3.6 runs locally on 12GB with 98% acceptance rates. Unsloth ships automatic MTP support with 2x faster GGUF inference. The memory bandwidth bottleneck finally has production-ready solutions.",
+              chip: "optimization",
+              href: "https://www.infoq.com/news/2026/05/gemma4-multi-token-prediction/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ggerganov/status/2056391115469689330?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
+                "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
+              ],
+            },
+            {
+              title: "DFlash beats autoregressive drafting ceiling",
+              description: "Block diffusion model predicts 8-16 tokens in parallel with single forward pass, delivering 3x speedups versus traditional speculative decoding's 2x limit. Baseten's implementation shows it's not just research anymore.",
+              chip: "optimization",
+              href: "https://www.baseten.co/blog/dflash-faster-llm-inference/",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/ggerganov/status/2056391115469689330?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/zhijianliu_/status/2051900751673467097?ref_src=twsrc%5Etfw",
               },
-              {
+              linkPair: [
+                "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
+              ],
+            },
+            {
+              title: "DeepSWE exposes the real coding model hierarchy",
+              description: "New benchmark reveals GPT-5.5 leads at 70% while other models cluster much lower, shattering the illusion that frontier coding agents are roughly equivalent. Unlike SWE-bench Pro's narrow 30-point spread, DeepSWE shows a 70-point performance gap on realistic engineering tasks.",
+              chip: "benchmarks",
+              href: "https://deepswe.datacurve.ai/",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/UnslothAI/status/2056369392666194108?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/theo/status/2059352130289651925?ref_src=twsrc%5Etfw",
               },
-            ],
-            linkPair: [
-              "https://carteakey.dev/blog/running-qwen3-6-mtp-locally/",
-              "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
-            ],
-          },
-          {
-            title: "DFlash beats autoregressive drafting ceiling",
-            description:
-              "Block diffusion model predicts 8-16 tokens in parallel with single forward pass, delivering 3x speedups versus traditional speculative decoding's 2x limit. Baseten's implementation shows it's not just research anymore.",
-            chip: "optimization",
-            href: "https://www.baseten.co/blog/dflash-faster-llm-inference/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/zhijianliu_/status/2051900751673467097?ref_src=twsrc%5Etfw",
+              linkPair: [
+                "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+              ],
             },
-            linkPair: [
-              "https://dasroot.net/posts/2026/04/speculative-decoding-dflash-lorbus-mtp-speed/",
-            ],
-          },
-          {
-            title: "DeepSWE exposes the real coding model hierarchy",
-            description:
-              "New benchmark reveals GPT-5.5 leads at 70% while other models cluster much lower, shattering the illusion that frontier coding agents are roughly equivalent. Unlike SWE-bench Pro's narrow 30-point spread, DeepSWE shows a 70-point performance gap on realistic engineering tasks.",
-            chip: "benchmarks",
-            href: "https://deepswe.datacurve.ai/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/theo/status/2059352130289651925?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
-            ],
-          },
-          {
-            title: "PrismML ships 1-bit image gen that runs on iPhone",
-            description:
-              "Bonsai Image 4B compresses the FLUX.2 Klein 4B diffusion transformer from 7.75 GB to 0.93 GB (1-bit) and 1.21 GB (ternary), an 8.3x and 6.4x reduction while retaining 88-95% quality. First 4B-class diffusion model to run directly on iPhone hardware — 512x512 in 9.4s on iPhone 17 Pro Max. Apache 2.0.",
-            chip: "models",
-            href: "https://prismml.com/news/bonsai-image-4b",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/PrismML/status/2059339159899390326?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
-            ],
-          },
-          {
-            title: "Epicure squeezes global cooking into 2MB",
-            description:
-              "KAIKAKU.AI maps 4.1M multilingual recipes into a 2MB embedding model—1,790 ingredients, 300 dimensions, walkable flavor geometry from recipe and chemistry graphs.",
-            chip: "embeddings",
-            href: "https://arxiv.org/abs/2605.22391",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/josefchen/status/2059350978109874677?ref_src=twsrc%5Etfw",
-            },
-          },
-        ],
+          ],
       },
       {
         id: "may27-security",
@@ -2648,145 +2573,131 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
         items: [
-          {
-            title: "GPT Image 2 gets UI-ish",
-            description:
-              "Better text, layout, and screenshot fidelity. The interesting part is mockups and visual iteration, not just prettier images.",
-            chip: "image",
-            href: "https://developers.openai.com/api/docs/models/gpt-image-2",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/chetaslua/status/2046489044243403029?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/fofrAI/status/2046603571286720769?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/yacineMTB/status/2046751282904338672?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/cto_junior/status/2046543490151240168?ref_src=twsrc%5Etfw",
-              },
-            ],
-          },
-          {
-            title: "Qwen3.6-27B gets laptop-shaped",
-            description:
-              "New quant evals show 12GB and 17.6GB variants with small reported quality hits.",
-            chip: "local",
-            href: "https://qwen.ai/blog?id=qwen3.6",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/bnjmn_marie/status/2047786725846724918?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/TeksEdge/status/2047876512863633710?ref_src=twsrc%5Etfw",
-              },
-            ],
-          },
-          {
-            title: "SubQ goes after 12M-token context",
-            description:
-              "Subquadratic is pitching a sparse-attention frontier model with a 12M-token window and 52x faster 1M-token processing than FlashAttention. If the claims hold up, full-repo agents get a very different context budget.",
-            chip: "long context",
-            href: "https://subq.ai/introducing-subq",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/alex_whedon/status/2051663268704636937?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "Better text, layout, and screenshot fidelity. The interesting part is mockups and visual iteration, not just prettier images. Also in this closed wave: SubQ goes after 12M-token context.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://developers.openai.com/api/docs/models/gpt-image-2",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/chetaslua/status/2046489044243403029?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/fofrAI/status/2046603571286720769?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/yacineMTB/status/2046751282904338672?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/cto_junior/status/2046543490151240168?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/alex_whedon/status/2051663268704636937?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://subq.ai/introducing-subq",
+              ],
+              notes: "Official closed-release roundup: launch posts first, then the source catalog.",
             },
-          },
-          {
-            title: "12 models in 37 days",
-            description:
-              "Model velocity is now part of the workload: launches, quants, silent upgrades, and API-only variants every week.",
-            chip: "models",
-            href: "https://x.com/stevibe/status/2047539989492498711",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/stevibe/status/2047539989492498711?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/theo/status/2046767107178676636?ref_src=twsrc%5Etfw",
-              },
-            ],
-          },
-          {
-            title: "Attune patches the open-model tool-call boundary",
-            description:
-              "Anthony Ronning's PoC treats empty outputs, malformed JSON, and missing tool_calls as contract failures between model, provider, and agent harness, not just bad model behavior.",
-            chip: "open models",
-            href: "https://github.com/AnthonyRonning/attune",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/anthonyronning/status/2053823121975542061?ref_src=twsrc%5Etfw",
+            {
+              title: "Open model releases",
+              description: "New quant evals show 12GB and 17.6GB variants with small reported quality hits. Also in this open wave: Gemma 4 app surface.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://qwen.ai/blog?id=qwen3.6",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/bnjmn_marie/status/2047786725846724918?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/TeksEdge/status/2047876512863633710?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/googledevs/status/2051700498328346945?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://deepmind.google/models/gemma/",
+                "https://ai.google.dev/gemma/docs/releases",
+                "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+                "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the source catalog.",
             },
-          },
-          {
-            title: "Gemma 4 app surface",
-            description:
-              "The follow-up question: how fast do the weights become useful across AI Studio, AI Edge Gallery, Ollama, LM Studio, llama.cpp, and now MTP drafters that promise up to 3x faster output.",
-            chip: "open model",
-            href: "https://deepmind.google/models/gemma/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/googledevs/status/2051700498328346945?ref_src=twsrc%5Etfw",
+            {
+              title: "12 models in 37 days",
+              description: "Model velocity is now part of the workload: launches, quants, silent upgrades, and API-only variants every week.",
+              chip: "models",
+              href: "https://x.com/stevibe/status/2047539989492498711",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/stevibe/status/2047539989492498711?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/theo/status/2046767107178676636?ref_src=twsrc%5Etfw",
+                },
+              ],
             },
-            linkPair: [
-              "https://ai.google.dev/gemma/docs/releases",
-              "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-              "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-            ],
-          },
-          {
-            title: "ProgramBench says agents still cannot rebuild software",
-            description:
-              "Given only binaries and docs, agents have to recreate full programs like jq, ripgrep, FFmpeg, and SQLite from scratch. GPT-5.5 xhigh tops the leaderboard at 0.5% fully solved, which is a useful cold shower for whole-codebase autonomy.",
-            chip: "benchmark",
-            href: "https://programbench.com/",
-            linkPair: [
-              "https://arxiv.org/abs/2511.00079",
-              "https://github.com/ProgramBench/ProgramBench",
-            ],
-            image: {
-              src: "/images/programbench-leaderboard.png",
+            {
+              title: "Attune patches the open-model tool-call boundary",
+              description: "Anthony Ronning's PoC treats empty outputs, malformed JSON, and missing tool_calls as contract failures between model, provider, and agent harness, not just bad model behavior.",
+              chip: "open models",
+              href: "https://github.com/AnthonyRonning/attune",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/anthonyronning/status/2053823121975542061?ref_src=twsrc%5Etfw",
+              },
+            },
+            {
+              title: "ProgramBench says agents still cannot rebuild software",
+              description: "Given only binaries and docs, agents have to recreate full programs like jq, ripgrep, FFmpeg, and SQLite from scratch. GPT-5.5 xhigh tops the leaderboard at 0.5% fully solved, which is a useful cold shower for whole-codebase autonomy.",
+              chip: "benchmark",
               href: "https://programbench.com/",
-              caption:
-                "ProgramBench leaderboard: agents try to rebuild whole programs from binaries and docs.",
+              linkPair: [
+                "https://arxiv.org/abs/2511.00079",
+                "https://github.com/ProgramBench/ProgramBench",
+              ],
+              image: {
+                src: "/images/programbench-leaderboard.png",
+                href: "https://programbench.com/",
+                caption: "ProgramBench leaderboard: agents try to rebuild whole programs from binaries and docs.",
+              },
+              topStory: true,
             },
-            topStory: true,
-          },
-          {
-            title: "Talkie tests vintage-model generalization",
-            description:
-              "A 13B model trained only on pre-1931 text is a cleaner probe for what LMs learn from language versus the modern web. The fun question is whether scale lets a model learn post-cutoff skills like code from examples alone.",
-            chip: "vintage LM",
-            href: "https://talkie-lm.com/introducing-talkie",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/status_effects/status/2048878495539843211?ref_src=twsrc%5Etfw",
+            {
+              title: "Talkie tests vintage-model generalization",
+              description: "A 13B model trained only on pre-1931 text is a cleaner probe for what LMs learn from language versus the modern web. The fun question is whether scale lets a model learn post-cutoff skills like code from examples alone.",
+              chip: "vintage LM",
+              href: "https://talkie-lm.com/introducing-talkie",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/status_effects/status/2048878495539843211?ref_src=twsrc%5Etfw",
+              },
+              topStory: true,
             },
-            topStory: true,
-          },
-          {
-            title: "Red/blue button model behavior",
-            description:
-              "Jan Kulveit's red/blue button plots are a compact moral-decision probe: same dilemma, different models and reasoning settings, visibly different button preferences.",
-            chip: "behavior",
-            href: "https://x.com/jankulveit/status/2048808080188608953",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/jankulveit/status/2048808080188608953?ref_src=twsrc%5Etfw",
+            {
+              title: "Red/blue button model behavior",
+              description: "Jan Kulveit's red/blue button plots are a compact moral-decision probe: same dilemma, different models and reasoning settings, visibly different button preferences.",
+              chip: "behavior",
+              href: "https://x.com/jankulveit/status/2048808080188608953",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/jankulveit/status/2048808080188608953?ref_src=twsrc%5Etfw",
+              },
             },
-          },
-        ],
+          ],
       },
       {
         id: "may13-security",
@@ -3075,83 +2986,45 @@ export const meetups = [
         purpose:
           "This section covers model releases, benchmark shifts, and capability updates that change what we should test, trust, or compare next.",
         items: [
-          {
-            title: "Waypoint-1.5 brings real-time AI worlds to everyday GPUs",
-            description:
-              "Overworld is releasing Waypoint-1.5 as a real-time diffusion world model aimed at consumer hardware, with local execution tiers for 720p and 360p plus a browser path for instant access.",
-            chip: "world model",
-            href: "https://over.world/blog/waypoint-1-5",
-            linkPair: [
-              "https://github.com/Overworldai/Biome/blob/main/README.md",
-              "https://x.com/overworld_ai/status/2042287199513952563",
-            ],
-          },
-          {
-            title: "GLM-5.1",
-            description:
-              "Z.ai is launching GLM-5.1 as an open-source agentic coding model and claiming top open-source results on SWE-Bench Pro, Terminal-Bench, and NL2Repo, plus autonomous runs that stay productive for up to eight hours.",
-            chip: "model",
-            href: "https://docs.z.ai/guides/llm/glm-5.1",
-            linkPair: [
-              "https://z.ai/blog/glm-5.1",
-              "https://x.com/Zai_org/status/2041550153354519022",
-            ],
-          },
-          {
-            title: "Trinity-Large-Thinking",
-            description:
-              "Arcee drops an Apache 2.0 reasoning MoE with unusually strong agentic benchmark claims for an open model.",
-            chip: "model",
-            href: "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
-            linkPair: [
-              "https://x.com/TheAhmadOsman/status/2039481776628777245",
-            ],
-          },
-          {
-            title: "Qwen3.6-Plus",
-            description:
-              "Qwen is pitching Qwen3.6-Plus as a real-world multimodal agent model: coding, vision, and 1M context in one API.",
-            chip: "model",
-            href: "https://qwen.ai/blog?id=qwen3.6",
-            linkPair: [
-              "https://chat.qwen.ai/",
-              "https://x.com/Alibaba_Qwen/status/2039705104723611829",
-            ],
-          },
-          {
-            title: "Google Gemma 4",
-            description:
-              "Google DeepMind releases Gemma 4, the most capable open model family to date under Apache 2.0. Four sizes (E2B, E4B, 26B MoE, 31B Dense), built on Gemini 3 tech, with native function-calling, 256K context, and on-device agentic workflows.",
-            chip: "model",
-            href: "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-            linkPair: [
-              "https://developers.googleblog.com/en/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/",
-              "https://ai.google.dev/gemma/docs/releases",
-              "https://x.com/Google/status/2039736220834480233",
-            ],
-          },
-          {
-            title: "Llama 4 Scout & Maverick",
-            description:
-              "Meta releases Llama 4 Scout and Maverick, the first open-weight natively multimodal MoE models. Scout fits on a single H100 with a 10M-token context window. Maverick packs 128 experts and strong image understanding.",
-            chip: "model",
-            href: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
-            linkPair: [
-              "https://llama.meta.com/models/llama-4/",
-              "https://huggingface.co/blog/llama4-release",
-            ],
-          },
-          {
-            title: "Meta introduces Muse Spark",
-            description:
-              "Meta is pitching Muse Spark as a step toward personal superintelligence, while Artificial Analysis says the model scores 52 on its Intelligence Index and marks Meta's first major non-open-weights release since Llama 4.",
-            chip: "model",
-            href: "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-            linkPair: [
-              "https://x.com/ArtificialAnlys/status/2041913043379220801",
-            ],
-          },
-        ],
+            {
+              title: "Closed model releases",
+              description: "Qwen is pitching Qwen3.6-Plus as a real-world multimodal agent model: coding, vision, and 1M context in one API. Also in this closed wave: Meta introduces Muse Spark.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://qwen.ai/blog?id=qwen3.6",
+              linkPair: [
+                "https://chat.qwen.ai/",
+                "https://x.com/Alibaba_Qwen/status/2039705104723611829",
+                "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+                "https://x.com/ArtificialAnlys/status/2041913043379220801",
+              ],
+              notes: "Official closed-release roundup: launch posts first, then the source catalog.",
+            },
+            {
+              title: "Open model releases",
+              description: "Overworld is releasing Waypoint-1.5 as a real-time diffusion world model aimed at consumer hardware, with local execution tiers for 720p and 360p plus a browser path for instant access. Also in this open wave: GLM-5.1; Trinity-Large-Thinking; Google Gemma 4; Llama 4 Scout & Maverick.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://over.world/blog/waypoint-1-5",
+              linkPair: [
+                "https://github.com/Overworldai/Biome/blob/main/README.md",
+                "https://x.com/overworld_ai/status/2042287199513952563",
+                "https://docs.z.ai/guides/llm/glm-5.1",
+                "https://z.ai/blog/glm-5.1",
+                "https://x.com/Zai_org/status/2041550153354519022",
+                "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+                "https://x.com/TheAhmadOsman/status/2039481776628777245",
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+                "https://developers.googleblog.com/en/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/",
+                "https://ai.google.dev/gemma/docs/releases",
+                "https://x.com/Google/status/2039736220834480233",
+                "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+                "https://llama.meta.com/models/llama-4/",
+                "https://huggingface.co/blog/llama4-release",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the source catalog.",
+            },
+          ],
       },
       {
         id: "apr15-security",
@@ -3542,289 +3415,212 @@ export const meetups = [
         purpose:
           "This section covers model releases, research updates, benchmark shifts, and capability changes that affect what we should test, trust, or pay attention to next.",
         items: [
-          {
-            title: "Chroma Context-1",
-            description:
-              "Chroma releases Context-1, a 20B open-source (Apache 2.0) agentic search model built on GPT-OSS-20B that retrieves and prunes documents for downstream reasoning models. Matches frontier LLM retrieval at a fraction of the cost with 400–500 tok/s on B200. Trained with RLVR on synthetic tasks across web, finance, legal, and email domains.",
-            chip: "pair",
-            href: "https://x.com/trychroma/status/2037243681988894950",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/trychroma/status/2037243681988894950?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "Z.AI now documents GLM-5.1 directly for coding-agent use, with reasoning enabled plus a 204.8k context window and 131k max tokens. Worth comparing against GLM-5 and the other agent-first releases. Also in this closed wave: GLM-5V-Turbo; MiniMax M2.7; GPT-5.4 mini and nano; GLM5 Turbo.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://x.com/Zai_org/status/2037490078126084514",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Zai_org/status/2037490078126084514?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Zai_org/status/2039371126984360085?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2037043552405119395?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2038667075489808804?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://docs.z.ai/devpack/using5.1",
+                "https://docs.z.ai/guides/llm/glm-5",
+                "https://x.com/Zai_org/status/2039371126984360085",
+                "https://x.com/MiniMax_AI/status/2034315320337522881",
+                "https://www.minimax.io/news/minimax-m27-en",
+                "https://platform.minimax.io/subscribe/coding-plan",
+                "https://x.com/ArtificialAnlys/status/2037043552405119395",
+                "https://x.com/ArtificialAnlys/status/2038667075489808804",
+                "https://artificialanalysis.ai/leaderboards/models",
+              ],
+              notes: "Official closed-release roundup: launch posts first, then the source catalog.",
             },
-            linkPair: [
-              "https://www.trychroma.com/research/context-1",
-              "https://x.com/trychroma/status/2037243685038153823",
-              "https://x.com/trychroma/status/2037243687240163693",
-              "https://x.com/trychroma/status/2037243689853161868",
-              "https://x.com/trychroma/status/2037243694894768143",
-            ],
-          },
-          {
-            title: "Nemotron-Cascade 2",
-            description:
-              "NVIDIA's Nemotron-Cascade 2 is an open 30B MoE with 3B active parameters, gold-medal-level performance on IMO 2025, IOI 2025, and ICPC World Finals 2025, plus strong agentic and coding results for its size.",
-            chip: "pair",
-            href: "https://x.com/_weiping/status/2034877099908243746",
-            embeds: [
-              {
+            {
+              title: "Open model releases",
+              description: "Chroma releases Context-1, a 20B open-source (Apache 2.0) agentic search model built on GPT-OSS-20B that retrieves and prunes documents for downstream reasoning models. Matches frontier LLM retrieval at a fraction of the cost with 400–500 tok/s on B200. Trained with RLVR on synthetic tasks across web, finance, legal, and email domains. Also in this open wave: Nemotron-Cascade 2; Holo3 computer-use models; Qwen3.5-Omni; Cohere Transcribe; Liquid AI LFM2.5-350M; Claude-distilled Qwen models trending on HF.",
+              chip: "open releases",
+              releaseRoundup: true,
+              href: "https://x.com/trychroma/status/2037243681988894950",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/trychroma/status/2037243681988894950?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Wenliang_Dai/status/2035020886269690339?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/hcompany_ai/status/2039021096649805937?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Alibaba_Qwen/status/2038637124619231467?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2038678855213568031?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/i/status/2039029358224871605?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/HuggingModels/status/2038398319417082125?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/KyleHessling1/status/2038672381850653119?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/Hesamation/status/2038642306434150427?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/UnslothAI/status/2038625148354679270?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/outsource_/status/2038999111039357302?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/aiwithmayank/status/2038918640519807340?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://www.trychroma.com/research/context-1",
+                "https://x.com/trychroma/status/2037243685038153823",
+                "https://x.com/trychroma/status/2037243687240163693",
+                "https://x.com/trychroma/status/2037243689853161868",
+                "https://x.com/trychroma/status/2037243694894768143",
+                "https://x.com/_weiping/status/2034877099908243746",
+                "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+                "https://huggingface.co/collections/nvidia/nemotron-cascade-2",
+                "https://arxiv.org/abs/2603.19220",
+                "https://x.com/hcompany_ai/status/2039021096649805937",
+                "https://x.com/Alibaba_Qwen/status/2038636335272194241",
+                "https://x.com/Ali_TongyiLab/status/2038609308750143762",
+                "https://qwen.ai/research",
+                "https://huggingface.co/collections/Qwen/qwen35",
+                "https://x.com/ArtificialAnlys/status/2038678855213568031",
+                "https://x.com/i/status/2039029358224871605",
+                "https://x.com/HuggingModels/status/2038398319417082125",
+                "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
+                "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the source catalog.",
+            },
+            {
+              title: "Composer 2 / Kimi K2.5 drama",
+              description: "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
+              chip: "pair",
+              href: "https://x.com/ns123abc/status/2035058399067435474",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/Wenliang_Dai/status/2035020886269690339?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
               },
-            ],
-            linkPair: [
-              "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
-              "https://huggingface.co/collections/nvidia/nemotron-cascade-2",
-              "https://arxiv.org/abs/2603.19220",
-            ],
-          },
-          {
-            title: "GLM-5.1",
-            description:
-              "Z.AI now documents GLM-5.1 directly for coding-agent use, with reasoning enabled plus a 204.8k context window and 131k max tokens. Worth comparing against GLM-5 and the other agent-first releases.",
-            chip: "x",
-            href: "https://x.com/Zai_org/status/2037490078126084514",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/Zai_org/status/2037490078126084514?ref_src=twsrc%5Etfw",
+              linkPair: [
+                "https://x.com/Kimi_Moonshot/status/2035074972943831491",
+                "https://x.com/fleetwood___/status/2037117778503626937",
+              ],
             },
-            linkPair: [
-              "https://docs.z.ai/devpack/using5.1",
-              "https://docs.z.ai/guides/llm/glm-5",
-            ],
-          },
-          {
-            title: "GLM-5V-Turbo",
-            description:
-              "Z.AI introduces GLM-5V-Turbo, a vision coding model built for multimodal coding tasks across images, videos, design drafts, and document layouts.",
-            chip: "x",
-            href: "https://x.com/Zai_org/status/2039371126984360085",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/Zai_org/status/2039371126984360085?ref_src=twsrc%5Etfw",
+            {
+              title: "Distillation hesitation",
+              description: "GLM-5.1, MiniMax M2.7, Xiaomi MiMo-V2 are all out but none dropped public weights. Chinese labs that normally ship open are holding back, possibly because distillation makes open releases risky. Meanwhile people are already distilling Claude Opus into Qwen3.5 anyway.",
+              chip: "pair",
+              href: "https://docs.z.ai/devpack/using5.1",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/anthonyronning/status/2037586323834642859?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://docs.z.ai/guides/llm/glm-5",
+                "https://www.minimax.io/news/minimax-m27-en",
+                "https://platform.minimax.io/subscribe/coding-plan",
+                "https://weibo.com/6486870325/5277992772176164",
+                "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+                "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+              ],
             },
-          },
-          {
-            title: "MiniMax M2.7",
-            description:
-              "MiniMax is pitching M2.7 as a serious SWE and agent model, with the launch post calling out SWE-Pro, Terminal Bench 2, tool use, and OpenClaw-style team workflows.",
-            chip: "x",
-            href: "https://x.com/MiniMax_AI/status/2034315320337522881",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://www.minimax.io/news/minimax-m27-en",
-              "https://platform.minimax.io/subscribe/coding-plan",
-            ],
-          },
-          {
-            title: "GPT-5.4 mini and nano",
-            description:
-              "Artificial Analysis highlights OpenAI's cheaper GPT-5.4 mini and nano variants, with nano standing out on price-performance.",
-            chip: "bench",
-            href: "https://x.com/ArtificialAnlys/status/2037043552405119395",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2037043552405119395?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Holo3 computer-use models",
-            description:
-              "H Company launches Holo3, an open-weight computer-use model series claiming 78.9% on OSWorld-Verified while undercutting GPT-5.4 and Opus 4.6 on price.",
-            chip: "x",
-            href: "https://x.com/hcompany_ai/status/2039021096649805937",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/hcompany_ai/status/2039021096649805937?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Qwen3.5-Omni",
-            description:
-              "Alibaba drops Qwen3.5-Omni, a full-modal model handling text, images, audio, and video with real-time speech generation. Three sizes (Plus, Flash, Light), 256k context, speech recognition for 113 languages, and claims 215 SOTA results in audio/video tasks while outperforming Gemini 3.1 Pro on general audio understanding.",
-            chip: "x",
-            href: "https://x.com/Alibaba_Qwen/status/2038636335272194241",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/Alibaba_Qwen/status/2038637124619231467?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://x.com/Ali_TongyiLab/status/2038609308750143762",
-              "https://qwen.ai/research",
-              "https://huggingface.co/collections/Qwen/qwen35",
-            ],
-          },
-          {
-            title: "Cohere Transcribe",
-            description:
-              "Cohere releases a 2B open-weights conformer encoder-decoder transcription model trained from scratch on 14 languages, hitting 4.7% on AA-WER across 3 datasets including Artificial Analysis's proprietary AA-AgentTalk dataset.",
-            chip: "x",
-            href: "https://x.com/ArtificialAnlys/status/2038678855213568031",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2038678855213568031?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Liquid AI LFM2.5-350M",
-            description:
-              "Liquid AI releases LFM2.5-350M, a tiny agentic model trained for instruction following, data extraction, and tool use. The pitch is edge-grade size with unusually capable small-model behavior.",
-            chip: "x",
-            href: "https://x.com/i/status/2039029358224871605",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/i/status/2039029358224871605?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "GLM5 Turbo",
-            description:
-              "Artificial Analysis highlights another new model drop worth checking against their leaderboard.",
-            chip: "bench",
-            href: "https://x.com/ArtificialAnlys/status/2038667075489808804",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2038667075489808804?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://artificialanalysis.ai/leaderboards/models",
-            ],
-          },
-          {
-            title: "Composer 2 / Kimi K2.5 drama",
-            description:
-              "The Composer 2 and Kimi K2.5 dispute is worth unpacking as both model drama and product positioning, with Fleetwood's image adding a useful visual artifact to the thread.",
-            chip: "pair",
-            href: "https://x.com/ns123abc/status/2035058399067435474",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/fleetwood___/status/2037117778503626937?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://x.com/Kimi_Moonshot/status/2035074972943831491",
-              "https://x.com/fleetwood___/status/2037117778503626937",
-            ],
-          },
-          {
-            title: "Claude-distilled Qwen models trending on HF",
-            description:
-              "Jackrong's Claude Opus 4.6 reasoning distills into Qwen3.5 are trending on Hugging Face, now spanning 2B through 35B-A3B sizes with GGUF quants. V2 just dropped with shorter reasoning chains, less over-analysis on easy problems, and a better reasoning-cost-to-quality ratio.",
-            chip: "pair",
-            href: "https://x.com/HuggingModels/status/2038398319417082125",
-            embeds: [
-              {
+            {
+              title: "ARC AGI benchmark #3",
+              description: "ARC-AGI-3 is the first fully interactive benchmark, replacing grid puzzles with video-game-like scenarios where agents explore with no instructions. Humans score 100%, best AI (Gemini 3.1 Pro) hits 0.37%. A simple RL and graph-search approach scored 12.58%, outperforming every frontier LLM by 30x. $2M prize pool.",
+              chip: "x",
+              href: "https://x.com/arcprize/status/2036860080541589529",
+              embed: {
                 type: "tweet",
-                href: "https://twitter.com/HuggingModels/status/2038398319417082125?ref_src=twsrc%5Etfw",
+                href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
               },
-              {
-                type: "tweet",
-                href: "https://twitter.com/KyleHessling1/status/2038672381850653119?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Hesamation/status/2038642306434150427?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/UnslothAI/status/2038625148354679270?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/outsource_/status/2038999111039357302?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/aiwithmayank/status/2038918640519807340?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://huggingface.co/collections/Jackrong/qwen35-claude-46-opus-reasoning-distilled",
-              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-            ],
-          },
-          {
-            title: "Distillation hesitation",
-            description:
-              "GLM-5.1, MiniMax M2.7, Xiaomi MiMo-V2 are all out but none dropped public weights. Chinese labs that normally ship open are holding back, possibly because distillation makes open releases risky. Meanwhile people are already distilling Claude Opus into Qwen3.5 anyway.",
-            chip: "pair",
-            href: "https://docs.z.ai/devpack/using5.1",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/anthonyronning/status/2037586323834642859?ref_src=twsrc%5Etfw",
-              },
-            ],
-            linkPair: [
-              "https://docs.z.ai/guides/llm/glm-5",
-              "https://www.minimax.io/news/minimax-m27-en",
-              "https://platform.minimax.io/subscribe/coding-plan",
-              "https://weibo.com/6486870325/5277992772176164",
-              "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
-              "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-            ],
-          },
-          {
-            title: "ARC AGI benchmark #3",
-            description:
-              "ARC-AGI-3 is the first fully interactive benchmark, replacing grid puzzles with video-game-like scenarios where agents explore with no instructions. Humans score 100%, best AI (Gemini 3.1 Pro) hits 0.37%. A simple RL and graph-search approach scored 12.58%, outperforming every frontier LLM by 30x. $2M prize pool.",
-            chip: "x",
-            href: "https://x.com/arcprize/status/2036860080541589529",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/arcprize/status/2036860080541589529?ref_src=twsrc%5Etfw",
             },
-          },
-          {
-            title: "Google TurboQuant",
-            description:
-              "Google Research says TurboQuant is a training-free, data-oblivious quantization approach that can compress KV caches by at least 6x, hit quality-neutral 3-bit cache settings in their tests, and improve vector-search indexing. TheTom also shipped a public implementation, which makes this more than just a paper story.",
-            chip: "research",
-            href:
-              "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
-            linkPair: [
-              "https://arxiv.org/abs/2504.19874",
-              "https://x.com/i/status/2036696569194647869",
-              "https://x.com/no_stp_on_snek/status/2036944965364834444",
-              "https://ngrok.com/blog/quantization",
-              "https://huggingface.co/blog/not-lain/kv-caching",
-              "https://arxiv.org/html/2411.07191v2",
-              "https://x.com/i/status/2039089641043755036",
-              "https://github.com/TheTom/turboquant_plus",
-            ],
-            notes:
-              "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context, and the public implementation makes it easier to test outside Google's writeup.",
-          },
-          {
-            title: "LLM neuroanatomy / RYS layer repetition",
-            description:
-              "David Noel Ng's RYS writeup treats transformer stacks like neuroanatomy: repeat the right middle layers in Qwen2-72B and you can get stronger leaderboard behavior without retraining the whole model.",
-            chip: "research",
-            href: "https://dnhkng.github.io/posts/rys/",
-            notes:
-              "The interesting part is not just the leaderboard stunt. It suggests model internals may be more structurally hackable than most release narratives admit.",
-          },
-          {
-            title: "Local models getting glazed",
-            description:
-              "The local-model flex genre keeps escalating: more posts about absurdly large or absurdly fast models running on phones and laptops, which is becoming its own signal about inference progress.",
-            chip: "pair",
-            href: "https://x.com/theo/status/2038051651823812839",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/thdxr/status/2038619304447385906?ref_src=twsrc%5Etfw",
+            {
+              title: "Google TurboQuant",
+              description: "Google Research says TurboQuant is a training-free, data-oblivious quantization approach that can compress KV caches by at least 6x, hit quality-neutral 3-bit cache settings in their tests, and improve vector-search indexing. TheTom also shipped a public implementation, which makes this more than just a paper story.",
+              chip: "research",
+              href: "https://research.google/blog/turboquant-a-training-free-approach-to-speed-up-and-compress-large-language-models/",
+              linkPair: [
+                "https://arxiv.org/abs/2504.19874",
+                "https://x.com/i/status/2036696569194647869",
+                "https://x.com/no_stp_on_snek/status/2036944965364834444",
+                "https://ngrok.com/blog/quantization",
+                "https://huggingface.co/blog/not-lain/kv-caching",
+                "https://arxiv.org/html/2411.07191v2",
+                "https://x.com/i/status/2039089641043755036",
+                "https://github.com/TheTom/turboquant_plus",
+              ],
+              notes: "This is an inference-economics slide as much as a research slide: memory pressure on KV cache is the tax on long context, and the public implementation makes it easier to test outside Google's writeup.",
             },
-            linkPair: [
-              "https://x.com/anemll/status/2035901335984611412",
-              "https://x.com/adrgrondin/status/2039066539022778613",
-              "https://x.com/thdxr/status/2038054914358645168",
-              "https://x.com/thdxr/status/2038619304447385906",
-              "https://x.com/teortaxesTex/status/2038329816412283343",
-            ],
-          },
-        ],
+            {
+              title: "LLM neuroanatomy / RYS layer repetition",
+              description: "David Noel Ng's RYS writeup treats transformer stacks like neuroanatomy: repeat the right middle layers in Qwen2-72B and you can get stronger leaderboard behavior without retraining the whole model.",
+              chip: "research",
+              href: "https://dnhkng.github.io/posts/rys/",
+              notes: "The interesting part is not just the leaderboard stunt. It suggests model internals may be more structurally hackable than most release narratives admit.",
+            },
+            {
+              title: "Local models getting glazed",
+              description: "The local-model flex genre keeps escalating: more posts about absurdly large or absurdly fast models running on phones and laptops, which is becoming its own signal about inference progress.",
+              chip: "pair",
+              href: "https://x.com/theo/status/2038051651823812839",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/thdxr/status/2038619304447385906?ref_src=twsrc%5Etfw",
+              },
+              linkPair: [
+                "https://x.com/anemll/status/2035901335984611412",
+                "https://x.com/adrgrondin/status/2039066539022778613",
+                "https://x.com/thdxr/status/2038054914358645168",
+                "https://x.com/thdxr/status/2038619304447385906",
+                "https://x.com/teortaxesTex/status/2038329816412283343",
+              ],
+            },
+          ],
       },
       {
         id: "apr-security",
@@ -4150,97 +3946,69 @@ export const meetups = [
         purpose:
           "This section covers model releases, research updates, benchmark shifts, and capability changes that affect what we should test, trust, or pay attention to next.",
         items: [
-          {
-            title: "Qwen 3.5 series",
-            description:
-              "Fresh Qwen weights to test and compare across the 3.5 line.",
-            chip: "watch",
-            linkPair: [
-              "https://huggingface.co/collections/Qwen/qwen35",
-              "https://artificialanalysis.ai/leaderboards/models?is_open_weights=open_source",
-            ],
-          },
-          {
-            title: "Nemotron v3 series",
-            description:
-              "NVIDIA's newer Nemotron open-weight line is worth tracking as its model family and evaluations keep expanding.",
-            chip: "watch",
-            linkPair: [
-              "https://huggingface.co/collections/nvidia/nvidia-nemotron-v3",
-            ],
-          },
-          {
-            title: "Nemotron 3 VoiceChat frontier",
-            description:
-              "Artificial Analysis says NVIDIA's new speech-to-speech model is the open-weights pareto leader across conversational dynamics and speech reasoning.",
-            chip: "bench",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2033642073052868861?ref_src=twsrc%5Etfw",
+            {
+              title: "Closed model releases",
+              description: "OpenAI's new smaller proprietary model is positioned for coding, computer use, multimodal understanding, and subagents, with OpenAI claiming it is 2x faster than GPT-5 mini. Also in this closed wave: Xiaomi MiMo-V2-Pro; MiniMax M2.7.",
+              chip: "closed releases",
+              releaseRoundup: true,
+              href: "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/OpenAI/status/2033953592424731072?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2034239267052896516?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://www.minimax.io/news/minimax-m27-en",
+              ],
+              notes: "Official closed-release roundup: launch posts first, then the source catalog.",
             },
-          },
-          {
-            title: "Mistral Small",
-            description:
-              "Fresh Mistral Small model drop worth sanity-checking against the other new releases.",
-            chip: "x",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/MistralDevs/status/2033654167395357082?ref_src=twsrc%5Etfw",
+            {
+              title: "Open model releases",
+              description: "Fresh Qwen weights to test and compare across the 3.5 line. Also in this open wave: Nemotron v3 series; Nemotron 3 VoiceChat frontier; Mistral Small.",
+              chip: "open releases",
+              releaseRoundup: true,
+              embeds: [
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/ArtificialAnlys/status/2033642073052868861?ref_src=twsrc%5Etfw",
+                },
+                {
+                  type: "tweet",
+                  href: "https://twitter.com/MistralDevs/status/2033654167395357082?ref_src=twsrc%5Etfw",
+                },
+              ],
+              linkPair: [
+                "https://huggingface.co/collections/Qwen/qwen35",
+                "https://artificialanalysis.ai/leaderboards/models?is_open_weights=open_source",
+                "https://huggingface.co/collections/nvidia/nvidia-nemotron-v3",
+              ],
+              notes: "Official open-release roundup: launch posts first, then the source catalog.",
             },
-          },
-          {
-            title: "GPT-5.4 mini",
-            description:
-              "OpenAI's new smaller proprietary model is positioned for coding, computer use, multimodal understanding, and subagents, with OpenAI claiming it is 2x faster than GPT-5 mini.",
-            chip: "x",
-            href: "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/OpenAI/status/2033953592424731072?ref_src=twsrc%5Etfw",
+            {
+              title: "LMfit",
+              description: "Local AI utility that checks your hardware and helps estimate which models will actually run well before you download anything.",
+              chip: "x",
+              embed: {
+                type: "tweet",
+                href: "https://twitter.com/dr_cintas/status/2029272137488580761?ref_src=twsrc%5Etfw",
+              },
             },
-          },
-          {
-            title: "Xiaomi MiMo-V2-Pro",
-            description:
-              "Artificial Analysis says Xiaomi's new reasoning model lands between Kimi K2.5 and GLM-5 on its intelligence index, with strong agent-task performance and good token efficiency.",
-            chip: "bench",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/ArtificialAnlys/status/2034239267052896516?ref_src=twsrc%5Etfw",
+            {
+              title: "Frontier check",
+              description: "Where the top models actually stand right now.",
+              chip: "data",
+              href: "https://artificialanalysis.ai",
             },
-          },
-          {
-            title: "MiniMax M2.7",
-            description:
-              "MiniMax is pitching M2.7 as a self-evolving agentic model with strong software engineering, tool use, and multi-agent performance.",
-            chip: "x",
-            href: "https://www.minimax.io/news/minimax-m27-en",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/MiniMax_AI/status/2034315320337522881?ref_src=twsrc%5Etfw",
-            },
-            linkPair: [
-              "https://www.minimax.io/news/minimax-m27-en",
-            ],
-          },
-          {
-            title: "LMfit",
-            description:
-              "Local AI utility that checks your hardware and helps estimate which models will actually run well before you download anything.",
-            chip: "x",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/dr_cintas/status/2029272137488580761?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Frontier check",
-            description: "Where the top models actually stand right now.",
-            chip: "data",
-            href: "https://artificialanalysis.ai",
-          },
-        ],
+          ],
       },
       {
         id: "mar-security",

@@ -13,7 +13,7 @@ Gemini Omni Flash is Google's generative-media model surface from the July 8 pro
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
+- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
 
 ## Related
 

@@ -15,7 +15,7 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 
 - [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.
-- [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week** and **Who reported the Fable jailbreak?**.
+- [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.
 - [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.
 - [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.

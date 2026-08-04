@@ -13,7 +13,7 @@ Cohere Transcribe Arabic is Cohere's open Arabic ASR model release, used in the 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

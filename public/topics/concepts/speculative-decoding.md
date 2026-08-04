@@ -13,7 +13,7 @@ Speculative decoding is a recurring Austin AI Club concept for accelerating LLM 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **DFlash beats autoregressive drafting ceiling**.
 
 ## Related

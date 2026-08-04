@@ -14,7 +14,7 @@ Model Distillation is the recurring theme of using one model's outputs, traces, 
 ## Mentioned In
 
 - [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
-- [[Austin AI Club - April 1, 2026]]: **Claude-distilled Qwen models trending on HF** and **Distillation hesitation**.
+- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.
 - [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.
 
 ## Related

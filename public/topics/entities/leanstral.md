@@ -13,7 +13,7 @@ Leanstral is Mistral's Lean proof-engineering model line, preserved here because
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

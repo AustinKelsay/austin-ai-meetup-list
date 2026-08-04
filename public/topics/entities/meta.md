@@ -14,8 +14,8 @@ Meta is a recurring Austin AI Club entity for open-weight model releases, agenti
 ## Mentioned In
 
 - [[Austin AI Club - July 22, 2026]]: **Closed model releases** and **Meta wants off the rented-GPU treadmill**.
-- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy** and **Proprietary releases split across agents and media**.
-- [[Austin AI Club - April 15, 2026]]: **Llama 4 Scout & Maverick** and **Meta introduces Muse Spark**.
+- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy** and **Closed model releases**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases** and **Closed model releases**.
 - [[Austin AI Club - April 1, 2026]]: **Meta and Intel chip push** and **MK-Ultrathink**.
 - [[Austin AI Club - March 18, 2026]]: **Meta's "Moltbook"** and **Confer + Meta private AI**.
 

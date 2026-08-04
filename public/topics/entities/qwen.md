@@ -14,12 +14,12 @@ Qwen is a recurring model-family entity for open and API-accessible model releas
 ## Mentioned In
 
 - [[Austin AI Club - July 22, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.
-- [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**.
-- [[Austin AI Club - April 15, 2026]]: **Qwen3.6-Plus**.
-- [[Austin AI Club - April 1, 2026]]: **Qwen3.5-Omni**, **Claude-distilled Qwen models trending on HF**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.
-- [[Austin AI Club - March 18, 2026]]: **Qwen 3.5 series** and **Agent Overload**.
+- [[Austin AI Club - May 13, 2026]]: **Open model releases**.
+- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.
+- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.
+- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.
 
 ## Related
 

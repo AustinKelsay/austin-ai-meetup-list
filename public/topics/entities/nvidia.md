@@ -14,13 +14,13 @@ NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory inf
 ## Mentioned In
 
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.
 - [[Austin AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.
 - [[Austin AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.
-- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Nemotron-Cascade 2**.
-- [[Austin AI Club - March 18, 2026]]: **Nemotron v3 series**, **Nemotron 3 VoiceChat frontier**, and **NemoClaw launch + OpenClaw reaction**.
+- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.
+- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.
 
 ## Related
 

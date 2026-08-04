@@ -15,10 +15,10 @@ Gemma is Google's open model family for local, edge, multimodal, and agentic wor
 
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.
-- [[Austin AI Club - May 13, 2026]]: **Gemma 4 app surface**.
-- [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.
+- [[Austin AI Club - May 13, 2026]]: **Open model releases**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases**.
 
 ## Related
 

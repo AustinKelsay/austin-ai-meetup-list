@@ -13,7 +13,7 @@ DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.
 - [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.
 

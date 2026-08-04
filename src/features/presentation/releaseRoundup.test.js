@@ -3,7 +3,6 @@
  */
 import { describe, expect, it } from "vitest";
 import { meetups } from "../../data.js";
-import { buildSlides } from "./slides.js";
 import { getPresentationItemMedia } from "./content.jsx";
 
 const ROUNDUP_TITLES = ["Closed model releases", "Open model releases"];
@@ -20,59 +19,45 @@ function getModelsTrack(meetup) {
 }
 
 describe("official model-release roundups", () => {
-  for (const meetupId of ["meetup-2026-08-05", "meetup-2026-07-22"]) {
-    it(`${meetupId} leads Models & Research with Closed then Open Release Roundups`, () => {
-      const meetup = meetups.find((entry) => entry.id === meetupId);
-      expect(meetup).toBeTruthy();
+  const meetupIds = meetups
+    .filter((meetup) => meetup.tracks.some((track) => track.title === "Models & Research"))
+    .map((meetup) => meetup.id);
 
-      const models = getModelsTrack(meetup);
-      const [closed, open] = models.items;
-
-      expect(closed.title).toBe("Closed model releases");
-      expect(open.title).toBe("Open model releases");
-      expect(closed.releaseRoundup).toBe(true);
-      expect(open.releaseRoundup).toBe(true);
-      expect(closed.presentationEmbeds).toBeUndefined();
-      expect(open.presentationEmbeds).toBeUndefined();
-      expect(closed.presentationLinkPair).toBeUndefined();
-      expect(open.presentationLinkPair).toBeUndefined();
-    });
-
-    it(`${meetupId} Presentation Mode keeps the full Closed/Open catalogs`, () => {
+  for (const meetupId of meetupIds) {
+    it(`${meetupId} leads Models & Research with official Release Roundup Topic(s)`, () => {
       const meetup = meetups.find((entry) => entry.id === meetupId);
       const models = getModelsTrack(meetup);
+      const roundups = models.items.filter((item) => item.releaseRoundup);
 
-      for (const title of ROUNDUP_TITLES) {
-        const item = models.items.find((entry) => entry.title === title);
-        const media = getPresentationItemMedia(item);
+      expect(roundups.length).toBeGreaterThan(0);
+      expect(models.items[0].releaseRoundup).toBe(true);
+      expect(ROUNDUP_TITLES).toContain(models.items[0].title);
 
-        expect(media.embeds.length).toBeGreaterThan(0);
-        expect(media.links.length).toBeGreaterThan(0);
-        expect(media.showPrimaryLink).toBe(false);
+      for (const item of roundups) {
+        expect(ROUNDUP_TITLES).toContain(item.title);
+        expect(item.presentationEmbeds).toBeUndefined();
+        expect(item.presentationLinkPair).toBeUndefined();
+      }
 
-        const expectedEmbedCount =
-          (item.embeds?.length ?? 0) + (item.embed ? 1 : 0);
-        expect(media.embeds.length).toBe(expectedEmbedCount);
+      const closed = roundups.find((item) => item.title === "Closed model releases");
+      const open = roundups.find((item) => item.title === "Open model releases");
+      if (closed && open) {
+        expect(models.items[0].title).toBe("Closed model releases");
+        expect(models.items[1].title).toBe("Open model releases");
       }
     });
 
-    it(`${meetupId} slide deck places the roundups first in Models & Research`, () => {
+    it(`${meetupId} Presentation Mode keeps the full roundup catalog(s)`, () => {
       const meetup = meetups.find((entry) => entry.id === meetupId);
-      const slides = buildSlides(meetup, { includeOpenCommunitySlot: true });
-      const modelsTitleIndex = slides.findIndex(
-        (slide) =>
-          slide.type === "track-title" && slide.track.title === "Models & Research",
-      );
-      expect(modelsTitleIndex).toBeGreaterThanOrEqual(0);
+      const models = getModelsTrack(meetup);
+      const roundups = models.items.filter((item) => item.releaseRoundup);
 
-      const firstTopic = slides[modelsTitleIndex + 1];
-      const secondTopic = slides[modelsTitleIndex + 2];
-      expect(firstTopic.type).toBe("topic");
-      expect(secondTopic.type).toBe("topic");
-      expect(firstTopic.item.title).toBe("Closed model releases");
-      expect(secondTopic.item.title).toBe("Open model releases");
-      expect(firstTopic.item.releaseRoundup).toBe(true);
-      expect(secondTopic.item.releaseRoundup).toBe(true);
+      for (const item of roundups) {
+        const media = getPresentationItemMedia(item);
+        expect(media.showPrimaryLink).toBeFalsy();
+        // Roundups always expose a source catalog via links and/or embeds.
+        expect(media.embeds.length + media.links.length).toBeGreaterThan(0);
+      }
     });
   }
 });

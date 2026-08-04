@@ -13,9 +13,9 @@ TMax is an open model family and training recipe that Austin AI Club tracks as p
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
-- [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap** and **Research behind the open model wave**.
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.
+- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
 
 ## Related
 

@@ -14,11 +14,11 @@ GLM is Z.ai's model family, tracked here for coding-agent releases, vision/codin
 ## Mentioned In
 
 - [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
-- [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap** and **Research behind the open model wave**.
-- [[Austin AI Club - April 15, 2026]]: **GLM-5.1**.
-- [[Austin AI Club - April 1, 2026]]: **GLM-5.1**, **GLM-5V-Turbo**, **GLM5 Turbo**, and **Distillation hesitation**.
-- [[Austin AI Club - March 18, 2026]]: **Xiaomi MiMo-V2-Pro**.
+- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.
+- [[Austin AI Club - April 15, 2026]]: **Open model releases**.
+- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.
+- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.
 
 ## Related
 
