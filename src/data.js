@@ -124,7 +124,7 @@ export const meetups = [
               "https://docs.pokee.ai/docs/models",
             ],
             notes:
-              "Scroll the launch posts, then the source cards. FLUX 3 Dev open weights are promised later; treat current access as closed/gated.",
+              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated.",
           },
           {
             title: "Open model releases",
@@ -153,7 +153,7 @@ export const meetups = [
               "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
             ],
             notes:
-              "Scroll the open launch posts and artifact cards. Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
+              "Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
           },
           {
             title: "Astra turns open math problems into Lean certificates for about $2K",
@@ -424,7 +424,7 @@ export const meetups = [
               "https://thursdai.news/releases/2026-07",
             ],
             notes:
-              "Official closed-release roundup. Scroll the full launch-post and source catalog.",
+              "Official closed-release roundup: launch posts first, then the source catalog.",
           },
           {
             title: "Open model releases",
@@ -463,7 +463,7 @@ export const meetups = [
               "https://www.kimi.com/help/agent/agent-overview",
             ],
             notes:
-              "Official open-release roundup. Scroll the full launch-post and source catalog.",
+              "Official open-release roundup: launch posts first, then the source catalog.",
           },
           {
             title: "Open agent and reasoning models fan out",

@@ -763,7 +763,7 @@ export function TopicMedia({ item }) {
               <span className="release-roundup-label">Launch posts</span>
               <span className="release-roundup-count">{media.embeds.length}</span>
             </div>
-            <div className="topic-media-stack topic-media-stack--embeds release-roundup-scroll">
+            <div className="topic-media-stack topic-media-stack--embeds">
               {media.embeds.map((embed) => (
                 <TopicEmbed key={embed.href} embed={embed} />
               ))}
@@ -802,7 +802,7 @@ export function TopicMedia({ item }) {
               <span className="release-roundup-label">Sources &amp; artifacts</span>
               <span className="release-roundup-count">{media.links.length}</span>
             </div>
-            <div className="link-pair link-pair--roundup release-roundup-scroll">
+            <div className="link-pair link-pair--roundup">
               {media.links.map((href) => (
                 <LinkCard key={href} href={href} />
               ))}

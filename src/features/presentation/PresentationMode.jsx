@@ -117,9 +117,6 @@ function PresentationSlide({ slide, isFinale }) {
       <p className="pres-topic-desc">
         {slide.item.presentationDescription ?? slide.item.description}
       </p>
-      {isReleaseRoundup ? (
-        <p className="release-roundup-cue">Scroll the posts and source list below.</p>
-      ) : null}
       {(slide.item.presentationNotes ?? slide.item.notes) ? (
         <p className="pres-notes">{slide.item.presentationNotes ?? slide.item.notes}</p>
       ) : null}
@@ -276,6 +273,9 @@ export default function PresentationMode({
       ? "community"
       : TRACK_CATEGORY[slide.track.title];
 
+  const isReleaseRoundup =
+    slide.type === "topic" && Boolean(slide.item.releaseRoundup);
+
   return (
     <div className="pres-overlay" data-track={trackSlug}>
       <div className="pres-topbar">
@@ -295,7 +295,12 @@ export default function PresentationMode({
           ‹
         </button>
 
-        <div className="pres-stage" key={currentIndex} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+        <div
+          className={`pres-stage${isReleaseRoundup ? " pres-stage--release-roundup" : ""}`}
+          key={currentIndex}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <PresentationSlide
             slide={slide}
             isFinale={isFinale}
