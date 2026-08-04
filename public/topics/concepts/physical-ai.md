@@ -13,8 +13,8 @@ Physical AI covers AI systems that model, simulate, navigate, scan, or act in th
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **FLUX 3 collapses image, video, audio, and action into one backbone**.
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**.
+- [[Austin AI Club - August 5, 2026]]: **Closed model releases**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 24, 2026]]: **Midjourney turns image-gen into body hardware**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose** and **World models need a taxonomy, not another demo**.
 - [[Austin AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.

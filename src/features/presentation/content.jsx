@@ -242,8 +242,13 @@ export function getPresentationItemMedia(item) {
 
   const presentationImages = item.presentationImages ?? item.images;
   const presentationImage = item.presentationImage ?? item.image;
-  const presentationEmbeds = item.presentationEmbeds ?? item.embeds;
-  const presentationEmbed = item.presentationEmbed ?? item.embed;
+  // Release roundups always show the full curated feed in Presentation Mode.
+  const presentationEmbeds = item.releaseRoundup
+    ? item.embeds
+    : (item.presentationEmbeds ?? item.embeds);
+  const presentationEmbed = item.releaseRoundup
+    ? item.embed
+    : (item.presentationEmbed ?? item.embed);
 
   if (!item.suppressImages) {
     [...toArray(presentationImages), ...toArray(presentationImage)].forEach(addImage);
@@ -257,7 +262,9 @@ export function getPresentationItemMedia(item) {
     [...toArray(presentationEmbeds), ...toArray(presentationEmbed)].forEach(addEmbed);
   }
 
-  const presentationLinks = item.presentationLinkPair ?? item.linkPair;
+  const presentationLinks = item.releaseRoundup
+    ? item.linkPair
+    : (item.presentationLinkPair ?? item.linkPair);
   const autoMediaLinks = [item.href, ...toArray(presentationLinks)];
 
   if (!item.suppressImages) {
@@ -301,8 +308,20 @@ export function getPresentationItemMedia(item) {
   }
 
   const hrefKey = item.href ? getLinkKey(item.href) : null;
+  if (
+    item.releaseRoundup &&
+    item.href &&
+    hrefKey &&
+    !consumedLinks.has(hrefKey) &&
+    !seenLinks.has(hrefKey)
+  ) {
+    seenLinks.add(hrefKey);
+    links.unshift(item.href);
+  }
+
   const showPrimaryLink =
     item.href &&
+    !item.releaseRoundup &&
     !presentationLinks &&
     !consumedLinks.has(hrefKey) &&
     !item.mediaPair;
@@ -696,6 +715,11 @@ function TopicMediaPairItem({ media }) {
   return null;
 }
 
+/**
+ * Renders topic media for Presentation Mode.
+ * @param {{ item: object }} props
+ * @param {object} props.item Meetup Data topic item
+ */
 export function TopicMedia({ item }) {
   if (!item) {
     return null;
@@ -729,6 +753,65 @@ export function TopicMedia({ item }) {
   }
 
   const media = getPresentationItemMedia(item);
+
+  if (item.releaseRoundup) {
+    return (
+      <div className="release-roundup">
+        {media.embeds.length ? (
+          <section className="release-roundup-section">
+            <div className="release-roundup-heading">
+              <span className="release-roundup-label">Launch posts</span>
+              <span className="release-roundup-count">{media.embeds.length}</span>
+            </div>
+            <div className="topic-media-stack topic-media-stack--embeds release-roundup-scroll">
+              {media.embeds.map((embed) => (
+                <TopicEmbed key={embed.href} embed={embed} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+        {media.videos.length ? (
+          <section className="release-roundup-section">
+            <div className="release-roundup-heading">
+              <span className="release-roundup-label">Videos</span>
+              <span className="release-roundup-count">{media.videos.length}</span>
+            </div>
+            <div className="topic-media-stack topic-media-stack--videos">
+              {media.videos.map((video) => (
+                <VideoEmbed key={video.href ?? video.embedHref} video={video} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+        {media.images.length ? (
+          <section className="release-roundup-section">
+            <div className="release-roundup-heading">
+              <span className="release-roundup-label">Images</span>
+              <span className="release-roundup-count">{media.images.length}</span>
+            </div>
+            <div className="topic-media-stack topic-media-stack--images">
+              {media.images.map((image) => (
+                <TopicImage key={image.href ?? image.src} image={image} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+        {media.links.length ? (
+          <section className="release-roundup-section">
+            <div className="release-roundup-heading">
+              <span className="release-roundup-label">Sources &amp; artifacts</span>
+              <span className="release-roundup-count">{media.links.length}</span>
+            </div>
+            <div className="link-pair link-pair--roundup release-roundup-scroll">
+              {media.links.map((href) => (
+                <LinkCard key={href} href={href} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+      </div>
+    );
+  }
 
   return (
     <>

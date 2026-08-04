@@ -13,7 +13,7 @@ Gemini is Google's frontier model family and an upstream technology reference fo
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Closed model release highlights**.
+- [[Austin AI Club - July 22, 2026]]: **Closed model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 - [[Austin AI Club - April 15, 2026]]: **Google Gemma 4**.

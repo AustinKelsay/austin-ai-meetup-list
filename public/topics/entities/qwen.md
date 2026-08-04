@@ -13,7 +13,7 @@ Qwen is a recurring model-family entity for open and API-accessible model releas
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.
 - [[Austin AI Club - May 13, 2026]]: **Qwen3.6-27B gets laptop-shaped**.

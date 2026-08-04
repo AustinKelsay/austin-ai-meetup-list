@@ -13,7 +13,7 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **AlphaEvolve turns algorithm discovery into a cloud product**, **Closed model release highlights**, **Vera Rubin racks move into production**, **The AI safety leaderboard tops out at C+**, and **Europe makes Android's AI layer contestable**.
+- [[Austin AI Club - July 22, 2026]]: **AlphaEvolve turns algorithm discovery into a cloud product**, **Closed model releases**, **Vera Rubin racks move into production**, **The AI safety leaderboard tops out at C+**, and **Europe makes Android's AI layer contestable**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Proprietary releases split across agents and media**.
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.

@@ -55,4 +55,29 @@ describe("presentation-specific media curation", () => {
       "https://x.com/example/status/2",
     ]);
   });
+
+  it("keeps the full release-roundup feed even when presentation subsets exist", () => {
+    const media = getPresentationItemMedia({
+      releaseRoundup: true,
+      href: "https://example.com/primary",
+      embeds: [
+        { type: "tweet", href: "https://x.com/example/status/1" },
+        { type: "tweet", href: "https://x.com/example/status/2" },
+      ],
+      presentationEmbeds: [{ type: "tweet", href: "https://x.com/example/status/2" }],
+      linkPair: ["https://example.com/one", "https://example.com/two"],
+      presentationLinkPair: ["https://example.com/two"],
+    });
+
+    expect(media.embeds.map((embed) => embed.href)).toEqual([
+      "https://x.com/example/status/1",
+      "https://x.com/example/status/2",
+    ]);
+    expect(media.links).toEqual([
+      "https://example.com/primary",
+      "https://example.com/one",
+      "https://example.com/two",
+    ]);
+    expect(media.showPrimaryLink).toBe(false);
+  });
 });

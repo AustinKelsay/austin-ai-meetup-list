@@ -95,7 +95,7 @@ sources: []
 
 ## Models & Research
 
-### Closed model release highlights
+### Closed model releases
 - Source: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
   - Title: "Introducing Muse Spark 1.1"
   - Type: Official launch blog
@@ -172,7 +172,7 @@ sources: []
   - Access: 2026-07-22
   - Notes: Supporting release index for Seedream 5 Pro and Base 1 where exact first-party launch pages were not recovered.
 
-### Open model release highlights
+### Open model releases
 - Post: https://x.com/Alibaba_Qwen/status/2078754377473601787
   - Title: "Qwen3.8-Max-Preview"
   - Type: Official X post

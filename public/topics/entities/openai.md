@@ -14,7 +14,7 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 ## Mentioned In
 
 - [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
-- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model release highlights**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.
+- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.
 - [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.

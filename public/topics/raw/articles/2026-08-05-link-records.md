@@ -20,19 +20,34 @@ sources: []
 
 ## Models & Research
 
-### FLUX 3 collapses image, video, audio, and action into one backbone
+### Closed model releases
 - Source: https://bfl.ai/blog/flux-3
   - Title: "FLUX 3 - Real World Models"
   - Type: Official product blog
   - Access: 2026-08-04
-  - Notes: Black Forest Labs launch post for the unified multimodal flow model covering video+audio early access, upcoming image access, action prediction with mimic robotics, and later open-weight FLUX 3 Dev.
+  - Notes: Black Forest Labs launch post for the unified multimodal flow model covering video+audio early access, upcoming image access, action prediction, and later open-weight FLUX 3 Dev.
 - Post: https://x.com/bfl_ai/status/2080308988961554582
   - Title: "Introducing FLUX 3"
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: BFL announcement framing FLUX 3 as one multimodal model for image, video, audio, and action prediction.
+- Source: https://pokee.ai/
+  - Title: "Pokee"
+  - Type: Official product page
+  - Access: 2026-08-04
+  - Notes: Product surface claiming Pokee-Isaac 28B with 10M-token context and single-GPU deploy.
+- Source: https://docs.pokee.ai/docs/models
+  - Title: "Pokee models and pricing"
+  - Type: Official documentation
+  - Access: 2026-08-04
+  - Notes: Docs for Pokee Isaac model tiers and API usage.
+- Post: https://x.com/Pokee_AI/status/2084682445648216383
+  - Title: "Releasing Pokee-Isaac 28B"
+  - Type: Official X post
+  - Access: 2026-08-04
+  - Notes: Vendor launch claims including 10M context, 93.3% RULER at 10M, and RTX 4090-class single-GPU deploy; treat superlatives as author-reported.
 
-### Ling-3.0-flash bets 5.1B active can replace a 1T flagship
+### Open model releases
 - Source: https://developer.ant-ling.com/en/docs/models/ling
   - Title: "Ling model docs"
   - Type: Official model documentation
@@ -48,8 +63,6 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: Launch claim that 124B/5.1B-active matches or beats Ant's 1T flagship on most shown benchmarks.
-
-### Local open drops keep specializing by size and job
 - Source: https://poolside.ai/blog/introducing-laguna-s-2-1
   - Title: "Introducing Laguna S 2.1"
   - Type: Official product blog
@@ -64,17 +77,17 @@ sources: []
   - Title: "Nanbeige/Nanbeige4.2-3B"
   - Type: Hugging Face model page
   - Access: 2026-08-04
-  - Notes: Compact Nanbeige 4.2 3B release called out in the local-drops roundup.
+  - Notes: Compact Nanbeige 4.2 3B release called out in the open-release roundup.
 - Source: https://huggingface.co/upstage/Solar-Open2-250B
   - Title: "upstage/Solar-Open2-250B"
   - Type: Hugging Face model page
   - Access: 2026-08-04
-  - Notes: Upstage Solar-Open2 250B open release included in the local packaging wave.
+  - Notes: Upstage Solar-Open2 250B open release included in the open packaging wave.
 - Source: https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF
   - Title: "Zero-Gemma4-E4B-OpenZero-GGUF"
   - Type: Hugging Face model page
   - Access: 2026-08-04
-  - Notes: OpenZero Gemma4-E4B GGUF packaging referenced by the local-drops roundup.
+  - Notes: OpenZero Gemma4-E4B GGUF packaging referenced by the open-release roundup.
 - Post: https://x.com/LocalAiCherry/status/2082461699622228141
   - Title: "Latest open source local drops"
   - Type: Aggregator X post
@@ -114,23 +127,6 @@ sources: []
   - Type: Researcher X post
   - Access: 2026-08-04
   - Notes: Karpathy describes the 1M-token / ~$10 Opus 5 experiment producing ~5,500 lines of procedural Three.js code and the visual self-audit weakness.
-
-### Pokee-Isaac claims real 10M-token agent context on one GPU
-- Source: https://pokee.ai/
-  - Title: "Pokee"
-  - Type: Official product page
-  - Access: 2026-08-04
-  - Notes: Product surface claiming Pokee-Isaac 28B with 10M-token context and single-GPU deploy.
-- Source: https://docs.pokee.ai/docs/models
-  - Title: "Pokee models and pricing"
-  - Type: Official documentation
-  - Access: 2026-08-04
-  - Notes: Docs for Pokee Isaac model tiers and API usage.
-- Post: https://x.com/Pokee_AI/status/2084682445648216383
-  - Title: "Releasing Pokee-Isaac 28B"
-  - Type: Official X post
-  - Access: 2026-08-04
-  - Notes: Vendor launch claims including 10M context, 93.3% RULER at 10M, and RTX 4090-class single-GPU deploy; treat superlatives as author-reported.
 
 ## Security
 

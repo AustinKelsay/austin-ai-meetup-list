@@ -13,7 +13,7 @@ NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory inf
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights** and **Vera Rubin racks move into production**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.

@@ -22,7 +22,13 @@ Related wiki pages: [[Agent Infrastructure]], [[Open Models]], [[Local AI]], [[C
   Link: https://example.com
 
 ### Models & Research
-- **Topic title** - Model release, benchmark, paper, or capability update
+- **Closed model releases** - Official Release Roundup: proprietary / gated model launches since the last meetup
+  Source: https://example.com
+  Post: https://x.com/example/status/123
+- **Open model releases** - Official Release Roundup: open-weight / open-source model launches since the last meetup
+  Source: https://example.com
+  Post: https://x.com/example/status/123
+- **Topic title** - Non-release research, eval, paper, or capability update that needs its own room question
   Link: https://example.com
 
 ### Security

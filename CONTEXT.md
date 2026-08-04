@@ -122,6 +122,18 @@ The track for agent runtimes, protocols, interfaces, orchestration layers, tool-
 **Models & Research**:
 The track for model releases, benchmark shifts, papers, architecture updates, and capability comparisons.
 
+**Closed model releases**:
+The official Models & Research Release Roundup Topic for proprietary or gated model launches since the previous Meetup. Presentation Mode shows the full launch-post and source catalog as a scrollable feed.
+_Avoid_: Closed model release highlights, proprietary releases split..., mega-slide
+
+**Open model releases**:
+The official Models & Research Release Roundup Topic for open-weight or open-source model launches since the previous Meetup. Presentation Mode shows the full launch-post and source catalog as a scrollable feed.
+_Avoid_: Open model release highlights, open-weight release week..., mega-slide
+
+**Release Roundup**:
+A Meetup Data Topic marked `releaseRoundup: true` so Presentation Mode renders the complete embeds and link catalog as a scrollable Closed/Open model-release feed instead of a reduced presentation subset.
+_Avoid_: Mega-slide, super-slide, mecha slide
+
 **Security**:
 The track for attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.
 

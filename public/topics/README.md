@@ -50,3 +50,14 @@ Use the same five Tracks each meetup unless there is a strong reason not to:
 5. `Big Tech Moves`
 
 These Tracks are meant to stay stable across meetups so new Topics have an obvious home. Open source and privacy are curation lenses, not Tracks. Security is both a Track and a curation lens.
+
+## Official model-release roundups
+
+In `Models & Research`, lead with two official Release Roundup Topics titled exactly:
+
+1. `Closed model releases`
+2. `Open model releases`
+
+Put the biweekly proprietary/gated launches on Closed and the open-weight launches on Open. Keep launch posts, model cards, blogs, and repos on those Topics so Presentation Mode can scroll the full feed. In `src/data.js`, set `releaseRoundup: true` on both items and do not reduce them with `presentationEmbeds` / `presentationLinkPair`.
+
+Non-release research, evals, and papers stay as separate Topics after the two roundups. If a cycle is a firehose, prefer a longer scrollable Open/Closed catalog over splitting launches across thematic release Topics. Thematic follow-ups are for a distinct room question, not a second release dump.

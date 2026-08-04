@@ -16,6 +16,8 @@
 // - linkPair: supporting link-card row (legacy name; accepts any number of links)
 // - notes: optional presenter note (string) shown as a callout
 // - topStory: optional host-facing highlight in the meetup topic list
+// - releaseRoundup: official Closed/Open model-release Topic; shows the full
+//   embeds + linkPair feed in a scrollable Presentation Mode catalog
 // - suppressXEmbeds / suppressVideos / suppressImages: opt out of default media rendering
 //
 // Standard track taxonomy for recurring club meetups:
@@ -24,6 +26,11 @@
 // 3. Models & Research
 // 4. Security
 // 5. Big Tech Moves
+//
+// Models & Research convention:
+// Lead with official Release Roundup Topics titled exactly "Closed model releases"
+// and "Open model releases" (set releaseRoundup: true). Keep non-release research,
+// evals, and papers as separate Topics after those two.
 function xArticle(article) {
   return {
     ...article,
@@ -57,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on the senior-agent constraints pitch, move through model releases and Astra math, then slow down for the bitcoin red team and Shai-Hulud before the OpenAI price cut.",
+        "Open on the senior-agent constraints pitch, scroll the Closed and Open model-release roundups, then Astra/Karpathy before security and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -95,44 +102,58 @@ export const meetups = [
           "This section covers model releases, research papers, architecture updates, and capability comparisons that change what builders can ship.",
         items: [
           {
-            title: "FLUX 3 collapses image, video, audio, and action into one backbone",
+            title: "Closed model releases",
             description:
-              "Black Forest Labs shipped early access for a unified multimodal flow model that jointly learns image, video, and audio, then extends the same backbone to action prediction. Video with native audio is live now; image early access and open-weight FLUX 3 Dev come later.",
-            chip: "multimodal",
+              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, and Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy. Closed releases this cycle are product-shaped multimodal and long-context bets.",
+            chip: "closed releases",
+            releaseRoundup: true,
             href: "https://bfl.ai/blog/flux-3",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/bfl_ai/status/2080308988961554582?ref_src=twsrc%5Etfw",
-            },
-          },
-          {
-            title: "Ling-3.0-flash bets 5.1B active can replace a 1T flagship",
-            description:
-              "Ant Group's Ling-3.0-flash is a 124B hybrid-reasoning MoE with 5.1B active per token and a native 256K context extendable to 1M. The pitch is production agents that match or beat their 1T flagship on most shown benchmarks.",
-            chip: "open moe",
-            href: "https://developer.ant-ling.com/en/docs/models/ling",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/AntLingAGI/status/2080351022028095681?ref_src=twsrc%5Etfw",
-            },
-            linkPair: ["https://huggingface.co/inclusionAI/Ling-3.0-flash"],
-          },
-          {
-            title: "Local open drops keep specializing by size and job",
-            description:
-              "Fresh open packaging centers on Poolside's Laguna S 2.1 118B/8B-active coding MoE with 1M context, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B builds. Treat the Bonsai and BTL-3 repeats as packaging noise; the room question is which fit the hardware people own.",
-            chip: "local open",
-            href: "https://poolside.ai/blog/introducing-laguna-s-2-1",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/LocalAiCherry/status/2082461699622228141?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/bfl_ai/status/2080308988961554582?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
+              "https://bfl.ai/blog/flux-3",
+              "https://pokee.ai/",
+              "https://docs.pokee.ai/docs/models",
+            ],
+            notes:
+              "Scroll the launch posts, then the source cards. FLUX 3 Dev open weights are promised later; treat current access as closed/gated.",
+          },
+          {
+            title: "Open model releases",
+            description:
+              "Ant Ling's Ling-3.0-flash (124B/5.1B active), Poolside's Laguna S 2.1 coding MoE, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B packaging fill the open shelf. Skip the Bonsai/BTL-3 repeats; the useful question is which artifacts fit local hardware.",
+            chip: "open releases",
+            releaseRoundup: true,
+            href: "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/AntLingAGI/status/2080351022028095681?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/LocalAiCherry/status/2082461699622228141?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://developer.ant-ling.com/en/docs/models/ling",
+              "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+              "https://poolside.ai/blog/introducing-laguna-s-2-1",
               "https://huggingface.co/poolside/Laguna-S-2.1",
               "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
               "https://huggingface.co/upstage/Solar-Open2-250B",
               "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
             ],
+            notes:
+              "Scroll the open launch posts and artifact cards. Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
           },
           {
             title: "Astra turns open math problems into Lean certificates for about $2K",
@@ -159,18 +180,6 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/karpathy/status/2083749667410727319?ref_src=twsrc%5Etfw",
             },
-          },
-          {
-            title: "Pokee-Isaac claims real 10M-token agent context on one GPU",
-            description:
-              "Pokee-Isaac is pitched as a 28B proprietary agentic model with a native 10M-token window, author-reported 93.3% RULER at 10M, and single-GPU deploy from an RTX 4090 class card. Treat the \"world's first\" framing as vendor claim; the room question is whether long-horizon agents finally stop chunking.",
-            chip: "long context",
-            href: "https://pokee.ai/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
-            },
-            linkPair: ["https://docs.pokee.ai/docs/models"],
           },
         ],
       },
@@ -375,10 +384,11 @@ export const meetups = [
           "This section covers model releases, benchmark shifts, papers, architecture updates, and capability comparisons.",
         items: [
           {
-            title: "Closed model release highlights",
+            title: "Closed model releases",
             description:
               "OpenAI split GPT-5.6, GPT-Live, and GPT-Realtime across reasoning and full-duplex voice; Google split Gemini Flash across general, cheap, and cyber tiers; xAI shipped Grok 4.5; Meta paired Muse Spark 1.1 with Muse Image and Video; and SWE-1.7, Reve 2.1, Seedream 5 Pro, and Base 1 pushed coding, image generation, and app building into their own models. Closed releases are becoming product-specific fleets.",
-            chip: "proprietary releases",
+            chip: "closed releases",
+            releaseRoundup: true,
             href: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
             embeds: [
               {
@@ -413,28 +423,15 @@ export const meetups = [
               "https://blog.reve.com/posts/launching-reve-2.1/",
               "https://thursdai.news/releases/2026-07",
             ],
-            presentationEmbeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/JeffDean/status/2079591562145870043?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/elonmusk/status/2074740539874775163?ref_src=twsrc%5Etfw",
-              },
-            ],
-            presentationLinkPair: [
-              "https://openai.com/index/gpt-5-6/",
-              "https://x.ai/news/grok-4-5",
-              "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-            ],
+            notes:
+              "Official closed-release roundup. Scroll the full launch-post and source catalog.",
           },
           {
-            title: "Open model release highlights",
+            title: "Open model releases",
             description:
               "Thinking Machines opened the 975B/41B-active multimodal Inkling MoE; Qwen previewed the 2.4T Qwen3.8-Max and promised open weights soon; Bad Theory Labs turned Qwen3.6-27B into the tool-using BTL-3 and an 8.39 GB Compact build; NVIDIA put a 4B world model on edge hardware; Mistral shipped an 8B robot navigator; and Moonshot AI says Kimi K3's 2.8T weights land July 27. Open now spans frontier bases, local agents, robotics, and embodied specialists.",
             chip: "open releases",
+            releaseRoundup: true,
             href: "https://thinkingmachines.ai/news/introducing-inkling/",
             embeds: [
               {
@@ -465,22 +462,8 @@ export const meetups = [
               "https://www.kimi.com/blog/kimi-k3",
               "https://www.kimi.com/help/agent/agent-overview",
             ],
-            presentationEmbeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/Alibaba_Qwen/status/2078754377473601787?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/Badtheorylabs/status/2079306502897074249?ref_src=twsrc%5Etfw",
-              },
-            ],
-            presentationLinkPair: [
-              "https://thinkingmachines.ai/model-card/inkling/",
-              "https://huggingface.co/badtheorylabs/BTL-3",
-              "https://mistral.ai/news/robostral-navigate/",
-              "https://www.kimi.com/blog/kimi-k3",
-            ],
+            notes:
+              "Official open-release roundup. Scroll the full launch-post and source catalog.",
           },
           {
             title: "Open agent and reasoning models fan out",

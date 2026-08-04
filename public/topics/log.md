@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-04] update | Official Closed/Open model-release roundups
+
+- Made `Closed model releases` and `Open model releases` the official Models & Research Release Roundup Topics, with `releaseRoundup: true` Presentation Mode support for full scrollable launch-post and source catalogs.
+- Restructured the August 5 Models section around those two roundups, keeping Astra and Karpathy as separate non-release Topics.
+- Renamed the July 22 closed/open highlight Topics to the official titles and removed their presentation-media reductions so the full feeds render.
+- Documented the convention in `CONTEXT.md`, `public/topics/README.md`, and `TEMPLATE.md`.
+
 ## [2026-08-04] garden | August 5 board authored from submitted AI list
 
 - Authored the August 5 Meetup board across Agent Infrastructure, Models & Research, Security, Big Tech Moves, and an open Community Slot from the submitted link list.

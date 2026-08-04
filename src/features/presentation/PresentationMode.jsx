@@ -98,8 +98,13 @@ function PresentationSlide({ slide, isFinale }) {
     );
   }
 
+  const isReleaseRoundup = Boolean(slide.item.releaseRoundup);
+
   return (
-    <div className={`pres-slide pres-slide--topic${isFinale ? " pres-slide--finale" : ""}`} data-track={trackSlug}>
+    <div
+      className={`pres-slide pres-slide--topic${isReleaseRoundup ? " pres-slide--release-roundup" : ""}${isFinale ? " pres-slide--finale" : ""}`}
+      data-track={trackSlug}
+    >
       <h3 className="pres-topic-title">
         {slide.item.href ? (
           <a href={slide.item.href} target="_blank" rel="noreferrer">
@@ -112,6 +117,9 @@ function PresentationSlide({ slide, isFinale }) {
       <p className="pres-topic-desc">
         {slide.item.presentationDescription ?? slide.item.description}
       </p>
+      {isReleaseRoundup ? (
+        <p className="release-roundup-cue">Scroll the posts and source list below.</p>
+      ) : null}
       {(slide.item.presentationNotes ?? slide.item.notes) ? (
         <p className="pres-notes">{slide.item.presentationNotes ?? slide.item.notes}</p>
       ) : null}

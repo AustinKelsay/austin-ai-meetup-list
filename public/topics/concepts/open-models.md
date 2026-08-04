@@ -13,8 +13,8 @@ Open Models covers open-weight and open-source model releases, their deployment 
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Ling-3.0-flash bets 5.1B active can replace a 1T flagship** and **Local open drops keep specializing by size and job**.
-- [[Austin AI Club - July 22, 2026]]: **Open model release highlights**, **Open agent and reasoning models fan out**, **Open multimodal models specialize by modality**, **Embedding models get their own open release lane**, **Local model packaging becomes part of the release**, and **llama.garden makes model distribution a protocol**.
+- [[Austin AI Club - August 5, 2026]]: **Open model releases**.
+- [[Austin AI Club - July 22, 2026]]: **Open model releases**, **Open agent and reasoning models fan out**, **Open multimodal models specialize by modality**, **Embedding models get their own open release lane**, **Local model packaging becomes part of the release**, and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open models are eating the frontier gap**.
 - [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**, expanded into LLMs, edge VLMs, document OCR, audio/video generation, robotics, quantization, and HF deployment artifacts, plus **Local AI becomes bandwidth math**.
