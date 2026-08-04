@@ -1,10 +1,10 @@
 ---
 title: Open Models
 created: 2026-05-05
-updated: 2026-07-22
+updated: 2026-08-04
 type: concept
 tags: [concept, models-research, open-source]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Open Models
@@ -13,6 +13,7 @@ Open Models covers open-weight and open-source model releases, their deployment 
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Ling-3.0-flash bets 5.1B active can replace a 1T flagship** and **Local open drops keep specializing by size and job**.
 - [[Austin AI Club - July 22, 2026]]: **Open model release highlights**, **Open agent and reasoning models fan out**, **Open multimodal models specialize by modality**, **Embedding models get their own open release lane**, **Local model packaging becomes part of the release**, and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases get specialized fast**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open models are eating the frontier gap**.

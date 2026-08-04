@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-05-05
-updated: 2026-07-21
+updated: 2026-08-04
 type: entity
 tags: [entity, company, big-tech-moves, compute]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Anthropic
@@ -13,6 +13,7 @@ Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
 - [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**

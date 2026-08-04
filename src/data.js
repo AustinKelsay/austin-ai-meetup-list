@@ -34,6 +34,208 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    id: "meetup-2026-08-05",
+    slug: "2026-08-05",
+    date: "August 5, 2026",
+    markdownHref: "./topics/2026-08-05.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-08-05T18:00:00-05:00",
+      endAt: "2026-08-05T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Open on the senior-agent constraints pitch, move through model releases and Astra math, then slow down for the bitcoin red team and Shai-Hulud before the OpenAI price cut.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-club",
+      },
+    ],
+    tracks: [
+      {
+        id: "aug5-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "Uncle Bob's senior job is constraints, not reading agent code",
+            description:
+              "Uncle Bob's current strategy is not to read agent-written code at all. He surrounds the agents with extreme constraints and unit tests, and treats that harness as the new senior craft.",
+            chip: "coding agents",
+            href: "https://x.com/unclebobmartin/status/2080257779395154409",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/unclebobmartin/status/2080257779395154409?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+      {
+        id: "aug5-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, research papers, architecture updates, and capability comparisons that change what builders can ship.",
+        items: [
+          {
+            title: "FLUX 3 collapses image, video, audio, and action into one backbone",
+            description:
+              "Black Forest Labs shipped early access for a unified multimodal flow model that jointly learns image, video, and audio, then extends the same backbone to action prediction. Video with native audio is live now; image early access and open-weight FLUX 3 Dev come later.",
+            chip: "multimodal",
+            href: "https://bfl.ai/blog/flux-3",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/bfl_ai/status/2080308988961554582?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Ling-3.0-flash bets 5.1B active can replace a 1T flagship",
+            description:
+              "Ant Group's Ling-3.0-flash is a 124B hybrid-reasoning MoE with 5.1B active per token and a native 256K context extendable to 1M. The pitch is production agents that match or beat their 1T flagship on most shown benchmarks.",
+            chip: "open moe",
+            href: "https://developer.ant-ling.com/en/docs/models/ling",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AntLingAGI/status/2080351022028095681?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://huggingface.co/inclusionAI/Ling-3.0-flash"],
+          },
+          {
+            title: "Local open drops keep specializing by size and job",
+            description:
+              "Fresh open packaging centers on Poolside's Laguna S 2.1 118B/8B-active coding MoE with 1M context, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B builds. Treat the Bonsai and BTL-3 repeats as packaging noise; the room question is which fit the hardware people own.",
+            chip: "local open",
+            href: "https://poolside.ai/blog/introducing-laguna-s-2-1",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/LocalAiCherry/status/2082461699622228141?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://huggingface.co/poolside/Laguna-S-2.1",
+              "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+              "https://huggingface.co/upstage/Solar-Open2-250B",
+              "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
+            ],
+          },
+          {
+            title: "Astra turns open math problems into Lean certificates for about $2K",
+            description:
+              "An internal Astra run produced ten long-open math results, with OpenAI publishing manuscripts plus Lean 4 certificates in openai/ten-proofs. The July 22 story was medals and first proofs; the delta is a checkable ten-result bundle at Sol-API-priced token cost.",
+            chip: "ai mathematics",
+            href: "https://openai.com/index/ten-advances-in-mathematics/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/gdb/status/2083457463337287721?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/openai/ten-proofs",
+              "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+            ],
+          },
+          {
+            title: "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+            description:
+              "Andrej Karpathy gave Claude Opus 5 the first paragraph of The Lord of the Rings, a 1M-token budget, and asked for a Three.js render. Two hours and about 5,500 lines later he had a playable world—and a clean demo that agents still struggle to natively watch what they build.",
+            chip: "agent eval",
+            href: "https://karpathy.ai/lotr-movie/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/karpathy/status/2083749667410727319?ref_src=twsrc%5Etfw",
+            },
+          },
+          {
+            title: "Pokee-Isaac claims real 10M-token agent context on one GPU",
+            description:
+              "Pokee-Isaac is pitched as a 28B proprietary agentic model with a native 10M-token window, author-reported 93.3% RULER at 10M, and single-GPU deploy from an RTX 4090 class card. Treat the \"world's first\" framing as vendor claim; the room question is whether long-horizon agents finally stop chunking.",
+            chip: "long context",
+            href: "https://pokee.ai/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://docs.pokee.ai/docs/models"],
+          },
+        ],
+      },
+      {
+        id: "aug5-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
+        items: [
+          {
+            title: "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
+            description:
+              "Rob Hamilton's responders say LLMs are already being used to steal bitcoin, and they are burning through Kimi K3 plus about $20K in credits while OpenAI publicly chides the effort. Prem launched prem-router and sponsored credits so researchers can reach open cyber-capable models without shipping prompts to a reluctant lab.",
+            chip: "cyber defense",
+            href: "https://x.com/Rob1Ham/status/2083546478409056301",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/Rob1Ham/status/2083546478409056301?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Rob1Ham/status/2084523368783438198?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/premai_io/status/2084552134444662986?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: ["https://www.premai.io/"],
+          },
+          {
+            title: "Shai-Hulud hits keyv and 2B monthly npm installs",
+            description:
+              "After May's Mini Shai-Hulud wave, attackers compromised the GitHub account behind keyv and its cacheable family, then wormed credential stealers across hundreds of packages totaling over 2 billion monthly installs. Poisoned releases shipped with valid GitHub Actions provenance, so \"signed\" no longer means \"safe.\"",
+            chip: "supply chain",
+            href: "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+            linkPair: [
+              "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
+            ],
+          },
+        ],
+      },
+      {
+        id: "aug5-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers major company moves, hardware launches, ecosystem shifts, acquisitions, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
+        items: [
+          {
+            title: "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+            description:
+              "OpenAI passed runtime-efficiency gains into API pricing: Luna drops to $0.20/$1.20 per million tokens, Terra to $2/$12, while Sol stays put and gets a premium Fast mode. High-volume agent work just got cheaper on OpenAI's stack.",
+            chip: "pricing",
+            href: "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2082878156483219672?ref_src=twsrc%5Etfw",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-07-22",
     slug: "2026-07-22",
     date: "July 22, 2026",

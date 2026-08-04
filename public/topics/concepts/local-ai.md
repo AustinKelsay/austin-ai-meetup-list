@@ -1,10 +1,10 @@
 ---
 title: Local AI
 created: 2026-05-05
-updated: 2026-07-21
+updated: 2026-08-04
 type: concept
 tags: [concept, local-builds, open-source, privacy]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Local AI
@@ -13,6 +13,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Local open drops keep specializing by size and job** and **Pokee-Isaac claims real 10M-token agent context on one GPU**.
 - [[Austin AI Club - July 22, 2026]]: **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.

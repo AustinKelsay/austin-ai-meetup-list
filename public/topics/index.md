@@ -1,10 +1,11 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-07-22 | Total pages: 133
+> Last updated: 2026-08-04 | Total pages: 141
 
 ## Meetups
 
+- [[Austin AI Club - August 5, 2026]]
 - [[Austin AI Club - July 22, 2026]]
 - [[Austin AI Club - July 8, 2026]]
 - [[Austin AI Club - June 24, 2026]]
@@ -25,6 +26,7 @@
 - [[Apple]]
 - [[Apple Container]]
 - [[Anthropic]]
+- [[Astra]]
 - [[Ben Carman]]
 - [[Block]]
 - [[Brain2Qwerty]]
@@ -48,6 +50,7 @@
 - [[DiffusionGemma]]
 - [[Etched]]
 - [[Figure AI]]
+- [[FLUX 3]]
 - [[Gemma]]
 - [[Gemini]]
 - [[Gemini Omni Flash]]
@@ -64,7 +67,9 @@
 - [[Inkling]]
 - [[Jalapeno]]
 - [[Kimi]]
+- [[Laguna S 2.1]]
 - [[Leanstral]]
+- [[Ling-3.0-flash]]
 - [[Meta]]
 - [[Meta Muse]]
 - [[Midjourney]]
@@ -85,6 +90,8 @@
 - [[OpenRouter]]
 - [[OpenRouter Fusion]]
 - [[Palantir]]
+- [[Pokee-Isaac]]
+- [[Prem]]
 - [[PrismML]]
 - [[Pylon]]
 - [[Qwen]]
@@ -137,6 +144,7 @@
 
 ## Source Records
 
+- [August 5, 2026 source records](./raw/articles/2026-08-05-link-records.md)
 - [July 22, 2026 source records](./raw/articles/2026-07-22-link-records.md)
 - [July 8, 2026 source records](./raw/articles/2026-07-08-link-records.md)
 - [June 24, 2026 source records](./raw/articles/2026-06-24-link-records.md)

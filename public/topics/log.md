@@ -2,6 +2,13 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-04] garden | August 5 board authored from submitted AI list
+
+- Authored the August 5 Meetup board across Agent Infrastructure, Models & Research, Security, Big Tech Moves, and an open Community Slot from the submitted link list.
+- Grouped the Bitcoin red-team / Kimi K3 / Prem router posts into one Security Topic; framed the keyv Shai-Hulud wave as a material delta on Mini Shai-Hulud; and treated Astra's ten Lean-certified math results as the delta on the July 22 AI-math story.
+- Added source records plus entity pages for FLUX 3, Ling-3.0-flash, Astra, Laguna S 2.1, Pokee-Isaac, and Prem, with reciprocal Mentioned In updates on the recurring hubs.
+- Mirrored the Markdown Archive into Meetup Data, regenerated calendar/wiki manifests, and verified with `npm run lint:wiki`, tests, and `npm run build`.
+
 ## [2026-07-22] garden | July 22 board completed end to end
 
 - Rebuilt the July 22 discussion flow across Agent Infrastructure, Models & Research, Security, Big Tech Moves, and the Realtime Voice Model Demo, including late model, math, governance, compute, legal, and production-agent additions.

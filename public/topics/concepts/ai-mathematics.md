@@ -1,10 +1,10 @@
 ---
 title: AI Mathematics
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-08-04
 type: concept
 tags: [concept, models-research, ai-benchmarks-evals]
-sources: [raw/articles/2026-07-22-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md]
 ---
 
 # AI Mathematics
@@ -13,6 +13,7 @@ AI Mathematics covers systems that solve, verify, or help discover mathematical 
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**.
 - [[Austin AI Club - July 22, 2026]]: **AI math crosses from medals into new proofs**.
 
 ## Related
@@ -20,4 +21,5 @@ AI Mathematics covers systems that solve, verify, or help discover mathematical 
 - [[AI Benchmarks & Evals]]
 - [[Models & Research]]
 - [[AlphaEvolve]]
+- [[Astra]]
 - [[Coding Agents]]

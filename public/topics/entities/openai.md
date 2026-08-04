@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-05-05
-updated: 2026-07-21
+updated: 2026-08-04
 type: entity
 tags: [entity, company, model, privacy]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # OpenAI
@@ -13,6 +13,7 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
 - [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model release highlights**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Proprietary releases split across agents and media**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.
@@ -31,4 +32,5 @@ OpenAI is a recurring Austin AI Club entity because its model releases, platform
 - [[Compute Strategy]]
 - [[Codex]]
 - [[GPT-5.6]]
+- [[Astra]]
 - [[Jalapeno]]

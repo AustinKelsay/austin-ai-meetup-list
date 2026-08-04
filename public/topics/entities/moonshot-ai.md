@@ -1,10 +1,10 @@
 ---
 title: Moonshot AI
 created: 2026-06-23
-updated: 2026-07-22
+updated: 2026-08-04
 type: entity
 tags: [entity, company, model, coding-agents]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Moonshot AI
@@ -13,6 +13,7 @@ Moonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.
 - [[Austin AI Club - July 22, 2026]]: **Open model release highlights** and **White House says Kimi K3 distilled Fable**.
 - [[Austin AI Club - June 24, 2026]]: **Open models are eating the frontier gap**.
 - [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.

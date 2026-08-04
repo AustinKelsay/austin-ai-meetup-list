@@ -1,10 +1,10 @@
 ---
 title: Andrej Karpathy
 created: 2026-05-27
-updated: 2026-06-24
+updated: 2026-08-04
 type: entity
 tags: [entity, person, models-research, big-tech-moves]
-sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Andrej Karpathy
@@ -13,6 +13,7 @@ Andrej Karpathy is a recurring Austin AI Club entity for AI research leadership,
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
 - [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life** via the Karpathy-filter thread.
 - [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
 - [[Austin AI Club - April 15, 2026]]: **Karpathy's LLM wiki idea**.

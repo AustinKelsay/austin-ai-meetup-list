@@ -1,10 +1,10 @@
 ---
 title: Models & Research
 created: 2026-06-24
-updated: 2026-07-22
+updated: 2026-08-04
 type: concept
 tags: [concept, track, models-research, model]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Models & Research
@@ -13,6 +13,7 @@ Models & Research is the Austin AI Club track for model releases, benchmark shif
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **FLUX 3 collapses image, video, audio, and action into one backbone**, **Ling-3.0-flash bets 5.1B active can replace a 1T flagship**, **Local open drops keep specializing by size and job**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, and **Pokee-Isaac claims real 10M-token agent context on one GPU**.
 - [[Austin AI Club - July 22, 2026]]: **Closed model release highlights**, **Open model release highlights**, **Open agent and reasoning models fan out**, **Open multimodal models specialize by modality**, **Embedding models get their own open release lane**, **Local model packaging becomes part of the release**, **Frontier local inference becomes an expert-cache problem**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.
 - [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Open model releases get specialized fast**, **Should chat route local by default?**, **Proprietary releases split across agents and media**, and **Claude gets a consciousness-adjacent workspace**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases are a quiet week**, **AI Twitter's model-release calendar slips**, **Open models are eating the frontier gap**, and **Research behind the open model wave**.
