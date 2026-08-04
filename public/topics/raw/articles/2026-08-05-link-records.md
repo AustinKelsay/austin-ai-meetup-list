@@ -1,7 +1,7 @@
 ---
 title: Austin AI Club - August 5, 2026 - Source Link Records
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 type: summary
 tags: [source-record, meetup]
 sources: []
@@ -31,6 +31,16 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: BFL announcement framing FLUX 3 as one multimodal model for image, video, audio, and action prediction.
+- Post: https://x.com/mimicrobotics/status/2080307032746336367
+  - Title: "Introducing FLUX-mimic"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Mimic Robotics launch for FLUX-mimic, a video-action model on the FLUX 3 backbone for general-purpose dexterity, with Audi as an early manufacturing partner.
+- Source: https://www.mimicrobotics.com/blog/introducing-flux-mimic
+  - Title: "Introducing FLUX-mimic"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Technical blog for the FLUX 3 video-backbone + action-decoder robotics stack and sample-efficiency claims.
 - Source: https://pokee.ai/
   - Title: "Pokee"
   - Type: Official product page
@@ -73,6 +83,11 @@ sources: []
   - Type: Hugging Face model page
   - Access: 2026-08-04
   - Notes: Open-weight Laguna S 2.1 artifact under OpenMDW-1.1.
+- Post: https://x.com/poolsideai/status/2079613777343848465
+  - Title: "Releasing Laguna S 2.1"
+  - Type: Official X post
+  - Access: 2026-08-05
+  - Notes: Poolside launch tweet for the 118B/8B-active Laguna S 2.1 coding MoE with up to 1M context; high-engagement open-release anchor for the roundup.
 - Source: https://huggingface.co/Nanbeige/Nanbeige4.2-3B
   - Title: "Nanbeige/Nanbeige4.2-3B"
   - Type: Hugging Face model page
@@ -83,6 +98,11 @@ sources: []
   - Type: Hugging Face model page
   - Access: 2026-08-04
   - Notes: Upstage Solar-Open2 250B open release included in the open packaging wave.
+- Post: https://x.com/hunkims/status/2079949203615453414
+  - Title: "Solar Open 2 announcement"
+  - Type: Practitioner X post
+  - Access: 2026-08-05
+  - Notes: Sung Kim announces Solar Open 2 and points to the Hugging Face weights; used when an official Upstage launch post was not recovered.
 - Source: https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF
   - Title: "Zero-Gemma4-E4B-OpenZero-GGUF"
   - Type: Hugging Face model page
@@ -93,6 +113,48 @@ sources: []
   - Type: Aggregator X post
   - Access: 2026-08-04
   - Notes: Roundup post listing Laguna-S2.1, Nanbeige 4.2 3B, Solar-Open2 250B, Bonsai/Ternary-Bonsai, Qwen3.6/BTL-3, and OpenZero Gemma4 builds.
+
+### DeepSeek V4 Flash 0731 is absurd for 13B active
+- Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731
+  - Title: "deepseek-ai/DeepSeek-V4-Flash-0731"
+  - Type: Hugging Face model page
+  - Access: 2026-08-05
+  - Notes: Official MIT Flash-0731 release card; author-reported Terminal-Bench 2.1 score of 82.7 and agent-suite comparisons vs Flash Preview and V4-Pro Preview; ships with DSpark speculative decoding attached.
+- Post: https://x.com/deepseek_ai/status/2083084415157022911
+  - Title: "DeepSeek-V4-Flash Official API public beta"
+  - Type: Official X post
+  - Access: 2026-08-05
+  - Notes: DeepSeek launch announcing the official V4-Flash API, agent upgrades past V4-Pro Preview, Responses API support, and Codex adaptation.
+- Post: https://x.com/deepseek_ai/status/2083084419515220191
+  - Title: "Flash-0731 same architecture note"
+  - Type: Official X post
+  - Access: 2026-08-05
+  - Notes: Clarifies Flash-0731 keeps the preview architecture/size and that only the Flash API was updated (Pro unchanged).
+- Post: https://x.com/SciTechera/status/2083806034661884030
+  - Title: "Flash vs Fable 5 Terminal-Bench cost"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: Third-party garnish citing Artificial Analysis: Flash 82.7 vs Claude Fable 5 80.5 on Terminal-Bench 2.1 at roughly $0.03 vs $3.15 per task (~105×).
+- Post: https://x.com/Hesamation/status/2084658830990880896
+  - Title: "DeepSeek cost-per-task chart"
+  - Type: Practitioner X post
+  - Access: 2026-08-05
+  - Notes: Chart-style reaction that DeepSeek's cost-per-task bar is barely visible next to other frontier models; visual garnish for the Flash pricing story.
+- Source: https://api-docs.deepseek.com/quick_start/pricing
+  - Title: "DeepSeek Models & Pricing"
+  - Type: Official API documentation
+  - Access: 2026-08-05
+  - Notes: Lists deepseek-v4-flash as DeepSeek-V4-Flash-0731 at $0.14/$0.28 per 1M tokens (cache miss/output) with 1M context.
+- Source: https://api-docs.deepseek.com/quick_start/agent_integrations/codex
+  - Title: "DeepSeek Codex agent integration"
+  - Type: Official API documentation
+  - Access: 2026-08-05
+  - Notes: Official Codex configuration docs linked from the Flash launch post.
+- Source: https://arxiv.org/abs/2606.19348
+  - Title: "DeepSeek-V4 technical report"
+  - Type: Technical report
+  - Access: 2026-08-05
+  - Notes: Defines Flash as 284B total / 13B activated MoE with 1M context; 0731 keeps that size per DeepSeek's note tweet.
 
 ### Astra turns open math problems into Lean certificates for about $2K
 - Source: https://openai.com/index/ten-advances-in-mathematics/
@@ -110,11 +172,21 @@ sources: []
   - Type: Official PDF manuscript
   - Access: 2026-08-04
   - Notes: Published manuscript accompanying the Lean certificates.
+- Post: https://x.com/SebastienBubeck/status/2083456300692979886
+  - Title: "Bubeck on Astra Lean proofs"
+  - Type: Researcher X post
+  - Access: 2026-08-05
+  - Notes: OpenAI math lead frames the ten Astra results with Lean certificates and CoT walkthroughs; high-engagement launch post.
 - Post: https://x.com/gdb/status/2083457463337287721
   - Title: "Greg Brockman on Astra math advances"
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: OpenAI president highlights ten advances solved with internal Astra for about $2,000 at Sol API prices.
+- Post: https://x.com/polynoamial/status/2083467194663571701
+  - Title: "Noam Brown on Astra open problems"
+  - Type: Researcher X post
+  - Access: 2026-08-05
+  - Notes: Noam Brown's widely shared Astra announcement covering the ten open-problem results and next-major-model framing.
 
 ### Karpathy replaces pelican-SVG with a $10 Middle-earth world
 - Source: https://karpathy.ai/lotr-movie/
@@ -127,6 +199,11 @@ sources: []
   - Type: Researcher X post
   - Access: 2026-08-04
   - Notes: Karpathy describes the 1M-token / ~$10 Opus 5 experiment producing ~5,500 lines of procedural Three.js code and the visual self-audit weakness.
+- Post: https://x.com/karpathy/status/2083948654377996480
+  - Title: "Karpathy on pelican-on-a-bicycle follow-up"
+  - Type: Researcher X post
+  - Access: 2026-08-05
+  - Notes: Follow-up pointing at Simon Willison's pelican-on-a-bicycle eval writeup and publishing playable source for the Middle-earth demo.
 
 ## Security
 
@@ -158,6 +235,16 @@ sources: []
   - Type: Security research writeup
   - Access: 2026-08-04
   - Notes: Aikido details the August 4 keyv maintainer GitHub compromise, worm propagation, credential theft, and hundreds of packages totaling over 2B monthly installs.
+- Post: https://x.com/AikidoSecurity/status/2084584370556530882
+  - Title: "keyv actively compromised"
+  - Type: Security vendor X post
+  - Access: 2026-08-05
+  - Notes: Aikido's live alert that keyv (~127M weekly downloads) was being actively compromised and malware was still spreading.
+- Post: https://x.com/wiz_io/status/2084605657571840473
+  - Title: "Wiz on keyv/cacheable npm supply chain attack"
+  - Type: Security vendor X post
+  - Access: 2026-08-05
+  - Notes: Wiz Research alert covering affected keyv/cacheable ecosystem packages, IOCs, and mitigations.
 - Source: https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/
   - Title: "Fast-Moving Shai-Hulud Attack Infects npm Packages with 2 Billion Monthly Downloads"
   - Type: Trade reporting
@@ -177,6 +264,11 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: OpenAI announcement of the Luna 80% and Terra 20% reductions and faster Sol API option.
+- Post: https://x.com/sama/status/2082880720989532597
+  - Title: "Sam Altman on GPT-5.6 price cuts"
+  - Type: Executive X post
+  - Access: 2026-08-05
+  - Notes: Altman restates the Luna 80% and Terra 20% cuts plus Sol Fast mode; high-engagement pricing garnish for the Topic.
 
 ## Showcase
 

@@ -2,6 +2,17 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | DeepSeek V4 Flash 0731 size/cost Topic
+
+- Added a dedicated Models & Research Topic for DeepSeek-V4-Flash-0731, separate from the Open model-release roundup, centered on the 284B/13B-active agent re-post-train and Terminal-Bench cost story.
+- Embedded DeepSeek's official API launch plus architecture note alongside the SciTechera/Artificial Analysis Fable 5 cost garnish; linked HF weights, pricing, Codex docs, and the V4 technical report.
+- Updated the DeepSeek entity Mentions line and August 5 host note.
+
+## [2026-08-05] update | August 5 ex-post embed garnish pass
+
+- Added verified high-engagement X posts across the August 5 board: FLUX-mimic, Poolside Laguna, Solar Open 2, Bubeck/Noam Brown Astra launches, Karpathy pelican follow-up, Aikido/Wiz keyv alerts, and Sam Altman pricing.
+- Synced Markdown Archive, Meetup Data embeds/linkPairs, and source records; left Uncle Bob and Bitcoin Topics on their existing launch posts.
+
 ## [2026-08-04] garden | Closed/Open release-roundup consistency pass
 
 - Documented the official Release Roundup convention on the Models & Research and Open Models hub pages, SCHEMA, and Related lists for Aug 5 model entities.

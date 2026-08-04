@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:40:18.252Z",
+  "generatedAt": "2026-08-04T21:34:23.493Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -62,6 +62,7 @@
         "coding-agents",
         "cursor",
         "cursor-and-spacex",
+        "deepseek",
         "gpt-56",
         "hermes-agent",
         "kimi",
@@ -297,6 +298,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -2322,6 +2330,7 @@
         "brain2qwerty",
         "coding-agents",
         "cwip",
+        "deepseek",
         "gemini",
         "glm",
         "inkling",
@@ -2916,6 +2925,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -4016,7 +4032,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -5633,6 +5663,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/0xMortyx/status/2061491256107159736",
           "title": "AI Twitter advice has a six-month half-life",
           "section": "Agent Infrastructure",
@@ -5901,6 +5938,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -8435,7 +8479,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -9822,6 +9880,8 @@
         "https://x.com/unclebobmartin/status/2080257779395154409",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383",
@@ -9830,24 +9890,39 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348",
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
         "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701",
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
         "https://www.premai.io/",
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
         "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
       "sourceReferences": [
@@ -9863,6 +9938,16 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -9907,12 +9992,22 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -9924,6 +10019,41 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
         },
         {
@@ -9942,7 +10072,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
         },
@@ -9953,6 +10093,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         },
@@ -9982,6 +10127,16 @@
           "section": "Security"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
@@ -9997,14 +10152,19 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://github.com/AustinKelsay/austin-ai-club",
           "title": "Community Slot",
           "section": "Showcase"
         }
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem.",
+      "updated": "2026-08-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -10017,6 +10177,7 @@
         "astra",
         "big-tech-moves",
         "coding-agents",
+        "deepseek",
         "flux-3",
         "gpt-56",
         "kimi",
@@ -10044,6 +10205,7 @@
         "astra",
         "big-tech-moves",
         "coding-agents",
+        "deepseek",
         "flux-3",
         "gpt-56",
         "kimi",
@@ -10076,6 +10238,8 @@
         "https://x.com/unclebobmartin/status/2080257779395154409",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383",
@@ -10084,24 +10248,39 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348",
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
         "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701",
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
         "https://www.premai.io/",
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
         "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
       "sourceReferences": [
@@ -10117,6 +10296,16 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10161,12 +10350,22 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -10178,6 +10377,41 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
         },
         {
@@ -10196,7 +10430,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
         },
@@ -10207,6 +10451,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         },
@@ -10236,6 +10485,16 @@
           "section": "Security"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
@@ -10251,13 +10510,18 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://github.com/AustinKelsay/austin-ai-club",
           "title": "Community Slot",
           "section": "Showcase"
         }
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-08-05-link-records.md",
       "relativePath": "raw/articles/2026-08-05-link-records.md",
@@ -18922,6 +19186,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
           "title": "AMD buys a place in Anthropic's frontier stack",
           "section": "Big Tech Moves",
@@ -21800,6 +22071,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -21808,6 +22086,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -26570,20 +26855,24 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-08-05",
       "excerpt": "DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.",
       "rawHref": "/topics/entities/deepseek.md",
       "relativePath": "entities/deepseek.md",
       "outgoingIds": [
+        "agent-cost-controls",
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-march-18-2026",
         "deepspec",
@@ -26597,6 +26886,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-march-18-2026",
         "deepspec",
@@ -26627,6 +26917,55 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://www.tencent.com/en-us/articles/2202386.html",
@@ -26832,7 +27171,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
+      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
     },
     {
       "id": "deepspec",
@@ -28088,6 +28427,20 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -32279,6 +32632,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -36734,6 +37094,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -36742,6 +37109,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -37058,6 +37432,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -37066,6 +37447,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -37229,6 +37617,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -37237,6 +37632,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -44435,6 +44837,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://pokee.ai/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -44491,6 +44907,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -44499,6 +44922,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -44514,6 +44944,55 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -44540,7 +45019,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -44555,6 +45048,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -51699,6 +52199,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -51707,6 +52214,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -53777,7 +54291,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -53820,6 +54348,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -56555,6 +57090,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://pokee.ai/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -56986,6 +57535,20 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -59506,6 +60069,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security",
@@ -60493,6 +61070,20 @@
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -64034,6 +64625,7 @@
         "coding-agents",
         "cursor",
         "cursor-and-spacex",
+        "deepseek",
         "gpt-56",
         "hermes-agent",
         "kimi",
@@ -64269,6 +64861,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -66294,6 +66893,7 @@
         "brain2qwerty",
         "coding-agents",
         "cwip",
+        "deepseek",
         "gemini",
         "glm",
         "inkling",
@@ -66888,6 +67488,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -67988,7 +68595,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -69605,6 +70226,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/0xMortyx/status/2061491256107159736",
           "title": "AI Twitter advice has a six-month half-life",
           "section": "Agent Infrastructure",
@@ -69873,6 +70501,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -72407,7 +73042,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -73794,6 +74443,8 @@
         "https://x.com/unclebobmartin/status/2080257779395154409",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383",
@@ -73802,24 +74453,39 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348",
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
         "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701",
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
         "https://www.premai.io/",
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
         "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
       "sourceReferences": [
@@ -73835,6 +74501,16 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -73879,12 +74555,22 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -73896,6 +74582,41 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
         },
         {
@@ -73914,7 +74635,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
         },
@@ -73925,6 +74656,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         },
@@ -73954,6 +74690,16 @@
           "section": "Security"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
@@ -73969,14 +74715,19 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://github.com/AustinKelsay/austin-ai-club",
           "title": "Community Slot",
           "section": "Showcase"
         }
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem.",
+      "updated": "2026-08-05",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -73989,6 +74740,7 @@
         "astra",
         "big-tech-moves",
         "coding-agents",
+        "deepseek",
         "flux-3",
         "gpt-56",
         "kimi",
@@ -74016,6 +74768,7 @@
         "astra",
         "big-tech-moves",
         "coding-agents",
+        "deepseek",
         "flux-3",
         "gpt-56",
         "kimi",
@@ -74048,6 +74801,8 @@
         "https://x.com/unclebobmartin/status/2080257779395154409",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383",
@@ -74056,24 +74811,39 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348",
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
         "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701",
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
         "https://www.premai.io/",
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
         "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
       "sourceReferences": [
@@ -74089,6 +74859,16 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -74133,12 +74913,22 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -74150,6 +74940,41 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
         },
         {
@@ -74168,7 +74993,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
         },
@@ -74179,6 +75014,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         },
@@ -74208,6 +75048,16 @@
           "section": "Security"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
@@ -74223,13 +75073,18 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://github.com/AustinKelsay/austin-ai-club",
           "title": "Community Slot",
           "section": "Showcase"
         }
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "",
       "rawHref": "/topics/raw/articles/2026-08-05-link-records.md",
       "relativePath": "raw/articles/2026-08-05-link-records.md",
@@ -82894,6 +83749,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/sama/status/2082880720989532597",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
           "title": "AMD buys a place in Anthropic's frontier stack",
           "section": "Big Tech Moves",
@@ -85772,6 +86634,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -85780,6 +86649,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -90542,20 +91418,24 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-08-05",
       "excerpt": "DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.",
       "rawHref": "/topics/entities/deepseek.md",
       "relativePath": "entities/deepseek.md",
       "outgoingIds": [
+        "agent-cost-controls",
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-march-18-2026",
         "deepspec",
@@ -90569,6 +91449,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-march-18-2026",
         "deepspec",
@@ -90599,6 +91480,55 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://www.tencent.com/en-us/articles/2202386.html",
@@ -90804,7 +91734,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
+      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
     },
     "deepspec": {
       "id": "deepspec",
@@ -92060,6 +92990,20 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -96251,6 +97195,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -100706,6 +101657,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -100714,6 +101672,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -101030,6 +101995,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -101038,6 +102010,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -101201,6 +102180,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -101209,6 +102195,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -108407,6 +109400,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://pokee.ai/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -108463,6 +109470,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -108471,6 +109485,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -108486,6 +109507,55 @@
         {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -108512,7 +109582,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -108527,6 +109611,13 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -115671,6 +116762,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -115679,6 +116777,13 @@
         },
         {
           "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -117749,7 +118854,21 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/gdb/status/2083457463337287721",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -117792,6 +118911,13 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -120527,6 +121653,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://pokee.ai/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -120958,6 +122098,20 @@
         },
         {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -123478,6 +124632,20 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security",
@@ -124465,6 +125633,20 @@
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -127988,7 +129170,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-        "https://x.com/OpenAI/status/2082878156483219672"
+        "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597"
       ],
       "sourceReferences": [
         {
@@ -127998,6 +129181,11 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves"
         }
@@ -128015,7 +129203,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% Big Tech Moves Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ https://x.com/OpenAI/status/2082878156483219672 Agent Cost Controls Big Tech Moves GPT-5.6 OpenAI"
+      "searchText": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% Big Tech Moves Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ https://x.com/OpenAI/status/2082878156483219672 https://x.com/sama/status/2082880720989532597 Agent Cost Controls Big Tech Moves GPT-5.6 OpenAI"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -128031,7 +129219,9 @@
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
-        "https://x.com/gdb/status/2083457463337287721"
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
+        "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701"
       ],
       "sourceReferences": [
         {
@@ -128053,6 +129243,16 @@
           "href": "https://x.com/gdb/status/2083457463337287721",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
@@ -128068,7 +129268,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Astra turns open math problems into Lean certificates for about $2K Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/ten-advances-in-mathematics/ https://github.com/openai/ten-proofs https://cdn.openai.com/pdf/ten-proofs-oai.pdf https://x.com/gdb/status/2083457463337287721 AI Mathematics Astra Models & Research OpenAI"
+      "searchText": "Astra turns open math problems into Lean certificates for about $2K Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/ten-advances-in-mathematics/ https://github.com/openai/ten-proofs https://cdn.openai.com/pdf/ten-proofs-oai.pdf https://x.com/SebastienBubeck/status/2083456300692979886 https://x.com/gdb/status/2083457463337287721 https://x.com/polynoamial/status/2083467194663571701 AI Mathematics Astra Models & Research OpenAI"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-closed-model-releases",
@@ -128083,6 +129283,8 @@
       "sourceLinks": [
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383"
@@ -128104,7 +129306,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -128127,7 +129339,74 @@
         "Pokee-Isaac"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://bfl.ai/blog/flux-3 https://x.com/bfl_ai/status/2080308988961554582 https://pokee.ai/ https://docs.pokee.ai/docs/models https://x.com/Pokee_AI/status/2084682445648216383 FLUX 3 Models & Research Physical AI Pokee-Isaac"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://bfl.ai/blog/flux-3 https://x.com/bfl_ai/status/2080308988961554582 https://x.com/mimicrobotics/status/2080307032746336367 https://www.mimicrobotics.com/blog/introducing-flux-mimic https://pokee.ai/ https://docs.pokee.ai/docs/models https://x.com/Pokee_AI/status/2084682445648216383 FLUX 3 Models & Research Physical AI Pokee-Isaac"
+    },
+    {
+      "id": "austin-ai-club-august-5-2026-models-research-deepseek-v4-flash-0731-is-absurd-for-13b-active",
+      "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+      "rawTitle": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+      "normalizedTitle": "deepseek v4 flash 0731 is absurd for 13b active",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "deepseek",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "DeepSeek",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 DeepSeek Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -128141,7 +129420,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://karpathy.ai/lotr-movie/",
-        "https://x.com/karpathy/status/2083749667410727319"
+        "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480"
       ],
       "sourceReferences": [
         {
@@ -128151,6 +129431,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         }
@@ -128168,7 +129453,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
+      "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 https://x.com/karpathy/status/2083948654377996480 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-open-model-releases",
@@ -128186,8 +129471,10 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141"
       ],
@@ -128233,7 +129520,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
           "title": "Open model releases",
           "section": "Models & Research"
         }
@@ -128255,7 +129552,7 @@
         "Open Models"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
     },
     {
       "id": "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out",
@@ -128324,6 +129621,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/"
       ],
       "sourceReferences": [
@@ -128334,6 +129633,16 @@
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
         }
@@ -128347,7 +129656,7 @@
         "Supply Chain Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Shai-Hulud hits keyv and 2B monthly npm installs Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/ Security Supply Chain Security"
+      "searchText": "Shai-Hulud hits keyv and 2B monthly npm installs Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack https://x.com/AikidoSecurity/status/2084584370556530882 https://x.com/wiz_io/status/2084605657571840473 https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/ Security Supply Chain Security"
     },
     {
       "id": "austin-ai-club-august-5-2026-showcase-community-slot",
@@ -139233,7 +140542,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-        "https://x.com/OpenAI/status/2082878156483219672"
+        "https://x.com/OpenAI/status/2082878156483219672",
+        "https://x.com/sama/status/2082880720989532597"
       ],
       "sourceReferences": [
         {
@@ -139243,6 +140553,11 @@
         },
         {
           "href": "https://x.com/OpenAI/status/2082878156483219672",
+          "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/sama/status/2082880720989532597",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves"
         }
@@ -139260,7 +140575,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% Big Tech Moves Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ https://x.com/OpenAI/status/2082878156483219672 Agent Cost Controls Big Tech Moves GPT-5.6 OpenAI"
+      "searchText": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% Big Tech Moves Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ https://x.com/OpenAI/status/2082878156483219672 https://x.com/sama/status/2082880720989532597 Agent Cost Controls Big Tech Moves GPT-5.6 OpenAI"
     },
     "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k": {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -139276,7 +140591,9 @@
         "https://openai.com/index/ten-advances-in-mathematics/",
         "https://github.com/openai/ten-proofs",
         "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
-        "https://x.com/gdb/status/2083457463337287721"
+        "https://x.com/SebastienBubeck/status/2083456300692979886",
+        "https://x.com/gdb/status/2083457463337287721",
+        "https://x.com/polynoamial/status/2083467194663571701"
       ],
       "sourceReferences": [
         {
@@ -139298,6 +140615,16 @@
           "href": "https://x.com/gdb/status/2083457463337287721",
           "title": "Astra turns open math problems into Lean certificates for about $2K",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/polynoamial/status/2083467194663571701",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SebastienBubeck/status/2083456300692979886",
+          "title": "Astra turns open math problems into Lean certificates for about $2K",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
@@ -139313,7 +140640,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Astra turns open math problems into Lean certificates for about $2K Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/ten-advances-in-mathematics/ https://github.com/openai/ten-proofs https://cdn.openai.com/pdf/ten-proofs-oai.pdf https://x.com/gdb/status/2083457463337287721 AI Mathematics Astra Models & Research OpenAI"
+      "searchText": "Astra turns open math problems into Lean certificates for about $2K Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://openai.com/index/ten-advances-in-mathematics/ https://github.com/openai/ten-proofs https://cdn.openai.com/pdf/ten-proofs-oai.pdf https://x.com/SebastienBubeck/status/2083456300692979886 https://x.com/gdb/status/2083457463337287721 https://x.com/polynoamial/status/2083467194663571701 AI Mathematics Astra Models & Research OpenAI"
     },
     "austin-ai-club-august-5-2026-models-research-closed-model-releases": {
       "id": "austin-ai-club-august-5-2026-models-research-closed-model-releases",
@@ -139328,6 +140655,8 @@
       "sourceLinks": [
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
+        "https://x.com/mimicrobotics/status/2080307032746336367",
+        "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
         "https://pokee.ai/",
         "https://docs.pokee.ai/docs/models",
         "https://x.com/Pokee_AI/status/2084682445648216383"
@@ -139349,7 +140678,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/bfl_ai/status/2080308988961554582",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/mimicrobotics/status/2080307032746336367",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -139372,7 +140711,74 @@
         "Pokee-Isaac"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://bfl.ai/blog/flux-3 https://x.com/bfl_ai/status/2080308988961554582 https://pokee.ai/ https://docs.pokee.ai/docs/models https://x.com/Pokee_AI/status/2084682445648216383 FLUX 3 Models & Research Physical AI Pokee-Isaac"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://bfl.ai/blog/flux-3 https://x.com/bfl_ai/status/2080308988961554582 https://x.com/mimicrobotics/status/2080307032746336367 https://www.mimicrobotics.com/blog/introducing-flux-mimic https://pokee.ai/ https://docs.pokee.ai/docs/models https://x.com/Pokee_AI/status/2084682445648216383 FLUX 3 Models & Research Physical AI Pokee-Isaac"
+    },
+    "austin-ai-club-august-5-2026-models-research-deepseek-v4-flash-0731-is-absurd-for-13b-active": {
+      "id": "austin-ai-club-august-5-2026-models-research-deepseek-v4-flash-0731-is-absurd-for-13b-active",
+      "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+      "rawTitle": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+      "normalizedTitle": "deepseek v4 flash 0731 is absurd for 13b active",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://x.com/deepseek_ai/status/2083084415157022911",
+        "https://x.com/deepseek_ai/status/2083084419515220191",
+        "https://x.com/SciTechera/status/2083806034661884030",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+        "https://arxiv.org/abs/2606.19348"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "deepseek",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "DeepSeek",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 DeepSeek Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world": {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -139386,7 +140792,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://karpathy.ai/lotr-movie/",
-        "https://x.com/karpathy/status/2083749667410727319"
+        "https://x.com/karpathy/status/2083749667410727319",
+        "https://x.com/karpathy/status/2083948654377996480"
       ],
       "sourceReferences": [
         {
@@ -139396,6 +140803,11 @@
         },
         {
           "href": "https://x.com/karpathy/status/2083749667410727319",
+          "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
         }
@@ -139413,7 +140825,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
+      "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 https://x.com/karpathy/status/2083948654377996480 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-august-5-2026-models-research-open-model-releases",
@@ -139431,8 +140843,10 @@
         "https://x.com/AntLingAGI/status/2080351022028095681",
         "https://poolside.ai/blog/introducing-laguna-s-2-1",
         "https://huggingface.co/poolside/Laguna-S-2.1",
+        "https://x.com/poolsideai/status/2079613777343848465",
         "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "https://huggingface.co/upstage/Solar-Open2-250B",
+        "https://x.com/hunkims/status/2079949203615453414",
         "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
         "https://x.com/LocalAiCherry/status/2082461699622228141"
       ],
@@ -139478,7 +140892,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
           "title": "Open model releases",
           "section": "Models & Research"
         }
@@ -139500,7 +140924,7 @@
         "Open Models"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
     },
     "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out": {
       "id": "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out",
@@ -139569,6 +140993,8 @@
       "meetupHref": "/topics/2026-08-05.md",
       "sourceLinks": [
         "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://x.com/AikidoSecurity/status/2084584370556530882",
+        "https://x.com/wiz_io/status/2084605657571840473",
         "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/"
       ],
       "sourceReferences": [
@@ -139579,6 +141005,16 @@
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
+          "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
           "section": "Security"
         }
@@ -139592,7 +141028,7 @@
         "Supply Chain Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Shai-Hulud hits keyv and 2B monthly npm installs Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/ Security Supply Chain Security"
+      "searchText": "Shai-Hulud hits keyv and 2B monthly npm installs Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack https://x.com/AikidoSecurity/status/2084584370556530882 https://x.com/wiz_io/status/2084605657571840473 https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/ Security Supply Chain Security"
     },
     "austin-ai-club-august-5-2026-showcase-community-slot": {
       "id": "austin-ai-club-august-5-2026-showcase-community-slot",
@@ -151602,6 +153038,10 @@
     },
     {
       "source": "austin-ai-club-august-5-2026",
+      "target": "deepseek"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
       "target": "flux-3"
     },
     {
@@ -153598,6 +155038,10 @@
     },
     {
       "source": "deepseek",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "deepseek",
       "target": "austin-ai-club-july-8-2026"
     },
     {
@@ -153623,6 +155067,14 @@
     {
       "source": "deepseek",
       "target": "deepspec"
+    },
+    {
+      "source": "deepseek",
+      "target": "ai-benchmarks-evals"
+    },
+    {
+      "source": "deepseek",
+      "target": "agent-cost-controls"
     },
     {
       "source": "deepseek",
@@ -156514,7 +157966,7 @@
           "coding-agents",
           "cost-control"
         ],
-        "degree": 37,
+        "degree": 38,
         "updated": "2026-08-04"
       },
       {
@@ -156562,7 +158014,7 @@
           "models-research",
           "agent-infrastructure"
         ],
-        "degree": 53,
+        "degree": 54,
         "updated": "2026-08-04"
       },
       {
@@ -156790,8 +158242,8 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 48,
-        "updated": "2026-08-04"
+        "degree": 50,
+        "updated": "2026-08-05"
       },
       {
         "id": "austin-ai-club-august-5-2026-source-link-records",
@@ -156802,7 +158254,7 @@
           "meetup"
         ],
         "degree": 0,
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "id": "austin-ai-club-july-22-2026",
@@ -157247,8 +158699,8 @@
           "model",
           "open-source"
         ],
-        "degree": 19,
-        "updated": "2026-07-08"
+        "degree": 23,
+        "updated": "2026-08-05"
       },
       {
         "id": "deepspec",
@@ -159756,6 +161208,11 @@
       },
       {
         "source": "austin-ai-club-august-5-2026",
+        "target": "deepseek",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
         "target": "flux-3",
         "kind": "topic"
       },
@@ -162251,6 +163708,11 @@
       },
       {
         "source": "deepseek",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "deepseek",
         "target": "austin-ai-club-july-8-2026",
         "kind": "topic"
       },
@@ -162282,6 +163744,16 @@
       {
         "source": "deepseek",
         "target": "deepspec",
+        "kind": "wiki"
+      },
+      {
+        "source": "deepseek",
+        "target": "ai-benchmarks-evals",
+        "kind": "wiki"
+      },
+      {
+        "source": "deepseek",
+        "target": "agent-cost-controls",
         "kind": "wiki"
       },
       {
@@ -165883,12 +167355,12 @@
   },
   "stats": {
     "pageCount": 141,
-    "topicCount": 201,
+    "topicCount": 202,
     "rawPageCount": 0,
-    "linkCount": 1516,
+    "linkCount": 1520,
     "sourceRecordCount": 10,
-    "sourceLinkCount": 883,
+    "sourceLinkCount": 900,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-08-04"
+    "lastUpdatedAt": "2026-08-05"
   }
 }

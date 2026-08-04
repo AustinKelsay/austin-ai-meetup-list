@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on the senior-agent constraints pitch, scroll the Closed and Open model-release roundups, then Astra/Karpathy before security and the OpenAI price cut.",
+        "Open on the senior-agent constraints pitch, scroll the Closed and Open model-release roundups, linger on DeepSeek V4 Flash 0731 for the size/cost story, then Astra/Karpathy before security and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -104,7 +104,7 @@ export const meetups = [
           {
             title: "Closed model releases",
             description:
-              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, and Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy. Closed releases this cycle are product-shaped multimodal and long-context bets.",
+              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, and Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy. Closed releases this cycle are product-shaped multimodal and long-context bets.",
             chip: "closed releases",
             releaseRoundup: true,
             href: "https://bfl.ai/blog/flux-3",
@@ -115,11 +115,16 @@ export const meetups = [
               },
               {
                 type: "tweet",
+                href: "https://twitter.com/mimicrobotics/status/2080307032746336367?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
               },
             ],
             linkPair: [
               "https://bfl.ai/blog/flux-3",
+              "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
               "https://pokee.ai/",
               "https://docs.pokee.ai/docs/models",
             ],
@@ -140,6 +145,14 @@ export const meetups = [
               },
               {
                 type: "tweet",
+                href: "https://twitter.com/poolsideai/status/2079613777343848465?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/hunkims/status/2079949203615453414?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/LocalAiCherry/status/2082461699622228141?ref_src=twsrc%5Etfw",
               },
             ],
@@ -156,15 +169,57 @@ export const meetups = [
               "Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
           },
           {
+            title: "DeepSeek V4 Flash 0731 is absurd for 13B active",
+            description:
+              "DeepSeek's official Flash-0731 checkpoint keeps the same 284B / 13B-active MoE as the preview, re-post-trains it for agents, and posts 82.7 on Terminal-Bench 2.1 while beating its own V4-Pro preview across the published agent suite. MIT weights plus a $0.14/$0.28 API; Artificial Analysis via SciTechera puts the cost per Terminal-Bench task about 105× under Claude Fable 5.",
+            chip: "open weights",
+            href: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/deepseek_ai/status/2083084415157022911?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/deepseek_ai/status/2083084419515220191?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/SciTechera/status/2083806034661884030?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Hesamation/status/2084658830990880896?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://api-docs.deepseek.com/quick_start/pricing",
+              "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+              "https://arxiv.org/abs/2606.19348",
+            ],
+            notes:
+              "Author-reported Terminal-Bench 82.7 is on the HF card; the 105× Fable 5 cost claim is third-party (Artificial Analysis via SciTechera). Hesamation is the cost-per-task chart garnish.",
+          },
+          {
             title: "Astra turns open math problems into Lean certificates for about $2K",
             description:
               "An internal Astra run produced ten long-open math results, with OpenAI publishing manuscripts plus Lean 4 certificates in openai/ten-proofs. The July 22 story was medals and first proofs; the delta is a checkable ten-result bundle at Sol-API-priced token cost.",
             chip: "ai mathematics",
             href: "https://openai.com/index/ten-advances-in-mathematics/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/gdb/status/2083457463337287721?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/SebastienBubeck/status/2083456300692979886?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/gdb/status/2083457463337287721?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/polynoamial/status/2083467194663571701?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://github.com/openai/ten-proofs",
               "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
@@ -176,10 +231,16 @@ export const meetups = [
               "Andrej Karpathy gave Claude Opus 5 the first paragraph of The Lord of the Rings, a 1M-token budget, and asked for a Three.js render. Two hours and about 5,500 lines later he had a playable world—and a clean demo that agents still struggle to natively watch what they build.",
             chip: "agent eval",
             href: "https://karpathy.ai/lotr-movie/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/karpathy/status/2083749667410727319?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/karpathy/status/2083749667410727319?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/karpathy/status/2083948654377996480?ref_src=twsrc%5Etfw",
+              },
+            ],
           },
         ],
       },
@@ -217,6 +278,16 @@ export const meetups = [
               "After May's Mini Shai-Hulud wave, attackers compromised the GitHub account behind keyv and its cacheable family, then wormed credential stealers across hundreds of packages totaling over 2 billion monthly installs. Poisoned releases shipped with valid GitHub Actions provenance, so \"signed\" no longer means \"safe.\"",
             chip: "supply chain",
             href: "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/AikidoSecurity/status/2084584370556530882?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/wiz_io/status/2084605657571840473?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
             ],
@@ -235,10 +306,16 @@ export const meetups = [
               "OpenAI passed runtime-efficiency gains into API pricing: Luna drops to $0.20/$1.20 per million tokens, Terra to $2/$12, while Sol stays put and gets a premium Fast mode. High-volume agent work just got cheaper on OpenAI's stack.",
             chip: "pricing",
             href: "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/OpenAI/status/2082878156483219672?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2082878156483219672?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/sama/status/2082880720989532597?ref_src=twsrc%5Etfw",
+              },
+            ],
           },
         ],
       },
