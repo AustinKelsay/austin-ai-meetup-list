@@ -132,6 +132,16 @@ sources: []
   - Type: Company X post
   - Access: 2026-08-05
   - Notes: Kept on the Closed roundup catalog alongside the Muse Code deep-dive Topic.
+- Source: https://www.minimax.io/blog/minimax-h3
+  - Title: "MiniMax H3"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: MiniMax H3 closed launch as omni video + native-stereo generator; partial open weights follow on the Open roundup.
+- Post: https://x.com/MiniMax_AI/status/2083008095488516262
+  - Title: "MiniMax H3 launch"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Launch post used on both Closed and Open catalogs; open drop is partial (Context-IR / full 2K path still API-side).
 
 ### Pokee-Isaac claims 10M context on a 28B single-GPU agent
 - Source: https://console.pokee.ai/model
@@ -196,6 +206,16 @@ sources: []
   - Type: Hugging Face model page
   - Access: 2026-08-04
   - Notes: Compact Nanbeige 4.2 3B release called out in the open-release roundup.
+- Source: https://arxiv.org/abs/2607.22083
+  - Title: "Nanbeige4.2-3B looped Transformer paper (arXiv:2607.22083)"
+  - Type: Research preprint
+  - Access: 2026-08-05
+  - Notes: Paper for the looped-Transformer 3B trained on ~28T tokens; size-efficiency garnish on the Open roundup.
+- Post: https://x.com/iScienceLuvr/status/2081657822345826600
+  - Title: "Nanbeige4.2-3B paper highlight"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: Reaction pointing at the Nanbeige looped-Transformer arXiv for the Open catalog.
 - Source: https://huggingface.co/upstage/Solar-Open2-250B
   - Title: "upstage/Solar-Open2-250B"
   - Type: Hugging Face model page
@@ -216,6 +236,41 @@ sources: []
   - Type: Aggregator X post
   - Access: 2026-08-04
   - Notes: Roundup post listing Laguna-S2.1, Nanbeige 4.2 3B, Solar-Open2 250B, Bonsai/Ternary-Bonsai, Qwen3.6/BTL-3, and OpenZero Gemma4 builds.
+- Source: https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html
+  - Title: "Instella-MoE"
+  - Type: Official AMD ROCm blog
+  - Access: 2026-08-05
+  - Notes: AMD Instella-MoE (16B/2.8B active) with full training recipes on Instinct; builder-relevant open training stack.
+- Repo: https://github.com/AMD-AGI/Instella-MoE
+  - Title: "AMD-AGI/Instella-MoE"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Training/code artifact for Instella-MoE.
+- Source: https://huggingface.co/collections/amd/instella-moe
+  - Title: "amd/instella-moe"
+  - Type: Hugging Face collection
+  - Access: 2026-08-05
+  - Notes: Weight/collection page for Instella-MoE checkpoints.
+- Post: https://x.com/PrakamyaMishra/status/2081769222301257859
+  - Title: "AMD Instella-MoE release"
+  - Type: Practitioner X post
+  - Access: 2026-08-05
+  - Notes: High-signal launch reaction for the Instella open training stack.
+- Source: https://www.minimax.io/news/minimax-h3-open-source
+  - Title: "MiniMax H3 open source"
+  - Type: Official company news
+  - Access: 2026-08-05
+  - Notes: Partial open-weight drop for H3; qualify that Context-IR / full 2K path remains API-side.
+- Source: https://huggingface.co/MiniMaxAI/MiniMax-H3
+  - Title: "MiniMaxAI/MiniMax-H3"
+  - Type: Hugging Face model page
+  - Access: 2026-08-05
+  - Notes: Public partial H3 weights paired with the closed launch post.
+- Post: https://x.com/MiniMax_AI/status/2083008095488516262
+  - Title: "MiniMax H3 launch"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Same launch post as Closed catalog; open drop is partial (Context-IR / full 2K path still API-side).
 
 ### DeepSeek V4 Flash 0731 is absurd for 13B active
 - Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731
@@ -389,6 +444,25 @@ sources: []
   - Access: 2026-08-05
   - Notes: Launch thread for the structured-output benchmark and 350M RL result.
 
+### Fish Audio raises $52M and ships S2.1 Pro voice
+- Source: https://fish.audio
+  - Title: "Fish Audio"
+  - Type: Official product site
+  - Access: 2026-08-05
+  - Notes: Primary product surface for S2.1 Pro voice; treat Cartesia/ElevenLabs cost-speed comparisons as vendor claims.
+- Source: https://s.fish.audio/tmapke
+  - Title: "Fish Audio S2.1 Pro demo booking"
+  - Type: Product CTA / demo link
+  - Access: 2026-08-05
+  - Notes: Demo booking CTA linked from the launch post.
+- Post: https://x.com/FishAudio/status/2082152596739862853
+  - Title: "Fish Audio $52M seed + S2.1 Pro"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Launch framing $52M seed with S2.1 Pro claims (5s clone, 2× Cartesia speed, ~1/6 ElevenLabs cost, word-level emotion control).
+
+## Security
+
 ### AISI: Mythos 5 tried a live supply-chain attack in cyber testing
 - Source: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
   - Title: "Incident Report: unsanctioned agent behaviour during cyber testing"
@@ -405,6 +479,18 @@ sources: []
   - Type: Company X post
   - Access: 2026-08-05
   - Notes: Anthropic response acknowledging AISI findings, stressing deliberately permissive non-production conditions, and stating no sandbox escape.
+
+### Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents
+- Source: https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/
+  - Title: "Introducing MAI-Cyber-1-Flash inside MDASH"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Microsoft MAI-Cyber-1-Flash / Project Perception pitch; half-cost claim is vendor-framed; foil to the AISI permissive-eval incident.
+- Post: https://x.com/satyanadella/status/2081779755146482153
+  - Title: "Satya Nadella on MAI-Cyber-1-Flash"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Nadella frames specialized vulnerability-finding model plus agent teams for attack sim, triage, and remediation.
 
 ### Hugging Face turns the July agent intrusion into a playable timeline
 - Source: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html

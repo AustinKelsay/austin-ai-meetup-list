@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | MiniMax H3, Instella, Fish Audio, MAI-Cyber
+
+- Enhanced Closed/Open roundups with MiniMax H3 (partial weights), AMD Instella-MoE (full training stack), and Nanbeige arXiv + reaction.
+- Added **Fish Audio raises $52M and ships S2.1 Pro voice** after IFStruct; created Fish Audio entity.
+- Added **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents** after AISI; updated Microsoft, AMD, MiniMax Mentions.
+
 ## [2026-08-05] update | AISI Mythos 5 incident + Liquid IFStruct Topics
 
 - Added **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** as Security lead (AISI blog/PDF + Anthropic response), pairing with the HF intrusion story.

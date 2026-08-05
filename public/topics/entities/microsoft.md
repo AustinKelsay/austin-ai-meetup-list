@@ -1,18 +1,19 @@
 ---
 title: Microsoft
 created: 2026-05-05
-updated: 2026-07-21
+updated: 2026-08-05
 type: entity
 tags: [entity, company, agent-infrastructure, security]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Microsoft
 
-Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, and its changing relationship to OpenAI.
+Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, cyber-defense agents, and its changing relationship to OpenAI.
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**.
 - [[Austin AI Club - July 22, 2026]]: **Vera Rubin racks move into production** and **Satya says enterprises pay for AI twice**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, and **Closed model releases**.
@@ -24,5 +25,6 @@ Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governan
 - [[Agent Infrastructure]]
 - [[Agent Cost Controls]]
 - [[Agent Security]]
+- [[Security]]
 - [[OpenAI]]
 - [[HARC]]

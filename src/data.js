@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM (ARC-AGI-3 chart), then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare, Astra/Karpathy, and Liquid IFStruct; open Security on AISI Mythos 5 then HF intrusion, Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
+        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM (ARC-AGI-3), Muse Code; scroll Closed/Open (H3, Instella, Nanbeige); linger Pokee/DeepSeek/AirLLM/TurboFieldfare, Astra/Karpathy, IFStruct, Fish Audio; Security: AISI, MAI-Cyber, HF, Bitcoin/keyv; Big Tech: open-weight carve-out, Hassabis, OpenAI price cut.",
     },
     showcases: [
       {
@@ -158,7 +158,7 @@ export const meetups = [
           {
             title: "Closed model releases",
             description:
-              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, Pokee-Isaac pitched a proprietary 28B / 10M-token agent model for single-GPU deploy, and Meta paired Muse Spark 1.2 with the Muse Code agent. Closed releases this cycle are product-shaped multimodal, long-context, and coding-agent bets.",
+              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, Pokee-Isaac pitched a proprietary 28B / 10M-token agent model for single-GPU deploy, Meta paired Muse Spark 1.2 with the Muse Code agent, and MiniMax launched H3 as an omni video+native-stereo generator (partial open weights followed). Closed releases this cycle are product-shaped multimodal, long-context, and coding-agent bets.",
             chip: "closed releases",
             releaseRoundup: true,
             href: "https://bfl.ai/blog/flux-3",
@@ -179,20 +179,25 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/finkd/status/2085080750034940201?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MiniMax_AI/status/2083008095488516262?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
               "https://bfl.ai/blog/flux-3",
               "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
               "https://console.pokee.ai/model",
               "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+              "https://www.minimax.io/blog/minimax-h3",
             ],
             notes:
-              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated. Pokee-Isaac and Muse Code also have dedicated Topics.",
+              "FLUX 3 Dev open weights are promised later; MiniMax H3 also has a partial open-weight drop on the Open roundup. Pokee-Isaac and Muse Code also have dedicated Topics.",
           },
           {
             title: "Open model releases",
             description:
-              "Ant Group's Ling-3.0-flash (124B/5.1B active), Poolside's Laguna S 2.1 coding MoE, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B packaging fill the open shelf. Skip the Bonsai/BTL-3 repeats; the useful question is which artifacts fit local hardware.",
+              "Ant Group's Ling-3.0-flash (124B/5.1B active), Poolside's Laguna S 2.1 coding MoE, Nanbeige 4.2 3B (looped Transformer on 28T tokens), Solar-Open2 250B, OpenZero Gemma4-E4B packaging, AMD Instella-MoE (16B/2.8B active with full training recipes), and partial MiniMax H3 video weights fill the open shelf. Skip the Bonsai/BTL-3 repeats; the useful question is which artifacts fit local hardware.",
             chip: "open releases",
             releaseRoundup: true,
             href: "https://huggingface.co/inclusionAI/Ling-3.0-flash",
@@ -204,6 +209,18 @@ export const meetups = [
               {
                 type: "tweet",
                 href: "https://twitter.com/poolsideai/status/2079613777343848465?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/iScienceLuvr/status/2081657822345826600?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/PrakamyaMishra/status/2081769222301257859?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MiniMax_AI/status/2083008095488516262?ref_src=twsrc%5Etfw",
               },
               {
                 type: "tweet",
@@ -220,11 +237,17 @@ export const meetups = [
               "https://poolside.ai/blog/introducing-laguna-s-2-1",
               "https://huggingface.co/poolside/Laguna-S-2.1",
               "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+              "https://arxiv.org/abs/2607.22083",
               "https://huggingface.co/upstage/Solar-Open2-250B",
               "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
+              "https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html",
+              "https://github.com/AMD-AGI/Instella-MoE",
+              "https://huggingface.co/collections/amd/instella-moe",
+              "https://www.minimax.io/news/minimax-h3-open-source",
+              "https://huggingface.co/MiniMaxAI/MiniMax-H3",
             ],
             notes:
-              "Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
+              "Laguna, Ling, Instella (full training stack), and partial H3 weights are the builder-relevant anchors. Nanbeige looped-Transformer paper is the size-efficiency garnish.",
           },
           {
             title: "Pokee-Isaac claims 10M context on a 28B single-GPU agent",
@@ -377,6 +400,20 @@ export const meetups = [
             notes:
               "June 30 release; scores are Liquid-reported. Narrow axis (structure only), which is why a 350M can beat larger general models after RL.",
           },
+          {
+            title: "Fish Audio raises $52M and ships S2.1 Pro voice",
+            description:
+              "Fish Audio pairs a $52M seed with the public launch of S2.1 Pro: vendor claims include 5-second voice clone, 2× Cartesia speed, and about 1/6th ElevenLabs cost, plus word-level emotion/intonation control. Treat the cost/speed comparisons as author-framed; the room question is whether voice becomes commodity infra for agents.",
+            chip: "voice",
+            href: "https://fish.audio",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/FishAudio/status/2082152596739862853?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://s.fish.audio/tmapke"],
+            notes:
+              "Vendor cost/speed claims vs Cartesia/ElevenLabs; demo booking link is the product CTA.",
+          },
         ],
       },
       {
@@ -400,6 +437,19 @@ export const meetups = [
             ],
             notes:
               "Lead with AISI blog + Anthropic response. Pair with the HF intrusion Topic as the other cyber-eval agent story this cycle. Qualify: permissive eval setup, not production configs.",
+          },
+          {
+            title: "Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents",
+            description:
+              "Microsoft's Satya Nadella frames MAI-Cyber-1-Flash inside MDASH / Project Perception as a specialized vulnerability-finding model plus agent teams for attack sim, triage, and remediation—claiming frontier-grade security outcomes at half the cost of leading models. Vendor half-cost claim; useful foil to the AISI permissive-eval incident.",
+            chip: "cyber defense",
+            href: "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/satyanadella/status/2081779755146482153?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "Pair with AISI. Half-cost claim is Microsoft-framed; product is model + harness (MDASH / Project Perception).",
           },
           {
             title: "Hugging Face turns the July agent intrusion into a playable timeline",
