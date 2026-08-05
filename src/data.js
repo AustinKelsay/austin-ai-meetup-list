@@ -313,7 +313,7 @@ export const meetups = [
           {
             title: "Astra turns open math problems into Lean certificates for about $2K",
             description:
-              "An internal Astra run produced ten long-open math results, with OpenAI publishing manuscripts plus Lean 4 certificates in openai/ten-proofs. The July 22 story was medals and first proofs; the delta is a checkable ten-result bundle at Sol-API-priced token cost.",
+              "An internal Astra run produced ten long-open math results, with OpenAI publishing manuscripts plus Lean 4 certificates in `openai/ten-proofs`. The July 22 story was medals and first proofs; the delta is a checkable ten-result bundle at Sol-API-priced token cost.",
             chip: "ai mathematics",
             href: "https://openai.com/index/ten-advances-in-mathematics/",
             embeds: [
@@ -410,7 +410,7 @@ export const meetups = [
           {
             title: "Shai-Hulud hits keyv and 2B monthly npm installs",
             description:
-              "After May's Mini Shai-Hulud wave, attackers compromised the GitHub account behind keyv and its cacheable family, then wormed credential stealers across hundreds of packages totaling over 2 billion monthly installs. Poisoned releases shipped with valid GitHub Actions provenance, so \"signed\" no longer means \"safe.\"",
+              "After May's Mini Shai-Hulud wave, attackers compromised the GitHub account behind `keyv` and its cacheable family, then wormed credential stealers across hundreds of packages totaling over 2 billion monthly installs. Poisoned releases shipped with valid GitHub Actions provenance, so \"signed\" no longer means \"safe.\"",
             chip: "supply chain",
             href: "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
             embeds: [
