@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on the senior-agent constraints pitch, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
+        "Open on Uncle Bob's constraints pitch then Cloudflare OS Gadgets, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -92,6 +92,20 @@ export const meetups = [
               type: "tweet",
               href: "https://twitter.com/unclebobmartin/status/2080257779395154409?ref_src=twsrc%5Etfw",
             },
+          },
+          {
+            title: "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+            description:
+              "Kenton Varda open-sourced Cloudflare OS on Workers: a personal-app \"vibe coding\" workspace where each document/app runs as its own sandboxed Gadget (Sandstorm Grain), the platform owns ACL, and Gatekeepers broker external APIs. Treat the \"AI cannot introduce a significant security bug\" claim as the vendor pitch—the durable bet is per-instance isolation plus promptable per-user forks of the code.",
+            chip: "agent sandbox",
+            href: "https://github.com/cloudflare/cloudflare-os",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/KentonVarda/status/2084990137180590572?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://blog.cloudflare.com/cloudflare-os/"],
+            notes:
+              "Pairs with Uncle Bob: constraints via platform sandbox rather than reading agent code. Early-access OSS; security claims are author/vendor-framed.",
           },
         ],
       },

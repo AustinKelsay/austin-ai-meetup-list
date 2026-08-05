@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | Cloudflare OS Agent Infrastructure Topic
+
+- Added **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** after Uncle Bob, with Kenton Varda's launch post, the official blog, and `cloudflare/cloudflare-os`.
+- Created a Cloudflare OS entity and linked it from Agent Infrastructure; qualified vendor sandbox-security claims.
+
 ## [2026-08-05] update | HF intrusion embeds; Karpathy private-account fix; AirLLM garnish
 
 - Wired Clem Delangue / kimmonismus / Simon Willison posts onto the HF agent-intrusion Topic.

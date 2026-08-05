@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T19:28:31.425Z",
+  "generatedAt": "2026-08-05T20:15:29.502Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -337,7 +337,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -357,6 +357,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "claude-code",
+        "cloudflare-os",
         "codex",
         "cognition",
         "company-brain",
@@ -401,6 +402,7 @@
         "buzz",
         "christopher-david",
         "claude-code",
+        "cloudflare-os",
         "codex",
         "coding-agents",
         "cognition",
@@ -719,6 +721,27 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -1725,7 +1748,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -2034,6 +2057,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "claude-code",
+        "cloudflare-os",
         "microsoft",
         "mythos",
         "openai-presence",
@@ -5393,6 +5417,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -9941,6 +9986,9 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://x.com/unclebobmartin/status/2080257779395154409",
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -9972,6 +10020,9 @@
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
         "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931",
         "https://github.com/drumih/turbo-fieldfare",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md",
@@ -9989,6 +10040,9 @@
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
@@ -10006,6 +10060,21 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure"
         },
         {
@@ -10169,6 +10238,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research"
@@ -10250,6 +10334,21 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security"
         },
@@ -10316,7 +10415,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -10329,6 +10428,7 @@
         "anthropic",
         "astra",
         "big-tech-moves",
+        "cloudflare-os",
         "coding-agents",
         "deepseek",
         "flux-3",
@@ -10362,6 +10462,7 @@
         "anthropic",
         "astra",
         "big-tech-moves",
+        "cloudflare-os",
         "coding-agents",
         "deepseek",
         "flux-3",
@@ -10398,6 +10499,9 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://x.com/unclebobmartin/status/2080257779395154409",
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -10429,6 +10533,9 @@
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
         "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931",
         "https://github.com/drumih/turbo-fieldfare",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md",
@@ -10446,6 +10553,9 @@
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
@@ -10463,6 +10573,21 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure"
         },
         {
@@ -10626,6 +10751,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research"
@@ -10693,62 +10833,77 @@
         {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/security-incident-july-2026",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2084523368783438198",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/premai_io/status/2084552134444662986",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.premai.io/",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
@@ -21733,6 +21888,64 @@
       "bodyMarkdown": "# Claude Sonnet 5\n\nClaude Sonnet 5 is Anthropic's executor-side agent model in the July 8 board, useful to separate from [[Claude Fable/Mythos]] because the meetup framing treats Sonnet as the cheaper worker and Fable as the advisor/escalation model.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[Anthropic]]\n- [[Claude Fable/Mythos]]\n- [[Claude Code]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]"
     },
     {
+      "id": "cloudflare-os",
+      "title": "Cloudflare OS",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "agent-infrastructure",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Cloudflare OS is an open-source agent workspace on Cloudflare Workers that pairs company-context chat with sandboxed personal apps called Gadgets, using Gatekeepers to broker external services—framed by Kenton Varda as a Sandstorm remake for the AI era.",
+      "rawHref": "/topics/entities/cloudflare-os.md",
+      "relativePath": "entities/cloudflare-os.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Cloudflare OS\n\nCloudflare OS is an open-source agent workspace on Cloudflare Workers that pairs company-context chat with sandboxed personal apps called Gadgets, using Gatekeepers to broker external services—framed by Kenton Varda as a Sandstorm remake for the AI era.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Security]]\n- [[Agent Security]]"
+    },
+    {
       "id": "codex",
       "title": "Codex",
       "type": "entity",
@@ -22092,6 +22305,7 @@
         "btl-3",
         "claude-code",
         "claude-sonnet-5",
+        "cloudflare-os",
         "codex",
         "cognition",
         "company-brain",
@@ -22643,6 +22857,27 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://github.com/zats/skills",
@@ -23401,7 +23636,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     {
       "id": "cognition",
@@ -27249,6 +27484,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://www.tencent.com/en-us/articles/2202386.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -30916,6 +31172,27 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -35599,6 +35876,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research",
@@ -36645,6 +36943,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -38647,6 +38966,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -45510,6 +45850,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -54889,6 +55250,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
           "section": "Security",
@@ -60443,6 +60825,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "cisco",
+        "cloudflare-os",
         "cursor",
         "glm",
         "harc",
@@ -60643,6 +61026,27 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -65586,7 +65990,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.",
       "rawHref": "/topics/concepts/agent-infrastructure.md",
       "relativePath": "concepts/agent-infrastructure.md",
@@ -65606,6 +66010,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "claude-code",
+        "cloudflare-os",
         "codex",
         "cognition",
         "company-brain",
@@ -65650,6 +66055,7 @@
         "buzz",
         "christopher-david",
         "claude-code",
+        "cloudflare-os",
         "codex",
         "coding-agents",
         "cognition",
@@ -65968,6 +66374,27 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -66974,7 +67401,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -67283,6 +67710,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "claude-code",
+        "cloudflare-os",
         "microsoft",
         "mythos",
         "openai-presence",
@@ -70642,6 +71070,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -75190,6 +75639,9 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://x.com/unclebobmartin/status/2080257779395154409",
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -75221,6 +75673,9 @@
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
         "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931",
         "https://github.com/drumih/turbo-fieldfare",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md",
@@ -75238,6 +75693,9 @@
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
@@ -75255,6 +75713,21 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure"
         },
         {
@@ -75418,6 +75891,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research"
@@ -75499,6 +75987,21 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security"
         },
@@ -75565,7 +76068,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -75578,6 +76081,7 @@
         "anthropic",
         "astra",
         "big-tech-moves",
+        "cloudflare-os",
         "coding-agents",
         "deepseek",
         "flux-3",
@@ -75611,6 +76115,7 @@
         "anthropic",
         "astra",
         "big-tech-moves",
+        "cloudflare-os",
         "coding-agents",
         "deepseek",
         "flux-3",
@@ -75647,6 +76152,9 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://x.com/unclebobmartin/status/2080257779395154409",
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -75678,6 +76186,9 @@
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
         "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931",
         "https://github.com/drumih/turbo-fieldfare",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md",
         "https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md",
@@ -75695,6 +76206,9 @@
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
         "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978",
         "https://x.com/Rob1Ham/status/2083546478409056301",
         "https://x.com/Rob1Ham/status/2084523368783438198",
         "https://x.com/premai_io/status/2084552134444662986",
@@ -75712,6 +76226,21 @@
         {
           "href": "https://x.com/unclebobmartin/status/2080257779395154409",
           "title": "Uncle Bob's senior job is constraints, not reading agent code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
           "section": "Agent Infrastructure"
         },
         {
@@ -75875,6 +76404,21 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research"
@@ -75942,62 +76486,77 @@
         {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://huggingface.co/blog/security-incident-july-2026",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
-          "section": "Security"
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2084523368783438198",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/premai_io/status/2084552134444662986",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.premai.io/",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/AikidoSecurity/status/2084584370556530882",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://x.com/wiz_io/status/2084605657571840473",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://devops.com/fast-moving-shai-hulud-attack-infects-npm-packages-with-2-billion-monthly-downloads/",
           "title": "Shai-Hulud hits keyv and 2B monthly npm installs",
-          "section": "Security"
+          "section": "Models & Research"
         },
         {
           "href": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
@@ -86981,6 +87540,64 @@
       ],
       "bodyMarkdown": "# Claude Sonnet 5\n\nClaude Sonnet 5 is Anthropic's executor-side agent model in the July 8 board, useful to separate from [[Claude Fable/Mythos]] because the meetup framing treats Sonnet as the cheaper worker and Fable as the advisor/escalation model.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[Anthropic]]\n- [[Claude Fable/Mythos]]\n- [[Claude Code]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]"
     },
+    "cloudflare-os": {
+      "id": "cloudflare-os",
+      "title": "Cloudflare OS",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "agent-infrastructure",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Cloudflare OS is an open-source agent workspace on Cloudflare Workers that pairs company-context chat with sandboxed personal apps called Gadgets, using Gatekeepers to broker external services—framed by Kenton Varda as a Sandstorm remake for the AI era.",
+      "rawHref": "/topics/entities/cloudflare-os.md",
+      "relativePath": "entities/cloudflare-os.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Cloudflare OS\n\nCloudflare OS is an open-source agent workspace on Cloudflare Workers that pairs company-context chat with sandboxed personal apps called Gadgets, using Gatekeepers to broker external services—framed by Kenton Varda as a Sandstorm remake for the AI era.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Security]]\n- [[Agent Security]]"
+    },
     "codex": {
       "id": "codex",
       "title": "Codex",
@@ -87341,6 +87958,7 @@
         "btl-3",
         "claude-code",
         "claude-sonnet-5",
+        "cloudflare-os",
         "codex",
         "cognition",
         "company-brain",
@@ -87892,6 +88510,27 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://github.com/zats/skills",
@@ -88650,7 +89289,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     "cognition": {
       "id": "cognition",
@@ -92498,6 +93137,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://www.tencent.com/en-us/articles/2202386.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -96165,6 +96825,27 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -100848,6 +101529,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://github.com/drumih/turbo-fieldfare",
           "title": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
           "section": "Models & Research",
@@ -101894,6 +102596,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -103896,6 +104619,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -110759,6 +111503,27 @@
         },
         {
           "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -120138,6 +120903,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
           "title": "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
           "section": "Security",
@@ -125692,6 +126478,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "cisco",
+        "cloudflare-os",
         "cursor",
         "glm",
         "harc",
@@ -125892,6 +126679,27 @@
         },
         {
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -130500,6 +131308,51 @@
   },
   "topics": [
     {
+      "id": "austin-ai-club-august-5-2026-agent-infrastructure-cloudflare-os-turns-sandstorms-grain-model-into-agent-safe-gadgets",
+      "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+      "rawTitle": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+      "normalizedTitle": "cloudflare os turns sandstorm's grain model into agent-safe gadgets",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "cloudflare-os",
+        "coding-agents"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Cloudflare OS",
+        "Coding Agents"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+    },
+    {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code",
       "title": "Uncle Bob's senior job is constraints, not reading agent code",
       "rawTitle": "Uncle Bob's senior job is constraints, not reading agent code",
@@ -130590,7 +131443,10 @@
       "sourceLinks": [
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
-        "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha"
+        "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931"
       ],
       "sourceReferences": [
         {
@@ -130605,6 +131461,21 @@
         },
         {
           "href": "https://pypi.org/project/airllm/",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research"
         }
@@ -130626,7 +131497,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
+      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -131150,7 +132021,10 @@
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
-        "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978"
       ],
       "sourceReferences": [
         {
@@ -131172,6 +132046,21 @@
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
         }
       ],
       "wikiIds": [
@@ -131185,7 +132074,7 @@
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ GLM OpenAI Security"
+      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 GLM OpenAI Security"
     },
     {
       "id": "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs",
@@ -142077,6 +142966,51 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-august-5-2026-agent-infrastructure-cloudflare-os-turns-sandstorms-grain-model-into-agent-safe-gadgets": {
+      "id": "austin-ai-club-august-5-2026-agent-infrastructure-cloudflare-os-turns-sandstorms-grain-model-into-agent-safe-gadgets",
+      "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+      "rawTitle": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+      "normalizedTitle": "cloudflare os turns sandstorm's grain model into agent-safe gadgets",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://github.com/cloudflare/cloudflare-os",
+        "https://blog.cloudflare.com/cloudflare-os/",
+        "https://x.com/KentonVarda/status/2084990137180590572"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "cloudflare-os",
+        "coding-agents"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Cloudflare OS",
+        "Coding Agents"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+    },
     "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code": {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code",
       "title": "Uncle Bob's senior job is constraints, not reading agent code",
@@ -142168,7 +143102,10 @@
       "sourceLinks": [
         "https://github.com/lyogavin/airllm",
         "https://pypi.org/project/airllm/",
-        "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha"
+        "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+        "https://x.com/simplifyinAI/status/2016842551492288686",
+        "https://x.com/thisguyknowsai/status/2026597670329135505",
+        "https://x.com/dunik_7/status/2077344313399283931"
       ],
       "sourceReferences": [
         {
@@ -142183,6 +143120,21 @@
         },
         {
           "href": "https://pypi.org/project/airllm/",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research"
         }
@@ -142204,7 +143156,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
+      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k": {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -142728,7 +143680,10 @@
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
-        "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://x.com/clementdelangue/status/2082201245813514613",
+        "https://x.com/kimmonismus/status/2082232405629235649",
+        "https://x.com/simonw/status/2082205602772844978"
       ],
       "sourceReferences": [
         {
@@ -142750,6 +143705,21 @@
           "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security"
         }
       ],
       "wikiIds": [
@@ -142763,7 +143733,7 @@
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ GLM OpenAI Security"
+      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 GLM OpenAI Security"
     },
     "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs": {
       "id": "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs",
@@ -153762,6 +154732,10 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "cloudflare-os"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "openai"
     },
     {
@@ -154895,6 +155869,10 @@
     {
       "source": "austin-ai-club-august-5-2026",
       "target": "glm"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
+      "target": "cloudflare-os"
     },
     {
       "source": "austin-ai-club-july-22-2026",
@@ -156423,6 +157401,26 @@
     {
       "source": "claude-sonnet-5",
       "target": "agent-cost-controls"
+    },
+    {
+      "source": "cloudflare-os",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "cloudflare-os",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "cloudflare-os",
+      "target": "coding-agents"
+    },
+    {
+      "source": "cloudflare-os",
+      "target": "security"
+    },
+    {
+      "source": "cloudflare-os",
+      "target": "agent-security"
     },
     {
       "source": "codex",
@@ -159894,8 +160892,8 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 89,
-        "updated": "2026-08-04"
+        "degree": 91,
+        "updated": "2026-08-05"
       },
       {
         "id": "agent-payments",
@@ -159918,7 +160916,7 @@
           "security",
           "agent-infrastructure"
         ],
-        "degree": 20,
+        "degree": 21,
         "updated": "2026-06-24"
       },
       {
@@ -160171,7 +161169,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 60,
+        "degree": 62,
         "updated": "2026-08-05"
       },
       {
@@ -160478,6 +161476,19 @@
         "updated": "2026-07-08"
       },
       {
+        "id": "cloudflare-os",
+        "label": "Cloudflare OS",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "agent-infrastructure",
+          "security",
+          "open-source"
+        ],
+        "degree": 7,
+        "updated": "2026-08-05"
+      },
+      {
         "id": "codex",
         "label": "Codex",
         "type": "entity",
@@ -160500,7 +161511,7 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 71,
+        "degree": 72,
         "updated": "2026-08-04"
       },
       {
@@ -161481,7 +162492,7 @@
           "track",
           "security"
         ],
-        "degree": 42,
+        "degree": 43,
         "updated": "2026-08-05"
       },
       {
@@ -161822,6 +162833,11 @@
       {
         "source": "agent-infrastructure",
         "target": "openai-presence",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "cloudflare-os",
         "kind": "wiki"
       },
       {
@@ -163242,6 +164258,11 @@
       {
         "source": "austin-ai-club-august-5-2026",
         "target": "glm",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
+        "target": "cloudflare-os",
         "kind": "topic"
       },
       {
@@ -165152,6 +166173,31 @@
       {
         "source": "claude-sonnet-5",
         "target": "agent-cost-controls",
+        "kind": "wiki"
+      },
+      {
+        "source": "cloudflare-os",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "cloudflare-os",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "cloudflare-os",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "cloudflare-os",
+        "target": "security",
+        "kind": "wiki"
+      },
+      {
+        "source": "cloudflare-os",
+        "target": "agent-security",
         "kind": "wiki"
       },
       {
@@ -169462,12 +170508,12 @@
     ]
   },
   "stats": {
-    "pageCount": 143,
-    "topicCount": 206,
+    "pageCount": 144,
+    "topicCount": 207,
     "rawPageCount": 0,
-    "linkCount": 1553,
+    "linkCount": 1560,
     "sourceRecordCount": 10,
-    "sourceLinkCount": 912,
+    "sourceLinkCount": 921,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-05"
   }

@@ -18,6 +18,23 @@ sources: []
   - Access: 2026-08-04
   - Notes: Robert C. Martin says his current strategy is not reading agent-written code and instead surrounding agents with extreme constraints and unit tests.
 
+### Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets
+- Repo: https://github.com/cloudflare/cloudflare-os
+  - Title: "cloudflare/cloudflare-os"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Open-source agent workspace on Workers; Gadgets as Dynamic Worker Facets, Gatekeepers for external services; early-access as of August 2026.
+- Source: https://blog.cloudflare.com/cloudflare-os/
+  - Title: "Cloudflare OS: an open platform for agents, apps, and work"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Official launch framing for open-sourcing Cloudflare OS and the Gadget/Gatekeeper security model.
+- Post: https://x.com/KentonVarda/status/2084990137180590572
+  - Title: "Kenton Varda on Cloudflare OS / Sandstorm remake"
+  - Type: Builder X post
+  - Access: 2026-08-05
+  - Notes: Workers lead frames Gadgets as Sandstorm Grains, per-instance ACL, and promptable per-user code forks; qualify absolute security claims.
+
 ## Models & Research
 
 ### Closed model releases
