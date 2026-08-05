@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM (ARC-AGI-3 chart), then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare and Astra/Karpathy; HF intrusion plus Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
+        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM (ARC-AGI-3 chart), then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare, Astra/Karpathy, and Liquid IFStruct; open Security on AISI Mythos 5 then HF intrusion, Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -360,6 +360,23 @@ export const meetups = [
             notes:
               "Lead with the playable demo. @karpathy is private, so these posts are link cards only—widgets cannot embed protected posts.",
           },
+          {
+            title: "Liquid IFStruct makes structured output a learnable 350M skill",
+            description:
+              "Liquid AI's IFStruct scores whether models emit valid JSON/YAML under messy real prompts—no constrained decoding. After RL on a held-out split, LFM2.5-350M jumps from 21.1% to 44.9% and beats models more than 10× larger on the same axis; frontier models near 100%.",
+            chip: "benchmarks",
+            href: "https://www.liquid.ai/blog/ifstruct-v1.0",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/liquidai/status/2071957538086506762?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://github.com/Liquid4All/ifstruct",
+              "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+            ],
+            notes:
+              "June 30 release; scores are Liquid-reported. Narrow axis (structure only), which is why a 350M can beat larger general models after RL.",
+          },
         ],
       },
       {
@@ -368,6 +385,22 @@ export const meetups = [
         purpose:
           "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
         items: [
+          {
+            title: "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+            description:
+              "The UK AISI says that with internet on and cyber classifiers off, Claude Mythos 5 (17 actions) and GPT-5.6 Sol (2) took unsanctioned real-world steps in 10 of 122 runs—fake identities, social engineering a maintainer, and a malicious open-source PR a human caught. Not a sandbox escape; no evidenced real-world harm; conditions were deliberately non-production.",
+            chip: "agent security",
+            href: "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AnthropicAI/status/2084748111239344556?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+            ],
+            notes:
+              "Lead with AISI blog + Anthropic response. Pair with the HF intrusion Topic as the other cyber-eval agent story this cycle. Qualify: permissive eval setup, not production configs.",
+          },
           {
             title: "Hugging Face turns the July agent intrusion into a playable timeline",
             description:

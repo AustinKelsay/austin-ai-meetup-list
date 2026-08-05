@@ -13,7 +13,7 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
+- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
 - [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.
 - [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.
 - [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.
@@ -39,3 +39,4 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 - [[CWIP]]
 - [[Meta Muse]]
 - [[Prime Agent]]
+- [[Liquid AI]]

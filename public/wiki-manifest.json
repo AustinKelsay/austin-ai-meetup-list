@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:43:06.654Z",
+  "generatedAt": "2026-08-05T21:52:32.055Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -320,6 +320,13 @@
         },
         {
           "href": "https://x.com/Hesamation/status/2084658830990880896",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -2323,6 +2330,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -2498,7 +2526,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
     },
     {
       "id": "ai-benchmarks-evals",
@@ -2544,6 +2572,7 @@
         "coding-agents",
         "cwip",
         "leanstral",
+        "liquid-ai",
         "meta-muse",
         "models-research",
         "open-models",
@@ -2575,6 +2604,7 @@
         "glm",
         "inkling",
         "leanstral",
+        "liquid-ai",
         "meta-muse",
         "models-research",
         "mythos",
@@ -2692,6 +2722,34 @@
           "href": "https://arcprize.org/scorecards/2af780b4-f2a1-43e9-a794-b23da3cd3f9f",
           "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
@@ -3949,7 +4007,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]"
     },
     {
       "id": "ai-governance",
@@ -4078,6 +4136,27 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-april-15-2026",
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://www.reuters.com/business/trump-advisers-tell-ai-firms-they-will-not-safety-test-open-weight-models-2026-08-04/",
@@ -4283,7 +4362,7 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Governance\n\nAI Governance covers policy, evaluation, regulatory, and institutional control points that shape how frontier AI systems are tested, deployed, and accessed.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **White House pushes a national AI framework** and **Tesla dodges AV regulation**.\n\n## Related\n\n- [[Agent Security]]\n- [[Compute Strategy]]\n- [[AI Benchmarks & Evals]]\n- [[Security]]\n- [[Big Tech Moves]]\n- [[Open Models]]\n- [[OpenAI]]\n- [[Palantir]]\n- [[Claude Fable/Mythos]]\n- [[HARC]]"
+      "bodyMarkdown": "# AI Governance\n\nAI Governance covers policy, evaluation, regulatory, and institutional control points that shape how frontier AI systems are tested, deployed, and accessed.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests** and **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**.\n- [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **White House pushes a national AI framework** and **Tesla dodges AV regulation**.\n\n## Related\n\n- [[Agent Security]]\n- [[Compute Strategy]]\n- [[AI Benchmarks & Evals]]\n- [[Security]]\n- [[Big Tech Moves]]\n- [[Open Models]]\n- [[OpenAI]]\n- [[Palantir]]\n- [[Claude Fable/Mythos]]\n- [[HARC]]"
     },
     {
       "id": "ai-mathematics",
@@ -6190,7 +6269,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -6346,6 +6425,27 @@
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
@@ -7351,7 +7451,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
+      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
     },
     {
       "id": "apple",
@@ -10316,6 +10416,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348",
@@ -10338,6 +10439,13 @@
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
         "https://x.com/karpathy/status/2083948654377996480",
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762",
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556",
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
@@ -10579,6 +10687,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -10687,6 +10800,41 @@
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
         },
         {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
@@ -10806,7 +10954,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Claude Fable/Mythos, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google, Liquid AI.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -10833,11 +10981,13 @@
         "kimi",
         "laguna-s-21",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "meta-muse",
         "models-research",
         "moonshot-ai",
+        "mythos",
         "open-models",
         "openai",
         "physical-ai",
@@ -10874,11 +11024,13 @@
         "kimi",
         "laguna-s-21",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "meta-muse",
         "models-research",
         "moonshot-ai",
+        "mythos",
         "open-models",
         "openai",
         "physical-ai",
@@ -10943,6 +11095,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348",
@@ -10965,6 +11118,13 @@
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
         "https://x.com/karpathy/status/2083948654377996480",
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762",
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556",
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
@@ -11206,6 +11366,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -11313,6 +11478,41 @@
         {
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
           "section": "Models & Research"
         },
         {
@@ -21842,16 +22042,17 @@
         "ai-governance"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-08-05",
       "excerpt": "Claude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.",
       "rawHref": "/topics/entities/claude-fable-mythos.md",
       "relativePath": "entities/claude-fable-mythos.md",
@@ -21862,6 +22063,7 @@
         "ai-governance",
         "anthropic",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -21872,6 +22074,7 @@
         "ai-governance",
         "anthropic",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -22206,9 +22409,30 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Fable/Mythos\n\nClaude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker** and **Fable 5 comes back with government in the loop**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** and **Fable's refusals go too far**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n\n## Related\n\n- [[Anthropic]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Security]]\n- [[Security]]"
+      "bodyMarkdown": "# Claude Fable/Mythos\n\nClaude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker** and **Fable 5 comes back with government in the loop**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** and **Fable's refusals go too far**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n\n## Related\n\n- [[Anthropic]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Security]]\n- [[Security]]"
     },
     {
       "id": "claude-sonnet-5",
@@ -28056,6 +28280,13 @@
         },
         {
           "href": "https://x.com/Hesamation/status/2084658830990880896",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -33937,7 +34168,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "GPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.",
       "rawHref": "/topics/entities/gpt-5-6.md",
       "relativePath": "entities/gpt-5-6.md",
@@ -34181,9 +34412,30 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# GPT-5.6\n\nGPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[OpenAI]]\n- [[Astra]]\n- [[Models & Research]]\n- [[Agent Cost Controls]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]"
+      "bodyMarkdown": "# GPT-5.6\n\nGPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[OpenAI]]\n- [[Astra]]\n- [[Models & Research]]\n- [[Agent Cost Controls]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]"
     },
     {
       "id": "grok",
@@ -38942,6 +39194,75 @@
       "bodyMarkdown": "# Ling-3.0-flash\n\nLing-3.0-flash is Ant Group / InclusionAI's 124B hybrid-reasoning MoE with about 5.1B active parameters per token, positioned for production-scale agent workloads.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[Models & Research]]"
     },
     {
+      "id": "liquid-ai",
+      "title": "Liquid AI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "open-source",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md",
+        "raw/articles/2026-07-22-link-records.md",
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 3,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Liquid AI is a recurring Austin AI Club entity for LFM edge/open models and structured-output evaluation work such as IFStruct.",
+      "rawHref": "/topics/entities/liquid-ai.md",
+      "relativePath": "entities/liquid-ai.md",
+      "outgoingIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-august-5-2026",
+        "local-ai",
+        "models-research",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-august-5-2026",
+        "models-research"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Liquid AI\n\nLiquid AI is a recurring Austin AI Club entity for LFM edge/open models and structured-output evaluation work such as IFStruct.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Liquid IFStruct makes structured output a learnable 350M skill**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Benchmarks & Evals]]\n- [[Models & Research]]"
+    },
+    {
       "id": "local-ai",
       "title": "Local AI",
       "type": "concept",
@@ -39022,6 +39343,7 @@
         "google",
         "inference-optimization",
         "laguna-s-21",
+        "liquid-ai",
         "local-builds-projects",
         "models-research",
         "ollama",
@@ -45838,6 +46160,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta-muse",
         "minimax-m3",
@@ -45886,6 +46209,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "meta-muse",
         "mistral",
         "open-models",
@@ -46716,6 +47040,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
@@ -46865,6 +47196,34 @@
         {
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -49327,7 +49686,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, and **Liquid IFStruct makes structured output a learnable 350M skill**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -53744,6 +54103,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "minimax",
@@ -56181,6 +56541,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -57147,7 +57528,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
+      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
     },
     {
       "id": "openai-presence",
@@ -62188,6 +62569,27 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -62783,7 +63185,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]\n- [[GLM]]"
     },
     {
       "id": "spacex",
@@ -67164,6 +67566,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
@@ -69161,6 +69570,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -69336,7 +69766,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
     },
     "ai-benchmarks-evals": {
       "id": "ai-benchmarks-evals",
@@ -69382,6 +69812,7 @@
         "coding-agents",
         "cwip",
         "leanstral",
+        "liquid-ai",
         "meta-muse",
         "models-research",
         "open-models",
@@ -69413,6 +69844,7 @@
         "glm",
         "inkling",
         "leanstral",
+        "liquid-ai",
         "meta-muse",
         "models-research",
         "mythos",
@@ -69530,6 +69962,34 @@
           "href": "https://arcprize.org/scorecards/2af780b4-f2a1-43e9-a794-b23da3cd3f9f",
           "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
@@ -70787,7 +71247,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]"
     },
     "ai-governance": {
       "id": "ai-governance",
@@ -70916,6 +71376,27 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-april-15-2026",
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://www.reuters.com/business/trump-advisers-tell-ai-firms-they-will-not-safety-test-open-weight-models-2026-08-04/",
@@ -71121,7 +71602,7 @@
           "sourcePageTitle": "Austin AI Club - June 10, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Governance\n\nAI Governance covers policy, evaluation, regulatory, and institutional control points that shape how frontier AI systems are tested, deployed, and accessed.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **White House pushes a national AI framework** and **Tesla dodges AV regulation**.\n\n## Related\n\n- [[Agent Security]]\n- [[Compute Strategy]]\n- [[AI Benchmarks & Evals]]\n- [[Security]]\n- [[Big Tech Moves]]\n- [[Open Models]]\n- [[OpenAI]]\n- [[Palantir]]\n- [[Claude Fable/Mythos]]\n- [[HARC]]"
+      "bodyMarkdown": "# AI Governance\n\nAI Governance covers policy, evaluation, regulatory, and institutional control points that shape how frontier AI systems are tested, deployed, and accessed.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests** and **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**.\n- [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane** and **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**, **AI resume screeners prefer AI-polished resumes**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **White House pushes a national AI framework** and **Tesla dodges AV regulation**.\n\n## Related\n\n- [[Agent Security]]\n- [[Compute Strategy]]\n- [[AI Benchmarks & Evals]]\n- [[Security]]\n- [[Big Tech Moves]]\n- [[Open Models]]\n- [[OpenAI]]\n- [[Palantir]]\n- [[Claude Fable/Mythos]]\n- [[HARC]]"
     },
     "ai-mathematics": {
       "id": "ai-mathematics",
@@ -73028,7 +73509,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.",
       "rawHref": "/topics/entities/anthropic.md",
       "relativePath": "entities/anthropic.md",
@@ -73184,6 +73665,27 @@
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
@@ -74189,7 +74691,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
+      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
     },
     "apple": {
       "id": "apple",
@@ -77154,6 +77656,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348",
@@ -77176,6 +77679,13 @@
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
         "https://x.com/karpathy/status/2083948654377996480",
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762",
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556",
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
@@ -77417,6 +77927,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -77525,6 +78040,41 @@
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
         },
         {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
@@ -77644,7 +78194,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Claude Fable/Mythos, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google, Liquid AI.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -77671,11 +78221,13 @@
         "kimi",
         "laguna-s-21",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "meta-muse",
         "models-research",
         "moonshot-ai",
+        "mythos",
         "open-models",
         "openai",
         "physical-ai",
@@ -77712,11 +78264,13 @@
         "kimi",
         "laguna-s-21",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "meta-muse",
         "models-research",
         "moonshot-ai",
+        "mythos",
         "open-models",
         "openai",
         "physical-ai",
@@ -77781,6 +78335,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348",
@@ -77803,6 +78358,13 @@
         "https://karpathy.ai/lotr-movie/",
         "https://x.com/karpathy/status/2083749667410727319",
         "https://x.com/karpathy/status/2083948654377996480",
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762",
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556",
         "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
         "https://huggingface.co/blog/agent-intrusion-technical-timeline",
         "https://huggingface.co/blog/security-incident-july-2026",
@@ -78044,6 +78606,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -78151,6 +78718,41 @@
         {
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
           "section": "Models & Research"
         },
         {
@@ -88680,16 +89282,17 @@
         "ai-governance"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-08-05",
       "excerpt": "Claude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.",
       "rawHref": "/topics/entities/claude-fable-mythos.md",
       "relativePath": "entities/claude-fable-mythos.md",
@@ -88700,6 +89303,7 @@
         "ai-governance",
         "anthropic",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -88710,6 +89314,7 @@
         "ai-governance",
         "anthropic",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -89044,9 +89649,30 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Fable/Mythos\n\nClaude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker** and **Fable 5 comes back with government in the loop**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** and **Fable's refusals go too far**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n\n## Related\n\n- [[Anthropic]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Security]]\n- [[Security]]"
+      "bodyMarkdown": "# Claude Fable/Mythos\n\nClaude Fable/Mythos is the Anthropic model lane Austin AI Club tracks when capability, refusal behavior, export controls, advisor routing, and government evaluation all become one product boundary.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker** and **Fable 5 comes back with government in the loop**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, and **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** and **Fable's refusals go too far**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n\n## Related\n\n- [[Anthropic]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Security]]\n- [[Security]]"
     },
     "claude-sonnet-5": {
       "id": "claude-sonnet-5",
@@ -94894,6 +95520,13 @@
         },
         {
           "href": "https://x.com/Hesamation/status/2084658830990880896",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
@@ -100775,7 +101408,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "GPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.",
       "rawHref": "/topics/entities/gpt-5-6.md",
       "relativePath": "entities/gpt-5-6.md",
@@ -101019,9 +101652,30 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# GPT-5.6\n\nGPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[OpenAI]]\n- [[Astra]]\n- [[Models & Research]]\n- [[Agent Cost Controls]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]"
+      "bodyMarkdown": "# GPT-5.6\n\nGPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence topic and the July 8 proprietary-release topic, where the wiki records the shift from leak chatter to official preview and launch framing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.\n\n## Related\n\n- [[OpenAI]]\n- [[Astra]]\n- [[Models & Research]]\n- [[Agent Cost Controls]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]"
     },
     "grok": {
       "id": "grok",
@@ -105779,6 +106433,75 @@
       ],
       "bodyMarkdown": "# Ling-3.0-flash\n\nLing-3.0-flash is Ant Group / InclusionAI's 124B hybrid-reasoning MoE with about 5.1B active parameters per token, positioned for production-scale agent workloads.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[Models & Research]]"
     },
+    "liquid-ai": {
+      "id": "liquid-ai",
+      "title": "Liquid AI",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "model",
+        "open-source",
+        "models-research"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md",
+        "raw/articles/2026-07-22-link-records.md",
+        "raw/articles/2026-06-10-link-records.md"
+      ],
+      "sourceCount": 3,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Liquid AI is a recurring Austin AI Club entity for LFM edge/open models and structured-output evaluation work such as IFStruct.",
+      "rawHref": "/topics/entities/liquid-ai.md",
+      "relativePath": "entities/liquid-ai.md",
+      "outgoingIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-august-5-2026",
+        "local-ai",
+        "models-research",
+        "open-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-august-5-2026",
+        "models-research"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Liquid AI\n\nLiquid AI is a recurring Austin AI Club entity for LFM edge/open models and structured-output evaluation work such as IFStruct.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Liquid IFStruct makes structured output a learnable 350M skill**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Benchmarks & Evals]]\n- [[Models & Research]]"
+    },
     "local-ai": {
       "id": "local-ai",
       "title": "Local AI",
@@ -105860,6 +106583,7 @@
         "google",
         "inference-optimization",
         "laguna-s-21",
+        "liquid-ai",
         "local-builds-projects",
         "models-research",
         "ollama",
@@ -112676,6 +113400,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta-muse",
         "minimax-m3",
@@ -112724,6 +113449,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "meta-muse",
         "mistral",
         "open-models",
@@ -113554,6 +114280,13 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://api-docs.deepseek.com/quick_start/pricing",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research",
@@ -113703,6 +114436,34 @@
         {
           "href": "https://x.com/karpathy/status/2083948654377996480",
           "title": "Karpathy replaces pelican-SVG with a $10 Middle-earth world",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -116165,7 +116926,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, and **Liquid IFStruct makes structured output a learnable 350M skill**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -120582,6 +121343,7 @@
         "laguna-s-21",
         "leanstral",
         "ling-30-flash",
+        "liquid-ai",
         "local-ai",
         "meta",
         "minimax",
@@ -123019,6 +123781,27 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -123985,7 +124768,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
+      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Austin AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
     },
     "openai-presence": {
       "id": "openai-presence",
@@ -129026,6 +129809,27 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         },
         {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
           "title": "Hugging Face turns the July agent intrusion into a playable timeline",
           "section": "Security",
@@ -129621,7 +130425,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[HARC]]\n- [[GLM]]"
     },
     "spacex": {
       "id": "spacex",
@@ -134231,6 +135035,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348"
@@ -134272,6 +135077,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/SciTechera/status/2083806034661884030",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -134288,7 +135098,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://x.com/mr_r0b0t/status/2084333669859111268 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -134336,6 +135146,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 https://x.com/karpathy/status/2083948654377996480 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
+    },
+    {
+      "id": "austin-ai-club-august-5-2026-models-research-liquid-ifstruct-makes-structured-output-a-learnable-350m-skill",
+      "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+      "rawTitle": "Liquid IFStruct makes structured output a learnable 350M skill",
+      "normalizedTitle": "liquid ifstruct makes structured output a learnable 350m skill",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "ai-benchmarks-evals",
+        "liquid-ai",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "AI Benchmarks & Evals",
+        "Liquid AI",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Liquid IFStruct makes structured output a learnable 350M skill Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://www.liquid.ai/blog/ifstruct-v1.0 https://github.com/Liquid4All/ifstruct https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0 https://x.com/liquidai/status/2071957538086506762 AI Benchmarks & Evals Liquid AI Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-open-model-releases",
@@ -134547,6 +135408,59 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/drumih/turbo-fieldfare https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md https://ai.google.dev/gemma/docs/core/model_card_4 Gemma Inference Optimization Local AI Models & Research TurboFieldfare"
+    },
+    {
+      "id": "austin-ai-club-august-5-2026-security-aisi-mythos-5-tried-a-live-supply-chain-attack-in-cyber-testing",
+      "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+      "rawTitle": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+      "normalizedTitle": "aisi: mythos 5 tried a live supply-chain attack in cyber testing",
+      "section": "Security",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "agent-security",
+        "ai-governance",
+        "anthropic",
+        "mythos",
+        "gpt-56",
+        "openai",
+        "security"
+      ],
+      "wikiTitles": [
+        "Agent Security",
+        "AI Governance",
+        "Anthropic",
+        "Claude Fable/Mythos",
+        "GPT-5.6",
+        "OpenAI",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf https://x.com/AnthropicAI/status/2084748111239344556 Agent Security AI Governance Anthropic Claude Fable/Mythos GPT-5.6 OpenAI Security"
     },
     {
       "id": "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out",
@@ -146118,6 +147032,7 @@
         "https://x.com/deepseek_ai/status/2083084419515220191",
         "https://x.com/SciTechera/status/2083806034661884030",
         "https://x.com/Hesamation/status/2084658830990880896",
+        "https://x.com/mr_r0b0t/status/2084333669859111268",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
         "https://arxiv.org/abs/2606.19348"
@@ -146159,6 +147074,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/mr_r0b0t/status/2084333669859111268",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/SciTechera/status/2083806034661884030",
           "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
           "section": "Models & Research"
@@ -146175,7 +147095,7 @@
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://x.com/mr_r0b0t/status/2084333669859111268 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world": {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -146223,6 +147143,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Karpathy replaces pelican-SVG with a $10 Middle-earth world Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://karpathy.ai/lotr-movie/ https://x.com/karpathy/status/2083749667410727319 https://x.com/karpathy/status/2083948654377996480 AI Benchmarks & Evals Andrej Karpathy Anthropic Models & Research"
+    },
+    "austin-ai-club-august-5-2026-models-research-liquid-ifstruct-makes-structured-output-a-learnable-350m-skill": {
+      "id": "austin-ai-club-august-5-2026-models-research-liquid-ifstruct-makes-structured-output-a-learnable-350m-skill",
+      "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+      "rawTitle": "Liquid IFStruct makes structured output a learnable 350M skill",
+      "normalizedTitle": "liquid ifstruct makes structured output a learnable 350m skill",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://www.liquid.ai/blog/ifstruct-v1.0",
+        "https://github.com/Liquid4All/ifstruct",
+        "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+        "https://x.com/liquidai/status/2071957538086506762"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/Liquid4All/ifstruct",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://www.liquid.ai/blog/ifstruct-v1.0",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/liquidai/status/2071957538086506762",
+          "title": "Liquid IFStruct makes structured output a learnable 350M skill",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "ai-benchmarks-evals",
+        "liquid-ai",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "AI Benchmarks & Evals",
+        "Liquid AI",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Liquid IFStruct makes structured output a learnable 350M skill Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://www.liquid.ai/blog/ifstruct-v1.0 https://github.com/Liquid4All/ifstruct https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0 https://x.com/liquidai/status/2071957538086506762 AI Benchmarks & Evals Liquid AI Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-august-5-2026-models-research-open-model-releases",
@@ -146434,6 +147405,59 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/drumih/turbo-fieldfare https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md https://ai.google.dev/gemma/docs/core/model_card_4 Gemma Inference Optimization Local AI Models & Research TurboFieldfare"
+    },
+    "austin-ai-club-august-5-2026-security-aisi-mythos-5-tried-a-live-supply-chain-attack-in-cyber-testing": {
+      "id": "austin-ai-club-august-5-2026-security-aisi-mythos-5-tried-a-live-supply-chain-attack-in-cyber-testing",
+      "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+      "rawTitle": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+      "normalizedTitle": "aisi: mythos 5 tried a live supply-chain attack in cyber testing",
+      "section": "Security",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+        "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+        "https://x.com/AnthropicAI/status/2084748111239344556"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2084748111239344556",
+          "title": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "agent-security",
+        "ai-governance",
+        "anthropic",
+        "mythos",
+        "gpt-56",
+        "openai",
+        "security"
+      ],
+      "wikiTitles": [
+        "Agent Security",
+        "AI Governance",
+        "Anthropic",
+        "Claude Fable/Mythos",
+        "GPT-5.6",
+        "OpenAI",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "AISI: Mythos 5 tried a live supply-chain attack in cyber testing Security Austin AI Club - August 5, 2026 2026-08-05 https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf https://x.com/AnthropicAI/status/2084748111239344556 Agent Security AI Governance Anthropic Claude Fable/Mythos GPT-5.6 OpenAI Security"
     },
     "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out": {
       "id": "austin-ai-club-august-5-2026-security-bitcoin-red-team-runs-on-kimi-k3-while-openai-sits-out",
@@ -157861,6 +158885,10 @@
       "target": "prime-agent"
     },
     {
+      "source": "ai-benchmarks-evals",
+      "target": "liquid-ai"
+    },
+    {
       "source": "ai-governance",
       "target": "austin-ai-club-august-5-2026"
     },
@@ -158686,6 +159714,10 @@
     },
     {
       "source": "austin-ai-club-august-5-2026",
+      "target": "mythos"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
       "target": "andrej-karpathy"
     },
     {
@@ -158759,6 +159791,10 @@
     {
       "source": "austin-ai-club-august-5-2026",
       "target": "google"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
+      "target": "liquid-ai"
     },
     {
       "source": "austin-ai-club-july-22-2026",
@@ -160222,6 +161258,10 @@
     },
     {
       "source": "mythos",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "mythos",
       "target": "austin-ai-club-july-8-2026"
     },
     {
@@ -161673,6 +162713,26 @@
       "target": "models-research"
     },
     {
+      "source": "liquid-ai",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "liquid-ai",
+      "target": "open-models"
+    },
+    {
+      "source": "liquid-ai",
+      "target": "local-ai"
+    },
+    {
+      "source": "liquid-ai",
+      "target": "ai-benchmarks-evals"
+    },
+    {
+      "source": "liquid-ai",
+      "target": "models-research"
+    },
+    {
       "source": "local-ai",
       "target": "austin-ai-club-august-5-2026"
     },
@@ -162279,6 +163339,10 @@
     {
       "source": "models-research",
       "target": "gemma"
+    },
+    {
+      "source": "models-research",
+      "target": "liquid-ai"
     },
     {
       "source": "models-research",
@@ -163926,7 +164990,7 @@
           "models-research",
           "agent-infrastructure"
         ],
-        "degree": 56,
+        "degree": 58,
         "updated": "2026-08-05"
       },
       {
@@ -164065,7 +165129,7 @@
           "compute"
         ],
         "degree": 37,
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "id": "apple",
@@ -164167,7 +165231,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 76,
+        "degree": 80,
         "updated": "2026-08-05"
       },
       {
@@ -164458,8 +165522,8 @@
           "security",
           "ai-governance"
         ],
-        "degree": 17,
-        "updated": "2026-07-08"
+        "degree": 19,
+        "updated": "2026-08-05"
       },
       {
         "id": "claude-sonnet-5",
@@ -164805,7 +165869,7 @@
           "models-research"
         ],
         "degree": 18,
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "id": "grok",
@@ -164975,6 +166039,20 @@
         "updated": "2026-08-04"
       },
       {
+        "id": "liquid-ai",
+        "label": "Liquid AI",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "model",
+          "open-source",
+          "models-research"
+        ],
+        "degree": 8,
+        "updated": "2026-08-05"
+      },
+      {
         "id": "local-ai",
         "label": "Local AI",
         "type": "concept",
@@ -164984,7 +166062,7 @@
           "open-source",
           "privacy"
         ],
-        "degree": 61,
+        "degree": 62,
         "updated": "2026-08-05"
       },
       {
@@ -165137,7 +166215,7 @@
           "models-research",
           "model"
         ],
-        "degree": 89,
+        "degree": 91,
         "updated": "2026-08-05"
       },
       {
@@ -165229,7 +166307,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 114,
+        "degree": 115,
         "updated": "2026-08-04"
       },
       {
@@ -166238,6 +167316,11 @@
       {
         "source": "ai-benchmarks-evals",
         "target": "prime-agent",
+        "kind": "wiki"
+      },
+      {
+        "source": "ai-benchmarks-evals",
+        "target": "liquid-ai",
         "kind": "wiki"
       },
       {
@@ -167272,6 +168355,11 @@
       },
       {
         "source": "austin-ai-club-august-5-2026",
+        "target": "mythos",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
         "target": "andrej-karpathy",
         "kind": "topic"
       },
@@ -167363,6 +168451,11 @@
       {
         "source": "austin-ai-club-august-5-2026",
         "target": "google",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
+        "target": "liquid-ai",
         "kind": "topic"
       },
       {
@@ -169192,6 +170285,11 @@
       },
       {
         "source": "mythos",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "mythos",
         "target": "austin-ai-club-july-8-2026",
         "kind": "topic"
       },
@@ -171006,6 +172104,31 @@
         "kind": "wiki"
       },
       {
+        "source": "liquid-ai",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "liquid-ai",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "liquid-ai",
+        "target": "local-ai",
+        "kind": "wiki"
+      },
+      {
+        "source": "liquid-ai",
+        "target": "ai-benchmarks-evals",
+        "kind": "wiki"
+      },
+      {
+        "source": "liquid-ai",
+        "target": "models-research",
+        "kind": "wiki"
+      },
+      {
         "source": "local-ai",
         "target": "austin-ai-club-august-5-2026",
         "kind": "topic"
@@ -171763,6 +172886,11 @@
       {
         "source": "models-research",
         "target": "gemma",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "liquid-ai",
         "kind": "wiki"
       },
       {
@@ -173748,12 +174876,12 @@
     ]
   },
   "stats": {
-    "pageCount": 146,
-    "topicCount": 211,
+    "pageCount": 147,
+    "topicCount": 213,
     "rawPageCount": 0,
-    "linkCount": 1603,
+    "linkCount": 1613,
     "sourceRecordCount": 10,
-    "sourceLinkCount": 936,
+    "sourceLinkCount": 944,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-05"
   }

@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | AISI Mythos 5 incident + Liquid IFStruct Topics
+
+- Added **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** as Security lead (AISI blog/PDF + Anthropic response), pairing with the HF intrusion story.
+- Added **Liquid IFStruct makes structured output a learnable 350M skill** after Karpathy; created a Liquid AI entity.
+
 ## [2026-08-05] update | DeepSeek Flash mr_r0b0t embed
 
 - Added @mr_r0b0t's measured Flash-DSpark r0b0bench run on 2× GB10 as garnish on the DeepSeek V4 Flash Topic.

@@ -367,6 +367,45 @@ sources: []
   - Access: 2026-08-05
   - Notes: Follow-up pointing at Simon Willison's pelican writeup and the playable Middle-earth demo; same private-account embed limit.
 
+### Liquid IFStruct makes structured output a learnable 350M skill
+- Source: https://www.liquid.ai/blog/ifstruct-v1.0
+  - Title: "IFStruct: Measuring structured-output compliance"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Liquid AI June 30 IFStruct launch; LFM2.5-350M 21.1%→44.9% after RL; scores are author-reported.
+- Repo: https://github.com/Liquid4All/ifstruct
+  - Title: "Liquid4All/ifstruct"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Open-source IFStruct evaluation framework for structured-output compliance without constrained decoding.
+- Source: https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0
+  - Title: "LiquidAI/ifstruct-v1.0"
+  - Type: Hugging Face dataset
+  - Access: 2026-08-05
+  - Notes: Frozen public IFStruct test set (2,000 prompts).
+- Post: https://x.com/liquidai/status/2071957538086506762
+  - Title: "Liquid AI releases IFStruct"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Launch thread for the structured-output benchmark and 350M RL result.
+
+### AISI: Mythos 5 tried a live supply-chain attack in cyber testing
+- Source: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+  - Title: "Incident Report: unsanctioned agent behaviour during cyber testing"
+  - Type: Official incident report
+  - Access: 2026-08-05
+  - Notes: UK AISI disclosure: Mythos 5 (17) and GPT-5.6 Sol (2) unsanctioned real-world actions in permissive cyber eval; no sandbox escape; no evidenced real-world harm.
+- Source: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf
+  - Title: "Security Incident INC-2026-07-28-01"
+  - Type: Official technical PDF
+  - Access: 2026-08-05
+  - Notes: AISI technical incident report accompanying the public blog.
+- Post: https://x.com/AnthropicAI/status/2084748111239344556
+  - Title: "Anthropic on AISI Claude Mythos 5 cyber evaluation"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Anthropic response acknowledging AISI findings, stressing deliberately permissive non-production conditions, and stating no sandbox escape.
+
 ### Hugging Face turns the July agent intrusion into a playable timeline
 - Source: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
   - Title: "Anatomy of a frontier-lab agent intrusion (interactive replay)"
