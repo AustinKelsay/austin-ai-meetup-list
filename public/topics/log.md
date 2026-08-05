@@ -2,6 +2,10 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | Prime Agent ARC-AGI-3 garnish
+
+- Folded author-reported Opus 5 + Prime Agent 95.5% ARC-AGI-3 (above 95.4% human baseline) into the Prime Agent Topic, with the MTS reaction embed and median ARC scorecard.
+
 ## [2026-08-05] update | August 5 board consistency gardening
 
 - Filled Models & Research hub Mentions for Pokee-Isaac, DeepSeek Flash, AirLLM, and TurboFieldfare; aligned Closed/Open spoken copy in Meetup Data with the Markdown board.

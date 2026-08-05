@@ -20,5 +20,6 @@ Prime Agent is Prime Intellect's open-source coding and long-horizon agent harne
 - [[Recursive Language Models]]
 - [[Coding Agents]]
 - [[Agent Infrastructure]]
+- [[AI Benchmarks & Evals]]
 - [[Meta Muse]]
 - [[Open Models]]

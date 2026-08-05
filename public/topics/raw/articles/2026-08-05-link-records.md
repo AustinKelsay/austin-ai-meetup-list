@@ -51,6 +51,11 @@ sources: []
   - Type: Company X post
   - Access: 2026-08-05
   - Notes: Launch post for the open RLM agent; good room entry before the 101 source chain.
+- Post: https://x.com/MTSlive/status/2085098975707996558
+  - Title: "MTS on Prime Agent ARC-AGI-3 95.5%"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: High-signal reaction charting the author-reported 95.5% ARC-AGI-3 result above human baseline.
 - Source: https://alexzhang13.github.io/blog/2025/rlm/
   - Title: "Recursive Language Models"
   - Type: Author explainer
@@ -61,11 +66,16 @@ sources: []
   - Type: Research preprint
   - Access: 2026-08-05
   - Notes: Paper backing the RLM inference pattern; pair with Zhang's blog for room briefing.
--   Source: https://www.primeintellect.ai/blog/rlm
+- Source: https://www.primeintellect.ai/blog/rlm
   - Title: "Recursive Language Models"
   - Type: Company explainer
   - Access: 2026-08-05
   - Notes: Prime Intellect's own RLM framing bridging the paper to Prime Agent product claims.
+- Source: https://arcprize.org/scorecards/2af780b4-f2a1-43e9-a794-b23da3cd3f9f
+  - Title: "Prime Agent ARC-AGI-3 median scorecard (95.2%)"
+  - Type: Benchmark scorecard
+  - Access: 2026-08-05
+  - Notes: Official ARC scorecard linked from the Prime Agent blog for the median Opus 5 + Prime Agent run.
 
 ### Meta ships Muse Code with co-trained Muse Spark 1.2
 - Source: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2

@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM, then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare and Astra/Karpathy; HF intrusion plus Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
+        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM (ARC-AGI-3 chart), then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare and Astra/Karpathy; HF intrusion plus Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -110,21 +110,28 @@ export const meetups = [
           {
             title: "Prime Agent is an open RLM coding harness that can rewrite itself",
             description:
-              "Prime Agent is Prime Intellect's open-source coding / long-horizon agent: a persistent IPython REPL where context lives as a variable, sub-agents are `await rlm(...)` calls, and a Continual Harness lets the agent CRUD its own prompts, skills, memory, and sub-agents. For an RLM 101, start with Alex Zhang's explainer, then the paper, then Prime Intellect's own RLM writeup.",
+              "Prime Agent is Prime Intellect's open-source coding / long-horizon agent: a persistent IPython REPL where context lives as a variable, sub-agents are `await rlm(...)` calls, and a Continual Harness lets the agent CRUD its own prompts, skills, memory, and sub-agents. Author-reported Opus 5 runs hit 95.5% RHAE Best@1 on ARC-AGI-3—just above the 95.4% human expert baseline. For an RLM 101, start with Alex Zhang's explainer, then the paper, then Prime Intellect's own RLM writeup.",
             chip: "coding agents",
             href: "https://github.com/PrimeIntellect-ai/prime-agent",
-            embed: {
-              type: "tweet",
-              href: "https://twitter.com/PrimeIntellect/status/2085086999267144083?ref_src=twsrc%5Etfw",
-            },
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/PrimeIntellect/status/2085086999267144083?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/MTSlive/status/2085098975707996558?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://www.primeintellect.ai/blog/prime-agent",
               "https://alexzhang13.github.io/blog/2025/rlm/",
               "https://arxiv.org/abs/2512.24601",
               "https://www.primeintellect.ai/blog/rlm",
+              "https://arcprize.org/scorecards/2af780b4-f2a1-43e9-a794-b23da3cd3f9f",
             ],
             notes:
-              "RLM 101 order for the room: Zhang blog → arXiv → Prime Intellect RLM post → Prime Agent launch. Self-improving harness claims are vendor-framed.",
+              "RLM 101 order: Zhang blog → arXiv → Prime Intellect RLM post → Prime Agent launch. Lead with the ARC-AGI-3 chart via MTS; 95.5% is author-reported Opus 5 + Prime Agent (Best@1), median scorecard linked.",
           },
           {
             title: "Meta ships Muse Code with co-trained Muse Spark 1.2",
