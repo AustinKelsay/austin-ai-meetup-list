@@ -2,6 +2,10 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | DeepSeek Flash mr_r0b0t embed
+
+- Added @mr_r0b0t's measured Flash-DSpark r0b0bench run on 2× GB10 as garnish on the DeepSeek V4 Flash Topic.
+
 ## [2026-08-05] update | Prime Agent ARC-AGI-3 garnish
 
 - Folded author-reported Opus 5 + Prime Agent 95.5% ARC-AGI-3 (above 95.4% human baseline) into the Prime Agent Topic, with the MTS reaction embed and median ARC scorecard.

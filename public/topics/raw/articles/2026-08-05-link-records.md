@@ -243,6 +243,11 @@ sources: []
   - Type: Practitioner X post
   - Access: 2026-08-05
   - Notes: Chart-style reaction that DeepSeek's cost-per-task bar is barely visible next to other frontier models; visual garnish for the Flash pricing story.
+- Post: https://x.com/mr_r0b0t/status/2084333669859111268
+  - Title: "Flash-DSpark r0b0bench on 2× GB10"
+  - Type: Practitioner X post
+  - Access: 2026-08-05
+  - Notes: Measured Flash-DSpark core-subset results on 2× NVIDIA GB10, including decode throughput and 1M-token needle retrieval; author-framed as package-backed reproducible freeze.
 - Source: https://api-docs.deepseek.com/quick_start/pricing
   - Title: "DeepSeek Models & Pricing"
   - Type: Official API documentation

@@ -267,6 +267,10 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/Hesamation/status/2084658830990880896?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/mr_r0b0t/status/2084333669859111268?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
               "https://api-docs.deepseek.com/quick_start/pricing",
@@ -274,7 +278,7 @@ export const meetups = [
               "https://arxiv.org/abs/2606.19348",
             ],
             notes:
-              "Author-reported Terminal-Bench 82.7 is on the HF card; the 105× Fable 5 cost claim is third-party (Artificial Analysis via SciTechera). Hesamation is the cost-per-task chart garnish.",
+              "Author-reported Terminal-Bench 82.7 is on the HF card; the 105× Fable 5 cost claim is third-party (Artificial Analysis via SciTechera). Hesamation is the cost-per-task chart; mr_r0b0t is a measured Flash-DSpark r0b0bench run on 2× GB10 including 1M-token needle.",
           },
           {
             title: "AirLLM streams giant MoEs onto hobbyist VRAM",
