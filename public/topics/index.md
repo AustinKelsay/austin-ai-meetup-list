@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-05 | Total pages: 144
+> Last updated: 2026-08-05 | Total pages: 146
 
 ## Meetups
 
@@ -94,6 +94,7 @@
 - [[Palantir]]
 - [[Pokee-Isaac]]
 - [[Prem]]
+- [[Prime Agent]]
 - [[PrismML]]
 - [[Pylon]]
 - [[Qwen]]
@@ -140,6 +141,7 @@
 - [[Open Models]]
 - [[Physical AI]]
 - [[Privacy Tooling]]
+- [[Recursive Language Models]]
 - [[Security]]
 - [[Speculative Decoding]]
 - [[Supply Chain Security]]

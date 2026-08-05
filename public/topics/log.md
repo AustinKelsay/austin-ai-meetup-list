@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | Prime Agent + RLM 101 Agent Infrastructure Topic
+
+- Added **Prime Agent is an open RLM coding harness that can rewrite itself** after Cloudflare OS, with the launch post, product blog, repo, and an RLM 101 chain (Alex Zhang explainer → arXiv → Prime Intellect RLM post).
+- Created Prime Agent entity and Recursive Language Models concept pages; linked from Agent Infrastructure and Coding Agents.
+
 ## [2026-08-05] update | Cloudflare OS Agent Infrastructure Topic
 
 - Added **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** after Uncle Bob, with Kenton Varda's launch post, the official blog, and `cloudflare/cloudflare-os`.

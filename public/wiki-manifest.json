@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:15:29.502Z",
+  "generatedAt": "2026-08-05T20:18:29.347Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -69,7 +69,8 @@
         "ling-30-flash",
         "microsoft",
         "moonshot-ai",
-        "mythos"
+        "mythos",
+        "recursive-language-models"
       ],
       "referencedTopicSources": [
         {
@@ -370,9 +371,11 @@
         "openai-presence",
         "openrouter",
         "openrouter-fusion",
+        "prime-agent",
         "pylon",
         "qwen-agentworld",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
         "vercel",
@@ -428,9 +431,11 @@
         "openrouter-fusion",
         "pokee-isaac",
         "prem",
+        "prime-agent",
         "pylon",
         "qwen-agentworld",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
         "vercel",
@@ -742,6 +747,48 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -1748,7 +1795,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Prime Agent is an open RLM coding harness that can rewrite itself**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -9989,6 +10036,12 @@
         "https://github.com/cloudflare/cloudflare-os",
         "https://blog.cloudflare.com/cloudflare-os/",
         "https://x.com/KentonVarda/status/2084990137180590572",
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -10075,6 +10128,36 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure"
         },
         {
@@ -10415,7 +10498,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -10447,6 +10530,8 @@
         "physical-ai",
         "pokee-isaac",
         "prem",
+        "prime-agent",
+        "recursive-language-models",
         "security",
         "supply-chain-security",
         "turbofieldfare"
@@ -10481,6 +10566,8 @@
         "physical-ai",
         "pokee-isaac",
         "prem",
+        "prime-agent",
+        "recursive-language-models",
         "security",
         "supply-chain-security",
         "turbofieldfare"
@@ -10502,6 +10589,12 @@
         "https://github.com/cloudflare/cloudflare-os",
         "https://blog.cloudflare.com/cloudflare-os/",
         "https://x.com/KentonVarda/status/2084990137180590572",
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -10588,6 +10681,36 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure"
         },
         {
@@ -22251,7 +22374,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -22280,7 +22403,9 @@
         "moonshot-ai",
         "openai",
         "openclaw",
+        "prime-agent",
         "react-native-executorch",
+        "recursive-language-models",
         "swe-17",
         "tmax"
       ],
@@ -22324,7 +22449,9 @@
         "ollama",
         "openclaw",
         "pokee-isaac",
+        "prime-agent",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "security",
         "supply-chain-security",
@@ -22875,6 +23002,48 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -23636,7 +23805,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     {
       "id": "cognition",
@@ -34632,6 +34801,7 @@
         "nemotron",
         "nemotron-puzzle",
         "open-models",
+        "recursive-language-models",
         "speculative-decoding",
         "turbofieldfare"
       ],
@@ -52813,6 +52983,7 @@
         "nous-research",
         "nvidia",
         "ollama",
+        "prime-agent",
         "prismml",
         "qwen",
         "qwen-agentworld",
@@ -58614,6 +58785,87 @@
       "bodyMarkdown": "# Prem\n\nPrem builds sovereign and confidential AI infrastructure, including encrypted inference and gateways for accessing open models without handing prompts to a hosted lab by default.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.\n\n## Related\n\n- [[Kimi]]\n- [[Moonshot AI]]\n- [[Security]]\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]"
     },
     {
+      "id": "prime-agent",
+      "title": "Prime Agent",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "coding-agents",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Prime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.",
+      "rawHref": "/topics/entities/prime-agent.md",
+      "relativePath": "entities/prime-agent.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "open-models",
+        "recursive-language-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "recursive-language-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]"
+    },
+    {
       "id": "prismml",
       "title": "PrismML",
       "type": "entity",
@@ -60560,6 +60812,88 @@
         }
       ],
       "bodyMarkdown": "# React Native ExecuTorch\n\nReact Native ExecuTorch is a mobile and desktop local-inference project that matters when open models move from demos into cross-platform app loops.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop**.\n\n## Related\n\n- [[Gemma]]\n- [[Google]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]"
+    },
+    {
+      "id": "recursive-language-models",
+      "title": "Recursive Language Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "coding-agents",
+        "inference"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Recursive Language Models (RLMs) are an inference pattern that treats long prompts as an external environment variable—typically in a REPL—so a root model can programmatically inspect, decompose, and recursively call sub-models on snippets instead of stuffing everything into one context window.",
+      "rawHref": "/topics/concepts/recursive-language-models.md",
+      "relativePath": "concepts/recursive-language-models.md",
+      "outgoingIds": [
+        "agent-cost-controls",
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "inference-optimization",
+        "prime-agent"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "prime-agent"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Recursive Language Models\n\nRecursive Language Models (RLMs) are an inference pattern that treats long prompts as an external environment variable—typically in a REPL—so a root model can programmatically inspect, decompose, and recursively call sub-models on snippets instead of stuffing everything into one context window.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Prime Agent]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Inference Optimization]]\n- [[Agent Cost Controls]]"
     },
     {
       "id": "sakana-ai",
@@ -65722,7 +66056,8 @@
         "ling-30-flash",
         "microsoft",
         "moonshot-ai",
-        "mythos"
+        "mythos",
+        "recursive-language-models"
       ],
       "referencedTopicSources": [
         {
@@ -66023,9 +66358,11 @@
         "openai-presence",
         "openrouter",
         "openrouter-fusion",
+        "prime-agent",
         "pylon",
         "qwen-agentworld",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
         "vercel",
@@ -66081,9 +66418,11 @@
         "openrouter-fusion",
         "pokee-isaac",
         "prem",
+        "prime-agent",
         "pylon",
         "qwen-agentworld",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
         "vercel",
@@ -66395,6 +66734,48 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -67401,7 +67782,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code** and **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Prime Agent is an open RLM coding harness that can rewrite itself**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[OpenAI]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -75642,6 +76023,12 @@
         "https://github.com/cloudflare/cloudflare-os",
         "https://blog.cloudflare.com/cloudflare-os/",
         "https://x.com/KentonVarda/status/2084990137180590572",
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -75728,6 +76115,36 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure"
         },
         {
@@ -76068,7 +76485,7 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
@@ -76100,6 +76517,8 @@
         "physical-ai",
         "pokee-isaac",
         "prem",
+        "prime-agent",
+        "recursive-language-models",
         "security",
         "supply-chain-security",
         "turbofieldfare"
@@ -76134,6 +76553,8 @@
         "physical-ai",
         "pokee-isaac",
         "prem",
+        "prime-agent",
+        "recursive-language-models",
         "security",
         "supply-chain-security",
         "turbofieldfare"
@@ -76155,6 +76576,12 @@
         "https://github.com/cloudflare/cloudflare-os",
         "https://blog.cloudflare.com/cloudflare-os/",
         "https://x.com/KentonVarda/status/2084990137180590572",
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm",
         "https://bfl.ai/blog/flux-3",
         "https://x.com/bfl_ai/status/2080308988961554582",
         "https://x.com/mimicrobotics/status/2080307032746336367",
@@ -76241,6 +76668,36 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure"
         },
         {
@@ -87904,7 +88361,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.",
       "rawHref": "/topics/concepts/coding-agents.md",
       "relativePath": "concepts/coding-agents.md",
@@ -87933,7 +88390,9 @@
         "moonshot-ai",
         "openai",
         "openclaw",
+        "prime-agent",
         "react-native-executorch",
+        "recursive-language-models",
         "swe-17",
         "tmax"
       ],
@@ -87977,7 +88436,9 @@
         "ollama",
         "openclaw",
         "pokee-isaac",
+        "prime-agent",
         "react-native-executorch",
+        "recursive-language-models",
         "sakana-ai",
         "security",
         "supply-chain-security",
@@ -88528,6 +88989,48 @@
         {
           "href": "https://x.com/KentonVarda/status/2084990137180590572",
           "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-5-2026",
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
@@ -89289,7 +89792,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     "cognition": {
       "id": "cognition",
@@ -100285,6 +100788,7 @@
         "nemotron",
         "nemotron-puzzle",
         "open-models",
+        "recursive-language-models",
         "speculative-decoding",
         "turbofieldfare"
       ],
@@ -118466,6 +118970,7 @@
         "nous-research",
         "nvidia",
         "ollama",
+        "prime-agent",
         "prismml",
         "qwen",
         "qwen-agentworld",
@@ -124266,6 +124771,87 @@
       ],
       "bodyMarkdown": "# Prem\n\nPrem builds sovereign and confidential AI infrastructure, including encrypted inference and gateways for accessing open models without handing prompts to a hosted lab by default.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.\n\n## Related\n\n- [[Kimi]]\n- [[Moonshot AI]]\n- [[Security]]\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]"
     },
+    "prime-agent": {
+      "id": "prime-agent",
+      "title": "Prime Agent",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "coding-agents",
+        "agent-infrastructure",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Prime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.",
+      "rawHref": "/topics/entities/prime-agent.md",
+      "relativePath": "entities/prime-agent.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "open-models",
+        "recursive-language-models"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "recursive-language-models"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]"
+    },
     "prismml": {
       "id": "prismml",
       "title": "PrismML",
@@ -126213,6 +126799,88 @@
         }
       ],
       "bodyMarkdown": "# React Native ExecuTorch\n\nReact Native ExecuTorch is a mobile and desktop local-inference project that matters when open models move from demos into cross-platform app loops.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop**.\n\n## Related\n\n- [[Gemma]]\n- [[Google]]\n- [[Local AI]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]"
+    },
+    "recursive-language-models": {
+      "id": "recursive-language-models",
+      "title": "Recursive Language Models",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure",
+        "coding-agents",
+        "inference"
+      ],
+      "sources": [
+        "raw/articles/2026-08-05-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "excerpt": "Recursive Language Models (RLMs) are an inference pattern that treats long prompts as an external environment variable—typically in a REPL—so a root model can programmatically inspect, decompose, and recursively call sub-models on snippets instead of stuffing everything into one context window.",
+      "rawHref": "/topics/concepts/recursive-language-models.md",
+      "relativePath": "concepts/recursive-language-models.md",
+      "outgoingIds": [
+        "agent-cost-controls",
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "inference-optimization",
+        "prime-agent"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-5-2026",
+        "coding-agents",
+        "prime-agent"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Recursive Language Models\n\nRecursive Language Models (RLMs) are an inference pattern that treats long prompts as an external environment variable—typically in a REPL—so a root model can programmatically inspect, decompose, and recursively call sub-models on snippets instead of stuffing everything into one context window.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Prime Agent]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Inference Optimization]]\n- [[Agent Cost Controls]]"
     },
     "sakana-ai": {
       "id": "sakana-ai",
@@ -131351,6 +132019,71 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+    },
+    {
+      "id": "austin-ai-club-august-5-2026-agent-infrastructure-prime-agent-is-an-open-rlm-coding-harness-that-can-rewrite-itself",
+      "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+      "rawTitle": "Prime Agent is an open RLM coding harness that can rewrite itself",
+      "normalizedTitle": "prime agent is an open rlm coding harness that can rewrite itself",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "prime-agent",
+        "recursive-language-models"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Coding Agents",
+        "Prime Agent",
+        "Recursive Language Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Prime Agent is an open RLM coding harness that can rewrite itself Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/PrimeIntellect-ai/prime-agent https://www.primeintellect.ai/blog/prime-agent https://x.com/PrimeIntellect/status/2085086999267144083 https://alexzhang13.github.io/blog/2025/rlm/ https://arxiv.org/abs/2512.24601 https://www.primeintellect.ai/blog/rlm Agent Infrastructure Coding Agents Prime Agent Recursive Language Models"
     },
     {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code",
@@ -143010,6 +143743,71 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+    },
+    "austin-ai-club-august-5-2026-agent-infrastructure-prime-agent-is-an-open-rlm-coding-harness-that-can-rewrite-itself": {
+      "id": "austin-ai-club-august-5-2026-agent-infrastructure-prime-agent-is-an-open-rlm-coding-harness-that-can-rewrite-itself",
+      "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+      "rawTitle": "Prime Agent is an open RLM coding harness that can rewrite itself",
+      "normalizedTitle": "prime agent is an open rlm coding harness that can rewrite itself",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-5-2026",
+      "meetupTitle": "Austin AI Club - August 5, 2026",
+      "meetupSlug": "2026-08-05",
+      "meetupHref": "/topics/2026-08-05.md",
+      "sourceLinks": [
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://www.primeintellect.ai/blog/prime-agent",
+        "https://x.com/PrimeIntellect/status/2085086999267144083",
+        "https://alexzhang13.github.io/blog/2025/rlm/",
+        "https://arxiv.org/abs/2512.24601",
+        "https://www.primeintellect.ai/blog/rlm"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://alexzhang13.github.io/blog/2025/rlm/",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://arxiv.org/abs/2512.24601",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/prime-agent",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://www.primeintellect.ai/blog/rlm",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/PrimeIntellect/status/2085086999267144083",
+          "title": "Prime Agent is an open RLM coding harness that can rewrite itself",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "prime-agent",
+        "recursive-language-models"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Coding Agents",
+        "Prime Agent",
+        "Recursive Language Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Prime Agent is an open RLM coding harness that can rewrite itself Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/PrimeIntellect-ai/prime-agent https://www.primeintellect.ai/blog/prime-agent https://x.com/PrimeIntellect/status/2085086999267144083 https://alexzhang13.github.io/blog/2025/rlm/ https://arxiv.org/abs/2512.24601 https://www.primeintellect.ai/blog/rlm Agent Infrastructure Coding Agents Prime Agent Recursive Language Models"
     },
     "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code": {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-uncle-bobs-senior-job-is-constraints-not-reading-agent-code",
@@ -154736,6 +155534,14 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "prime-agent"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "recursive-language-models"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "openai"
     },
     {
@@ -155873,6 +156679,14 @@
     {
       "source": "austin-ai-club-august-5-2026",
       "target": "cloudflare-os"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
+      "target": "prime-agent"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
+      "target": "recursive-language-models"
     },
     {
       "source": "austin-ai-club-july-22-2026",
@@ -157497,6 +158311,14 @@
     {
       "source": "coding-agents",
       "target": "agent-infrastructure"
+    },
+    {
+      "source": "coding-agents",
+      "target": "prime-agent"
+    },
+    {
+      "source": "coding-agents",
+      "target": "recursive-language-models"
     },
     {
       "source": "coding-agents",
@@ -160103,6 +160925,26 @@
       "target": "agent-infrastructure"
     },
     {
+      "source": "prime-agent",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "prime-agent",
+      "target": "recursive-language-models"
+    },
+    {
+      "source": "prime-agent",
+      "target": "coding-agents"
+    },
+    {
+      "source": "prime-agent",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "prime-agent",
+      "target": "open-models"
+    },
+    {
       "source": "prismml",
       "target": "austin-ai-club-may-27-2026"
     },
@@ -160329,6 +161171,30 @@
     {
       "source": "react-native-executorch",
       "target": "coding-agents"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "prime-agent"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "coding-agents"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "inference-optimization"
+    },
+    {
+      "source": "recursive-language-models",
+      "target": "agent-cost-controls"
     },
     {
       "source": "sakana-ai",
@@ -160880,7 +161746,7 @@
           "coding-agents",
           "cost-control"
         ],
-        "degree": 38,
+        "degree": 39,
         "updated": "2026-08-04"
       },
       {
@@ -160892,7 +161758,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 91,
+        "degree": 95,
         "updated": "2026-08-05"
       },
       {
@@ -161169,7 +162035,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 62,
+        "degree": 66,
         "updated": "2026-08-05"
       },
       {
@@ -161511,8 +162377,8 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 72,
-        "updated": "2026-08-04"
+        "degree": 76,
+        "updated": "2026-08-05"
       },
       {
         "id": "cognition",
@@ -161893,7 +162759,7 @@
           "agent-infrastructure",
           "local-ai"
         ],
-        "degree": 54,
+        "degree": 55,
         "updated": "2026-08-05"
       },
       {
@@ -162230,7 +163096,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 113,
+        "degree": 114,
         "updated": "2026-08-04"
       },
       {
@@ -162365,6 +163231,19 @@
         "updated": "2026-08-04"
       },
       {
+        "id": "prime-agent",
+        "label": "Prime Agent",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "coding-agents",
+          "agent-infrastructure",
+          "open-source"
+        ],
+        "degree": 9,
+        "updated": "2026-08-05"
+      },
+      {
         "id": "prismml",
         "label": "PrismML",
         "type": "entity",
@@ -162456,6 +163335,19 @@
         ],
         "degree": 12,
         "updated": "2026-07-08"
+      },
+      {
+        "id": "recursive-language-models",
+        "label": "Recursive Language Models",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "agent-infrastructure",
+          "coding-agents",
+          "inference"
+        ],
+        "degree": 10,
+        "updated": "2026-08-05"
       },
       {
         "id": "sakana-ai",
@@ -162838,6 +163730,16 @@
       {
         "source": "agent-infrastructure",
         "target": "cloudflare-os",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "prime-agent",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "recursive-language-models",
         "kind": "wiki"
       },
       {
@@ -164263,6 +165165,16 @@
       {
         "source": "austin-ai-club-august-5-2026",
         "target": "cloudflare-os",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
+        "target": "prime-agent",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
+        "target": "recursive-language-models",
         "kind": "topic"
       },
       {
@@ -166293,6 +167205,16 @@
       {
         "source": "coding-agents",
         "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "coding-agents",
+        "target": "prime-agent",
+        "kind": "wiki"
+      },
+      {
+        "source": "coding-agents",
+        "target": "recursive-language-models",
         "kind": "wiki"
       },
       {
@@ -169551,6 +170473,31 @@
         "kind": "wiki"
       },
       {
+        "source": "prime-agent",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "prime-agent",
+        "target": "recursive-language-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "prime-agent",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "prime-agent",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "prime-agent",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
         "source": "prismml",
         "target": "austin-ai-club-may-27-2026",
         "kind": "topic"
@@ -169833,6 +170780,36 @@
       {
         "source": "react-native-executorch",
         "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "prime-agent",
+        "kind": "wiki"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "inference-optimization",
+        "kind": "wiki"
+      },
+      {
+        "source": "recursive-language-models",
+        "target": "agent-cost-controls",
         "kind": "wiki"
       },
       {
@@ -170508,12 +171485,12 @@
     ]
   },
   "stats": {
-    "pageCount": 144,
-    "topicCount": 207,
+    "pageCount": 146,
+    "topicCount": 208,
     "rawPageCount": 0,
-    "linkCount": 1560,
+    "linkCount": 1577,
     "sourceRecordCount": 10,
-    "sourceLinkCount": 921,
+    "sourceLinkCount": 927,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-05"
   }

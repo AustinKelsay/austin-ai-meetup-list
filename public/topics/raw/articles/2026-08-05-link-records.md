@@ -35,6 +35,38 @@ sources: []
   - Access: 2026-08-05
   - Notes: Workers lead frames Gadgets as Sandstorm Grains, per-instance ACL, and promptable per-user code forks; qualify absolute security claims.
 
+### Prime Agent is an open RLM coding harness that can rewrite itself
+- Repo: https://github.com/PrimeIntellect-ai/prime-agent
+  - Title: "PrimeIntellect-ai/prime-agent"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Open-source coding / long-horizon agent built on RLM REPL + Continual Harness self-modification; treat self-improving claims as vendor-framed.
+- Source: https://www.primeintellect.ai/blog/prime-agent
+  - Title: "Prime Agent"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Launch writeup for Prime Agent as an RLM coding harness with recursive sub-calls and continual self-edit loops.
+- Post: https://x.com/PrimeIntellect/status/2085086999267144083
+  - Title: "Prime Intellect launches Prime Agent"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Launch post for the open RLM agent; good room entry before the 101 source chain.
+- Source: https://alexzhang13.github.io/blog/2025/rlm/
+  - Title: "Recursive Language Models"
+  - Type: Author explainer
+  - Access: 2026-08-05
+  - Notes: Primary RLM 101: context as REPL variable + recursive sub-LM calls instead of stuffing longer windows.
+- Source: https://arxiv.org/abs/2512.24601
+  - Title: "Recursive Language Models (arXiv:2512.24601)"
+  - Type: Research preprint
+  - Access: 2026-08-05
+  - Notes: Paper backing the RLM inference pattern; pair with Zhang's blog for room briefing.
+- Source: https://www.primeintellect.ai/blog/rlm
+  - Title: "Recursive Language Models"
+  - Type: Company explainer
+  - Access: 2026-08-05
+  - Notes: Prime Intellect's own RLM framing bridging the paper to Prime Agent product claims.
+
 ## Models & Research
 
 ### Closed model releases

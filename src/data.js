@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on Uncle Bob's constraints pitch then Cloudflare OS Gadgets, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
+        "Open on Uncle Bob's constraints pitch, Cloudflare OS Gadgets, then Prime Agent / RLM, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -106,6 +106,25 @@ export const meetups = [
             linkPair: ["https://blog.cloudflare.com/cloudflare-os/"],
             notes:
               "Pairs with Uncle Bob: constraints via platform sandbox rather than reading agent code. Early-access OSS; security claims are author/vendor-framed.",
+          },
+          {
+            title: "Prime Agent is an open RLM coding harness that can rewrite itself",
+            description:
+              "Prime Agent is Prime Intellect's open-source coding / long-horizon agent: a persistent IPython REPL where context lives as a variable, sub-agents are await rlm(...) calls, and a Continual Harness lets the agent CRUD its own prompts, skills, memory, and sub-agents. For an RLM 101, start with Alex Zhang's explainer, then the paper, then Prime Intellect's own RLM writeup.",
+            chip: "coding agents",
+            href: "https://github.com/PrimeIntellect-ai/prime-agent",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/PrimeIntellect/status/2085086999267144083?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://www.primeintellect.ai/blog/prime-agent",
+              "https://alexzhang13.github.io/blog/2025/rlm/",
+              "https://arxiv.org/abs/2512.24601",
+              "https://www.primeintellect.ai/blog/rlm",
+            ],
+            notes:
+              "RLM 101 order for the room: Zhang blog → arXiv → Prime Intellect RLM post → Prime Agent launch. Self-improving harness claims are vendor-framed.",
           },
         ],
       },
