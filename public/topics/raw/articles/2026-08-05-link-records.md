@@ -189,6 +189,21 @@ sources: []
   - Type: Technical explainer
   - Access: 2026-08-05
   - Notes: Useful caveat writeup: full-model disk reads per token, shard disk usage, and why MoE expert streaming shrinks VRAM further than dense layers.
+- Post: https://x.com/simplifyinAI/status/2016842551492288686
+  - Title: "AirLLM layer-wise inference on 4GB / 405B on 8GB"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: High-engagement (~5.8k likes) layer-wise AirLLM garnish; frames the classic 70B/4GB claim rather than the July Kimi K3 v3.1 delta.
+- Post: https://x.com/thisguyknowsai/status/2026597670329135505
+  - Title: "AirLLM 70B on 4GB GPU"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: Mid-engagement (~462 likes) companion explaining no-quantization layer streaming.
+- Post: https://x.com/dunik_7/status/2077344313399283931
+  - Title: "AirLLM 405B on an 8GB card"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: July 15 post (~266 likes / ~151k views) with the 405B-on-8GB framing; most recent durable AirLLM social hit found.
 
 ### TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon
 - Repo: https://github.com/drumih/turbo-fieldfare
@@ -249,19 +264,7 @@ sources: []
   - Title: "karpathy.ai/lotr-movie"
   - Type: Playable demo / source host
   - Access: 2026-08-04
-  - Notes: Browser-playable Three.js world Karpathy published from the Opus 5 experiment.
-- Post: https://x.com/karpathy/status/2083749667410727319
-  - Title: "Opus 5 Lord of the Rings Three.js experiment"
-  - Type: Researcher X post
-  - Access: 2026-08-04
-  - Notes: Karpathy describes the 1M-token / ~$10 Opus 5 experiment producing ~5,500 lines of procedural Three.js code and the visual self-audit weakness.
-- Post: https://x.com/karpathy/status/2083948654377996480
-  - Title: "Karpathy on pelican-on-a-bicycle follow-up"
-  - Type: Researcher X post
-  - Access: 2026-08-05
-  - Notes: Follow-up pointing at Simon Willison's pelican-on-a-bicycle eval writeup and publishing playable source for the Middle-earth demo.
-
-## Security
+  - Notes: Browser-playable Three.js world Karpathy published from the Opus 5 experiment. Original X posts no longer embed because @karpathy is locked to private followers-only.
 
 ### Hugging Face turns the July agent intrusion into a playable timeline
 - Source: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
@@ -284,6 +287,21 @@ sources: []
   - Type: Official OpenAI disclosure
   - Access: 2026-08-05
   - Notes: OpenAI attribution that GPT-5.6 Sol plus a stronger pre-release model with reduced cyber refusals drove the eval escape; keep as attribution, not HF's technique paper.
+- Post: https://x.com/clementdelangue/status/2082201245813514613
+  - Title: "Clem Delangue on HF technical timeline and interactive replay"
+  - Type: Official X post
+  - Access: 2026-08-05
+  - Notes: HF CEO announcement of the full technical timeline, interactive replay, and open-model forensics (~5.6k likes).
+- Post: https://x.com/kimmonismus/status/2082232405629235649
+  - Title: "Reaction to HF forensic depth"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: High-engagement (~5.3k likes) reaction framing how deep/persistent the agent campaign was beyond the known sandbox escape.
+- Post: https://x.com/simonw/status/2082205602772844978
+  - Title: "Simon Willison on HF technical timeline open questions"
+  - Type: Practitioner X post
+  - Access: 2026-08-05
+  - Notes: Builder reaction highlighting remaining questions about the third-party launchpad sandbox.
 
 ### Bitcoin red team runs on Kimi K3 while OpenAI sits out
 - Post: https://x.com/Rob1Ham/status/2083546478409056301

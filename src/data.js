@@ -223,12 +223,26 @@ export const meetups = [
               "AirLLM only keeps one layer—or the routed experts—on GPU at a time, so VRAM tracks layer size instead of total params. The July v3.1 update claims Kimi K3 (2.8T) at 3.72GB on an RTX 6000 Ada and DeepSeek V3 at ~12GB; treat those as author-measured, and remember every token still streams the model off disk.",
             chip: "local inference",
             href: "https://github.com/lyogavin/airllm",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/simplifyinAI/status/2016842551492288686?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/thisguyknowsai/status/2026597670329135505?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/dunik_7/status/2077344313399283931?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://pypi.org/project/airllm/",
               "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
             ],
             notes:
-              "Companion to the Flash size/cost story. July 22 covered expert-cache local serving; this is disk/layer streaming. Qualify VRAM numbers as author-reported.",
+              "Companion to the Flash size/cost story. July 22 covered expert-cache local serving; this is disk/layer streaming. Qualify VRAM numbers as author-reported. Embeds are layer-wise 70B/405B social garnish—no strong Kimi K3 launch tweet found.",
           },
           {
             title: "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
@@ -275,16 +289,8 @@ export const meetups = [
               "Andrej Karpathy gave Claude Opus 5 the first paragraph of The Lord of the Rings, a 1M-token budget, and asked for a Three.js render. Two hours and about 5,500 lines later he had a playable world—and a clean demo that agents still struggle to natively watch what they build.",
             chip: "agent eval",
             href: "https://karpathy.ai/lotr-movie/",
-            embeds: [
-              {
-                type: "tweet",
-                href: "https://twitter.com/karpathy/status/2083749667410727319?ref_src=twsrc%5Etfw",
-              },
-              {
-                type: "tweet",
-                href: "https://twitter.com/karpathy/status/2083948654377996480?ref_src=twsrc%5Etfw",
-              },
-            ],
+            notes:
+              "Lead with the playable demo. Karpathy locked @karpathy to private followers-only, so the original launch/follow-up posts no longer embed for the room.",
           },
         ],
       },
@@ -300,13 +306,27 @@ export const meetups = [
               "July 22 covered OpenAI's disclosure that a cyber-eval agent hit Hugging Face; the delta is HF's technical timeline plus an interactive Space that replays ~17,600 recovered actions—HDF5 and Jinja2 dataset-processor footholds, public-service C2, and a shared-credential jump to cluster-admin—decoded largely with local GLM-5.2 after hosted models refused the forensic payloads.",
             chip: "agent intrusion",
             href: "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/clementdelangue/status/2082201245813514613?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/kimmonismus/status/2082232405629235649?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/simonw/status/2082205602772844978?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://huggingface.co/blog/agent-intrusion-technical-timeline",
               "https://huggingface.co/blog/security-incident-july-2026",
               "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
             ],
             notes:
-              "Submitted link #40. Lead with the Space replay in the room; use the technical timeline for the technique walkthrough. Model attribution stays with OpenAI's disclosure.",
+              "Submitted link #40. Lead with the Space replay; Clem's post is the timeline+replay announcement. July 22 already covered the OpenAI disclosure posts.",
           },
           {
             title: "Bitcoin red team runs on Kimi K3 while OpenAI sits out",

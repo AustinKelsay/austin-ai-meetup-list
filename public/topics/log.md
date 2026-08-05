@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | HF intrusion embeds; Karpathy private-account fix; AirLLM garnish
+
+- Wired Clem Delangue / kimmonismus / Simon Willison posts onto the HF agent-intrusion Topic.
+- Removed Karpathy LOTR X embeds after @karpathy went private (widgets cannot load protected posts); kept the playable demo as the artifact.
+- Added AirLLM layer-wise social garnish (simplifyinAI / thisguyknowsai / dunik_7).
+
 ## [2026-08-05] update | Issues #40/#41 into August 5 board
 
 - Added **Hugging Face turns the July agent intrusion into a playable timeline** as the Security lead Topic: interactive Space replay plus technical timeline framed as the delta on the July 22 disclosure.
