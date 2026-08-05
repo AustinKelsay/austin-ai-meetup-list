@@ -264,7 +264,17 @@ sources: []
   - Title: "karpathy.ai/lotr-movie"
   - Type: Playable demo / source host
   - Access: 2026-08-04
-  - Notes: Browser-playable Three.js world Karpathy published from the Opus 5 experiment. Original X posts no longer embed because @karpathy is locked to private followers-only.
+  - Notes: Browser-playable Three.js world Karpathy published from the Opus 5 experiment.
+- Post: https://x.com/karpathy/status/2083749667410727319
+  - Title: "Opus 5 Lord of the Rings Three.js experiment"
+  - Type: Researcher X post
+  - Access: 2026-08-05
+  - Notes: Launch post for the 1M-token / ~$10 Opus 5 experiment; kept as a link card only because @karpathy is private and embeds fail.
+- Post: https://x.com/karpathy/status/2083948654377996480
+  - Title: "Karpathy on pelican-on-a-bicycle follow-up"
+  - Type: Researcher X post
+  - Access: 2026-08-05
+  - Notes: Follow-up pointing at Simon Willison's pelican writeup and the playable Middle-earth demo; same private-account embed limit.
 
 ### Hugging Face turns the July agent intrusion into a playable timeline
 - Source: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html

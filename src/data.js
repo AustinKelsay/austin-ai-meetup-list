@@ -289,8 +289,13 @@ export const meetups = [
               "Andrej Karpathy gave Claude Opus 5 the first paragraph of The Lord of the Rings, a 1M-token budget, and asked for a Three.js render. Two hours and about 5,500 lines later he had a playable world—and a clean demo that agents still struggle to natively watch what they build.",
             chip: "agent eval",
             href: "https://karpathy.ai/lotr-movie/",
+            suppressXEmbeds: true,
+            linkPair: [
+              "https://x.com/karpathy/status/2083749667410727319",
+              "https://x.com/karpathy/status/2083948654377996480",
+            ],
             notes:
-              "Lead with the playable demo. Karpathy locked @karpathy to private followers-only, so the original launch/follow-up posts no longer embed for the room.",
+              "Lead with the playable demo. @karpathy is private, so these posts are link cards only—widgets cannot embed protected posts.",
           },
         ],
       },
