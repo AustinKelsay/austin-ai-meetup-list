@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | August 5 final Mentions/Related gardening
+
+- Linked AISI's open-source PR to [[Supply Chain Security]] and DeepSeek's cost foil to [[Claude Fable/Mythos]]; filled Supply Chain and Agent Cost Mentions for AISI / MAI-Cyber.
+- Reciprocated Related for Fish Audio, MiniMax, AMD, Microsoft, Liquid AI, Prime Agent, and Cloudflare OS across Models, Open Models, Security, Agent Security, Agent Infrastructure, and Agent Cost hubs.
+
 ## [2026-08-05] update | MiniMax H3, Instella, Fish Audio, MAI-Cyber
 
 - Enhanced Closed/Open roundups with MiniMax H3 (partial weights), AMD Instella-MoE (full training stack), and Nanbeige arXiv + reaction.

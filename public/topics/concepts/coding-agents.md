@@ -29,6 +29,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 - [[Prime Agent]]
 - [[Recursive Language Models]]
 - [[Meta Muse]]
+- [[Cloudflare OS]]
 - [[Agent Cost Controls]]
 - [[AI Benchmarks & Evals]]
 - [[OpenClaw]]

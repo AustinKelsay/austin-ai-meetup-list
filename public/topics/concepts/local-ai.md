@@ -27,6 +27,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 - [[AirLLM]]
 - [[TurboFieldfare]]
+- [[Liquid AI]]
 - [[Privacy Tooling]]
 - [[Open Models]]
 - [[Compute Strategy]]

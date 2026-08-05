@@ -13,7 +13,7 @@ Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, u
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active**, **Fish Audio raises $52M and ships S2.1 Pro voice**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
+- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active**, **Fish Audio raises $52M and ships S2.1 Pro voice**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
 - [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.
 - [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.
@@ -29,5 +29,6 @@ Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, u
 - [[Anthropic]]
 - [[Claude Sonnet 5]]
 - [[Cursor]]
+- [[Fish Audio]]
 - [[Microsoft]]
 - [[OpenClaw]]

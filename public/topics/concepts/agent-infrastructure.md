@@ -32,6 +32,8 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 - [[Recursive Language Models]]
 - [[Meta Muse]]
 - [[OpenAI]]
+- [[Microsoft]]
+- [[Fish Audio]]
 - [[Agent Payments]]
 - [[OpenAgents]]
 - [[OpenRouter]]

@@ -34,5 +34,7 @@ Security is the Austin AI Club track for attacks, abuse patterns, prompt injecti
 - [[Coding Agents]]
 - [[OpenAI]]
 - [[Anthropic]]
+- [[Microsoft]]
+- [[Cloudflare OS]]
 - [[HARC]]
 - [[GLM]]
