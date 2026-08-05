@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:23:59.143Z",
+  "generatedAt": "2026-08-05T20:27:32.751Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -24,7 +24,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-09",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.",
       "rawHref": "/topics/concepts/agent-cost-controls.md",
       "relativePath": "concepts/agent-cost-controls.md",
@@ -291,6 +291,62 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/Hesamation/status/2084658830990880896",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
@@ -312,7 +368,7 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Cost Controls\n\nAgent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **Anthropic cuts the programmatic subsidy**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Payments]]\n- [[Coding Agents]]\n- [[Anthropic]]\n- [[Claude Sonnet 5]]\n- [[Cursor]]\n- [[Microsoft]]\n- [[OpenClaw]]"
+      "bodyMarkdown": "# Agent Cost Controls\n\nAgent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **Anthropic cuts the programmatic subsidy**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Payments]]\n- [[Coding Agents]]\n- [[Anthropic]]\n- [[Claude Sonnet 5]]\n- [[Cursor]]\n- [[Microsoft]]\n- [[OpenClaw]]"
     },
     {
       "id": "agent-infrastructure",
@@ -2094,17 +2150,18 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-24",
+      "updated": "2026-08-05",
       "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
       "rawHref": "/topics/concepts/agent-security.md",
       "relativePath": "concepts/agent-security.md",
@@ -2113,9 +2170,12 @@
         "ai-saas-supply-chain",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "cloudflare-os",
+        "security",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -2123,6 +2183,7 @@
         "ai-governance",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -2225,6 +2286,76 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/security-incident-july-2026",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
@@ -2353,7 +2484,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
     },
     {
       "id": "ai-benchmarks-evals",
@@ -5485,6 +5616,7 @@
         "austin-ai-club-august-5-2026",
         "inference-optimization",
         "local-ai",
+        "models-research",
         "turbofieldfare"
       ],
       "referencedTopicSources": [
@@ -10590,12 +10722,13 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "agent-security",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-mathematics",
@@ -10636,6 +10769,7 @@
       "backlinkIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "agent-security",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-mathematics",
@@ -22222,6 +22356,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "agent-security",
         "austin-ai-club-august-5-2026"
       ],
       "referencedTopicSources": [
@@ -27755,6 +27890,7 @@
         "glm",
         "inference-optimization",
         "model-distillation",
+        "models-research",
         "open-models",
         "zai"
       ],
@@ -31062,6 +31198,83 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://developer.ant-ling.com/en/docs/models/ling",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AntLingAGI/status/2080351022028095681",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/poolside/Laguna-S-2.1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -31251,7 +31464,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
+      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
     },
     {
       "id": "genesis-mission",
@@ -35007,6 +35220,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "recursive-language-models",
         "speculative-decoding",
         "tmax",
         "turbofieldfare",
@@ -36773,7 +36987,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "inkling",
@@ -42204,7 +42418,8 @@
         "big-tech-moves",
         "coding-agents",
         "meta",
-        "models-research"
+        "models-research",
+        "prime-agent"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -42217,7 +42432,8 @@
         "big-tech-moves",
         "coding-agents",
         "meta",
-        "models-research"
+        "models-research",
+        "prime-agent"
       ],
       "referencedTopicSources": [
         {
@@ -42543,7 +42759,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Meta Muse\n\nMeta Muse collects Meta's Muse Spark / Muse Image media-model thread and the Muse Code terminal coding agent that ships with Muse Spark 1.2—Meta's closed, non-Llama developer surface.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Meta ships Muse Code with co-trained Muse Spark 1.2** and **Closed model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Meta]]\n- [[Coding Agents]]\n- [[Models & Research]]\n- [[Agent Infrastructure]]\n- [[AI Benchmarks & Evals]]\n- [[Big Tech Moves]]"
+      "bodyMarkdown": "# Meta Muse\n\nMeta Muse collects Meta's Muse Spark / Muse Image media-model thread and the Muse Code terminal coding agent that ships with Muse Spark 1.2—Meta's closed, non-Llama developer surface.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Meta ships Muse Code with co-trained Muse Spark 1.2** and **Closed model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Meta]]\n- [[Coding Agents]]\n- [[Models & Research]]\n- [[Agent Infrastructure]]\n- [[Prime Agent]]\n- [[AI Benchmarks & Evals]]\n- [[Big Tech Moves]]"
     },
     {
       "id": "microsoft",
@@ -45471,7 +45687,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Models & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.",
       "rawHref": "/topics/concepts/models-research.md",
       "relativePath": "concepts/models-research.md",
@@ -45479,6 +45695,7 @@
         "ai-benchmarks-evals",
         "ai-mathematics",
         "ai-signal-discovery",
+        "airllm",
         "alphaevolve",
         "astra",
         "austin-ai-club-april-1-2026",
@@ -45499,6 +45716,7 @@
         "cohere-transcribe-arabic",
         "compute-strategy",
         "cwip",
+        "deepseek",
         "diffusiongemma",
         "flux-3",
         "gemini-omni-flash",
@@ -45523,6 +45741,7 @@
         "speculative-decoding",
         "swe-17",
         "tmax",
+        "turbofieldfare",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -48998,7 +49217,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -49022,7 +49241,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Moonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.",
       "rawHref": "/topics/entities/moonshot-ai.md",
       "relativePath": "entities/moonshot-ai.md",
@@ -49095,6 +49314,48 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/lyogavin/airllm",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://pypi.org/project/airllm/",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
@@ -49685,7 +49946,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Moonshot AI\n\nMoonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[Agent Cost Controls]]\n- [[Kimi]]"
+      "bodyMarkdown": "# Moonshot AI\n\nMoonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[Agent Cost Controls]]\n- [[Kimi]]"
     },
     {
       "id": "nemotron",
@@ -59254,6 +59515,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "meta-muse",
         "open-models",
         "recursive-language-models"
       ],
@@ -59262,6 +59524,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "meta-muse",
         "recursive-language-models"
       ],
       "referencedTopicSources": [
@@ -59308,7 +59571,7 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]"
+      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Meta Muse]]\n- [[Open Models]]"
     },
     {
       "id": "prismml",
@@ -61292,6 +61555,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "inference-optimization",
         "prime-agent"
       ],
       "referencedTopicSources": [
@@ -61589,6 +61853,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-security",
         "ai-governance",
         "andrej-karpathy",
         "antares",
@@ -64464,7 +64729,8 @@
         "austin-ai-club-august-5-2026",
         "gemma",
         "inference-optimization",
-        "local-ai"
+        "local-ai",
+        "models-research"
       ],
       "referencedTopicSources": [
         {
@@ -66456,7 +66722,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-09",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Agent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.",
       "rawHref": "/topics/concepts/agent-cost-controls.md",
       "relativePath": "concepts/agent-cost-controls.md",
@@ -66723,6 +66989,62 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2083084419515220191",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/SciTechera/status/2083806034661884030",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/Hesamation/status/2084658830990880896",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/pricing",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://arxiv.org/abs/2606.19348",
+          "title": "DeepSeek V4 Flash 0731 is absurd for 13B active",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
           "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
           "section": "Big Tech Moves",
@@ -66744,7 +67066,7 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Cost Controls\n\nAgent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **Anthropic cuts the programmatic subsidy**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Payments]]\n- [[Coding Agents]]\n- [[Anthropic]]\n- [[Claude Sonnet 5]]\n- [[Cursor]]\n- [[Microsoft]]\n- [[OpenClaw]]"
+      "bodyMarkdown": "# Agent Cost Controls\n\nAgent Cost Controls covers budgets, rate limits, per-user caps, model routing, usage observability, and procurement discipline for token-hungry agentic AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore** and **GPT-5.6 ships the multi-agent runtime, not just the model**.\n- [[Austin AI Club - July 8, 2026]]: **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??** and **Anthropic cuts the programmatic subsidy**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Agent Payments]]\n- [[Coding Agents]]\n- [[Anthropic]]\n- [[Claude Sonnet 5]]\n- [[Cursor]]\n- [[Microsoft]]\n- [[OpenClaw]]"
     },
     "agent-infrastructure": {
       "id": "agent-infrastructure",
@@ -68526,17 +68848,18 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-24",
+      "updated": "2026-08-05",
       "excerpt": "Agent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.",
       "rawHref": "/topics/concepts/agent-security.md",
       "relativePath": "concepts/agent-security.md",
@@ -68545,9 +68868,12 @@
         "ai-saas-supply-chain",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "cloudflare-os",
+        "security",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -68555,6 +68881,7 @@
         "ai-governance",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-5-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
@@ -68657,6 +68984,76 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://github.com/cloudflare/cloudflare-os",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://blog.cloudflare.com/cloudflare-os/",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/KentonVarda/status/2084990137180590572",
+          "title": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/blog/security-incident-july-2026",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/clementdelangue/status/2082201245813514613",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/kimmonismus/status/2082232405629235649",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simonw/status/2082205602772844978",
+          "title": "Hugging Face turns the July agent intrusion into a playable timeline",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://agentriot.com/news/ai-security/ai-agent-security-may-2026",
@@ -68785,7 +69182,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets** and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Security]]"
     },
     "ai-benchmarks-evals": {
       "id": "ai-benchmarks-evals",
@@ -71917,6 +72314,7 @@
         "austin-ai-club-august-5-2026",
         "inference-optimization",
         "local-ai",
+        "models-research",
         "turbofieldfare"
       ],
       "referencedTopicSources": [
@@ -77022,12 +77420,13 @@
       ],
       "created": "2026-08-04",
       "updated": "2026-08-05",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Models & Research, Open Models, Local AI, Physical AI, AI Mathematics, AI Benchmarks & Evals, Inference Optimization, Security, Agent Security, Supply Chain Security, Agent Cost Controls, Big Tech Moves, AI Governance, OpenAI, GPT-5.6, Astra, Anthropic, Andrej Karpathy, Moonshot AI, Kimi, DeepSeek, AirLLM, TurboFieldfare, Gemma, FLUX 3, Ling-3.0-flash, Laguna S 2.1, Pokee-Isaac, Prem, GLM, Cloudflare OS, Prime Agent, Recursive Language Models, Meta, Meta Muse, Google.",
       "rawHref": "/topics/2026-08-05.md",
       "relativePath": "2026-08-05.md",
       "outgoingIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "agent-security",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-mathematics",
@@ -77068,6 +77467,7 @@
       "backlinkIds": [
         "agent-cost-controls",
         "agent-infrastructure",
+        "agent-security",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-mathematics",
@@ -88654,6 +89054,7 @@
       "unresolvedLinks": [],
       "backlinkIds": [
         "agent-infrastructure",
+        "agent-security",
         "austin-ai-club-august-5-2026"
       ],
       "referencedTopicSources": [
@@ -94187,6 +94588,7 @@
         "glm",
         "inference-optimization",
         "model-distillation",
+        "models-research",
         "open-models",
         "zai"
       ],
@@ -97494,6 +97896,83 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://developer.ant-ling.com/en/docs/models/ling",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/AntLingAGI/status/2080351022028095681",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/poolside/Laguna-S-2.1",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/poolsideai/status/2079613777343848465",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/hunkims/status/2079949203615453414",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/LocalAiCherry/status/2082461699622228141",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -97683,7 +98162,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
+      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
     },
     "genesis-mission": {
       "id": "genesis-mission",
@@ -101439,6 +101918,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "recursive-language-models",
         "speculative-decoding",
         "tmax",
         "turbofieldfare",
@@ -103205,7 +103685,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "inkling": {
       "id": "inkling",
@@ -108636,7 +109116,8 @@
         "big-tech-moves",
         "coding-agents",
         "meta",
-        "models-research"
+        "models-research",
+        "prime-agent"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -108649,7 +109130,8 @@
         "big-tech-moves",
         "coding-agents",
         "meta",
-        "models-research"
+        "models-research",
+        "prime-agent"
       ],
       "referencedTopicSources": [
         {
@@ -108975,7 +109457,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Meta Muse\n\nMeta Muse collects Meta's Muse Spark / Muse Image media-model thread and the Muse Code terminal coding agent that ships with Muse Spark 1.2—Meta's closed, non-Llama developer surface.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Meta ships Muse Code with co-trained Muse Spark 1.2** and **Closed model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Meta]]\n- [[Coding Agents]]\n- [[Models & Research]]\n- [[Agent Infrastructure]]\n- [[AI Benchmarks & Evals]]\n- [[Big Tech Moves]]"
+      "bodyMarkdown": "# Meta Muse\n\nMeta Muse collects Meta's Muse Spark / Muse Image media-model thread and the Muse Code terminal coding agent that ships with Muse Spark 1.2—Meta's closed, non-Llama developer surface.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Meta ships Muse Code with co-trained Muse Spark 1.2** and **Closed model releases**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Meta]]\n- [[Coding Agents]]\n- [[Models & Research]]\n- [[Agent Infrastructure]]\n- [[Prime Agent]]\n- [[AI Benchmarks & Evals]]\n- [[Big Tech Moves]]"
     },
     "microsoft": {
       "id": "microsoft",
@@ -111903,7 +112385,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Models & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.",
       "rawHref": "/topics/concepts/models-research.md",
       "relativePath": "concepts/models-research.md",
@@ -111911,6 +112393,7 @@
         "ai-benchmarks-evals",
         "ai-mathematics",
         "ai-signal-discovery",
+        "airllm",
         "alphaevolve",
         "astra",
         "austin-ai-club-april-1-2026",
@@ -111931,6 +112414,7 @@
         "cohere-transcribe-arabic",
         "compute-strategy",
         "cwip",
+        "deepseek",
         "diffusiongemma",
         "flux-3",
         "gemini-omni-flash",
@@ -111955,6 +112439,7 @@
         "speculative-decoding",
         "swe-17",
         "tmax",
+        "turbofieldfare",
         "world-models"
       ],
       "unresolvedLinks": [],
@@ -115430,7 +115915,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -115454,7 +115939,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "excerpt": "Moonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.",
       "rawHref": "/topics/entities/moonshot-ai.md",
       "relativePath": "entities/moonshot-ai.md",
@@ -115527,6 +116012,48 @@
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-march-18-2026",
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
+        },
+        {
+          "href": "https://github.com/lyogavin/airllm",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://pypi.org/project/airllm/",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/simplifyinAI/status/2016842551492288686",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/thisguyknowsai/status/2026597670329135505",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
+        },
+        {
+          "href": "https://x.com/dunik_7/status/2077344313399283931",
+          "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-5-2026",
+          "sourcePageTitle": "Austin AI Club - August 5, 2026"
         },
         {
           "href": "https://x.com/Rob1Ham/status/2083546478409056301",
@@ -116117,7 +116644,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Moonshot AI\n\nMoonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[Agent Cost Controls]]\n- [[Kimi]]"
+      "bodyMarkdown": "# Moonshot AI\n\nMoonshot AI is a recurring Austin AI Club entity for Kimi model releases, coding-agent workflows, and open-weight frontier competition.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[Agent Cost Controls]]\n- [[Kimi]]"
     },
     "nemotron": {
       "id": "nemotron",
@@ -125686,6 +126213,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "meta-muse",
         "open-models",
         "recursive-language-models"
       ],
@@ -125694,6 +126222,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "meta-muse",
         "recursive-language-models"
       ],
       "referencedTopicSources": [
@@ -125740,7 +126269,7 @@
           "sourcePageTitle": "Austin AI Club - August 5, 2026"
         }
       ],
-      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]"
+      "bodyMarkdown": "# Prime Agent\n\nPrime Agent is Prime Intellect's open-source coding and long-horizon agent harness built around Recursive Language Models (context-as-variable + recursive sub-calls) and a Continual Harness that can CRUD its own prompts, skills, memory, and sub-agents.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.\n\n## Related\n\n- [[Recursive Language Models]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Meta Muse]]\n- [[Open Models]]"
     },
     "prismml": {
       "id": "prismml",
@@ -127724,6 +128253,7 @@
         "agent-infrastructure",
         "austin-ai-club-august-5-2026",
         "coding-agents",
+        "inference-optimization",
         "prime-agent"
       ],
       "referencedTopicSources": [
@@ -128021,6 +128551,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-security",
         "ai-governance",
         "andrej-karpathy",
         "antares",
@@ -130896,7 +131427,8 @@
         "austin-ai-club-august-5-2026",
         "gemma",
         "inference-optimization",
-        "local-ai"
+        "local-ai",
+        "models-research"
       ],
       "referencedTopicSources": [
         {
@@ -132899,16 +133431,18 @@
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "agent-security",
         "cloudflare-os",
         "coding-agents"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Agent Security",
         "Cloudflare OS",
         "Coding Agents"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Agent Security Cloudflare OS Coding Agents"
     },
     {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-meta-ships-muse-code-with-co-trained-muse-spark-12",
@@ -133232,7 +133766,8 @@
         "inference-optimization",
         "kimi",
         "local-ai",
-        "models-research"
+        "models-research",
+        "moonshot-ai"
       ],
       "wikiTitles": [
         "AirLLM",
@@ -133240,10 +133775,11 @@
         "Inference Optimization",
         "Kimi",
         "Local AI",
-        "Models & Research"
+        "Models & Research",
+        "Moonshot AI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
+      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research Moonshot AI"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -133448,15 +133984,17 @@
         }
       ],
       "wikiIds": [
+        "agent-cost-controls",
         "deepseek",
         "models-research"
       ],
       "wikiTitles": [
+        "Agent Cost Controls",
         "DeepSeek",
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 DeepSeek Models & Research"
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -133587,6 +134125,7 @@
       ],
       "wikiIds": [
         "coding-agents",
+        "gemma",
         "laguna-s-21",
         "ling-30-flash",
         "local-ai",
@@ -133595,6 +134134,7 @@
       ],
       "wikiTitles": [
         "Coding Agents",
+        "Gemma",
         "Laguna S 2.1",
         "Ling-3.0-flash",
         "Local AI",
@@ -133602,7 +134142,7 @@
         "Open Models"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Gemma Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
     },
     {
       "id": "austin-ai-club-august-5-2026-models-research-pokee-isaac-claims-10m-context-on-a-28b-single-gpu-agent",
@@ -133826,17 +134366,19 @@
         }
       ],
       "wikiIds": [
+        "agent-security",
         "glm",
         "openai",
         "security"
       ],
       "wikiTitles": [
+        "Agent Security",
         "GLM",
         "OpenAI",
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 GLM OpenAI Security"
+      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 Agent Security GLM OpenAI Security"
     },
     {
       "id": "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs",
@@ -144762,16 +145304,18 @@
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "agent-security",
         "cloudflare-os",
         "coding-agents"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Agent Security",
         "Cloudflare OS",
         "Coding Agents"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Cloudflare OS Coding Agents"
+      "searchText": "Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets Agent Infrastructure Austin AI Club - August 5, 2026 2026-08-05 https://github.com/cloudflare/cloudflare-os https://blog.cloudflare.com/cloudflare-os/ https://x.com/KentonVarda/status/2084990137180590572 Agent Infrastructure Agent Security Cloudflare OS Coding Agents"
     },
     "austin-ai-club-august-5-2026-agent-infrastructure-meta-ships-muse-code-with-co-trained-muse-spark-12": {
       "id": "austin-ai-club-august-5-2026-agent-infrastructure-meta-ships-muse-code-with-co-trained-muse-spark-12",
@@ -145095,7 +145639,8 @@
         "inference-optimization",
         "kimi",
         "local-ai",
-        "models-research"
+        "models-research",
+        "moonshot-ai"
       ],
       "wikiTitles": [
         "AirLLM",
@@ -145103,10 +145648,11 @@
         "Inference Optimization",
         "Kimi",
         "Local AI",
-        "Models & Research"
+        "Models & Research",
+        "Moonshot AI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research"
+      "searchText": "AirLLM streams giant MoEs onto hobbyist VRAM Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://github.com/lyogavin/airllm https://pypi.org/project/airllm/ https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha https://x.com/simplifyinAI/status/2016842551492288686 https://x.com/thisguyknowsai/status/2026597670329135505 https://x.com/dunik_7/status/2077344313399283931 AirLLM DeepSeek Inference Optimization Kimi Local AI Models & Research Moonshot AI"
     },
     "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k": {
       "id": "austin-ai-club-august-5-2026-models-research-astra-turns-open-math-problems-into-lean-certificates-for-about-2k",
@@ -145311,15 +145857,17 @@
         }
       ],
       "wikiIds": [
+        "agent-cost-controls",
         "deepseek",
         "models-research"
       ],
       "wikiTitles": [
+        "Agent Cost Controls",
         "DeepSeek",
         "Models & Research"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 DeepSeek Models & Research"
+      "searchText": "DeepSeek V4 Flash 0731 is absurd for 13B active Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://x.com/deepseek_ai/status/2083084415157022911 https://x.com/deepseek_ai/status/2083084419515220191 https://x.com/SciTechera/status/2083806034661884030 https://x.com/Hesamation/status/2084658830990880896 https://api-docs.deepseek.com/quick_start/pricing https://api-docs.deepseek.com/quick_start/agent_integrations/codex https://arxiv.org/abs/2606.19348 Agent Cost Controls DeepSeek Models & Research"
     },
     "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world": {
       "id": "austin-ai-club-august-5-2026-models-research-karpathy-replaces-pelican-svg-with-a-10-middle-earth-world",
@@ -145450,6 +145998,7 @@
       ],
       "wikiIds": [
         "coding-agents",
+        "gemma",
         "laguna-s-21",
         "ling-30-flash",
         "local-ai",
@@ -145458,6 +146007,7 @@
       ],
       "wikiTitles": [
         "Coding Agents",
+        "Gemma",
         "Laguna S 2.1",
         "Ling-3.0-flash",
         "Local AI",
@@ -145465,7 +146015,7 @@
         "Open Models"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 5, 2026 2026-08-05 https://developer.ant-ling.com/en/docs/models/ling https://huggingface.co/inclusionAI/Ling-3.0-flash https://x.com/AntLingAGI/status/2080351022028095681 https://poolside.ai/blog/introducing-laguna-s-2-1 https://huggingface.co/poolside/Laguna-S-2.1 https://x.com/poolsideai/status/2079613777343848465 https://huggingface.co/Nanbeige/Nanbeige4.2-3B https://huggingface.co/upstage/Solar-Open2-250B https://x.com/hunkims/status/2079949203615453414 https://huggingface.co/shafire/Zero-Gemma4-E4B-OpenZero-GGUF https://x.com/LocalAiCherry/status/2082461699622228141 Coding Agents Gemma Laguna S 2.1 Ling-3.0-flash Local AI Models & Research Open Models"
     },
     "austin-ai-club-august-5-2026-models-research-pokee-isaac-claims-10m-context-on-a-28b-single-gpu-agent": {
       "id": "austin-ai-club-august-5-2026-models-research-pokee-isaac-claims-10m-context-on-a-28b-single-gpu-agent",
@@ -145689,17 +146239,19 @@
         }
       ],
       "wikiIds": [
+        "agent-security",
         "glm",
         "openai",
         "security"
       ],
       "wikiTitles": [
+        "Agent Security",
         "GLM",
         "OpenAI",
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 GLM OpenAI Security"
+      "searchText": "Hugging Face turns the July agent intrusion into a playable timeline Security Austin AI Club - August 5, 2026 2026-08-05 https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html https://huggingface.co/blog/agent-intrusion-technical-timeline https://huggingface.co/blog/security-incident-july-2026 https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://x.com/clementdelangue/status/2082201245813514613 https://x.com/kimmonismus/status/2082232405629235649 https://x.com/simonw/status/2082205602772844978 Agent Security GLM OpenAI Security"
     },
     "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs": {
       "id": "austin-ai-club-august-5-2026-security-shai-hulud-hits-keyv-and-2b-monthly-npm-installs",
@@ -156866,6 +157418,10 @@
     },
     {
       "source": "agent-security",
+      "target": "austin-ai-club-august-5-2026"
+    },
+    {
+      "source": "agent-security",
       "target": "austin-ai-club-may-27-2026"
     },
     {
@@ -156895,6 +157451,14 @@
     {
       "source": "agent-security",
       "target": "ai-saas-supply-chain"
+    },
+    {
+      "source": "agent-security",
+      "target": "cloudflare-os"
+    },
+    {
+      "source": "agent-security",
+      "target": "security"
     },
     {
       "source": "ai-benchmarks-evals",
@@ -157771,6 +158335,10 @@
     {
       "source": "austin-ai-club-august-5-2026",
       "target": "security"
+    },
+    {
+      "source": "austin-ai-club-august-5-2026",
+      "target": "agent-security"
     },
     {
       "source": "austin-ai-club-august-5-2026",
@@ -160566,6 +161134,10 @@
     },
     {
       "source": "inference-optimization",
+      "target": "recursive-language-models"
+    },
+    {
+      "source": "inference-optimization",
       "target": "compute-strategy"
     },
     {
@@ -161026,6 +161598,10 @@
     },
     {
       "source": "meta-muse",
+      "target": "prime-agent"
+    },
+    {
+      "source": "meta-muse",
       "target": "ai-benchmarks-evals"
     },
     {
@@ -161311,6 +161887,18 @@
     {
       "source": "models-research",
       "target": "astra"
+    },
+    {
+      "source": "models-research",
+      "target": "airllm"
+    },
+    {
+      "source": "models-research",
+      "target": "turbofieldfare"
+    },
+    {
+      "source": "models-research",
+      "target": "deepseek"
     },
     {
       "source": "models-research",
@@ -162166,6 +162754,10 @@
     },
     {
       "source": "prime-agent",
+      "target": "meta-muse"
+    },
+    {
+      "source": "prime-agent",
       "target": "open-models"
     },
     {
@@ -162971,7 +163563,7 @@
           "cost-control"
         ],
         "degree": 39,
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "id": "agent-infrastructure",
@@ -163006,8 +163598,8 @@
           "security",
           "agent-infrastructure"
         ],
-        "degree": 21,
-        "updated": "2026-06-24"
+        "degree": 25,
+        "updated": "2026-08-05"
       },
       {
         "id": "ai-benchmarks-evals",
@@ -163078,7 +163670,7 @@
           "local-ai",
           "inference"
         ],
-        "degree": 12,
+        "degree": 13,
         "updated": "2026-08-05"
       },
       {
@@ -163259,7 +163851,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 74,
+        "degree": 76,
         "updated": "2026-08-05"
       },
       {
@@ -163575,7 +164167,7 @@
           "security",
           "open-source"
         ],
-        "degree": 7,
+        "degree": 8,
         "updated": "2026-08-05"
       },
       {
@@ -163729,7 +164321,7 @@
           "model",
           "open-source"
         ],
-        "degree": 24,
+        "degree": 25,
         "updated": "2026-08-05"
       },
       {
@@ -163983,7 +164575,7 @@
           "agent-infrastructure",
           "local-ai"
         ],
-        "degree": 55,
+        "degree": 56,
         "updated": "2026-08-05"
       },
       {
@@ -164136,7 +164728,7 @@
           "models-research",
           "coding-agents"
         ],
-        "degree": 20,
+        "degree": 22,
         "updated": "2026-08-05"
       },
       {
@@ -164229,8 +164821,8 @@
           "models-research",
           "model"
         ],
-        "degree": 86,
-        "updated": "2026-08-04"
+        "degree": 89,
+        "updated": "2026-08-05"
       },
       {
         "id": "moonshot-ai",
@@ -164243,7 +164835,7 @@
           "coding-agents"
         ],
         "degree": 22,
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "id": "nemotron",
@@ -164465,7 +165057,7 @@
           "agent-infrastructure",
           "open-source"
         ],
-        "degree": 9,
+        "degree": 11,
         "updated": "2026-08-05"
       },
       {
@@ -164571,7 +165163,7 @@
           "coding-agents",
           "inference"
         ],
-        "degree": 10,
+        "degree": 11,
         "updated": "2026-08-05"
       },
       {
@@ -164609,7 +165201,7 @@
           "track",
           "security"
         ],
-        "degree": 43,
+        "degree": 44,
         "updated": "2026-08-05"
       },
       {
@@ -164699,7 +165291,7 @@
           "inference",
           "apple-silicon"
         ],
-        "degree": 12,
+        "degree": 13,
         "updated": "2026-08-05"
       },
       {
@@ -165164,6 +165756,11 @@
       },
       {
         "source": "agent-security",
+        "target": "austin-ai-club-august-5-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "agent-security",
         "target": "austin-ai-club-may-27-2026",
         "kind": "topic"
       },
@@ -165200,6 +165797,16 @@
       {
         "source": "agent-security",
         "target": "ai-saas-supply-chain",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-security",
+        "target": "cloudflare-os",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-security",
+        "target": "security",
         "kind": "wiki"
       },
       {
@@ -166295,6 +166902,11 @@
       {
         "source": "austin-ai-club-august-5-2026",
         "target": "security",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-5-2026",
+        "target": "agent-security",
         "kind": "topic"
       },
       {
@@ -169789,6 +170401,11 @@
       },
       {
         "source": "inference-optimization",
+        "target": "recursive-language-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "inference-optimization",
         "target": "compute-strategy",
         "kind": "wiki"
       },
@@ -170364,6 +170981,11 @@
       },
       {
         "source": "meta-muse",
+        "target": "prime-agent",
+        "kind": "wiki"
+      },
+      {
+        "source": "meta-muse",
         "target": "ai-benchmarks-evals",
         "kind": "wiki"
       },
@@ -170720,6 +171342,21 @@
       {
         "source": "models-research",
         "target": "astra",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "airllm",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "turbofieldfare",
+        "kind": "wiki"
+      },
+      {
+        "source": "models-research",
+        "target": "deepseek",
         "kind": "wiki"
       },
       {
@@ -171789,6 +172426,11 @@
       },
       {
         "source": "prime-agent",
+        "target": "meta-muse",
+        "kind": "wiki"
+      },
+      {
+        "source": "prime-agent",
         "target": "open-models",
         "kind": "wiki"
       },
@@ -172783,7 +173425,7 @@
     "pageCount": 146,
     "topicCount": 211,
     "rawPageCount": 0,
-    "linkCount": 1591,
+    "linkCount": 1601,
     "sourceRecordCount": 10,
     "sourceLinkCount": 934,
     "unresolvedLinkCount": 0,

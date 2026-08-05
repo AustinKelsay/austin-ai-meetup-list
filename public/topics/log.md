@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | August 5 board consistency gardening
+
+- Filled Models & Research hub Mentions for Pokee-Isaac, DeepSeek Flash, AirLLM, and TurboFieldfare; aligned Closed/Open spoken copy in Meetup Data with the Markdown board.
+- Tightened Hassabis wikilink to Google DeepMind; backfilled Gemma, Moonshot, Agent Cost Controls, and Agent Security reciprocal Mentions; cross-linked Prime Agent / Meta Muse / RLM / Inference Optimization.
+
 ## [2026-08-05] update | Muse Code, open-weight safety carve-out, Hassabis role change
 
 - Added **Meta ships Muse Code with co-trained Muse Spark 1.2** after Prime Agent (plus Closed catalog pointer), with Zuckerberg's launch post, Meta research blog, and product page.

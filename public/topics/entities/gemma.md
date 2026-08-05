@@ -13,7 +13,7 @@ Gemma is Google's open model family for local, edge, multimodal, and agentic wor
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
+- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open model releases**.

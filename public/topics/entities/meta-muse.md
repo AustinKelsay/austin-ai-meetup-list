@@ -24,5 +24,6 @@ Meta Muse collects Meta's Muse Spark / Muse Image media-model thread and the Mus
 - [[Coding Agents]]
 - [[Models & Research]]
 - [[Agent Infrastructure]]
+- [[Prime Agent]]
 - [[AI Benchmarks & Evals]]
 - [[Big Tech Moves]]

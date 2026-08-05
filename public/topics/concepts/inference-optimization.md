@@ -27,6 +27,7 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 
 - [[AirLLM]]
 - [[TurboFieldfare]]
+- [[Recursive Language Models]]
 - [[Compute Strategy]]
 - [[Local AI]]
 - [[Open Models]]

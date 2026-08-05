@@ -110,7 +110,7 @@ export const meetups = [
           {
             title: "Prime Agent is an open RLM coding harness that can rewrite itself",
             description:
-              "Prime Agent is Prime Intellect's open-source coding / long-horizon agent: a persistent IPython REPL where context lives as a variable, sub-agents are await rlm(...) calls, and a Continual Harness lets the agent CRUD its own prompts, skills, memory, and sub-agents. For an RLM 101, start with Alex Zhang's explainer, then the paper, then Prime Intellect's own RLM writeup.",
+              "Prime Agent is Prime Intellect's open-source coding / long-horizon agent: a persistent IPython REPL where context lives as a variable, sub-agents are `await rlm(...)` calls, and a Continual Harness lets the agent CRUD its own prompts, skills, memory, and sub-agents. For an RLM 101, start with Alex Zhang's explainer, then the paper, then Prime Intellect's own RLM writeup.",
             chip: "coding agents",
             href: "https://github.com/PrimeIntellect-ai/prime-agent",
             embed: {
@@ -151,7 +151,7 @@ export const meetups = [
           {
             title: "Closed model releases",
             description:
-              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy, and Meta paired Muse Spark 1.2 with the Muse Code agent. Closed releases this cycle are product-shaped multimodal, long-context, and coding-agent bets.",
+              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, Pokee-Isaac pitched a proprietary 28B / 10M-token agent model for single-GPU deploy, and Meta paired Muse Spark 1.2 with the Muse Code agent. Closed releases this cycle are product-shaped multimodal, long-context, and coding-agent bets.",
             chip: "closed releases",
             releaseRoundup: true,
             href: "https://bfl.ai/blog/flux-3",
@@ -185,7 +185,7 @@ export const meetups = [
           {
             title: "Open model releases",
             description:
-              "Ant Ling's Ling-3.0-flash (124B/5.1B active), Poolside's Laguna S 2.1 coding MoE, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B packaging fill the open shelf. Skip the Bonsai/BTL-3 repeats; the useful question is which artifacts fit local hardware.",
+              "Ant Group's Ling-3.0-flash (124B/5.1B active), Poolside's Laguna S 2.1 coding MoE, Nanbeige 4.2 3B, Solar-Open2 250B, and OpenZero Gemma4-E4B packaging fill the open shelf. Skip the Bonsai/BTL-3 repeats; the useful question is which artifacts fit local hardware.",
             chip: "open releases",
             releaseRoundup: true,
             href: "https://huggingface.co/inclusionAI/Ling-3.0-flash",
