@@ -2,6 +2,22 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | Issues #40/#41 into August 5 board
+
+- Added **Hugging Face turns the July agent intrusion into a playable timeline** as the Security lead Topic: interactive Space replay plus technical timeline framed as the delta on the July 22 disclosure.
+- Added **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon** after AirLLM; created a TurboFieldfare entity and linked Gemma, Local AI, and Inference Optimization.
+- Closed submitted-link issues #40 and #41 after mirroring into Meetup Data.
+
+## [2026-08-05] update | Pokee-Isaac dedicated Topic plus Closed roundup mention
+
+- Pulled Pokee-Isaac into its own Models Topic for the 28B / claimed 10M-context / single-GPU pitch while keeping the launch post on the Closed model-release roundup catalog.
+- Pointed the deep-dive at the console model page and vendor technical report; kept vendor benchmark superlatives qualified.
+
+## [2026-08-05] update | AirLLM local MoE streaming Topic
+
+- Added **AirLLM streams giant MoEs onto hobbyist VRAM** after the DeepSeek Flash size/cost story, framed around the July 29 v3.1 Kimi K3 / expert-streaming claims and the disk-I/O tradeoff.
+- Created an AirLLM entity page and linked it from Local AI and Inference Optimization Mentions.
+
 ## [2026-08-05] update | DeepSeek V4 Flash 0731 size/cost Topic
 
 - Added a dedicated Models & Research Topic for DeepSeek-V4-Flash-0731, separate from the Open model-release roundup, centered on the 284B/13B-active agent re-post-train and Terminal-Bench cost story.

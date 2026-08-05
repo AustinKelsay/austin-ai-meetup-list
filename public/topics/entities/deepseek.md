@@ -13,7 +13,7 @@ DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active**.
+- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.
 - [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.

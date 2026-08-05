@@ -41,21 +41,38 @@ sources: []
   - Type: Official product blog
   - Access: 2026-08-05
   - Notes: Technical blog for the FLUX 3 video-backbone + action-decoder robotics stack and sample-efficiency claims.
+- Post: https://x.com/Pokee_AI/status/2084682445648216383
+  - Title: "Releasing Pokee-Isaac 28B"
+  - Type: Official X post
+  - Access: 2026-08-04
+  - Notes: Kept on the Closed roundup catalog; deep-dive sources live under the dedicated Pokee-Isaac Topic.
+
+### Pokee-Isaac claims 10M context on a 28B single-GPU agent
+- Source: https://console.pokee.ai/model
+  - Title: "Pokee-Isaac model console"
+  - Type: Official product page
+  - Access: 2026-08-05
+  - Notes: Primary product surface for Pokee-Isaac technical claims and deployment options.
+- Source: https://console.pokee.ai/pokee-isaac-28b-v0-technical-report.pdf
+  - Title: "Pokee-Isaac 28B technical report"
+  - Type: Vendor technical report PDF
+  - Access: 2026-08-05
+  - Notes: Vendor-authored report linked from the launch post; treat benchmark tables as author-reported.
+- Post: https://x.com/Pokee_AI/status/2084682445648216383
+  - Title: "Releasing Pokee-Isaac 28B"
+  - Type: Official X post
+  - Access: 2026-08-04
+  - Notes: Vendor launch claims including 10M context, 93.3% RULER at 10M, RTX 4090-class single-GPU deploy, and $0.15/$1 pricing; qualify superlatives.
 - Source: https://pokee.ai/
   - Title: "Pokee"
-  - Type: Official product page
+  - Type: Official company site
   - Access: 2026-08-04
-  - Notes: Product surface claiming Pokee-Isaac 28B with 10M-token context and single-GPU deploy.
+  - Notes: Company homepage supporting the Isaac product launch.
 - Source: https://docs.pokee.ai/docs/models
   - Title: "Pokee models and pricing"
   - Type: Official documentation
   - Access: 2026-08-04
   - Notes: Docs for Pokee Isaac model tiers and API usage.
-- Post: https://x.com/Pokee_AI/status/2084682445648216383
-  - Title: "Releasing Pokee-Isaac 28B"
-  - Type: Official X post
-  - Access: 2026-08-04
-  - Notes: Vendor launch claims including 10M context, 93.3% RULER at 10M, and RTX 4090-class single-GPU deploy; treat superlatives as author-reported.
 
 ### Open model releases
 - Source: https://developer.ant-ling.com/en/docs/models/ling
@@ -156,6 +173,45 @@ sources: []
   - Access: 2026-08-05
   - Notes: Defines Flash as 284B total / 13B activated MoE with 1M context; 0731 keeps that size per DeepSeek's note tweet.
 
+### AirLLM streams giant MoEs onto hobbyist VRAM
+- Repo: https://github.com/lyogavin/airllm
+  - Title: "lyogavin/airllm"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Layer/expert-streaming local inference library; README claims Kimi K3 at 3.72GB VRAM and DeepSeek-V3 at ~12GB via one-slice-at-a-time GPU residency.
+- Source: https://pypi.org/project/airllm/
+  - Title: "airllm on PyPI"
+  - Type: Package registry
+  - Access: 2026-08-05
+  - Notes: v3.1.0 uploaded 2026-07-29 with Kimi K3 / under-4GB summary; prior v3.0 (2026-06-30) added FP8 and DeepSeek-V3 / Qwen3-235B support.
+- Source: https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha
+  - Title: "AirLLM Runs a 70B Model on a 4GB GPU"
+  - Type: Technical explainer
+  - Access: 2026-08-05
+  - Notes: Useful caveat writeup: full-model disk reads per token, shard disk usage, and why MoE expert streaming shrinks VRAM further than dense layers.
+
+### TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon
+- Repo: https://github.com/drumih/turbo-fieldfare
+  - Title: "drumih/turbo-fieldfare"
+  - Type: GitHub repository
+  - Access: 2026-08-05
+  - Notes: Swift + Metal Gemma 4 26B-A4B runtime; author claims ~2 GB resident RAM via expert streaming from SSD against a ~14.3 GB installed model; macOS 26 / Metal 4 required.
+- Source: https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md
+  - Title: "TurboFieldfare benchmarks"
+  - Type: Project documentation
+  - Access: 2026-08-05
+  - Notes: Author-measured decode ranges for M2 Air (~5–6 tok/s) and M5 Pro (~31–35 tok/s).
+- Source: https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md
+  - Title: "TurboFieldfare system design"
+  - Type: Project documentation
+  - Access: 2026-08-05
+  - Notes: Explains shared-core residency plus SSD expert streaming and the Gemma-specific `.gturbo` format.
+- Source: https://ai.google.dev/gemma/docs/core/model_card_4
+  - Title: "Gemma 4 model card"
+  - Type: Official model documentation
+  - Access: 2026-08-05
+  - Notes: Official Gemma 4 core model card for the 26B-A4B MoE checkpoint TurboFieldfare pins.
+
 ### Astra turns open math problems into Lean certificates for about $2K
 - Source: https://openai.com/index/ten-advances-in-mathematics/
   - Title: "Ten advances in mathematics and theoretical computer science"
@@ -206,6 +262,28 @@ sources: []
   - Notes: Follow-up pointing at Simon Willison's pelican-on-a-bicycle eval writeup and publishing playable source for the Middle-earth demo.
 
 ## Security
+
+### Hugging Face turns the July agent intrusion into a playable timeline
+- Source: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
+  - Title: "Anatomy of a frontier-lab agent intrusion (interactive replay)"
+  - Type: Official interactive visualization
+  - Access: 2026-08-05
+  - Notes: Hugging Face Space companion that replays ~17,600 recovered attacker actions across the July 9–13 IR-2026-07 window; submitted link for issue #40.
+- Source: https://huggingface.co/blog/agent-intrusion-technical-timeline
+  - Title: "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident"
+  - Type: Official technical blog
+  - Access: 2026-08-05
+  - Notes: Companion to the July disclosure; walks HDF5/Jinja2 initial access, lateral movement, public-service C2, and GLM-5.2 forensic decode.
+- Source: https://huggingface.co/blog/security-incident-july-2026
+  - Title: "Security incident disclosure — July 2026"
+  - Type: Official incident disclosure
+  - Access: 2026-08-05
+  - Notes: Original HF disclosure already covered on July 22; retained here for the source chain.
+- Source: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+  - Title: "Hugging Face model evaluation security incident"
+  - Type: Official OpenAI disclosure
+  - Access: 2026-08-05
+  - Notes: OpenAI attribution that GPT-5.6 Sol plus a stronger pre-release model with reduced cyber refusals drove the eval escape; keep as attribution, not HF's technique paper.
 
 ### Bitcoin red team runs on Kimi K3 while OpenAI sits out
 - Post: https://x.com/Rob1Ham/status/2083546478409056301

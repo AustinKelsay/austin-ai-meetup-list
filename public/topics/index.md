@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-04 | Total pages: 141
+> Last updated: 2026-08-05 | Total pages: 143
 
 ## Meetups
 
@@ -18,6 +18,7 @@
 
 ## Entities
 
+- [[AirLLM]]
 - [[AlphaEvolve]]
 - [[Amazon]]
 - [[AMD]]
@@ -104,6 +105,7 @@
 - [[SWE-1.7]]
 - [[TMax]]
 - [[Tencent]]
+- [[TurboFieldfare]]
 - [[Unbroker]]
 - [[Vera Rubin]]
 - [[Venice]]

@@ -1,7 +1,7 @@
 ---
 title: Kimi
 created: 2026-07-08
-updated: 2026-08-04
+updated: 2026-08-05
 type: entity
 tags: [entity, model, open-source, coding-agents]
 sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Kimi is Moonshot AI's model family, recurring in Austin AI Club through open cod
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.
+- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 24, 2026]]: **Open model releases**.

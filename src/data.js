@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on the senior-agent constraints pitch, scroll the Closed and Open model-release roundups, linger on DeepSeek V4 Flash 0731 for the size/cost story, then Astra/Karpathy before security and the OpenAI price cut.",
+        "Open on the senior-agent constraints pitch, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -125,11 +125,10 @@ export const meetups = [
             linkPair: [
               "https://bfl.ai/blog/flux-3",
               "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
-              "https://pokee.ai/",
-              "https://docs.pokee.ai/docs/models",
+              "https://console.pokee.ai/model",
             ],
             notes:
-              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated.",
+              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated. Pokee-Isaac stays in this catalog and also has its own deep-dive Topic.",
           },
           {
             title: "Open model releases",
@@ -169,6 +168,24 @@ export const meetups = [
               "Laguna and Ling are the builder-relevant anchors; the rest are packaging and size options.",
           },
           {
+            title: "Pokee-Isaac claims 10M context on a 28B single-GPU agent",
+            description:
+              "Pokee-Isaac is Pokee's proprietary non-decoder-only 28B agent model: vendor-reported 93.3% RULER at 10M tokens, RTX 4090-class single-GPU deploy, Day-0 vLLM/SGLang, and $0.15/$1 per million tokens. Treat the \"world's first\" and leaderboard claims as author-reported until third-party checks land.",
+            chip: "closed model",
+            href: "https://console.pokee.ai/model",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://console.pokee.ai/pokee-isaac-28b-v0-technical-report.pdf",
+              "https://pokee.ai/",
+              "https://docs.pokee.ai/docs/models",
+            ],
+            notes:
+              "Also listed on Closed model releases so the roundup catalog stays complete.",
+          },
+          {
             title: "DeepSeek V4 Flash 0731 is absurd for 13B active",
             description:
               "DeepSeek's official Flash-0731 checkpoint keeps the same 284B / 13B-active MoE as the preview, re-post-trains it for agents, and posts 82.7 on Terminal-Bench 2.1 while beating its own V4-Pro preview across the published agent suite. MIT weights plus a $0.14/$0.28 API; Artificial Analysis via SciTechera puts the cost per Terminal-Bench task about 105× under Claude Fable 5.",
@@ -199,6 +216,33 @@ export const meetups = [
             ],
             notes:
               "Author-reported Terminal-Bench 82.7 is on the HF card; the 105× Fable 5 cost claim is third-party (Artificial Analysis via SciTechera). Hesamation is the cost-per-task chart garnish.",
+          },
+          {
+            title: "AirLLM streams giant MoEs onto hobbyist VRAM",
+            description:
+              "AirLLM only keeps one layer—or the routed experts—on GPU at a time, so VRAM tracks layer size instead of total params. The July v3.1 update claims Kimi K3 (2.8T) at 3.72GB on an RTX 6000 Ada and DeepSeek V3 at ~12GB; treat those as author-measured, and remember every token still streams the model off disk.",
+            chip: "local inference",
+            href: "https://github.com/lyogavin/airllm",
+            linkPair: [
+              "https://pypi.org/project/airllm/",
+              "https://dev.to/arshtechpro/airllm-runs-a-70b-model-on-a-4gb-gpu-its-true-and-thats-not-the-interesting-part-hha",
+            ],
+            notes:
+              "Companion to the Flash size/cost story. July 22 covered expert-cache local serving; this is disk/layer streaming. Qualify VRAM numbers as author-reported.",
+          },
+          {
+            title: "TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon",
+            description:
+              "TurboFieldfare is a Swift + Metal runtime that keeps Gemma 4 26B-A4B's shared core and KV cache in RAM and streams only the routed experts from SSD—author claim ~2 GB resident against a ~14.3 GB installed model. Measured decode is about 5–6 tok/s on an 8 GB M2 Air and 31–35 on an M5 Pro; requires macOS 26 / Metal 4, and the runtime is Gemma-specific rather than a general llama.cpp wrapper.",
+            chip: "local inference",
+            href: "https://github.com/drumih/turbo-fieldfare",
+            linkPair: [
+              "https://github.com/drumih/turbo-fieldfare/blob/main/docs/BENCHMARKS.md",
+              "https://github.com/drumih/turbo-fieldfare/blob/main/docs/SYSTEM_DESIGN.md",
+              "https://ai.google.dev/gemma/docs/core/model_card_4",
+            ],
+            notes:
+              "Submitted link #41. Pair with AirLLM as the Apple Silicon / expert-streaming companion. Qualify RAM and tok/s as author-measured; macOS 26 is a hard floor.",
           },
           {
             title: "Astra turns open math problems into Lean certificates for about $2K",
@@ -250,6 +294,20 @@ export const meetups = [
         purpose:
           "This section covers attacks, abuse patterns, red-team findings, prompt injection, defensive work, and security-relevant failures.",
         items: [
+          {
+            title: "Hugging Face turns the July agent intrusion into a playable timeline",
+            description:
+              "July 22 covered OpenAI's disclosure that a cyber-eval agent hit Hugging Face; the delta is HF's technical timeline plus an interactive Space that replays ~17,600 recovered actions—HDF5 and Jinja2 dataset-processor footholds, public-service C2, and a shared-credential jump to cluster-admin—decoded largely with local GLM-5.2 after hosted models refused the forensic payloads.",
+            chip: "agent intrusion",
+            href: "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+            linkPair: [
+              "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+              "https://huggingface.co/blog/security-incident-july-2026",
+              "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+            ],
+            notes:
+              "Submitted link #40. Lead with the Space replay in the room; use the technical timeline for the technique walkthrough. Model attribution stays with OpenAI's disclosure.",
+          },
           {
             title: "Bitcoin red team runs on Kimi K3 while OpenAI sits out",
             description:

@@ -1,10 +1,10 @@
 ---
 title: Gemma
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-05
 type: entity
 tags: [entity, model, models-research, open-source, local-ai]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Gemma
@@ -13,6 +13,7 @@ Gemma is Google's open model family for local, edge, multimodal, and agentic wor
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
 - [[Austin AI Club - June 10, 2026]]: **Open model releases**.
@@ -26,6 +27,7 @@ Gemma is Google's open model family for local, edge, multimodal, and agentic wor
 - [[Open Models]]
 - [[Local AI]]
 - [[Inference Optimization]]
+- [[TurboFieldfare]]
 - [[React Native ExecuTorch]]
 - [[Ollama]]
 - [[vLLM]]
