@@ -13,7 +13,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Open model releases**.
+- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.
 - [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.
@@ -28,6 +28,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 - [[Agent Infrastructure]]
 - [[Prime Agent]]
 - [[Recursive Language Models]]
+- [[Meta Muse]]
 - [[Agent Cost Controls]]
 - [[AI Benchmarks & Evals]]
 - [[OpenClaw]]

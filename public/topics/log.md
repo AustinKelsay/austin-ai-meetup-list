@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-05] update | Muse Code, open-weight safety carve-out, Hassabis role change
+
+- Added **Meta ships Muse Code with co-trained Muse Spark 1.2** after Prime Agent (plus Closed catalog pointer), with Zuckerberg's launch post, Meta research blog, and product page.
+- Added Big Tech Topics for Reuters' reported open-weight federal safety-test carve-out and Hassabis → Alphabet Chief Scientist / Koray → SVP GDM.
+- Updated Meta Muse, Meta, Google, Agent Infrastructure, Coding Agents, Big Tech Moves, and AI Governance reciprocal links.
+
 ## [2026-08-05] update | Prime Agent + RLM 101 Agent Infrastructure Topic
 
 - Added **Prime Agent is an open RLM coding harness that can rewrite itself** after Cloudflare OS, with the launch post, product blog, repo, and an RLM 101 chain (Alex Zhang explainer → arXiv → Prime Intellect RLM post).

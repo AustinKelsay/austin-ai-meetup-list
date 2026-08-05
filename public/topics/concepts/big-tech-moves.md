@@ -1,7 +1,7 @@
 ---
 title: Big Tech Moves
 created: 2026-06-24
-updated: 2026-08-04
+updated: 2026-08-05
 type: concept
 tags: [concept, track, big-tech-moves]
 sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
+- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
 - [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.
 - [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.

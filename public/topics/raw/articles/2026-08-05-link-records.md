@@ -61,11 +61,28 @@ sources: []
   - Type: Research preprint
   - Access: 2026-08-05
   - Notes: Paper backing the RLM inference pattern; pair with Zhang's blog for room briefing.
-- Source: https://www.primeintellect.ai/blog/rlm
+-   Source: https://www.primeintellect.ai/blog/rlm
   - Title: "Recursive Language Models"
   - Type: Company explainer
   - Access: 2026-08-05
   - Notes: Prime Intellect's own RLM framing bridging the paper to Prime Agent product claims.
+
+### Meta ships Muse Code with co-trained Muse Spark 1.2
+- Source: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+  - Title: "Introducing Muse Code and Muse Spark 1.2"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Muse Code terminal agent beta plus Muse Spark 1.2 co-trained on the harness; vendor kernel case study and methodology report linked from the post.
+- Source: https://developer.meta.com/ai/products/muse-code/
+  - Title: "Muse Code"
+  - Type: Official product page
+  - Access: 2026-08-05
+  - Notes: Meta developer product surface for Muse Code install and overview.
+- Post: https://x.com/finkd/status/2085080750034940201
+  - Title: "Zuckerberg releases Muse Code beta"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Mark Zuckerberg launch thread for Muse Code + Muse Spark 1.2.
 
 ## Models & Research
 
@@ -95,6 +112,16 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-04
   - Notes: Kept on the Closed roundup catalog; deep-dive sources live under the dedicated Pokee-Isaac Topic.
+- Source: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+  - Title: "Introducing Muse Code and Muse Spark 1.2"
+  - Type: Official product blog
+  - Access: 2026-08-05
+  - Notes: Closed-catalog pointer; deep-dive sources also live under the Muse Code Agent Infrastructure Topic.
+- Post: https://x.com/finkd/status/2085080750034940201
+  - Title: "Zuckerberg releases Muse Code beta"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Kept on the Closed roundup catalog alongside the Muse Code deep-dive Topic.
 
 ### Pokee-Isaac claims 10M context on a 28B single-GPU agent
 - Source: https://console.pokee.ai/model
@@ -407,6 +434,30 @@ sources: []
   - Notes: Submitted DevOps.com summary of the Aikido/Endor-tracked wave and 2B+ monthly install exposure.
 
 ## Big Tech Moves
+
+### Trump advisers say open-weight models skip federal safety tests
+- Source: https://www.reuters.com/business/trump-advisers-tell-ai-firms-they-will-not-safety-test-open-weight-models-2026-08-04/
+  - Title: "Trump advisers tell AI firms they will not safety-test open-weight models, sources say"
+  - Type: News reporting
+  - Access: 2026-08-05
+  - Notes: Reuters anonymous-source reporting that new US AI rules will not require safety tests for open-weight models; treat as reported intent until formal text.
+- Post: https://x.com/AndrewCurran_/status/2084782600254873826
+  - Title: "Open-weight models will not be safety-tested"
+  - Type: Aggregator X post
+  - Access: 2026-08-05
+  - Notes: High-signal share of the Reuters open-weight safety-test carve-out framing.
+
+### Hassabis becomes Alphabet Chief Scientist as Koray takes GDM
+- Source: https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum
+  - Title: "The next chapter of our AI momentum"
+  - Type: Official company blog
+  - Access: 2026-08-05
+  - Notes: Sundar/Demis memo: Hassabis → Chair of GDM + Alphabet Chief Scientist; Koray Kavukcuoglu → SVP GDM; Jeff Dean/Sanjay Ghemawat spinning out an ML/science PBC.
+- Post: https://x.com/demishassabis/status/2085034334914769203
+  - Title: "Hassabis on new Alphabet Chief Scientist role"
+  - Type: Company X post
+  - Access: 2026-08-05
+  - Notes: Demis announces the Chair/Chief Scientist move and Koray stepping up as SVP of GDM.
 
 ### OpenAI cuts GPT-5.6 Luna 80% and Terra 20%
 - Source: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/

@@ -13,7 +13,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Prime Agent is an open RLM coding harness that can rewrite itself**.
+- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.
 - [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.
 - [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.
@@ -30,6 +30,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 - [[Cloudflare OS]]
 - [[Prime Agent]]
 - [[Recursive Language Models]]
+- [[Meta Muse]]
 - [[OpenAI]]
 - [[Agent Payments]]
 - [[OpenAgents]]

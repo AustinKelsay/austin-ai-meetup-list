@@ -1,10 +1,10 @@
 ---
 title: AI Governance
 created: 2026-06-08
-updated: 2026-07-21
+updated: 2026-08-05
 type: concept
 tags: [concept, security, big-tech-moves]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # AI Governance
@@ -13,6 +13,7 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 
 ## Mentioned In
 
+- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**.
 - [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.
 - [[Austin AI Club - June 24, 2026]]: **Closed model releases** and **Who reported the Fable jailbreak?**.
@@ -28,8 +29,8 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 - [[AI Benchmarks & Evals]]
 - [[Security]]
 - [[Big Tech Moves]]
-- [[OpenAI]]
 - [[Open Models]]
+- [[OpenAI]]
 - [[Palantir]]
 - [[Claude Fable/Mythos]]
 - [[HARC]]

@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Open on Uncle Bob's constraints pitch, Cloudflare OS Gadgets, then Prime Agent / RLM, scroll Closed and Open release roundups, linger on Pokee-Isaac then DeepSeek Flash / AirLLM / TurboFieldfare, then Astra/Karpathy before the HF intrusion replay, Bitcoin/keyv security, and the OpenAI price cut.",
+        "Open on Uncle Bob, Cloudflare OS, Prime Agent / RLM, then Muse Code; scroll Closed and Open; linger on Pokee/DeepSeek/AirLLM/TurboFieldfare and Astra/Karpathy; HF intrusion plus Bitcoin/keyv; close Big Tech on open-weight safety carve-out, Hassabis→Alphabet Chief Scientist, and the OpenAI price cut.",
     },
     showcases: [
       {
@@ -126,6 +126,20 @@ export const meetups = [
             notes:
               "RLM 101 order for the room: Zhang blog → arXiv → Prime Intellect RLM post → Prime Agent launch. Self-improving harness claims are vendor-framed.",
           },
+          {
+            title: "Meta ships Muse Code with co-trained Muse Spark 1.2",
+            description:
+              "Meta's Muse Code beta is a terminal coding agent for large repos: persistent background agents, parallel worktree sub-agents, and a local event log that resumes after crashes. It ships with Muse Spark 1.2, which Meta says was co-trained on the harness—including a vendor case study of 1,000+ tool calls over 24 hours on Hopper kernels.",
+            chip: "coding agents",
+            href: "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/finkd/status/2085080750034940201?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://developer.meta.com/ai/products/muse-code/"],
+            notes:
+              "Also catalogued under Closed. Benchmarks and kernel case study are Meta-reported; macOS/Linux terminal beta.",
+          },
         ],
       },
       {
@@ -137,7 +151,7 @@ export const meetups = [
           {
             title: "Closed model releases",
             description:
-              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, and Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy. Closed releases this cycle are product-shaped multimodal and long-context bets.",
+              "Black Forest Labs shipped FLUX 3 as a unified image/video/audio backbone with action prediction in early access, Mimic Robotics put that backbone into FLUX-mimic on factory robots, Pokee pitched Pokee-Isaac 28B as a proprietary 10M-token agent model for single-GPU deploy, and Meta paired Muse Spark 1.2 with the Muse Code agent. Closed releases this cycle are product-shaped multimodal, long-context, and coding-agent bets.",
             chip: "closed releases",
             releaseRoundup: true,
             href: "https://bfl.ai/blog/flux-3",
@@ -154,14 +168,19 @@ export const meetups = [
                 type: "tweet",
                 href: "https://twitter.com/Pokee_AI/status/2084682445648216383?ref_src=twsrc%5Etfw",
               },
+              {
+                type: "tweet",
+                href: "https://twitter.com/finkd/status/2085080750034940201?ref_src=twsrc%5Etfw",
+              },
             ],
             linkPair: [
               "https://bfl.ai/blog/flux-3",
               "https://www.mimicrobotics.com/blog/introducing-flux-mimic",
               "https://console.pokee.ai/model",
+              "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
             ],
             notes:
-              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated. Pokee-Isaac stays in this catalog and also has its own deep-dive Topic.",
+              "FLUX 3 Dev open weights are promised later; treat current access as closed/gated. Pokee-Isaac and Muse Code also have dedicated Topics.",
           },
           {
             title: "Open model releases",
@@ -416,6 +435,30 @@ export const meetups = [
         purpose:
           "This section covers major company moves, hardware launches, ecosystem shifts, acquisitions, platform bets, product strategy, and policy or infrastructure changes that shape AI development.",
         items: [
+          {
+            title: "Trump advisers say open-weight models skip federal safety tests",
+            description:
+              "Reuters, citing sources, says Trump administration advisers told AI firms the new AI rules will not safety-test open-weight models. Framed as a carve-out for the open stack—not a general safety repeal—so treat it as reported policy intent until the formal text lands.",
+            chip: "ai governance",
+            href: "https://www.reuters.com/business/trump-advisers-tell-ai-firms-they-will-not-safety-test-open-weight-models-2026-08-04/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AndrewCurran_/status/2084782600254873826?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "Anonymous-source Reuters reporting; qualify until regulation text is public.",
+          },
+          {
+            title: "Hassabis becomes Alphabet Chief Scientist as Koray takes GDM",
+            description:
+              "Demis Hassabis moves to Chair of Google DeepMind and Chief Scientist of Alphabet to focus on AGI strategy and Isomorphic; Koray Kavukcuoglu becomes SVP of GDM reporting to Sundar. The same memo also spins Jeff Dean and Sanjay Ghemawat into an independent ML/science PBC with Alphabet as founding investor.",
+            chip: "leadership",
+            href: "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/demishassabis/status/2085034334914769203?ref_src=twsrc%5Etfw",
+            },
+          },
           {
             title: "OpenAI cuts GPT-5.6 Luna 80% and Terra 20%",
             description:
