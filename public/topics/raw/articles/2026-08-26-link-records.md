@@ -9,6 +9,30 @@ sources: []
 
 # Austin AI Club - August 26, 2026 - Source Link Records
 
+## Agent Infrastructure
+
+### OpenAI opens the Codex harness as a product platform
+- Blog: https://developers.openai.com/blog/codex-as-a-platform
+  - Title: "Codex as a platform: build on the open agent harness"
+  - Type: Official developer platform post
+  - Access: 2026-08-26
+  - Notes: OpenAI argues the App, CLI, and IDE are front doors on one open-source harness, and that retained reasoning plus compaction raised GPT-5.6 Sol from 13.3% to 38.3% on ARC-AGI-3 while cutting output tokens sixfold. Treat those numbers as vendor-reported harness effects.
+- Repo: https://github.com/openai/codex/tree/main/codex-rs/app-server
+  - Title: "codex-rs/app-server"
+  - Type: Open-source Codex app-server
+  - Access: 2026-08-26
+  - Notes: Exact folder for the documented client protocol that lets a host app create threads, stream events, expose tools, and handle approvals.
+- Post: https://x.com/OpenAIDevs/status/2090230646497251387
+  - Title: "OpenAI Developers on the open-source Codex harness"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch thread for embedding the harness into internal apps and operations dashboards while the host owns interface, context, tools, and approvals.
+- Post: https://x.com/gdb/status/2090246288478814281
+  - Title: "Greg Brockman on Codex beyond coding tools"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Cites a tax-prep pilot of 7,000 returns with about a one-third time cut, then points builders at the open harness.
+
 ## Models & Research
 
 ### Closed model releases
@@ -170,6 +194,28 @@ sources: []
   - Type: Official training and safety update
   - Access: 2026-08-25
   - Notes: OpenAI disclosed a two-week pause in deployment-bound RL and said its largest planned frontier RL run remained on hold while safeguards and monitoring were strengthened.
+
+### Encrypted reasoning blobs decrypt via weaker sibling models
+- Source: https://arxiv.org/abs/2608.09867
+  - Title: "Stealing Reasoning Traces from Proprietary LLM APIs"
+  - Type: Research paper
+  - Access: 2026-08-26
+  - Notes: Panfilov, Schmotz, and Shumailov et al. show encrypted chain-of-thought blocks from Anthropic, OpenAI, and Google APIs are interchangeable across sessions, users, and sibling models. Decoding 315,320 public blocks recovered 367 PII artifacts and 182 credentials. Authors say the original PoC is not reproducible as of August 2026 after provider mitigations; historical public traces remain a leak.
+- Dashboard: https://stolen-thoughts.com
+  - Title: "Stolen Thoughts"
+  - Type: Project site
+  - Access: 2026-08-26
+  - Notes: Companion site for the encrypted-reasoning extraction paper.
+- Post: https://x.com/kotekjedi_ml/status/2087147042888114428
+  - Title: "Alexander Panfilov on extracting hidden frontier reasoning"
+  - Type: Author X post
+  - Access: 2026-08-26
+  - Notes: Author announcement that recovered reasoning token counts matched billed thinking tokens 1:1 on most queried prompts.
+- Post: https://x.com/iliaishacked/status/2087150852377125285
+  - Title: "Ilia Shumailov on the stolen-thoughts paper"
+  - Type: Coauthor X post
+  - Access: 2026-08-26
+  - Notes: Coauthor pointer to the paper and project site.
 
 ### CoSnitch turns Copilot memory into persistent attacker state
 - Source: https://www.varonis.com/blog/cosnitch

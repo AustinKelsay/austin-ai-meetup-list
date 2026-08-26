@@ -1,7 +1,7 @@
 ---
 title: Agent Security
 created: 2026-05-05
-updated: 2026-08-25
+updated: 2026-08-26
 type: concept
 tags: [concept, security, agent-infrastructure]
 sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,7 @@ Agent Security covers the security controls, trust boundaries, governance toolin
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.
+- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.
 - [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.
 - [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.
 - [[Austin AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.
@@ -27,5 +27,7 @@ Agent Security covers the security controls, trust boundaries, governance toolin
 - [[Supply Chain Security]]
 - [[AI SaaS Supply Chain]]
 - [[Cloudflare OS]]
+- [[Codex]]
+- [[Claude Code]]
 - [[Microsoft]]
 - [[Security]]

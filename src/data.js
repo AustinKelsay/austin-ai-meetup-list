@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with the August 6–26 release catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen → Ornith → Audio8. Pause on the Hugging Face adoption read, then Security and Big Tech.",
+        "Start with Codex as an embeddable harness, then the August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen → Ornith → Audio8. Pause on Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK) and Big Tech.",
     },
     showcases: [
       {
@@ -76,6 +76,37 @@ export const meetups = [
       },
     ],
     tracks: [
+      {
+        id: "aug26-agent-infra",
+        title: "Agent Infrastructure",
+        purpose:
+          "This section covers the plumbing for agent systems: runtimes, protocols, interfaces, orchestration layers, and the tooling that makes autonomous workflows usable.",
+        items: [
+          {
+            title: "OpenAI opens the Codex harness as a product platform",
+            description:
+              "OpenAI says the App, CLI, and IDE are just front doors; the open-source Codex harness (codex exec, SDK, app-server) is what you drop into an existing dashboard with your tools and approvals. Treat the ARC-AGI-3 jump from 13.3% to 38.3% as a vendor-reported harness effect on GPT-5.6 Sol, not a new model.",
+            chip: "agent harness",
+            href: "https://developers.openai.com/blog/codex-as-a-platform",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAIDevs/status/2090230646497251387?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/gdb/status/2090246288478814281?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://developers.openai.com/blog/codex-as-a-platform",
+              "https://github.com/openai/codex/tree/main/codex-rs/app-server",
+            ],
+            notes:
+              "ARC-AGI-3 13.3% → 38.3% and 6× fewer output tokens are OpenAI-reported harness effects on GPT-5.6 Sol. The tax-prep 7,000 returns / ~1/3 time cut is the Thrive/Crete pilot in Brockman's post. Delta vs August 5 Prime Agent and Muse Code: OpenAI is selling the harness as embeddable product infrastructure, not a new coding chat.",
+          },
+        ],
+      },
       {
         id: "aug26-models-research",
         title: "Models & Research",
@@ -199,6 +230,29 @@ export const meetups = [
             ],
             notes:
               "OpenAI says Astra may meet the threshold; the determination is preliminary. The largest planned run remained on hold as of August 18.",
+          },
+          {
+            title: "Encrypted reasoning blobs decrypt via weaker sibling models",
+            description:
+              "Researchers showed encrypted chain-of-thought envelopes from Anthropic, OpenAI, and Google APIs are interchangeable inside a family, so Haiku or Luna can transcribe Opus or Sol traces. Decoding 315,320 public blocks recovered 182 credentials from Claude Code and Codex logs people thought were opaque; current APIs are patched, old GitHub traces are not.",
+            chip: "reasoning leak",
+            href: "https://arxiv.org/abs/2608.09867",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/kotekjedi_ml/status/2087147042888114428?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/iliaishacked/status/2087150852377125285?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://arxiv.org/abs/2608.09867",
+              "https://stolen-thoughts.com",
+            ],
+            notes:
+              "Paper: 315,320 public blocks, 367 PII artifacts, 182 credentials, including 62 API keys, 33 passwords, and 30 personal emails from genuine user sessions. Authors say Figure 1 is not reproducible as of August 2026 after provider mitigations; historical public traces remain a leak. Do not dump encrypted thinking blobs from agent session logs.",
           },
           {
             title: "CoSnitch turns Copilot memory into persistent attacker state",

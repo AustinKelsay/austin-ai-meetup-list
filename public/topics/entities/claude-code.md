@@ -1,18 +1,19 @@
 ---
 title: Claude Code
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-26
 type: entity
 tags: [entity, product, coding-agents, agent-infrastructure, security]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Claude Code
 
-Claude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust.
+Claude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
 - [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.

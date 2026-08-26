@@ -1,18 +1,19 @@
 ---
 title: Codex
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-26
 type: entity
-tags: [entity, product, coding-agents, agent-infrastructure, local-builds]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+tags: [entity, product, coding-agents, agent-infrastructure, local-builds, security]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Codex
 
-Codex is OpenAI's coding-agent product surface, recurring in Austin AI Club through app launches, model updates, local CLI workflows, and community customization demos.
+Codex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching the App, CLI, and IDE as front doors on one open-source harness (`codex exec`, SDK, and app-server) that a host product can embed with its own tools and approvals. Session logs that include encrypted thinking blocks were also a public leak surface that month.
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform** and **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.
 - [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.
@@ -21,7 +22,9 @@ Codex is OpenAI's coding-agent product surface, recurring in Austin AI Club thro
 ## Related
 
 - [[OpenAI]]
+- [[GPT-5.6]]
 - [[Coding Agents]]
 - [[Agent Infrastructure]]
+- [[Agent Security]]
 - [[Claude Code]]
 - [[Local Builds & Projects]]

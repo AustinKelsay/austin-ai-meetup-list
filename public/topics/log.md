@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Codex harness and encrypted reasoning leak
+
+- Added **OpenAI opens the Codex harness as a product platform** as the August 26 Agent Infrastructure lead, pairing the open app-server with OpenAI Developers and Brockman posts.
+- Added **Encrypted reasoning blobs decrypt via weaker sibling models** after Astra, using the stolen-thoughts paper plus Panfilov and Shumailov posts; current APIs are patched, public traces are not.
+- Recorded the harness-as-platform and encrypted-trace facts on [[Codex]], [[Claude Code]], and [[GPT-5.6]]; linked the leak into [[Model Distillation]] and [[Agent Security]].
+
 ## [2026-08-26] update | August 26 X launch posts
 
 - Paired official launch posts onto the Closed and Open roundups (Sol/Luna, Imagine 2.0, GPT-5.6-Cyber, Grok 4.6, Gemini 3.7 Flash, GLM-5.3; Muse Glimmer, Nemotron Lightning, DeepSeek V4-Pro, Qwen3.8-27B, Ornith-1.5) and onto the Astra, Jalapeño, and Claude watermark Topics.
