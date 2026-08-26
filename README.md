@@ -29,7 +29,7 @@ Meetup detail pages live at `/meetups/:slug`.
 
 Presentation Mode is not a separate data source. It is built from the same meetup data that powers both the homepage and meetup detail pages.
 
-The site also supports low-friction submissions and one global reminder signup. Submissions target the next upcoming authored meetup or tentative meetup slot. Reminders only point at actual planned meetups, not tentative meetup slots.
+The site also supports low-friction submissions and one global reminder signup. Submissions target the next upcoming authored meetup, or the next tentative meetup slot if that gathering is not authored yet. If the default biweekly slot already passed without a board, submissions stamp the next Wednesday rather than skipping ahead on the origin grid. Reminders only point at actual planned meetups, not tentative meetup slots.
 
 Presentation Mode uses hash-based slide URLs such as `/meetups/2026-03-18#/slides/2026-03-18/models-and-research/qwen-3-5-series`, so refresh and direct links return to the same item without needing server-side rendering.
 
@@ -222,7 +222,7 @@ Do not skip the Markdown step. The Markdown Archive is the source of record.
 
 Austin AI Club tries to meet biweekly. The calendar can generate tentative meetup slots from that cadence, and those slots can be manually overridden by authored meetups when the real date changes.
 
-Meetup slots are not authored meetups: they do not have topic boards, and reminders should not point at them. Submissions can still target the next meetup slot when no authored meetup exists yet, keeping the submission path low-friction.
+Meetup slots are not authored meetups: they do not have topic boards, and reminders should not point at them. Submissions can still target the next meetup slot when no authored meetup exists yet, keeping the submission path low-friction. If the default biweekly slot has already passed unauthored, that submission target is the next Wednesday — the next time the club would actually meet — not the following date on the original biweekly grid.
 
 ## Reminders
 
@@ -239,7 +239,7 @@ The reminder flow is intentionally small:
 
 Submissions are intentionally low-friction:
 
-- new submissions always target the next upcoming authored meetup or tentative meetup slot
+- new submissions always target the next upcoming authored meetup, or the next tentative meetup slot if that gathering is not authored yet; a missed biweekly slot falls through to the next Wednesday
 - link submissions require a title and one or more valid links
 - showcase submissions require a title and short description; links are optional because showcases can be ad hoc and spontaneous
 - curation can rewrite, combine, reframe, order, or move submitted material before it becomes part of a topic board

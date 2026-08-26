@@ -188,7 +188,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - **Security** is both a standard **Track** and a **Security Lens**.
 - A **Showcase** can have **Presenter Notes**.
 - A **Submission** belongs to exactly one target **Meetup**.
-- A new **Submission** always targets the next upcoming **Meetup** or **Meetup Slot**.
+- A new **Submission** always targets the next upcoming **Meetup**. If that **Meetup** is not authored yet, the **Submission** targets the next **Meetup Slot**: the default biweekly date after the last **Meetup**, or the next Wednesday if that biweekly date already passed unauthored.
 - A **Submission** requires a title.
 - A **Submission** can become a **Topic** or **Showcase** through **Curation**.
 - **Curation** can rewrite, combine, reframe, order, or move submitted material.
@@ -305,6 +305,9 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 > **Dev:** "Should the submitter pick a date?"
 > **Domain expert:** "No — every new **Submission** targets the next upcoming **Meetup** or **Meetup Slot**."
 >
+> **Dev:** "The last **Meetup** was three weeks ago, we skipped the generated slot, and the next authored board is not up yet. Does the **Submission** stamp the following origin-grid date?"
+> **Domain expert:** "No — stamp the next Wednesday. A **Submission** always belongs to the next gathering, whenever that date is."
+>
 > **Dev:** "Should reminder copy point at a generated **Meetup Slot**?"
 > **Domain expert:** "No — **Reminders** should only point at an actual planned **Meetup**."
 >
@@ -342,5 +345,5 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - "topic without links" was considered — resolved: every **Topic** requires at least one **Link**.
 - "showcase without links" was considered — resolved: **Showcases** do not require **Links** because they can be ad hoc and spontaneous.
 - "submission" was close to being treated as pre-acceptance review state — resolved: **Submissions** are associated with their target **Meetup** immediately to keep contribution friction low.
-- "target meetup" was close to being user-selectable — resolved: new **Submissions** always target the next upcoming **Meetup** or **Meetup Slot**.
+- "target meetup" was close to being user-selectable — resolved: new **Submissions** always target the next upcoming **Meetup**, or the next **Meetup Slot** when that gathering is not authored yet. If the default biweekly **Meetup Slot** already passed unauthored, the next Wednesday is the target rather than the following origin-grid date.
 - "reminder target" was close to following generated **Meetup Slots** — resolved: reminders only point at actual planned **Meetups**.

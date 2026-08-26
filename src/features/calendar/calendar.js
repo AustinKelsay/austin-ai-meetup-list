@@ -273,8 +273,91 @@ export function getInitialCalendarEntry(entries, timeZone = "America/Chicago") {
   );
 }
 
-export function getNextSubmissionTarget(meetupList) {
-  const nextMeetup = nextMeetupFromMeetups(meetupList);
+function getZonedWeekday(value, timeZone) {
+  const label = new Intl.DateTimeFormat("en-US", {
+    weekday: "short",
+    timeZone,
+  }).format(new Date(value));
+
+  return WEEKDAY_LABELS.indexOf(label);
+}
+
+function addCalendarDaysToDateKey(dateKey, days) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const utc = new Date(Date.UTC(year, month - 1, day + days));
+
+  return `${utc.getUTCFullYear()}-${padDatePart(utc.getUTCMonth() + 1)}-${padDatePart(utc.getUTCDate())}`;
+}
+
+function createSlotStartForDateKey(dateKey, templateEvent) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+
+  return createGeneratedStartDate(
+    templateEvent,
+    new Date(Date.UTC(year, month - 1, day, 18, 0, 0)),
+  );
+}
+
+/**
+ * Returns the next Wednesday meeting start after `nowMs`, using the template
+ * meetup's local time of day. If today is that Wednesday and the meeting has
+ * not ended yet, this evening is the slot.
+ */
+function getNextWednesdaySlotStart(templateEvent, nowMs) {
+  const timeZone = templateEvent.timezone ?? "America/Chicago";
+  const todayKey = formatDateKey(new Date(nowMs), timeZone);
+  const daysUntilWednesday = (3 - getZonedWeekday(nowMs, timeZone) + 7) % 7;
+  let dateKey = addCalendarDaysToDateKey(todayKey, daysUntilWednesday);
+  let startAt = createSlotStartForDateKey(dateKey, templateEvent);
+  const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
+
+  if (startAt.getTime() + durationMs < nowMs) {
+    dateKey = addCalendarDaysToDateKey(dateKey, 7);
+    startAt = createSlotStartForDateKey(dateKey, templateEvent);
+  }
+
+  return startAt;
+}
+
+function getMostRecentAuthoredMeetup(meetupList, nowMs) {
+  const authoredMeetups = meetupList.filter((meetup) => meetup.event);
+
+  return (
+    authoredMeetups
+      .filter((meetup) => new Date(meetup.event.startAt).getTime() <= nowMs)
+      .sort((a, b) => new Date(b.event.startAt).getTime() - new Date(a.event.startAt).getTime())[0]
+    ?? authoredMeetups.sort(
+      (a, b) => new Date(a.event.startAt).getTime() - new Date(b.event.startAt).getTime(),
+    )[0]
+    ?? null
+  );
+}
+
+function getNextUnauthoredSubmissionSlot(meetupList, nowMs) {
+  const lastMeetup = getMostRecentAuthoredMeetup(meetupList, nowMs);
+
+  if (!lastMeetup) {
+    return null;
+  }
+
+  const templateEvent = lastMeetup.event;
+  const biweeklyStartAt = addDays(new Date(templateEvent.startAt), BIWEEKLY_INTERVAL_DAYS);
+  const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
+  const slotStartAt = biweeklyStartAt.getTime() + durationMs >= nowMs
+    ? biweeklyStartAt
+    : getNextWednesdaySlotStart(templateEvent, nowMs);
+
+  return createGeneratedEntry(templateEvent, slotStartAt, 0);
+}
+
+/**
+ * Returns the gathering a new Submission should stamp: the next authored
+ * Meetup that has not ended, or the next Meetup Slot after the last Meetup.
+ * If the default biweekly slot already passed without being authored, the
+ * slot is the next Wednesday rather than the following origin-grid date.
+ */
+export function getNextSubmissionTarget(meetupList, now = Date.now()) {
+  const nextMeetup = nextMeetupFromMeetups(meetupList, now);
   if (nextMeetup) {
     return {
       id: nextMeetup.id,
@@ -286,5 +369,5 @@ export function getNextSubmissionTarget(meetupList) {
     };
   }
 
-  return buildCalendarEntries(meetupList, 1)[0] ?? null;
+  return getNextUnauthoredSubmissionSlot(meetupList, now);
 }
