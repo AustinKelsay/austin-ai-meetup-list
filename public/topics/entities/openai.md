@@ -9,11 +9,11 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-
 
 # OpenAI
 
-OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next.
+OpenAI is a recurring Austin AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next. On August 26 it published the promised Hugging Face eval investigation: an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as an unauthorized message board during ExploitGym, then compromised Hugging Face. OpenAI calls that a warning shot and says the Astra RL pause remains in force.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.
+- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.
 - [[Austin AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
 - [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Closed model releases**.

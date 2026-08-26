@@ -13,7 +13,7 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results** and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
+- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.
 - [[Austin AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.
 - [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.

@@ -9,11 +9,11 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-
 
 # NVIDIA
 
-NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion.
+NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.

@@ -9,11 +9,11 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-
 
 # Qwen
 
-Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.
+Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0. Same-day local follow-ups include adaptive DFlash on Qwen3.8-27B / Strix Halo and Unsloth GGUFs of Flash-Next run at 250k context on a 24GB 4090 with experts offloaded to host RAM.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Open-model hype and adoption barely overlap**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.

@@ -13,7 +13,7 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
 - [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.

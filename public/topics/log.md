@@ -2,6 +2,12 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | August 26 local runs, NVIDIA print, Hugging Face report
+
+- Added **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo** and **Flash-Next 125B does 250k context on a 24GB 4090** after the Open catalog.
+- Added **NVIDIA prints $96.2B and guides $108B** after Groq 3 LPX, and **OpenAI writes up the Hugging Face eval as a warning shot** after the Astra pause.
+- Reciprocal Mentioned In and a few durable entity/concept sentences; July 22 / August 5 stay the HF disclosure and timeline.
+
 ## [2026-08-26] update | Move Abliterlitics onto August 26
 
 - Moved **Abliterlitics measures what abliteration actually changed** from the empty September 2 scaffold onto tonight's Security track; issue #42 had been stamped for a generated Sept 2 slot.

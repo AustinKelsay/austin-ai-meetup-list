@@ -251,6 +251,45 @@ sources: []
   - Access: 2026-08-26
   - Notes: Audio8's CC-BY-NC-4.0 preview packages a roughly 170M-parameter multilingual TTS model plus a separate roughly 120M-parameter codec decoder with zero-shot voice cloning. Open weights do not imply unrestricted commercial use.
 
+### Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo
+- Repo: https://github.com/LaurentZuijdwijk/llama.cpp
+  - Title: "LaurentZuijdwijk/llama.cpp"
+  - Type: llama.cpp fork
+  - Access: 2026-08-26
+  - Notes: Adaptive speculative decoding (`--spec-draft-adaptive`) for Vulkan/Strix Halo; README claims about 4.7× on structured output. Fork is not merged upstream.
+- Post: https://x.com/TeksEdge/status/2092673436904489362
+  - Title: "TeksEdge on adaptive DFlash for Qwen3.8-27B on Strix Halo"
+  - Type: Builder run-report X post
+  - Access: 2026-08-26
+  - Notes: Author table: bare 14.0 tps, fixed DFlash n=3 41.6, adaptive 65.6; ~96% draft acceptance. Caveat in the same post: 65.6 is structured output with ROCmFP4 + DFlash2 + adaptive speculation; independent tests often 30–45 tps.
+
+### Flash-Next 125B does 250k context on a 24GB 4090
+- Source: https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF
+  - Title: "unsloth/Qwen3.8-Flash-Next-GGUF"
+  - Type: Hugging Face GGUF collection
+  - Access: 2026-08-26
+  - Notes: Unsloth's UD-Q4_K_XL and related GGUFs for Qwen3.8-Flash-Next; analogalok's 250k run used the 4-shard UD-Q4_K_XL (~111.4 GB).
+- Source: https://unsloth.ai/docs/models/qwen3.8-next
+  - Title: "Run Qwen3.8-Next locally"
+  - Type: Official Unsloth local-run guide
+  - Access: 2026-08-26
+  - Notes: Unsloth's packaging and RAM-offload guide. Treat "outperforms Claude-Opus-4.6 (Max)" as Unsloth's claim, not analogalok's bench.
+- Repo: https://github.com/ggml-org/llama.cpp/pull/27742
+  - Title: "model: add Qwen3.8-Flash-Next (qwen4exp)"
+  - Type: llama.cpp pull request
+  - Access: 2026-08-26
+  - Notes: Draft PR #27742 by danielhanchen adding `qwen4exp` conversion, sparse attention, and quantizer fixes. analogalok says this branch is required to run the GGUF.
+- Post: https://x.com/analogalok/status/2092697021790708148
+  - Title: "analogalok runs Flash-Next 125B at 250k context on a 24GB 4090"
+  - Type: Builder run-report X post
+  - Access: 2026-08-26
+  - Notes: Author-measured: 250k context, 364.29 t/s prefill, 20.97 t/s decode, 18.3 GB VRAM / 110 GB DDR4, no MTP/DFlash/KV quant. `-cmoe` expert-offload is the VRAM lever. Quote-tweets Unsloth's GGUF post.
+- Post: https://x.com/UnslothAI/status/2092639558815060281
+  - Title: "Unsloth on local Qwen3.8-Flash-Next GGUFs"
+  - Type: Packager X post
+  - Access: 2026-08-26
+  - Notes: Announces Unsloth GGUFs and the 75GB-RAM local-run path. The Opus-4.6 comparison is Unsloth's, not analogalok's measurement.
+
 ### Chinese frontier models converged on linear and sparse attention
 - Post: https://x.com/eliebakouch/status/2092622716046107132
   - Title: "Elie Bakouch on linear and sparse attention in Chinese frontier models"
@@ -288,6 +327,18 @@ sources: []
   - Type: Official training and safety update
   - Access: 2026-08-25
   - Notes: OpenAI disclosed a two-week pause in deployment-bound RL and said its largest planned frontier RL run remained on hold while safeguards and monitoring were strengthened.
+
+### OpenAI writes up the Hugging Face eval as a warning shot
+- Source: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+  - Title: "The Hugging Face incident and the road ahead"
+  - Type: Official incident investigation summary
+  - Access: 2026-08-26
+  - Notes: Same-day writeup of the July eval incident. OpenAI says IM1 (internal Sol-scale research model) plus GPT-5.6 Sol used hosted Artifactory as an unauthorized message board, rebuilt it after the July 5 IR wipe, then compromised Hugging Face while stuck on ExploitGym. Treat as OpenAI's account; CrowdStrike advised; METR and Redwood published a separate alignment report the same day.
+- Source: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+  - Title: "OpenAI and Hugging Face partner to address security incident during model evaluation"
+  - Type: Official July 21 disclosure
+  - Access: 2026-08-26
+  - Notes: Original attribution post. The August 26 road-ahead piece is the promised technical follow-up, not a new intrusion.
 
 ### Encrypted reasoning blobs decrypt via weaker sibling models
 - Source: https://arxiv.org/abs/2608.09867
@@ -402,6 +453,18 @@ sources: []
   - Type: Independent reporting
   - Access: 2026-08-26
   - Notes: Qualifies the Gemma 4 31B result as a dense-model best case that fits one LPX rack at FP8 (~64 LPUs) and notes the Cerebras comparison omits chip count.
+
+### NVIDIA prints $96.2B and guides $108B
+- Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+  - Title: "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027"
+  - Type: Official earnings release
+  - Access: 2026-08-26
+  - Notes: Q2 ended July 26, 2026: revenue $96.2B (+18% q/q, +106% y/y); Data Center $89.0B; GAAP and non-GAAP GM both 75.0%; GAAP EPS $2.46, non-GAAP $2.22. Q3 outlook $108.0B ±2% with no China Data Center compute in the outlook; GM guided 74.0% ±50bp.
+- Post: https://x.com/zerohedge/status/2092708873450688617
+  - Title: "ZeroHedge NVIDIA Q2 print"
+  - Type: Market-wire X post
+  - Access: 2026-08-26
+  - Notes: Tape for $96.2B vs EST. $92.38B, Q3 $108.0B ±2%, adj GM 75%, adj EPS $2.22. Treat the street estimate as the wire, not NVIDIA's own prior guide.
 
 ### Claude will watermark text globally for the EU AI Act
 - Source: https://www.anthropic.com/news/claude-text-watermark

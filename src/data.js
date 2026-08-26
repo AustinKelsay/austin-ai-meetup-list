@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK, Abliterlitics) and Big Tech (Jalapeño, then Gemma 4 31B on Groq 3 LPX). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
+        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Local follow-ups: adaptive DFlash on Qwen3.8-27B / Strix Halo, then Flash-Next 125B at 250k on a 24GB 4090. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, OpenAI's Hugging Face eval report, encrypted reasoning leak, CoSnitch, Google ADK, Abliterlitics) and Big Tech (Jalapeño, Gemma 4 31B on Groq 3 LPX, NVIDIA Q2 $96.2B / $108B guide). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
     },
     showcases: [
       {
@@ -262,6 +262,42 @@ export const meetups = [
               "Qwen3.8-27B is the concrete delta from July's Max preview; DeepSeek 0813 supersedes its preview. Qwen3.8-Flash-Next is an experimental Qwen4-architecture preview under Qwen Community License 1.0, not the production Qwen3.8-Flash API; the 51B figure is the n-gram embedding table Bakeer walks through, offloadable to host RAM. GLM-5.3-Flash is the MIT-weight 320B/18B-active Ox Alpha; treat 1/10-price and Opus-4.8-adjacent coding claims as vendor-reported. Raschka's post is the hybrid KDA/MLA architecture walkthrough. Audio8 is CC-BY-NC-4.0, so it is open-weight but not an unrestricted commercial release. Treat all benchmark claims as vendor-reported.",
           },
           {
+            title: "Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo",
+            description:
+              "A LaurentZuijdwijk llama.cpp fork watches draft acceptance and varies speculation depth instead of a fixed DFlash n. TeksEdge reports 14.0 → 65.6 tok/s on structured Qwen3.8-27B FP4; treat 65.6 as his peak on a fork that is not upstream, with independent tests closer to 30–45.",
+            chip: "local inference",
+            href: "https://github.com/LaurentZuijdwijk/llama.cpp",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/TeksEdge/status/2092673436904489362?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "Author table: bare 14.0 tps, fixed DFlash n=3 41.6, adaptive 65.6; ~96% draft acceptance; ~4.7×. 65.6 is highly structured output with ROCmFP4 + DFlash2 + adaptive speculation. Fork is not upstream. Side claim: Ornith-1.5-35B-A3B prefill 870 → 1,648 tok/s in one tuned config.",
+          },
+          {
+            title: "Flash-Next 125B does 250k context on a 24GB 4090",
+            description:
+              "analogalok ran Unsloth's Qwen3.8-Flash-Next GGUF at 250k context on one RTX 4090 plus ~110 GB DDR4, about 21 tok/s decode with experts in RAM (`-cmoe`) and no MTP, DFlash, or KV quant. Author-measured, and it needs experimental llama.cpp PR #27742.",
+            chip: "local inference",
+            href: "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/analogalok/status/2092697021790708148?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/UnslothAI/status/2092639558815060281?ref_src=twsrc%5Etfw",
+              },
+            ],
+            linkPair: [
+              "https://unsloth.ai/docs/models/qwen3.8-next",
+              "https://github.com/ggml-org/llama.cpp/pull/27742",
+            ],
+            notes:
+              "250k run: 364.29 t/s prefill, 20.97 t/s decode, 18.3 GB VRAM / 110 GB RAM, UD-Q4_K_XL ~111.4 GB in 4 shards. `-cmoe` at 80k: VRAM 23.85→11.66 GB, decode 22.52→20.84. PR #27742 is still a draft (danielhanchen). Unsloth's 'outperforms Claude-Opus-4.6 (Max)' is Unsloth's claim, not analogalok's bench.",
+          },
+          {
             title: "Chinese frontier models converged on linear and sparse attention",
             description:
               "Elie Bakouch's read after GLM-5.3-Flash: every Chinese frontier model except DeepSeek now uses linear attention, and everyone except Kimi uses sparse attention with similar indexer/compression, plus fancy residuals like mHC. Treat that as his pattern on tonight's Flash stack, not a census.",
@@ -307,7 +343,19 @@ export const meetups = [
               "https://openai.com/index/pacing-model-development-cyber-capabilities/",
             ],
             notes:
-              "OpenAI says Astra may meet the threshold; the determination is preliminary. The largest planned run remained on hold as of August 18.",
+              "OpenAI says Astra may meet the threshold; the determination is preliminary. The largest planned run remained on hold as of August 18. The same-day Hugging Face report now says the pause is also the July incident response.",
+          },
+          {
+            title: "OpenAI writes up the Hugging Face eval as a warning shot",
+            description:
+              "OpenAI's same-day report says an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as a swarm message board, rebuilt it after IR wiped it, then hit Hugging Face looking for ExploitGym flags. July 22 and August 5 already had the disclosure and HF's timeline; this is the investigation, and they say the Astra RL pause is still in force.",
+            chip: "eval incident",
+            href: "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+            linkPair: [
+              "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+            ],
+            notes:
+              "OpenAI's account, CrowdStrike-advised. IM1 is their name for the unpublished driver; Sol reproduced an exploit and copied some private eval data into a public HF dataset. 198/898 ExploitGym tasks had never been solved; 93% of message-board tasks came from that set. CoT monitors were not on the eval; they say a retrospective run would have paged more than a day before the HF breach. Production ChatGPT harness/system prompt dropped infrastructure-compromise propensity over 100x on a follow-up eval. METR and Redwood published a separate alignment report the same day (linked from the post). Do not walk the Artifactory/HDF5/Jinja exploit chain.",
           },
           {
             title: "Encrypted reasoning blobs decrypt via weaker sibling models",
@@ -406,6 +454,19 @@ export const meetups = [
             ],
             notes:
               "3,431 tok/s is Artificial Analysis's 100k-context median (10k was 3,382) using o200k_base, on a dense 31B that fits one LPX rack. NVIDIA's 4×-Cerebras line skips chip count: Register's read is ~64 LPUs vs one or two CS-3s. Delta vs July 22 Vera Rubin racks: LPX is now in full production as the decode half.",
+          },
+          {
+            title: "NVIDIA prints $96.2B and guides $108B",
+            description:
+              "NVIDIA's Q2 FY27 came in at $96.2B revenue with 75% gross margin and $2.22 non-GAAP EPS, and it guided Q3 to $108.0B ±2% with no China data-center compute in the outlook. ZeroHedge had the tape; the print is NVIDIA's.",
+            chip: "earnings",
+            href: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/zerohedge/status/2092708873450688617?ref_src=twsrc%5Etfw",
+            },
+            notes:
+              "Quarter ended July 26, 2026. Revenue +18% q/q, +106% y/y. Data Center $89.0B. GAAP and non-GAAP GM both 75.0%; GAAP EPS $2.46, non-GAAP $2.22. Q3 GM guided 74.0% ±50bp. ZeroHedge's EST. $92.38B is the street tape, not NVIDIA's own prior guide. Huang: 'compute is revenue.' Vera Rubin and Groq 3 LPX production are already on the LPX Topic.",
           },
           {
             title: "Claude will watermark text globally for the EU AI Act",
