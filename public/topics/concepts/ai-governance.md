@@ -1,7 +1,7 @@
 ---
 title: AI Governance
 created: 2026-06-08
-updated: 2026-08-25
+updated: 2026-08-26
 type: concept
 tags: [concept, security, big-tech-moves]
 sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
@@ -13,7 +13,7 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber** and **Claude will watermark text globally for the EU AI Act**.
+- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Claude will watermark text globally for the EU AI Act**, and **Archiving open-source models**.
 - [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests** and **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**.
 - [[Austin AI Club - July 22, 2026]]: **AI 2040 writes the optimistic branch on purpose**.
 - [[Austin AI Club - July 8, 2026]]: **Fable 5 comes back with government in the loop** and **China may hold frontier models at the border**.

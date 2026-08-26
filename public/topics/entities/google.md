@@ -13,7 +13,7 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Google ships a runnable zero-trust agent failure lab**.
+- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **Google ships a runnable zero-trust agent failure lab**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
 - [[Austin AI Club - August 5, 2026]]: **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**.
 - [[Austin AI Club - July 22, 2026]]: **AlphaEvolve turns algorithm discovery into a cloud product**, **Closed model releases**, **Vera Rubin racks move into production**, **The AI safety leaderboard tops out at C+**, and **Europe makes Android's AI layer contestable**.
 - [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Closed model releases**.
@@ -32,6 +32,7 @@ Google is a recurring Austin AI Club entity through Gemma, Gemini-adjacent devel
 - [[Agent Security]]
 - [[Big Tech Moves]]
 - [[Gemma]]
+- [[Vera Rubin]]
 - [[Gemini]]
 - [[React Native ExecuTorch]]
 - [[Gemini Omni Flash]]

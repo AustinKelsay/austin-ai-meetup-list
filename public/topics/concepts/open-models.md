@@ -15,7 +15,7 @@ On Meetup boards, the biweekly open-weight launch catalog lives under the offici
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
 - [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
@@ -30,6 +30,7 @@ On Meetup boards, the biweekly open-weight launch catalog lives under the offici
 ## Related
 
 - [[Models & Research]]
+- [[AI Governance]]
 - [[Local AI]]
 - [[AI Signal Discovery]]
 - [[World Models]]

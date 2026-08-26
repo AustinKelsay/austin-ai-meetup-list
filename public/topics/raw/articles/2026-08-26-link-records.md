@@ -33,6 +33,38 @@ sources: []
   - Access: 2026-08-26
   - Notes: Cites a tax-prep pilot of 7,000 returns with about a one-third time cut, then points builders at the open harness.
 
+### Omarchy Quattro makes coding agents an OS default
+- Release: https://github.com/basecamp/omarchy/releases/tag/v4.0.0
+  - Title: "v4.0.0 The Quattro Release"
+  - Type: GitHub release
+  - Access: 2026-08-26
+  - Notes: Omarchy 4.0.0 shipped August 14 with a Quickshell desktop rewrite and a configurable default coding agent (lazy-installed, Super+Shift+Ctrl+A).
+- Source: https://omarchy.org/manual/ai/
+  - Title: "AI — The Omarchy Manual"
+  - Type: Official documentation
+  - Access: 2026-08-26
+  - Notes: Documents first-class coding-agent launchers (Claude Code, Codex, OpenCode, and others), the agents usage panel, crash-to-agent diagnosis, and optional LM Studio / Ollama local models. Agents are not forced on at install.
+- Source: https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+  - Title: "A petabyte worth of Omarchy in a month"
+  - Type: Author blog
+  - Access: 2026-08-26
+  - Notes: DHH's vendor-reported popularity claim: a petabyte of ISOs in thirty days, framed as about 150,000 installs. Treat as his ISO-byte math, not an independent census.
+- Source: https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m
+  - Title: "Omacom Foundation funding hits $10m"
+  - Type: Official project news
+  - Access: 2026-08-26
+  - Notes: Nonprofit backing reached $10M from ten named $1M patrons, including Drew Houston and Peter Steinberger after the original eight. Not a priced company round.
+- Video: https://www.youtube.com/watch?v=F7fe9pa8OeE
+  - Title: "Omarchy Quattro introduction"
+  - Type: Official launch video
+  - Access: 2026-08-26
+  - Notes: Linked from the v4.0.0 release notes as the full Quattro introduction.
+- Video: https://www.youtube.com/watch?v=9SDkU5VDQEQ
+  - Title: "You need to switch to Linux RIGHT NOW!!"
+  - Type: Independent installer / popularity video
+  - Access: 2026-08-26
+  - Notes: NetworkChuck's mid-August Quattro install walkthrough; useful as the broader Linux-switch conversation, not as a view-count source.
+
 ## Models & Research
 
 ### Closed model releases
@@ -312,6 +344,28 @@ sources: []
   - Access: 2026-08-25
   - Notes: Places Jalapeño inside OpenAI's broader model, chip, data-center, product, and device integration strategy.
 
+### Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX
+- Post: https://x.com/googlegemma/status/2092666213914771529
+  - Title: "Google Gemma on Groq 3 LPX speed"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Same-day Gemma account post for 3,431 tokens/s on Gemma 4 31B and a median ~3,400 tok/s across 10k and 100k sequences on NVIDIA Groq 3 LPX.
+- Blog: https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/
+  - Title: "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin"
+  - Type: NVIDIA technical blog
+  - Access: 2026-08-26
+  - Notes: Reports Artificial Analysis's first third-party Groq 3 LPX numbers: 3,431 tok/s at 100k context and 3,382 at 10k on Gemma 4 31B, using o200k_base, on an NVIDIA-hosted rack.
+- Source: https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai
+  - Title: "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI"
+  - Type: Official product announcement
+  - Access: 2026-08-26
+  - Notes: Hot Chips-week production announcement; rounds the AA result to 3,400 tok/s and frames LPX as a Vera Rubin NVL72 decode extension. Treat "world-class" and 4×-Cerebras as vendor language.
+- Source: https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880
+  - Title: "What Nvidia's first Groq 3 LPU benchmarks tell us about its $20B gamble"
+  - Type: Independent reporting
+  - Access: 2026-08-26
+  - Notes: Qualifies the Gemma 4 31B result as a dense-model best case that fits one LPX rack at FP8 (~64 LPUs) and notes the Cerebras comparison omits chip count.
+
 ### Claude will watermark text globally for the EU AI Act
 - Source: https://www.anthropic.com/news/claude-text-watermark
   - Title: "How Claude's text watermark works"
@@ -331,9 +385,14 @@ sources: []
 
 ## Showcase
 
-### Community Slot
-- Link: https://github.com/AustinKelsay/austin-ai-club
-  - Title: "Austin AI Club"
-  - Type: Community repository
-  - Access: 2026-08-25
-  - Notes: Default destination for the open Community Slot at the upcoming Meetup.
+### Archiving open-source models
+- Source: https://huggingface.co/
+  - Title: "Hugging Face"
+  - Type: Model hub
+  - Access: 2026-08-26
+  - Notes: Current default catalog and download surface for open weights; the discussion starter for what a small archive would have to survive if origin-based access controls hit a hosted hub.
+- Source: https://llama.garden/
+  - Title: "llama.garden"
+  - Type: Experimental model-distribution catalog
+  - Access: 2026-08-26
+  - Notes: July 22 prior art for signed Nostr listings, BitTorrent plus Hugging Face webseeds, and a forkable local catalog. Optional reference for the Socratic slot, not a product demo.

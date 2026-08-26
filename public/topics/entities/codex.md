@@ -13,7 +13,7 @@ Codex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching t
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform** and **Encrypted reasoning blobs decrypt via weaker sibling models**.
+- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.
 - [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.
@@ -27,4 +27,5 @@ Codex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching t
 - [[Agent Infrastructure]]
 - [[Agent Security]]
 - [[Claude Code]]
+- [[Omarchy]]
 - [[Local Builds & Projects]]

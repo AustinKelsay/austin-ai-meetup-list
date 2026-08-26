@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-26 | Total pages: 151
+> Last updated: 2026-08-26 | Total pages: 152
 
 ## Meetups
 
@@ -88,6 +88,7 @@
 - [[Nemotron]]
 - [[Nemotron Puzzle]]
 - [[Ollama]]
+- [[Omarchy]]
 - [[OpenAI]]
 - [[OpenAI Presence]]
 - [[OpenAgents]]

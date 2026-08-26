@@ -2,6 +2,21 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Gemma 4 31B on Groq 3 LPX
+
+- Added **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX** after Jalapeño, pairing Google's same-day post with NVIDIA's LPX production announcement and Artificial Analysis numbers.
+- Kept 3,431 as the 100k-context AA median on NVIDIA's rack and flagged the Cerebras comparison as chip-count-unfriendly.
+
+## [2026-08-26] update | Omarchy Quattro agent-first Linux desktop
+
+- Added **Omarchy Quattro makes coding agents an OS default** after the Codex harness Topic, pairing the v4.0.0 release and AI manual with DHH's petabyte-of-ISOs claim and the $10M Omacom Foundation.
+- Created an Omarchy entity; treated install counts and foundation dollars as vendor-stated, not an independent census.
+
+## [2026-08-26] update | Archiving open-source models Community Slot
+
+- Replaced the empty Community Slot with a host-led Socratic on how a small project would keep the latest ~3 open weights available if the U.S. banned Chinese models or carved open weights by origin.
+- Pointed at Hugging Face as the current default catalog and llama.garden as optional July 22 prior art, not a product pitch.
+
 ## [2026-08-26] update | Qwen3.8-Flash-Next n-gram embedding explainer
 
 - Added Qwen3.8-Flash-Next to the Open catalog as a 125B/6B-active Qwen4 preview, pairing the official launch with 0xBakeer's 51B n-gram embedding walkthrough.

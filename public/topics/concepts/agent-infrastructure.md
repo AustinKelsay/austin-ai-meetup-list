@@ -13,7 +13,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**.
+- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform** and **Omarchy Quattro makes coding agents an OS default**.
 - [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.
 - [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.
 - [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.
@@ -29,6 +29,7 @@ Agent Infrastructure is the Austin AI Club track for runtimes, protocols, interf
 - [[AlphaEvolve]]
 - [[OpenAI Presence]]
 - [[Cloudflare OS]]
+- [[Omarchy]]
 - [[Prime Agent]]
 - [[Recursive Language Models]]
 - [[Meta Muse]]

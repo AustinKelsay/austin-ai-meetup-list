@@ -64,15 +64,20 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with Codex as an embeddable harness, then the August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK) and Big Tech.",
+        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK) and Big Tech (Jalapeño, then Gemma 4 31B on Groq 3 LPX). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
     },
     showcases: [
       {
-        title: "Community Slot",
+        title: "Archiving open-source models",
         description:
-          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
-        chip: "showcase",
-        href: "https://github.com/AustinKelsay/austin-ai-club",
+          "If a small project kept the latest three-ish open weights downloadable for anyone, what storage, mirrors, and legal shape would survive a potential U.S. ban of Chinese models or any other origin carve-out? Open Socratic: design the tiny archive, not a product pitch.",
+        chip: "discussion",
+        href: "https://huggingface.co/",
+        linkPair: ["https://llama.garden/"],
+        notes:
+          "Host-led Socratic, not a demo. Frame a small-project design: pick ~3 models, then storage, mirrors, and what still works if Hugging Face or U.S. access gets origin-carved. Do not treat a ban as enacted. July 22's llama.garden is optional prior art (signed torrents + forkable catalog). Tonight's Hugging Face slide is the 'which 3' trap: launch-week frontier vs the sub-1B models people actually download.",
+        presentationNotes:
+          "Host-led Socratic. Ban is hypothetical. llama.garden is optional prior art; the Hugging Face slide is the which-3 trap.",
       },
     ],
     tracks: [
@@ -104,6 +109,35 @@ export const meetups = [
             ],
             notes:
               "ARC-AGI-3 13.3% → 38.3% and 6× fewer output tokens are OpenAI-reported harness effects on GPT-5.6 Sol. The tax-prep 7,000 returns / ~1/3 time cut is the Thrive/Crete pilot in Brockman's post. Delta vs August 5 Prime Agent and Muse Code: OpenAI is selling the harness as embeddable product infrastructure, not a new coding chat.",
+          },
+          {
+            title: "Omarchy Quattro makes coding agents an OS default",
+            description:
+              "Omarchy treats coding agents as first-class OS citizens: pick Claude Code, Codex, OpenCode, or another CLI, lazy-install it, then Super+Shift+Ctrl+A. DHH says a petabyte of ISOs went out in a month (~150k installs by his math), and the Omacom Foundation is at $10M from ten named patrons.",
+            chip: "agent desktop",
+            href: "https://github.com/basecamp/omarchy/releases/tag/v4.0.0",
+            videos: [
+              {
+                href: "https://www.youtube.com/watch?v=F7fe9pa8OeE",
+                embedHref: "https://www.youtube.com/embed/F7fe9pa8OeE",
+                title: "Omarchy Quattro introduction",
+                caption: "Official Quattro intro: Quickshell desktop rewrite plus the default coding-agent shortcut.",
+              },
+              {
+                href: "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+                embedHref: "https://www.youtube.com/embed/9SDkU5VDQEQ",
+                title: "NetworkChuck installs Omarchy Quattro",
+                caption: "The mid-August Linux-switch video that pushed Quattro into a much wider installer conversation.",
+              },
+            ],
+            linkPair: [
+              "https://github.com/basecamp/omarchy/releases/tag/v4.0.0",
+              "https://omarchy.org/manual/ai/",
+              "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
+              "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+            ],
+            notes:
+              "Quattro shipped August 14. Agents are optional and lazy-loaded, not forced at install; Setup > Defaults > Agent picks Claude Code, Codex, OpenCode, Pi, Gemini, Grok, Copilot, Crush, and friends. 1 PB / ~150k installs is DHH's ISO-byte math. $10M is the Omacom nonprofit (Dell, Dorsey, Collison, Lütke, Prince, Iribe, Fried, DHH, then Houston and Steinberger), not a company round. NetworkChuck is the popularity vector; skip inventing view counts.",
           },
         ],
       },
@@ -331,6 +365,23 @@ export const meetups = [
             ],
             notes:
               "Treat every multiplier as OpenAI-reported. The tests use public InferenceX workloads, but OpenAI selected and ran the comparison.",
+          },
+          {
+            title: "Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX",
+            description:
+              "Google says Artificial Analysis measured a median ~3,400 output tokens/s on Gemma 4 31B at 10k and 100k context on NVIDIA's Groq 3 LPX, which just entered full production as a Vera Rubin decode accelerator. Treat 3,431 as the AA 100k-context number on NVIDIA's own rack, not a chip-for-chip Cerebras comparison.",
+            chip: "inference silicon",
+            href: "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/googlegemma/status/2092666213914771529?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
+              "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880",
+            ],
+            notes:
+              "3,431 tok/s is Artificial Analysis's 100k-context median (10k was 3,382) using o200k_base, on a dense 31B that fits one LPX rack. NVIDIA's 4×-Cerebras line skips chip count: Register's read is ~64 LPUs vs one or two CS-3s. Delta vs July 22 Vera Rubin racks: LPX is now in full production as the decode half.",
           },
           {
             title: "Claude will watermark text globally for the EU AI Act",
