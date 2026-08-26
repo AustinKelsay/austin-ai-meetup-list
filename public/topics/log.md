@@ -2,6 +2,15 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Elie Bakouch linear/sparse attention pattern
+
+- Added **Chinese frontier models converged on linear and sparse attention** after the Open catalog, pairing Bakouch's pattern-read with GLM-5.3-Flash as the concrete stack.
+
+## [2026-08-26] update | GLM-5.3-Flash MIT weights and Raschka explainer
+
+- Added GLM-5.3-Flash to the Open catalog as the MIT-weight 320B/18B-active Ox Alpha, pairing Z.ai's launch with Sebastian Raschka's hybrid-attention explainer.
+- Left flagship GLM-5.3 in Closed; those weights are still promised, not shipped.
+
 ## [2026-08-26] update | Codex harness and encrypted reasoning leak
 
 - Added **OpenAI opens the Codex harness as a product platform** as the August 26 Agent Infrastructure lead, pairing the open app-server with OpenAI Developers and Brockman posts.

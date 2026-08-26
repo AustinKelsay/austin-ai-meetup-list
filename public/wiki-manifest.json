@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:07:00.354Z",
+  "generatedAt": "2026-08-26T16:30:07.397Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -10844,9 +10844,14 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+        "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
@@ -10989,6 +10994,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -11001,6 +11026,16 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research"
         },
         {
@@ -11101,7 +11136,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, Big Tech Moves, Compute Strategy, Google, Gemini, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Nemotron, Qwen, DeepSeek, Ornith, Astra, Microsoft, Anthropic, Jalapeno.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, Big Tech Moves, Compute Strategy, Google, Gemini, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -11121,7 +11156,9 @@
         "google",
         "gpt-56",
         "grok",
+        "inference-optimization",
         "jalapeno",
+        "kimi",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -11134,7 +11171,8 @@
         "ornith",
         "qwen",
         "security",
-        "xai"
+        "xai",
+        "zai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -11154,7 +11192,9 @@
         "google",
         "gpt-56",
         "grok",
+        "inference-optimization",
         "jalapeno",
+        "kimi",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -11167,7 +11207,8 @@
         "ornith",
         "qwen",
         "security",
-        "xai"
+        "xai",
+        "zai"
       ],
       "referencedTopicSources": []
     },
@@ -11208,10 +11249,15 @@
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "https://x.com/deepseek_ai/status/2087864585504305397",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/collections/ornith-ai/ornith-15",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+        "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
@@ -11364,6 +11410,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -11381,6 +11447,16 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research"
         },
         {
@@ -25332,6 +25408,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -29954,7 +30058,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "excerpt": "DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.",
       "rawHref": "/topics/entities/deepseek.md",
       "relativePath": "entities/deepseek.md",
@@ -30069,6 +30173,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -30085,6 +30217,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -30398,7 +30544,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**.\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
+      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
     },
     {
       "id": "deepspec",
@@ -33995,7 +34141,7 @@
       "sourceReferences": [],
       "created": "2026-07-08",
       "updated": "2026-08-26",
-      "excerpt": "GLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.",
+      "excerpt": "GLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave. GLM-5.3 launched as an API-only post-training bump on the 5.2 base; GLM-5.3-Flash shipped MIT open weights on August 26 as a 320B/18B-active natively multimodal model previously tested as Ox Alpha.",
       "rawHref": "/topics/entities/glm.md",
       "relativePath": "entities/glm.md",
       "outgoingIds": [
@@ -34240,6 +34386,125 @@
         {
           "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -34847,7 +35112,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**.\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Security]]\n- [[Coding Agents]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave. GLM-5.3 launched as an API-only post-training bump on the 5.2 base; GLM-5.3-Flash shipped MIT open weights on August 26 as a 320B/18B-active natively multimodal model previously tested as Ox Alpha.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Security]]\n- [[Coding Agents]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
     },
     {
       "id": "google",
@@ -38029,6 +38294,7 @@
         "local-ai"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -38039,11 +38305,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 9,
+      "sourceCount": 10,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "Inference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.",
       "rawHref": "/topics/concepts/inference-optimization.md",
       "relativePath": "concepts/inference-optimization.md",
@@ -38051,6 +38317,7 @@
         "airllm",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
@@ -38083,6 +38350,7 @@
         "airllm",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
@@ -39328,6 +39596,20 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://github.com/lyogavin/airllm",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
@@ -39839,7 +40121,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "inkling",
@@ -40332,6 +40614,7 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
@@ -40340,17 +40623,18 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 7,
+      "sourceCount": 8,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "Kimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.",
       "rawHref": "/topics/entities/kimi.md",
       "relativePath": "entities/kimi.md",
       "outgoingIds": [
         "agent-cost-controls",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-22-2026",
         "austin-ai-club-july-8-2026",
@@ -40369,6 +40653,7 @@
       "backlinkIds": [
         "airllm",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-22-2026",
         "austin-ai-club-july-8-2026",
@@ -40423,6 +40708,20 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://github.com/lyogavin/airllm",
@@ -41251,7 +41550,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Kimi\n\nKimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Moonshot AI]]\n- [[Cursor]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]\n- [[Prem]]\n- [[Security]]\n- [[GLM]]"
+      "bodyMarkdown": "# Kimi\n\nKimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Moonshot AI]]\n- [[Cursor]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]\n- [[Prem]]\n- [[Security]]\n- [[GLM]]"
     },
     {
       "id": "laguna-s-21",
@@ -42765,6 +43064,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -45724,6 +46051,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -50173,6 +50528,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -50189,6 +50572,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -53141,7 +53538,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -53977,6 +54374,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -56466,6 +56891,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -58619,6 +59072,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -58635,6 +59116,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -59935,7 +60430,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "openagents",
@@ -62384,6 +62879,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -65249,6 +65772,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -71603,21 +72154,23 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-08",
+      "updated": "2026-08-26",
       "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
       "rawHref": "/topics/entities/z-ai.md",
       "relativePath": "entities/z-ai.md",
       "outgoingIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-june-24-2026",
         "coding-agents",
         "deepseek",
@@ -71629,6 +72182,7 @@
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-june-24-2026",
         "deepseek",
         "glm"
@@ -71724,6 +72278,195 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://z.ai/blog/glm-5.2",
@@ -72013,7 +72756,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
     }
   ],
   "pagesById": {
@@ -82860,9 +83603,14 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+        "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
@@ -83005,6 +83753,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -83017,6 +83785,16 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research"
         },
         {
@@ -83117,7 +83895,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, Big Tech Moves, Compute Strategy, Google, Gemini, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Nemotron, Qwen, DeepSeek, Ornith, Astra, Microsoft, Anthropic, Jalapeno.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, Big Tech Moves, Compute Strategy, Google, Gemini, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -83137,7 +83915,9 @@
         "google",
         "gpt-56",
         "grok",
+        "inference-optimization",
         "jalapeno",
+        "kimi",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -83150,7 +83930,8 @@
         "ornith",
         "qwen",
         "security",
-        "xai"
+        "xai",
+        "zai"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -83170,7 +83951,9 @@
         "google",
         "gpt-56",
         "grok",
+        "inference-optimization",
         "jalapeno",
+        "kimi",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -83183,7 +83966,8 @@
         "ornith",
         "qwen",
         "security",
-        "xai"
+        "xai",
+        "zai"
       ],
       "referencedTopicSources": []
     },
@@ -83224,10 +84008,15 @@
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "https://x.com/deepseek_ai/status/2087864585504305397",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/collections/ornith-ai/ornith-15",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+        "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
@@ -83380,6 +84169,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -83397,6 +84206,16 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research"
         },
         {
@@ -97348,6 +98167,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -101970,7 +102817,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "excerpt": "DeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.",
       "rawHref": "/topics/entities/deepseek.md",
       "relativePath": "entities/deepseek.md",
@@ -102085,6 +102932,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -102101,6 +102976,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -102414,7 +103303,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**.\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
+      "bodyMarkdown": "# DeepSeek\n\nDeepSeek is a recurring Austin AI Club entity for Chinese open-model competition, distillation controversy, and fast inference research around speculative decoding.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **DeepSeek V4 Flash 0731 is absurd for 13B active** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.\n\n## Related\n\n- [[Open Models]]\n- [[Model Distillation]]\n- [[Speculative Decoding]]\n- [[DeepSpec]]\n- [[AI Benchmarks & Evals]]\n- [[Agent Cost Controls]]\n- [[Z.ai]]\n- [[Moonshot AI]]\n- [[MiniMax]]"
     },
     "deepspec": {
       "id": "deepspec",
@@ -106011,7 +106900,7 @@
       "sourceReferences": [],
       "created": "2026-07-08",
       "updated": "2026-08-26",
-      "excerpt": "GLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.",
+      "excerpt": "GLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave. GLM-5.3 launched as an API-only post-training bump on the 5.2 base; GLM-5.3-Flash shipped MIT open weights on August 26 as a 320B/18B-active natively multimodal model previously tested as Ox Alpha.",
       "rawHref": "/topics/entities/glm.md",
       "relativePath": "entities/glm.md",
       "outgoingIds": [
@@ -106256,6 +107145,125 @@
         {
           "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -106863,7 +107871,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**.\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Security]]\n- [[Coding Agents]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# GLM\n\nGLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave. GLM-5.3 launched as an API-only post-training bump on the 5.2 base; GLM-5.3-Flash shipped MIT open weights on August 26 as a 320B/18B-active natively multimodal model previously tested as Ox Alpha.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Austin AI Club - July 22, 2026]]: **Frontier local inference becomes an expert-cache problem** and **OpenAI's cyber eval breached Hugging Face**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Z.ai]]\n- [[Open Models]]\n- [[Security]]\n- [[Coding Agents]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[AI Benchmarks & Evals]]\n- [[Kimi]]\n- [[DeepSeek]]"
     },
     "google": {
       "id": "google",
@@ -110045,6 +111053,7 @@
         "local-ai"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -110055,11 +111064,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 9,
+      "sourceCount": 10,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "Inference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.",
       "rawHref": "/topics/concepts/inference-optimization.md",
       "relativePath": "concepts/inference-optimization.md",
@@ -110067,6 +111076,7 @@
         "airllm",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
@@ -110099,6 +111109,7 @@
         "airllm",
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
@@ -111344,6 +112355,20 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://github.com/lyogavin/airllm",
           "title": "AirLLM streams giant MoEs onto hobbyist VRAM",
           "section": "Models & Research",
@@ -111855,7 +112880,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "inkling": {
       "id": "inkling",
@@ -112348,6 +113373,7 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
@@ -112356,17 +113382,18 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 7,
+      "sourceCount": 8,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "Kimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.",
       "rawHref": "/topics/entities/kimi.md",
       "relativePath": "entities/kimi.md",
       "outgoingIds": [
         "agent-cost-controls",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-22-2026",
         "austin-ai-club-july-8-2026",
@@ -112385,6 +113412,7 @@
       "backlinkIds": [
         "airllm",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-july-22-2026",
         "austin-ai-club-july-8-2026",
@@ -112439,6 +113467,20 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://github.com/lyogavin/airllm",
@@ -113267,7 +114309,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Kimi\n\nKimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Moonshot AI]]\n- [[Cursor]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]\n- [[Prem]]\n- [[Security]]\n- [[GLM]]"
+      "bodyMarkdown": "# Kimi\n\nKimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.\n- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.\n\n## Related\n\n- [[Moonshot AI]]\n- [[Cursor]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Agent Cost Controls]]\n- [[Prem]]\n- [[Security]]\n- [[GLM]]"
     },
     "laguna-s-21": {
       "id": "laguna-s-21",
@@ -114781,6 +115823,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -117740,6 +118810,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -122189,6 +123287,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -122205,6 +123331,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -125157,7 +126297,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -125993,6 +127133,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -128482,6 +129650,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -130635,6 +131831,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -130651,6 +131875,20 @@
         {
           "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
           "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -131951,7 +133189,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "openagents": {
       "id": "openagents",
@@ -134400,6 +135638,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -137265,6 +138531,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -143619,21 +144913,23 @@
         "coding-agents"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-08",
+      "updated": "2026-08-26",
       "excerpt": "Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.",
       "rawHref": "/topics/entities/z-ai.md",
       "relativePath": "entities/z-ai.md",
       "outgoingIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-june-24-2026",
         "coding-agents",
         "deepseek",
@@ -143645,6 +144941,7 @@
       "backlinkIds": [
         "austin-ai-club-april-1-2026",
         "austin-ai-club-april-15-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-june-24-2026",
         "deepseek",
         "glm"
@@ -143740,6 +145037,195 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://z.ai/blog/glm-5.2",
@@ -144029,7 +145515,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
+      "bodyMarkdown": "# Z.ai\n\nZ.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Open Models]]\n- [[OpenClaw]]\n- [[GLM]]\n- [[DeepSeek]]"
     }
   },
   "topics": [
@@ -144181,6 +145667,51 @@
       "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://x.com/OpenAI/status/2092300846675505602 https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
     },
     {
+      "id": "austin-ai-club-august-26-2026-models-research-chinese-frontier-models-converged-on-linear-and-sparse-attention",
+      "title": "Chinese frontier models converged on linear and sparse attention",
+      "rawTitle": "Chinese frontier models converged on linear and sparse attention",
+      "normalizedTitle": "chinese frontier models converged on linear and sparse attention",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/eliebakouch/status/2092622716046107132",
+        "https://z.ai/blog/glm-5.3-flash"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "deepseek",
+        "glm",
+        "inference-optimization",
+        "kimi",
+        "models-research",
+        "open-models"
+      ],
+      "wikiTitles": [
+        "DeepSeek",
+        "GLM",
+        "Inference Optimization",
+        "Kimi",
+        "Models & Research",
+        "Open Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Chinese frontier models converged on linear and sparse attention Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://x.com/eliebakouch/status/2092622716046107132 https://z.ai/blog/glm-5.3-flash DeepSeek GLM Inference Optimization Kimi Models & Research Open Models"
+    },
+    {
       "id": "austin-ai-club-august-26-2026-models-research-closed-model-releases",
       "title": "Closed model releases",
       "rawTitle": "Closed model releases",
@@ -144274,7 +145805,8 @@
         "grok",
         "models-research",
         "openai",
-        "xai"
+        "xai",
+        "zai"
       ],
       "wikiTitles": [
         "Gemini",
@@ -144284,10 +145816,11 @@
         "Grok",
         "Models & Research",
         "OpenAI",
-        "xAI"
+        "xAI",
+        "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI Z.ai"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-releases",
@@ -144308,6 +145841,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b"
@@ -144330,6 +145867,11 @@
         },
         {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -144367,11 +145909,27 @@
           "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
         "coding-agents",
         "deepseek",
+        "glm",
         "local-ai",
         "meta-muse",
         "models-research",
@@ -144379,11 +145937,13 @@
         "nvidia",
         "open-models",
         "ornith",
-        "qwen"
+        "qwen",
+        "zai"
       ],
       "wikiTitles": [
         "Coding Agents",
         "DeepSeek",
+        "GLM",
         "Local AI",
         "Meta Muse",
         "Models & Research",
@@ -144391,10 +145951,11 @@
         "NVIDIA",
         "Open Models",
         "Ornith",
-        "Qwen"
+        "Qwen",
+        "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -156952,6 +158513,51 @@
       "unresolvedWikiLinks": [],
       "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://x.com/OpenAI/status/2092300846675505602 https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
     },
+    "austin-ai-club-august-26-2026-models-research-chinese-frontier-models-converged-on-linear-and-sparse-attention": {
+      "id": "austin-ai-club-august-26-2026-models-research-chinese-frontier-models-converged-on-linear-and-sparse-attention",
+      "title": "Chinese frontier models converged on linear and sparse attention",
+      "rawTitle": "Chinese frontier models converged on linear and sparse attention",
+      "normalizedTitle": "chinese frontier models converged on linear and sparse attention",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/eliebakouch/status/2092622716046107132",
+        "https://z.ai/blog/glm-5.3-flash"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://x.com/eliebakouch/status/2092622716046107132",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Chinese frontier models converged on linear and sparse attention",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "deepseek",
+        "glm",
+        "inference-optimization",
+        "kimi",
+        "models-research",
+        "open-models"
+      ],
+      "wikiTitles": [
+        "DeepSeek",
+        "GLM",
+        "Inference Optimization",
+        "Kimi",
+        "Models & Research",
+        "Open Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Chinese frontier models converged on linear and sparse attention Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://x.com/eliebakouch/status/2092622716046107132 https://z.ai/blog/glm-5.3-flash DeepSeek GLM Inference Optimization Kimi Models & Research Open Models"
+    },
     "austin-ai-club-august-26-2026-models-research-closed-model-releases": {
       "id": "austin-ai-club-august-26-2026-models-research-closed-model-releases",
       "title": "Closed model releases",
@@ -157046,7 +158652,8 @@
         "grok",
         "models-research",
         "openai",
-        "xai"
+        "xai",
+        "zai"
       ],
       "wikiTitles": [
         "Gemini",
@@ -157056,10 +158663,11 @@
         "Grok",
         "Models & Research",
         "OpenAI",
-        "xAI"
+        "xAI",
+        "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI Z.ai"
     },
     "austin-ai-club-august-26-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-releases",
@@ -157080,6 +158688,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://z.ai/blog/glm-5.3-flash",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://x.com/Zai_org/status/2092616204787626030",
+        "https://x.com/rasbt/status/2092629415813365899",
         "https://ornith.ai/ornith_1_5.html",
         "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b"
@@ -157102,6 +158714,11 @@
         },
         {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -157139,11 +158756,27 @@
           "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
         "coding-agents",
         "deepseek",
+        "glm",
         "local-ai",
         "meta-muse",
         "models-research",
@@ -157151,11 +158784,13 @@
         "nvidia",
         "open-models",
         "ornith",
-        "qwen"
+        "qwen",
+        "zai"
       ],
       "wikiTitles": [
         "Coding Agents",
         "DeepSeek",
+        "GLM",
         "Local AI",
         "Meta Muse",
         "Models & Research",
@@ -157163,10 +158798,11 @@
         "NVIDIA",
         "Open Models",
         "Ornith",
-        "Qwen"
+        "Qwen",
+        "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
     },
     "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap": {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -170896,6 +172532,10 @@
     },
     {
       "source": "austin-ai-club-august-26-2026",
+      "target": "kimi"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
       "target": "ornith"
     },
     {
@@ -173828,6 +175468,10 @@
     },
     {
       "source": "inference-optimization",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "inference-optimization",
       "target": "austin-ai-club-august-5-2026"
     },
     {
@@ -173981,6 +175625,10 @@
     {
       "source": "jalapeno",
       "target": "inference-optimization"
+    },
+    {
+      "source": "kimi",
+      "target": "austin-ai-club-august-26-2026"
     },
     {
       "source": "kimi",
@@ -176468,6 +178116,10 @@
     },
     {
       "source": "zai",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "zai",
       "target": "austin-ai-club-june-24-2026"
     },
     {
@@ -176503,12 +178155,20 @@
       "target": "ai-signal-discovery"
     },
     {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "inference-optimization"
+    },
+    {
       "source": "austin-ai-club-july-22-2026",
       "target": "ornith"
     },
     {
       "source": "austin-ai-club-june-10-2026",
       "target": "vllm"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "zai"
     }
   ],
   "unresolvedLinks": [],
@@ -176814,7 +178474,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 60,
+        "degree": 66,
         "updated": "2026-08-26"
       },
       {
@@ -177308,7 +178968,7 @@
           "open-source"
         ],
         "degree": 27,
-        "updated": "2026-08-25"
+        "updated": "2026-08-26"
       },
       {
         "id": "deepspec",
@@ -177574,8 +179234,8 @@
           "agent-infrastructure",
           "local-ai"
         ],
-        "degree": 56,
-        "updated": "2026-08-05"
+        "degree": 58,
+        "updated": "2026-08-26"
       },
       {
         "id": "inkling",
@@ -177613,8 +179273,8 @@
           "open-source",
           "coding-agents"
         ],
-        "degree": 28,
-        "updated": "2026-08-05"
+        "degree": 30,
+        "updated": "2026-08-26"
       },
       {
         "id": "laguna-s-21",
@@ -178437,8 +180097,8 @@
           "model",
           "coding-agents"
         ],
-        "degree": 13,
-        "updated": "2026-07-08"
+        "degree": 15,
+        "updated": "2026-08-26"
       }
     ],
     "links": [
@@ -180085,6 +181745,11 @@
       {
         "source": "austin-ai-club-august-26-2026",
         "target": "deepseek",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "kimi",
         "kind": "topic"
       },
       {
@@ -183754,6 +185419,11 @@
       },
       {
         "source": "inference-optimization",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "inference-optimization",
         "target": "austin-ai-club-august-5-2026",
         "kind": "topic"
       },
@@ -183946,6 +185616,11 @@
         "source": "jalapeno",
         "target": "inference-optimization",
         "kind": "wiki"
+      },
+      {
+        "source": "kimi",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
       },
       {
         "source": "kimi",
@@ -187054,6 +188729,11 @@
       },
       {
         "source": "zai",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "zai",
         "target": "austin-ai-club-june-24-2026",
         "kind": "topic"
       },
@@ -187098,6 +188778,11 @@
         "kind": "topic"
       },
       {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "inference-optimization",
+        "kind": "topic"
+      },
+      {
         "source": "austin-ai-club-july-22-2026",
         "target": "ornith",
         "kind": "topic"
@@ -187106,16 +188791,21 @@
         "source": "austin-ai-club-june-10-2026",
         "target": "vllm",
         "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "zai",
+        "kind": "topic"
       }
     ]
   },
   "stats": {
     "pageCount": 151,
-    "topicCount": 226,
+    "topicCount": 227,
     "rawPageCount": 0,
-    "linkCount": 1733,
+    "linkCount": 1739,
     "sourceRecordCount": 11,
-    "sourceLinkCount": 1007,
+    "sourceLinkCount": 1012,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

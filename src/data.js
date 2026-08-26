@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with Codex as an embeddable harness, then the August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen → Ornith → Audio8. Pause on Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK) and Big Tech.",
+        "Start with Codex as an embeddable harness, then the August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen → GLM-5.3-Flash → Ornith → Audio8. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, encrypted reasoning leak, CoSnitch, Google ADK) and Big Tech.",
     },
     showcases: [
       {
@@ -155,12 +155,12 @@ export const meetups = [
               "https://z.ai/blog/glm-5.3",
             ],
             notes:
-              "The August Sol/Luna refresh is ChatGPT-only; Codex and Work keep July checkpoints. Daybreak Red is identity-verified. GLM-5.3 belongs in Closed tonight because Z.ai's promised weights have not shipped yet.",
+              "The August Sol/Luna refresh is ChatGPT-only; Codex and Work keep July checkpoints. Daybreak Red is identity-verified. GLM-5.3 flagship still belongs in Closed because those weights have not shipped; GLM-5.3-Flash is the MIT-weight sibling in Open.",
           },
           {
             title: "Open model releases",
             description:
-              "Muse Glimmer, Nemotron 3.5 Lightning, DeepSeek V4-Pro-0813, and Qwen3.8-27B cover local multimodal agents from dense 27–30B models to sparse frontier-scale MoEs. Ornith 1.5 adds 9B, 35B/3B-active, and 397B self-improving coding variants, while Audio8 puts zero-shot voice cloning in a roughly 170M-parameter TTS model. The useful comparison is deployment shape and license, not one blended leaderboard.",
+              "Muse Glimmer, Nemotron 3.5 Lightning, DeepSeek V4-Pro-0813, and Qwen3.8-27B cover local multimodal agents from dense 27–30B models to sparse frontier-scale MoEs. GLM-5.3-Flash is tonight's MIT 320B/18B-active Ox Alpha, natively multimodal with hybrid linear/sparse attention; Ornith 1.5 adds 9B, 35B/3B-active, and 397B self-improving coding variants, while Audio8 puts zero-shot voice cloning in a roughly 170M-parameter TTS model. The useful comparison is deployment shape and license, not one blended leaderboard.",
             chip: "open releases",
             releaseRoundup: true,
             href: "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
@@ -183,6 +183,14 @@ export const meetups = [
               },
               {
                 type: "tweet",
+                href: "https://twitter.com/Zai_org/status/2092616204787626030?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/rasbt/status/2092629415813365899?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
                 href: "https://twitter.com/ornith_/status/2090074077084127302?ref_src=twsrc%5Etfw",
               },
             ],
@@ -191,11 +199,27 @@ export const meetups = [
               "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
               "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
               "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "https://z.ai/blog/glm-5.3-flash",
+              "https://huggingface.co/zai-org/GLM-5.3-Flash",
               "https://ornith.ai/ornith_1_5.html",
               "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
             ],
             notes:
-              "Qwen3.8-27B is the concrete delta from July's Max preview; DeepSeek 0813 supersedes its preview. Audio8 is CC-BY-NC-4.0, so it is open-weight but not an unrestricted commercial release. Treat all benchmark claims as vendor-reported.",
+              "Qwen3.8-27B is the concrete delta from July's Max preview; DeepSeek 0813 supersedes its preview. GLM-5.3-Flash is the MIT-weight 320B/18B-active Ox Alpha; treat 1/10-price and Opus-4.8-adjacent coding claims as vendor-reported. Raschka's post is the hybrid KDA/MLA architecture walkthrough. Audio8 is CC-BY-NC-4.0, so it is open-weight but not an unrestricted commercial release. Treat all benchmark claims as vendor-reported.",
+          },
+          {
+            title: "Chinese frontier models converged on linear and sparse attention",
+            description:
+              "Elie Bakouch's read after GLM-5.3-Flash: every Chinese frontier model except DeepSeek now uses linear attention, and everyone except Kimi uses sparse attention with similar indexer/compression, plus fancy residuals like mHC. Treat that as his pattern on tonight's Flash stack, not a census.",
+            chip: "architecture",
+            href: "https://x.com/eliebakouch/status/2092622716046107132",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/eliebakouch/status/2092622716046107132?ref_src=twsrc%5Etfw",
+            },
+            linkPair: ["https://z.ai/blog/glm-5.3-flash"],
+            notes:
+              "His exceptions: DeepSeek skips linear attention; Kimi skips sparse. mHC is in the GLM-5.3-Flash blog. Do not treat the post as a complete census of every Chinese lab.",
           },
           {
             title: "Open-model hype and adoption barely overlap",

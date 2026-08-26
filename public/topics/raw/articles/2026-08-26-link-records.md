@@ -90,7 +90,7 @@ sources: []
   - Title: "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities"
   - Type: Official API model launch
   - Access: 2026-08-26
-  - Notes: Z.ai launched GLM-5.3 in its API on August 14 and said weights would follow in two weeks after safety evaluation and hardening. It remains in the closed roundup until a downloadable artifact actually ships.
+  - Notes: Z.ai launched GLM-5.3 in its API on August 14 and said weights would follow in two weeks after safety evaluation and hardening. The flagship remains in the closed roundup; GLM-5.3-Flash shipped MIT weights on August 26 and lives in Open.
 - Post: https://x.com/Zai_org/status/2088132965922476159
   - Title: "Introducing GLM-5.3"
   - Type: Official X post
@@ -148,6 +148,26 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-26
   - Notes: DeepSeek launch for the official V4-Pro GA, effort controls, and Responses API / Codex setup.
+- Source: https://z.ai/blog/glm-5.3-flash
+  - Title: "GLM-5.3-Flash: Frontier Intelligence, Flash Cost"
+  - Type: Official model launch
+  - Access: 2026-08-26
+  - Notes: Z.ai launched GLM-5.3-Flash on August 26 as a natively multimodal 320B/18B-active MIT-weight model, previously tested as Ox Alpha. Vendor-reported 1/10-price and Opus-4.8-adjacent coding claims should stay qualified.
+- Source: https://huggingface.co/zai-org/GLM-5.3-Flash
+  - Title: "zai-org/GLM-5.3-Flash"
+  - Type: Hugging Face model page
+  - Access: 2026-08-26
+  - Notes: MIT-licensed FP8 checkpoint for the 320B-A18B Flash model; BF16 sibling is listed separately.
+- Post: https://x.com/Zai_org/status/2092616204787626030
+  - Title: "Introducing GLM-5.3-Flash"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post for MIT weights, 1M context, native multimodality, and the Ox Alpha reveal, served on Chinese AI chips.
+- Post: https://x.com/rasbt/status/2092629415813365899
+  - Title: "Sebastian Raschka on GLM-5.3-Flash architecture"
+  - Type: Technical explainer X post
+  - Access: 2026-08-26
+  - Notes: Architecture walkthrough versus GLM-5.2: Kimi Linear-style 3:1 hybrid attention with Kimi Delta Attention and MLA / DeepSeek sparse layers.
 - Source: https://ornith.ai/ornith_1_5.html
   - Title: "Ornith-1.5: From Self-Scaffolding to Self-Improvement"
   - Type: Official model and training-method launch
@@ -168,6 +188,18 @@ sources: []
   - Type: Hugging Face model page
   - Access: 2026-08-26
   - Notes: Audio8's CC-BY-NC-4.0 preview packages a roughly 170M-parameter multilingual TTS model plus a separate roughly 120M-parameter codec decoder with zero-shot voice cloning. Open weights do not imply unrestricted commercial use.
+
+### Chinese frontier models converged on linear and sparse attention
+- Post: https://x.com/eliebakouch/status/2092622716046107132
+  - Title: "Elie Bakouch on linear and sparse attention in Chinese frontier models"
+  - Type: Technical pattern X post
+  - Access: 2026-08-26
+  - Notes: Bakouch's read after the GLM-5.3-Flash launch: linear attention everywhere except DeepSeek, sparse attention with similar indexer/compression everywhere except Kimi, plus fancy residuals such as mHC. Treat as a pattern-read, not a census.
+- Source: https://z.ai/blog/glm-5.3-flash
+  - Title: "GLM-5.3-Flash: Frontier Intelligence, Flash Cost"
+  - Type: Official model launch
+  - Access: 2026-08-26
+  - Notes: Durable artifact for the hybrid linear/sparse attention and mHC example Bakouch is generalizing from.
 
 ### Open-model hype and adoption barely overlap
 - Source: https://huggingface.co/blog/state-of-open-models-summer-2026
