@@ -54,6 +54,16 @@ sources: []
   - Type: Official project news
   - Access: 2026-08-26
   - Notes: Nonprofit backing reached $10M from ten named $1M patrons, including Drew Houston and Peter Steinberger after the original eight. Not a priced company round.
+- Post: https://x.com/dhh/status/2088304854603047019
+  - Title: "DHH on Omarchy Quattro shipping"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post with the 90-minute intro video attached. High-signal popularity vector for the release, not an independent install census.
+- Post: https://x.com/tobi/status/2088333047024202115
+  - Title: "Tobi Lütke on a malleable OS for the agentic age"
+  - Type: High-signal X reaction
+  - Access: 2026-08-26
+  - Notes: Shopify CEO quote-tweet calling Quattro a fully malleable operating system for the agentic age. Reaction, not a technical changelog.
 - Video: https://www.youtube.com/watch?v=F7fe9pa8OeE
   - Title: "Omarchy Quattro introduction"
   - Type: Official launch video

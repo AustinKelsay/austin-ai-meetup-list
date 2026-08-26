@@ -41,6 +41,57 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    id: "meetup-2026-09-02",
+    slug: "2026-09-02",
+    date: "September 2, 2026",
+    markdownHref: "./topics/2026-09-02.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-09-02T18:00:00-05:00",
+      endAt: "2026-09-02T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "First-pass September 2 board. Open on Abliterlitics as a forensics kit for uncensored-model claims; qualify ASR and KL as author-reported, and do not walk recipes. Community Slot stays empty until someone submits a showcase.",
+    },
+    tracks: [
+      {
+        id: "sep2-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, exploits, abuse patterns, and defensive systems so the room can reason about real agent trust boundaries.",
+        items: [
+          {
+            title: "Abliterlitics measures what abliteration actually changed",
+            description:
+              "Nathan Sapwell's Abliterlitics takes one base model and measures what Heretic, Huihui, AEON, Abliterix, and friends actually changed in weights, KL, capability benches, and HarmBench. On Gemma 4 E4B he reports Heretic as the best capability/refusal tradeoff at 95.5% ASR with KL=0.002, and the most-downloaded variant as the most damaged; treat those as author-reported security forensics, not a how-to.",
+            chip: "safety forensics",
+            href: "https://abliterlitics.dev/",
+            linkPair: [
+              "https://github.com/dreamfast/abliterlitics",
+              "https://abliterlitics.dev/models/gemma4-e4b/",
+              "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+            ],
+            notes:
+              "Submitted link #42. Site is the artifact; GitHub is the toolkit. Do not walk abliteration recipes. 95.5% ASR / KL=0.002 and the most-downloaded-is-worst finding are author-reported from the Gemma 4 E4B board.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-08-26",
     slug: "2026-08-26",
     date: "August 26, 2026",
@@ -116,6 +167,16 @@ export const meetups = [
               "Omarchy treats coding agents as first-class OS citizens: pick Claude Code, Codex, OpenCode, or another CLI, lazy-install it, then Super+Shift+Ctrl+A. DHH says a petabyte of ISOs went out in a month (~150k installs by his math), and the Omacom Foundation is at $10M from ten named patrons.",
             chip: "agent desktop",
             href: "https://github.com/basecamp/omarchy/releases/tag/v4.0.0",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/dhh/status/2088304854603047019?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/tobi/status/2088333047024202115?ref_src=twsrc%5Etfw",
+              },
+            ],
             videos: [
               {
                 href: "https://www.youtube.com/watch?v=F7fe9pa8OeE",

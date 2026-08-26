@@ -1,6 +1,76 @@
 {
-  "generatedAt": "2026-08-26T20:05:41.785Z",
+  "generatedAt": "2026-08-26T20:21:52.178Z",
   "pages": [
+    {
+      "id": "abliterlitics",
+      "title": "Abliterlitics",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "tool",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-09-02-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Abliterlitics is Nathan Sapwell's open-source forensics toolkit for comparing abliteration techniques on the same base model. It measures weight-level edits, KL divergence, capability benches, and HarmBench rather than taking “lossless” or “uncensored” claims at face value.",
+      "rawHref": "/topics/entities/abliterlitics.md",
+      "relativePath": "entities/abliterlitics.md",
+      "outgoingIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-september-2-2026",
+        "gemma",
+        "harc",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-september-2-2026",
+        "gemma",
+        "harc",
+        "open-models",
+        "security"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Abliterlitics\n\nAbliterlitics is Nathan Sapwell's open-source forensics toolkit for comparing abliteration techniques on the same base model. It measures weight-level edits, KL divergence, capability benches, and HarmBench rather than taking “lossless” or “uncensored” claims at face value.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n\n## Related\n\n- [[Security]]\n- [[Gemma]]\n- [[AI Benchmarks & Evals]]\n- [[Open Models]]\n- [[HARC]]"
+    },
     {
       "id": "agent-cost-controls",
       "title": "Agent Cost Controls",
@@ -885,6 +955,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -2756,6 +2840,7 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -2766,15 +2851,16 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 9,
+      "sourceCount": 10,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.",
       "rawHref": "/topics/concepts/ai-benchmarks-evals.md",
       "relativePath": "concepts/ai-benchmarks-evals.md",
       "outgoingIds": [
+        "abliterlitics",
         "agent-infrastructure",
         "ai-governance",
         "ai-signal-discovery",
@@ -2786,6 +2872,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "brain2qwerty",
         "coding-agents",
         "cwip",
@@ -2802,6 +2889,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-governance",
         "ai-mathematics",
         "ai-signal-discovery",
@@ -2814,6 +2902,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "brain2qwerty",
         "coding-agents",
         "cwip",
@@ -3488,6 +3577,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         },
         {
           "href": "https://karpathy.ai/lotr-movie/",
@@ -4225,7 +4342,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]"
     },
     {
       "id": "ai-governance",
@@ -10887,6 +11004,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
@@ -10984,6 +11103,16 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
         },
@@ -11386,6 +11515,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
@@ -11486,6 +11617,16 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
         },
@@ -21521,6 +21662,122 @@
       "referencedTopicSources": []
     },
     {
+      "id": "austin-ai-club-september-2-2026",
+      "title": "Austin AI Club - September 2, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-09-02-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Related wiki pages: Security, Abliterlitics, Gemma, AI Benchmarks & Evals, Open Models.",
+      "rawHref": "/topics/2026-09-02.md",
+      "relativePath": "2026-09-02.md",
+      "outgoingIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "referencedTopicSources": []
+    },
+    {
+      "id": "austin-ai-club-september-2-2026-source-link-records",
+      "title": "Austin AI Club - September 2, 2026 - Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+        "https://abliterlitics.dev/about/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/about/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "",
+      "rawHref": "/topics/raw/articles/2026-09-02-link-records.md",
+      "relativePath": "raw/articles/2026-09-02-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
       "id": "ben-carman",
       "title": "Ben Carman",
       "type": "entity",
@@ -23679,6 +23936,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -24733,6 +25004,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -25264,6 +25549,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -33309,6 +33608,7 @@
         "local-ai"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
@@ -33318,7 +33618,7 @@
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 8,
+      "sourceCount": 9,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
@@ -33327,6 +33627,7 @@
       "rawHref": "/topics/entities/gemma.md",
       "relativePath": "entities/gemma.md",
       "outgoingIds": [
+        "abliterlitics",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
@@ -33335,6 +33636,7 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "diffusiongemma",
         "google",
         "inference-optimization",
@@ -33350,6 +33652,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
@@ -33358,6 +33661,7 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "big-tech-moves",
         "compute-strategy",
         "diffusiongemma",
@@ -34217,6 +34521,34 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
           "href": "https://developer.ant-ling.com/en/docs/models/ling",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -34546,7 +34878,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
+      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]\n- [[Abliterlitics]]"
     },
     {
       "id": "genesis-mission",
@@ -38117,6 +38449,7 @@
       "rawHref": "/topics/entities/harc.md",
       "relativePath": "entities/harc.md",
       "outgoingIds": [
+        "abliterlitics",
         "ai-governance",
         "austin-ai-club-july-8-2026",
         "microsoft",
@@ -38126,6 +38459,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-governance",
         "austin-ai-club-july-8-2026",
         "microsoft",
@@ -38318,7 +38652,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# HARC\n\nHARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model topic, useful as a named example of open-model releases gaining safety and policy-specific variants rather than only raw base models.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Microsoft]]\n- [[Qwen]]\n- [[Open Models]]\n- [[Security]]\n- [[AI Governance]]"
+      "bodyMarkdown": "# HARC\n\nHARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model topic, useful as a named example of open-model releases gaining safety and policy-specific variants rather than only raw base models.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Microsoft]]\n- [[Qwen]]\n- [[Open Models]]\n- [[Security]]\n- [[Abliterlitics]]\n- [[AI Governance]]"
     },
     {
       "id": "hermes-agent",
@@ -43789,6 +44123,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -59103,6 +59451,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -59129,6 +59491,7 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
@@ -59141,7 +59504,7 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 11,
+      "sourceCount": 12,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
@@ -59150,6 +59513,7 @@
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
       "outgoingIds": [
+        "abliterlitics",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-signal-discovery",
@@ -59165,6 +59529,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "ben-carman",
         "btl-3",
         "cohere",
@@ -59210,6 +59575,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-signal-discovery",
@@ -59228,6 +59594,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "ben-carman",
         "btl-3",
         "cisco",
@@ -60097,6 +60464,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         },
         {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
@@ -61569,7 +61964,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "openagents",
@@ -68645,6 +69040,7 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
@@ -68657,7 +69053,7 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 11,
+      "sourceCount": 12,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
@@ -68666,6 +69062,7 @@
       "rawHref": "/topics/concepts/security.md",
       "relativePath": "concepts/security.md",
       "outgoingIds": [
+        "abliterlitics",
         "agent-security",
         "ai-governance",
         "ai-saas-supply-chain",
@@ -68681,6 +69078,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "cloudflare-os",
         "coding-agents",
         "glm",
@@ -68692,6 +69090,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "agent-security",
         "ai-governance",
         "andrej-karpathy",
@@ -68708,6 +69107,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "cisco",
         "cloudflare-os",
         "cursor",
@@ -69595,9 +69995,37 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[GLM]]"
     },
     {
       "id": "spacex",
@@ -74022,6 +74450,76 @@
     }
   ],
   "pagesById": {
+    "abliterlitics": {
+      "id": "abliterlitics",
+      "title": "Abliterlitics",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "tool",
+        "security",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-09-02-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Abliterlitics is Nathan Sapwell's open-source forensics toolkit for comparing abliteration techniques on the same base model. It measures weight-level edits, KL divergence, capability benches, and HarmBench rather than taking “lossless” or “uncensored” claims at face value.",
+      "rawHref": "/topics/entities/abliterlitics.md",
+      "relativePath": "entities/abliterlitics.md",
+      "outgoingIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-september-2-2026",
+        "gemma",
+        "harc",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "ai-benchmarks-evals",
+        "austin-ai-club-september-2-2026",
+        "gemma",
+        "harc",
+        "open-models",
+        "security"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Abliterlitics\n\nAbliterlitics is Nathan Sapwell's open-source forensics toolkit for comparing abliteration techniques on the same base model. It measures weight-level edits, KL divergence, capability benches, and HarmBench rather than taking “lossless” or “uncensored” claims at face value.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n\n## Related\n\n- [[Security]]\n- [[Gemma]]\n- [[AI Benchmarks & Evals]]\n- [[Open Models]]\n- [[HARC]]"
+    },
     "agent-cost-controls": {
       "id": "agent-cost-controls",
       "title": "Agent Cost Controls",
@@ -74906,6 +75404,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -76777,6 +77289,7 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -76787,15 +77300,16 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 9,
+      "sourceCount": 10,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
-      "updated": "2026-08-05",
+      "updated": "2026-08-26",
       "excerpt": "AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.",
       "rawHref": "/topics/concepts/ai-benchmarks-evals.md",
       "relativePath": "concepts/ai-benchmarks-evals.md",
       "outgoingIds": [
+        "abliterlitics",
         "agent-infrastructure",
         "ai-governance",
         "ai-signal-discovery",
@@ -76807,6 +77321,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "brain2qwerty",
         "coding-agents",
         "cwip",
@@ -76823,6 +77338,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-governance",
         "ai-mathematics",
         "ai-signal-discovery",
@@ -76835,6 +77351,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "brain2qwerty",
         "coding-agents",
         "cwip",
@@ -77509,6 +78026,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         },
         {
           "href": "https://karpathy.ai/lotr-movie/",
@@ -78246,7 +78791,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]"
     },
     "ai-governance": {
       "id": "ai-governance",
@@ -84908,6 +85453,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
@@ -85005,6 +85552,16 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
         },
@@ -85407,6 +85964,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
@@ -85507,6 +86066,16 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
         },
@@ -95541,6 +96110,122 @@
       "backlinkIds": [],
       "referencedTopicSources": []
     },
+    "austin-ai-club-september-2-2026": {
+      "id": "austin-ai-club-september-2-2026",
+      "title": "Austin AI Club - September 2, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-09-02-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Related wiki pages: Security, Abliterlitics, Gemma, AI Benchmarks & Evals, Open Models.",
+      "rawHref": "/topics/2026-09-02.md",
+      "relativePath": "2026-09-02.md",
+      "outgoingIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "referencedTopicSources": []
+    },
+    "austin-ai-club-september-2-2026-source-link-records": {
+      "id": "austin-ai-club-september-2-2026-source-link-records",
+      "title": "Austin AI Club - September 2, 2026 - Source Link Records",
+      "type": "summary",
+      "tags": [
+        "source-record",
+        "meetup"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+        "https://abliterlitics.dev/about/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/about/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "",
+      "rawHref": "/topics/raw/articles/2026-09-02-link-records.md",
+      "relativePath": "raw/articles/2026-09-02-link-records.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
     "ben-carman": {
       "id": "ben-carman",
       "title": "Ben Carman",
@@ -97700,6 +98385,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -98754,6 +99453,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -99285,6 +99998,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -107330,6 +108057,7 @@
         "local-ai"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
@@ -107339,7 +108067,7 @@
         "raw/articles/2026-05-13-link-records.md",
         "raw/articles/2026-04-15-link-records.md"
       ],
-      "sourceCount": 8,
+      "sourceCount": 9,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-08",
@@ -107348,6 +108076,7 @@
       "rawHref": "/topics/entities/gemma.md",
       "relativePath": "entities/gemma.md",
       "outgoingIds": [
+        "abliterlitics",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
@@ -107356,6 +108085,7 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "diffusiongemma",
         "google",
         "inference-optimization",
@@ -107371,6 +108101,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "austin-ai-club-april-15-2026",
         "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
@@ -107379,6 +108110,7 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "big-tech-moves",
         "compute-strategy",
         "diffusiongemma",
@@ -108238,6 +108970,34 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
           "href": "https://developer.ant-ling.com/en/docs/models/ling",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -108567,7 +109327,7 @@
           "sourcePageTitle": "Austin AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]"
+      "bodyMarkdown": "# Gemma\n\nGemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Google]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Inference Optimization]]\n- [[TurboFieldfare]]\n- [[React Native ExecuTorch]]\n- [[Ollama]]\n- [[vLLM]]\n- [[DiffusionGemma]]\n- [[Abliterlitics]]"
     },
     "genesis-mission": {
       "id": "genesis-mission",
@@ -112138,6 +112898,7 @@
       "rawHref": "/topics/entities/harc.md",
       "relativePath": "entities/harc.md",
       "outgoingIds": [
+        "abliterlitics",
         "ai-governance",
         "austin-ai-club-july-8-2026",
         "microsoft",
@@ -112147,6 +112908,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-governance",
         "austin-ai-club-july-8-2026",
         "microsoft",
@@ -112339,7 +113101,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# HARC\n\nHARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model topic, useful as a named example of open-model releases gaining safety and policy-specific variants rather than only raw base models.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Microsoft]]\n- [[Qwen]]\n- [[Open Models]]\n- [[Security]]\n- [[AI Governance]]"
+      "bodyMarkdown": "# HARC\n\nHARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model topic, useful as a named example of open-model releases gaining safety and policy-specific variants rather than only raw base models.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Microsoft]]\n- [[Qwen]]\n- [[Open Models]]\n- [[Security]]\n- [[Abliterlitics]]\n- [[AI Governance]]"
     },
     "hermes-agent": {
       "id": "hermes-agent",
@@ -117810,6 +118572,20 @@
         },
         {
           "href": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -133124,6 +133900,20 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure",
@@ -133150,6 +133940,7 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
@@ -133162,7 +133953,7 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 11,
+      "sourceCount": 12,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
@@ -133171,6 +133962,7 @@
       "rawHref": "/topics/concepts/open-models.md",
       "relativePath": "concepts/open-models.md",
       "outgoingIds": [
+        "abliterlitics",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-signal-discovery",
@@ -133186,6 +133978,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "ben-carman",
         "btl-3",
         "cohere",
@@ -133231,6 +134024,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "ai-benchmarks-evals",
         "ai-governance",
         "ai-signal-discovery",
@@ -133249,6 +134043,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "ben-carman",
         "btl-3",
         "cisco",
@@ -134118,6 +134913,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Austin AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         },
         {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
@@ -135590,7 +136413,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "openagents": {
       "id": "openagents",
@@ -142666,6 +143489,7 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-09-02-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-07-22-link-records.md",
@@ -142678,7 +143502,7 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 11,
+      "sourceCount": 12,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-24",
@@ -142687,6 +143511,7 @@
       "rawHref": "/topics/concepts/security.md",
       "relativePath": "concepts/security.md",
       "outgoingIds": [
+        "abliterlitics",
         "agent-security",
         "ai-governance",
         "ai-saas-supply-chain",
@@ -142702,6 +143527,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "cloudflare-os",
         "coding-agents",
         "glm",
@@ -142713,6 +143539,7 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "abliterlitics",
         "agent-security",
         "ai-governance",
         "andrej-karpathy",
@@ -142729,6 +143556,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-2-2026",
         "cisco",
         "cloudflare-os",
         "cursor",
@@ -143616,9 +144444,37 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-september-2-2026",
+          "sourcePageTitle": "Austin AI Club - September 2, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[GLM]]"
     },
     "spacex": {
       "id": "spacex",
@@ -148044,6 +148900,61 @@
   },
   "topics": [
     {
+      "id": "austin-ai-club-september-2-2026-security-abliterlitics-measures-what-abliteration-actually-changed",
+      "title": "Abliterlitics measures what abliteration actually changed",
+      "rawTitle": "Abliterlitics measures what abliteration actually changed",
+      "normalizedTitle": "abliterlitics measures what abliteration actually changed",
+      "section": "Security",
+      "meetupId": "austin-ai-club-september-2-2026",
+      "meetupTitle": "Austin AI Club - September 2, 2026",
+      "meetupSlug": "2026-09-02",
+      "meetupHref": "/topics/2026-09-02.md",
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "wikiTitles": [
+        "Abliterlitics",
+        "AI Benchmarks & Evals",
+        "Gemma",
+        "Open Models",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Abliterlitics measures what abliteration actually changed Security Austin AI Club - September 2, 2026 2026-09-02 https://abliterlitics.dev/ https://github.com/dreamfast/abliterlitics https://abliterlitics.dev/models/gemma4-e4b/ https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics Abliterlitics AI Benchmarks & Evals Gemma Open Models Security"
+    },
+    {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default",
       "title": "Omarchy Quattro makes coding agents an OS default",
       "rawTitle": "Omarchy Quattro makes coding agents an OS default",
@@ -148058,6 +148969,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ"
       ],
@@ -148091,6 +149004,16 @@
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
@@ -148110,7 +149033,7 @@
         "Omarchy"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Omarchy Quattro makes coding agents an OS default Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://github.com/basecamp/omarchy/releases/tag/v4.0.0 https://omarchy.org/manual/ai/ https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m https://www.youtube.com/watch?v=F7fe9pa8OeE https://www.youtube.com/watch?v=9SDkU5VDQEQ Agent Infrastructure Claude Code Codex Coding Agents Local AI Omarchy"
+      "searchText": "Omarchy Quattro makes coding agents an OS default Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://github.com/basecamp/omarchy/releases/tag/v4.0.0 https://omarchy.org/manual/ai/ https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m https://x.com/dhh/status/2088304854603047019 https://x.com/tobi/status/2088333047024202115 https://www.youtube.com/watch?v=F7fe9pa8OeE https://www.youtube.com/watch?v=9SDkU5VDQEQ Agent Infrastructure Claude Code Codex Coding Agents Local AI Omarchy"
     },
     {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-openai-opens-the-codex-harness-as-a-product-platform",
@@ -161060,6 +161983,61 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-september-2-2026-security-abliterlitics-measures-what-abliteration-actually-changed": {
+      "id": "austin-ai-club-september-2-2026-security-abliterlitics-measures-what-abliteration-actually-changed",
+      "title": "Abliterlitics measures what abliteration actually changed",
+      "rawTitle": "Abliterlitics measures what abliteration actually changed",
+      "normalizedTitle": "abliterlitics measures what abliteration actually changed",
+      "section": "Security",
+      "meetupId": "austin-ai-club-september-2-2026",
+      "meetupTitle": "Austin AI Club - September 2, 2026",
+      "meetupSlug": "2026-09-02",
+      "meetupHref": "/topics/2026-09-02.md",
+      "sourceLinks": [
+        "https://abliterlitics.dev/",
+        "https://github.com/dreamfast/abliterlitics",
+        "https://abliterlitics.dev/models/gemma4-e4b/",
+        "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://abliterlitics.dev/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://abliterlitics.dev/models/gemma4-e4b/",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/dreamfast/abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        },
+        {
+          "href": "https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics",
+          "title": "Abliterlitics measures what abliteration actually changed",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "abliterlitics",
+        "ai-benchmarks-evals",
+        "gemma",
+        "open-models",
+        "security"
+      ],
+      "wikiTitles": [
+        "Abliterlitics",
+        "AI Benchmarks & Evals",
+        "Gemma",
+        "Open Models",
+        "Security"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Abliterlitics measures what abliteration actually changed Security Austin AI Club - September 2, 2026 2026-09-02 https://abliterlitics.dev/ https://github.com/dreamfast/abliterlitics https://abliterlitics.dev/models/gemma4-e4b/ https://huggingface.co/DreamFast/Gemma4-e4b-abliterlitics Abliterlitics AI Benchmarks & Evals Gemma Open Models Security"
+    },
     "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default": {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default",
       "title": "Omarchy Quattro makes coding agents an OS default",
@@ -161075,6 +162053,8 @@
         "https://omarchy.org/manual/ai/",
         "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
         "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m",
+        "https://x.com/dhh/status/2088304854603047019",
+        "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ"
       ],
@@ -161108,6 +162088,16 @@
           "href": "https://www.youtube.com/watch?v=F7fe9pa8OeE",
           "title": "Omarchy Quattro makes coding agents an OS default",
           "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/dhh/status/2088304854603047019",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/tobi/status/2088333047024202115",
+          "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
@@ -161127,7 +162117,7 @@
         "Omarchy"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Omarchy Quattro makes coding agents an OS default Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://github.com/basecamp/omarchy/releases/tag/v4.0.0 https://omarchy.org/manual/ai/ https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m https://www.youtube.com/watch?v=F7fe9pa8OeE https://www.youtube.com/watch?v=9SDkU5VDQEQ Agent Infrastructure Claude Code Codex Coding Agents Local AI Omarchy"
+      "searchText": "Omarchy Quattro makes coding agents an OS default Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://github.com/basecamp/omarchy/releases/tag/v4.0.0 https://omarchy.org/manual/ai/ https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m https://x.com/dhh/status/2088304854603047019 https://x.com/tobi/status/2088333047024202115 https://www.youtube.com/watch?v=F7fe9pa8OeE https://www.youtube.com/watch?v=9SDkU5VDQEQ Agent Infrastructure Claude Code Codex Coding Agents Local AI Omarchy"
     },
     "austin-ai-club-august-26-2026-agent-infrastructure-openai-opens-the-codex-harness-as-a-product-platform": {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-openai-opens-the-codex-harness-as-a-product-platform",
@@ -174079,6 +175069,30 @@
   "rawPages": [],
   "links": [
     {
+      "source": "abliterlitics",
+      "target": "austin-ai-club-september-2-2026"
+    },
+    {
+      "source": "abliterlitics",
+      "target": "security"
+    },
+    {
+      "source": "abliterlitics",
+      "target": "gemma"
+    },
+    {
+      "source": "abliterlitics",
+      "target": "ai-benchmarks-evals"
+    },
+    {
+      "source": "abliterlitics",
+      "target": "open-models"
+    },
+    {
+      "source": "abliterlitics",
+      "target": "harc"
+    },
+    {
       "source": "agent-cost-controls",
       "target": "austin-ai-club-august-5-2026"
     },
@@ -174432,6 +175446,10 @@
     },
     {
       "source": "ai-benchmarks-evals",
+      "target": "austin-ai-club-september-2-2026"
+    },
+    {
+      "source": "ai-benchmarks-evals",
       "target": "austin-ai-club-august-5-2026"
     },
     {
@@ -174525,6 +175543,10 @@
     {
       "source": "ai-benchmarks-evals",
       "target": "liquid-ai"
+    },
+    {
+      "source": "ai-benchmarks-evals",
+      "target": "abliterlitics"
     },
     {
       "source": "ai-governance",
@@ -176779,6 +177801,26 @@
       "target": "grok"
     },
     {
+      "source": "austin-ai-club-september-2-2026",
+      "target": "security"
+    },
+    {
+      "source": "austin-ai-club-september-2-2026",
+      "target": "abliterlitics"
+    },
+    {
+      "source": "austin-ai-club-september-2-2026",
+      "target": "gemma"
+    },
+    {
+      "source": "austin-ai-club-september-2-2026",
+      "target": "ai-benchmarks-evals"
+    },
+    {
+      "source": "austin-ai-club-september-2-2026",
+      "target": "open-models"
+    },
+    {
       "source": "ben-carman",
       "target": "austin-ai-club-june-24-2026"
     },
@@ -177916,6 +178958,10 @@
     },
     {
       "source": "gemma",
+      "target": "austin-ai-club-september-2-2026"
+    },
+    {
+      "source": "gemma",
       "target": "austin-ai-club-august-26-2026"
     },
     {
@@ -177993,6 +179039,10 @@
     {
       "source": "gemma",
       "target": "diffusiongemma"
+    },
+    {
+      "source": "gemma",
+      "target": "abliterlitics"
     },
     {
       "source": "genesis-mission",
@@ -178293,6 +179343,10 @@
     {
       "source": "harc",
       "target": "security"
+    },
+    {
+      "source": "harc",
+      "target": "abliterlitics"
     },
     {
       "source": "harc",
@@ -179688,6 +180742,10 @@
     },
     {
       "source": "open-models",
+      "target": "austin-ai-club-september-2-2026"
+    },
+    {
+      "source": "open-models",
       "target": "austin-ai-club-august-26-2026"
     },
     {
@@ -179901,6 +180959,10 @@
     {
       "source": "open-models",
       "target": "harc"
+    },
+    {
+      "source": "open-models",
+      "target": "abliterlitics"
     },
     {
       "source": "open-models",
@@ -180628,6 +181690,10 @@
     },
     {
       "source": "security",
+      "target": "austin-ai-club-september-2-2026"
+    },
+    {
+      "source": "security",
       "target": "austin-ai-club-august-26-2026"
     },
     {
@@ -180713,6 +181779,10 @@
     {
       "source": "security",
       "target": "harc"
+    },
+    {
+      "source": "security",
+      "target": "abliterlitics"
     },
     {
       "source": "security",
@@ -181163,6 +182233,19 @@
   "graph": {
     "nodes": [
       {
+        "id": "abliterlitics",
+        "label": "Abliterlitics",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "tool",
+          "security",
+          "open-source"
+        ],
+        "degree": 12,
+        "updated": "2026-08-26"
+      },
+      {
         "id": "agent-cost-controls",
         "label": "Agent Cost Controls",
         "type": "concept",
@@ -181220,8 +182303,8 @@
           "models-research",
           "agent-infrastructure"
         ],
-        "degree": 58,
-        "updated": "2026-08-05"
+        "degree": 62,
+        "updated": "2026-08-26"
       },
       {
         "id": "ai-governance",
@@ -181638,6 +182721,28 @@
         ],
         "degree": 0,
         "updated": "2026-06-24"
+      },
+      {
+        "id": "austin-ai-club-september-2-2026",
+        "label": "Austin AI Club - September 2, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board"
+        ],
+        "degree": 10,
+        "updated": "2026-08-26"
+      },
+      {
+        "id": "austin-ai-club-september-2-2026-source-link-records",
+        "label": "Austin AI Club - September 2, 2026 - Source Link Records",
+        "type": "summary",
+        "tags": [
+          "source-record",
+          "meetup"
+        ],
+        "degree": 0,
+        "updated": "2026-08-26"
       },
       {
         "id": "ben-carman",
@@ -182072,7 +183177,7 @@
           "open-source",
           "local-ai"
         ],
-        "degree": 44,
+        "degree": 48,
         "updated": "2026-08-26"
       },
       {
@@ -182160,7 +183265,7 @@
           "security",
           "open-source"
         ],
-        "degree": 13,
+        "degree": 15,
         "updated": "2026-07-08"
       },
       {
@@ -182590,7 +183695,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 124,
+        "degree": 128,
         "updated": "2026-08-26"
       },
       {
@@ -182892,7 +183997,7 @@
           "track",
           "security"
         ],
-        "degree": 50,
+        "degree": 54,
         "updated": "2026-08-26"
       },
       {
@@ -183105,6 +184210,36 @@
       }
     ],
     "links": [
+      {
+        "source": "abliterlitics",
+        "target": "austin-ai-club-september-2-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "abliterlitics",
+        "target": "security",
+        "kind": "wiki"
+      },
+      {
+        "source": "abliterlitics",
+        "target": "gemma",
+        "kind": "wiki"
+      },
+      {
+        "source": "abliterlitics",
+        "target": "ai-benchmarks-evals",
+        "kind": "wiki"
+      },
+      {
+        "source": "abliterlitics",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
+        "source": "abliterlitics",
+        "target": "harc",
+        "kind": "wiki"
+      },
       {
         "source": "agent-cost-controls",
         "target": "austin-ai-club-august-5-2026",
@@ -183547,6 +184682,11 @@
       },
       {
         "source": "ai-benchmarks-evals",
+        "target": "austin-ai-club-september-2-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "ai-benchmarks-evals",
         "target": "austin-ai-club-august-5-2026",
         "kind": "topic"
       },
@@ -183663,6 +184803,11 @@
       {
         "source": "ai-benchmarks-evals",
         "target": "liquid-ai",
+        "kind": "wiki"
+      },
+      {
+        "source": "ai-benchmarks-evals",
+        "target": "abliterlitics",
         "kind": "wiki"
       },
       {
@@ -186481,6 +187626,31 @@
         "kind": "topic"
       },
       {
+        "source": "austin-ai-club-september-2-2026",
+        "target": "security",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-2-2026",
+        "target": "abliterlitics",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-2-2026",
+        "target": "gemma",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-2-2026",
+        "target": "ai-benchmarks-evals",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-2-2026",
+        "target": "open-models",
+        "kind": "topic"
+      },
+      {
         "source": "ben-carman",
         "target": "austin-ai-club-june-24-2026",
         "kind": "topic"
@@ -187902,6 +189072,11 @@
       },
       {
         "source": "gemma",
+        "target": "austin-ai-club-september-2-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "gemma",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
       },
@@ -187998,6 +189173,11 @@
       {
         "source": "gemma",
         "target": "diffusiongemma",
+        "kind": "wiki"
+      },
+      {
+        "source": "gemma",
+        "target": "abliterlitics",
         "kind": "wiki"
       },
       {
@@ -188373,6 +189553,11 @@
       {
         "source": "harc",
         "target": "security",
+        "kind": "wiki"
+      },
+      {
+        "source": "harc",
+        "target": "abliterlitics",
         "kind": "wiki"
       },
       {
@@ -190117,6 +191302,11 @@
       },
       {
         "source": "open-models",
+        "target": "austin-ai-club-september-2-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "open-models",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
       },
@@ -190383,6 +191573,11 @@
       {
         "source": "open-models",
         "target": "harc",
+        "kind": "wiki"
+      },
+      {
+        "source": "open-models",
+        "target": "abliterlitics",
         "kind": "wiki"
       },
       {
@@ -191292,6 +192487,11 @@
       },
       {
         "source": "security",
+        "target": "austin-ai-club-september-2-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "security",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
       },
@@ -191398,6 +192598,11 @@
       {
         "source": "security",
         "target": "harc",
+        "kind": "wiki"
+      },
+      {
+        "source": "security",
+        "target": "abliterlitics",
         "kind": "wiki"
       },
       {
@@ -191958,12 +193163,12 @@
     ]
   },
   "stats": {
-    "pageCount": 152,
-    "topicCount": 229,
+    "pageCount": 155,
+    "topicCount": 230,
     "rawPageCount": 0,
-    "linkCount": 1770,
-    "sourceRecordCount": 11,
-    "sourceLinkCount": 1027,
+    "linkCount": 1790,
+    "sourceRecordCount": 12,
+    "sourceLinkCount": 1034,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

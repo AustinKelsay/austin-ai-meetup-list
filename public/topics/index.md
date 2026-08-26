@@ -1,10 +1,11 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-26 | Total pages: 152
+> Last updated: 2026-08-26 | Total pages: 155
 
 ## Meetups
 
+- [[Austin AI Club - September 2, 2026]]
 - [[Austin AI Club - August 26, 2026]]
 - [[Austin AI Club - August 5, 2026]]
 - [[Austin AI Club - July 22, 2026]]
@@ -19,6 +20,7 @@
 
 ## Entities
 
+- [[Abliterlitics]]
 - [[AirLLM]]
 - [[AlphaEvolve]]
 - [[Amazon]]
@@ -154,6 +156,7 @@
 
 ## Source Records
 
+- [September 2, 2026 source records](./raw/articles/2026-09-02-link-records.md)
 - [August 26, 2026 source records](./raw/articles/2026-08-26-link-records.md)
 - [August 5, 2026 source records](./raw/articles/2026-08-05-link-records.md)
 - [July 22, 2026 source records](./raw/articles/2026-07-22-link-records.md)

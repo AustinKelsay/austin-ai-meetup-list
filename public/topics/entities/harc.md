@@ -21,4 +21,5 @@ HARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model to
 - [[Qwen]]
 - [[Open Models]]
 - [[Security]]
+- [[Abliterlitics]]
 - [[AI Governance]]

@@ -4,7 +4,7 @@ created: 2026-06-24
 updated: 2026-08-26
 type: concept
 tags: [concept, track, security]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-02-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Security
@@ -13,6 +13,7 @@ Security is the Austin AI Club track for attacks, abuse patterns, prompt injecti
 
 ## Mentioned In
 
+- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.
 - [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.
 - [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.
 - [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.
@@ -38,4 +39,5 @@ Security is the Austin AI Club track for attacks, abuse patterns, prompt injecti
 - [[Microsoft]]
 - [[Cloudflare OS]]
 - [[HARC]]
+- [[Abliterlitics]]
 - [[GLM]]

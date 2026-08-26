@@ -1,10 +1,10 @@
 ---
 title: AI Benchmarks & Evals
 created: 2026-06-24
-updated: 2026-08-05
+updated: 2026-08-26
 type: concept
 tags: [concept, models-research, agent-infrastructure]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-02-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # AI Benchmarks & Evals
@@ -13,6 +13,7 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 
 ## Mentioned In
 
+- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.
 - [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
 - [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.
 - [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.
@@ -40,3 +41,4 @@ AI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards
 - [[Meta Muse]]
 - [[Prime Agent]]
 - [[Liquid AI]]
+- [[Abliterlitics]]

@@ -2,6 +2,15 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Issue #42 Abliterlitics onto September 2
+
+- Scaffolded the September 2 Meetup and added **Abliterlitics measures what abliteration actually changed** as the Security lead Topic from submitted link #42.
+- Created an Abliterlitics entity; qualified the Gemma 4 E4B ASR/KL scoreboard as author-reported forensics and kept recipes off the board.
+
+## [2026-08-26] update | Omarchy Quattro launch embeds
+
+- Wired DHH's Quattro launch post and Tobi Lütke's agentic-OS quote-tweet onto the August 26 Omarchy Topic.
+
 ## [2026-08-26] update | Gemma 4 31B on Groq 3 LPX
 
 - Added **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX** after Jalapeño, pairing Google's same-day post with NVIDIA's LPX production announcement and Artificial Analysis numbers.
