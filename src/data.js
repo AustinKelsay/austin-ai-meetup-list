@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Local follow-ups: adaptive DFlash on Qwen3.8-27B / Strix Halo, then Flash-Next 125B at 250k on a 24GB 4090. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, OpenAI's Hugging Face eval report, encrypted reasoning leak, CoSnitch, Google ADK, Abliterlitics) and Big Tech (Jalapeño, Gemma 4 31B on Groq 3 LPX, NVIDIA Q2 $96.2B / $108B guide). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
+        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop, then Block's Berd as the desktop over goose / Claude Code / Codex. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Local follow-ups: adaptive DFlash on Qwen3.8-27B / Strix Halo, then Flash-Next 125B at 250k on a 24GB 4090. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, OpenAI's Hugging Face eval report, encrypted reasoning leak, CoSnitch, V12 vs Signal SGX, Google ADK, Abliterlitics) and Big Tech (Jalapeño, Gemma 4 31B on Groq 3 LPX, NVIDIA Q2 $96.2B / $108B guide). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
     },
     showcases: [
       {
@@ -148,6 +148,20 @@ export const meetups = [
             ],
             notes:
               "Quattro shipped August 14. Agents are optional and lazy-loaded, not forced at install; Setup > Defaults > Agent picks Claude Code, Codex, OpenCode, Pi, Gemini, Grok, Copilot, Crush, and friends. 1 PB / ~150k installs is DHH's ISO-byte math. $10M is the Omacom nonprofit (Dell, Dorsey, Collison, Lütke, Prince, Iribe, Fried, DHH, then Houston and Steinberger), not a company round. NetworkChuck is the popularity vector; skip inventing view counts.",
+          },
+          {
+            title: "Berd sits above goose, Claude Code, and Codex",
+            description:
+              "Block open-sourced Berd, an Apache-2.0 desktop workspace over those harnesses instead of another agent loop: local history, ACP to a goose sidecar. July 22's Buzz is the multiplayer follow-on they say you start alone for, then join.",
+            chip: "agent desktop",
+            href: "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+            linkPair: [
+              "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+              "https://github.com/block/berd",
+              "https://github.com/block/berd/releases/tag/v0.6.2",
+            ],
+            notes:
+              "v0.6.2 tagged August 18. Apache 2.0; users pay their own model bills. Outside PRs auto-close. Local-first means history in the local goose session DB and creds in the OS keychain; prompts still leave for whichever provider you configure. Not a Jack personal launch tweet: Block's essay is the official source. July 22 Jack/Buzz post is the multiplayer sibling, not a Berd announcement. Delta vs Omarchy: OS-default CLIs vs a Tauri workspace sitting on top of the harnesses.",
           },
         ],
       },
@@ -389,6 +403,23 @@ export const meetups = [
             linkPair: [
               "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
             ],
+          },
+          {
+            title: "V12 breaks Signal's SGX contact-discovery enclave",
+            description:
+              "V12 says two bugs in Signal's Intel SGX contact-discovery enclave let the server host leak the key and decrypt address-book lookups; they demonstrated it on the same class of Azure hardware Signal runs. Signal already patched the CDS Icelake repo; this is the host-trust guarantee, not Signal Protocol messages.",
+            chip: "TEE",
+            href: "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/v12sec/status/2092664320547254388?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://signal.org/blog/private-contact-discovery/",
+              "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+            ],
+            notes:
+              "V12-reported; no CVE at disclosure. Host-only threat model (Signal, a compromised host, the cloud provider, or legal compulsion)—not a remote internet attacker. E2EE messages/calls unaffected. Cyber Kendra independently checked Signal patches: df22988 (2026-07-22, one worker per shard) and b1c5ac4 (2026-07-30, fused canary/state). Do not walk the UAF/TOCTOU chain.",
           },
           {
             title: "Google ships a runnable zero-trust agent failure lab",

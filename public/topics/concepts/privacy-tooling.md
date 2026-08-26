@@ -1,10 +1,10 @@
 ---
 title: Privacy Tooling
 created: 2026-05-05
-updated: 2026-07-08
+updated: 2026-08-26
 type: concept
 tags: [concept, privacy, security]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Privacy Tooling
@@ -13,6 +13,7 @@ Privacy Tooling covers systems that help detect, remove, protect, or reason abou
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.
 - [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped** and **Venice raises VC on the privacy pitch**.
 - [[Austin AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.
 - [[Austin AI Club - June 10, 2026]]: **Apple stretches PCC onto Google/NVIDIA**.
@@ -22,6 +23,7 @@ Privacy Tooling covers systems that help detect, remove, protect, or reason abou
 
 ## Related
 
+- [[Signal]]
 - [[Apple]]
 - [[Compute Strategy]]
 - [[Google]]

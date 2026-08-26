@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-26 | Total pages: 153
+> Last updated: 2026-08-26 | Total pages: 155
 
 ## Meetups
 
@@ -31,6 +31,7 @@
 - [[Anthropic]]
 - [[Astra]]
 - [[Ben Carman]]
+- [[Berd]]
 - [[Block]]
 - [[Brain2Qwerty]]
 - [[BTL-3]]
@@ -109,6 +110,7 @@
 - [[React Native ExecuTorch]]
 - [[Sakana AI]]
 - [[Sakana Fugu]]
+- [[Signal]]
 - [[SpaceX]]
 - [[SWE-1.7]]
 - [[TMax]]

@@ -2,6 +2,16 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Block open-sources Berd
+
+- Added **Berd sits above goose, Claude Code, and Codex** after Omarchy: Apache-2.0 desktop over goose / Claude Code / Codex, with Buzz as the July 22 multiplayer follow-on.
+- Created a Berd entity; updated Block and Buzz. No recovered Jack launch tweet.
+
+## [2026-08-26] update | V12 vs Signal SGX contact discovery
+
+- Added **V12 breaks Signal's SGX contact-discovery enclave** after CoSnitch: V12-reported host-key leak on CDSI, Signal already patched, E2EE messages out of scope.
+- Created a Signal entity; kept exploit steps off the board.
+
 ## [2026-08-26] update | August 26 local runs, NVIDIA print, Hugging Face report
 
 - Added **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo** and **Flash-Next 125B does 250k context on a 24GB 4090** after the Open catalog.

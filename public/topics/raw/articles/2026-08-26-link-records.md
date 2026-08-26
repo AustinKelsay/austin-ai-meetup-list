@@ -75,6 +75,23 @@ sources: []
   - Access: 2026-08-26
   - Notes: NetworkChuck's mid-August Quattro install walkthrough; useful as the broader Linux-switch conversation, not as a view-count source.
 
+### Berd sits above goose, Claude Code, and Codex
+- Blog: https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd
+  - Title: "Designing AI with character: what we learned building Berd"
+  - Type: Official company post
+  - Access: 2026-08-26
+  - Notes: Block open-sourced Berd as a desktop around goose, Claude Code, and Codex rather than a new model or harness. Official framing: start alone in Berd, then go multiplayer in Buzz. No recovered Jack or Block X launch post; do not invent one or reuse the July 22 Buzz tweet as a Berd announcement.
+- Repo: https://github.com/block/berd
+  - Title: "block/berd"
+  - Type: Open-source desktop app
+  - Access: 2026-08-26
+  - Notes: Apache-2.0 Tauri 2 + React 19 app. Talks to a bundled goose sidecar over ACP. Public distro is inspect/fork/build; outside pull requests are auto-closed.
+- Release: https://github.com/block/berd/releases/tag/v0.6.2
+  - Title: "Berd v0.6.2"
+  - Type: GitHub release
+  - Access: 2026-08-26
+  - Notes: Seventh public release, tagged 2026-08-18. Changelog groups connections as company-managed services vs local MCPs for Goose, Claude Code, or Codex.
+
 ## Models & Research
 
 ### Closed model releases
@@ -373,6 +390,28 @@ sources: []
   - Type: Microsoft security advisory
   - Access: 2026-08-25
   - Notes: Microsoft advisory destination for the patched vulnerability disclosed by Varonis as CoSnitch.
+
+### V12 breaks Signal's SGX contact-discovery enclave
+- Repo: https://github.com/signalapp/ContactDiscoveryService-Icelake
+  - Title: "signalapp/ContactDiscoveryService-Icelake"
+  - Type: Official Contact Discovery Service source
+  - Access: 2026-08-26
+  - Notes: Current CDSI / Icelake SGX contact-discovery service. Patch commits independently verified: df22988 (2026-07-22, one worker per shard) and b1c5ac4 (2026-07-30, fused client canary/state).
+- Source: https://signal.org/blog/private-contact-discovery/
+  - Title: "Technology preview: Private contact discovery for Signal"
+  - Type: Official product explainer
+  - Access: 2026-08-26
+  - Notes: Signal's original guarantee: clients attest an SGX enclave so the host should not learn address-book lookups. The durable statement of the property V12 says broke.
+- Post: https://x.com/v12sec/status/2092664320547254388
+  - Title: "V12 on Signal Contact Discovery SGX"
+  - Type: Researcher disclosure X post
+  - Access: 2026-08-26
+  - Notes: V12 says two critical bugs (arbitrary read and RCE) let the server host leak the enclave key. Treat as author-reported; no public V12 write-up recovered besides this thread.
+- Source: https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html
+  - Title: "Signal Contact Discovery Enclave Flaws Allow Code Execution"
+  - Type: Independent reporting
+  - Access: 2026-08-26
+  - Notes: Corroborates host-only threat model, patched status, and that Signal Protocol messages are unaffected. Do not copy exploit steps onto the board.
 
 ### Google ships a runnable zero-trust agent failure lab
 - Blog: https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/

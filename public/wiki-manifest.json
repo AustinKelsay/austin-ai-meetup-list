@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T20:53:02.870Z",
+  "generatedAt": "2026-08-26T21:23:09.414Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -529,6 +529,9 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "berd",
+        "block",
+        "buzz",
         "claude-code",
         "cloudflare-os",
         "codex",
@@ -578,6 +581,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "block",
         "buzz",
         "christopher-david",
@@ -984,6 +988,27 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -2095,7 +2120,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform** and **Omarchy Quattro makes coding agents an OS default**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -11064,6 +11089,9 @@
         "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
         "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
@@ -11115,6 +11143,10 @@
         "https://x.com/iliaishacked/status/2087150852377125285",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://abliterlitics.dev/",
@@ -11195,6 +11227,21 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure"
         },
         {
@@ -11458,6 +11505,26 @@
           "section": "Security"
         },
         {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
           "href": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
           "title": "Google ships a runnable zero-trust agent failure lab",
           "section": "Security"
@@ -11560,7 +11627,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics, Signal.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -11571,7 +11638,10 @@
         "ai-governance",
         "anthropic",
         "astra",
+        "berd",
         "big-tech-moves",
+        "block",
+        "buzz",
         "claude-code",
         "codex",
         "coding-agents",
@@ -11597,8 +11667,10 @@
         "open-models",
         "openai",
         "ornith",
+        "privacy-tooling",
         "qwen",
         "security",
+        "signal",
         "speculative-decoding",
         "vera-rubin",
         "xai",
@@ -11613,7 +11685,10 @@
         "ai-governance",
         "anthropic",
         "astra",
+        "berd",
         "big-tech-moves",
+        "block",
+        "buzz",
         "claude-code",
         "codex",
         "coding-agents",
@@ -11639,8 +11714,10 @@
         "open-models",
         "openai",
         "ornith",
+        "privacy-tooling",
         "qwen",
         "security",
+        "signal",
         "speculative-decoding",
         "vera-rubin",
         "xai",
@@ -11671,6 +11748,9 @@
         "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
         "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
@@ -11725,6 +11805,10 @@
         "https://x.com/iliaishacked/status/2087150852377125285",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://abliterlitics.dev/",
@@ -11806,6 +11890,21 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure"
         },
         {
@@ -12081,6 +12180,26 @@
         {
           "href": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
           "title": "CoSnitch turns Copilot memory into persistent attacker state",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
           "section": "Security"
         },
         {
@@ -21995,6 +22114,75 @@
       "bodyMarkdown": "# Ben Carman\n\nBen Carman is a recurring Austin AI Club local-builder source for tweet-archive tooling, personal-model experiments, and local AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.\n- [[Austin AI Club - June 10, 2026]]: **Ben's twitter export to dataset**.\n\n## Related\n\n- [[Local AI]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Qwenstradamus]]"
     },
     {
+      "id": "berd",
+      "title": "Berd",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "coding-agents",
+        "agent-infrastructure",
+        "local-ai",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Berd is Block's Apache-2.0 desktop workspace for working with AI agents. It sits above harnesses such as goose, Claude Code, and Codex rather than replacing them: a Tauri 2 + React 19 app talks to a bundled goose sidecar over the Agent Client Protocol, keeps session history on device, and is meant as the single-player starting point before Buzz's multiplayer rooms.",
+      "rawHref": "/topics/entities/berd.md",
+      "relativePath": "entities/berd.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Berd\n\nBerd is Block's Apache-2.0 desktop workspace for working with AI agents. It sits above harnesses such as goose, Claude Code, and Codex rather than replacing them: a Tauri 2 + React 19 app talks to a bundled goose sidecar over the Agent Client Protocol, keeps session history on device, and is meant as the single-player starting point before Buzz's multiplayer rooms.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n\n## Related\n\n- [[Block]]\n- [[Buzz]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Local AI]]"
+    },
+    {
       "id": "big-tech-moves",
       "title": "Big Tech Moves",
       "type": "concept",
@@ -23142,27 +23330,54 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-22-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "excerpt": "Block is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.",
+      "updated": "2026-08-26",
+      "excerpt": "Block is a technology company whose open-source agent work includes goose, the single-player Berd desktop, and the multiplayer Buzz workspace.",
       "rawHref": "/topics/entities/block.md",
       "relativePath": "entities/block.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "buzz"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "buzz"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
         {
           "href": "https://buzz.xyz/",
           "title": "Buzz puts humans and agents on one signed event log",
@@ -23185,7 +23400,7 @@
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
         }
       ],
-      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Buzz]]\n- [[Agent Infrastructure]]"
+      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source agent work includes goose, the single-player Berd desktop, and the multiplayer Buzz workspace.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Berd]]\n- [[Buzz]]\n- [[Agent Infrastructure]]"
     },
     {
       "id": "brain2qwerty",
@@ -23715,27 +23930,54 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-22-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.",
+      "updated": "2026-08-26",
+      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows. Block frames Berd as the private desktop starting point and Buzz as the multiplayer follow-on.",
       "rawHref": "/topics/entities/buzz.md",
       "relativePath": "entities/buzz.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "block"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "block"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
         {
           "href": "https://buzz.xyz/",
           "title": "Buzz puts humans and agents on one signed event log",
@@ -23758,7 +24000,7 @@
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
         }
       ],
-      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Agent Infrastructure]]"
+      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows. Block frames Berd as the private desktop starting point and Buzz as the multiplayer follow-on.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Berd]]\n- [[Agent Infrastructure]]"
     },
     {
       "id": "christopher-david",
@@ -23933,6 +24175,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "codex",
         "coding-agents",
         "omarchy"
@@ -23949,6 +24192,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "claude-sonnet-5",
         "codex",
         "coding-agents",
@@ -24241,9 +24485,30 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default** and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]"
+      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]"
     },
     {
       "id": "mythos",
@@ -25020,6 +25285,7 @@
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "berd",
         "claude-code",
         "coding-agents",
         "gpt-56",
@@ -25036,6 +25302,7 @@
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "berd",
         "claude-code",
         "coding-agents",
         "gpt-56",
@@ -25276,6 +25543,27 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         },
         {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -25388,7 +25676,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Codex\n\nCodex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching the App, CLI, and IDE as front doors on one open-source harness (`codex exec`, SDK, and app-server) that a host product can embed with its own tools and approvals. Session logs that include encrypted thinking blocks were also a public leak surface that month.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks** and **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[OpenAI]]\n- [[GPT-5.6]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Omarchy]]\n- [[Local Builds & Projects]]"
+      "bodyMarkdown": "# Codex\n\nCodex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching the App, CLI, and IDE as front doors on one open-source harness (`codex exec`, SDK, and app-server) that a host product can embed with its own tools and approvals. Session logs that include encrypted thinking blocks were also a public leak surface that month.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks** and **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[OpenAI]]\n- [[GPT-5.6]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Local Builds & Projects]]"
     },
     {
       "id": "coding-agents",
@@ -25436,6 +25724,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "claude-code",
         "claude-sonnet-5",
         "cloudflare-os",
@@ -25474,6 +25763,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "btl-3",
         "claude-code",
         "claude-sonnet-5",
@@ -26200,6 +26490,27 @@
         {
           "href": "https://x.com/gdb/status/2090246288478814281",
           "title": "OpenAI opens the Codex harness as a product platform",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -27199,7 +27510,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     {
       "id": "cognition",
@@ -43551,6 +43862,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "cohere",
         "cohere-transcribe-arabic",
         "compute-strategy",
@@ -43587,6 +43899,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "btl-3",
         "cohere",
         "cohere-transcribe-arabic",
@@ -44372,6 +44685,27 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -45623,7 +45957,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Archiving open-source models**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**, **AirLLM streams giant MoEs onto hobbyist VRAM**, and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[AirLLM]]\n- [[Ornith]]\n- [[TurboFieldfare]]\n- [[Liquid AI]]\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Omarchy]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
+      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Archiving open-source models**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**, **AirLLM streams giant MoEs onto hobbyist VRAM**, and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[AirLLM]]\n- [[Ornith]]\n- [[TurboFieldfare]]\n- [[Liquid AI]]\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
     },
     {
       "id": "local-builds-projects",
@@ -67115,6 +67449,7 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
@@ -67122,11 +67457,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-08",
+      "updated": "2026-08-26",
       "excerpt": "Privacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.",
       "rawHref": "/topics/concepts/privacy-tooling.md",
       "relativePath": "concepts/privacy-tooling.md",
@@ -67134,6 +67469,7 @@
         "ai-saas-supply-chain",
         "apple",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -67146,6 +67482,7 @@
         "nvidia",
         "openai",
         "palantir",
+        "signal",
         "unbroker",
         "venice"
       ],
@@ -67153,6 +67490,7 @@
       "backlinkIds": [
         "apple",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -67168,6 +67506,7 @@
         "palantir",
         "prem",
         "security",
+        "signal",
         "unbroker",
         "venice"
       ],
@@ -67178,6 +67517,34 @@
           "section": "Showcase",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/security/security-unbroker",
@@ -67404,7 +67771,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Privacy Tooling\n\nPrivacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped** and **Venice raises VC on the privacy pitch**.\n- [[Austin AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.\n- [[Austin AI Club - June 10, 2026]]: **Apple stretches PCC onto Google/NVIDIA**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS**, **PII filters are becoming local model infrastructure**, and **HRF funds AI for individual rights**.\n- [[Austin AI Club - April 1, 2026]]: **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **pika chat** and **Confer + Meta private AI**.\n\n## Related\n\n- [[Apple]]\n- [[Compute Strategy]]\n- [[Google]]\n- [[Human Rights Foundation]]\n- [[OpenAI]]\n- [[NVIDIA]]\n- [[AI SaaS Supply Chain]]\n- [[Venice]]\n- [[Palantir]]\n- [[Hermes Agent]]\n- [[Unbroker]]"
+      "bodyMarkdown": "# Privacy Tooling\n\nPrivacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.\n- [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped** and **Venice raises VC on the privacy pitch**.\n- [[Austin AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.\n- [[Austin AI Club - June 10, 2026]]: **Apple stretches PCC onto Google/NVIDIA**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS**, **PII filters are becoming local model infrastructure**, and **HRF funds AI for individual rights**.\n- [[Austin AI Club - April 1, 2026]]: **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **pika chat** and **Confer + Meta private AI**.\n\n## Related\n\n- [[Signal]]\n- [[Apple]]\n- [[Compute Strategy]]\n- [[Google]]\n- [[Human Rights Foundation]]\n- [[OpenAI]]\n- [[NVIDIA]]\n- [[AI SaaS Supply Chain]]\n- [[Venice]]\n- [[Palantir]]\n- [[Hermes Agent]]\n- [[Unbroker]]"
     },
     {
       "id": "pylon",
@@ -69525,6 +69892,7 @@
         "microsoft",
         "openai",
         "privacy-tooling",
+        "signal",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -69555,6 +69923,7 @@
         "microsoft",
         "mythos",
         "prem",
+        "signal",
         "supply-chain-security",
         "unbroker"
       ],
@@ -69800,6 +70169,34 @@
         {
           "href": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
           "title": "CoSnitch turns Copilot memory into persistent attacker state",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -70477,7 +70874,71 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **V12 breaks Signal's SGX contact-discovery enclave**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[Signal]]\n- [[GLM]]"
+    },
+    {
+      "id": "signal",
+      "title": "Signal",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "privacy",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Signal is the encrypted messaging service whose private contact discovery runs inside an Intel SGX enclave so the host is not supposed to learn users' address books. August 26 coverage is V12's disclosure that two patched memory-safety bugs let a malicious host leak the enclave key; Signal Protocol message encryption is a separate guarantee.",
+      "rawHref": "/topics/entities/signal.md",
+      "relativePath": "entities/signal.md",
+      "outgoingIds": [
+        "austin-ai-club-august-26-2026",
+        "privacy-tooling",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-august-26-2026",
+        "privacy-tooling",
+        "security"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Signal\n\nSignal is the encrypted messaging service whose private contact discovery runs inside an Intel SGX enclave so the host is not supposed to learn users' address books. August 26 coverage is V12's disclosure that two patched memory-safety bugs let a malicious host leak the enclave key; Signal Protocol message encryption is a separate guarantee.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Security]]"
     },
     {
       "id": "spacex",
@@ -75447,6 +75908,9 @@
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
+        "berd",
+        "block",
+        "buzz",
         "claude-code",
         "cloudflare-os",
         "codex",
@@ -75496,6 +75960,7 @@
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "block",
         "buzz",
         "christopher-david",
@@ -75902,6 +76367,27 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -77013,7 +77499,7 @@
           "sourcePageTitle": "Austin AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform** and **Omarchy Quattro makes coding agents an OS default**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Austin AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Austin AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -85982,6 +86468,9 @@
         "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
         "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
@@ -86033,6 +86522,10 @@
         "https://x.com/iliaishacked/status/2087150852377125285",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://abliterlitics.dev/",
@@ -86113,6 +86606,21 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure"
         },
         {
@@ -86376,6 +86884,26 @@
           "section": "Security"
         },
         {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
           "href": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
           "title": "Google ships a runnable zero-trust agent failure lab",
           "section": "Security"
@@ -86478,7 +87006,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics, Signal.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -86489,7 +87017,10 @@
         "ai-governance",
         "anthropic",
         "astra",
+        "berd",
         "big-tech-moves",
+        "block",
+        "buzz",
         "claude-code",
         "codex",
         "coding-agents",
@@ -86515,8 +87046,10 @@
         "open-models",
         "openai",
         "ornith",
+        "privacy-tooling",
         "qwen",
         "security",
+        "signal",
         "speculative-decoding",
         "vera-rubin",
         "xai",
@@ -86531,7 +87064,10 @@
         "ai-governance",
         "anthropic",
         "astra",
+        "berd",
         "big-tech-moves",
+        "block",
+        "buzz",
         "claude-code",
         "codex",
         "coding-agents",
@@ -86557,8 +87093,10 @@
         "open-models",
         "openai",
         "ornith",
+        "privacy-tooling",
         "qwen",
         "security",
+        "signal",
         "speculative-decoding",
         "vera-rubin",
         "xai",
@@ -86589,6 +87127,9 @@
         "https://x.com/tobi/status/2088333047024202115",
         "https://www.youtube.com/watch?v=F7fe9pa8OeE",
         "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
         "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
@@ -86643,6 +87184,10 @@
         "https://x.com/iliaishacked/status/2087150852377125285",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://abliterlitics.dev/",
@@ -86724,6 +87269,21 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure"
         },
         {
@@ -86999,6 +87559,26 @@
         {
           "href": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
           "title": "CoSnitch turns Copilot memory into persistent attacker state",
+          "section": "Security"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
           "section": "Security"
         },
         {
@@ -96912,6 +97492,75 @@
       ],
       "bodyMarkdown": "# Ben Carman\n\nBen Carman is a recurring Austin AI Club local-builder source for tweet-archive tooling, personal-model experiments, and local AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.\n- [[Austin AI Club - June 10, 2026]]: **Ben's twitter export to dataset**.\n\n## Related\n\n- [[Local AI]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Qwenstradamus]]"
     },
+    "berd": {
+      "id": "berd",
+      "title": "Berd",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "product",
+        "coding-agents",
+        "agent-infrastructure",
+        "local-ai",
+        "open-source"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Berd is Block's Apache-2.0 desktop workspace for working with AI agents. It sits above harnesses such as goose, Claude Code, and Codex rather than replacing them: a Tauri 2 + React 19 app talks to a bundled goose sidecar over the Agent Client Protocol, keeps session history on device, and is meant as the single-player starting point before Buzz's multiplayer rooms.",
+      "rawHref": "/topics/entities/berd.md",
+      "relativePath": "entities/berd.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Berd\n\nBerd is Block's Apache-2.0 desktop workspace for working with AI agents. It sits above harnesses such as goose, Claude Code, and Codex rather than replacing them: a Tauri 2 + React 19 app talks to a bundled goose sidecar over the Agent Client Protocol, keeps session history on device, and is meant as the single-player starting point before Buzz's multiplayer rooms.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n\n## Related\n\n- [[Block]]\n- [[Buzz]]\n- [[Agent Infrastructure]]\n- [[Coding Agents]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Local AI]]"
+    },
     "big-tech-moves": {
       "id": "big-tech-moves",
       "title": "Big Tech Moves",
@@ -98060,27 +98709,54 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-22-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "excerpt": "Block is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.",
+      "updated": "2026-08-26",
+      "excerpt": "Block is a technology company whose open-source agent work includes goose, the single-player Berd desktop, and the multiplayer Buzz workspace.",
       "rawHref": "/topics/entities/block.md",
       "relativePath": "entities/block.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "buzz"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "buzz"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
         {
           "href": "https://buzz.xyz/",
           "title": "Buzz puts humans and agents on one signed event log",
@@ -98103,7 +98779,7 @@
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
         }
       ],
-      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source work includes agent infrastructure and decentralized collaboration tools.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Buzz]]\n- [[Agent Infrastructure]]"
+      "bodyMarkdown": "# Block\n\nBlock is a technology company whose open-source agent work includes goose, the single-player Berd desktop, and the multiplayer Buzz workspace.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Berd]]\n- [[Buzz]]\n- [[Agent Infrastructure]]"
     },
     "brain2qwerty": {
       "id": "brain2qwerty",
@@ -98633,27 +99309,54 @@
         "open-source"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-22-link-records.md"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.",
+      "updated": "2026-08-26",
+      "excerpt": "Buzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows. Block frames Berd as the private desktop starting point and Buzz as the multiplayer follow-on.",
       "rawHref": "/topics/entities/buzz.md",
       "relativePath": "entities/buzz.md",
       "outgoingIds": [
         "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "block"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-22-2026",
+        "berd",
         "block"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
         {
           "href": "https://buzz.xyz/",
           "title": "Buzz puts humans and agents on one signed event log",
@@ -98676,7 +99379,7 @@
           "sourcePageTitle": "Austin AI Club - July 22, 2026"
         }
       ],
-      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Agent Infrastructure]]"
+      "bodyMarkdown": "# Buzz\n\nBuzz is Block's self-hostable workspace for people and agents, built around Nostr identities and a shared signed event log for messages, Git activity, and workflows. Block frames Berd as the private desktop starting point and Buzz as the multiplayer follow-on.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.\n- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.\n\n## Related\n\n- [[Block]]\n- [[Berd]]\n- [[Agent Infrastructure]]"
     },
     "christopher-david": {
       "id": "christopher-david",
@@ -98851,6 +99554,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "codex",
         "coding-agents",
         "omarchy"
@@ -98867,6 +99571,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "berd",
         "claude-sonnet-5",
         "codex",
         "coding-agents",
@@ -99159,9 +99864,30 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default** and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]"
+      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]"
     },
     "mythos": {
       "id": "mythos",
@@ -99938,6 +100664,7 @@
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "berd",
         "claude-code",
         "coding-agents",
         "gpt-56",
@@ -99954,6 +100681,7 @@
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "berd",
         "claude-code",
         "coding-agents",
         "gpt-56",
@@ -100194,6 +100922,27 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         },
         {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/previewing-gpt-5-6-sol/",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -100306,7 +101055,7 @@
           "sourcePageTitle": "Austin AI Club - July 8, 2026"
         }
       ],
-      "bodyMarkdown": "# Codex\n\nCodex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching the App, CLI, and IDE as front doors on one open-source harness (`codex exec`, SDK, and app-server) that a host product can embed with its own tools and approvals. Session logs that include encrypted thinking blocks were also a public leak surface that month.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks** and **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[OpenAI]]\n- [[GPT-5.6]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Omarchy]]\n- [[Local Builds & Projects]]"
+      "bodyMarkdown": "# Codex\n\nCodex is OpenAI's coding-agent product. In August 2026 OpenAI started pitching the App, CLI, and IDE as front doors on one open-source harness (`codex exec`, SDK, and app-server) that a host product can embed with its own tools and approvals. Session logs that include encrypted thinking blocks were also a public leak surface that month.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases** and **Local Codex patches with codex-app-modifier**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **OpenAI to acquire Astral**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks** and **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[OpenAI]]\n- [[GPT-5.6]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Local Builds & Projects]]"
     },
     "coding-agents": {
       "id": "coding-agents",
@@ -100354,6 +101103,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "claude-code",
         "claude-sonnet-5",
         "cloudflare-os",
@@ -100392,6 +101142,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "btl-3",
         "claude-code",
         "claude-sonnet-5",
@@ -101118,6 +101869,27 @@
         {
           "href": "https://x.com/gdb/status/2090246288478814281",
           "title": "OpenAI opens the Codex harness as a product platform",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -102117,7 +102889,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Austin AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Austin AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     "cognition": {
       "id": "cognition",
@@ -118469,6 +119241,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "cohere",
         "cohere-transcribe-arabic",
         "compute-strategy",
@@ -118505,6 +119278,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-may-27-2026",
         "ben-carman",
+        "berd",
         "btl-3",
         "cohere",
         "cohere-transcribe-arabic",
@@ -119290,6 +120064,27 @@
         {
           "href": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
           "title": "Omarchy Quattro makes coding agents an OS default",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -120541,7 +121336,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Archiving open-source models**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**, **AirLLM streams giant MoEs onto hobbyist VRAM**, and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[AirLLM]]\n- [[Ornith]]\n- [[TurboFieldfare]]\n- [[Liquid AI]]\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Omarchy]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
+      "bodyMarkdown": "# Local AI\n\nLocal AI covers models, tools, laptops, desktop apps, and privacy-preserving workflows that run close to the user instead of depending entirely on hosted inference.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Archiving open-source models**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases**, **AirLLM streams giant MoEs onto hobbyist VRAM**, and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.\n- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Osaurus local AI suite**, **Ollama launches Pi**, **Local models getting glazed**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, **plebdev-bench**, **sage**, and **visibible**.\n\n## Related\n\n- [[AirLLM]]\n- [[Ornith]]\n- [[TurboFieldfare]]\n- [[Liquid AI]]\n- [[Privacy Tooling]]\n- [[Open Models]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[Cohere Transcribe Arabic]]\n- [[vLLM]]\n- [[Gemma]]\n- [[DiffusionGemma]]\n- [[Ollama]]\n- [[MiniMax M3]]\n- [[React Native ExecuTorch]]\n- [[Qwenstradamus]]"
     },
     "local-builds-projects": {
       "id": "local-builds-projects",
@@ -142033,6 +142828,7 @@
         "security"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-07-08-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
@@ -142040,11 +142836,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-07-08",
+      "updated": "2026-08-26",
       "excerpt": "Privacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.",
       "rawHref": "/topics/concepts/privacy-tooling.md",
       "relativePath": "concepts/privacy-tooling.md",
@@ -142052,6 +142848,7 @@
         "ai-saas-supply-chain",
         "apple",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -142064,6 +142861,7 @@
         "nvidia",
         "openai",
         "palantir",
+        "signal",
         "unbroker",
         "venice"
       ],
@@ -142071,6 +142869,7 @@
       "backlinkIds": [
         "apple",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-july-8-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -142086,6 +142885,7 @@
         "palantir",
         "prem",
         "security",
+        "signal",
         "unbroker",
         "venice"
       ],
@@ -142096,6 +142896,34 @@
           "section": "Showcase",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/security/security-unbroker",
@@ -142322,7 +143150,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Privacy Tooling\n\nPrivacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped** and **Venice raises VC on the privacy pitch**.\n- [[Austin AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.\n- [[Austin AI Club - June 10, 2026]]: **Apple stretches PCC onto Google/NVIDIA**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS**, **PII filters are becoming local model infrastructure**, and **HRF funds AI for individual rights**.\n- [[Austin AI Club - April 1, 2026]]: **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **pika chat** and **Confer + Meta private AI**.\n\n## Related\n\n- [[Apple]]\n- [[Compute Strategy]]\n- [[Google]]\n- [[Human Rights Foundation]]\n- [[OpenAI]]\n- [[NVIDIA]]\n- [[AI SaaS Supply Chain]]\n- [[Venice]]\n- [[Palantir]]\n- [[Hermes Agent]]\n- [[Unbroker]]"
+      "bodyMarkdown": "# Privacy Tooling\n\nPrivacy Tooling covers systems that help detect, remove, protect, or reason about sensitive user data in AI workflows.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.\n- [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped** and **Venice raises VC on the privacy pitch**.\n- [[Austin AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.\n- [[Austin AI Club - June 10, 2026]]: **Apple stretches PCC onto Google/NVIDIA**.\n- [[Austin AI Club - May 13, 2026]]: **Amnesic personal OS**, **PII filters are becoming local model infrastructure**, and **HRF funds AI for individual rights**.\n- [[Austin AI Club - April 1, 2026]]: **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **pika chat** and **Confer + Meta private AI**.\n\n## Related\n\n- [[Signal]]\n- [[Apple]]\n- [[Compute Strategy]]\n- [[Google]]\n- [[Human Rights Foundation]]\n- [[OpenAI]]\n- [[NVIDIA]]\n- [[AI SaaS Supply Chain]]\n- [[Venice]]\n- [[Palantir]]\n- [[Hermes Agent]]\n- [[Unbroker]]"
     },
     "pylon": {
       "id": "pylon",
@@ -144443,6 +145271,7 @@
         "microsoft",
         "openai",
         "privacy-tooling",
+        "signal",
         "supply-chain-security"
       ],
       "unresolvedLinks": [],
@@ -144473,6 +145302,7 @@
         "microsoft",
         "mythos",
         "prem",
+        "signal",
         "supply-chain-security",
         "unbroker"
       ],
@@ -144718,6 +145548,34 @@
         {
           "href": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
           "title": "CoSnitch turns Copilot memory into persistent attacker state",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -145395,7 +146253,71 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[GLM]]"
+      "bodyMarkdown": "# Security\n\nSecurity is the Austin AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **V12 breaks Signal's SGX contact-discovery enclave**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Austin AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Austin AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Austin AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[Signal]]\n- [[GLM]]"
+    },
+    "signal": {
+      "id": "signal",
+      "title": "Signal",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "privacy",
+        "security"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Signal is the encrypted messaging service whose private contact discovery runs inside an Intel SGX enclave so the host is not supposed to learn users' address books. August 26 coverage is V12's disclosure that two patched memory-safety bugs let a malicious host leak the enclave key; Signal Protocol message encryption is a separate guarantee.",
+      "rawHref": "/topics/entities/signal.md",
+      "relativePath": "entities/signal.md",
+      "outgoingIds": [
+        "austin-ai-club-august-26-2026",
+        "privacy-tooling",
+        "security"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-august-26-2026",
+        "privacy-tooling",
+        "security"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Signal\n\nSignal is the encrypted messaging service whose private contact discovery runs inside an Intel SGX enclave so the host is not supposed to learn users' address books. August 26 coverage is V12's disclosure that two patched memory-safety bugs let a malicious host leak the enclave key; Signal Protocol message encryption is a separate guarantee.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Security]]"
     },
     "spacex": {
       "id": "spacex",
@@ -149838,6 +150760,61 @@
   },
   "topics": [
     {
+      "id": "austin-ai-club-august-26-2026-agent-infrastructure-berd-sits-above-goose-claude-code-and-codex",
+      "title": "Berd sits above goose, Claude Code, and Codex",
+      "rawTitle": "Berd sits above goose, Claude Code, and Codex",
+      "normalizedTitle": "berd sits above goose, claude code, and codex",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "berd",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Berd",
+        "Block",
+        "Buzz",
+        "Claude Code",
+        "Codex",
+        "Coding Agents",
+        "Local AI"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Berd sits above goose, Claude Code, and Codex Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd https://github.com/block/berd https://github.com/block/berd/releases/tag/v0.6.2 Agent Infrastructure Berd Block Buzz Claude Code Codex Coding Agents Local AI"
+    },
+    {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default",
       "title": "Omarchy Quattro makes coding agents an OS default",
       "rawTitle": "Omarchy Quattro makes coding agents an OS default",
@@ -150912,6 +151889,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "OpenAI writes up the Hugging Face eval as a warning shot Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/hugging-face-incident-and-the-road-ahead/ https://openai.com/index/hugging-face-model-evaluation-security-incident/ Agent Security AI Benchmarks & Evals AI Governance Astra GPT-5.6 OpenAI Security"
+    },
+    {
+      "id": "austin-ai-club-august-26-2026-security-v12-breaks-signals-sgx-contact-discovery-enclave",
+      "title": "V12 breaks Signal's SGX contact-discovery enclave",
+      "rawTitle": "V12 breaks Signal's SGX contact-discovery enclave",
+      "normalizedTitle": "v12 breaks signal's sgx contact-discovery enclave",
+      "section": "Security",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "privacy-tooling",
+        "security",
+        "signal"
+      ],
+      "wikiTitles": [
+        "Privacy Tooling",
+        "Security",
+        "Signal"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "V12 breaks Signal's SGX contact-discovery enclave Security Austin AI Club - August 26, 2026 2026-08-26 https://github.com/signalapp/ContactDiscoveryService-Icelake https://signal.org/blog/private-contact-discovery/ https://x.com/v12sec/status/2092664320547254388 https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html Privacy Tooling Security Signal"
     },
     {
       "id": "austin-ai-club-august-26-2026-showcase-archiving-open-source-models",
@@ -163113,6 +164141,61 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-august-26-2026-agent-infrastructure-berd-sits-above-goose-claude-code-and-codex": {
+      "id": "austin-ai-club-august-26-2026-agent-infrastructure-berd-sits-above-goose-claude-code-and-codex",
+      "title": "Berd sits above goose, Claude Code, and Codex",
+      "rawTitle": "Berd sits above goose, Claude Code, and Codex",
+      "normalizedTitle": "berd sits above goose, claude code, and codex",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+        "https://github.com/block/berd",
+        "https://github.com/block/berd/releases/tag/v0.6.2"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/block/berd/releases/tag/v0.6.2",
+          "title": "Berd sits above goose, Claude Code, and Codex",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "berd",
+        "block",
+        "buzz",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "local-ai"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Berd",
+        "Block",
+        "Buzz",
+        "Claude Code",
+        "Codex",
+        "Coding Agents",
+        "Local AI"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Berd sits above goose, Claude Code, and Codex Agent Infrastructure Austin AI Club - August 26, 2026 2026-08-26 https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd https://github.com/block/berd https://github.com/block/berd/releases/tag/v0.6.2 Agent Infrastructure Berd Block Buzz Claude Code Codex Coding Agents Local AI"
+    },
     "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default": {
       "id": "austin-ai-club-august-26-2026-agent-infrastructure-omarchy-quattro-makes-coding-agents-an-os-default",
       "title": "Omarchy Quattro makes coding agents an OS default",
@@ -164188,6 +165271,57 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "OpenAI writes up the Hugging Face eval as a warning shot Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/hugging-face-incident-and-the-road-ahead/ https://openai.com/index/hugging-face-model-evaluation-security-incident/ Agent Security AI Benchmarks & Evals AI Governance Astra GPT-5.6 OpenAI Security"
+    },
+    "austin-ai-club-august-26-2026-security-v12-breaks-signals-sgx-contact-discovery-enclave": {
+      "id": "austin-ai-club-august-26-2026-security-v12-breaks-signals-sgx-contact-discovery-enclave",
+      "title": "V12 breaks Signal's SGX contact-discovery enclave",
+      "rawTitle": "V12 breaks Signal's SGX contact-discovery enclave",
+      "normalizedTitle": "v12 breaks signal's sgx contact-discovery enclave",
+      "section": "Security",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+        "https://signal.org/blog/private-contact-discovery/",
+        "https://x.com/v12sec/status/2092664320547254388",
+        "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/signalapp/ContactDiscoveryService-Icelake",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://signal.org/blog/private-contact-discovery/",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/v12sec/status/2092664320547254388",
+          "title": "V12 breaks Signal's SGX contact-discovery enclave",
+          "section": "Security"
+        }
+      ],
+      "wikiIds": [
+        "privacy-tooling",
+        "security",
+        "signal"
+      ],
+      "wikiTitles": [
+        "Privacy Tooling",
+        "Security",
+        "Signal"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "V12 breaks Signal's SGX contact-discovery enclave Security Austin AI Club - August 26, 2026 2026-08-26 https://github.com/signalapp/ContactDiscoveryService-Icelake https://signal.org/blog/private-contact-discovery/ https://x.com/v12sec/status/2092664320547254388 https://www.cyberkendra.com/2026/08/signal-contact-discovery-enclave-flaws.html Privacy Tooling Security Signal"
     },
     "austin-ai-club-august-26-2026-showcase-archiving-open-source-models": {
       "id": "austin-ai-club-august-26-2026-showcase-archiving-open-source-models",
@@ -176536,6 +177670,18 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "berd"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "block"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "buzz"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "prime-agent"
     },
     {
@@ -177664,6 +178810,18 @@
     },
     {
       "source": "austin-ai-club-august-26-2026",
+      "target": "block"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "buzz"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "berd"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
       "target": "model-distillation"
     },
     {
@@ -177709,6 +178867,10 @@
     {
       "source": "austin-ai-club-august-26-2026",
       "target": "speculative-decoding"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "privacy-tooling"
     },
     {
       "source": "austin-ai-club-august-26-2026",
@@ -177793,6 +178955,10 @@
     {
       "source": "austin-ai-club-august-26-2026",
       "target": "abliterlitics"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "signal"
     },
     {
       "source": "austin-ai-club-august-5-2026",
@@ -179159,6 +180325,38 @@
       "target": "qwenstradamus"
     },
     {
+      "source": "berd",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "berd",
+      "target": "block"
+    },
+    {
+      "source": "berd",
+      "target": "buzz"
+    },
+    {
+      "source": "berd",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "berd",
+      "target": "coding-agents"
+    },
+    {
+      "source": "berd",
+      "target": "claude-code"
+    },
+    {
+      "source": "berd",
+      "target": "codex"
+    },
+    {
+      "source": "berd",
+      "target": "local-ai"
+    },
+    {
       "source": "big-tech-moves",
       "target": "austin-ai-club-august-26-2026"
     },
@@ -179288,7 +180486,15 @@
     },
     {
       "source": "block",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "block",
       "target": "austin-ai-club-july-22-2026"
+    },
+    {
+      "source": "block",
+      "target": "berd"
     },
     {
       "source": "block",
@@ -179352,11 +180558,19 @@
     },
     {
       "source": "buzz",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "buzz",
       "target": "austin-ai-club-july-22-2026"
     },
     {
       "source": "buzz",
       "target": "block"
+    },
+    {
+      "source": "buzz",
+      "target": "berd"
     },
     {
       "source": "buzz",
@@ -179445,6 +180659,10 @@
     {
       "source": "claude-code",
       "target": "omarchy"
+    },
+    {
+      "source": "claude-code",
+      "target": "berd"
     },
     {
       "source": "mythos",
@@ -179592,6 +180810,10 @@
     },
     {
       "source": "codex",
+      "target": "berd"
+    },
+    {
+      "source": "codex",
       "target": "local-builds-projects"
     },
     {
@@ -179661,6 +180883,10 @@
     {
       "source": "coding-agents",
       "target": "omarchy"
+    },
+    {
+      "source": "coding-agents",
+      "target": "berd"
     },
     {
       "source": "coding-agents",
@@ -181137,6 +182363,10 @@
     {
       "source": "local-ai",
       "target": "omarchy"
+    },
+    {
+      "source": "local-ai",
+      "target": "berd"
     },
     {
       "source": "local-ai",
@@ -182696,6 +183926,10 @@
     },
     {
       "source": "privacy-tooling",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "privacy-tooling",
       "target": "austin-ai-club-july-8-2026"
     },
     {
@@ -182717,6 +183951,10 @@
     {
       "source": "privacy-tooling",
       "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "privacy-tooling",
+      "target": "signal"
     },
     {
       "source": "privacy-tooling",
@@ -183088,7 +184326,23 @@
     },
     {
       "source": "security",
+      "target": "signal"
+    },
+    {
+      "source": "security",
       "target": "glm"
+    },
+    {
+      "source": "signal",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "signal",
+      "target": "privacy-tooling"
+    },
+    {
+      "source": "signal",
+      "target": "security"
     },
     {
       "source": "spacex",
@@ -183573,7 +184827,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 105,
+        "degree": 109,
         "updated": "2026-08-26"
       },
       {
@@ -183851,7 +185105,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 78,
+        "degree": 88,
         "updated": "2026-08-26"
       },
       {
@@ -184041,6 +185295,21 @@
         "updated": "2026-07-08"
       },
       {
+        "id": "berd",
+        "label": "Berd",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "product",
+          "coding-agents",
+          "agent-infrastructure",
+          "local-ai",
+          "open-source"
+        ],
+        "degree": 16,
+        "updated": "2026-08-26"
+      },
+      {
         "id": "big-tech-moves",
         "label": "Big Tech Moves",
         "type": "concept",
@@ -184062,8 +185331,8 @@
           "agent-infrastructure",
           "open-source"
         ],
-        "degree": 5,
-        "updated": "2026-07-22"
+        "degree": 10,
+        "updated": "2026-08-26"
       },
       {
         "id": "brain2qwerty",
@@ -184112,8 +185381,8 @@
           "agent-infrastructure",
           "open-source"
         ],
-        "degree": 5,
-        "updated": "2026-07-22"
+        "degree": 10,
+        "updated": "2026-08-26"
       },
       {
         "id": "christopher-david",
@@ -184151,7 +185420,7 @@
           "agent-infrastructure",
           "security"
         ],
-        "degree": 28,
+        "degree": 30,
         "updated": "2026-08-26"
       },
       {
@@ -184204,7 +185473,7 @@
           "local-builds",
           "security"
         ],
-        "degree": 26,
+        "degree": 28,
         "updated": "2026-08-26"
       },
       {
@@ -184216,7 +185485,7 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 86,
+        "degree": 88,
         "updated": "2026-08-26"
       },
       {
@@ -184718,7 +185987,7 @@
           "open-source",
           "privacy"
         ],
-        "degree": 69,
+        "degree": 71,
         "updated": "2026-08-26"
       },
       {
@@ -185163,8 +186432,8 @@
           "privacy",
           "security"
         ],
-        "degree": 36,
-        "updated": "2026-07-08"
+        "degree": 40,
+        "updated": "2026-08-26"
       },
       {
         "id": "pylon",
@@ -185281,7 +186550,20 @@
           "track",
           "security"
         ],
-        "degree": 52,
+        "degree": 54,
+        "updated": "2026-08-26"
+      },
+      {
+        "id": "signal",
+        "label": "Signal",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "privacy",
+          "security"
+        ],
+        "degree": 6,
         "updated": "2026-08-26"
       },
       {
@@ -185672,6 +186954,21 @@
       {
         "source": "agent-infrastructure",
         "target": "omarchy",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "berd",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "block",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "buzz",
         "kind": "wiki"
       },
       {
@@ -187086,6 +188383,21 @@
       },
       {
         "source": "austin-ai-club-august-26-2026",
+        "target": "block",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "buzz",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "berd",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
         "target": "model-distillation",
         "kind": "topic"
       },
@@ -187142,6 +188454,11 @@
       {
         "source": "austin-ai-club-august-26-2026",
         "target": "speculative-decoding",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "privacy-tooling",
         "kind": "topic"
       },
       {
@@ -187247,6 +188564,11 @@
       {
         "source": "austin-ai-club-august-26-2026",
         "target": "abliterlitics",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "signal",
         "kind": "topic"
       },
       {
@@ -188955,6 +190277,46 @@
         "kind": "wiki"
       },
       {
+        "source": "berd",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "berd",
+        "target": "block",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "buzz",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "claude-code",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "codex",
+        "kind": "wiki"
+      },
+      {
+        "source": "berd",
+        "target": "local-ai",
+        "kind": "wiki"
+      },
+      {
         "source": "big-tech-moves",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
@@ -189116,8 +190478,18 @@
       },
       {
         "source": "block",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "block",
         "target": "austin-ai-club-july-22-2026",
         "kind": "topic"
+      },
+      {
+        "source": "block",
+        "target": "berd",
+        "kind": "wiki"
       },
       {
         "source": "block",
@@ -189196,12 +190568,22 @@
       },
       {
         "source": "buzz",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "buzz",
         "target": "austin-ai-club-july-22-2026",
         "kind": "topic"
       },
       {
         "source": "buzz",
         "target": "block",
+        "kind": "wiki"
+      },
+      {
+        "source": "buzz",
+        "target": "berd",
         "kind": "wiki"
       },
       {
@@ -189312,6 +190694,11 @@
       {
         "source": "claude-code",
         "target": "omarchy",
+        "kind": "wiki"
+      },
+      {
+        "source": "claude-code",
+        "target": "berd",
         "kind": "wiki"
       },
       {
@@ -189496,6 +190883,11 @@
       },
       {
         "source": "codex",
+        "target": "berd",
+        "kind": "wiki"
+      },
+      {
+        "source": "codex",
         "target": "local-builds-projects",
         "kind": "wiki"
       },
@@ -189582,6 +190974,11 @@
       {
         "source": "coding-agents",
         "target": "omarchy",
+        "kind": "wiki"
+      },
+      {
+        "source": "coding-agents",
+        "target": "berd",
         "kind": "wiki"
       },
       {
@@ -191427,6 +192824,11 @@
       {
         "source": "local-ai",
         "target": "omarchy",
+        "kind": "wiki"
+      },
+      {
+        "source": "local-ai",
+        "target": "berd",
         "kind": "wiki"
       },
       {
@@ -193376,6 +194778,11 @@
       },
       {
         "source": "privacy-tooling",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "privacy-tooling",
         "target": "austin-ai-club-july-8-2026",
         "kind": "topic"
       },
@@ -193403,6 +194810,11 @@
         "source": "privacy-tooling",
         "target": "austin-ai-club-march-18-2026",
         "kind": "topic"
+      },
+      {
+        "source": "privacy-tooling",
+        "target": "signal",
+        "kind": "wiki"
       },
       {
         "source": "privacy-tooling",
@@ -193866,7 +195278,27 @@
       },
       {
         "source": "security",
+        "target": "signal",
+        "kind": "wiki"
+      },
+      {
+        "source": "security",
         "target": "glm",
+        "kind": "wiki"
+      },
+      {
+        "source": "signal",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "signal",
+        "target": "privacy-tooling",
+        "kind": "wiki"
+      },
+      {
+        "source": "signal",
+        "target": "security",
         "kind": "wiki"
       },
       {
@@ -194427,12 +195859,12 @@
     ]
   },
   "stats": {
-    "pageCount": 153,
-    "topicCount": 234,
+    "pageCount": 155,
+    "topicCount": 236,
     "rawPageCount": 0,
-    "linkCount": 1786,
+    "linkCount": 1816,
     "sourceRecordCount": 11,
-    "sourceLinkCount": 1044,
+    "sourceLinkCount": 1051,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

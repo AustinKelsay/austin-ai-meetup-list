@@ -13,7 +13,7 @@ Claude Code is Anthropic's coding-agent product, recurring in the wiki as a prac
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default** and **Encrypted reasoning blobs decrypt via weaker sibling models**.
+- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
 - [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.
@@ -30,3 +30,4 @@ Claude Code is Anthropic's coding-agent product, recurring in the wiki as a prac
 - [[Agent Cost Controls]]
 - [[Codex]]
 - [[Omarchy]]
+- [[Berd]]
