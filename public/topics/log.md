@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Move Abliterlitics onto August 26
+
+- Moved **Abliterlitics measures what abliteration actually changed** from the empty September 2 scaffold onto tonight's Security track; issue #42 had been stamped for a generated Sept 2 slot.
+- Removed the September 2 Meetup until that board has its own stories.
+
 ## [2026-08-26] update | Issue #42 Abliterlitics onto September 2
 
 - Scaffolded the September 2 Meetup and added **Abliterlitics measures what abliteration actually changed** as the Security lead Topic from submitted link #42.

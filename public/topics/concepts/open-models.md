@@ -4,7 +4,7 @@ created: 2026-05-05
 updated: 2026-08-26
 type: concept
 tags: [concept, models-research, open-source]
-sources: [raw/articles/2026-09-02-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Open Models
@@ -15,8 +15,7 @@ On Meetup boards, the biweekly open-weight launch catalog lives under the offici
 
 ## Mentioned In
 
-- [[Austin AI Club - September 2, 2026]]: **Abliterlitics measures what abliteration actually changed**.
-- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **Abliterlitics measures what abliteration actually changed**.
 - [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
