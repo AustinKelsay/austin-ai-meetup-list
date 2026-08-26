@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:36:48.250Z",
+  "generatedAt": "2026-08-26T15:18:28.882Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -2360,6 +2360,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -4388,6 +4395,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -4396,6 +4410,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -6691,6 +6712,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -9263,6 +9291,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -10690,27 +10725,41 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
         "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159",
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
@@ -10721,7 +10770,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10731,7 +10790,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10741,7 +10810,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10751,7 +10830,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -10761,12 +10850,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -10782,6 +10886,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         },
@@ -10816,12 +10925,22 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         },
@@ -10912,30 +11031,44 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159",
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/collections/ornith-ai/ornith-15",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
@@ -10946,7 +11079,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10956,7 +11099,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -10966,12 +11119,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -10986,6 +11154,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -10996,12 +11169,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -11022,6 +11210,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         },
@@ -11056,12 +11249,22 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         },
@@ -21217,6 +21420,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -21225,6 +21435,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -24741,7 +24958,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -24755,6 +24986,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -24762,7 +25000,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -27387,6 +27639,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -29408,7 +29667,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -29422,6 +29695,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -29429,7 +29709,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -31215,7 +31509,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -31229,7 +31537,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -31243,7 +31565,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -33479,7 +33815,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -33493,7 +33843,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -33507,7 +33871,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -34263,7 +34641,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -34277,7 +34669,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -34291,7 +34697,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -35905,7 +36325,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -35919,7 +36353,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -35933,7 +36381,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -36022,7 +36484,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -36036,7 +36512,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -36050,7 +36540,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -39387,6 +39891,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -41797,7 +42308,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -41811,6 +42336,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -41818,7 +42350,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -44721,7 +45267,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -44735,6 +45295,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -44742,7 +45309,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -49010,7 +49591,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -49024,7 +49619,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -49038,7 +49647,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -49052,7 +49675,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -49066,6 +49703,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -49073,7 +49717,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -52827,7 +53485,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -52841,6 +53513,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -52848,7 +53527,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -55275,7 +55968,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -55289,6 +55996,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -55296,7 +56010,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -57393,7 +58121,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -57407,6 +58149,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -57414,7 +58163,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -59069,7 +59832,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -59083,7 +59860,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -59097,6 +59888,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -59104,7 +59902,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -59119,6 +59931,13 @@
         },
         {
           "href": "https://openai.com/index/jalapeno-first-results/",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -61015,7 +61834,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -61029,6 +61862,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -61036,7 +61876,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -63845,7 +64699,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -63859,6 +64727,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -63866,7 +64741,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -65747,6 +66636,13 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -69718,7 +70614,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -69732,7 +70642,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -69746,7 +70670,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -72903,6 +73841,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -74931,6 +75876,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -74939,6 +75891,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -77234,6 +78193,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -79806,6 +80772,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
@@ -81233,27 +82206,41 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
         "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159",
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
@@ -81264,7 +82251,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -81274,7 +82271,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -81284,7 +82291,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -81294,7 +82311,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -81304,12 +82331,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -81325,6 +82367,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         },
@@ -81359,12 +82406,22 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         },
@@ -81455,30 +82512,44 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159",
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/collections/ornith-ai/ornith-15",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
         "https://www.varonis.com/blog/cosnitch",
         "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
         "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
         "https://github.com/AustinKelsay/austin-ai-club"
       ],
@@ -81489,7 +82560,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -81499,7 +82580,17 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -81509,12 +82600,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -81529,6 +82635,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -81539,12 +82650,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -81565,6 +82691,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         },
@@ -81599,12 +82730,22 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         },
@@ -91760,6 +92901,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -91768,6 +92916,13 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -95284,7 +96439,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -95298,6 +96467,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -95305,7 +96481,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -97930,6 +99120,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -99951,7 +101148,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -99965,6 +101176,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -99972,7 +101190,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -101758,7 +102990,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -101772,7 +103018,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -101786,7 +103046,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104022,7 +105296,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104036,7 +105324,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104050,7 +105352,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104806,7 +106122,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104820,7 +106150,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -104834,7 +106178,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106448,7 +107806,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106462,7 +107834,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106476,7 +107862,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106565,7 +107965,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106579,7 +107993,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -106593,7 +108021,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -109930,6 +111372,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
@@ -112340,7 +113789,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -112354,6 +113817,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -112361,7 +113831,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -115264,7 +116748,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -115278,6 +116776,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -115285,7 +116790,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -119553,7 +121072,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -119567,7 +121100,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -119581,7 +121128,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -119595,7 +121156,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -119609,6 +121184,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -119616,7 +121198,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -123370,7 +124966,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -123384,6 +124994,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -123391,7 +125008,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -125818,7 +127449,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -125832,6 +127477,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -125839,7 +127491,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -127936,7 +129602,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -127950,6 +129630,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -127957,7 +129644,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -129612,7 +131313,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -129626,7 +131341,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -129640,6 +131369,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
           "title": "Closed model releases",
           "section": "Models & Research",
@@ -129647,7 +131383,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -129662,6 +131412,13 @@
         },
         {
           "href": "https://openai.com/index/jalapeno-first-results/",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -131558,7 +133315,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -131572,6 +133343,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -131579,7 +133357,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -134388,7 +136180,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -134402,6 +136208,13 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -134409,7 +136222,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -136290,6 +138117,13 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -140261,7 +142095,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -140275,7 +142123,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.ai/news/grok-4-6",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -140289,7 +142151,21 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3",
+          "title": "Closed model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -141099,6 +142975,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content"
       ],
       "sourceReferences": [
@@ -141109,6 +142986,11 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         }
@@ -141124,7 +143006,7 @@
         "Big Tech Moves"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
+      "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://x.com/AnthropicAI/status/2088343978873966687 https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
     },
     {
       "id": "austin-ai-club-august-26-2026-big-tech-moves-jalapeo-posts-its-first-silicon-results",
@@ -141138,6 +143020,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/"
       ],
       "sourceReferences": [
@@ -141148,6 +143031,11 @@
         },
         {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         }
@@ -141165,7 +143053,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
+      "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://x.com/OpenAI/status/2092300846675505602 https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-closed-model-releases",
@@ -141179,11 +143067,17 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-        "https://z.ai/blog/glm-5.3"
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
+        "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159"
       ],
       "sourceReferences": [
         {
@@ -141208,6 +143102,36 @@
         },
         {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -141238,7 +143162,7 @@
         "xAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.ai/news/grok-imagine-image-2 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.ai/news/grok-4-6 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://z.ai/blog/glm-5.3 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-releases",
@@ -141252,10 +143176,15 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b"
       ],
       "sourceReferences": [
@@ -141288,6 +143217,31 @@
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
           "title": "Open model releases",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
@@ -141315,7 +143269,7 @@
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://huggingface.co/Qwen/Qwen3.8-27B https://ornith.ai/ornith_1_5.html https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -141440,6 +143394,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/"
       ],
       "sourceReferences": [
@@ -141450,6 +143405,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         }
@@ -141469,7 +143429,7 @@
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "OpenAI pauses frontier training after Astra approaches critical cyber Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ https://openai.com/index/pacing-model-development-cyber-capabilities/ Agent Security AI Governance Astra OpenAI Security"
+      "searchText": "OpenAI pauses frontier training after Astra approaches critical cyber Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ https://x.com/OpenAI/status/2085801349866729975 https://openai.com/index/pacing-model-development-cyber-capabilities/ Agent Security AI Governance Astra OpenAI Security"
     },
     {
       "id": "austin-ai-club-august-26-2026-showcase-community-slot",
@@ -153669,6 +155629,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content"
       ],
       "sourceReferences": [
@@ -153679,6 +155640,11 @@
         },
         {
           "href": "https://www.anthropic.com/news/claude-text-watermark",
+          "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/AnthropicAI/status/2088343978873966687",
           "title": "Claude will watermark text globally for the EU AI Act",
           "section": "Big Tech Moves"
         }
@@ -153694,7 +155660,7 @@
         "Big Tech Moves"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
+      "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://x.com/AnthropicAI/status/2088343978873966687 https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
     },
     "austin-ai-club-august-26-2026-big-tech-moves-jalapeo-posts-its-first-silicon-results": {
       "id": "austin-ai-club-august-26-2026-big-tech-moves-jalapeo-posts-its-first-silicon-results",
@@ -153708,6 +155674,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/jalapeno-first-results/",
+        "https://x.com/OpenAI/status/2092300846675505602",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence/"
       ],
       "sourceReferences": [
@@ -153718,6 +155685,11 @@
         },
         {
           "href": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
+          "title": "Jalapeño posts its first silicon results",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2092300846675505602",
           "title": "Jalapeño posts its first silicon results",
           "section": "Big Tech Moves"
         }
@@ -153735,7 +155707,7 @@
         "OpenAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
+      "searchText": "Jalapeño posts its first silicon results Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/jalapeno-first-results/ https://x.com/OpenAI/status/2092300846675505602 https://openai.com/index/the-full-stack-behind-abundant-intelligence/ Big Tech Moves Compute Strategy Jalapeno OpenAI"
     },
     "austin-ai-club-august-26-2026-models-research-closed-model-releases": {
       "id": "austin-ai-club-august-26-2026-models-research-closed-model-releases",
@@ -153749,11 +155721,17 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "https://x.com/OpenAI/status/2085434712429052386",
         "https://x.ai/news/grok-imagine-image-2",
+        "https://x.com/grok/status/2085931542262526102",
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "https://x.com/OpenAI/status/2086864365379010729",
         "https://x.ai/news/grok-4-6",
+        "https://x.com/SpaceXAI/status/2087562800982077492",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-        "https://z.ai/blog/glm-5.3"
+        "https://x.com/GoogleDeepMind/status/2087948366294515977",
+        "https://z.ai/blog/glm-5.3",
+        "https://x.com/Zai_org/status/2088132965922476159"
       ],
       "sourceReferences": [
         {
@@ -153778,6 +155756,36 @@
         },
         {
           "href": "https://x.ai/news/grok-imagine-image-2",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/GoogleDeepMind/status/2087948366294515977",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/grok/status/2085931542262526102",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085434712429052386",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2086864365379010729",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/SpaceXAI/status/2087562800982077492",
+          "title": "Closed model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2088132965922476159",
           "title": "Closed model releases",
           "section": "Models & Research"
         },
@@ -153808,7 +155816,7 @@
         "xAI"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.ai/news/grok-imagine-image-2 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.ai/news/grok-4-6 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://z.ai/blog/glm-5.3 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
+      "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI"
     },
     "austin-ai-club-august-26-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-releases",
@@ -153822,10 +155830,15 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://x.com/finkd/status/2086755195535413696",
         "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://x.com/NVIDIAAI/status/2087162151995629926",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+        "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://ornith.ai/ornith_1_5.html",
+        "https://x.com/ornith_/status/2090074077084127302",
         "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b"
       ],
       "sourceReferences": [
@@ -153858,6 +155871,31 @@
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
           "title": "Open model releases",
           "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research"
         }
       ],
       "wikiIds": [
@@ -153885,7 +155923,7 @@
         "Qwen"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://huggingface.co/Qwen/Qwen3.8-27B https://ornith.ai/ornith_1_5.html https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen"
     },
     "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap": {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -154010,6 +156048,7 @@
       "meetupHref": "/topics/2026-08-26.md",
       "sourceLinks": [
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+        "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/"
       ],
       "sourceReferences": [
@@ -154020,6 +156059,11 @@
         },
         {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
+          "section": "Security"
+        },
+        {
+          "href": "https://x.com/OpenAI/status/2085801349866729975",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
         }
@@ -154039,7 +156083,7 @@
         "Security"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "OpenAI pauses frontier training after Astra approaches critical cyber Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ https://openai.com/index/pacing-model-development-cyber-capabilities/ Agent Security AI Governance Astra OpenAI Security"
+      "searchText": "OpenAI pauses frontier training after Astra approaches critical cyber Security Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ https://x.com/OpenAI/status/2085801349866729975 https://openai.com/index/pacing-model-development-cyber-capabilities/ Agent Security AI Governance Astra OpenAI Security"
     },
     "austin-ai-club-august-26-2026-showcase-community-slot": {
       "id": "austin-ai-club-august-26-2026-showcase-community-slot",
@@ -183575,7 +185619,7 @@
     "rawPageCount": 0,
     "linkCount": 1712,
     "sourceRecordCount": 11,
-    "sourceLinkCount": 985,
+    "sourceLinkCount": 999,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | August 26 X launch posts
+
+- Paired official launch posts onto the Closed and Open roundups (Sol/Luna, Imagine 2.0, GPT-5.6-Cyber, Grok 4.6, Gemini 3.7 Flash, GLM-5.3; Muse Glimmer, Nemotron Lightning, DeepSeek V4-Pro, Qwen3.8-27B, Ornith-1.5) and onto the Astra, Jalapeño, and Claude watermark Topics.
+- Left Audio8, the Hugging Face adoption read, CoSnitch, and the Google ADK lab on their durable artifacts; no high-signal public X posts were recovered for those.
+
 ## [2026-08-26] update | August 26 release roundups
 
 - Expanded the August 6–26 Closed catalog to the GPT-5.6 ChatGPT refresh, Imagine Image 2.0, GPT-5.6-Cyber, Grok 4.6, Gemini 3.7 Flash, and GLM-5.3; kept GLM-5.3 closed until its promised weights actually ship.

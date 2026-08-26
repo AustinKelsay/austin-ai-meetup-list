@@ -89,6 +89,32 @@ export const meetups = [
             chip: "closed releases",
             releaseRoundup: true,
             href: "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2085434712429052386?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/grok/status/2085931542262526102?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/OpenAI/status/2086864365379010729?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/SpaceXAI/status/2087562800982077492?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/GoogleDeepMind/status/2087948366294515977?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Zai_org/status/2088132965922476159?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
               "https://x.ai/news/grok-imagine-image-2",
@@ -107,6 +133,28 @@ export const meetups = [
             chip: "open releases",
             releaseRoundup: true,
             href: "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+            embeds: [
+              {
+                type: "tweet",
+                href: "https://twitter.com/finkd/status/2086755195535413696?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/NVIDIAAI/status/2087162151995629926?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/deepseek_ai/status/2087864585504305397?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/Alibaba_Qwen/status/2088280182356611304?ref_src=twsrc%5Etfw",
+              },
+              {
+                type: "tweet",
+                href: "https://twitter.com/ornith_/status/2090074077084127302?ref_src=twsrc%5Etfw",
+              },
+            ],
             linkPair: [
               "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
               "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
@@ -141,6 +189,10 @@ export const meetups = [
               "OpenAI says preliminary evals put Astra near its Critical cybersecurity threshold, prompting a two-week pause in deployment-bound RL and leaving its largest planned frontier run on hold. This is the August 5 math model returning as a training-security problem.",
             chip: "frontier security",
             href: "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2085801349866729975?ref_src=twsrc%5Etfw",
+            },
             linkPair: [
               "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
               "https://openai.com/index/pacing-model-development-cyber-capabilities/",
@@ -182,6 +234,10 @@ export const meetups = [
               "OpenAI says its first custom inference chip delivered 1.5–1.9× more work per watt and 1.7–3.6× lower end-to-end latency across three public models than the comparison systems it tested. These are vendor-run results, but the June chip announcement now has working silicon and a planned year-end deployment.",
             chip: "inference chip",
             href: "https://openai.com/index/jalapeno-first-results/",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/OpenAI/status/2092300846675505602?ref_src=twsrc%5Etfw",
+            },
             linkPair: [
               "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
             ],
@@ -194,6 +250,10 @@ export const meetups = [
               "Anthropic says future Claude models will nudge token choices to mark generated text without hidden characters, extra tokens, or user identifiers, and will attach C2PA credentials to supported files. A regional transparency rule is becoming a global model behavior.",
             chip: "AI policy",
             href: "https://www.anthropic.com/news/claude-text-watermark",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/AnthropicAI/status/2088343978873966687?ref_src=twsrc%5Etfw",
+            },
             linkPair: [
               "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
             ],

@@ -17,31 +17,61 @@ sources: []
   - Type: Official model update
   - Access: 2026-08-26
   - Notes: OpenAI released ChatGPT-specific August checkpoints on August 6: an updated Sol with an effort slider and Luna as the rolling default for Free and Go users. Codex and ChatGPT Work kept the July checkpoints.
+- Post: https://x.com/OpenAI/status/2085434712429052386
+  - Title: "OpenAI on GPT-5.6 Sol/Luna in ChatGPT"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post for the ChatGPT Sol refresh and unlimited Luna text chats for Free and Go.
 - Source: https://x.ai/news/grok-imagine-image-2
   - Title: "Imagine Image 2.0"
   - Type: Official model launch
   - Access: 2026-08-26
   - Notes: SpaceXAI launched its closed image generation and editing model on August 7 with regional edits, multi-reference input, resizing, consumer-app access, and an API model ID.
+- Post: https://x.com/grok/status/2085931542262526102
+  - Title: "Announcing Imagine Image 2.0"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Grok product account launch for precision editing, typography, and real-work image generation.
 - Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/
   - Title: "Introducing Gemini 3.7 Flash"
   - Type: Official model launch
   - Access: 2026-08-25
   - Notes: Google launched Gemini 3.7 Flash on August 13 for coding and agent workflows at an introductory price equal to half Gemini 3.6 Flash's original per-token price.
+- Post: https://x.com/GoogleDeepMind/status/2087948366294515977
+  - Title: "Gemini 3.7 Flash is here"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: DeepMind launch thread for coding, knowledge work, and web development; pairs with the half-price intro token rate.
 - Source: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/
   - Title: "Expanding Daybreak as the Cyber Defense Window Narrows"
   - Type: Official model and access launch
   - Access: 2026-08-25
   - Notes: OpenAI introduced GPT-5.6-Cyber through the identity-verified Daybreak Red tier for approved vulnerability research, exploit development, and red teaming.
+- Post: https://x.com/OpenAI/status/2086864365379010729
+  - Title: "OpenAI expands Daybreak and ships GPT-5.6-Cyber"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post pairing Daybreak Blue/Red access with the gated cyber specialist model.
 - Source: https://x.ai/news/grok-4-6
   - Title: "Introducing Grok 4.6"
   - Type: Official model launch
   - Access: 2026-08-26
   - Notes: SpaceXAI launched Grok 4.6 on August 12 for long-running agents, coding, knowledge work, and interactive or visual artifact creation; benchmark claims are vendor-reported.
+- Post: https://x.com/SpaceXAI/status/2087562800982077492
+  - Title: "Introducing Grok 4.6"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: SpaceXAI launch at unchanged $2/$6 pricing, live in Cursor, Grok Build, and the API.
 - Source: https://z.ai/blog/glm-5.3
   - Title: "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities"
   - Type: Official API model launch
   - Access: 2026-08-26
   - Notes: Z.ai launched GLM-5.3 in its API on August 14 and said weights would follow in two weeks after safety evaluation and hardening. It remains in the closed roundup until a downloadable artifact actually ships.
+- Post: https://x.com/Zai_org/status/2088132965922476159
+  - Title: "Introducing GLM-5.3"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Z.ai launch framing coding/agent gains plus a cyber leap, with API/weights staged after safety eval.
 
 ### Open model releases
 - Source: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
@@ -49,6 +79,11 @@ sources: []
   - Type: Official model launch
   - Access: 2026-08-25
   - Notes: Meta launched the 30B multimodal Muse Glimmer agent model under Apache 2.0 for local tool use, coding, and long-running workflows.
+- Post: https://x.com/finkd/status/2086755195535413696
+  - Title: "Zuckerberg opens Muse Glimmer weights"
+  - Type: Company X post
+  - Access: 2026-08-26
+  - Notes: Mark Zuckerberg launch for the local 30B Glimmer weights, with Muse Spark 1.2 weights promised later.
 - Source: https://huggingface.co/meta-models/Muse-Glimmer-30B
   - Title: "meta-models/Muse-Glimmer-30B"
   - Type: Hugging Face model page
@@ -59,6 +94,11 @@ sources: []
   - Type: Official model launch
   - Access: 2026-08-25
   - Notes: NVIDIA launched Nemotron 3.5 Lightning for high-volume agent tasks and NeMo Switchyard for routing requests across model fleets; speed claims are vendor-reported.
+- Post: https://x.com/NVIDIAAI/status/2087162151995629926
+  - Title: "Introducing NVIDIA Nemotron 3.5 Lightning"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: NVIDIA AI launch for the open 30B/3B-active MoE, claiming up to 4x output speed for always-on agent tasks.
 - Source: https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard
   - Title: "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
   - Type: Official model card
@@ -69,16 +109,31 @@ sources: []
   - Type: Hugging Face model page
   - Access: 2026-08-25
   - Notes: The Apache-2.0 27B multimodal checkpoint is the concrete release delta from the Qwen3.8-Max preview covered on July 22.
+- Post: https://x.com/Alibaba_Qwen/status/2088280182356611304
+  - Title: "Qwen3.8-27B open weights"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Qwen launch for the dense 27B multimodal weights, 262K native context, and Apache 2.0 local-run story.
 - Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
   - Title: "DeepSeek-V4-Pro-0813"
   - Type: Hugging Face model page
   - Access: 2026-08-25
   - Notes: DeepSeek's MIT-licensed official V4-Pro release supersedes the preview with stronger agent-focused post-training and DSpark speculative decoding.
+- Post: https://x.com/deepseek_ai/status/2087864585504305397
+  - Title: "DeepSeek-V4-Pro GA"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: DeepSeek launch for the official V4-Pro GA, effort controls, and Responses API / Codex setup.
 - Source: https://ornith.ai/ornith_1_5.html
   - Title: "Ornith-1.5: From Self-Scaffolding to Self-Improvement"
   - Type: Official model and training-method launch
   - Access: 2026-08-26
   - Notes: Ornith launched MIT-licensed 9B dense, 35B/3B-active MoE, and 397B MoE coding-agent variants during the meetup window, centered on a vendor-reported loop that generates tasks, scaffolds, and solution rollouts during reinforcement learning.
+- Post: https://x.com/ornith_/status/2090074077084127302
+  - Title: "Introducing Ornith-1.5"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Ornith launch for the 9B / 35B MoE / 397B MoE family and the self-improvement training loop; benchmark claims are vendor-reported.
 - Source: https://huggingface.co/collections/ornith-ai/ornith-15
   - Title: "Ornith-1.5"
   - Type: Hugging Face model collection
@@ -105,6 +160,11 @@ sources: []
   - Type: Official safety disclosure
   - Access: 2026-08-25
   - Notes: OpenAI said on August 7 that preliminary Astra evaluations meant it could not rule out Critical cybersecurity capability under its Preparedness Framework.
+- Post: https://x.com/OpenAI/status/2085801349866729975
+  - Title: "OpenAI treats Astra as its first critical cyber model"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: OpenAI launch-day framing for the Astra Preparedness threshold and extra controls before any release.
 - Source: https://openai.com/index/pacing-model-development-cyber-capabilities/
   - Title: "Pacing model development in an era of cyber-critical capabilities"
   - Type: Official training and safety update
@@ -143,6 +203,11 @@ sources: []
   - Type: Official engineering report
   - Access: 2026-08-25
   - Notes: OpenAI reports first working-silicon results across GPT-OSS 120B, DeepSeek R1, and Kimi K2.5; performance comparisons are vendor-run on the public InferenceX benchmark and should remain qualified.
+- Post: https://x.com/OpenAI/status/2092300846675505602
+  - Title: "Jalapeño first silicon results"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: OpenAI Hot Chips-week post for the first measured throughput-per-watt and latency results; treat multipliers as vendor-reported.
 - Source: https://openai.com/index/the-full-stack-behind-abundant-intelligence/
   - Title: "The full stack behind abundant intelligence"
   - Type: Official company strategy post
@@ -155,6 +220,11 @@ sources: []
   - Type: Official product and policy explainer
   - Access: 2026-08-25
   - Notes: Anthropic says future Claude models will globally watermark text through token-selection nudges and attach C2PA credentials to supported files, without encoding user identity.
+- Post: https://x.com/AnthropicAI/status/2088343978873966687
+  - Title: "Anthropic watermarking FAQ"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Anthropic FAQ post: EU AI Act compliance, token-sampling watermarks, and the claim of no practical quality impact.
 - Source: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content
   - Title: "Strong backing for the Code of Practice on Transparency of AI-generated Content"
   - Type: European Commission policy source
