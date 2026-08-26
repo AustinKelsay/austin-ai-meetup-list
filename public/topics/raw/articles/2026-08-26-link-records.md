@@ -326,6 +326,28 @@ sources: []
   - Access: 2026-08-25
   - Notes: Hub-scoped analysis distinguishes likes from downloads, reports one overlap across the two top-25 lists, 83% of declared-size downloads below 1B parameters, and 151,448 Qwen derivatives; the authors caution that Hub activity is not total market share.
 
+### fal's H3 Max leads AA's with-audio video boards
+- Post: https://x.com/artificialanlys/status/2092717615739494424
+  - Title: "Artificial Analysis on MiniMax H3 Max"
+  - Type: Independent benchmark X post
+  - Access: 2026-08-26
+  - Notes: AA Video Arena with-audio snapshot: H3 Max #1 image-to-video and #3 text-to-video, ahead of base MiniMax H3. fal-priced $0.04/s at 768p vs $0.06 for base H3; fal has stated intent to release weights, not shipped. Do not treat as an open-weight lead until the files land.
+- Source: https://artificialanalysis.ai/video/leaderboard/image-to-video
+  - Title: "Image to Video Leaderboard"
+  - Type: Independent video arena
+  - Access: 2026-08-26
+  - Notes: With-audio board: Minimax H3 Max (post-trained by fal) Elo 1,204 (#1, 5,123 samples) vs Dreamina Seedance 2.0 720p 1,191. Arena ranks move; this is the board as fetched.
+- Source: https://artificialanalysis.ai/video/leaderboard/text-to-video
+  - Title: "Text to Video Leaderboard"
+  - Type: Independent video arena
+  - Access: 2026-08-26
+  - Notes: With-audio board: H3 Max Elo 1,235 (#3, range 1-4) behind Wan 3.0 (1,240) and Gemini Omni Flash (1,237); top three sit within 6 Elo. AA lists $2.40/min API pricing.
+- Source: https://fal.ai/models/minimax/h3-max/text-to-video
+  - Title: "MiniMax H3 Max Text to Video"
+  - Type: Hosted inference endpoint
+  - Access: 2026-08-26
+  - Notes: fal's post-trained H3 Max endpoint. $0.04/s at 768p is a promotional launch rate through September 1, then $0.08/s. 5–15s clips, native audio, up to 768p.
+
 ## Security
 
 ### OpenAI pauses frontier training after Astra approaches critical cyber
@@ -521,6 +543,18 @@ sources: []
   - Type: European Commission policy source
   - Access: 2026-08-25
   - Notes: Confirms the August 2 marking obligations, roughly 190 signatories, and participation by Anthropic and other major model providers.
+
+### Claudeforce puts Claude on Salesforce
+- Post: https://x.com/benioff/status/2092705110082347011
+  - Title: "Marc Benioff on Claudeforce"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post with demo video. "#1 AI (Claude)" and "#1 CRM" are Benioff's line. "See it at Dreamforce" is the live demo cue; the PR is the availability source.
+- Source: https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx
+  - Title: "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM"
+  - Type: Official company announcement
+  - Access: 2026-08-26
+  - Notes: Dated August 26, 2026. Salesforce in Claude launches with 37 prebuilt sales skills. AIforce is the MCP/API/CLI harness on Headless 360. Select pilots now; open beta expected September 2026. Slackbot 8.1M hours is Salesforce-reported internal productivity, not an independent census.
 
 ## Showcase
 

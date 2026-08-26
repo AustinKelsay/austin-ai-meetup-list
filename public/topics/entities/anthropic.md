@@ -13,7 +13,7 @@ Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models** and **Claude will watermark text globally for the EU AI Act**.
+- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.
 - [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.
 - [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.
 - [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.
@@ -34,3 +34,4 @@ Anthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety
 - [[Claude Code]]
 - [[Claude Fable/Mythos]]
 - [[Claude Sonnet 5]]
+- [[Salesforce]]

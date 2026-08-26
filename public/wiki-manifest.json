@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T21:23:09.414Z",
+  "generatedAt": "2026-08-26T22:00:42.741Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -623,6 +623,7 @@
         "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
+        "salesforce",
         "vercel",
         "vllm",
         "world-models"
@@ -2918,6 +2919,7 @@
         "leanstral",
         "liquid-ai",
         "meta-muse",
+        "minimax",
         "models-research",
         "open-models",
         "openrouter-fusion",
@@ -2952,6 +2954,7 @@
         "leanstral",
         "liquid-ai",
         "meta-muse",
+        "minimax",
         "models-research",
         "mythos",
         "nemotron",
@@ -3014,6 +3017,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://github.com/PrimeIntellect-ai/prime-agent",
@@ -4395,7 +4426,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI writes up the Hugging Face eval as a warning shot** and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI writes up the Hugging Face eval as a warning shot**, **Abliterlitics measures what abliteration actually changed**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]\n- [[MiniMax]]"
     },
     {
       "id": "ai-governance",
@@ -6901,7 +6932,8 @@
         "claude-code",
         "claude-sonnet-5",
         "compute-strategy",
-        "mythos"
+        "mythos",
+        "salesforce"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -6926,6 +6958,7 @@
         "compute-strategy",
         "model-distillation",
         "mythos",
+        "salesforce",
         "security",
         "supply-chain-security"
       ],
@@ -7066,6 +7099,20 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -8114,7 +8161,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models** and **Claude will watermark text globally for the EU AI Act**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
+      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]\n- [[Salesforce]]"
     },
     {
       "id": "apple",
@@ -11132,6 +11179,10 @@
         "https://x.com/UnslothAI/status/2092639558815060281",
         "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
@@ -11165,6 +11216,8 @@
         "https://www.anthropic.com/news/claude-text-watermark",
         "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
         "https://huggingface.co/",
         "https://llama.garden/"
       ],
@@ -11450,6 +11503,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
@@ -11615,6 +11688,16 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://huggingface.co/",
           "title": "Archiving open-source models",
           "section": "Showcase"
@@ -11627,7 +11710,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics, Signal.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Salesforce, Jalapeno, Abliterlitics, Signal, MiniMax.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -11659,6 +11742,7 @@
         "local-ai",
         "meta-muse",
         "microsoft",
+        "minimax",
         "model-distillation",
         "models-research",
         "nemotron",
@@ -11669,6 +11753,7 @@
         "ornith",
         "privacy-tooling",
         "qwen",
+        "salesforce",
         "security",
         "signal",
         "speculative-decoding",
@@ -11706,6 +11791,7 @@
         "local-ai",
         "meta-muse",
         "microsoft",
+        "minimax",
         "model-distillation",
         "models-research",
         "nemotron",
@@ -11716,6 +11802,7 @@
         "ornith",
         "privacy-tooling",
         "qwen",
+        "salesforce",
         "security",
         "signal",
         "speculative-decoding",
@@ -11794,6 +11881,10 @@
         "https://x.com/UnslothAI/status/2092639558815060281",
         "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
@@ -11828,6 +11919,8 @@
         "https://www.anthropic.com/news/claude-text-watermark",
         "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
         "https://huggingface.co/",
         "https://llama.garden/"
       ],
@@ -12128,6 +12221,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
@@ -12295,6 +12408,16 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves"
         },
         {
@@ -22241,6 +22364,7 @@
         "nvidia",
         "openai",
         "palantir",
+        "salesforce",
         "spacex",
         "venice",
         "vera-rubin",
@@ -22268,6 +22392,7 @@
         "google",
         "meta-muse",
         "palantir",
+        "salesforce",
         "spacex",
         "venice",
         "waico"
@@ -22591,6 +22716,20 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -23317,7 +23456,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, and **Claude will watermark text globally for the EU AI Act**.\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]"
+      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
     },
     {
       "id": "block",
@@ -24178,7 +24317,8 @@
         "berd",
         "codex",
         "coding-agents",
-        "omarchy"
+        "omarchy",
+        "salesforce"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -24196,7 +24336,8 @@
         "claude-sonnet-5",
         "codex",
         "coding-agents",
-        "omarchy"
+        "omarchy",
+        "salesforce"
       ],
       "referencedTopicSources": [
         {
@@ -24508,7 +24649,7 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]"
+      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Salesforce]]"
     },
     {
       "id": "mythos",
@@ -48953,22 +49094,25 @@
         "multimodal"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-08-05",
-      "excerpt": "MiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates.",
+      "updated": "2026-08-26",
+      "excerpt": "MiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.",
       "rawHref": "/topics/entities/minimax.md",
       "relativePath": "entities/minimax.md",
       "outgoingIds": [
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -48981,7 +49125,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -49049,6 +49195,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://bfl.ai/blog/flux-3",
@@ -50213,7 +50387,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
     },
     {
       "id": "minimax-m3",
@@ -52486,6 +52660,34 @@
         {
           "href": "https://huggingface.co/blog/state-of-open-models-summer-2026",
           "title": "Open-model hype and adoption barely overlap",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -55431,7 +55633,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -61325,6 +61527,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://abliterlitics.dev/",
           "title": "Abliterlitics measures what abliteration actually changed",
           "section": "Security",
@@ -62676,7 +62906,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **fal's H3 Max leads AA's with-audio video boards**, **Archiving open-source models**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "openagents",
@@ -69839,6 +70069,59 @@
       "bodyMarkdown": "# Sakana Fugu\n\nSakana Fugu is Sakana AI's learned multi-agent orchestration model/API, tracked as a counterpart to OpenRouter Fusion in the June 24 model-panel wrapper discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.\n\n## Related\n\n- [[Sakana AI]]\n- [[OpenRouter Fusion]]\n- [[OpenRouter]]\n- [[Agent Infrastructure]]\n- [[AI Benchmarks & Evals]]"
     },
     {
+      "id": "salesforce",
+      "title": "Salesforce",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Salesforce is the CRM company whose August 2026 Claudeforce partnership with Anthropic puts Claude on the AIforce harness and Headless 360 so enterprise data, workflows, and governance are reachable from chat. Salesforce in Claude launched as a 37-skill sales plugin in select pilots, with open beta expected in September 2026.",
+      "rawHref": "/topics/entities/salesforce.md",
+      "relativePath": "entities/salesforce.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "austin-ai-club-august-26-2026",
+        "big-tech-moves",
+        "claude-code"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "anthropic",
+        "austin-ai-club-august-26-2026",
+        "big-tech-moves",
+        "claude-code"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Salesforce\n\nSalesforce is the CRM company whose August 2026 Claudeforce partnership with Anthropic puts Claude on the AIforce harness and Headless 360 so enterprise data, workflows, and governance are reachable from chat. Salesforce in Claude launched as a 37-skill sales plugin in select pilots, with open beta expected in September 2026.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Claudeforce puts Claude on Salesforce**.\n\n## Related\n\n- [[Anthropic]]\n- [[Big Tech Moves]]\n- [[Agent Infrastructure]]\n- [[Claude Code]]"
+    },
+    {
       "id": "security",
       "title": "Security",
       "type": "concept",
@@ -76002,6 +76285,7 @@
         "recursive-language-models",
         "sakana-ai",
         "sakana-fugu",
+        "salesforce",
         "vercel",
         "vllm",
         "world-models"
@@ -78297,6 +78581,7 @@
         "leanstral",
         "liquid-ai",
         "meta-muse",
+        "minimax",
         "models-research",
         "open-models",
         "openrouter-fusion",
@@ -78331,6 +78616,7 @@
         "leanstral",
         "liquid-ai",
         "meta-muse",
+        "minimax",
         "models-research",
         "mythos",
         "nemotron",
@@ -78393,6 +78679,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://github.com/PrimeIntellect-ai/prime-agent",
@@ -79774,7 +80088,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI writes up the Hugging Face eval as a warning shot** and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]"
+      "bodyMarkdown": "# AI Benchmarks & Evals\n\nAI Benchmarks & Evals covers recurring Austin AI Club references to leaderboards, benchmark failures, model-ranking artifacts, eval harnesses, and practical tests that reveal how AI systems behave under real tasks.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **OpenAI writes up the Hugging Face eval as a warning shot**, **Abliterlitics measures what abliteration actually changed**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**, **Open model releases**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Closed model releases**, **Fable's refusals go too far**, **Frontier model review gets a federal lane**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **DeepSWE exposes the real coding model hierarchy**, **Multi-token prediction goes mainstream**, and **DFlash beats autoregressive drafting ceiling**.\n- [[Austin AI Club - May 13, 2026]]: **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Open model releases**, **PII filters are becoming local model infrastructure**, **Frontier model testing gets a federal lane**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**, **Closed model releases**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Austin AI Club - April 1, 2026]]: **ARC AGI benchmark #3**, **402 Index paid API loop demo**, **Closed model releases**, **Open model releases**, and **Google TurboQuant**.\n- [[Austin AI Club - March 18, 2026]]: **CLI vs MCP**, **OpenClaw pairing bench**, **Open model releases**, **Closed model releases**, **Frontier check**, and **plebdev-bench**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Signal Discovery]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[AI Governance]]\n- [[Brain2Qwerty]]\n- [[OpenRouter Fusion]]\n- [[Sakana Fugu]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[CWIP]]\n- [[Meta Muse]]\n- [[Prime Agent]]\n- [[Liquid AI]]\n- [[Abliterlitics]]\n- [[MiniMax]]"
     },
     "ai-governance": {
       "id": "ai-governance",
@@ -82280,7 +82594,8 @@
         "claude-code",
         "claude-sonnet-5",
         "compute-strategy",
-        "mythos"
+        "mythos",
+        "salesforce"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -82305,6 +82620,7 @@
         "compute-strategy",
         "model-distillation",
         "mythos",
+        "salesforce",
         "security",
         "supply-chain-security"
       ],
@@ -82445,6 +82761,20 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -83493,7 +83823,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models** and **Claude will watermark text globally for the EU AI Act**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]"
+      "bodyMarkdown": "# Anthropic\n\nAnthropic is a recurring Austin AI Club entity for Claude, agent tooling, safety releases, and compute strategy.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Karpathy replaces pelican-SVG with a $10 Middle-earth world**.\n- [[Austin AI Club - July 22, 2026]]: **White House says Kimi K3 distilled Fable**, **AMD buys a place in Anthropic's frontier stack**, and **The AI safety leaderboard tops out at C+**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Fable 5 becomes the advisor, not the worker**, **Claude gets a consciousness-adjacent workspace**, **Fable 5 comes back with government in the loop**, and **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips** and **Who reported the Fable jailbreak?**\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases** with Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, **Claude gets its cloud-bill moment**, **Fable's refusals go too far**, and **Anthropic enters IPO mode at $965B**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Anthropic buys the AWS compute runway**, **Anthropic opens the bounty door**, and **Claude Managed Agents learn between runs**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, and **Anthropic vs OpenClaw keeps escalating**.\n- [[Austin AI Club - April 1, 2026]]: **Claude Code gets computer use**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Austin AI Club - March 18, 2026]]: **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Claude distillation claims**, and **Claude Kill?**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[Agent Cost Controls]]\n- [[Agent Security]]\n- [[Claude Code]]\n- [[Claude Fable/Mythos]]\n- [[Claude Sonnet 5]]\n- [[Salesforce]]"
     },
     "apple": {
       "id": "apple",
@@ -86511,6 +86841,10 @@
         "https://x.com/UnslothAI/status/2092639558815060281",
         "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
@@ -86544,6 +86878,8 @@
         "https://www.anthropic.com/news/claude-text-watermark",
         "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
         "https://huggingface.co/",
         "https://llama.garden/"
       ],
@@ -86829,6 +87165,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
@@ -86994,6 +87350,16 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://huggingface.co/",
           "title": "Archiving open-source models",
           "section": "Showcase"
@@ -87006,7 +87372,7 @@
       ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
-      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Jalapeno, Abliterlitics, Signal.",
+      "excerpt": "Related wiki pages: Agent Infrastructure, Coding Agents, Codex, Claude Code, Omarchy, Block, Buzz, Berd, Model Distillation, Models & Research, Open Models, Local AI, Agent Security, Security, AI Governance, AI Benchmarks & Evals, Big Tech Moves, Compute Strategy, Inference Optimization, Speculative Decoding, Privacy Tooling, Google, Gemini, Gemma, OpenAI, GPT-5.6, xAI, Grok, GLM, Meta Muse, NVIDIA, Vera Rubin, Nemotron, Qwen, DeepSeek, Kimi, Ornith, Astra, Microsoft, Anthropic, Salesforce, Jalapeno, Abliterlitics, Signal, MiniMax.",
       "rawHref": "/topics/2026-08-26.md",
       "relativePath": "2026-08-26.md",
       "outgoingIds": [
@@ -87038,6 +87404,7 @@
         "local-ai",
         "meta-muse",
         "microsoft",
+        "minimax",
         "model-distillation",
         "models-research",
         "nemotron",
@@ -87048,6 +87415,7 @@
         "ornith",
         "privacy-tooling",
         "qwen",
+        "salesforce",
         "security",
         "signal",
         "speculative-decoding",
@@ -87085,6 +87453,7 @@
         "local-ai",
         "meta-muse",
         "microsoft",
+        "minimax",
         "model-distillation",
         "models-research",
         "nemotron",
@@ -87095,6 +87464,7 @@
         "ornith",
         "privacy-tooling",
         "qwen",
+        "salesforce",
         "security",
         "signal",
         "speculative-decoding",
@@ -87173,6 +87543,10 @@
         "https://x.com/UnslothAI/status/2092639558815060281",
         "https://x.com/eliebakouch/status/2092622716046107132",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
         "https://x.com/OpenAI/status/2085801349866729975",
         "https://openai.com/index/pacing-model-development-cyber-capabilities/",
@@ -87207,6 +87581,8 @@
         "https://www.anthropic.com/news/claude-text-watermark",
         "https://x.com/AnthropicAI/status/2088343978873966687",
         "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
         "https://huggingface.co/",
         "https://llama.garden/"
       ],
@@ -87507,6 +87883,26 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
           "title": "OpenAI pauses frontier training after Astra approaches critical cyber",
           "section": "Security"
@@ -87674,6 +88070,16 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves"
         },
         {
@@ -97620,6 +98026,7 @@
         "nvidia",
         "openai",
         "palantir",
+        "salesforce",
         "spacex",
         "venice",
         "vera-rubin",
@@ -97647,6 +98054,7 @@
         "google",
         "meta-muse",
         "palantir",
+        "salesforce",
         "spacex",
         "venice",
         "waico"
@@ -97970,6 +98378,20 @@
         {
           "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
           "title": "Claude will watermark text globally for the EU AI Act",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -98696,7 +99118,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, and **Claude will watermark text globally for the EU AI Act**.\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]"
+      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Austin AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Austin AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Austin AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Austin AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
     },
     "block": {
       "id": "block",
@@ -99557,7 +99979,8 @@
         "berd",
         "codex",
         "coding-agents",
-        "omarchy"
+        "omarchy",
+        "salesforce"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -99575,7 +99998,8 @@
         "claude-sonnet-5",
         "codex",
         "coding-agents",
-        "omarchy"
+        "omarchy",
+        "salesforce"
       ],
       "referencedTopicSources": [
         {
@@ -99887,7 +100311,7 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         }
       ],
-      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]"
+      "bodyMarkdown": "# Claude Code\n\nClaude Code is Anthropic's coding-agent product, recurring in the wiki as a practical surface for agent workflows, cost controls, security boundaries, and vendor trust. Session logs that include encrypted thinking blocks were a public leak surface in August 2026, after researchers showed weaker sibling models could transcribe hidden chain-of-thought.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.\n- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.\n- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.\n- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.\n- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.\n\n## Related\n\n- [[Anthropic]]\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[Agent Cost Controls]]\n- [[Codex]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Salesforce]]"
     },
     "mythos": {
       "id": "mythos",
@@ -124332,22 +124756,25 @@
         "multimodal"
       ],
       "sources": [
+        "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
         "raw/articles/2026-06-10-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-08-05",
-      "excerpt": "MiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates.",
+      "updated": "2026-08-26",
+      "excerpt": "MiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.",
       "rawHref": "/topics/entities/minimax.md",
       "relativePath": "entities/minimax.md",
       "outgoingIds": [
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -124360,7 +124787,9 @@
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
+        "ai-benchmarks-evals",
         "austin-ai-club-april-1-2026",
+        "austin-ai-club-august-26-2026",
         "austin-ai-club-august-5-2026",
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
@@ -124428,6 +124857,34 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-april-1-2026",
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
           "href": "https://bfl.ai/blog/flux-3",
@@ -125592,7 +126049,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates.\n\n## Mentioned In\n\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Austin AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
     },
     "minimax-m3": {
       "id": "minimax-m3",
@@ -127865,6 +128322,34 @@
         {
           "href": "https://huggingface.co/blog/state-of-open-models-summer-2026",
           "title": "Open-model hype and adoption barely overlap",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
@@ -130810,7 +131295,7 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Austin AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Austin AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Austin AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Austin AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -136704,6 +137189,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://abliterlitics.dev/",
           "title": "Abliterlitics measures what abliteration actually changed",
           "section": "Security",
@@ -138055,7 +138568,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **Archiving open-source models**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Open Models\n\nOpen Models covers open-weight and open-source model releases, their deployment surfaces, and the practical question of whether builders can run, inspect, fine-tune, or compare them outside a single hosted API.\n\nOn Meetup boards, the biweekly open-weight launch catalog lives under the official Models & Research Topic **Open model releases**. That Release Roundup is the durable place to look back through open launches; specialist research and packaging debates may still appear as separate Topics after it.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, **fal's H3 Max leads AA's with-audio video boards**, **Archiving open-source models**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **vLLM turns weird open models into runnable systems**.\n- [[Austin AI Club - June 10, 2026]]: **Open model releases** and **Local AI becomes bandwidth math**.\n- [[Austin AI Club - May 27, 2026]]: **Open model releases** and **Multi-token prediction goes mainstream**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **Attune patches the open-model tool-call boundary**.\n- [[Austin AI Club - April 15, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **LMfit**.\n\n## Related\n\n- [[Models & Research]]\n- [[AI Governance]]\n- [[Local AI]]\n- [[AI Signal Discovery]]\n- [[World Models]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[FLUX 3]]\n- [[Ben Carman]]\n- [[Cohere]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Liquid AI]]\n- [[Prime Agent]]\n- [[Qwen]]\n- [[Ornith]]\n- [[Tencent]]\n- [[Hy3]]\n- [[Moonshot AI]]\n- [[Kimi]]\n- [[GLM]]\n- [[DeepSeek]]\n- [[NVIDIA]]\n- [[Nemotron]]\n- [[Microsoft]]\n- [[Meta]]\n- [[vLLM]]\n- [[Gemma]]\n- [[Mistral]]\n- [[TMax]]\n- [[Qwenstradamus]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[DeepSpec]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "openagents": {
       "id": "openagents",
@@ -145217,6 +145730,59 @@
       ],
       "bodyMarkdown": "# Sakana Fugu\n\nSakana Fugu is Sakana AI's learned multi-agent orchestration model/API, tracked as a counterpart to OpenRouter Fusion in the June 24 model-panel wrapper discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.\n\n## Related\n\n- [[Sakana AI]]\n- [[OpenRouter Fusion]]\n- [[OpenRouter]]\n- [[Agent Infrastructure]]\n- [[AI Benchmarks & Evals]]"
     },
+    "salesforce": {
+      "id": "salesforce",
+      "title": "Salesforce",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-08-26-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "excerpt": "Salesforce is the CRM company whose August 2026 Claudeforce partnership with Anthropic puts Claude on the AIforce harness and Headless 360 so enterprise data, workflows, and governance are reachable from chat. Salesforce in Claude launched as a 37-skill sales plugin in select pilots, with open beta expected in September 2026.",
+      "rawHref": "/topics/entities/salesforce.md",
+      "relativePath": "entities/salesforce.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "anthropic",
+        "austin-ai-club-august-26-2026",
+        "big-tech-moves",
+        "claude-code"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "anthropic",
+        "austin-ai-club-august-26-2026",
+        "big-tech-moves",
+        "claude-code"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Salesforce\n\nSalesforce is the CRM company whose August 2026 Claudeforce partnership with Anthropic puts Claude on the AIforce harness and Headless 360 so enterprise data, workflows, and governance are reachable from chat. Salesforce in Claude launched as a 37-skill sales plugin in select pilots, with open beta expected in September 2026.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Claudeforce puts Claude on Salesforce**.\n\n## Related\n\n- [[Anthropic]]\n- [[Big Tech Moves]]\n- [[Agent Infrastructure]]\n- [[Claude Code]]"
+    },
     "security": {
       "id": "security",
       "title": "Security",
@@ -150996,6 +151562,45 @@
       "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://x.com/AnthropicAI/status/2088343978873966687 https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
     },
     {
+      "id": "austin-ai-club-august-26-2026-big-tech-moves-claudeforce-puts-claude-on-salesforce",
+      "title": "Claudeforce puts Claude on Salesforce",
+      "rawTitle": "Claudeforce puts Claude on Salesforce",
+      "normalizedTitle": "claudeforce puts claude on salesforce",
+      "section": "Big Tech Moves",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "wikiIds": [
+        "anthropic",
+        "big-tech-moves",
+        "salesforce"
+      ],
+      "wikiTitles": [
+        "Anthropic",
+        "Big Tech Moves",
+        "Salesforce"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Claudeforce puts Claude on Salesforce Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://x.com/benioff/status/2092705110082347011 https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx Anthropic Big Tech Moves Salesforce"
+    },
+    {
       "id": "austin-ai-club-august-26-2026-big-tech-moves-s-on-groq-3-lpx",
       "title": "Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX",
       "rawTitle": "Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX",
@@ -151342,6 +151947,59 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI Z.ai"
+    },
+    {
+      "id": "austin-ai-club-august-26-2026-models-research-fals-h3-max-leads-aas-with-audio-video-boards",
+      "title": "fal's H3 Max leads AA's with-audio video boards",
+      "rawTitle": "fal's H3 Max leads AA's with-audio video boards",
+      "normalizedTitle": "fal's h3 max leads aa's with-audio video boards",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "ai-benchmarks-evals",
+        "minimax",
+        "models-research",
+        "open-models"
+      ],
+      "wikiTitles": [
+        "AI Benchmarks & Evals",
+        "MiniMax",
+        "Models & Research",
+        "Open Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "fal's H3 Max leads AA's with-audio video boards Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://x.com/artificialanlys/status/2092717615739494424 https://artificialanalysis.ai/video/leaderboard/image-to-video https://artificialanalysis.ai/video/leaderboard/text-to-video https://fal.ai/models/minimax/h3-max/text-to-video AI Benchmarks & Evals MiniMax Models & Research Open Models"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-flash-next-125b-does-250k-context-on-a-24gb-4090",
@@ -164377,6 +165035,45 @@
       "unresolvedWikiLinks": [],
       "searchText": "Claude will watermark text globally for the EU AI Act Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://www.anthropic.com/news/claude-text-watermark https://x.com/AnthropicAI/status/2088343978873966687 https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content AI Governance Anthropic Big Tech Moves"
     },
+    "austin-ai-club-august-26-2026-big-tech-moves-claudeforce-puts-claude-on-salesforce": {
+      "id": "austin-ai-club-august-26-2026-big-tech-moves-claudeforce-puts-claude-on-salesforce",
+      "title": "Claudeforce puts Claude on Salesforce",
+      "rawTitle": "Claudeforce puts Claude on Salesforce",
+      "normalizedTitle": "claudeforce puts claude on salesforce",
+      "section": "Big Tech Moves",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/benioff/status/2092705110082347011",
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/benioff/status/2092705110082347011",
+          "title": "Claudeforce puts Claude on Salesforce",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "wikiIds": [
+        "anthropic",
+        "big-tech-moves",
+        "salesforce"
+      ],
+      "wikiTitles": [
+        "Anthropic",
+        "Big Tech Moves",
+        "Salesforce"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Claudeforce puts Claude on Salesforce Big Tech Moves Austin AI Club - August 26, 2026 2026-08-26 https://x.com/benioff/status/2092705110082347011 https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx Anthropic Big Tech Moves Salesforce"
+    },
     "austin-ai-club-august-26-2026-big-tech-moves-s-on-groq-3-lpx": {
       "id": "austin-ai-club-august-26-2026-big-tech-moves-s-on-groq-3-lpx",
       "title": "Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX",
@@ -164724,6 +165421,59 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Closed model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ https://x.com/OpenAI/status/2085434712429052386 https://x.ai/news/grok-imagine-image-2 https://x.com/grok/status/2085931542262526102 https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ https://x.com/OpenAI/status/2086864365379010729 https://x.ai/news/grok-4-6 https://x.com/SpaceXAI/status/2087562800982077492 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ https://x.com/GoogleDeepMind/status/2087948366294515977 https://z.ai/blog/glm-5.3 https://x.com/Zai_org/status/2088132965922476159 Gemini GLM Google GPT-5.6 Grok Models & Research OpenAI xAI Z.ai"
+    },
+    "austin-ai-club-august-26-2026-models-research-fals-h3-max-leads-aas-with-audio-video-boards": {
+      "id": "austin-ai-club-august-26-2026-models-research-fals-h3-max-leads-aas-with-audio-video-boards",
+      "title": "fal's H3 Max leads AA's with-audio video boards",
+      "rawTitle": "fal's H3 Max leads AA's with-audio video boards",
+      "normalizedTitle": "fal's h3 max leads aa's with-audio video boards",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-august-26-2026",
+      "meetupTitle": "Austin AI Club - August 26, 2026",
+      "meetupSlug": "2026-08-26",
+      "meetupHref": "/topics/2026-08-26.md",
+      "sourceLinks": [
+        "https://x.com/artificialanlys/status/2092717615739494424",
+        "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "https://fal.ai/models/minimax/h3-max/text-to-video"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/artificialanlys/status/2092717615739494424",
+          "title": "fal's H3 Max leads AA's with-audio video boards",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "ai-benchmarks-evals",
+        "minimax",
+        "models-research",
+        "open-models"
+      ],
+      "wikiTitles": [
+        "AI Benchmarks & Evals",
+        "MiniMax",
+        "Models & Research",
+        "Open Models"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "fal's H3 Max leads AA's with-audio video boards Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://x.com/artificialanlys/status/2092717615739494424 https://artificialanalysis.ai/video/leaderboard/image-to-video https://artificialanalysis.ai/video/leaderboard/text-to-video https://fal.ai/models/minimax/h3-max/text-to-video AI Benchmarks & Evals MiniMax Models & Research Open Models"
     },
     "austin-ai-club-august-26-2026-models-research-flash-next-125b-does-250k-context-on-a-24gb-4090": {
       "id": "austin-ai-club-august-26-2026-models-research-flash-next-125b-does-250k-context-on-a-24gb-4090",
@@ -178017,6 +178767,10 @@
       "target": "abliterlitics"
     },
     {
+      "source": "ai-benchmarks-evals",
+      "target": "minimax"
+    },
+    {
       "source": "ai-governance",
       "target": "austin-ai-club-august-26-2026"
     },
@@ -178399,6 +179153,10 @@
     {
       "source": "anthropic",
       "target": "claude-sonnet-5"
+    },
+    {
+      "source": "anthropic",
+      "target": "salesforce"
     },
     {
       "source": "apple",
@@ -178950,6 +179708,10 @@
     },
     {
       "source": "austin-ai-club-august-26-2026",
+      "target": "salesforce"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
       "target": "jalapeno"
     },
     {
@@ -178959,6 +179721,10 @@
     {
       "source": "austin-ai-club-august-26-2026",
       "target": "signal"
+    },
+    {
+      "source": "austin-ai-club-august-26-2026",
+      "target": "minimax"
     },
     {
       "source": "austin-ai-club-august-5-2026",
@@ -180485,6 +181251,10 @@
       "target": "meta-muse"
     },
     {
+      "source": "big-tech-moves",
+      "target": "salesforce"
+    },
+    {
       "source": "block",
       "target": "austin-ai-club-august-26-2026"
     },
@@ -180663,6 +181433,10 @@
     {
       "source": "claude-code",
       "target": "berd"
+    },
+    {
+      "source": "claude-code",
+      "target": "salesforce"
     },
     {
       "source": "mythos",
@@ -182630,6 +183404,10 @@
     },
     {
       "source": "minimax",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "minimax",
       "target": "austin-ai-club-august-5-2026"
     },
     {
@@ -182663,6 +183441,10 @@
     {
       "source": "minimax",
       "target": "vllm"
+    },
+    {
+      "source": "minimax",
+      "target": "ai-benchmarks-evals"
     },
     {
       "source": "minimax",
@@ -184233,6 +185015,26 @@
       "target": "ai-benchmarks-evals"
     },
     {
+      "source": "salesforce",
+      "target": "austin-ai-club-august-26-2026"
+    },
+    {
+      "source": "salesforce",
+      "target": "anthropic"
+    },
+    {
+      "source": "salesforce",
+      "target": "big-tech-moves"
+    },
+    {
+      "source": "salesforce",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "salesforce",
+      "target": "claude-code"
+    },
+    {
       "source": "security",
       "target": "austin-ai-club-august-26-2026"
     },
@@ -184827,7 +185629,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 109,
+        "degree": 110,
         "updated": "2026-08-26"
       },
       {
@@ -184863,7 +185665,7 @@
           "models-research",
           "agent-infrastructure"
         ],
-        "degree": 62,
+        "degree": 64,
         "updated": "2026-08-26"
       },
       {
@@ -185002,7 +185804,7 @@
           "big-tech-moves",
           "compute"
         ],
-        "degree": 41,
+        "degree": 43,
         "updated": "2026-08-26"
       },
       {
@@ -185105,7 +185907,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 88,
+        "degree": 92,
         "updated": "2026-08-26"
       },
       {
@@ -185318,7 +186120,7 @@
           "track",
           "big-tech-moves"
         ],
-        "degree": 55,
+        "degree": 57,
         "updated": "2026-08-26"
       },
       {
@@ -185420,7 +186222,7 @@
           "agent-infrastructure",
           "security"
         ],
-        "degree": 30,
+        "degree": 32,
         "updated": "2026-08-26"
       },
       {
@@ -186088,8 +186890,8 @@
           "open-source",
           "multimodal"
         ],
-        "degree": 21,
-        "updated": "2026-08-05"
+        "degree": 25,
+        "updated": "2026-08-26"
       },
       {
         "id": "minimax-m3",
@@ -186540,6 +187342,19 @@
         ],
         "degree": 12,
         "updated": "2026-07-08"
+      },
+      {
+        "id": "salesforce",
+        "label": "Salesforce",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves",
+          "agent-infrastructure"
+        ],
+        "degree": 9,
+        "updated": "2026-08-26"
       },
       {
         "id": "security",
@@ -187392,6 +188207,11 @@
         "kind": "wiki"
       },
       {
+        "source": "ai-benchmarks-evals",
+        "target": "minimax",
+        "kind": "wiki"
+      },
+      {
         "source": "ai-governance",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
@@ -187869,6 +188689,11 @@
       {
         "source": "anthropic",
         "target": "claude-sonnet-5",
+        "kind": "wiki"
+      },
+      {
+        "source": "anthropic",
+        "target": "salesforce",
         "kind": "wiki"
       },
       {
@@ -188558,6 +189383,11 @@
       },
       {
         "source": "austin-ai-club-august-26-2026",
+        "target": "salesforce",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
         "target": "jalapeno",
         "kind": "topic"
       },
@@ -188569,6 +189399,11 @@
       {
         "source": "austin-ai-club-august-26-2026",
         "target": "signal",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-august-26-2026",
+        "target": "minimax",
         "kind": "topic"
       },
       {
@@ -190477,6 +191312,11 @@
         "kind": "wiki"
       },
       {
+        "source": "big-tech-moves",
+        "target": "salesforce",
+        "kind": "wiki"
+      },
+      {
         "source": "block",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
@@ -190699,6 +191539,11 @@
       {
         "source": "claude-code",
         "target": "berd",
+        "kind": "wiki"
+      },
+      {
+        "source": "claude-code",
+        "target": "salesforce",
         "kind": "wiki"
       },
       {
@@ -193158,6 +194003,11 @@
       },
       {
         "source": "minimax",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "minimax",
         "target": "austin-ai-club-august-5-2026",
         "kind": "topic"
       },
@@ -193199,6 +194049,11 @@
       {
         "source": "minimax",
         "target": "vllm",
+        "kind": "wiki"
+      },
+      {
+        "source": "minimax",
+        "target": "ai-benchmarks-evals",
         "kind": "wiki"
       },
       {
@@ -195162,6 +196017,31 @@
         "kind": "wiki"
       },
       {
+        "source": "salesforce",
+        "target": "austin-ai-club-august-26-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "salesforce",
+        "target": "anthropic",
+        "kind": "wiki"
+      },
+      {
+        "source": "salesforce",
+        "target": "big-tech-moves",
+        "kind": "wiki"
+      },
+      {
+        "source": "salesforce",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "salesforce",
+        "target": "claude-code",
+        "kind": "wiki"
+      },
+      {
         "source": "security",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
@@ -195859,12 +196739,12 @@
     ]
   },
   "stats": {
-    "pageCount": 155,
-    "topicCount": 236,
+    "pageCount": 156,
+    "topicCount": 238,
     "rawPageCount": 0,
-    "linkCount": 1816,
+    "linkCount": 1829,
     "sourceRecordCount": 11,
-    "sourceLinkCount": 1051,
+    "sourceLinkCount": 1057,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

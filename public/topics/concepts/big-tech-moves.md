@@ -13,7 +13,7 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, and **Claude will watermark text globally for the EU AI Act**.
+- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.
 - [[Austin AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
 - [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.
 - [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.
@@ -49,3 +49,4 @@ Big Tech Moves is the Austin AI Club track for major company strategy, compute d
 - [[Jalapeno]]
 - [[Cursor Origin]]
 - [[Meta Muse]]
+- [[Salesforce]]

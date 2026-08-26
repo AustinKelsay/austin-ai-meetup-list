@@ -64,7 +64,7 @@ export const meetups = [
         "Bring projects, prototypes, links, research, or a showcase.",
       ],
       hostNote:
-        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop, then Block's Berd as the desktop over goose / Claude Code / Codex. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Local follow-ups: adaptive DFlash on Qwen3.8-27B / Strix Halo, then Flash-Next 125B at 250k on a 24GB 4090. Pause on Elie's linear/sparse pattern, then Hugging Face, then Security (Astra, OpenAI's Hugging Face eval report, encrypted reasoning leak, CoSnitch, V12 vs Signal SGX, Google ADK, Abliterlitics) and Big Tech (Jalapeño, Gemma 4 31B on Groq 3 LPX, NVIDIA Q2 $96.2B / $108B guide). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
+        "Start with Codex as an embeddable harness, then Omarchy Quattro as the agent-first Linux desktop, then Block's Berd as the desktop over goose / Claude Code / Codex. August 6–26 catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen3.8-27B → Qwen3.8-Flash-Next → GLM-5.3-Flash → Ornith → Audio8. Local follow-ups: adaptive DFlash on Qwen3.8-27B / Strix Halo, then Flash-Next 125B at 250k on a 24GB 4090. Pause on Elie's linear/sparse pattern, then Hugging Face, then fal's MiniMax H3 Max on AA's with-audio video boards. Security (Astra, OpenAI's Hugging Face eval report, encrypted reasoning leak, CoSnitch, V12 vs Signal SGX, Google ADK, Abliterlitics) and Big Tech (Jalapeño, Gemma 4 31B on Groq 3 LPX, NVIDIA Q2 $96.2B / $108B guide, Claude watermark, Claudeforce). Close on a Socratic Community Slot: archiving the latest ~3 open weights against a possible U.S. origin ban.",
     },
     showcases: [
       {
@@ -334,6 +334,24 @@ export const meetups = [
             notes:
               "Hub-scoped evidence, not total market share. Likes measure attention; downloads and derivatives are closer to repeated use and ecosystem position.",
           },
+          {
+            title: "fal's H3 Max leads AA's with-audio video boards",
+            description:
+              "fal post-trained MiniMax H3; Artificial Analysis puts it #1 image-to-video with audio and #3 text-to-video with audio at a $0.04/s 768p launch price. Weights are promised, not shipped; August 5 already had the H3 drop.",
+            chip: "video arena",
+            href: "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/artificialanlys/status/2092717615739494424?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+              "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+              "https://fal.ai/models/minimax/h3-max/text-to-video",
+            ],
+            notes:
+              "AA with-audio snapshot: I2V Elo 1,204 (#1 vs Seedance 2.0 1,191); T2V Elo 1,235 (#3, range 1-4) behind Wan 3.0 1,240 and Gemini Omni Flash 1,237. $0.04/s 768p is fal's launch promo through September 1, then $0.08; AA compared it to $0.06 for base H3 on fal. Weights intent is fal-stated, not a Hugging Face drop. Open-weight lead remains base H3 until Max ships files.",
+          },
         ],
       },
       {
@@ -512,6 +530,22 @@ export const meetups = [
             linkPair: [
               "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
             ],
+          },
+          {
+            title: "Claudeforce puts Claude on Salesforce",
+            description:
+              "Salesforce and Anthropic launched Claudeforce: Claude on the AIforce harness plus Headless 360 so the CRM is reachable from chat. Salesforce in Claude is 37 sales skills in select pilots now, open beta promised for September; \"#1 AI meets #1 CRM\" is their line.",
+            chip: "enterprise agents",
+            href: "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+            embed: {
+              type: "tweet",
+              href: "https://twitter.com/benioff/status/2092705110082347011?ref_src=twsrc%5Etfw",
+            },
+            linkPair: [
+              "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+            ],
+            notes:
+              "Dated August 26. Salesforce in Claude: 37 prebuilt sales skills, admin connects once, actions still route through Salesforce rules. Select pilots now; open beta expected September 2026; Dreamforce is the live demo, not GA. AIforce is MCP/API/CLI on Headless 360. Slackbot 8.1M hours is Salesforce-reported internal productivity. #1 AI / #1 CRM is Benioff marketing.",
           },
         ],
       },

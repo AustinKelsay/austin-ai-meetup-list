@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Claudeforce and fal H3 Max
+
+- Added **fal's H3 Max leads AA's with-audio video boards** after the Hugging Face hype/adoption Topic, and **Claudeforce puts Claude on Salesforce** after the Claude watermark.
+- Created a Salesforce entity; MiniMax and Anthropic Mentions updated. Salesforce in Claude is pilots now, open beta September; H3 Max weights are promised, not shipped.
+
 ## [2026-08-26] update | Block open-sources Berd
 
 - Added **Berd sits above goose, Claude Code, and Codex** after Omarchy: Apache-2.0 desktop over goose / Claude Code / Codex, with Buzz as the July 22 multiplayer follow-on.

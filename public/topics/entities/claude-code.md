@@ -31,3 +31,4 @@ Claude Code is Anthropic's coding-agent product, recurring in the wiki as a prac
 - [[Codex]]
 - [[Omarchy]]
 - [[Berd]]
+- [[Salesforce]]
