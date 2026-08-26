@@ -1,0 +1,171 @@
+---
+title: Austin AI Club - August 26, 2026 - Source Link Records
+created: 2026-08-25
+updated: 2026-08-26
+type: summary
+tags: [source-record, meetup]
+sources: []
+---
+
+# Austin AI Club - August 26, 2026 - Source Link Records
+
+## Models & Research
+
+### Closed model releases
+- Source: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/
+  - Title: "Improving GPT-5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users"
+  - Type: Official model update
+  - Access: 2026-08-26
+  - Notes: OpenAI released ChatGPT-specific August checkpoints on August 6: an updated Sol with an effort slider and Luna as the rolling default for Free and Go users. Codex and ChatGPT Work kept the July checkpoints.
+- Source: https://x.ai/news/grok-imagine-image-2
+  - Title: "Imagine Image 2.0"
+  - Type: Official model launch
+  - Access: 2026-08-26
+  - Notes: SpaceXAI launched its closed image generation and editing model on August 7 with regional edits, multi-reference input, resizing, consumer-app access, and an API model ID.
+- Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/
+  - Title: "Introducing Gemini 3.7 Flash"
+  - Type: Official model launch
+  - Access: 2026-08-25
+  - Notes: Google launched Gemini 3.7 Flash on August 13 for coding and agent workflows at an introductory price equal to half Gemini 3.6 Flash's original per-token price.
+- Source: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/
+  - Title: "Expanding Daybreak as the Cyber Defense Window Narrows"
+  - Type: Official model and access launch
+  - Access: 2026-08-25
+  - Notes: OpenAI introduced GPT-5.6-Cyber through the identity-verified Daybreak Red tier for approved vulnerability research, exploit development, and red teaming.
+- Source: https://x.ai/news/grok-4-6
+  - Title: "Introducing Grok 4.6"
+  - Type: Official model launch
+  - Access: 2026-08-26
+  - Notes: SpaceXAI launched Grok 4.6 on August 12 for long-running agents, coding, knowledge work, and interactive or visual artifact creation; benchmark claims are vendor-reported.
+- Source: https://z.ai/blog/glm-5.3
+  - Title: "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities"
+  - Type: Official API model launch
+  - Access: 2026-08-26
+  - Notes: Z.ai launched GLM-5.3 in its API on August 14 and said weights would follow in two weeks after safety evaluation and hardening. It remains in the closed roundup until a downloadable artifact actually ships.
+
+### Open model releases
+- Source: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
+  - Title: "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device"
+  - Type: Official model launch
+  - Access: 2026-08-25
+  - Notes: Meta launched the 30B multimodal Muse Glimmer agent model under Apache 2.0 for local tool use, coding, and long-running workflows.
+- Source: https://huggingface.co/meta-models/Muse-Glimmer-30B
+  - Title: "meta-models/Muse-Glimmer-30B"
+  - Type: Hugging Face model page
+  - Access: 2026-08-25
+  - Notes: Durable Apache-2.0 weight and model-card artifact for Muse Glimmer.
+- Source: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
+  - Title: "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard"
+  - Type: Official model launch
+  - Access: 2026-08-25
+  - Notes: NVIDIA launched Nemotron 3.5 Lightning for high-volume agent tasks and NeMo Switchyard for routing requests across model fleets; speed claims are vendor-reported.
+- Source: https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard
+  - Title: "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+  - Type: Official model card
+  - Access: 2026-08-25
+  - Notes: Documents the 30B-total/3B-active hybrid MoE, one-million-token context, OpenMDW license, and August 11 release date.
+- Source: https://huggingface.co/Qwen/Qwen3.8-27B
+  - Title: "Qwen/Qwen3.8-27B"
+  - Type: Hugging Face model page
+  - Access: 2026-08-25
+  - Notes: The Apache-2.0 27B multimodal checkpoint is the concrete release delta from the Qwen3.8-Max preview covered on July 22.
+- Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
+  - Title: "DeepSeek-V4-Pro-0813"
+  - Type: Hugging Face model page
+  - Access: 2026-08-25
+  - Notes: DeepSeek's MIT-licensed official V4-Pro release supersedes the preview with stronger agent-focused post-training and DSpark speculative decoding.
+- Source: https://ornith.ai/ornith_1_5.html
+  - Title: "Ornith-1.5: From Self-Scaffolding to Self-Improvement"
+  - Type: Official model and training-method launch
+  - Access: 2026-08-26
+  - Notes: Ornith launched MIT-licensed 9B dense, 35B/3B-active MoE, and 397B MoE coding-agent variants during the meetup window, centered on a vendor-reported loop that generates tasks, scaffolds, and solution rollouts during reinforcement learning.
+- Source: https://huggingface.co/collections/ornith-ai/ornith-15
+  - Title: "Ornith-1.5"
+  - Type: Hugging Face model collection
+  - Access: 2026-08-26
+  - Notes: Durable collection for the official BF16, FP8, NVFP4, GGUF, and MLX artifacts across the Ornith-1.5 family.
+- Source: https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b
+  - Title: "Audio8-TTS-Preview-0.1b"
+  - Type: Hugging Face model page
+  - Access: 2026-08-26
+  - Notes: Audio8's CC-BY-NC-4.0 preview packages a roughly 170M-parameter multilingual TTS model plus a separate roughly 120M-parameter codec decoder with zero-shot voice cloning. Open weights do not imply unrestricted commercial use.
+
+### Open-model hype and adoption barely overlap
+- Source: https://huggingface.co/blog/state-of-open-models-summer-2026
+  - Title: "State of Open Models: Summer 2026 Observations"
+  - Type: Hugging Face ecosystem analysis
+  - Access: 2026-08-25
+  - Notes: Hub-scoped analysis distinguishes likes from downloads, reports one overlap across the two top-25 lists, 83% of declared-size downloads below 1B parameters, and 151,448 Qwen derivatives; the authors caution that Hub activity is not total market share.
+
+## Security
+
+### OpenAI pauses frontier training after Astra approaches critical cyber
+- Source: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/
+  - Title: "Responding to the next frontier of critical cyber capabilities"
+  - Type: Official safety disclosure
+  - Access: 2026-08-25
+  - Notes: OpenAI said on August 7 that preliminary Astra evaluations meant it could not rule out Critical cybersecurity capability under its Preparedness Framework.
+- Source: https://openai.com/index/pacing-model-development-cyber-capabilities/
+  - Title: "Pacing model development in an era of cyber-critical capabilities"
+  - Type: Official training and safety update
+  - Access: 2026-08-25
+  - Notes: OpenAI disclosed a two-week pause in deployment-bound RL and said its largest planned frontier RL run remained on hold while safeguards and monitoring were strengthened.
+
+### CoSnitch turns Copilot memory into persistent attacker state
+- Source: https://www.varonis.com/blog/cosnitch
+  - Title: "CoSnitch: When Your AI Assistant Becomes Its Own Whistleblower"
+  - Type: Security research disclosure
+  - Access: 2026-08-25
+  - Notes: Varonis documents a three-part Copilot Personal chain covering automatic prompt execution, connected-app exfiltration, and persistent memory poisoning; it reports no observed exploitation in the wild.
+- Source: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301
+  - Title: "CVE-2026-24301"
+  - Type: Microsoft security advisory
+  - Access: 2026-08-25
+  - Notes: Microsoft advisory destination for the patched vulnerability disclosed by Varonis as CoSnitch.
+
+### Google ships a runnable zero-trust agent failure lab
+- Blog: https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/
+  - Title: "Build zero-trust AI agents with Google's Agent Development Kit"
+  - Type: Official developer guidance
+  - Access: 2026-08-25
+  - Notes: Google argues that system prompts are soft constraints and demonstrates three external controls: signed writes, gVisor isolation, and deterministic validation gateways.
+- Repo: https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents
+  - Title: "zero-trust-agents"
+  - Type: GitHub reference implementation
+  - Access: 2026-08-25
+  - Notes: Runnable ADK customer-support agent and attack/defense lab accompanying Google's zero-trust design article.
+
+## Big Tech Moves
+
+### Jalapeño posts its first silicon results
+- Source: https://openai.com/index/jalapeno-first-results/
+  - Title: "Jalapeño's first results show industry-leading speed and efficiency in AI inference"
+  - Type: Official engineering report
+  - Access: 2026-08-25
+  - Notes: OpenAI reports first working-silicon results across GPT-OSS 120B, DeepSeek R1, and Kimi K2.5; performance comparisons are vendor-run on the public InferenceX benchmark and should remain qualified.
+- Source: https://openai.com/index/the-full-stack-behind-abundant-intelligence/
+  - Title: "The full stack behind abundant intelligence"
+  - Type: Official company strategy post
+  - Access: 2026-08-25
+  - Notes: Places Jalapeño inside OpenAI's broader model, chip, data-center, product, and device integration strategy.
+
+### Claude will watermark text globally for the EU AI Act
+- Source: https://www.anthropic.com/news/claude-text-watermark
+  - Title: "How Claude's text watermark works"
+  - Type: Official product and policy explainer
+  - Access: 2026-08-25
+  - Notes: Anthropic says future Claude models will globally watermark text through token-selection nudges and attach C2PA credentials to supported files, without encoding user identity.
+- Source: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content
+  - Title: "Strong backing for the Code of Practice on Transparency of AI-generated Content"
+  - Type: European Commission policy source
+  - Access: 2026-08-25
+  - Notes: Confirms the August 2 marking obligations, roughly 190 signatories, and participation by Anthropic and other major model providers.
+
+## Showcase
+
+### Community Slot
+- Link: https://github.com/AustinKelsay/austin-ai-club
+  - Title: "Austin AI Club"
+  - Type: Community repository
+  - Access: 2026-08-25
+  - Notes: Default destination for the open Community Slot at the upcoming Meetup.

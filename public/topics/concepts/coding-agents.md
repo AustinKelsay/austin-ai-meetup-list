@@ -1,10 +1,10 @@
 ---
 title: Coding Agents
 created: 2026-05-05
-updated: 2026-08-05
+updated: 2026-08-26
 type: concept
 tags: [concept, agent-infrastructure, local-builds]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Coding Agents
@@ -13,6 +13,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**.
 - [[Austin AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.
 - [[Austin AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.
 - [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.
@@ -26,6 +27,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 ## Related
 
 - [[Agent Infrastructure]]
+- [[Ornith]]
 - [[Prime Agent]]
 - [[Recursive Language Models]]
 - [[Meta Muse]]

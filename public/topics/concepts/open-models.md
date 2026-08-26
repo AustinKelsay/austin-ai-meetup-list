@@ -1,10 +1,10 @@
 ---
 title: Open Models
 created: 2026-05-05
-updated: 2026-08-04
+updated: 2026-08-26
 type: concept
 tags: [concept, models-research, open-source]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Open Models
@@ -15,6 +15,7 @@ On Meetup boards, the biweekly open-weight launch catalog lives under the offici
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.
 - [[Austin AI Club - August 5, 2026]]: **Open model releases** and **Trump advisers say open-weight models skip federal safety tests**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **llama.garden makes model distribution a protocol**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
@@ -49,6 +50,7 @@ On Meetup boards, the biweekly open-weight launch catalog lives under the offici
 - [[Liquid AI]]
 - [[Prime Agent]]
 - [[Qwen]]
+- [[Ornith]]
 - [[Tencent]]
 - [[Hy3]]
 - [[Moonshot AI]]

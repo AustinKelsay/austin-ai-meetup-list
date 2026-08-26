@@ -1,10 +1,10 @@
 ---
 title: Gemma
 created: 2026-07-08
-updated: 2026-08-05
+updated: 2026-08-26
 type: entity
 tags: [entity, model, models-research, open-source, local-ai]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Gemma
@@ -24,6 +24,7 @@ Gemma is Google's open model family for local, edge, multimodal, and agentic wor
 ## Related
 
 - [[Google]]
+- [[Ornith]]
 - [[Open Models]]
 - [[Local AI]]
 - [[Inference Optimization]]

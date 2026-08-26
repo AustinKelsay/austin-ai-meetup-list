@@ -1,10 +1,10 @@
 ---
 title: Models & Research
 created: 2026-06-24
-updated: 2026-08-05
+updated: 2026-08-26
 type: concept
 tags: [concept, track, models-research, model]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Models & Research
@@ -15,6 +15,7 @@ Biweekly model launches live under two official Release Roundup Topics titled ex
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Open-model hype and adoption barely overlap**.
 - [[Austin AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.
 - [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.
 - [[Austin AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.
@@ -30,6 +31,10 @@ Biweekly model launches live under two official Release Roundup Topics titled ex
 
 - [[Open Models]]
 - [[Local AI]]
+- [[xAI]]
+- [[Grok]]
+- [[GLM]]
+- [[Ornith]]
 - [[AI Signal Discovery]]
 - [[AI Benchmarks & Evals]]
 - [[Inference Optimization]]

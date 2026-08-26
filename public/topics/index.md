@@ -1,10 +1,11 @@
 # Wiki Index
 
 > Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-05 | Total pages: 148
+> Last updated: 2026-08-26 | Total pages: 151
 
 ## Meetups
 
+- [[Austin AI Club - August 26, 2026]]
 - [[Austin AI Club - August 5, 2026]]
 - [[Austin AI Club - July 22, 2026]]
 - [[Austin AI Club - July 8, 2026]]
@@ -93,6 +94,7 @@
 - [[OpenClaw]]
 - [[OpenRouter]]
 - [[OpenRouter Fusion]]
+- [[Ornith]]
 - [[Palantir]]
 - [[Pokee-Isaac]]
 - [[Prem]]
@@ -151,6 +153,7 @@
 
 ## Source Records
 
+- [August 26, 2026 source records](./raw/articles/2026-08-26-link-records.md)
 - [August 5, 2026 source records](./raw/articles/2026-08-05-link-records.md)
 - [July 22, 2026 source records](./raw/articles/2026-07-22-link-records.md)
 - [July 8, 2026 source records](./raw/articles/2026-07-08-link-records.md)

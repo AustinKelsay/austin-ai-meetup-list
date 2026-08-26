@@ -1,10 +1,10 @@
 ---
 title: Compute Strategy
 created: 2026-05-05
-updated: 2026-07-08
+updated: 2026-08-25
 type: concept
 tags: [concept, big-tech-moves, models-research]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Compute Strategy
@@ -13,6 +13,7 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.
 - [[Austin AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.
 - [[Austin AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.

@@ -2,6 +2,18 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | August 26 release roundups
+
+- Expanded the August 6–26 Closed catalog to the GPT-5.6 ChatGPT refresh, Imagine Image 2.0, GPT-5.6-Cyber, Grok 4.6, Gemini 3.7 Flash, and GLM-5.3; kept GLM-5.3 closed until its promised weights actually ship.
+- Expanded the Open catalog to Muse Glimmer, Nemotron 3.5 Lightning, DeepSeek V4-Pro-0813, Qwen3.8-27B, Ornith 1.5, and Audio8 TTS; made license and vendor-benchmark caveats explicit.
+- Added Ornith's durable entity page and reciprocal xAI, Grok, GLM, Models & Research, and Open Models context.
+
+## [2026-08-25] create | August 26 safe initial board
+
+- Authored a deliberately small eight-Topic board from the August 5–25 news window: two release roundups, one open-model ecosystem read, three security Topics, and two Big Tech Moves.
+- Used official artifacts or first-party security research for every retained Link, qualified vendor benchmarks, and framed Qwen3.8, Astra, and Jalapeño as concrete deltas on earlier coverage.
+- Added dated source records, reciprocal wiki context, Meetup Data, event metadata, and an open Community Slot for tomorrow night.
+
 ## [2026-08-05] update | August 5 final Mentions/Related gardening
 
 - Linked AISI's open-source PR to [[Supply Chain Security]] and DeepSeek's cost foil to [[Claude Fable/Mythos]]; filled Supply Chain and Agent Cost Mentions for AISI / MAI-Cyber.

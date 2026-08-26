@@ -41,6 +41,168 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    id: "meetup-2026-08-26",
+    slug: "2026-08-26",
+    date: "August 26, 2026",
+    markdownHref: "./topics/2026-08-26.md",
+    event: {
+      title: "Austin AI Club",
+      summary: "Quick AI news rundown, demos, and open discussion.",
+      startAt: "2026-08-26T18:00:00-05:00",
+      endAt: "2026-08-26T20:00:00-05:00",
+      timezone: "America/Chicago",
+      locationName: "Bitcoin Park Austin",
+      locationAddress: "Austin, TX",
+      reminderSendHour: 10,
+    },
+    presentationIntro: {
+      eyebrow: "Austin AI Club",
+      title: "Austin AI Club",
+      bullets: [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase.",
+      ],
+      hostNote:
+        "Start with the August 6–26 release catalogs: Closed runs GPT-5.6 refresh → Imagine 2.0 → GPT-5.6-Cyber → Grok 4.6 → Gemini 3.7 Flash → GLM-5.3; Open runs Muse Glimmer → Nemotron → DeepSeek → Qwen → Ornith → Audio8. Pause on the Hugging Face adoption read, then Security and Big Tech.",
+    },
+    showcases: [
+      {
+        title: "Community Slot",
+        description:
+          "Bring a project, prototype, repo, demo, or weird link worth showing the room.",
+        chip: "showcase",
+        href: "https://github.com/AustinKelsay/austin-ai-club",
+      },
+    ],
+    tracks: [
+      {
+        id: "aug26-models-research",
+        title: "Models & Research",
+        purpose:
+          "This section covers model releases, research papers, architecture updates, and capability comparisons that change what builders can ship.",
+        items: [
+          {
+            title: "Closed model releases",
+            description:
+              "OpenAI refreshed GPT-5.6 Sol/Luna for ChatGPT and gated GPT-5.6-Cyber behind Daybreak; xAI shipped Imagine Image 2.0 and Grok 4.6; Google cut Gemini 3.7 Flash's introductory token price to half 3.6 Flash's original rate; and GLM-5.3 launched in the API with weights still promised, not shipped. The closed wave is splitting into default chat, long-running agents, creative tools, and access-controlled specialists.",
+            chip: "closed releases",
+            releaseRoundup: true,
+            href: "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+            linkPair: [
+              "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+              "https://x.ai/news/grok-imagine-image-2",
+              "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+              "https://x.ai/news/grok-4-6",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+              "https://z.ai/blog/glm-5.3",
+            ],
+            notes:
+              "The August Sol/Luna refresh is ChatGPT-only; Codex and Work keep July checkpoints. Daybreak Red is identity-verified. GLM-5.3 belongs in Closed tonight because Z.ai's promised weights have not shipped yet.",
+          },
+          {
+            title: "Open model releases",
+            description:
+              "Muse Glimmer, Nemotron 3.5 Lightning, DeepSeek V4-Pro-0813, and Qwen3.8-27B cover local multimodal agents from dense 27–30B models to sparse frontier-scale MoEs. Ornith 1.5 adds 9B, 35B/3B-active, and 397B self-improving coding variants, while Audio8 puts zero-shot voice cloning in a roughly 170M-parameter TTS model. The useful comparison is deployment shape and license, not one blended leaderboard.",
+            chip: "open releases",
+            releaseRoundup: true,
+            href: "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+            linkPair: [
+              "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+              "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+              "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+              "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "https://ornith.ai/ornith_1_5.html",
+              "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+            ],
+            notes:
+              "Qwen3.8-27B is the concrete delta from July's Max preview; DeepSeek 0813 supersedes its preview. Audio8 is CC-BY-NC-4.0, so it is open-weight but not an unrestricted commercial release. Treat all benchmark claims as vendor-reported.",
+          },
+          {
+            title: "Open-model hype and adoption barely overlap",
+            description:
+              "Hugging Face found one shared repository between its 2026 top-25 download and like lists; models under 1B parameters take 83% of declared-size downloads, while Qwen has grown to 151,448 derivatives. The useful question is which open artifacts became infrastructure instead of launch-week theater.",
+            chip: "open models",
+            href: "https://huggingface.co/blog/state-of-open-models-summer-2026",
+            notes:
+              "Hub-scoped evidence, not total market share. Likes measure attention; downloads and derivatives are closer to repeated use and ecosystem position.",
+          },
+        ],
+      },
+      {
+        id: "aug26-security",
+        title: "Security",
+        purpose:
+          "This section covers attacks, exploits, abuse patterns, and defensive systems so the room can reason about real agent trust boundaries.",
+        items: [
+          {
+            title: "OpenAI pauses frontier training after Astra approaches critical cyber",
+            description:
+              "OpenAI says preliminary evals put Astra near its Critical cybersecurity threshold, prompting a two-week pause in deployment-bound RL and leaving its largest planned frontier run on hold. This is the August 5 math model returning as a training-security problem.",
+            chip: "frontier security",
+            href: "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+            linkPair: [
+              "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+              "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+            ],
+            notes:
+              "OpenAI says Astra may meet the threshold; the determination is preliminary. The largest planned run remained on hold as of August 18.",
+          },
+          {
+            title: "CoSnitch turns Copilot memory into persistent attacker state",
+            description:
+              "Varonis chained automatic prompt execution, connected-app exfiltration, and memory poisoning in Microsoft Copilot Personal. Microsoft patched CVE-2026-24301 on August 18; Varonis says it saw no exploitation in the wild, but password and session rotation would not clear the poisoned memory.",
+            chip: "prompt injection",
+            href: "https://www.varonis.com/blog/cosnitch",
+            linkPair: [
+              "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+            ],
+          },
+          {
+            title: "Google ships a runnable zero-trust agent failure lab",
+            description:
+              "Google's open ADK demo assumes the model will be tricked, then moves hard guarantees outside the prompt with signed writes, gVisor isolation, and deterministic gateways. This is a concrete builder answer to the agent incidents on the last two boards.",
+            chip: "agent security",
+            href: "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/zero-trust-agents",
+            linkPair: [
+              "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
+            ],
+          },
+        ],
+      },
+      {
+        id: "aug26-big-tech-moves",
+        title: "Big Tech Moves",
+        purpose:
+          "This section covers company strategy, hardware, policy, and infrastructure moves that change the ground AI builders work on.",
+        items: [
+          {
+            title: "Jalapeño posts its first silicon results",
+            description:
+              "OpenAI says its first custom inference chip delivered 1.5–1.9× more work per watt and 1.7–3.6× lower end-to-end latency across three public models than the comparison systems it tested. These are vendor-run results, but the June chip announcement now has working silicon and a planned year-end deployment.",
+            chip: "inference chip",
+            href: "https://openai.com/index/jalapeno-first-results/",
+            linkPair: [
+              "https://openai.com/index/the-full-stack-behind-abundant-intelligence/",
+            ],
+            notes:
+              "Treat every multiplier as OpenAI-reported. The tests use public InferenceX workloads, but OpenAI selected and ran the comparison.",
+          },
+          {
+            title: "Claude will watermark text globally for the EU AI Act",
+            description:
+              "Anthropic says future Claude models will nudge token choices to mark generated text without hidden characters, extra tokens, or user identifiers, and will attach C2PA credentials to supported files. A regional transparency rule is becoming a global model behavior.",
+            chip: "AI policy",
+            href: "https://www.anthropic.com/news/claude-text-watermark",
+            linkPair: [
+              "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "meetup-2026-08-05",
     slug: "2026-08-05",
     date: "August 5, 2026",

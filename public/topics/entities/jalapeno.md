@@ -1,18 +1,19 @@
 ---
 title: Jalapeno
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-25
 type: entity
 tags: [entity, product, compute-strategy, inference-optimization]
-sources: [raw/articles/2026-06-24-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-06-24-link-records.md]
 ---
 
 # Jalapeno
 
-Jalapeno is the OpenAI/Broadcom custom inference accelerator named in the June 24 board, useful as a specific artifact under the broader custom-silicon and cost-per-token control story.
+Jalapeno is OpenAI's first custom inference accelerator, first announced with Broadcom involvement and later shown as working silicon through vendor-run InferenceX results.
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.
 - [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.
 
 ## Related

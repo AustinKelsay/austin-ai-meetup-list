@@ -1,10 +1,10 @@
 ---
 title: NVIDIA
 created: 2026-05-05
-updated: 2026-07-22
+updated: 2026-08-25
 type: entity
 tags: [entity, company, compute, model, agent-infrastructure]
-sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # NVIDIA
@@ -13,6 +13,7 @@ NVIDIA is a recurring Austin AI Club entity for compute strategy, AI factory inf
 
 ## Mentioned In
 
+- [[Austin AI Club - August 26, 2026]]: **Open model releases**.
 - [[Austin AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.
 - [[Austin AI Club - July 8, 2026]]: **Open model releases**.
 - [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
