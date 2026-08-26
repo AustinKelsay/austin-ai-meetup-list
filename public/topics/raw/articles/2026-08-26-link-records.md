@@ -138,6 +138,26 @@ sources: []
   - Type: Official X post
   - Access: 2026-08-26
   - Notes: Qwen launch for the dense 27B multimodal weights, 262K native context, and Apache 2.0 local-run story.
+- Source: https://qwen.ai/blog?id=qwen3.8-flash-next
+  - Title: "Qwen3.8-Flash-Next"
+  - Type: Official model launch
+  - Access: 2026-08-26
+  - Notes: Qwen's August 26 open-weight preview of the architecture intended for Qwen4: 125B/6B-active plus a 51B n-gram embedding table and 4B MTP. Production Qwen3.8-Flash is a separate hosted API.
+- Source: https://huggingface.co/Qwen/Qwen3.8-Flash-Next
+  - Title: "Qwen/Qwen3.8-Flash-Next"
+  - Type: Hugging Face model page
+  - Access: 2026-08-26
+  - Notes: Qwen Community License 1.0 checkpoint; n-gram embedding is 20M bigram/trigram rows at layer 2, described as 51B parameters and offloadable to host memory.
+- Post: https://x.com/Alibaba_Qwen/status/2092591393424515114
+  - Title: "Qwen introduces Qwen3.8-Flash-Next"
+  - Type: Official X post
+  - Access: 2026-08-26
+  - Notes: Launch post for the open-weight Qwen4-architecture preview and upcoming production Flash API pricing; treat those prices as vendor-stated for the hosted product.
+- Post: https://x.com/0xbakeer/status/2092644019830431817
+  - Title: "0xBakeer on Qwen3.8-Flash-Next's 51B n-gram embedding"
+  - Type: Technical explainer X post
+  - Access: 2026-08-26
+  - Notes: Architecture walkthrough arguing the 51B n-gram embedding table is the interesting parameter pile, not just the 6B active experts.
 - Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
   - Title: "DeepSeek-V4-Pro-0813"
   - Type: Hugging Face model page

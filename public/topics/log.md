@@ -2,6 +2,11 @@
 
 > Chronological record of Austin AI Club wiki actions.
 
+## [2026-08-26] update | Qwen3.8-Flash-Next n-gram embedding explainer
+
+- Added Qwen3.8-Flash-Next to the Open catalog as a 125B/6B-active Qwen4 preview, pairing the official launch with 0xBakeer's 51B n-gram embedding walkthrough.
+- Left production Qwen3.8-Flash as a hosted API; the board artifact is the Community License 1.0 checkpoint.
+
 ## [2026-08-26] update | Elie Bakouch linear/sparse attention pattern
 
 - Added **Chinese frontier models converged on linear and sparse attention** after the Open catalog, pairing Bakouch's pattern-read with GLM-5.3-Flash as the concrete stack.

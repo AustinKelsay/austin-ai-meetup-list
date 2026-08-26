@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:30:07.397Z",
+  "generatedAt": "2026-08-26T19:43:44.006Z",
   "pages": [
     {
       "id": "agent-cost-controls",
@@ -10844,6 +10844,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://z.ai/blog/glm-5.3-flash",
         "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "https://x.com/Zai_org/status/2092616204787626030",
@@ -10990,6 +10994,26 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -11247,6 +11271,10 @@
         "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://z.ai/blog/glm-5.3-flash",
@@ -11396,6 +11424,26 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -25408,6 +25456,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -30173,6 +30249,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -34447,6 +34551,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -38339,6 +38471,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "qwen",
         "recursive-language-models",
         "speculative-decoding",
         "tmax",
@@ -38372,6 +38505,7 @@
         "nemotron",
         "nemotron-puzzle",
         "open-models",
+        "qwen",
         "recursive-language-models",
         "speculative-decoding",
         "turbofieldfare"
@@ -39596,6 +39730,139 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.com/eliebakouch/status/2092622716046107132",
           "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
@@ -40121,7 +40388,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[Qwen]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     {
       "id": "inkling",
@@ -43064,6 +43331,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -46051,6 +46346,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -50528,6 +50851,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -54380,6 +54731,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -56891,6 +57270,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -59066,6 +59473,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -62885,6 +63320,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -65584,7 +66047,7 @@
       "sourceReferences": [],
       "created": "2026-05-05",
       "updated": "2026-08-26",
-      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.",
+      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.",
       "rawHref": "/topics/entities/qwen.md",
       "relativePath": "entities/qwen.md",
       "outgoingIds": [
@@ -65598,6 +66061,7 @@
         "austin-ai-club-may-27-2026",
         "compute-strategy",
         "harc",
+        "inference-optimization",
         "local-ai",
         "open-models",
         "ornith",
@@ -65616,6 +66080,7 @@
         "btl-3",
         "compute-strategy",
         "harc",
+        "inference-optimization",
         "model-distillation",
         "open-models",
         "ornith",
@@ -65772,6 +66237,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -66765,7 +67258,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
+      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
     },
     {
       "id": "qwen-agentworld",
@@ -72414,6 +72907,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -83603,6 +84124,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://z.ai/blog/glm-5.3-flash",
         "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "https://x.com/Zai_org/status/2092616204787626030",
@@ -83749,6 +84274,26 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -84006,6 +84551,10 @@
         "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://z.ai/blog/glm-5.3-flash",
@@ -84155,6 +84704,26 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -98167,6 +98736,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -102932,6 +103529,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -107206,6 +107831,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -111098,6 +111751,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "qwen",
         "recursive-language-models",
         "speculative-decoding",
         "tmax",
@@ -111131,6 +111785,7 @@
         "nemotron",
         "nemotron-puzzle",
         "open-models",
+        "qwen",
         "recursive-language-models",
         "speculative-decoding",
         "turbofieldfare"
@@ -112355,6 +113010,139 @@
           "sourcePageTitle": "Austin AI Club - May 27, 2026"
         },
         {
+          "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/finkd/status/2086755195535413696",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/NVIDIAAI/status/2087162151995629926",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/deepseek_ai/status/2087864585504305397",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://z.ai/blog/glm-5.3-flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Zai_org/status/2092616204787626030",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/rasbt/status/2092629415813365899",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://ornith.ai/ornith_1_5.html",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/ornith_/status/2090074077084127302",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://x.com/eliebakouch/status/2092622716046107132",
           "title": "Chinese frontier models converged on linear and sparse attention",
           "section": "Models & Research",
@@ -112880,7 +113668,7 @@
           "sourcePageTitle": "Austin AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
+      "bodyMarkdown": "# Inference Optimization\n\nInference Optimization covers the practical work of making AI systems cheaper, faster, smaller, and runnable: memory bandwidth, KV-cache compression, quantization, speculative decoding, serving runtimes, and custom inference hardware.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Chinese frontier models converged on linear and sparse attention**.\n- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**, **Should chat route local by default?**, and **Etched turns inference chips into rack-scale product**.\n- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**, **Open model releases**, **Research behind the open model wave**, and **OpenAI gets its own inference chip**.\n- [[Austin AI Club - June 10, 2026]]: **Local AI becomes bandwidth math**, **Vector compression hits 10x without the quality tax**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **Open model releases**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases** and **PII filters are becoming local model infrastructure**.\n- [[Austin AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**.\n- [[Austin AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**, **LMfit**, and **plebdev-bench**.\n\n## Related\n\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[Recursive Language Models]]\n- [[Compute Strategy]]\n- [[Local AI]]\n- [[Open Models]]\n- [[Speculative Decoding]]\n- [[vLLM]]\n- [[NVIDIA]]\n- [[OpenAI]]\n- [[Gemma]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[TMax]]\n- [[Nemotron]]\n- [[Qwen]]\n- [[DeepSeek]]\n- [[DeepSpec]]\n- [[MiniMax M3]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]"
     },
     "inkling": {
       "id": "inkling",
@@ -115823,6 +116611,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -118810,6 +119626,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -123287,6 +124131,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -127139,6 +128011,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -129650,6 +130550,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -131825,6 +132753,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -135644,6 +136600,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -138343,7 +139327,7 @@
       "sourceReferences": [],
       "created": "2026-05-05",
       "updated": "2026-08-26",
-      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.",
+      "excerpt": "Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.",
       "rawHref": "/topics/entities/qwen.md",
       "relativePath": "entities/qwen.md",
       "outgoingIds": [
@@ -138357,6 +139341,7 @@
         "austin-ai-club-may-27-2026",
         "compute-strategy",
         "harc",
+        "inference-optimization",
         "local-ai",
         "open-models",
         "ornith",
@@ -138375,6 +139360,7 @@
         "btl-3",
         "compute-strategy",
         "harc",
+        "inference-optimization",
         "model-distillation",
         "open-models",
         "ornith",
@@ -138531,6 +139517,34 @@
         },
         {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
           "title": "Open model releases",
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-august-26-2026",
@@ -139524,7 +140538,7 @@
           "sourcePageTitle": "Austin AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
+      "bodyMarkdown": "# Qwen\n\nQwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.\n\n## Mentioned In\n\n- [[Austin AI Club - August 26, 2026]]: **Open model releases** and **Open-model hype and adoption barely overlap**.\n- [[Austin AI Club - July 22, 2026]]: **Open model releases**.\n- [[Austin AI Club - July 8, 2026]]: **Open model releases**.\n- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **Ostrich LLMs**.\n- [[Austin AI Club - May 13, 2026]]: **Open model releases**.\n- [[Austin AI Club - April 15, 2026]]: **Closed model releases**.\n- [[Austin AI Club - April 1, 2026]]: **Open model releases**, **Distillation hesitation**, and **LLM neuroanatomy / RYS layer repetition**.\n- [[Austin AI Club - March 18, 2026]]: **Open model releases** and **Agent Overload**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Inference Optimization]]\n- [[Ornith]]\n- [[Open Models]]\n- [[Local AI]]\n- [[Qwen-AgentWorld]]\n- [[HARC]]"
     },
     "qwen-agentworld": {
       "id": "qwen-agentworld",
@@ -145179,6 +146193,34 @@
           "sourcePageTitle": "Austin AI Club - August 26, 2026"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-august-26-2026",
+          "sourcePageTitle": "Austin AI Club - August 26, 2026"
+        },
+        {
           "href": "https://z.ai/blog/glm-5.3-flash",
           "title": "Open model releases",
           "section": "Models & Research",
@@ -145841,6 +146883,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://z.ai/blog/glm-5.3-flash",
         "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "https://x.com/Zai_org/status/2092616204787626030",
@@ -145871,6 +146917,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -145881,12 +146932,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -145930,6 +146996,7 @@
         "coding-agents",
         "deepseek",
         "glm",
+        "inference-optimization",
         "local-ai",
         "meta-muse",
         "models-research",
@@ -145944,6 +147011,7 @@
         "Coding Agents",
         "DeepSeek",
         "GLM",
+        "Inference Optimization",
         "Local AI",
         "Meta Muse",
         "Models & Research",
@@ -145955,7 +147023,7 @@
         "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://qwen.ai/blog?id=qwen3.8-flash-next https://huggingface.co/Qwen/Qwen3.8-Flash-Next https://x.com/Alibaba_Qwen/status/2092591393424515114 https://x.com/0xbakeer/status/2092644019830431817 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Inference Optimization Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
     },
     {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -158688,6 +159756,10 @@
         "https://x.com/deepseek_ai/status/2087864585504305397",
         "https://huggingface.co/Qwen/Qwen3.8-27B",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://x.com/0xbakeer/status/2092644019830431817",
         "https://z.ai/blog/glm-5.3-flash",
         "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "https://x.com/Zai_org/status/2092616204787626030",
@@ -158718,6 +159790,11 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://huggingface.co/zai-org/GLM-5.3-Flash",
           "title": "Open model releases",
           "section": "Models & Research"
@@ -158728,12 +159805,27 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
           "title": "Open model releases",
           "section": "Models & Research"
         },
         {
+          "href": "https://x.com/0xbakeer/status/2092644019830431817",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "title": "Open model releases",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
           "title": "Open model releases",
           "section": "Models & Research"
         },
@@ -158777,6 +159869,7 @@
         "coding-agents",
         "deepseek",
         "glm",
+        "inference-optimization",
         "local-ai",
         "meta-muse",
         "models-research",
@@ -158791,6 +159884,7 @@
         "Coding Agents",
         "DeepSeek",
         "GLM",
+        "Inference Optimization",
         "Local AI",
         "Meta Muse",
         "Models & Research",
@@ -158802,7 +159896,7 @@
         "Z.ai"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
+      "searchText": "Open model releases Models & Research Austin AI Club - August 26, 2026 2026-08-26 https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model https://x.com/finkd/status/2086755195535413696 https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ https://x.com/NVIDIAAI/status/2087162151995629926 https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 https://x.com/deepseek_ai/status/2087864585504305397 https://huggingface.co/Qwen/Qwen3.8-27B https://x.com/Alibaba_Qwen/status/2088280182356611304 https://qwen.ai/blog?id=qwen3.8-flash-next https://huggingface.co/Qwen/Qwen3.8-Flash-Next https://x.com/Alibaba_Qwen/status/2092591393424515114 https://x.com/0xbakeer/status/2092644019830431817 https://z.ai/blog/glm-5.3-flash https://huggingface.co/zai-org/GLM-5.3-Flash https://x.com/Zai_org/status/2092616204787626030 https://x.com/rasbt/status/2092629415813365899 https://ornith.ai/ornith_1_5.html https://x.com/ornith_/status/2090074077084127302 https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b Coding Agents DeepSeek GLM Inference Optimization Local AI Meta Muse Models & Research Nemotron NVIDIA Open Models Ornith Qwen Z.ai"
     },
     "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap": {
       "id": "austin-ai-club-august-26-2026-models-research-open-model-hype-and-adoption-barely-overlap",
@@ -175568,6 +176662,10 @@
     },
     {
       "source": "inference-optimization",
+      "target": "qwen"
+    },
+    {
+      "source": "inference-optimization",
       "target": "deepseek"
     },
     {
@@ -177480,6 +178578,10 @@
     },
     {
       "source": "qwen",
+      "target": "inference-optimization"
+    },
+    {
+      "source": "qwen",
       "target": "ornith"
     },
     {
@@ -179234,7 +180336,7 @@
           "agent-infrastructure",
           "local-ai"
         ],
-        "degree": 58,
+        "degree": 60,
         "updated": "2026-08-26"
       },
       {
@@ -179797,7 +180899,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 30,
+        "degree": 32,
         "updated": "2026-08-26"
       },
       {
@@ -185544,6 +186646,11 @@
       },
       {
         "source": "inference-optimization",
+        "target": "qwen",
+        "kind": "wiki"
+      },
+      {
+        "source": "inference-optimization",
         "target": "deepseek",
         "kind": "wiki"
       },
@@ -187934,6 +189041,11 @@
       },
       {
         "source": "qwen",
+        "target": "inference-optimization",
+        "kind": "wiki"
+      },
+      {
+        "source": "qwen",
         "target": "ornith",
         "kind": "wiki"
       },
@@ -188803,9 +189915,9 @@
     "pageCount": 151,
     "topicCount": 227,
     "rawPageCount": 0,
-    "linkCount": 1739,
+    "linkCount": 1741,
     "sourceRecordCount": 11,
-    "sourceLinkCount": 1012,
+    "sourceLinkCount": 1016,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-08-26"
   }

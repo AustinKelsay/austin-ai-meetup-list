@@ -9,7 +9,7 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-
 
 # Qwen
 
-Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion.
+Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0.
 
 ## Mentioned In
 
@@ -25,6 +25,7 @@ Qwen is a recurring model-family entity for open and API-accessible model releas
 ## Related
 
 - [[Compute Strategy]]
+- [[Inference Optimization]]
 - [[Ornith]]
 - [[Open Models]]
 - [[Local AI]]
